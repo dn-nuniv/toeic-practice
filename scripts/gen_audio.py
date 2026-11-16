@@ -13,7 +13,7 @@ API キーは環境変数 GOOGLE_API_KEY から読む（画面やファイルに
 音声のキーは js/audio.js と同じ規則:
   Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / 記号 label:A:female
 """
-import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error
+import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://texttospeech.googleapis.com/v1"
@@ -21,21 +21,30 @@ LANG = {"us": "en-US", "gb": "en-GB", "au": "en-AU", "ca": "en-CA"}
 TIERS = ["Neural2", "Wavenet", "Standard"]  # 上から順に使える声を探す
 
 
+KEY_IN_URL = False  # まずヘッダーで送り、断られたら URL の ?key= で送り直す
+
+
 def call(method, path, key, body=None, retries=4):
-    # キーは URL ではなくヘッダーで送る（URL はログに残りやすいため）
-    url = f"{API}/{path}"
+    global KEY_IN_URL
     data = json.dumps(body).encode() if body is not None else None
     for i in range(retries):
-        req = urllib.request.Request(url, data=data, method=method,
-                                     headers={"Content-Type": "application/json", "X-Goog-Api-Key": key})
+        url, headers = f"{API}/{path}", {"Content-Type": "application/json"}
+        if KEY_IN_URL: url += f"{'&' if '?' in path else '?'}key={urllib.parse.quote(key)}"
+        else: headers["X-Goog-Api-Key"] = key
+        req = urllib.request.Request(url, data=data, method=method, headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")[:300]
+            if e.code in (401, 403) and not KEY_IN_URL:
+                KEY_IN_URL = True; continue
             if e.code in (429, 500, 503) and i < retries - 1:
                 time.sleep(2 ** i); continue
-            sys.exit(f"API エラー {e.code}: {msg}")
+            hint = ("\n→ キーが Text-to-Speech で使えない種類か、権限が足りません。Google Cloud コンソールの「認証情報」で作った"
+                    " API キー（AIza で始まる）か、そのプロジェクトで Cloud Text-to-Speech API が有効か、"
+                    "キーの「API の制限」に Text-to-Speech が含まれているかを確認してください。") if e.code in (401, 403) else ""
+            sys.exit(f"API エラー {e.code}: {msg}{hint}")
         except urllib.error.URLError as e:
             if i < retries - 1: time.sleep(2 ** i); continue
             sys.exit(f"接続エラー: {e}")
