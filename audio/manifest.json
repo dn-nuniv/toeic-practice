@@ -867,7 +867,7 @@
   },
   "p3-s003:seg:4": {
    "file": "audio/us/p3-s003_seg_4.mp3",
-   "hash": "5cbf2974054f",
+   "hash": "ddb572f4cf91",
    "voice": "en-US-Neural2-C"
   },
   "p3-s003:seg:5": {
@@ -917,7 +917,7 @@
   },
   "p3-s005:seg:2": {
    "file": "audio/us/p3-s005_seg_2.mp3",
-   "hash": "40f09ae2e14c",
+   "hash": "f88620747fb0",
    "voice": "en-US-Neural2-C"
   },
   "p3-s005:seg:3": {
@@ -1047,7 +1047,7 @@
   },
   "p4-s003:seg:2": {
    "file": "audio/us/p4-s003_seg_2.mp3",
-   "hash": "0717958812fc",
+   "hash": "28fe1d08c071",
    "voice": "en-US-Neural2-C"
   },
   "p4-s003:seg:3": {
@@ -1057,7 +1057,7 @@
   },
   "p4-s004:seg:0": {
    "file": "audio/us/p4-s004_seg_0.mp3",
-   "hash": "48f54095b5c8",
+   "hash": "33d97588b531",
    "voice": "en-US-Neural2-A"
   },
   "p4-s004:seg:1": {
@@ -2014,7 +2014,7 @@
   },
   "p3-s003:seg:4": {
    "file": "audio/gb/p3-s003_seg_4.mp3",
-   "hash": "2e5067a65503",
+   "hash": "581a62ea1b44",
    "voice": "en-GB-Neural2-A"
   },
   "p3-s003:seg:5": {
@@ -2064,7 +2064,7 @@
   },
   "p3-s005:seg:2": {
    "file": "audio/gb/p3-s005_seg_2.mp3",
-   "hash": "749a25d2417d",
+   "hash": "523ca90ea5ef",
    "voice": "en-GB-Neural2-A"
   },
   "p3-s005:seg:3": {
@@ -2194,7 +2194,7 @@
   },
   "p4-s003:seg:2": {
    "file": "audio/gb/p4-s003_seg_2.mp3",
-   "hash": "c5b66891eb4c",
+   "hash": "f106e9d38616",
    "voice": "en-GB-Neural2-A"
   },
   "p4-s003:seg:3": {
@@ -2204,7 +2204,7 @@
   },
   "p4-s004:seg:0": {
    "file": "audio/gb/p4-s004_seg_0.mp3",
-   "hash": "bec7c13f3373",
+   "hash": "0844bdb8483d",
    "voice": "en-GB-Neural2-B"
   },
   "p4-s004:seg:1": {
@@ -3161,7 +3161,7 @@
   },
   "p3-s003:seg:4": {
    "file": "audio/au/p3-s003_seg_4.mp3",
-   "hash": "0cd16e69a31c",
+   "hash": "fdc5ef4477b2",
    "voice": "en-AU-Neural2-A"
   },
   "p3-s003:seg:5": {
@@ -3211,7 +3211,7 @@
   },
   "p3-s005:seg:2": {
    "file": "audio/au/p3-s005_seg_2.mp3",
-   "hash": "9608a901ac02",
+   "hash": "f4493bd7c536",
    "voice": "en-AU-Neural2-A"
   },
   "p3-s005:seg:3": {
@@ -3341,7 +3341,7 @@
   },
   "p4-s003:seg:2": {
    "file": "audio/au/p4-s003_seg_2.mp3",
-   "hash": "8d61285c7bcc",
+   "hash": "9af403bc222f",
    "voice": "en-AU-Neural2-A"
   },
   "p4-s003:seg:3": {
@@ -3351,7 +3351,7 @@
   },
   "p4-s004:seg:0": {
    "file": "audio/au/p4-s004_seg_0.mp3",
-   "hash": "ef27c34202d6",
+   "hash": "0a9b2be0738b",
    "voice": "en-AU-Neural2-B"
   },
   "p4-s004:seg:1": {
