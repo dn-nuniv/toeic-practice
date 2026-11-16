@@ -4386,7 +4386,7 @@
     "content_hash": "95456dc3f9da"
    }
   ],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p3-0011",
@@ -4468,7 +4468,7 @@
     "content_hash": "c15ffea2cdf2"
    }
   ],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p3-0012",
@@ -4550,7 +4550,7 @@
     "content_hash": "0c76a6d40326"
    }
   ],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p3-0013",
@@ -7758,7 +7758,7 @@
     "content_hash": "fd750289fa59"
    }
   ],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p4-0024",
@@ -11338,7 +11338,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0044",
@@ -11386,7 +11386,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0045",
@@ -11434,7 +11434,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0046",
@@ -11482,7 +11482,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0047",
@@ -11530,7 +11530,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0048",
@@ -11578,7 +11578,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0049",
@@ -11626,7 +11626,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0050",
@@ -11674,7 +11674,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0051",
@@ -11722,7 +11722,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0052",
@@ -11770,7 +11770,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0053",
@@ -11818,7 +11818,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0054",
@@ -11866,7 +11866,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0055",
@@ -11914,7 +11914,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0056",
@@ -11962,7 +11962,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0057",
@@ -12010,7 +12010,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0058",
@@ -12058,7 +12058,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0059",
@@ -12106,7 +12106,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0060",
@@ -12154,7 +12154,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0061",
@@ -12202,7 +12202,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0062",
@@ -12250,7 +12250,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0063",
@@ -12298,7 +12298,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0064",
@@ -12346,7 +12346,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0065",
@@ -12394,7 +12394,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "flagged"
  },
  {
   "id": "p5-0066",
@@ -12442,7 +12442,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0067",
@@ -12490,7 +12490,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0068",
@@ -12538,7 +12538,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0069",
@@ -12586,7 +12586,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0070",
@@ -12634,7 +12634,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0071",
@@ -12682,7 +12682,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p5-0072",
@@ -12730,7 +12730,7 @@
   "status": "draft",
   "source": "2026-11-16 / part5 batch b",
   "review": [],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p6-0001",
@@ -13202,7 +13202,7 @@
     "content_hash": "ab42edbd4dd2"
    }
   ],
-  "explain_status": "unchecked"
+  "explain_status": "checked"
  },
  {
   "id": "p6-0007",

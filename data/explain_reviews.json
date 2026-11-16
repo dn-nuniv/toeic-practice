@@ -1949,6 +1949,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "c77fac1e9adb"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2485120144bc"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2485120144bc"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2485120144bc"
   }
  ],
  "p3-0011": [
@@ -2047,6 +2071,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "df70552c7f11"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e24cead88b30"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e24cead88b30"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e24cead88b30"
   }
  ],
  "p3-0012": [
@@ -2097,6 +2145,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "7c18cdf3b8a7"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7593ccab6f25"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7593ccab6f25"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7593ccab6f25"
   }
  ],
  "p3-0013": [
@@ -3679,6 +3751,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "3a00e66974d7"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e3d0f0ca2e22"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e3d0f0ca2e22"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e3d0f0ca2e22"
   }
  ],
  "p4-0024": [
@@ -5841,6 +5937,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "2b4e759635c5"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1af31ef4f50f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1af31ef4f50f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1af31ef4f50f"
   }
  ],
  "p6-0007": [
@@ -7925,6 +8045,786 @@
    "issues": "",
    "fix": "",
    "explain_hash": "d9eba3e374cd"
+  }
+ ],
+ "p5-0043": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "96cea63d046c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "96cea63d046c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "96cea63d046c"
+  }
+ ],
+ "p5-0044": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d73a7288daec"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d73a7288daec"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d73a7288daec"
+  }
+ ],
+ "p5-0045": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb2afcd24437"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb2afcd24437"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb2afcd24437"
+  }
+ ],
+ "p5-0046": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5aa916b2bd15"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "(B)の「受動態の後に名詞を置くと文が成り立たない」は一般化しすぎている。He was given a gift. のように、受動態の後に名詞が続く文もある。",
+   "fix": "「名詞『正確さ』。この文では、reproducedを直接修飾できない」とする。",
+   "explain_hash": "5aa916b2bd15"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "選択肢(B)のコメントに「受動態の後に名詞を置くと文が成り立たない」とあるが、第4文型・第5文型の受動態（be given a prize、be named manager など）では受動態の直後に名詞が置かれるため、一般論として言い過ぎになっている。",
+   "fix": "「名詞『正確さ』。ここでは目的語を取る受動態ではないため、will be reproduced の後に名詞を置くと文が成り立たない」とする。",
+   "explain_hash": "5aa916b2bd15"
+  }
+ ],
+ "p5-0047": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "17e9c3aafd8e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "17e9c3aafd8e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "17e9c3aafd8e"
+  }
+ ],
+ "p5-0048": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e17e853ae28c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e17e853ae28c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e17e853ae28c"
+  }
+ ],
+ "p5-0049": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "436ac329ba02"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "436ac329ba02"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "436ac329ba02"
+  }
+ ],
+ "p5-0050": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d79fff9707bd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "ポイントの「過去の時点を表す語句があれば過去形」は断定が強すぎる。過去進行形や過去完了形も、過去の時点を表す語句と併用できる。",
+   "fix": "「この文では、先月起きた出来事を単に述べているため過去形を使う。現在完了は通常、明確な過去の時点を表す語句とは併用しない」とする。",
+   "explain_hash": "d79fff9707bd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d79fff9707bd"
+  }
+ ],
+ "p5-0051": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "551563ae812d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "551563ae812d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "551563ae812d"
+  }
+ ],
+ "p5-0052": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3be7a618568"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3be7a618568"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3be7a618568"
+  }
+ ],
+ "p5-0053": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "88e52491315f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "88e52491315f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "88e52491315f"
+  }
+ ],
+ "p5-0054": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "91eafbd7e19f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "91eafbd7e19f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "91eafbd7e19f"
+  }
+ ],
+ "p5-0055": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f5b28a93a0a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f5b28a93a0a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f5b28a93a0a"
+  }
+ ],
+ "p5-0056": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d772f6c95829"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "設問訳の「離陸と着陸の間は」は、離陸から着陸までの飛行中を指すように読める。during takeoff and landingは、離陸時と着陸時をそれぞれ指す。",
+   "fix": "「離陸時と着陸時は、乗客はトイレを使えない」とする。",
+   "explain_hash": "d772f6c95829"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d772f6c95829"
+  }
+ ],
+ "p5-0057": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "827e3a13cdbd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "827e3a13cdbd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "827e3a13cdbd"
+  }
+ ],
+ "p5-0058": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f043a5a08656"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f043a5a08656"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f043a5a08656"
+  }
+ ],
+ "p5-0059": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "402872e37c6e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "402872e37c6e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "TOEIC のポイントに「関係代名詞の後は主語か目的語が欠けた文」とあるが、所有格の関係代名詞 whose や「前置詞＋関係代名詞」（選択肢(A)のコメントでも挙げている in which など）の後ろには主語・目的語の欠けがない文が続くため、例外を無視した説明になっている。",
+   "fix": "「主格・目的格の関係代名詞（who・which・that など）の後は主語か目的語が欠けた文、関係副詞 where（や in which など）の後は欠けのない文。場所の先行詞でも、後ろの文に欠けがあれば which。」とする。",
+   "explain_hash": "402872e37c6e"
+  }
+ ],
+ "p5-0060": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7f4bcfb413fc"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "(B)の除外理由に「thanがなく」とあるが、比較級はthanを伴わずにも使えるため、不適切な判断基準になる。[Cambridge Grammar](https://dictionary.cambridge.org/grammar/british-grammar/comparison)",
+   "fix": "「比較級『より高い』。ここでは会社の歴史全体で最も高いことを表すため、最上級highestを使う」とする。",
+   "explain_hash": "7f4bcfb413fc"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7f4bcfb413fc"
+  }
+ ],
+ "p5-0061": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f108113ef75"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f108113ef75"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f108113ef75"
+  }
+ ],
+ "p5-0062": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "52ce0ecef480"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "52ce0ecef480"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "52ce0ecef480"
+  }
+ ],
+ "p5-0063": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "440bade460fd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "440bade460fd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "440bade460fd"
+  }
+ ],
+ "p5-0064": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13cc8d48d81e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13cc8d48d81e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13cc8d48d81e"
+  }
+ ],
+ "p5-0065": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "66787d0a631a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": false,
+   "issues": "ポイントは、過去分詞を「される」意味・-ed形に限定している。fallen leavesのように完了・結果を表す用法や、不規則形の過去分詞もある。[UC Davisの文法解説](https://tutoring.ucdavis.edu/agg/adjectives-verbs)",
+   "fix": "「他動詞の分詞では、名詞が動作をする側なら現在分詞、動作を受ける側なら過去分詞が基本。過去分詞には不規則形もあり、自動詞では完了・結果を表す場合もある」とする。",
+   "explain_hash": "66787d0a631a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "66787d0a631a"
+  }
+ ],
+ "p5-0066": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2aaf244d965a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2aaf244d965a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2aaf244d965a"
+  }
+ ],
+ "p5-0067": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aef738adfefa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aef738adfefa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aef738adfefa"
+  }
+ ],
+ "p5-0068": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f1f681a1cc26"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f1f681a1cc26"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f1f681a1cc26"
+  }
+ ],
+ "p5-0069": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b649d447409"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b649d447409"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b649d447409"
+  }
+ ],
+ "p5-0070": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2f37d3fbe759"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2f37d3fbe759"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2f37d3fbe759"
+  }
+ ],
+ "p5-0071": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bdda30acb097"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bdda30acb097"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bdda30acb097"
+  }
+ ],
+ "p5-0072": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "07d797b640b9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "07d797b640b9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "07d797b640b9"
   }
  ]
 }
