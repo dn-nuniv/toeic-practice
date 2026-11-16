@@ -24,11 +24,11 @@
     {"speaker": "M", "text": "Well, our lunch rush starts at eleven thirty."},
     {
      "speaker": "W",
-     "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the first box."
+     "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the tomatoes you received this morning."
     },
     {"speaker": "M", "text": "Thank you. I appreciate that."}
    ],
-   "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、最初の1箱の代金はいただきません。\n男性：ありがとう。助かります。",
+   "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、今朝お届けしたトマトの代金はいただきません。\n男性：ありがとう。助かります。",
    "questions": [
     {
      "id": "p3-0007",
@@ -70,11 +70,16 @@
      "scene": "restaurant",
      "level": "B1",
      "prompt": "What does the woman say the man will not have to do?",
-     "options": ["Return the tomatoes", "Sign a new contract", "Pay for some items", "Pick up an order"],
+     "options": [
+      "Return the tomatoes",
+      "Sign a new contract",
+      "Pay for the spoiled produce",
+      "Pick up an order"
+     ],
      "answer": "c",
-     "explanation_ja": "you won't be charged for the first box（最初の1箱は請求しない）とあり、代金を払わなくてよいということ。返品や受け取りには触れていない。",
+     "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品や受け取りには触れていない。",
      "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
-     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "一部の品の代金を払う", "注文品を取りに行く"]
+     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "傷んだ野菜の代金を払う", "注文品を取りに行く"]
     }
    ]
   },
@@ -181,7 +186,7 @@
     },
     {
      "speaker": "W",
-     "text": "I have a meeting in Westbridge at eleven. The local train takes over an hour, doesn't it?"
+     "text": "I have a meeting in Westbridge at eleven. The local train takes almost two hours, doesn't it?"
     },
     {
      "speaker": "M",
@@ -200,7 +205,7 @@
      ["Local 318", "10:30", "5", "Delayed"]
     ]
    },
-   "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと1時間以上かかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
+   "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと2時間近くかかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
    "questions": [
     {
      "id": "p3-0013",
@@ -228,7 +233,7 @@
      "options": ["Express 210", "Local 312", "Express 214", "Local 318"],
      "answer": "c",
      "shuffle": false,
-     "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。",
+     "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。普通列車は2時間近くかかるので9時40分発でも間に合わない。",
      "translation_ja": "図を見よ。女性はどの列車に乗ると考えられるか。",
      "translation_options_ja": ["急行210", "普通312", "急行214", "普通318"]
     },

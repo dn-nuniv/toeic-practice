@@ -218,7 +218,7 @@
    },
    {
     "speaker": "W",
-    "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the first box."
+    "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the tomatoes you received this morning."
    },
    {
     "speaker": "M",
@@ -233,7 +233,7 @@
    "p3-0008",
    "p3-0009"
   ],
-  "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、最初の1箱の代金はいただきません。\n男性：ありがとう。助かります。",
+  "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、今朝お届けしたトマトの代金はいただきません。\n男性：ありがとう。助かります。",
   "status": "draft",
   "source": "2026-11-16 / part3 batch a"
  },
@@ -322,7 +322,7 @@
    },
    {
     "speaker": "W",
-    "text": "I have a meeting in Westbridge at eleven. The local train takes over an hour, doesn't it?"
+    "text": "I have a meeting in Westbridge at eleven. The local train takes almost two hours, doesn't it?"
    },
    {
     "speaker": "M",
@@ -379,7 +379,7 @@
    "p3-0014",
    "p3-0015"
   ],
-  "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと1時間以上かかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
+  "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと2時間近くかかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
   "status": "draft",
   "source": "2026-11-16 / part3 batch a"
  },
@@ -678,7 +678,7 @@
    },
    {
     "speaker": "N",
-    "text": "Now, I know a few of you asked about taking photos inside the museum at the end of the tour. Well, the museum changed its rules last month."
+    "text": "Now, I know a few of you asked about taking photos inside the museum at the end of the tour. Well, the museum changed its rules last month, and the staff there are quite strict about it."
    },
    {
     "speaker": "N",
@@ -693,7 +693,7 @@
    "p4-0008",
    "p4-0009"
   ],
-  "translation_ja": "皆さん、おはようございます。ハーバービュー歴史地区のウォーキングツアーへようこそ。エリーズと申します。これから2時間、ご案内します。\nまずここ、旧税関から出発し、海沿いを歩いて灯台まで行きます。ところどころ道がでこぼこしていますので、足元にお気をつけください。\nさて、ツアーの最後に行く博物館の中で写真を撮れるかと何人かの方に聞かれました。実は、博物館は先月規則を変えたんです。\nでも、灯台では好きなだけ写真を撮っていただけます。上からの眺めはすばらしいですよ。では、出発しましょう。",
+  "translation_ja": "皆さん、おはようございます。ハーバービュー歴史地区のウォーキングツアーへようこそ。エリーズと申します。これから2時間、ご案内します。\nまずここ、旧税関から出発し、海沿いを歩いて灯台まで行きます。ところどころ道がでこぼこしていますので、足元にお気をつけください。\nさて、ツアーの最後に行く博物館の中で写真を撮れるかと何人かの方に聞かれました。実は、博物館は先月規則を変えまして、職員がかなり厳しいんです。\nでも、灯台では好きなだけ写真を撮っていただけます。上からの眺めはすばらしいですよ。では、出発しましょう。",
   "status": "draft",
   "source": "2026-11-16 / part4 batch a"
  },
@@ -712,7 +712,7 @@
   "segments": [
    {
     "speaker": "N",
-    "text": "Hello, this is Victor from Glenwood Auto Service, calling for Ms. Patel about your car. We've finished inspecting it, and I've e-mailed you an estimate for the work we recommend."
+    "text": "Hello, this is Victor from Glenwood Auto Service. This message is for Ms. Patel. We've finished inspecting your car, and I've e-mailed you an estimate for the work we recommend."
    },
    {
     "speaker": "N",
@@ -759,7 +759,7 @@
    "p4-0011",
    "p4-0012"
   ],
-  "translation_ja": "もしもし、グレンウッド・オートサービスのビクターです。パテル様、お車の件でお電話しました。点検が終わりましたので、おすすめする作業の見積書をメールでお送りしました。\nいちばん大事なのはブレーキパッドです。かなりすり減っているので、できるだけ早く交換したほうがいいです。リストのほかの項目は、よろしければ次回のご来店まで待っても大丈夫です。\nそれから、見積書の金額の1つが間違っていました。ワイパーブレードは、在庫が高級品しかないため、実際には書いてある額より10ドル高くなります。\nどうなさるか、555-0148 に折り返しお電話ください。本日は6時に閉店します。\n【図】修理の見積書：ブレーキパッド180ドル／オイル交換45ドル／タイヤのローテーション30ドル／ワイパーブレード25ドル",
+  "translation_ja": "もしもし、グレンウッド・オートサービスのビクターです。パテル様へのご伝言です。お車の点検が終わりましたので、おすすめする作業の見積書をメールでお送りしました。\nいちばん大事なのはブレーキパッドです。かなりすり減っているので、できるだけ早く交換したほうがいいです。リストのほかの項目は、よろしければ次回のご来店まで待っても大丈夫です。\nそれから、見積書の金額の1つが間違っていました。ワイパーブレードは、在庫が高級品しかないため、実際には書いてある額より10ドル高くなります。\nどうなさるか、555-0148 に折り返しお電話ください。本日は6時に閉店します。\n【図】修理の見積書：ブレーキパッド180ドル／オイル交換45ドル／タイヤのローテーション30ドル／ワイパーブレード25ドル",
   "status": "draft",
   "source": "2026-11-16 / part4 batch a"
  },

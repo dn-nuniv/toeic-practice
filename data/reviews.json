@@ -6361,7 +6361,11 @@
    "ambiguous": false,
    "confidence": 0.9,
    "issues": "Option (B) refers to the speaker as 'her', so the narrator's voice must be female. Check the audio voice setting.",
-   "content_hash": "7d11b4b50e88"
+   "content_hash": "7d11b4b50e88",
+   "resolved": {
+    "at": "2026-11-16T10:08:12",
+    "note": "話し手 N は speakers で female と指定済みで、音声も3地域とも女性の声（en-US-Neural2-C ほか）で生成されている。her と矛盾しない"
+   }
   },
   {
    "reviewer": "gpt",
@@ -6383,7 +6387,11 @@
    "ambiguous": false,
    "confidence": 1.0,
    "issues": "スクリプトの話者表記が N: のみで性別が明記されていないため、選択肢(B)の her と矛盾しないよう音声収録時に女性話者を割り当てる必要がある",
-   "content_hash": "7d11b4b50e88"
+   "content_hash": "7d11b4b50e88",
+   "resolved": {
+    "at": "2026-11-16T10:08:12",
+    "note": "話し手 N は speakers で female と指定済みで、音声も3地域とも女性の声（en-US-Neural2-C ほか）で生成されている。her と矛盾しない"
+   }
   }
  ],
  "p4-0019": [

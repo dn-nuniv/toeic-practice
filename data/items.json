@@ -3147,7 +3147,7 @@
    "料理学校"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -3221,7 +3221,7 @@
    "サービスの遅さに苦情を言うため"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -3277,7 +3277,7 @@
    },
    {
     "id": "c",
-    "text": "Pay for some items"
+    "text": "Pay for the spoiled produce"
    },
    {
     "id": "d",
@@ -3286,16 +3286,16 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "you won't be charged for the first box（最初の1箱は請求しない）とあり、代金を払わなくてよいということ。返品や受け取りには触れていない。",
+  "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品や受け取りには触れていない。",
   "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
   "translation_options_ja": [
    "トマトを返品する",
    "新しい契約を結ぶ",
-   "一部の品の代金を払う",
+   "傷んだ野菜の代金を払う",
    "注文品を取りに行く"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -3591,7 +3591,7 @@
    "線路の補修工事のため"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -3656,7 +3656,7 @@
   ],
   "answer": "c",
   "shuffle": false,
-  "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。",
+  "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。普通列車は2時間近くかかるので9時40分発でも間に合わない。",
   "translation_ja": "図を見よ。女性はどの列車に乗ると考えられるか。",
   "translation_options_ja": [
    "急行210",
@@ -3665,7 +3665,7 @@
    "普通318"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -3739,7 +3739,7 @@
    "改札を出た所"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -4923,7 +4923,7 @@
    "建設作業員"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -4997,7 +4997,7 @@
    "早い閉館時間"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5062,7 +5062,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "博物館の中で写真を撮れるかという質問への答えで、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
+  "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
   "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
   "translation_options_ja": [
    "ツアーが短くなった理由を説明するため",
@@ -5071,7 +5071,7 @@
    "入場料の変更を知らせるため"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5145,7 +5145,7 @@
    "自動車修理工場"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5219,7 +5219,7 @@
    "25ドル"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5293,7 +5293,7 @@
    "明日店に来る"
   ],
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5737,7 +5737,7 @@
    "東地域の新店舗を訪ねる"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -5749,7 +5749,11 @@
     "ambiguous": false,
     "confidence": 0.9,
     "issues": "Option (B) refers to the speaker as 'her', so the narrator's voice must be female. Check the audio voice setting.",
-    "content_hash": "7d11b4b50e88"
+    "content_hash": "7d11b4b50e88",
+    "resolved": {
+     "at": "2026-11-16T10:08:12",
+     "note": "話し手 N は speakers で female と指定済みで、音声も3地域とも女性の声（en-US-Neural2-C ほか）で生成されている。her と矛盾しない"
+    }
    },
    {
     "reviewer": "gpt",
@@ -5771,7 +5775,11 @@
     "ambiguous": false,
     "confidence": 1.0,
     "issues": "スクリプトの話者表記が N: のみで性別が明記されていないため、選択肢(B)の her と矛盾しないよう音声収録時に女性話者を割り当てる必要がある",
-    "content_hash": "7d11b4b50e88"
+    "content_hash": "7d11b4b50e88",
+    "resolved": {
+     "at": "2026-11-16T10:08:12",
+     "note": "話し手 N は speakers で female と指定済みで、音声も3地域とも女性の声（en-US-Neural2-C ほか）で生成されている。her と矛盾しない"
+    }
    }
   ]
  },
