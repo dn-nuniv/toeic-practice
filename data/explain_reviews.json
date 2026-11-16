@@ -3574,5 +3574,525 @@
    "fix": "",
    "explain_hash": "a890fd0299d5"
   }
+ ],
+ "p6-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f78f51c733de"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(C)「期間を表す使い方はない」、(D)「時間の長さを表す使い方はない」は言い過ぎ。holdには「持続する」、keepには食品などが「もつ」という用法がある（[holdの用例](https://www.oxfordlearnersdictionaries.com/definition/english/hold_1)、[keepの用例](https://dictionary.cambridge.org/dictionary/essential-british-english/keep)）。",
+   "fix": "C・Dとも「この文のように、工事の完了に必要な時間が『かかる』という意味では使わない」とする。",
+   "explain_hash": "f78f51c733de"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "1) (C) hold と (D) keep のコメントで「期間を表す使い方はない」「時間の長さを表す使い方はない」と断定しているが、hold for two weeks や keep for two weeks のように期間を表す用法自体は存在するため不正確。2) セット p6-s001 の本文・スクリプトの訳で、冒頭の「Date: May 2」と末尾の署名「Paul Greene」の訳が抜けている（また空欄[2]の挿入文の訳だけ他のセットのような［］の囲みがない）。",
+   "fix": "1) (C)(D) のコメントを (B) と同様に「時間を目的語にして『（時間が）かかる』という意味では使わない」のように改める。2) 本文訳の冒頭に「日付：5月2日」、末尾に「ポール・グリーン」を補う。",
+   "explain_hash": "f78f51c733de"
+  }
+ ],
+ "p6-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b6187520d482"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b6187520d482"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b6187520d482"
+  }
+ ],
+ "p6-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb6a8e4fd869"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "TOEICのポイントの「will be / can be / must be の後は過去分詞」は、受け身の場合に限る。will be readyのように形容詞が続く場合や、will be workingのような進行形もある。",
+   "fix": "「助動詞を使った受け身は、will / can / must＋be＋過去分詞の形」とする。",
+   "explain_hash": "eb6a8e4fd869"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "TOEIC のポイントで「will be / can be / must be の後は過去分詞。」と言い切っており、進行形（will be doing など）や形容詞・名詞が続く場合を無視した言い過ぎになっている。",
+   "fix": "「物が主語で『～される』という受け身にするときは、will be / can be / must be の後は過去分詞。」のように条件を明記する。",
+   "explain_hash": "eb6a8e4fd869"
+  }
+ ],
+ "p6-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fcad3f97dcc6"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fcad3f97dcc6"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fcad3f97dcc6"
+  }
+ ],
+ "p6-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "TOEIC のポイントの「名詞の直前の空欄は形容詞」は言い切りすぎ。名詞の前には名詞（複合名詞：safety regulations、customer service など）や限定詞が来ることもあり、TOEIC でもよく問われる。",
+   "fix": "「名詞の直前の空欄は、名詞を修飾する形容詞が入ることが多い（ただし safety regulations のような名詞＋名詞の形もある）。文頭で大文字になっていても品詞の考え方は同じ。」",
+   "explain_hash": "a47893b7f078"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "TOEICのポイントの「名詞の直前の空欄は形容詞」は誤った一般化。office managerのofficeのように、名詞が別の名詞を修飾する場合もある。",
+   "fix": "「名詞の前の空欄では、修飾関係・品詞・意味を確認する。この文では『原本の』という意味でreceiptsを修飾するOriginalが適切」とする。",
+   "explain_hash": "a47893b7f078"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "TOEIC のポイントで「名詞の直前の空欄は形容詞。」と言い切っているが、名詞の直前には複合名詞を作る名詞、所有格、限定詞、分詞なども入るため、例外を無視した言い過ぎになっている。",
+   "fix": "「名詞を修飾する語を問う品詞問題では形容詞が入ることが多い（複合名詞を作る名詞や所有格などが入る場合もある）。」のように改める。",
+   "explain_hash": "a47893b7f078"
+  }
+ ],
+ "p6-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fe2223648760"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(C)のコメントと正解理由が、at least 30 daysを60日間の返品期限と食い違うものとしている。「少なくとも30日間」は60日間の保管も含むため、論理的な矛盾はない。",
+   "fix": "Cは「60日間の返品期限とは矛盾しないが、直前の返品対象外商品の説明を補う文ではない」とする。正解理由は、BのThese itemsが直前の商品を指し、その見分け方を説明する点に絞る。",
+   "explain_hash": "fe2223648760"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fe2223648760"
+  }
+ ],
+ "p6-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "99ff57e5463a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "99ff57e5463a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "99ff57e5463a"
+  }
+ ],
+ "p6-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c9a734e72a34"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c9a734e72a34"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c9a734e72a34"
+  }
+ ],
+ "p6-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7022bb95d2fd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7022bb95d2fd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7022bb95d2fd"
+  }
+ ],
+ "p6-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9583d7a504fd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(C)のコメントと正解理由の「すでに採用が決まっているので、応募へのお礼は時期が合わない」は不正確。採用決定後に応募への感謝を伝えることもできる。",
+   "fix": "「応募へのお礼は、ここで説明している初日の朝の予定を補う内容ではなく、直後のAfter thatにつながる活動も示していない」とする。",
+   "explain_hash": "9583d7a504fd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9583d7a504fd"
+  }
+ ],
+ "p6-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(A) のコメントと正解の理由で「regulations は dietary とは組まない」と言い切っているが、dietary regulations（食品・食事に関する規定。宗教上の食事の戒律など）という言い方は実際にある。不正解になる理由は、組み合わせがないことではなく、個人の食事の制限を尋ねる文脈に合わないこと。",
+   "fix": "(A)：「規則。dietary regulations は食品に関する規定・戒律の意味で、個人が食べられない物を尋ねるこの文脈には合わない」。正解の理由の該当部分も「regulations は法律や組織の『規則』で、個人の食事の制限を尋ねる文脈には合わない」とする。",
+   "explain_hash": "3d03db96be92"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(A)のコメントと正解理由の「regulationsはdietaryとは組まない」は誤り。dietary regulationsという組合せは、食事・栄養に関する規則や規制を指して使われる（[公的文書の用例](https://calcareers.ca.gov/CalHrPublic/FileDownload.aspx?aid=30798848&name=DIETETICSASSTDIRECTOR%282155%2911-25.pdf)）。",
+   "fix": "「regulationsは規則・規制を指す。ここでは昼食会に向けて個人の食事上の制限を尋ねているので、dietary restrictionsが適切」とする。",
+   "explain_hash": "3d03db96be92"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(A) regulations のコメントおよび正解の理由で「dietary とは組まない」と断定しているが、dietary regulations（食品・栄養や給食等の規定）という表現自体は英語に存在するため不正確。",
+   "fix": "「法律や組織の『規則』を指す語なので、個人の食事の制限を尋ねるこの文脈には合わない」のように改める。",
+   "explain_hash": "3d03db96be92"
+  }
+ ],
+ "p6-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9bc07d5ef280"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9bc07d5ef280"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9bc07d5ef280"
+  }
+ ],
+ "p6-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2350daf9eed6"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2350daf9eed6"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2350daf9eed6"
+  }
+ ],
+ "p6-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "173801ba8136"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "173801ba8136"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "173801ba8136"
+  }
+ ],
+ "p6-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8e373cdba506"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8e373cdba506"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8e373cdba506"
+  }
+ ],
+ "p6-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(C) の「much ～est の形にはならない」は不正確。much the largest（the がつく形）や by far the largest のように、much・by far は最上級も強められる。TOEIC のポイントの「very は原級を強める」も、the very best のように very が最上級を強める用法を無視している。",
+   "fix": "(C)：「最上級。much largest とは言わない（最上級を強めるなら much the largest / by far the largest）。また、ここは a much ___ scale なので最上級は合わない」。ポイント：「much / far / even / still は比較級を強める（much larger）。very は比較級を強められない（×very larger）。」",
+   "explain_hash": "a6cf80926306"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(A)の「muchは原級を強めない」は一般化しすぎ。very much afraidのように、原級の形容詞を強める用法もある（[Oxfordの用例](https://www.oxfordlearnersdictionaries.com/definition/american_english/very_1)）。この文でmuch largeが不適切という結論は正しい。",
+   "fix": "「largeを強める場合はvery largeとする。この文ではmuchがあるため、比較級のmuch largerが適切」と、largeについての説明に限定する。",
+   "explain_hash": "a6cf80926306"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6cf80926306"
+  }
+ ],
+ "p6-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5c07e8cb9c0f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5c07e8cb9c0f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5c07e8cb9c0f"
+  }
+ ],
+ "p6-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "64a9d9286a28"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "64a9d9286a28"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "64a9d9286a28"
+  }
+ ],
+ "p6-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aba58bd55511"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aba58bd55511"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aba58bd55511"
+  }
+ ],
+ "p6-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:40:00",
+   "ok": false,
+   "issues": "(B) のコメント「be notifying は『知らせている』で、応募者が主語なので合わない」は理由として弱い。応募者が誰かに知らせること自体はありえる。合わない本当の理由は、notify は「知らせる相手」を目的語にとる動詞なのに、その目的語がないこと（文脈上も応募者は知らされる側）。",
+   "fix": "(B)：「現在分詞。be notifying なら後ろに知らせる相手（目的語）が必要で、of their shift assignments にはつながらない。応募者は知らされる側」",
+   "explain_hash": "8c04d789ed85"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8c04d789ed85"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:40:00",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8c04d789ed85"
+  }
  ]
 }
