@@ -58,7 +58,7 @@
   function home() {
     Player.stop(); session = null;
     const parts = Store.getSetting('parts', [1, 2, 3, 4, 5, 6, 7]);
-    const region = Store.getSetting('region', 'us'), rate = Store.getSetting('rate', 1), count = Store.getSetting('count', 10);
+    const region = Store.getSetting('region', 'us'), rate = Store.getSetting('rate', 1), count = Store.getSetting('count', 10), qread = Store.getSetting('qread', 'exam');
     const n = BANK.items.length, seen = BANK.items.filter(it => Store.getProgress(it.id)).length, d = dueCount();
     const reviewed = BANK.items.filter(it => it.status === 'reviewed').length;
     main.innerHTML = `
@@ -76,6 +76,7 @@
       <div class="row"><span class="lab">問題数</span><select id="count">${[10, 20, 30, 0].map(c => `<option value="${c}" ${c === count ? 'selected' : ''}>${c || 'すべて'}</option>`).join('')}</select><small>（練習・復習のとき）</small></div>
       <div class="row"><span class="lab">英語の種類</span><select id="region">${[['us', '米国'], ['gb', '英国'], ['au', 'オーストラリア'], ['ca', 'カナダ']].map(([k, v]) => `<option value="${k}" ${k === region ? 'selected' : ''}>${v}</option>`).join('')}</select>
         <span class="lab">速さ</span><select id="rate">${[0.8, 0.9, 1, 1.1, 1.25].map(r => `<option value="${r}" ${r === rate ? 'selected' : ''}>${r}×</option>`).join('')}</select></div>
+      <div class="row"><span class="lab">設問の読み上げ</span><select id="qread">${[['exam', '本番形式（解答時間 8秒・図表12秒）'], ['short', '読む（間を短く）'], ['off', '読まない']].map(([k, v]) => `<option value="${k}" ${k === qread ? 'selected' : ''}>${v}</option>`).join('')}</select><small>（Part 3・4）</small></div>
     </section>
     <p class="meta">問題 ${n}問（${esc(BANK.version || '')}）・解いた問題 ${seen}問・レビュー済み ${reviewed}問<br>
     この問題はAIが作成した練習用のオリジナル問題です。TOEIC公式問題ではなく、スコアの予測にはなりません。</p>`;
@@ -83,6 +84,7 @@
     $('#count').onchange = e => Store.setSetting('count', +e.target.value);
     $('#region').onchange = e => Store.setSetting('region', e.target.value);
     $('#rate').onchange = e => Store.setSetting('rate', +e.target.value);
+    $('#qread').onchange = e => Store.setSetting('qread', e.target.value);
     main.querySelectorAll('.mode').forEach(b => b.onclick = () => start(b.dataset.mode));
   }
 
@@ -132,6 +134,13 @@
     } else {
       const spk = Object.fromEntries((u.set.speakers || []).map(s => [s.id, s]));
       u.set.segments.forEach((sg, i) => out.push({ key: `${u.set.id}:seg:${i}`, text: sg.text, gender: (spk[sg.speaker] || {}).gender || 'female', pause: 500 }));
+      // 設問の読み上げ（本番では会話・説明文の後にナレーターが1問ずつ読み、解答時間が続く）
+      const qr = Store.getSetting('qread', 'exam');
+      if (qr !== 'off' && out.length) {
+        out[out.length - 1].pause = 1200;
+        u.items.forEach(it => out.push({ key: `${it.id}:q`, text: it.prompt, gender: Player.NARRATOR, qid: it.id, fixed: true,
+          pause: qr === 'exam' ? (it.type === 'graphic' ? 12000 : 8000) : 2500 }));
+      }
     }
     return out;
   }
@@ -139,7 +148,9 @@
     const st = $('#astate');
     $('#play').onclick = () => Player.play(utterances(u), {
       region: Store.getSetting('region', 'us'), rate: Store.getSetting('rate', 1),
-      onState: (s, how) => { st.textContent = s === 'playing' ? (how === 'file' ? '再生中' : '再生中（ブラウザの読み上げ）') : ''; }
+      onState: (s, how) => { st.textContent = s === 'playing' ? (how === 'file' ? '再生中' : '再生中（ブラウザの読み上げ）') : ''; },
+      // 読み上げ中の設問に枠を付ける
+      onItem: x => main.querySelectorAll('.q').forEach(q => q.classList.toggle('reading', !!(x && x.qid === q.dataset.id)))
     });
     $('#stop').onclick = () => Player.stop();
   }

@@ -12,7 +12,8 @@ API キーは環境変数 GOOGLE_TTS_API_KEY（なければ GOOGLE_API_KEY）か
 Cloud Text-to-Speech 用のキー（AIza で始まる）が必要。Gemini API のキーでは 401 になる。
 同じ文・同じ声の音声はすでにあれば作り直さないので、問題を追加したら同じコマンドを実行するだけでよい。
 音声のキーは js/audio.js と同じ規則:
-  Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / 記号 label:A:female
+  Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / Part 3・4 の設問 <item>:q / 記号 label:A:female
+Part 3・4 の設問はナレーター（男性の声のうち、会話で使わない最後の声）が読む。
 """
 import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error, urllib.parse
 
@@ -20,6 +21,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://texttospeech.googleapis.com/v1"
 LANG = {"us": "en-US", "gb": "en-GB", "au": "en-AU", "ca": "en-CA"}
 TIERS = ["Neural2", "Wavenet", "Standard"]  # 上から順に使える声を探す
+NARRATOR = "male"  # Part 3・4 の設問を読む声の性別（js/audio.js の NARRATOR と同じにする）
 
 
 KEY_IN_URL = False  # まずヘッダーで送り、断られたら URL の ?key= で送り直す
@@ -86,6 +88,9 @@ def utterances(bank):
         for i, sg in enumerate(s["segments"]):
             p = spk[sg["speaker"]]
             u.append((f"{s['id']}:seg:{i}", sg["text"], p["gender"], nth[p["id"]]))
+    # Part 3・4 の設問の読み上げ（ナレーター。nth=-1 で男性の声の一覧の最後を使い、会話の話し手と分ける）
+    for it in items:
+        if it["part"] in (3, 4): u.append((f"{it['id']}:q", it["prompt"], NARRATOR, -1))
     for g in sorted(labels):
         for L in "ABCD": u.append((f"label:{L}:{g}", L + ".", g, 0))
     return u

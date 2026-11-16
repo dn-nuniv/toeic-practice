@@ -1,13 +1,14 @@
 // 音声の再生。audio/manifest.js に生成済みの音声ファイルがあればそれを使い、
 // なければブラウザの読み上げ機能（speechSynthesis）で代わりに読む。
 // 音声のキー（key）は scripts/gen_audio.py と同じ規則：
-//   Part 1 選択肢 <item>:opt:<option> / Part 2 質問 <item>:stem / Part 3・4 <set>:seg:<n> / 記号 label:A:female
+//   Part 1 選択肢 <item>:opt:<option> / Part 2 質問 <item>:stem / Part 3・4 <set>:seg:<n> / Part 3・4 の設問 <item>:q / 記号 label:A:female
+// utterance の形：{ key, text, gender, pause（次までの間 ms。再生速度で縮む）, fixed（true なら pause を速度で縮めない＝解答時間）, qid（読み上げ中の設問）}
 (function () {
   'use strict';
   const LANG = { us: 'en-US', gb: 'en-GB', au: 'en-AU', ca: 'en-CA' };
   const FEMALE = /female|samantha|victoria|karen|moira|tessa|serena|zira|aria|jenny|libby|sonia|natasha|catherine|susan|hazel|kate|allison|ava|joanna|salli|kendra|kimberly|emma|amy|nicole|olivia|linda|heather/i;
   const MALE = /(^|\W)male|daniel|alex|fred|david|guy|ryan|william|oliver|george|thomas|james|lee|gordon|aaron|arthur|mark|matthew|joey|justin|brian|russell|liam|eric|tom/i;
-  let queue = [], token = 0, cur = null, onState = () => {};
+  let queue = [], token = 0, cur = null, onState = () => {}, onItem = () => {};
 
   function manifestFile(region, key) {
     const m = window.AUDIO_MANIFEST || {};
@@ -44,7 +45,7 @@
     token++; queue = [];
     if (cur) { try { cur.pause(); } catch (e) {} cur = null; }
     if ('speechSynthesis' in window) speechSynthesis.cancel();
-    onState('stopped');
+    onItem(null); onState('stopped');
   }
 
   function play(utts, opt) {
@@ -52,12 +53,14 @@
     const my = ++token, region = opt.region || 'us', rate = opt.rate || 1;
     onState = opt.onState || (() => {});
     queue = utts.slice();
+    onItem = opt.onItem || (() => {});
     onState('playing', hasFiles(region, utts.map(u => u.key)) ? 'file' : 'tts');
     const next = () => {
       if (my !== token) return;
       const u = queue.shift();
-      if (!u) { cur = null; onState('stopped'); if (opt.onEnd) opt.onEnd(); return; }
-      const after = () => { if (my === token) setTimeout(next, (u.pause || 450) / rate); };
+      if (!u) { cur = null; onItem(null); onState('stopped'); if (opt.onEnd) opt.onEnd(); return; }
+      onItem(u);
+      const after = () => { if (my === token) setTimeout(next, u.fixed ? u.pause : (u.pause || 450) / rate); };
       const src = manifestFile(region, u.key);
       if (src) playFile(src, rate, after, () => speak(u, region, rate, after));
       else speak(u, region, rate, after);
@@ -67,5 +70,5 @@
 
   // ブラウザによっては声の一覧が後から読み込まれる
   if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices(); }
-  window.Player = { play, stop, hasFiles, regions: Object.keys(LANG) };
+  window.Player = { play, stop, hasFiles, regions: Object.keys(LANG), NARRATOR: 'male' };
 })();

@@ -43,7 +43,8 @@
 ## 音声（Google Cloud Text-to-Speech）
 - `scripts/gen_audio.py` は環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）を使う。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要（Gemini API のキーは使えない）。**キーを表示・ログ出力・ファイル保存・コミットしない**。
 - 同じ文・同じ声は作り直さない（manifest の hash で判定）。Neural2 → WaveNet → Standard の順に声を選ぶ。
-- 音声のキーは `js/audio.js` と共通の規則（`<item>:opt:<id>`, `<item>:stem`, `<set>:seg:<n>`, `label:A:female`）。変えるときは両方を直す。
+- 音声のキーは `js/audio.js` と共通の規則（`<item>:opt:<id>`, `<item>:stem`, `<set>:seg:<n>`, `<item>:q`, `label:A:female`）。変えるときは両方を直す。
+- Part 3・4 の設問（`<item>:q`）はナレーターが読む（男性の声の一覧の最後。`gen_audio.py` と `js/audio.js` の `NARRATOR`）。アプリでは会話の後に1問ずつ読み、解答時間（8秒・図表12秒、再生速度で縮まない）を空ける。設定で「間を短く」「読まない」も選べる。
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。
 
 ## Part 1 の写真
@@ -54,7 +55,7 @@
 1. ~~問題データの置き場所を変える~~ → 済み（`data/src/part{N}/*.json` を読む形。試作49問は `pilot-v0.json` に移した。出力は移行前と同一）
 2. `data/blueprint.json` に沿って Part ごとに生成（例：Part 5 を30問ずつ）。生成のたびに validate とレビュー用の書き出し。
 3. 語彙レベルの判定：NGSL / TSL（CC BY-SA 4.0、出典表示が必要）を取り込み、各問題の語彙をプロファイルする。
-4. Part 3・4 の設問の読み上げ（本番では設問も音声で流れる）。
+4. ~~Part 3・4 の設問の読み上げ~~ → 済み（`<item>:q`。解答時間つき）
 5. 段階2：JLPT アプリの構成に合わせて Supabase へ移行（`supabase/schema.sql`）。
 
 ## 確認のしかた
