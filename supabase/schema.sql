@@ -80,6 +80,7 @@ create table if not exists vocab (
   example       text not null,
   example_ja    text not null,
   cloze         text not null,               -- 例文の穴埋めにする語形（例文中にそのまま出てくる）
+  also_ok       text[] not null default '{}', -- 記述問題で正解にする別解（同じ意味で頭文字の同じ語、英式のつづりなど）
   distractors   text[] not null default '{}', -- 英→日の4択のダミー（vocab.id）
   choices       text[] not null default '{}', -- 4択の並び（レビュー用。アプリでは毎回シャッフル）
   related_items text[] not null default '{}', -- この語が出てくる問題（items.id）。「今日の単語」に使う

@@ -7338,7 +7338,11 @@
    "ambiguous": true,
    "confidence": 0.95,
    "issues": "4択は一意。日→英ではrebateも「返金」を表すr始まりの6字。穴埋めもfull rebateが成立するため一意ではない。",
-   "content_hash": "09371ecc02b4"
+   "content_hash": "09371ecc02b4",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "rebate は割戻し・一部返金で、例文の a full refund（全額の返金）には合わないため別解にしない。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -7408,7 +7412,11 @@
    "ambiguous": true,
    "confidence": 0.99,
    "issues": "4択は一意。renovationとremodelingはいずれも「改装」を表すr始まりの10字で、日→英・穴埋めとも両方成立する。",
-   "content_hash": "395a7f082ea9"
+   "content_hash": "395a7f082ea9",
+   "resolved": {
+    "at": "2026-11-16T11:26:54",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -7419,7 +7427,11 @@
    "ambiguous": false,
    "confidence": 1.0,
    "issues": "日→英の「改装 → r _ _ _ _ _ _ _ _ _」（r始まり10文字）では、remodeling（10文字）も意味上当てはまりうる。",
-   "content_hash": "395a7f082ea9"
+   "content_hash": "395a7f082ea9",
+   "resolved": {
+    "at": "2026-11-16T11:26:54",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   }
  ],
  "v-0006": [
@@ -7968,7 +7980,11 @@
    "ambiguous": true,
    "confidence": 0.98,
    "issues": "4択は一意。expansionとextensionはいずれもe始まりの9字で、工場の「拡張」を表せる。日→英・穴埋めとも別解が成立する。",
-   "content_hash": "c569aae0e6ce"
+   "content_hash": "c569aae0e6ce",
+   "resolved": {
+    "at": "2026-11-16T11:26:54",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -8388,7 +8404,11 @@
    "ambiguous": true,
    "confidence": 0.98,
    "issues": "4択は一意。entranceとentrywayはいずれも「入口」を表すe始まりの8字。main entrywayも自然で、日→英・穴埋めとも一意ではない。",
-   "content_hash": "f39cee60d3a8"
+   "content_hash": "f39cee60d3a8",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -8878,7 +8898,11 @@
    "ambiguous": true,
    "confidence": 0.94,
    "issues": "4択は一意。appendも「添付する」を表すa始まりの6字。穴埋めでもattachedとappendedがともに8字で、appended the file to this e-mailも成立する。",
-   "content_hash": "7ad15fff3f3d"
+   "content_hash": "7ad15fff3f3d",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -9322,7 +9346,11 @@
    "ambiguous": false,
    "confidence": 0.93,
    "issues": "ダミーの「更新する」(renew) は延長と意味が近く、契約や会員資格の文脈では少し紛らわしい。ただし正解は1つに決まる",
-   "content_hash": "af299269fae4"
+   "content_hash": "af299269fae4",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "gpt",
@@ -9333,7 +9361,11 @@
    "ambiguous": true,
    "confidence": 0.95,
    "issues": "4択は一意。expandも営業時間などを広げる意味で使えるe始まりの6字。穴埋めのexpandedもextendedと同じ8字で、営業時間を延長したという和訳に合う。",
-   "content_hash": "af299269fae4"
+   "content_hash": "af299269fae4",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -9392,7 +9424,11 @@
    "ambiguous": false,
    "confidence": 0.94,
    "issues": "例文の穴埋めで a＿＿＿＿＿（6文字）には advise も入る（\"happy to advise you\"）。和訳の「お手伝いします」で assist に決まるので問題はない",
-   "content_hash": "162d6c6efad1"
+   "content_hash": "162d6c6efad1",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "穴埋めの advise は、和訳「お手伝いします」で assist に決まる（Claude も問題なしと判断）"
+   }
   },
   {
    "reviewer": "gpt",
@@ -9508,7 +9544,11 @@
    "ambiguous": true,
    "confidence": 0.99,
    "issues": "4択は一意。reviseとreworkはいずれも「修正する」を表すr始まりの6字。rework the scheduleも自然で、日→英・穴埋めとも一意ではない。",
-   "content_hash": "4912cad12415"
+   "content_hash": "4912cad12415",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -9777,7 +9817,11 @@
    "ambiguous": false,
    "confidence": 0.96,
    "issues": "穴埋めの字数は米式のつづり canceled（8文字）に合わせてある。英式の cancelled（9文字）では合わない",
-   "content_hash": "d0d37e783c33"
+   "content_hash": "d0d37e783c33",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "gpt",
@@ -10068,7 +10112,11 @@
    "ambiguous": true,
    "confidence": 0.97,
    "issues": "4択は一意。日→英ではtransientも「一時的な」を表すt始まりの9字で、temporaryに限定できない。",
-   "content_hash": "14c8fdf26b0c"
+   "content_hash": "14c8fdf26b0c",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10103,7 +10151,11 @@
    "ambiguous": true,
    "confidence": 0.98,
    "issues": "4択は一意。pragmaticも「実用的な・実践的な」を表すp始まりの9字。pragmatic adviceも自然で、日→英・穴埋めとも別解が成立する。",
-   "content_hash": "c1be940f9a92"
+   "content_hash": "c1be940f9a92",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10173,7 +10225,11 @@
    "ambiguous": true,
    "confidence": 0.95,
    "issues": "4択は一意。日→英ではexpansiveにも「広範な」の意味があり、e始まりの9字という条件が一致する。例文のexperienceにはextensiveが自然。",
-   "content_hash": "29ffc14a43e7"
+   "content_hash": "29ffc14a43e7",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10278,7 +10334,11 @@
    "ambiguous": true,
    "confidence": 0.97,
    "issues": "4択は一意。日→英ではroutineも「通常の」を表すr始まりの7字で別解になる。例文の営業時間にはregularが自然。",
-   "content_hash": "7006797c8dde"
+   "content_hash": "7006797c8dde",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10383,7 +10443,11 @@
    "ambiguous": true,
    "confidence": 0.95,
    "issues": "4択は一意。accessibleも価格について「手の届く・手ごろな」を表すa始まりの10字。at accessible pricesも成立するため、日→英・穴埋めとも一意ではない。",
-   "content_hash": "68ff5207767b"
+   "content_hash": "68ff5207767b",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10558,7 +10622,11 @@
    "ambiguous": true,
    "confidence": 0.97,
    "issues": "4択は一意。日→英ではtransientlyも「一時的に」を表すt始まりの11字で、temporarilyに限定できない。例文にはtemporarilyのほうが一般的。",
-   "content_hash": "e63fa4a19852"
+   "content_hash": "e63fa4a19852",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10593,7 +10661,11 @@
    "ambiguous": true,
    "confidence": 0.99,
    "issues": "4択は一意。substantiallyも「大幅に」を表すs始まりの13字。Costs have increased substantially this yearも自然で、日→英・穴埋めとも別解が成立する。",
-   "content_hash": "efd373c8daac"
+   "content_hash": "efd373c8daac",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   },
   {
    "reviewer": "agy",
@@ -10604,7 +10676,11 @@
    "ambiguous": false,
    "confidence": 1.0,
    "issues": "日→英の「大幅に → s _ _ _ _ _ _ _ _ _ _ _ _」および例文穴埋め（s始まり13文字）では、substantially（13文字）も意味・文脈ともに当てはまりうる。",
-   "content_hash": "efd373c8daac"
+   "content_hash": "efd373c8daac",
+   "resolved": {
+    "at": "2026-11-16T11:26:55",
+    "note": "日→英・穴埋めの別解の指摘 → also_ok に別解を追加（別解を書いても正解として扱い、覚えたい語を表示）。4択は3者一致"
+   }
   }
  ],
  "v-0097": [

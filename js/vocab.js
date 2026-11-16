@@ -102,13 +102,16 @@
   function answer(v) {
     if (run.answered) return;
     const q = run.qs[run.idx], w = q.w, now = Date.now();
-    let ok, chosen;
+    let ok, chosen, alt = false;
     if (q.mode === 'e2j') {
       chosen = v; ok = v === w.id;
       $('#main').querySelectorAll('.vopt').forEach(b => { b.disabled = true; if (b.dataset.id === w.id) b.classList.add('right'); else if (b.dataset.id === v) b.classList.add('wrong'); });
     } else {
       chosen = String(v || '').trim();
       ok = norm(chosen) === norm(q.mode === 'j2e' ? w.word : w.cloze);
+      // 別解（同じ意味で頭文字の同じ語、英式のつづりなど）も正解にする
+      alt = !ok && (w.also_ok || []).some(x => norm(x) === norm(chosen));
+      if (alt) ok = true;
       $('#vin').disabled = true; $('#vcheck').hidden = true;
     }
     run.answered = true;
@@ -116,7 +119,8 @@
     const fb = $('.vfb');
     fb.hidden = false; fb.className = 'vfb ' + (ok ? 'ok' : 'ng');
     fb.innerHTML = `<div class="verdict">${ok ? '◯ 正解' : '✕ 不正解'}　<b>${esc(target)}</b>${q.mode === 'cloze' ? `（${esc(w.word)}：${esc(w.meaning_ja)}）` : `：${esc(w.meaning_ja)}`}
-        ${!ok && q.mode !== 'e2j' && chosen ? `<span class="yours">あなたの答え：${esc(chosen)}</span>` : ''}</div>
+        ${!ok && q.mode !== 'e2j' && chosen ? `<span class="yours">あなたの答え：${esc(chosen)}</span>` : ''}
+        ${alt ? `<span class="yours">「${esc(chosen)}」も別解として正解です。この問題で覚えたい語は ${esc(target)}</span>` : ''}</div>
       <p class="vexs">${esc(w.example)} ${speakBtn(w.id + ':ex', w.example, '例文')}</p><p class="tr">${esc(w.example_ja)}</p>`;
     bindSpeak(fb);
     const prev = Store.getWordProgress(w.id, q.mode);

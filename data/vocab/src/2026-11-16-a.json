@@ -51,7 +51,8 @@
    "level": "B1",
    "example": "The lobby will be closed during the renovation.",
    "example_ja": "改装の間、ロビーは閉鎖される。",
-   "cloze": "renovation"
+   "cloze": "renovation",
+   "also_ok": ["remodeling"]
   },
   {
    "id": "v-0006",
@@ -211,7 +212,8 @@
    "level": "B2",
    "example": "The expansion of the factory will create fifty jobs.",
    "example_ja": "工場の拡張で50人分の雇用が生まれる。",
-   "cloze": "expansion"
+   "cloze": "expansion",
+   "also_ok": ["extension"]
   },
   {
    "id": "v-0022",
@@ -259,7 +261,7 @@
    "pos": "noun",
    "meaning_ja": "会員資格",
    "level": "B1",
-   "example": "Your membership will end on March 31.",
+   "example": "Your membership will expire on March 31.",
    "example_ja": "あなたの会員資格は3月31日で切れる。",
    "cloze": "membership"
   },
@@ -331,7 +333,8 @@
    "level": "A2",
    "example": "Please wait for me at the main entrance.",
    "example_ja": "正面入口で待っていてください。",
-   "cloze": "entrance"
+   "cloze": "entrance",
+   "also_ok": ["entryway"]
   },
   {
    "id": "v-0034",
@@ -471,7 +474,8 @@
    "level": "B1",
    "example": "I have attached the file to this e-mail.",
    "example_ja": "このメールにファイルを添付しました。",
-   "cloze": "attached"
+   "cloze": "attached",
+   "also_ok": ["append", "appended"]
   },
   {
    "id": "v-0048",
@@ -550,7 +554,7 @@
    "meaning_ja": "登録する・申し込む",
    "level": "B1",
    "example": "More than two hundred people have registered for the race.",
-   "example_ja": "200人以上がそのレースに申し込んだ。",
+   "example_ja": "200人を超える人がそのレースに申し込んだ。",
    "cloze": "registered"
   },
   {
@@ -601,7 +605,8 @@
    "level": "B1",
    "example": "The store extended its opening hours for the holidays.",
    "example_ja": "その店は休暇シーズンに営業時間を延長した。",
-   "cloze": "extended"
+   "cloze": "extended",
+   "also_ok": ["expand", "expanded"]
   },
   {
    "id": "v-0061",
@@ -630,8 +635,9 @@
    "meaning_ja": "謝る",
    "level": "A2",
    "example": "We apologize for the delay.",
-   "example_ja": "遅れておわびいたします。",
-   "cloze": "apologize"
+   "example_ja": "遅延についておわびいたします。",
+   "cloze": "apologize",
+   "also_ok": ["apologise"]
   },
   {
    "id": "v-0064",
@@ -651,7 +657,8 @@
    "level": "B1",
    "example": "Please revise the schedule and send it back to me.",
    "example_ja": "予定表を修正して送り返してください。",
-   "cloze": "revise"
+   "cloze": "revise",
+   "also_ok": ["rework"]
   },
   {
    "id": "v-0066",
@@ -670,7 +677,7 @@
    "meaning_ja": "減らす",
    "level": "B1",
    "example": "The new lights will reduce our energy costs.",
-   "example_ja": "新しい照明で電気代が減る。",
+   "example_ja": "新しい照明でエネルギーの費用が減る。",
    "cloze": "reduce"
   },
   {
@@ -731,7 +738,8 @@
    "level": "A2",
    "example": "The flight was canceled due to heavy snow.",
    "example_ja": "大雪のため、その便は欠航になった。",
-   "cloze": "canceled"
+   "cloze": "canceled",
+   "also_ok": ["cancelled"]
   },
   {
    "id": "v-0074",
@@ -770,8 +778,9 @@
    "meaning_ja": "資格がある",
    "level": "B2",
    "example": "Full-time employees are eligible for the bonus.",
-   "example_ja": "正社員はボーナスを受け取る資格がある。",
-   "cloze": "eligible"
+   "example_ja": "フルタイムの従業員はボーナスを受け取る資格がある。",
+   "cloze": "eligible",
+   "also_ok": ["entitled"]
   },
   {
    "id": "v-0078",
@@ -811,7 +820,8 @@
    "level": "B1",
    "example": "We hired three temporary workers for the busy season.",
    "example_ja": "繁忙期のために臨時の作業員を3人雇った。",
-   "cloze": "temporary"
+   "cloze": "temporary",
+   "also_ok": ["transient"]
   },
   {
    "id": "v-0082",
@@ -821,7 +831,8 @@
    "level": "B1",
    "example": "The course offers practical advice for small businesses.",
    "example_ja": "その講座は小さな事業者に実用的な助言をする。",
-   "cloze": "practical"
+   "cloze": "practical",
+   "also_ok": ["pragmatic"]
   },
   {
    "id": "v-0083",
@@ -841,7 +852,8 @@
    "level": "B2",
    "example": "She has extensive experience in marketing.",
    "example_ja": "彼女はマーケティングの豊富な経験がある。",
-   "cloze": "extensive"
+   "cloze": "extensive",
+   "also_ok": ["expansive"]
   },
   {
    "id": "v-0085",
@@ -871,7 +883,8 @@
    "level": "A2",
    "example": "Our regular hours are 9 A.M. to 6 P.M.",
    "example_ja": "通常の営業時間は午前9時から午後6時までだ。",
-   "cloze": "regular"
+   "cloze": "regular",
+   "also_ok": ["routine"]
   },
   {
    "id": "v-0088",
@@ -901,7 +914,8 @@
    "level": "B1",
    "example": "The hotel offers clean rooms at affordable prices.",
    "example_ja": "そのホテルは清潔な部屋を手ごろな値段で提供している。",
-   "cloze": "affordable"
+   "cloze": "affordable",
+   "also_ok": ["accessible"]
   },
   {
    "id": "v-0091",
@@ -951,7 +965,8 @@
    "level": "B1",
    "example": "The website is temporarily unavailable.",
    "example_ja": "そのウェブサイトは一時的に使えなくなっている。",
-   "cloze": "temporarily"
+   "cloze": "temporarily",
+   "also_ok": ["transiently"]
   },
   {
    "id": "v-0096",
@@ -961,7 +976,8 @@
    "level": "B2",
    "example": "Costs have increased significantly this year.",
    "example_ja": "今年は費用が大幅に増えた。",
-   "cloze": "significantly"
+   "cloze": "significantly",
+   "also_ok": ["substantially"]
   },
   {
    "id": "v-0097",
