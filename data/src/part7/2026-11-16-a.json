@@ -173,10 +173,10 @@
     },
     {
      "id": "p7-0018",
-     "type": "inference",
+     "type": "indicated",
      "scene": "marketing",
      "level": "B1",
-     "prompt": "What is suggested about Quickprint Studio?",
+     "prompt": "What is indicated about Quickprint Studio?",
      "options": [
       "It cannot finish the job before March 16.",
       "It designed the company's booth banner.",
@@ -185,7 +185,7 @@
      ],
      "answer": "c",
      "explanation_ja": "they charge almost twice as much per copy as our regular printer から、いつもの印刷会社より高い。3月16日までに300部刷れると言っているので2つ目は誤り。",
-     "translation_ja": "クイックプリント・スタジオについて何が示唆されているか。",
+     "translation_ja": "クイックプリント・スタジオについて何が示されているか。",
      "translation_options_ja": [
       "3月16日より前に仕上げられない。",
       "その会社のブースの横断幕をデザインした。",
@@ -228,7 +228,7 @@
      "text": "Dear Mr. Mercer,\n\nThank you for being a tenant at Westfield Court for the past two years. Your current lease will expire on July 31. — [1] — If you would like to renew it, please sign the attached agreement and return it to our office by June 15.\n\nThe monthly rent for a new one-year lease will be $1,240, an increase of $40. This reflects the rising cost of maintaining the building. — [2] — However, tenants who renew for two years instead of one will keep their current rent of $1,200 for the entire period. — [3] —\n\nIf you decide not to renew, please notify us in writing at least 30 days before your lease ends so that we can arrange a final inspection of the apartment. — [4] —\n\nSincerely,\nCorinne Abara\nWestfield Properties"
     }
    ],
-   "translation_ja": "宛先：ダニエル・マーサー／差出人：コリーヌ・アバラ（ウェストフィールド・プロパティーズ）／日付：5月12日／件名：賃貸契約の更新について\nマーサー様\nこの2年間、ウェストフィールド・コートにご入居いただきありがとうございます。現在の賃貸契約は7月31日で満了します。更新をご希望の場合は、添付の契約書に署名し、6月15日までに当事務所へご返送ください。\n新しい1年契約の月額家賃は1,240ドルで、40ドルの値上げとなります。これは建物の維持費の上昇を反映したものです。ただし、1年ではなく2年で更新される方は、期間中ずっと現在の家賃1,200ドルのままとなります。［2年間で960ドルの節約になります。］\n更新されない場合は、退去時の点検を手配できるよう、契約終了の30日前までに書面でお知らせください。\nウェストフィールド・プロパティーズ　コリーヌ・アバラ",
+   "translation_ja": "宛先：ダニエル・マーサー／差出人：コリーヌ・アバラ（ウェストフィールド・プロパティーズ）／日付：5月12日／件名：賃貸契約の更新について\nマーサー様\nこの2年間、ウェストフィールド・コートにご入居いただきありがとうございます。現在の賃貸契約は7月31日で満了します。更新をご希望の場合は、添付の契約書に署名し、6月15日までに当事務所へご返送ください。\n新しい1年契約の月額家賃は1,240ドルで、40ドルの値上げとなります。これは建物の維持費の上昇を反映したものです。ただし、1年ではなく2年で更新される方は、期間中ずっと現在の家賃1,200ドルのままとなります。［この選択肢なら、1年契約より毎月40ドル安くなります。］\n更新されない場合は、退去時の点検を手配できるよう、契約終了の30日前までに書面でお知らせください。\nウェストフィールド・プロパティーズ　コリーヌ・アバラ",
    "questions": [
     {
      "id": "p7-0020",
@@ -264,12 +264,12 @@
      "type": "sentence.position",
      "scene": "real.estate",
      "level": "B1",
-     "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Choosing this option would save you $960 over the two years.\"",
+     "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"With this option, you would pay $40 less each month than with a one-year lease.\"",
      "options": ["[1]", "[2]", "[3]", "[4]"],
      "answer": "c",
      "shuffle": false,
-     "explanation_ja": "this option は直前の「2年で更新すれば家賃は1,200ドルのまま」を指す。1か月40ドル×24か月＝960ドルで計算も合う。[2] だと this option が値上げを指すことになり、節約の話につながらない。",
-     "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「この選択肢を選ぶと、2年間で960ドルの節約になります。」",
+     "explanation_ja": "this option は直前の「2年で更新すれば家賃は1,200ドルのまま」を指す。1年契約の1,240ドルより40ドル安いので計算も合う。[2] だと this option がまだ出てきていない2年契約を指せず、つながらない。",
+     "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「この選択肢なら、1年契約より毎月40ドル安くなります。」",
      "translation_options_ja": ["[1]", "[2]", "[3]", "[4]"]
     }
    ]
@@ -432,7 +432,7 @@
      "type": "indicated",
      "scene": "hr",
      "level": "B1",
-     "prompt": "What is indicated about the workshops?",
+     "prompt": "What is indicated about the October workshops?",
      "options": [
       "They are open to the public.",
       "They take place in the afternoon.",
@@ -440,8 +440,8 @@
       "They require a registration fee."
      ],
      "answer": "b",
-     "explanation_ja": "文書1に All workshops run from 2:00 P.M. to 4:30 P.M. とある。講師は3人で、社員向けの研修であり、参加費には触れていない。",
-     "translation_ja": "研修について何が示されているか。",
+     "explanation_ja": "文書1に All workshops run from 2:00 P.M. to 4:30 P.M. とある（12月の追加の回は午前だが、設問は10月の研修について）。講師は3人で、社員向けの研修であり、参加費には触れていない。",
+     "translation_ja": "10月の研修について何が示されているか。",
      "translation_options_ja": ["一般の人も参加できる。", "午後に行われる。", "すべて同じ講師が担当する。", "参加費が必要だ。"]
     },
     {
@@ -498,16 +498,16 @@
      "prompt": "What is suggested about Mr. Achebe?",
      "options": [
       "He works in the Human Resources Department.",
-      "He will qualify for a certificate if he attends on December 8.",
+      "He may be able to earn a certificate this year.",
       "He will teach a workshop in December.",
       "He has taken a writing workshop with Mr. Haddad."
      ],
      "answer": "b",
-     "explanation_ja": "【3文書の照合】3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで10月27日に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば3回になる。所属は生産部。",
+     "explanation_ja": "【3文書の照合】今年3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで、10月27日の回に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば今年3回になる。所属は生産部で、ハダッドさんの文書の研修は受けていない。",
      "translation_ja": "アチェベさんについて何が示唆されているか。",
      "translation_options_ja": [
       "人事部で働いている。",
-      "12月8日に参加すれば修了証の条件を満たす。",
+      "今年中に修了証をもらえる可能性がある。",
       "12月に研修の講師を務める。",
       "ハダッドさんの文書の研修を受けたことがある。"
      ]

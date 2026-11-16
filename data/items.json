@@ -8806,9 +8806,9 @@
   "id": "p7-0018",
   "part": 7,
   "set_id": "p7-s006",
-  "type": "inference",
+  "type": "indicated",
   "scene": "marketing",
-  "prompt": "What is suggested about Quickprint Studio?",
+  "prompt": "What is indicated about Quickprint Studio?",
   "options": [
    {
     "id": "a",
@@ -8830,7 +8830,7 @@
   "answer": "c",
   "shuffle": true,
   "explanation_ja": "they charge almost twice as much per copy as our regular printer から、いつもの印刷会社より高い。3月16日までに300部刷れると言っているので2つ目は誤り。",
-  "translation_ja": "クイックプリント・スタジオについて何が示唆されているか。",
+  "translation_ja": "クイックプリント・スタジオについて何が示されているか。",
   "translation_options_ja": [
    "3月16日より前に仕上げられない。",
    "その会社のブースの横断幕をデザインした。",
@@ -8838,7 +8838,7 @@
    "ホーム・リビング博にブースを出す。"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9104,7 +9104,7 @@
   "set_id": "p7-s007",
   "type": "sentence.position",
   "scene": "real.estate",
-  "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Choosing this option would save you $960 over the two years.\"",
+  "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"With this option, you would pay $40 less each month than with a one-year lease.\"",
   "options": [
    {
     "id": "a",
@@ -9125,8 +9125,8 @@
   ],
   "answer": "c",
   "shuffle": false,
-  "explanation_ja": "this option は直前の「2年で更新すれば家賃は1,200ドルのまま」を指す。1か月40ドル×24か月＝960ドルで計算も合う。[2] だと this option が値上げを指すことになり、節約の話につながらない。",
-  "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「この選択肢を選ぶと、2年間で960ドルの節約になります。」",
+  "explanation_ja": "this option は直前の「2年で更新すれば家賃は1,200ドルのまま」を指す。1年契約の1,240ドルより40ドル安いので計算も合う。[2] だと this option がまだ出てきていない2年契約を指せず、つながらない。",
+  "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「この選択肢なら、1年契約より毎月40ドル安くなります。」",
   "translation_options_ja": [
    "[1]",
    "[2]",
@@ -9134,7 +9134,7 @@
    "[4]"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9548,7 +9548,7 @@
   "set_id": "p7-s009",
   "type": "indicated",
   "scene": "hr",
-  "prompt": "What is indicated about the workshops?",
+  "prompt": "What is indicated about the October workshops?",
   "options": [
    {
     "id": "a",
@@ -9569,8 +9569,8 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "文書1に All workshops run from 2:00 P.M. to 4:30 P.M. とある。講師は3人で、社員向けの研修であり、参加費には触れていない。",
-  "translation_ja": "研修について何が示されているか。",
+  "explanation_ja": "文書1に All workshops run from 2:00 P.M. to 4:30 P.M. とある（12月の追加の回は午前だが、設問は10月の研修について）。講師は3人で、社員向けの研修であり、参加費には触れていない。",
+  "translation_ja": "10月の研修について何が示されているか。",
   "translation_options_ja": [
    "一般の人も参加できる。",
    "午後に行われる。",
@@ -9578,7 +9578,7 @@
    "参加費が必要だ。"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9852,7 +9852,7 @@
    },
    {
     "id": "b",
-    "text": "He will qualify for a certificate if he attends on December 8."
+    "text": "He may be able to earn a certificate this year."
    },
    {
     "id": "c",
@@ -9865,16 +9865,16 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "【3文書の照合】3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで10月27日に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば3回になる。所属は生産部。",
+  "explanation_ja": "【3文書の照合】今年3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで、10月27日の回に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば今年3回になる。所属は生産部で、ハダッドさんの文書の研修は受けていない。",
   "translation_ja": "アチェベさんについて何が示唆されているか。",
   "translation_options_ja": [
    "人事部で働いている。",
-   "12月8日に参加すれば修了証の条件を満たす。",
+   "今年中に修了証をもらえる可能性がある。",
    "12月に研修の講師を務める。",
    "ハダッドさんの文書の研修を受けたことがある。"
   ],
   "level": "B2",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
