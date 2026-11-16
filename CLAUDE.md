@@ -47,8 +47,8 @@
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。
 
 ## Part 1 の写真
-- 試作の3枚は Gamma の画像生成。これからは、先生が GPT か Gemini（nano banana）に `images/part1/PROMPTS.md` のプロンプトを渡して作る。白黒・16:9・文字なし。
-- 先生が `images/part1/incoming/<item id>.png` を push → `python3 scripts/prep_photo.py` で 1600px 幅の WebP（`images/part1/<item id>.webp`）にする → **写真を見てから**選択肢を書く（プロンプトどおりに描かれないことが多いため）。
+- 試作の3枚は Gamma の画像生成。これからは、先生が Orca 経由で GPT と Gemini（nano banana）の両方に `images/part1/PROMPTS.md` の指示文を渡して作る。白黒・16:9・文字なし。
+- 先生が `images/part1/incoming/<item id>-gpt.png`・`<item id>-gemini.png` を push → Claude が両方を見比べて良い方を選ぶ（文字なし・手や顔が自然・動作がはっきり・人のいない写真に人がいない）→ `python3 scripts/prep_photo.py p1-0004=gemini …` で 1600px 幅の WebP（`images/part1/<item id>.webp`）にする → **写真を見てから**選択肢を書く（プロンプトどおりに描かれないことが多いため）。
 
 ## 次にやること（TODO）
 1. ~~問題データの置き場所を変える~~ → 済み（`data/src/part{N}/*.json` を読む形。試作49問は `pilot-v0.json` に移した。出力は移行前と同一）
