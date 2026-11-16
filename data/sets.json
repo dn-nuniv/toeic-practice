@@ -183,6 +183,404 @@
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
  },
  {
+  "id": "p3-s003",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "restaurant",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female",
+    "name": "Linda"
+   },
+   {
+    "id": "M",
+    "gender": "male",
+    "name": "Omar"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Good morning, Fairview Produce. This is Linda speaking."
+   },
+   {
+    "speaker": "M",
+    "text": "Hi, Linda. This is Omar from Café Rosetta. Our vegetable delivery came this morning, but the tomatoes are much too soft to use. We can't serve them in our salads."
+   },
+   {
+    "speaker": "W",
+    "text": "I'm very sorry. That batch must have been stored at the wrong temperature. I can send replacements on our afternoon truck."
+   },
+   {
+    "speaker": "M",
+    "text": "Well, our lunch rush starts at eleven thirty."
+   },
+   {
+    "speaker": "W",
+    "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the first box."
+   },
+   {
+    "speaker": "M",
+    "text": "Thank you. I appreciate that."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0007",
+   "p3-0008",
+   "p3-0009"
+  ],
+  "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、最初の1箱の代金はいただきません。\n男性：ありがとう。助かります。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
+  "id": "p3-s004",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "it",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M1",
+    "gender": "male",
+    "name": "Raj"
+   },
+   {
+    "id": "M2",
+    "gender": "male",
+    "name": "Peter"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Raj, Peter, do you have a minute? I wanted to ask how the new project-tracking software is working for your teams."
+   },
+   {
+    "speaker": "M1",
+    "text": "Mostly well. It's much easier to see who's working on what. But some of my team members say the mobile version keeps logging them out."
+   },
+   {
+    "speaker": "M2",
+    "text": "We've had the same issue. It happens whenever someone switches between the app and their e-mail."
+   },
+   {
+    "speaker": "W",
+    "text": "Thanks for letting me know. The vendor is releasing an update next week that's supposed to fix that."
+   },
+   {
+    "speaker": "M1",
+    "text": "That's good to hear. Until then, maybe we should just use the desktop version."
+   },
+   {
+    "speaker": "W",
+    "text": "Good idea. I'll send a message to all staff this afternoon recommending that."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0010",
+   "p3-0011",
+   "p3-0012"
+  ],
+  "translation_ja": "女性：ラージ、ピーター、ちょっといい？新しいプロジェクト管理ソフトがそれぞれのチームでどうか聞きたくて。\n男性1（ラージ）：おおむねいいですよ。誰が何をしているかずっとわかりやすくなりました。でも、モバイル版だと何度もログアウトしてしまうとチームの何人かが言っています。\n男性2（ピーター）：うちも同じです。アプリとメールを切り替えるたびに起きるんです。\n女性：教えてくれてありがとう。来週、それを直すはずの更新を業者が出すことになっているわ。\n男性1：それはよかった。それまではデスクトップ版を使うのがいいかもしれませんね。\n女性：いい考えね。今日の午後、そうするよう勧めるメッセージを全員に送るわ。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
+  "id": "p3-s005",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "travel",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Excuse me. I was supposed to take the nine fifteen express to Westbridge, but the board says it's been canceled."
+   },
+   {
+    "speaker": "M",
+    "text": "Yes, I'm sorry. There's a problem with the signals on that line this morning. You can use your ticket on any other train today."
+   },
+   {
+    "speaker": "W",
+    "text": "I have a meeting in Westbridge at eleven. The local train takes over an hour, doesn't it?"
+   },
+   {
+    "speaker": "M",
+    "text": "That's right. Your best option would be the next express. It gets to Westbridge in forty minutes."
+   },
+   {
+    "speaker": "W",
+    "text": "OK, I'll take that one. Is there somewhere I can get a coffee while I wait?"
+   },
+   {
+    "speaker": "M",
+    "text": "There's a café just past the ticket gates, on your left."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Departures to Westbridge",
+   "columns": [
+    "Train",
+    "Departs",
+    "Platform",
+    "Status"
+   ],
+   "rows": [
+    [
+     "Express 210",
+     "9:15",
+     "2",
+     "Canceled"
+    ],
+    [
+     "Local 312",
+     "9:40",
+     "5",
+     "On time"
+    ],
+    [
+     "Express 214",
+     "10:05",
+     "2",
+     "On time"
+    ],
+    [
+     "Local 318",
+     "10:30",
+     "5",
+     "Delayed"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p3-0013",
+   "p3-0014",
+   "p3-0015"
+  ],
+  "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと1時間以上かかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
+  "id": "p3-s006",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "events",
+  "speakers": [
+   {
+    "id": "W1",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male",
+    "name": "Hiroshi"
+   },
+   {
+    "id": "W2",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W1",
+    "text": "So, we need to decide on a location for the company picnic. Hiroshi, did you get a quote from Maple Grove Park?"
+   },
+   {
+    "speaker": "M",
+    "text": "I did. The large pavilion costs five hundred dollars for the day, and it holds up to a hundred and fifty people."
+   },
+   {
+    "speaker": "W2",
+    "text": "We're expecting about two hundred employees this year, though."
+   },
+   {
+    "speaker": "M",
+    "text": "Oh, right. I forgot that the new sales team joined in the spring."
+   },
+   {
+    "speaker": "W1",
+    "text": "What about Riverside Gardens? They have an outdoor space for up to three hundred people."
+   },
+   {
+    "speaker": "W2",
+    "text": "I went to a wedding there last year. It was lovely, and there's plenty of parking."
+   },
+   {
+    "speaker": "W1",
+    "text": "Then let's check whether it's available on June twelfth. Hiroshi, could you call them today?"
+   },
+   {
+    "speaker": "M",
+    "text": "Sure. I'll do it right after lunch."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0016",
+   "p3-0017",
+   "p3-0018"
+  ],
+  "translation_ja": "女性1：では、社内ピクニックの場所を決めましょう。ヒロシ、メープル・グローブ公園の見積もりはもらった？\n男性（ヒロシ）：もらいました。大きいパビリオンは1日500ドルで、150人まで入れます。\n女性2：でも、今年は200人くらいの社員が来る見込みよ。\n男性：あ、そうでした。春に新しい営業チームが加わったのを忘れていました。\n女性1：リバーサイド・ガーデンズはどう？300人まで入れる屋外のスペースがあるわ。\n女性2：去年そこで結婚式に出たの。すてきな所で、駐車場もたくさんあるわ。\n女性1：じゃあ、6月12日に空いているか確かめましょう。ヒロシ、今日電話してくれる？\n男性：わかりました。昼食のすぐ後にかけます。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
+  "id": "p3-s007",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "marketing",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   },
+   {
+    "id": "W",
+    "gender": "female",
+    "name": "Sarah"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "M",
+    "text": "Hi, Sarah. Are you going to the session on customer data privacy? I thought we could sit together."
+   },
+   {
+    "speaker": "W",
+    "text": "I'd like to, but my flight was delayed this morning, so I'm still at the airport. I won't get to the conference center until around noon."
+   },
+   {
+    "speaker": "M",
+    "text": "That's too bad. The speaker for that session is supposed to be excellent."
+   },
+   {
+    "speaker": "W",
+    "text": "Do you know if the sessions are being recorded?"
+   },
+   {
+    "speaker": "M",
+    "text": "I'm not sure. I'll ask at the registration desk and send you a text message."
+   },
+   {
+    "speaker": "W",
+    "text": "Thanks. At least I'll be there in time for the one right after lunch."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Conference Schedule — Room B",
+   "columns": [
+    "Time",
+    "Session"
+   ],
+   "rows": [
+    [
+     "10:00",
+     "Digital Marketing Trends"
+    ],
+    [
+     "11:00",
+     "Customer Data Privacy"
+    ],
+    [
+     "1:30",
+     "Social Media Strategy"
+    ],
+    [
+     "3:00",
+     "Building Brand Loyalty"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p3-0019",
+   "p3-0020",
+   "p3-0021"
+  ],
+  "translation_ja": "男性：やあ、サラ。顧客データのプライバシーのセッションに行く？一緒に座れたらと思って。\n女性：行きたいんだけど、今朝の飛行機が遅れて、まだ空港にいるの。会場に着くのはお昼ごろになるわ。\n男性：それは残念だね。あのセッションの講演者はすごくいいらしいよ。\n女性：セッションは録画されているか知ってる？\n男性：わからないな。受付で聞いて、メッセージを送るよ。\n女性：ありがとう。少なくとも、昼食のすぐ後のには間に合うわ。\n【図】会議の予定　B室：10:00 デジタルマーケティングの動向／11:00 顧客データのプライバシー／1:30 ソーシャルメディア戦略／3:00 ブランドへの愛着の育て方",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
+  "id": "p3-s008",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "fitness",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Hi. I'd like to cancel my membership. I'm moving to Portland at the end of the month."
+   },
+   {
+    "speaker": "M",
+    "text": "I'm sorry to hear you're leaving. Actually, we have a location in Portland, on Burnside Avenue. You could just transfer your membership there."
+   },
+   {
+    "speaker": "W",
+    "text": "Really? I didn't know that. Would I have to pay a new sign-up fee?"
+   },
+   {
+    "speaker": "M",
+    "text": "Not at all. Transfers are free. I just need you to fill out this form."
+   },
+   {
+    "speaker": "W",
+    "text": "Great. Do you have a pen?"
+   },
+   {
+    "speaker": "M",
+    "text": "Here you go. Once you've finished, I'll e-mail you a confirmation along with the class schedule for the Portland location."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0022",
+   "p3-0023",
+   "p3-0024"
+  ],
+  "translation_ja": "女性：こんにちは。会員をやめたいのですが。月末にポートランドに引っ越すんです。\n男性：お辞めになるのは残念です。実は、ポートランドのバーンサイド通りにも店舗があります。そちらに会員資格を移すこともできますよ。\n女性：本当ですか。知りませんでした。新しく入会金を払う必要はありますか。\n男性：いいえ、まったく。移籍は無料です。この用紙に記入していただくだけです。\n女性：よかった。ペンはありますか。\n男性：どうぞ。記入が終わったら、確認のメールをポートランド店のレッスン予定表と一緒にお送りします。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a"
+ },
+ {
   "id": "p4-s001",
   "part": 4,
   "kind": "announcement",
@@ -256,6 +654,294 @@
   "translation_ja": "もしもし、ブライトライン印刷のカレン・リーです。御社の創立記念行事用にご注文いただいたパンフレットの件でお電話しました。デザインの校正刷りはできあがったのですが、表紙の写真について確認があります。お送りいただいた画像ファイルが少し小さいため、印刷するとぼやけて見えるかもしれません。解像度の高いものがあれば、明日の正午までにメールでお送りいただけますか。そうすれば、予定どおり来週の水曜日にパンフレットをお届けできます。よろしくお願いします。",
   "status": "draft",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p4-s003",
+  "part": 4,
+  "kind": "tour",
+  "scene": "travel",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female",
+    "name": "Elise"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Good morning, everyone, and welcome to the Harborview Historic District walking tour. My name is Elise, and I'll be your guide for the next two hours."
+   },
+   {
+    "speaker": "N",
+    "text": "We'll start here at the old customs house, then walk along the waterfront to the lighthouse. The path is a bit uneven in some places, so please watch your step."
+   },
+   {
+    "speaker": "N",
+    "text": "Now, I know a few of you asked about taking photos inside the museum at the end of the tour. Well, the museum changed its rules last month."
+   },
+   {
+    "speaker": "N",
+    "text": "But you're welcome to take as many pictures as you like at the lighthouse. The view from the top is wonderful. All right, let's get started."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0007",
+   "p4-0008",
+   "p4-0009"
+  ],
+  "translation_ja": "皆さん、おはようございます。ハーバービュー歴史地区のウォーキングツアーへようこそ。エリーズと申します。これから2時間、ご案内します。\nまずここ、旧税関から出発し、海沿いを歩いて灯台まで行きます。ところどころ道がでこぼこしていますので、足元にお気をつけください。\nさて、ツアーの最後に行く博物館の中で写真を撮れるかと何人かの方に聞かれました。実は、博物館は先月規則を変えたんです。\nでも、灯台では好きなだけ写真を撮っていただけます。上からの眺めはすばらしいですよ。では、出発しましょう。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
+ },
+ {
+  "id": "p4-s004",
+  "part": 4,
+  "kind": "voicemail",
+  "scene": "customer.service",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male",
+    "name": "Victor"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Hello, this is Victor from Glenwood Auto Service, calling for Ms. Patel about your car. We've finished inspecting it, and I've e-mailed you an estimate for the work we recommend."
+   },
+   {
+    "speaker": "N",
+    "text": "The most important item is the brake pads. They're quite worn, and they should be replaced as soon as possible. The other items on the list can wait until your next visit if you'd prefer."
+   },
+   {
+    "speaker": "N",
+    "text": "Also, I noticed that one of the prices on the estimate is wrong. The wiper blades are actually ten dollars more than what's listed, because we only have the premium type in stock."
+   },
+   {
+    "speaker": "N",
+    "text": "Please call me back at 555-0148 to let us know what you'd like us to do. We close at six today."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Repair Estimate",
+   "columns": [
+    "Item",
+    "Cost"
+   ],
+   "rows": [
+    [
+     "Brake pads",
+     "$180"
+    ],
+    [
+     "Oil change",
+     "$45"
+    ],
+    [
+     "Tire rotation",
+     "$30"
+    ],
+    [
+     "Wiper blades",
+     "$25"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p4-0010",
+   "p4-0011",
+   "p4-0012"
+  ],
+  "translation_ja": "もしもし、グレンウッド・オートサービスのビクターです。パテル様、お車の件でお電話しました。点検が終わりましたので、おすすめする作業の見積書をメールでお送りしました。\nいちばん大事なのはブレーキパッドです。かなりすり減っているので、できるだけ早く交換したほうがいいです。リストのほかの項目は、よろしければ次回のご来店まで待っても大丈夫です。\nそれから、見積書の金額の1つが間違っていました。ワイパーブレードは、在庫が高級品しかないため、実際には書いてある額より10ドル高くなります。\nどうなさるか、555-0148 に折り返しお電話ください。本日は6時に閉店します。\n【図】修理の見積書：ブレーキパッド180ドル／オイル交換45ドル／タイヤのローテーション30ドル／ワイパーブレード25ドル",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
+ },
+ {
+  "id": "p4-s005",
+  "part": 4,
+  "kind": "radio",
+  "scene": "business.news",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "You're listening to Morning Update on Radio Delmont. In business news, the Delmont City Council approved plans yesterday for a new public market on Fulton Street."
+   },
+   {
+    "speaker": "N",
+    "text": "The market will have more than forty stalls selling local produce, baked goods, and crafts. Construction is scheduled to begin in March, and the market is expected to open next fall."
+   },
+   {
+    "speaker": "N",
+    "text": "Council member Grace Holt said the project will bring more visitors downtown and create opportunities for small businesses. Local farmers who are interested in renting a stall can apply on the city's Web site starting next Monday."
+   },
+   {
+    "speaker": "N",
+    "text": "Coming up after the break, we'll have the weekend weather forecast."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0013",
+   "p4-0014",
+   "p4-0015"
+  ],
+  "translation_ja": "ラジオ・デルモントの「モーニング・アップデート」をお聞きの皆さん。経済ニュースです。デルモント市議会は昨日、フルトン通りに新しい公設市場をつくる計画を承認しました。\n市場には、地元の野菜や果物、パン・菓子、工芸品を売る40以上の店が入ります。工事は3月に始まる予定で、市場は来年の秋に開く見込みです。\nグレース・ホールト市議は、この計画で中心街を訪れる人が増え、小さな事業者に機会が生まれると述べました。店を借りたい地元の農家は、来週の月曜日から市のウェブサイトで申し込めます。\nこの後は週末の天気予報をお伝えします。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
+ },
+ {
+  "id": "p4-s006",
+  "part": 4,
+  "kind": "meeting",
+  "scene": "sales",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Before we finish today's meeting, I'd like to look at last quarter's sales figures. As you can see, the East region did the best, which isn't surprising, since that's where we opened two new stores."
+   },
+   {
+    "speaker": "N",
+    "text": "What concerns me is the region with the lowest sales. Our team there lost two experienced sales representatives in the spring, and we haven't replaced them yet."
+   },
+   {
+    "speaker": "N",
+    "text": "So, I've asked Human Resources to make hiring for that region a top priority. In the meantime, I'd like a couple of you from the North team to go there and help out for a few weeks. Please let me know by Friday if you're available."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Quarterly Sales by Region",
+   "columns": [
+    "Region",
+    "Sales"
+   ],
+   "rows": [
+    [
+     "North",
+     "$1.2 million"
+    ],
+    [
+     "South",
+     "$0.9 million"
+    ],
+    [
+     "East",
+     "$1.5 million"
+    ],
+    [
+     "West",
+     "$0.7 million"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p4-0016",
+   "p4-0017",
+   "p4-0018"
+  ],
+  "translation_ja": "今日の会議を終える前に、前の四半期の売上を見ておきたいと思います。ご覧のとおり、いちばん良かったのは東地域です。新しい店を2つ開いた地域なので、驚くことではありません。\n気になるのは、売上がいちばん低い地域です。そこのチームは春に経験のある営業担当者を2人失い、まだ補充できていません。\nそこで、人事部にその地域の採用を最優先にするよう頼みました。それまでの間、北チームから2人ほど、数週間そちらに行って手伝ってほしいと思います。行ける人は金曜日までに知らせてください。\n【図】地域別の四半期売上：北120万ドル／南90万ドル／東150万ドル／西70万ドル",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
+ },
+ {
+  "id": "p4-s007",
+  "part": 4,
+  "kind": "introduction",
+  "scene": "hr",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Good afternoon, and thank you all for coming to today's workshop on time management. I'm pleased to introduce our guest speaker, Dr. Monica Reyes."
+   },
+   {
+    "speaker": "N",
+    "text": "Dr. Reyes has spent the past fifteen years helping companies improve their productivity, and her book, The Organized Week, has been translated into twelve languages."
+   },
+   {
+    "speaker": "N",
+    "text": "Before we begin, just a quick note. Dr. Reyes will be taking questions at the end of her talk, so please write yours on the cards on your tables. We have a lot of people here today."
+   },
+   {
+    "speaker": "N",
+    "text": "Also, copies of her book are available at the back of the room. Please join me in welcoming Dr. Reyes."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0019",
+   "p4-0020",
+   "p4-0021"
+  ],
+  "translation_ja": "皆さん、こんにちは。今日の時間管理のワークショップにお集まりいただきありがとうございます。講師のモニカ・レイエス博士をご紹介します。\nレイエス博士はこの15年間、企業の生産性向上を支援してきました。著書『整った1週間』は12の言語に翻訳されています。\n始める前に、ひと言お知らせです。レイエス博士は講演の最後に質問を受けますので、質問はテーブルのカードに書いてください。今日はたくさんの方がいらしていますので。\nまた、博士の本は部屋の後ろにございます。では、拍手でレイエス博士をお迎えください。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
+ },
+ {
+  "id": "p4-s008",
+  "part": 4,
+  "kind": "announcement",
+  "scene": "retail",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Attention, Greenleaf Market shoppers. For the next thirty minutes, all bakery items are twenty percent off. That includes our fresh breads, cakes, and cookies."
+   },
+   {
+    "speaker": "N",
+    "text": "Also, don't forget to stop by aisle seven, where our staff are offering free samples of a new line of fruit juices from a local company, Sunpath Farms."
+   },
+   {
+    "speaker": "N",
+    "text": "And finally, a reminder that our store will be closing early this Sunday, at five P.M., so that we can install new self-checkout machines. Thank you for shopping at Greenleaf Market."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0022",
+   "p4-0023",
+   "p4-0024"
+  ],
+  "translation_ja": "グリーンリーフ・マーケットをご利用のお客さまにお知らせします。これから30分間、パン売り場の商品はすべて20パーセント引きです。焼きたてのパン、ケーキ、クッキーも対象です。\nまた、7番通路にもぜひお立ち寄りください。地元の会社サンパス・ファームズの新しいフルーツジュースを、スタッフが無料で試飲していただいています。\n最後に、今週の日曜日は新しいセルフレジを設置するため、午後5時に早めに閉店いたします。グリーンリーフ・マーケットをご利用いただきありがとうございます。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a"
  },
  {
   "id": "p6-s001",

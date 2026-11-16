@@ -1,0 +1,432 @@
+{
+ "batch": "2026-11-16-p4-a",
+ "source": "2026-11-16 / part4 batch a",
+ "note": "blueprint に沿った Part 4 の6セット18問（図表2・発言の意図2）",
+ "sets": [
+  {
+   "id": "p4-s003",
+   "kind": "tour",
+   "scene": "travel",
+   "speakers": [{"id": "N", "gender": "female", "name": "Elise"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Good morning, everyone, and welcome to the Harborview Historic District walking tour. My name is Elise, and I'll be your guide for the next two hours."
+    },
+    {
+     "speaker": "N",
+     "text": "We'll start here at the old customs house, then walk along the waterfront to the lighthouse. The path is a bit uneven in some places, so please watch your step."
+    },
+    {
+     "speaker": "N",
+     "text": "Now, I know a few of you asked about taking photos inside the museum at the end of the tour. Well, the museum changed its rules last month."
+    },
+    {
+     "speaker": "N",
+     "text": "But you're welcome to take as many pictures as you like at the lighthouse. The view from the top is wonderful. All right, let's get started."
+    }
+   ],
+   "translation_ja": "皆さん、おはようございます。ハーバービュー歴史地区のウォーキングツアーへようこそ。エリーズと申します。これから2時間、ご案内します。\nまずここ、旧税関から出発し、海沿いを歩いて灯台まで行きます。ところどころ道がでこぼこしていますので、足元にお気をつけください。\nさて、ツアーの最後に行く博物館の中で写真を撮れるかと何人かの方に聞かれました。実は、博物館は先月規則を変えたんです。\nでも、灯台では好きなだけ写真を撮っていただけます。上からの眺めはすばらしいですよ。では、出発しましょう。",
+   "questions": [
+    {
+     "id": "p4-0007",
+     "type": "listener.identity",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "Who most likely are the listeners?",
+     "options": ["Tourists", "Museum employees", "Lighthouse workers", "Construction workers"],
+     "answer": "a",
+     "explanation_ja": "welcome to the ... walking tour、I'll be your guide とあり、ツアーの参加者に話している。",
+     "translation_ja": "聞き手は誰だと考えられるか。",
+     "translation_options_ja": ["観光客", "博物館の職員", "灯台の職員", "建設作業員"]
+    },
+    {
+     "id": "p4-0008",
+     "type": "detail",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "What does the speaker warn the listeners about?",
+     "options": ["Strong winds", "Uneven walking surfaces", "Crowded streets", "Early closing times"],
+     "answer": "b",
+     "explanation_ja": "The path is a bit uneven in some places, so please watch your step とある。",
+     "translation_ja": "話し手は聞き手に何について注意しているか。",
+     "translation_options_ja": ["強い風", "でこぼこした道", "混雑した通り", "早い閉館時間"]
+    },
+    {
+     "id": "p4-0009",
+     "type": "intention",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "Why does the speaker say, \"the museum changed its rules last month\"?",
+     "options": [
+      "To explain why the tour is shorter",
+      "To recommend a new exhibit",
+      "To indicate that photography is not allowed",
+      "To announce a change in ticket prices"
+     ],
+     "answer": "c",
+     "explanation_ja": "博物館の中で写真を撮れるかという質問への答えで、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
+     "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
+     "translation_options_ja": ["ツアーが短くなった理由を説明するため", "新しい展示を勧めるため", "写真撮影が許されていないことを伝えるため", "入場料の変更を知らせるため"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s004",
+   "kind": "voicemail",
+   "scene": "customer.service",
+   "speakers": [{"id": "N", "gender": "male", "name": "Victor"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Hello, this is Victor from Glenwood Auto Service, calling for Ms. Patel about your car. We've finished inspecting it, and I've e-mailed you an estimate for the work we recommend."
+    },
+    {
+     "speaker": "N",
+     "text": "The most important item is the brake pads. They're quite worn, and they should be replaced as soon as possible. The other items on the list can wait until your next visit if you'd prefer."
+    },
+    {
+     "speaker": "N",
+     "text": "Also, I noticed that one of the prices on the estimate is wrong. The wiper blades are actually ten dollars more than what's listed, because we only have the premium type in stock."
+    },
+    {
+     "speaker": "N",
+     "text": "Please call me back at 555-0148 to let us know what you'd like us to do. We close at six today."
+    }
+   ],
+   "graphic": {
+    "title": "Repair Estimate",
+    "columns": ["Item", "Cost"],
+    "rows": [["Brake pads", "$180"], ["Oil change", "$45"], ["Tire rotation", "$30"], ["Wiper blades", "$25"]]
+   },
+   "translation_ja": "もしもし、グレンウッド・オートサービスのビクターです。パテル様、お車の件でお電話しました。点検が終わりましたので、おすすめする作業の見積書をメールでお送りしました。\nいちばん大事なのはブレーキパッドです。かなりすり減っているので、できるだけ早く交換したほうがいいです。リストのほかの項目は、よろしければ次回のご来店まで待っても大丈夫です。\nそれから、見積書の金額の1つが間違っていました。ワイパーブレードは、在庫が高級品しかないため、実際には書いてある額より10ドル高くなります。\nどうなさるか、555-0148 に折り返しお電話ください。本日は6時に閉店します。\n【図】修理の見積書：ブレーキパッド180ドル／オイル交換45ドル／タイヤのローテーション30ドル／ワイパーブレード25ドル",
+   "questions": [
+    {
+     "id": "p4-0010",
+     "type": "speaker.identity",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "Where does the speaker most likely work?",
+     "options": ["At a car rental agency", "At a gas station", "At a parking garage", "At a car repair shop"],
+     "answer": "d",
+     "explanation_ja": "Glenwood Auto Service と名乗り、車の点検をしてブレーキパッドの交換などを勧めている。",
+     "translation_ja": "話し手はどこで働いていると考えられるか。",
+     "translation_options_ja": ["レンタカー会社", "ガソリンスタンド", "立体駐車場", "自動車修理工場"]
+    },
+    {
+     "id": "p4-0011",
+     "type": "graphic",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "Look at the graphic. Which amount will most likely change?",
+     "options": ["$180", "$45", "$30", "$25"],
+     "answer": "d",
+     "shuffle": false,
+     "explanation_ja": "The wiper blades are actually ten dollars more than what's listed とある。図でワイパーブレードは25ドル（実際は35ドル）。ブレーキパッドは「いちばん大事」と言われているだけで金額の変更ではない。",
+     "translation_ja": "図を見よ。どの金額が変わると考えられるか。",
+     "translation_options_ja": ["180ドル", "45ドル", "30ドル", "25ドル"]
+    },
+    {
+     "id": "p4-0012",
+     "type": "request",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "What does the speaker ask the listener to do?",
+     "options": ["Return his call", "Pick up her car before six", "Pay a deposit", "Visit the shop tomorrow"],
+     "answer": "a",
+     "explanation_ja": "Please call me back ... to let us know what you'd like us to do とある。6時は閉店時刻を伝えているだけで、車を取りに来るようには言っていない。",
+     "translation_ja": "話し手は聞き手に何をするよう頼んでいるか。",
+     "translation_options_ja": ["折り返し電話する", "6時までに車を取りに来る", "手付金を払う", "明日店に来る"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s005",
+   "kind": "radio",
+   "scene": "business.news",
+   "speakers": [{"id": "N", "gender": "male"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "You're listening to Morning Update on Radio Delmont. In business news, the Delmont City Council approved plans yesterday for a new public market on Fulton Street."
+    },
+    {
+     "speaker": "N",
+     "text": "The market will have more than forty stalls selling local produce, baked goods, and crafts. Construction is scheduled to begin in March, and the market is expected to open next fall."
+    },
+    {
+     "speaker": "N",
+     "text": "Council member Grace Holt said the project will bring more visitors downtown and create opportunities for small businesses. Local farmers who are interested in renting a stall can apply on the city's Web site starting next Monday."
+    },
+    {"speaker": "N", "text": "Coming up after the break, we'll have the weekend weather forecast."}
+   ],
+   "translation_ja": "ラジオ・デルモントの「モーニング・アップデート」をお聞きの皆さん。経済ニュースです。デルモント市議会は昨日、フルトン通りに新しい公設市場をつくる計画を承認しました。\n市場には、地元の野菜や果物、パン・菓子、工芸品を売る40以上の店が入ります。工事は3月に始まる予定で、市場は来年の秋に開く見込みです。\nグレース・ホールト市議は、この計画で中心街を訪れる人が増え、小さな事業者に機会が生まれると述べました。店を借りたい地元の農家は、来週の月曜日から市のウェブサイトで申し込めます。\nこの後は週末の天気予報をお伝えします。",
+   "questions": [
+    {
+     "id": "p4-0013",
+     "type": "main.topic",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "What is the broadcast mainly about?",
+     "options": [
+      "A farming competition",
+      "A planned market",
+      "A city election",
+      "A road construction project"
+     ],
+     "answer": "b",
+     "explanation_ja": "the Delmont City Council approved plans yesterday for a new public market とあり、その市場の内容と予定を伝えている。",
+     "translation_ja": "この放送は主に何についてのものか。",
+     "translation_options_ja": ["農業の競技会", "計画中の市場", "市の選挙", "道路工事の計画"]
+    },
+    {
+     "id": "p4-0014",
+     "type": "detail",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "According to the speaker, when will the market open?",
+     "options": ["In March", "Next Monday", "Next fall", "This weekend"],
+     "answer": "c",
+     "explanation_ja": "the market is expected to open next fall とある。3月は工事が始まる時期、来週の月曜日は申し込みが始まる日。",
+     "translation_ja": "話し手によると、市場はいつ開くか。",
+     "translation_options_ja": ["3月", "来週の月曜日", "来年の秋", "今週末"]
+    },
+    {
+     "id": "p4-0015",
+     "type": "next.action",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "What will listeners hear after the break?",
+     "options": ["An interview with Ms. Holt", "A list of local farms", "Sports news", "A weather forecast"],
+     "answer": "d",
+     "explanation_ja": "Coming up after the break, we'll have the weekend weather forecast とある。",
+     "translation_ja": "聞き手は休憩の後に何を聞くか。",
+     "translation_options_ja": ["ホールト氏へのインタビュー", "地元の農場の一覧", "スポーツニュース", "天気予報"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s006",
+   "kind": "meeting",
+   "scene": "sales",
+   "speakers": [{"id": "N", "gender": "female"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Before we finish today's meeting, I'd like to look at last quarter's sales figures. As you can see, the East region did the best, which isn't surprising, since that's where we opened two new stores."
+    },
+    {
+     "speaker": "N",
+     "text": "What concerns me is the region with the lowest sales. Our team there lost two experienced sales representatives in the spring, and we haven't replaced them yet."
+    },
+    {
+     "speaker": "N",
+     "text": "So, I've asked Human Resources to make hiring for that region a top priority. In the meantime, I'd like a couple of you from the North team to go there and help out for a few weeks. Please let me know by Friday if you're available."
+    }
+   ],
+   "graphic": {
+    "title": "Quarterly Sales by Region",
+    "columns": ["Region", "Sales"],
+    "rows": [
+     ["North", "$1.2 million"],
+     ["South", "$0.9 million"],
+     ["East", "$1.5 million"],
+     ["West", "$0.7 million"]
+    ]
+   },
+   "translation_ja": "今日の会議を終える前に、前の四半期の売上を見ておきたいと思います。ご覧のとおり、いちばん良かったのは東地域です。新しい店を2つ開いた地域なので、驚くことではありません。\n気になるのは、売上がいちばん低い地域です。そこのチームは春に経験のある営業担当者を2人失い、まだ補充できていません。\nそこで、人事部にその地域の採用を最優先にするよう頼みました。それまでの間、北チームから2人ほど、数週間そちらに行って手伝ってほしいと思います。行ける人は金曜日までに知らせてください。\n【図】地域別の四半期売上：北120万ドル／南90万ドル／東150万ドル／西70万ドル",
+   "questions": [
+    {
+     "id": "p4-0016",
+     "type": "reason",
+     "scene": "sales",
+     "level": "B1",
+     "prompt": "According to the speaker, why did the East region perform well?",
+     "options": [
+      "New stores opened there.",
+      "It hired more staff.",
+      "Prices were reduced.",
+      "A new product was launched."
+     ],
+     "answer": "a",
+     "explanation_ja": "since that's where we opened two new stores とある。",
+     "translation_ja": "話し手によると、東地域はなぜ業績が良かったのか。",
+     "translation_options_ja": ["そこで新しい店が開いた。", "人員を増やした。", "値下げをした。", "新製品が出た。"]
+    },
+    {
+     "id": "p4-0017",
+     "type": "graphic",
+     "scene": "sales",
+     "level": "B1",
+     "prompt": "Look at the graphic. Which region does the speaker say needs more staff?",
+     "options": ["North", "South", "East", "West"],
+     "answer": "d",
+     "shuffle": false,
+     "explanation_ja": "人手が足りないのは the region with the lowest sales（売上がいちばん低い地域）で、図では70万ドルの西。北チームは手伝いに行く側。",
+     "translation_ja": "図を見よ。話し手が人手が必要だと言っているのはどの地域か。",
+     "translation_options_ja": ["北", "南", "東", "西"]
+    },
+    {
+     "id": "p4-0018",
+     "type": "request",
+     "scene": "sales",
+     "level": "B1",
+     "prompt": "What does the speaker ask some of the listeners to do?",
+     "options": [
+      "Interview job candidates",
+      "Tell her if they can work in another region",
+      "Prepare a sales report",
+      "Visit the new stores in the East"
+     ],
+     "answer": "b",
+     "explanation_ja": "北チームの何人かに数週間手伝いに行ってほしいと言い、Please let me know by Friday if you're available と頼んでいる。採用は人事部に頼んだこと。",
+     "translation_ja": "話し手は聞き手の一部に何をするよう頼んでいるか。",
+     "translation_options_ja": ["採用の候補者を面接する", "ほかの地域で働けるかを知らせる", "売上の報告書を作る", "東地域の新店舗を訪ねる"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s007",
+   "kind": "introduction",
+   "scene": "hr",
+   "speakers": [{"id": "N", "gender": "male"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Good afternoon, and thank you all for coming to today's workshop on time management. I'm pleased to introduce our guest speaker, Dr. Monica Reyes."
+    },
+    {
+     "speaker": "N",
+     "text": "Dr. Reyes has spent the past fifteen years helping companies improve their productivity, and her book, The Organized Week, has been translated into twelve languages."
+    },
+    {
+     "speaker": "N",
+     "text": "Before we begin, just a quick note. Dr. Reyes will be taking questions at the end of her talk, so please write yours on the cards on your tables. We have a lot of people here today."
+    },
+    {
+     "speaker": "N",
+     "text": "Also, copies of her book are available at the back of the room. Please join me in welcoming Dr. Reyes."
+    }
+   ],
+   "translation_ja": "皆さん、こんにちは。今日の時間管理のワークショップにお集まりいただきありがとうございます。講師のモニカ・レイエス博士をご紹介します。\nレイエス博士はこの15年間、企業の生産性向上を支援してきました。著書『整った1週間』は12の言語に翻訳されています。\n始める前に、ひと言お知らせです。レイエス博士は講演の最後に質問を受けますので、質問はテーブルのカードに書いてください。今日はたくさんの方がいらしていますので。\nまた、博士の本は部屋の後ろにございます。では、拍手でレイエス博士をお迎えください。",
+   "questions": [
+    {
+     "id": "p4-0019",
+     "type": "detail",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "What does the speaker say about Dr. Reyes's book?",
+     "options": [
+      "It will be released next month.",
+      "It is mainly about leadership.",
+      "It has been published in many languages.",
+      "It is free for workshop attendees."
+     ],
+     "answer": "c",
+     "explanation_ja": "has been translated into twelve languages とあり、これを published in many languages と言い換えている。",
+     "translation_ja": "話し手はレイエス博士の本について何と言っているか。",
+     "translation_options_ja": ["来月発売される。", "主にリーダーシップについての本だ。", "多くの言語で出版されている。", "参加者は無料でもらえる。"]
+    },
+    {
+     "id": "p4-0020",
+     "type": "intention",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "Why does the speaker say, \"We have a lot of people here today\"?",
+     "options": [
+      "To apologize for a lack of seats",
+      "To thank the event organizers",
+      "To suggest moving to a larger room",
+      "To explain why questions should be written down"
+     ],
+     "answer": "d",
+     "explanation_ja": "直前で「質問はカードに書いて」と頼んでおり、人数が多いので口頭で質問を受けるのは難しい、という理由を補っている。",
+     "translation_ja": "話し手はなぜ「今日はたくさんの方がいらしています」と言っているのか。",
+     "translation_options_ja": ["席が足りないことをわびるため", "主催者に感謝するため", "もっと広い部屋に移ることを提案するため", "質問を書いて出す理由を説明するため"]
+    },
+    {
+     "id": "p4-0021",
+     "type": "detail",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "What is available at the back of the room?",
+     "options": ["Copies of a book", "Question cards", "Refreshments", "Name tags"],
+     "answer": "a",
+     "explanation_ja": "copies of her book are available at the back of the room とある。質問用のカードはテーブルの上にある。",
+     "translation_ja": "部屋の後ろには何があるか。",
+     "translation_options_ja": ["本", "質問用のカード", "軽食", "名札"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s008",
+   "kind": "announcement",
+   "scene": "retail",
+   "speakers": [{"id": "N", "gender": "female"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Attention, Greenleaf Market shoppers. For the next thirty minutes, all bakery items are twenty percent off. That includes our fresh breads, cakes, and cookies."
+    },
+    {
+     "speaker": "N",
+     "text": "Also, don't forget to stop by aisle seven, where our staff are offering free samples of a new line of fruit juices from a local company, Sunpath Farms."
+    },
+    {
+     "speaker": "N",
+     "text": "And finally, a reminder that our store will be closing early this Sunday, at five P.M., so that we can install new self-checkout machines. Thank you for shopping at Greenleaf Market."
+    }
+   ],
+   "translation_ja": "グリーンリーフ・マーケットをご利用のお客さまにお知らせします。これから30分間、パン売り場の商品はすべて20パーセント引きです。焼きたてのパン、ケーキ、クッキーも対象です。\nまた、7番通路にもぜひお立ち寄りください。地元の会社サンパス・ファームズの新しいフルーツジュースを、スタッフが無料で試飲していただいています。\n最後に、今週の日曜日は新しいセルフレジを設置するため、午後5時に早めに閉店いたします。グリーンリーフ・マーケットをご利用いただきありがとうございます。",
+   "questions": [
+    {
+     "id": "p4-0022",
+     "type": "detail",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "How long will the bakery discount last?",
+     "options": ["For ten minutes", "For thirty minutes", "For one hour", "For the whole day"],
+     "answer": "b",
+     "shuffle": false,
+     "explanation_ja": "For the next thirty minutes, all bakery items are twenty percent off とある。",
+     "translation_ja": "パン売り場の割引はどのくらい続くか。",
+     "translation_options_ja": ["10分間", "30分間", "1時間", "1日中"]
+    },
+    {
+     "id": "p4-0023",
+     "type": "detail",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "What can shoppers do in aisle seven?",
+     "options": [
+      "Buy discounted bread",
+      "Try some beverages",
+      "Meet a local farmer",
+      "Use a new checkout machine"
+     ],
+     "answer": "b",
+     "explanation_ja": "aisle seven, where our staff are offering free samples of ... fruit juices とあり、試飲できる。fruit juices を beverages と言い換えている。",
+     "translation_ja": "買い物客は7番通路で何ができるか。",
+     "translation_options_ja": ["割引のパンを買う", "飲み物を試す", "地元の農家に会う", "新しいレジを使う"]
+    },
+    {
+     "id": "p4-0024",
+     "type": "reason",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "Why will the store close early on Sunday?",
+     "options": [
+      "To hold a staff meeting",
+      "To prepare for a holiday",
+      "To install some equipment",
+      "To clean the floors"
+     ],
+     "answer": "c",
+     "explanation_ja": "so that we can install new self-checkout machines とあり、セルフレジを equipment と言い換えている。",
+     "translation_ja": "店はなぜ日曜日に早く閉まるのか。",
+     "translation_options_ja": ["従業員の会議を開くため", "祝日の準備をするため", "機器を設置するため", "床を掃除するため"]
+    }
+   ]
+  }
+ ]
+}

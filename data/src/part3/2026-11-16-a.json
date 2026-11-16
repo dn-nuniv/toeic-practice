@@ -1,0 +1,491 @@
+{
+ "batch": "2026-11-16-p3-a",
+ "source": "2026-11-16 / part3 batch a",
+ "note": "blueprint に沿った Part 3 の6セット18問（図表2・発言の意図3・3人の会話2）",
+ "sets": [
+  {
+   "id": "p3-s003",
+   "kind": "conversation",
+   "scene": "restaurant",
+   "speakers": [
+    {"id": "W", "gender": "female", "name": "Linda"},
+    {"id": "M", "gender": "male", "name": "Omar"}
+   ],
+   "segments": [
+    {"speaker": "W", "text": "Good morning, Fairview Produce. This is Linda speaking."},
+    {
+     "speaker": "M",
+     "text": "Hi, Linda. This is Omar from Café Rosetta. Our vegetable delivery came this morning, but the tomatoes are much too soft to use. We can't serve them in our salads."
+    },
+    {
+     "speaker": "W",
+     "text": "I'm very sorry. That batch must have been stored at the wrong temperature. I can send replacements on our afternoon truck."
+    },
+    {"speaker": "M", "text": "Well, our lunch rush starts at eleven thirty."},
+    {
+     "speaker": "W",
+     "text": "I see. In that case, I'll ask one of our drivers to bring them over within the hour. And of course, you won't be charged for the first box."
+    },
+    {"speaker": "M", "text": "Thank you. I appreciate that."}
+   ],
+   "translation_ja": "女性：おはようございます、フェアビュー青果のリンダです。\n男性：リンダさん、カフェ・ロゼッタのオマールです。今朝野菜が届いたんですが、トマトが柔らかすぎて使えません。サラダに出せないんです。\n女性：大変申し訳ありません。その分は保管の温度が適切でなかったのだと思います。午後のトラックで代わりの品をお送りできます。\n男性：うーん、うちの昼の混雑は11時半から始まるんですよ。\n女性：わかりました。では、運転手の1人に1時間以内に届けさせます。もちろん、最初の1箱の代金はいただきません。\n男性：ありがとう。助かります。",
+   "questions": [
+    {
+     "id": "p3-0007",
+     "type": "speaker.identity",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "Where does the woman most likely work?",
+     "options": ["At a produce supplier", "At a café", "At a trucking company", "At a cooking school"],
+     "answer": "a",
+     "explanation_ja": "女性は電話に Fairview Produce と名乗って出ており、野菜の配達や代わりの品の手配をしている。カフェで働いているのは男性。",
+     "translation_ja": "女性はどこで働いていると考えられるか。",
+     "translation_options_ja": ["青果の卸業者", "カフェ", "運送会社", "料理学校"]
+    },
+    {
+     "id": "p3-0008",
+     "type": "intention",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "Why does the man say, \"our lunch rush starts at eleven thirty\"?",
+     "options": [
+      "To invite the woman to lunch",
+      "To indicate that an afternoon delivery would be too late",
+      "To explain why the café is hiring staff",
+      "To complain about slow service"
+     ],
+     "answer": "b",
+     "explanation_ja": "女性が「午後のトラックで送る」と言ったのに対する発言で、それでは昼の混雑に間に合わないと伝えている。女性もそれを受けて「1時間以内に届けさせる」と言い直している。",
+     "translation_ja": "男性はなぜ「うちの昼の混雑は11時半から始まる」と言っているのか。",
+     "translation_options_ja": [
+      "女性を昼食に誘うため",
+      "午後の配達では遅すぎると伝えるため",
+      "カフェがスタッフを募集している理由を説明するため",
+      "サービスの遅さに苦情を言うため"
+     ]
+    },
+    {
+     "id": "p3-0009",
+     "type": "detail",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "What does the woman say the man will not have to do?",
+     "options": ["Return the tomatoes", "Sign a new contract", "Pay for some items", "Pick up an order"],
+     "answer": "c",
+     "explanation_ja": "you won't be charged for the first box（最初の1箱は請求しない）とあり、代金を払わなくてよいということ。返品や受け取りには触れていない。",
+     "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
+     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "一部の品の代金を払う", "注文品を取りに行く"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s004",
+   "kind": "conversation",
+   "scene": "it",
+   "speakers": [
+    {"id": "W", "gender": "female"},
+    {"id": "M1", "gender": "male", "name": "Raj"},
+    {"id": "M2", "gender": "male", "name": "Peter"}
+   ],
+   "segments": [
+    {
+     "speaker": "W",
+     "text": "Raj, Peter, do you have a minute? I wanted to ask how the new project-tracking software is working for your teams."
+    },
+    {
+     "speaker": "M1",
+     "text": "Mostly well. It's much easier to see who's working on what. But some of my team members say the mobile version keeps logging them out."
+    },
+    {
+     "speaker": "M2",
+     "text": "We've had the same issue. It happens whenever someone switches between the app and their e-mail."
+    },
+    {
+     "speaker": "W",
+     "text": "Thanks for letting me know. The vendor is releasing an update next week that's supposed to fix that."
+    },
+    {
+     "speaker": "M1",
+     "text": "That's good to hear. Until then, maybe we should just use the desktop version."
+    },
+    {"speaker": "W", "text": "Good idea. I'll send a message to all staff this afternoon recommending that."}
+   ],
+   "translation_ja": "女性：ラージ、ピーター、ちょっといい？新しいプロジェクト管理ソフトがそれぞれのチームでどうか聞きたくて。\n男性1（ラージ）：おおむねいいですよ。誰が何をしているかずっとわかりやすくなりました。でも、モバイル版だと何度もログアウトしてしまうとチームの何人かが言っています。\n男性2（ピーター）：うちも同じです。アプリとメールを切り替えるたびに起きるんです。\n女性：教えてくれてありがとう。来週、それを直すはずの更新を業者が出すことになっているわ。\n男性1：それはよかった。それまではデスクトップ版を使うのがいいかもしれませんね。\n女性：いい考えね。今日の午後、そうするよう勧めるメッセージを全員に送るわ。",
+   "questions": [
+    {
+     "id": "p3-0010",
+     "type": "main.topic",
+     "scene": "it",
+     "level": "B1",
+     "prompt": "What are the speakers mainly discussing?",
+     "options": ["A staff schedule", "A vendor contract", "An e-mail policy", "A software program"],
+     "answer": "d",
+     "explanation_ja": "冒頭で the new project-tracking software is working for your teams と尋ね、その不具合と対処を話している。e-mail は不具合が起きる場面として出てくるだけ。",
+     "translation_ja": "話し手たちは主に何について話しているか。",
+     "translation_options_ja": ["社員の勤務予定", "業者との契約", "メールの規則", "ソフトウェア"]
+    },
+    {
+     "id": "p3-0011",
+     "type": "problem",
+     "scene": "it",
+     "level": "B1",
+     "prompt": "What problem do the men mention?",
+     "options": [
+      "Users are being signed out of an application.",
+      "Some files have been deleted.",
+      "A vendor has not responded to e-mails.",
+      "Some team members missed a deadline."
+     ],
+     "answer": "a",
+     "explanation_ja": "the mobile version keeps logging them out とあり、logging out を signed out と言い換えている。もう1人も We've had the same issue と同じ問題を挙げている。",
+     "translation_ja": "男性たちはどんな問題を挙げているか。",
+     "translation_options_ja": [
+      "利用者がアプリから何度もログアウトされる。",
+      "いくつかのファイルが消えた。",
+      "業者がメールに返事をしない。",
+      "チームの何人かが締め切りに遅れた。"
+     ]
+    },
+    {
+     "id": "p3-0012",
+     "type": "next.action",
+     "scene": "it",
+     "level": "B1",
+     "prompt": "What will the woman do this afternoon?",
+     "options": [
+      "Contact the vendor",
+      "Send a message to employees",
+      "Install an update",
+      "Meet with Raj's team"
+     ],
+     "answer": "b",
+     "explanation_ja": "I'll send a message to all staff this afternoon とある。更新は来週業者が出すもの。",
+     "translation_ja": "女性は今日の午後に何をするか。",
+     "translation_options_ja": ["業者に連絡する", "社員にメッセージを送る", "更新を入れる", "ラージのチームと会う"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s005",
+   "kind": "conversation",
+   "scene": "travel",
+   "speakers": [{"id": "W", "gender": "female"}, {"id": "M", "gender": "male"}],
+   "segments": [
+    {
+     "speaker": "W",
+     "text": "Excuse me. I was supposed to take the nine fifteen express to Westbridge, but the board says it's been canceled."
+    },
+    {
+     "speaker": "M",
+     "text": "Yes, I'm sorry. There's a problem with the signals on that line this morning. You can use your ticket on any other train today."
+    },
+    {
+     "speaker": "W",
+     "text": "I have a meeting in Westbridge at eleven. The local train takes over an hour, doesn't it?"
+    },
+    {
+     "speaker": "M",
+     "text": "That's right. Your best option would be the next express. It gets to Westbridge in forty minutes."
+    },
+    {"speaker": "W", "text": "OK, I'll take that one. Is there somewhere I can get a coffee while I wait?"},
+    {"speaker": "M", "text": "There's a café just past the ticket gates, on your left."}
+   ],
+   "graphic": {
+    "title": "Departures to Westbridge",
+    "columns": ["Train", "Departs", "Platform", "Status"],
+    "rows": [
+     ["Express 210", "9:15", "2", "Canceled"],
+     ["Local 312", "9:40", "5", "On time"],
+     ["Express 214", "10:05", "2", "On time"],
+     ["Local 318", "10:30", "5", "Delayed"]
+    ]
+   },
+   "translation_ja": "女性：すみません。9時15分のウェストブリッジ行きの急行に乗る予定だったのですが、掲示板に運休と出ています。\n男性：はい、申し訳ありません。今朝その路線で信号の故障がありまして。切符は今日のほかの列車でもお使いいただけます。\n女性：ウェストブリッジで11時に打ち合わせがあるんです。普通列車だと1時間以上かかりますよね。\n男性：そうです。いちばんいいのは次の急行です。ウェストブリッジまで40分で着きます。\n女性：では、それにします。待っている間にコーヒーを買える所はありますか。\n男性：改札を出てすぐ左にカフェがあります。\n【図】ウェストブリッジ方面の発車案内：急行210　9:15　2番線　運休／普通312　9:40　5番線　定刻／急行214　10:05　2番線　定刻／普通318　10:30　5番線　遅れ",
+   "questions": [
+    {
+     "id": "p3-0013",
+     "type": "reason",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "Why was the woman's train canceled?",
+     "options": [
+      "Because of bad weather",
+      "Because of a staff shortage",
+      "Because of a signal problem",
+      "Because of track repairs"
+     ],
+     "answer": "c",
+     "explanation_ja": "男性が There's a problem with the signals on that line と言っている。",
+     "translation_ja": "女性が乗る予定だった列車はなぜ運休になったのか。",
+     "translation_options_ja": ["悪天候のため", "人手不足のため", "信号の故障のため", "線路の補修工事のため"]
+    },
+    {
+     "id": "p3-0014",
+     "type": "graphic",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "Look at the graphic. Which train will the woman most likely take?",
+     "options": ["Express 210", "Local 312", "Express 214", "Local 318"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。",
+     "translation_ja": "図を見よ。女性はどの列車に乗ると考えられるか。",
+     "translation_options_ja": ["急行210", "普通312", "急行214", "普通318"]
+    },
+    {
+     "id": "p3-0015",
+     "type": "location",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "According to the man, where can the woman buy a drink?",
+     "options": ["On Platform 2", "On the train", "Across the street", "Past the ticket gates"],
+     "answer": "d",
+     "explanation_ja": "There's a café just past the ticket gates, on your left とある。coffee を a drink と言い換えている。",
+     "translation_ja": "男性によると、女性はどこで飲み物を買えるか。",
+     "translation_options_ja": ["2番線のホーム", "列車の中", "通りの向かい側", "改札を出た所"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s006",
+   "kind": "conversation",
+   "scene": "events",
+   "speakers": [
+    {"id": "W1", "gender": "female"},
+    {"id": "M", "gender": "male", "name": "Hiroshi"},
+    {"id": "W2", "gender": "female"}
+   ],
+   "segments": [
+    {
+     "speaker": "W1",
+     "text": "So, we need to decide on a location for the company picnic. Hiroshi, did you get a quote from Maple Grove Park?"
+    },
+    {
+     "speaker": "M",
+     "text": "I did. The large pavilion costs five hundred dollars for the day, and it holds up to a hundred and fifty people."
+    },
+    {"speaker": "W2", "text": "We're expecting about two hundred employees this year, though."},
+    {"speaker": "M", "text": "Oh, right. I forgot that the new sales team joined in the spring."},
+    {
+     "speaker": "W1",
+     "text": "What about Riverside Gardens? They have an outdoor space for up to three hundred people."
+    },
+    {
+     "speaker": "W2",
+     "text": "I went to a wedding there last year. It was lovely, and there's plenty of parking."
+    },
+    {
+     "speaker": "W1",
+     "text": "Then let's check whether it's available on June twelfth. Hiroshi, could you call them today?"
+    },
+    {"speaker": "M", "text": "Sure. I'll do it right after lunch."}
+   ],
+   "translation_ja": "女性1：では、社内ピクニックの場所を決めましょう。ヒロシ、メープル・グローブ公園の見積もりはもらった？\n男性（ヒロシ）：もらいました。大きいパビリオンは1日500ドルで、150人まで入れます。\n女性2：でも、今年は200人くらいの社員が来る見込みよ。\n男性：あ、そうでした。春に新しい営業チームが加わったのを忘れていました。\n女性1：リバーサイド・ガーデンズはどう？300人まで入れる屋外のスペースがあるわ。\n女性2：去年そこで結婚式に出たの。すてきな所で、駐車場もたくさんあるわ。\n女性1：じゃあ、6月12日に空いているか確かめましょう。ヒロシ、今日電話してくれる？\n男性：わかりました。昼食のすぐ後にかけます。",
+   "questions": [
+    {
+     "id": "p3-0016",
+     "type": "intention",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "Why does one of the women say, \"We're expecting about two hundred employees this year, though\"?",
+     "options": [
+      "To point out that a space is too small",
+      "To suggest that the price is too high",
+      "To recommend ordering more food",
+      "To propose holding the picnic on a weekday"
+     ],
+     "answer": "a",
+     "explanation_ja": "直前に男性が「パビリオンは150人まで」と言っており、200人来るなら入りきらないと指摘している。男性も「新しい営業チームを忘れていた」と認めている。",
+     "translation_ja": "女性の1人はなぜ「でも、今年は200人くらいの社員が来る見込みよ」と言っているのか。",
+     "translation_options_ja": ["場所が狭すぎると指摘するため", "料金が高すぎると言うため", "食べ物を多めに注文するよう勧めるため", "ピクニックを平日に開くよう提案するため"]
+    },
+    {
+     "id": "p3-0017",
+     "type": "detail",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "What does one of the women say about Riverside Gardens?",
+     "options": [
+      "It is next to a river.",
+      "It has a lot of parking.",
+      "It offers group discounts.",
+      "It is closed in June."
+     ],
+     "answer": "b",
+     "explanation_ja": "there's plenty of parking とある。名前の Riverside から「川のそば」を連想させるひっかけで、会話では述べていない。",
+     "translation_ja": "女性の1人はリバーサイド・ガーデンズについて何と言っているか。",
+     "translation_options_ja": ["川のそばにある。", "駐車場がたくさんある。", "団体割引がある。", "6月は休みだ。"]
+    },
+    {
+     "id": "p3-0018",
+     "type": "request",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "What is the man asked to do?",
+     "options": ["Reserve a pavilion", "Invite the sales team", "Contact a venue", "Order lunch"],
+     "answer": "c",
+     "explanation_ja": "Hiroshi, could you call them today? とあり、them はリバーサイド・ガーデンズ。call を contact と言い換えている。",
+     "translation_ja": "男性は何をするよう頼まれているか。",
+     "translation_options_ja": ["パビリオンを予約する", "営業チームを招く", "会場に連絡する", "昼食を注文する"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s007",
+   "kind": "conversation",
+   "scene": "marketing",
+   "speakers": [{"id": "M", "gender": "male"}, {"id": "W", "gender": "female", "name": "Sarah"}],
+   "segments": [
+    {
+     "speaker": "M",
+     "text": "Hi, Sarah. Are you going to the session on customer data privacy? I thought we could sit together."
+    },
+    {
+     "speaker": "W",
+     "text": "I'd like to, but my flight was delayed this morning, so I'm still at the airport. I won't get to the conference center until around noon."
+    },
+    {"speaker": "M", "text": "That's too bad. The speaker for that session is supposed to be excellent."},
+    {"speaker": "W", "text": "Do you know if the sessions are being recorded?"},
+    {"speaker": "M", "text": "I'm not sure. I'll ask at the registration desk and send you a text message."},
+    {"speaker": "W", "text": "Thanks. At least I'll be there in time for the one right after lunch."}
+   ],
+   "graphic": {
+    "title": "Conference Schedule — Room B",
+    "columns": ["Time", "Session"],
+    "rows": [
+     ["10:00", "Digital Marketing Trends"],
+     ["11:00", "Customer Data Privacy"],
+     ["1:30", "Social Media Strategy"],
+     ["3:00", "Building Brand Loyalty"]
+    ]
+   },
+   "translation_ja": "男性：やあ、サラ。顧客データのプライバシーのセッションに行く？一緒に座れたらと思って。\n女性：行きたいんだけど、今朝の飛行機が遅れて、まだ空港にいるの。会場に着くのはお昼ごろになるわ。\n男性：それは残念だね。あのセッションの講演者はすごくいいらしいよ。\n女性：セッションは録画されているか知ってる？\n男性：わからないな。受付で聞いて、メッセージを送るよ。\n女性：ありがとう。少なくとも、昼食のすぐ後のには間に合うわ。\n【図】会議の予定　B室：10:00 デジタルマーケティングの動向／11:00 顧客データのプライバシー／1:30 ソーシャルメディア戦略／3:00 ブランドへの愛着の育て方",
+   "questions": [
+    {
+     "id": "p3-0019",
+     "type": "problem",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "What problem does the woman mention?",
+     "options": [
+      "She lost her name badge.",
+      "A session was canceled.",
+      "She cannot find the conference center.",
+      "Her flight was late."
+     ],
+     "answer": "d",
+     "explanation_ja": "my flight was delayed this morning とあり、delayed を late と言い換えている。",
+     "translation_ja": "女性はどんな問題を伝えているか。",
+     "translation_options_ja": ["名札をなくした。", "セッションが中止になった。", "会場が見つからない。", "飛行機が遅れた。"]
+    },
+    {
+     "id": "p3-0020",
+     "type": "next.action",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "What does the man say he will do?",
+     "options": [
+      "Ask about recordings",
+      "Save a seat for the woman",
+      "Pick the woman up at the airport",
+      "Introduce the woman to a speaker"
+     ],
+     "answer": "a",
+     "explanation_ja": "録画されているかと聞かれ、I'll ask at the registration desk と答えている。一緒に座ろうと誘ったが、席を取っておくとは言っていない。",
+     "translation_ja": "男性は何をすると言っているか。",
+     "translation_options_ja": ["録画について尋ねる", "女性の席を取っておく", "空港に女性を迎えに行く", "女性を講演者に紹介する"]
+    },
+    {
+     "id": "p3-0021",
+     "type": "graphic",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "Look at the graphic. Which session will the woman most likely attend first?",
+     "options": [
+      "Digital Marketing Trends",
+      "Customer Data Privacy",
+      "Social Media Strategy",
+      "Building Brand Loyalty"
+     ],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "女性は昼ごろ会場に着き、the one right after lunch（昼食のすぐ後の回）には間に合うと言っている。図で昼食の後の最初の回は1時30分のソーシャルメディア戦略。",
+     "translation_ja": "図を見よ。女性が最初に出るのはどのセッションだと考えられるか。",
+     "translation_options_ja": ["デジタルマーケティングの動向", "顧客データのプライバシー", "ソーシャルメディア戦略", "ブランドへの愛着の育て方"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s008",
+   "kind": "conversation",
+   "scene": "fitness",
+   "speakers": [{"id": "W", "gender": "female"}, {"id": "M", "gender": "male"}],
+   "segments": [
+    {
+     "speaker": "W",
+     "text": "Hi. I'd like to cancel my membership. I'm moving to Portland at the end of the month."
+    },
+    {
+     "speaker": "M",
+     "text": "I'm sorry to hear you're leaving. Actually, we have a location in Portland, on Burnside Avenue. You could just transfer your membership there."
+    },
+    {"speaker": "W", "text": "Really? I didn't know that. Would I have to pay a new sign-up fee?"},
+    {"speaker": "M", "text": "Not at all. Transfers are free. I just need you to fill out this form."},
+    {"speaker": "W", "text": "Great. Do you have a pen?"},
+    {
+     "speaker": "M",
+     "text": "Here you go. Once you've finished, I'll e-mail you a confirmation along with the class schedule for the Portland location."
+    }
+   ],
+   "translation_ja": "女性：こんにちは。会員をやめたいのですが。月末にポートランドに引っ越すんです。\n男性：お辞めになるのは残念です。実は、ポートランドのバーンサイド通りにも店舗があります。そちらに会員資格を移すこともできますよ。\n女性：本当ですか。知りませんでした。新しく入会金を払う必要はありますか。\n男性：いいえ、まったく。移籍は無料です。この用紙に記入していただくだけです。\n女性：よかった。ペンはありますか。\n男性：どうぞ。記入が終わったら、確認のメールをポートランド店のレッスン予定表と一緒にお送りします。",
+   "questions": [
+    {
+     "id": "p3-0022",
+     "type": "reason",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "Why does the woman want to cancel her membership?",
+     "options": [
+      "The fees have gone up.",
+      "She is relocating.",
+      "She is unhappy with the classes.",
+      "She has been injured."
+     ],
+     "answer": "b",
+     "explanation_ja": "I'm moving to Portland at the end of the month とあり、moving を relocating と言い換えている。",
+     "translation_ja": "女性はなぜ会員をやめたいのか。",
+     "translation_options_ja": ["料金が上がった。", "引っ越す。", "レッスンに満足していない。", "けがをした。"]
+    },
+    {
+     "id": "p3-0023",
+     "type": "intention",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "What does the man mean when he says, \"Not at all\"?",
+     "options": [
+      "He does not know the answer.",
+      "He is happy to help the woman.",
+      "No additional payment is required.",
+      "The form is not necessary."
+     ],
+     "answer": "c",
+     "explanation_ja": "「新しく入会金を払う必要があるか」という質問への答えで、すぐ後に Transfers are free と続く。Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ。用紙への記入は必要。",
+     "translation_ja": "男性が「Not at all」と言っているのはどういう意味か。",
+     "translation_options_ja": ["答えがわからない。", "喜んで女性を手伝う。", "追加の支払いは必要ない。", "用紙は必要ない。"]
+    },
+    {
+     "id": "p3-0024",
+     "type": "next.action",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "What will the woman most likely do next?",
+     "options": ["Pay a fee", "Visit the Portland location", "Attend a class", "Complete a form"],
+     "answer": "d",
+     "explanation_ja": "男性に I just need you to fill out this form と言われ、女性はペンを借りている。fill out を complete と言い換えている。",
+     "translation_ja": "女性は次に何をすると考えられるか。",
+     "translation_options_ja": ["料金を払う", "ポートランド店に行く", "レッスンに出る", "用紙に記入する"]
+    }
+   ]
+  }
+ ]
+}

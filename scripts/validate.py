@@ -60,17 +60,23 @@ for s in sets:
         if len(blanks) != len(s["question_ids"]): E.append(f"{s['id']}: 空欄の数 {len(blanks)} と設問数が違う")
 
 # 似すぎた問題（重複生成の検出）
-by_part = defaultdict(list)
-for it in items:
-    if it["part"] in (2, 5) or (it["part"] in (3, 4, 7)):
-        by_part[it["part"]].append(it)
-for p, lst in by_part.items():
+# Part 2・5 は設問文どうし、セットの問題（Part 3・4・6・7）は会話・本文どうしを比べる。
+# Part 3・4・7 の設問は "What does the man say he will do?" のような決まった型なので、設問文では比べない。
+def near(lst, label):
     for i in range(len(lst)):
         for j in range(i + 1, len(lst)):
-            a, b = lst[i]["prompt"].lower(), lst[j]["prompt"].lower()
-            if lst[i].get("set_id") and lst[i].get("set_id") == lst[j].get("set_id"): continue
-            r = difflib.SequenceMatcher(None, a, b).ratio()
-            if r > 0.88: W.append(f"似た問題: {lst[i]['id']} / {lst[j]['id']}（類似度 {r:.2f}）")
+            r = difflib.SequenceMatcher(None, lst[i][1], lst[j][1]).ratio()
+            if r > 0.88: W.append(f"{label}: {lst[i][0]} / {lst[j][0]}（類似度 {r:.2f}）")
+
+
+def body(s):
+    return " ".join([g["text"] for g in s["segments"]] + [x.get("text", "") for x in s["passages"]]).lower()
+
+
+for p in (2, 5):
+    near([(it["id"], it["prompt"].lower()) for it in items if it["part"] == p], "似た問題")
+for p in (3, 4, 6, 7):
+    near([(s["id"], body(s)) for s in sets if s["part"] == p], "似たセット")
 
 # 位置固定の問題で正解の位置が偏っていないか
 fixed = [it for it in items if not it.get("shuffle", True)]

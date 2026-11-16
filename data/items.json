@@ -3112,6 +3112,726 @@
   ]
  },
  {
+  "id": "p3-0007",
+  "part": 3,
+  "set_id": "p3-s003",
+  "type": "speaker.identity",
+  "scene": "restaurant",
+  "prompt": "Where does the woman most likely work?",
+  "options": [
+   {
+    "id": "a",
+    "text": "At a produce supplier"
+   },
+   {
+    "id": "b",
+    "text": "At a café"
+   },
+   {
+    "id": "c",
+    "text": "At a trucking company"
+   },
+   {
+    "id": "d",
+    "text": "At a cooking school"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "女性は電話に Fairview Produce と名乗って出ており、野菜の配達や代わりの品の手配をしている。カフェで働いているのは男性。",
+  "translation_ja": "女性はどこで働いていると考えられるか。",
+  "translation_options_ja": [
+   "青果の卸業者",
+   "カフェ",
+   "運送会社",
+   "料理学校"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0008",
+  "part": 3,
+  "set_id": "p3-s003",
+  "type": "intention",
+  "scene": "restaurant",
+  "prompt": "Why does the man say, \"our lunch rush starts at eleven thirty\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To invite the woman to lunch"
+   },
+   {
+    "id": "b",
+    "text": "To indicate that an afternoon delivery would be too late"
+   },
+   {
+    "id": "c",
+    "text": "To explain why the café is hiring staff"
+   },
+   {
+    "id": "d",
+    "text": "To complain about slow service"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "女性が「午後のトラックで送る」と言ったのに対する発言で、それでは昼の混雑に間に合わないと伝えている。女性もそれを受けて「1時間以内に届けさせる」と言い直している。",
+  "translation_ja": "男性はなぜ「うちの昼の混雑は11時半から始まる」と言っているのか。",
+  "translation_options_ja": [
+   "女性を昼食に誘うため",
+   "午後の配達では遅すぎると伝えるため",
+   "カフェがスタッフを募集している理由を説明するため",
+   "サービスの遅さに苦情を言うため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0009",
+  "part": 3,
+  "set_id": "p3-s003",
+  "type": "detail",
+  "scene": "restaurant",
+  "prompt": "What does the woman say the man will not have to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Return the tomatoes"
+   },
+   {
+    "id": "b",
+    "text": "Sign a new contract"
+   },
+   {
+    "id": "c",
+    "text": "Pay for some items"
+   },
+   {
+    "id": "d",
+    "text": "Pick up an order"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "you won't be charged for the first box（最初の1箱は請求しない）とあり、代金を払わなくてよいということ。返品や受け取りには触れていない。",
+  "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
+  "translation_options_ja": [
+   "トマトを返品する",
+   "新しい契約を結ぶ",
+   "一部の品の代金を払う",
+   "注文品を取りに行く"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0010",
+  "part": 3,
+  "set_id": "p3-s004",
+  "type": "main.topic",
+  "scene": "it",
+  "prompt": "What are the speakers mainly discussing?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A staff schedule"
+   },
+   {
+    "id": "b",
+    "text": "A vendor contract"
+   },
+   {
+    "id": "c",
+    "text": "An e-mail policy"
+   },
+   {
+    "id": "d",
+    "text": "A software program"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "冒頭で the new project-tracking software is working for your teams と尋ね、その不具合と対処を話している。e-mail は不具合が起きる場面として出てくるだけ。",
+  "translation_ja": "話し手たちは主に何について話しているか。",
+  "translation_options_ja": [
+   "社員の勤務予定",
+   "業者との契約",
+   "メールの規則",
+   "ソフトウェア"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0011",
+  "part": 3,
+  "set_id": "p3-s004",
+  "type": "problem",
+  "scene": "it",
+  "prompt": "What problem do the men mention?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Users are being signed out of an application."
+   },
+   {
+    "id": "b",
+    "text": "Some files have been deleted."
+   },
+   {
+    "id": "c",
+    "text": "A vendor has not responded to e-mails."
+   },
+   {
+    "id": "d",
+    "text": "Some team members missed a deadline."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "the mobile version keeps logging them out とあり、logging out を signed out と言い換えている。もう1人も We've had the same issue と同じ問題を挙げている。",
+  "translation_ja": "男性たちはどんな問題を挙げているか。",
+  "translation_options_ja": [
+   "利用者がアプリから何度もログアウトされる。",
+   "いくつかのファイルが消えた。",
+   "業者がメールに返事をしない。",
+   "チームの何人かが締め切りに遅れた。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0012",
+  "part": 3,
+  "set_id": "p3-s004",
+  "type": "next.action",
+  "scene": "it",
+  "prompt": "What will the woman do this afternoon?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Contact the vendor"
+   },
+   {
+    "id": "b",
+    "text": "Send a message to employees"
+   },
+   {
+    "id": "c",
+    "text": "Install an update"
+   },
+   {
+    "id": "d",
+    "text": "Meet with Raj's team"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "I'll send a message to all staff this afternoon とある。更新は来週業者が出すもの。",
+  "translation_ja": "女性は今日の午後に何をするか。",
+  "translation_options_ja": [
+   "業者に連絡する",
+   "社員にメッセージを送る",
+   "更新を入れる",
+   "ラージのチームと会う"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0013",
+  "part": 3,
+  "set_id": "p3-s005",
+  "type": "reason",
+  "scene": "travel",
+  "prompt": "Why was the woman's train canceled?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Because of bad weather"
+   },
+   {
+    "id": "b",
+    "text": "Because of a staff shortage"
+   },
+   {
+    "id": "c",
+    "text": "Because of a signal problem"
+   },
+   {
+    "id": "d",
+    "text": "Because of track repairs"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "男性が There's a problem with the signals on that line と言っている。",
+  "translation_ja": "女性が乗る予定だった列車はなぜ運休になったのか。",
+  "translation_options_ja": [
+   "悪天候のため",
+   "人手不足のため",
+   "信号の故障のため",
+   "線路の補修工事のため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0014",
+  "part": 3,
+  "set_id": "p3-s005",
+  "type": "graphic",
+  "scene": "travel",
+  "prompt": "Look at the graphic. Which train will the woman most likely take?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Express 210"
+   },
+   {
+    "id": "b",
+    "text": "Local 312"
+   },
+   {
+    "id": "c",
+    "text": "Express 214"
+   },
+   {
+    "id": "d",
+    "text": "Local 318"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。",
+  "translation_ja": "図を見よ。女性はどの列車に乗ると考えられるか。",
+  "translation_options_ja": [
+   "急行210",
+   "普通312",
+   "急行214",
+   "普通318"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0015",
+  "part": 3,
+  "set_id": "p3-s005",
+  "type": "location",
+  "scene": "travel",
+  "prompt": "According to the man, where can the woman buy a drink?",
+  "options": [
+   {
+    "id": "a",
+    "text": "On Platform 2"
+   },
+   {
+    "id": "b",
+    "text": "On the train"
+   },
+   {
+    "id": "c",
+    "text": "Across the street"
+   },
+   {
+    "id": "d",
+    "text": "Past the ticket gates"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "There's a café just past the ticket gates, on your left とある。coffee を a drink と言い換えている。",
+  "translation_ja": "男性によると、女性はどこで飲み物を買えるか。",
+  "translation_options_ja": [
+   "2番線のホーム",
+   "列車の中",
+   "通りの向かい側",
+   "改札を出た所"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0016",
+  "part": 3,
+  "set_id": "p3-s006",
+  "type": "intention",
+  "scene": "events",
+  "prompt": "Why does one of the women say, \"We're expecting about two hundred employees this year, though\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To point out that a space is too small"
+   },
+   {
+    "id": "b",
+    "text": "To suggest that the price is too high"
+   },
+   {
+    "id": "c",
+    "text": "To recommend ordering more food"
+   },
+   {
+    "id": "d",
+    "text": "To propose holding the picnic on a weekday"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "直前に男性が「パビリオンは150人まで」と言っており、200人来るなら入りきらないと指摘している。男性も「新しい営業チームを忘れていた」と認めている。",
+  "translation_ja": "女性の1人はなぜ「でも、今年は200人くらいの社員が来る見込みよ」と言っているのか。",
+  "translation_options_ja": [
+   "場所が狭すぎると指摘するため",
+   "料金が高すぎると言うため",
+   "食べ物を多めに注文するよう勧めるため",
+   "ピクニックを平日に開くよう提案するため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0017",
+  "part": 3,
+  "set_id": "p3-s006",
+  "type": "detail",
+  "scene": "events",
+  "prompt": "What does one of the women say about Riverside Gardens?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It is next to a river."
+   },
+   {
+    "id": "b",
+    "text": "It has a lot of parking."
+   },
+   {
+    "id": "c",
+    "text": "It offers group discounts."
+   },
+   {
+    "id": "d",
+    "text": "It is closed in June."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "there's plenty of parking とある。名前の Riverside から「川のそば」を連想させるひっかけで、会話では述べていない。",
+  "translation_ja": "女性の1人はリバーサイド・ガーデンズについて何と言っているか。",
+  "translation_options_ja": [
+   "川のそばにある。",
+   "駐車場がたくさんある。",
+   "団体割引がある。",
+   "6月は休みだ。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0018",
+  "part": 3,
+  "set_id": "p3-s006",
+  "type": "request",
+  "scene": "events",
+  "prompt": "What is the man asked to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Reserve a pavilion"
+   },
+   {
+    "id": "b",
+    "text": "Invite the sales team"
+   },
+   {
+    "id": "c",
+    "text": "Contact a venue"
+   },
+   {
+    "id": "d",
+    "text": "Order lunch"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "Hiroshi, could you call them today? とあり、them はリバーサイド・ガーデンズ。call を contact と言い換えている。",
+  "translation_ja": "男性は何をするよう頼まれているか。",
+  "translation_options_ja": [
+   "パビリオンを予約する",
+   "営業チームを招く",
+   "会場に連絡する",
+   "昼食を注文する"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0019",
+  "part": 3,
+  "set_id": "p3-s007",
+  "type": "problem",
+  "scene": "marketing",
+  "prompt": "What problem does the woman mention?",
+  "options": [
+   {
+    "id": "a",
+    "text": "She lost her name badge."
+   },
+   {
+    "id": "b",
+    "text": "A session was canceled."
+   },
+   {
+    "id": "c",
+    "text": "She cannot find the conference center."
+   },
+   {
+    "id": "d",
+    "text": "Her flight was late."
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "my flight was delayed this morning とあり、delayed を late と言い換えている。",
+  "translation_ja": "女性はどんな問題を伝えているか。",
+  "translation_options_ja": [
+   "名札をなくした。",
+   "セッションが中止になった。",
+   "会場が見つからない。",
+   "飛行機が遅れた。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0020",
+  "part": 3,
+  "set_id": "p3-s007",
+  "type": "next.action",
+  "scene": "marketing",
+  "prompt": "What does the man say he will do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ask about recordings"
+   },
+   {
+    "id": "b",
+    "text": "Save a seat for the woman"
+   },
+   {
+    "id": "c",
+    "text": "Pick the woman up at the airport"
+   },
+   {
+    "id": "d",
+    "text": "Introduce the woman to a speaker"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "録画されているかと聞かれ、I'll ask at the registration desk と答えている。一緒に座ろうと誘ったが、席を取っておくとは言っていない。",
+  "translation_ja": "男性は何をすると言っているか。",
+  "translation_options_ja": [
+   "録画について尋ねる",
+   "女性の席を取っておく",
+   "空港に女性を迎えに行く",
+   "女性を講演者に紹介する"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0021",
+  "part": 3,
+  "set_id": "p3-s007",
+  "type": "graphic",
+  "scene": "marketing",
+  "prompt": "Look at the graphic. Which session will the woman most likely attend first?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Digital Marketing Trends"
+   },
+   {
+    "id": "b",
+    "text": "Customer Data Privacy"
+   },
+   {
+    "id": "c",
+    "text": "Social Media Strategy"
+   },
+   {
+    "id": "d",
+    "text": "Building Brand Loyalty"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "女性は昼ごろ会場に着き、the one right after lunch（昼食のすぐ後の回）には間に合うと言っている。図で昼食の後の最初の回は1時30分のソーシャルメディア戦略。",
+  "translation_ja": "図を見よ。女性が最初に出るのはどのセッションだと考えられるか。",
+  "translation_options_ja": [
+   "デジタルマーケティングの動向",
+   "顧客データのプライバシー",
+   "ソーシャルメディア戦略",
+   "ブランドへの愛着の育て方"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0022",
+  "part": 3,
+  "set_id": "p3-s008",
+  "type": "reason",
+  "scene": "fitness",
+  "prompt": "Why does the woman want to cancel her membership?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The fees have gone up."
+   },
+   {
+    "id": "b",
+    "text": "She is relocating."
+   },
+   {
+    "id": "c",
+    "text": "She is unhappy with the classes."
+   },
+   {
+    "id": "d",
+    "text": "She has been injured."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "I'm moving to Portland at the end of the month とあり、moving を relocating と言い換えている。",
+  "translation_ja": "女性はなぜ会員をやめたいのか。",
+  "translation_options_ja": [
+   "料金が上がった。",
+   "引っ越す。",
+   "レッスンに満足していない。",
+   "けがをした。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0023",
+  "part": 3,
+  "set_id": "p3-s008",
+  "type": "intention",
+  "scene": "fitness",
+  "prompt": "What does the man mean when he says, \"Not at all\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "He does not know the answer."
+   },
+   {
+    "id": "b",
+    "text": "He is happy to help the woman."
+   },
+   {
+    "id": "c",
+    "text": "No additional payment is required."
+   },
+   {
+    "id": "d",
+    "text": "The form is not necessary."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「新しく入会金を払う必要があるか」という質問への答えで、すぐ後に Transfers are free と続く。Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ。用紙への記入は必要。",
+  "translation_ja": "男性が「Not at all」と言っているのはどういう意味か。",
+  "translation_options_ja": [
+   "答えがわからない。",
+   "喜んで女性を手伝う。",
+   "追加の支払いは必要ない。",
+   "用紙は必要ない。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
+  "id": "p3-0024",
+  "part": 3,
+  "set_id": "p3-s008",
+  "type": "next.action",
+  "scene": "fitness",
+  "prompt": "What will the woman most likely do next?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Pay a fee"
+   },
+   {
+    "id": "b",
+    "text": "Visit the Portland location"
+   },
+   {
+    "id": "c",
+    "text": "Attend a class"
+   },
+   {
+    "id": "d",
+    "text": "Complete a form"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "男性に I just need you to fill out this form と言われ、女性はペンを借りている。fill out を complete と言い換えている。",
+  "translation_ja": "女性は次に何をすると考えられるか。",
+  "translation_options_ja": [
+   "料金を払う",
+   "ポートランド店に行く",
+   "レッスンに出る",
+   "用紙に記入する"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch a",
+  "review": []
+ },
+ {
   "id": "p4-0001",
   "part": 4,
   "set_id": "p4-s001",
@@ -3554,6 +4274,726 @@
     "content_hash": "1b2b92ba86c5"
    }
   ]
+ },
+ {
+  "id": "p4-0007",
+  "part": 4,
+  "set_id": "p4-s003",
+  "type": "listener.identity",
+  "scene": "travel",
+  "prompt": "Who most likely are the listeners?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tourists"
+   },
+   {
+    "id": "b",
+    "text": "Museum employees"
+   },
+   {
+    "id": "c",
+    "text": "Lighthouse workers"
+   },
+   {
+    "id": "d",
+    "text": "Construction workers"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "welcome to the ... walking tour、I'll be your guide とあり、ツアーの参加者に話している。",
+  "translation_ja": "聞き手は誰だと考えられるか。",
+  "translation_options_ja": [
+   "観光客",
+   "博物館の職員",
+   "灯台の職員",
+   "建設作業員"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0008",
+  "part": 4,
+  "set_id": "p4-s003",
+  "type": "detail",
+  "scene": "travel",
+  "prompt": "What does the speaker warn the listeners about?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Strong winds"
+   },
+   {
+    "id": "b",
+    "text": "Uneven walking surfaces"
+   },
+   {
+    "id": "c",
+    "text": "Crowded streets"
+   },
+   {
+    "id": "d",
+    "text": "Early closing times"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "The path is a bit uneven in some places, so please watch your step とある。",
+  "translation_ja": "話し手は聞き手に何について注意しているか。",
+  "translation_options_ja": [
+   "強い風",
+   "でこぼこした道",
+   "混雑した通り",
+   "早い閉館時間"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0009",
+  "part": 4,
+  "set_id": "p4-s003",
+  "type": "intention",
+  "scene": "travel",
+  "prompt": "Why does the speaker say, \"the museum changed its rules last month\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To explain why the tour is shorter"
+   },
+   {
+    "id": "b",
+    "text": "To recommend a new exhibit"
+   },
+   {
+    "id": "c",
+    "text": "To indicate that photography is not allowed"
+   },
+   {
+    "id": "d",
+    "text": "To announce a change in ticket prices"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "博物館の中で写真を撮れるかという質問への答えで、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
+  "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
+  "translation_options_ja": [
+   "ツアーが短くなった理由を説明するため",
+   "新しい展示を勧めるため",
+   "写真撮影が許されていないことを伝えるため",
+   "入場料の変更を知らせるため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0010",
+  "part": 4,
+  "set_id": "p4-s004",
+  "type": "speaker.identity",
+  "scene": "customer.service",
+  "prompt": "Where does the speaker most likely work?",
+  "options": [
+   {
+    "id": "a",
+    "text": "At a car rental agency"
+   },
+   {
+    "id": "b",
+    "text": "At a gas station"
+   },
+   {
+    "id": "c",
+    "text": "At a parking garage"
+   },
+   {
+    "id": "d",
+    "text": "At a car repair shop"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "Glenwood Auto Service と名乗り、車の点検をしてブレーキパッドの交換などを勧めている。",
+  "translation_ja": "話し手はどこで働いていると考えられるか。",
+  "translation_options_ja": [
+   "レンタカー会社",
+   "ガソリンスタンド",
+   "立体駐車場",
+   "自動車修理工場"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0011",
+  "part": 4,
+  "set_id": "p4-s004",
+  "type": "graphic",
+  "scene": "customer.service",
+  "prompt": "Look at the graphic. Which amount will most likely change?",
+  "options": [
+   {
+    "id": "a",
+    "text": "$180"
+   },
+   {
+    "id": "b",
+    "text": "$45"
+   },
+   {
+    "id": "c",
+    "text": "$30"
+   },
+   {
+    "id": "d",
+    "text": "$25"
+   }
+  ],
+  "answer": "d",
+  "shuffle": false,
+  "explanation_ja": "The wiper blades are actually ten dollars more than what's listed とある。図でワイパーブレードは25ドル（実際は35ドル）。ブレーキパッドは「いちばん大事」と言われているだけで金額の変更ではない。",
+  "translation_ja": "図を見よ。どの金額が変わると考えられるか。",
+  "translation_options_ja": [
+   "180ドル",
+   "45ドル",
+   "30ドル",
+   "25ドル"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0012",
+  "part": 4,
+  "set_id": "p4-s004",
+  "type": "request",
+  "scene": "customer.service",
+  "prompt": "What does the speaker ask the listener to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Return his call"
+   },
+   {
+    "id": "b",
+    "text": "Pick up her car before six"
+   },
+   {
+    "id": "c",
+    "text": "Pay a deposit"
+   },
+   {
+    "id": "d",
+    "text": "Visit the shop tomorrow"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Please call me back ... to let us know what you'd like us to do とある。6時は閉店時刻を伝えているだけで、車を取りに来るようには言っていない。",
+  "translation_ja": "話し手は聞き手に何をするよう頼んでいるか。",
+  "translation_options_ja": [
+   "折り返し電話する",
+   "6時までに車を取りに来る",
+   "手付金を払う",
+   "明日店に来る"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0013",
+  "part": 4,
+  "set_id": "p4-s005",
+  "type": "main.topic",
+  "scene": "business.news",
+  "prompt": "What is the broadcast mainly about?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A farming competition"
+   },
+   {
+    "id": "b",
+    "text": "A planned market"
+   },
+   {
+    "id": "c",
+    "text": "A city election"
+   },
+   {
+    "id": "d",
+    "text": "A road construction project"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "the Delmont City Council approved plans yesterday for a new public market とあり、その市場の内容と予定を伝えている。",
+  "translation_ja": "この放送は主に何についてのものか。",
+  "translation_options_ja": [
+   "農業の競技会",
+   "計画中の市場",
+   "市の選挙",
+   "道路工事の計画"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0014",
+  "part": 4,
+  "set_id": "p4-s005",
+  "type": "detail",
+  "scene": "business.news",
+  "prompt": "According to the speaker, when will the market open?",
+  "options": [
+   {
+    "id": "a",
+    "text": "In March"
+   },
+   {
+    "id": "b",
+    "text": "Next Monday"
+   },
+   {
+    "id": "c",
+    "text": "Next fall"
+   },
+   {
+    "id": "d",
+    "text": "This weekend"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "the market is expected to open next fall とある。3月は工事が始まる時期、来週の月曜日は申し込みが始まる日。",
+  "translation_ja": "話し手によると、市場はいつ開くか。",
+  "translation_options_ja": [
+   "3月",
+   "来週の月曜日",
+   "来年の秋",
+   "今週末"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0015",
+  "part": 4,
+  "set_id": "p4-s005",
+  "type": "next.action",
+  "scene": "business.news",
+  "prompt": "What will listeners hear after the break?",
+  "options": [
+   {
+    "id": "a",
+    "text": "An interview with Ms. Holt"
+   },
+   {
+    "id": "b",
+    "text": "A list of local farms"
+   },
+   {
+    "id": "c",
+    "text": "Sports news"
+   },
+   {
+    "id": "d",
+    "text": "A weather forecast"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "Coming up after the break, we'll have the weekend weather forecast とある。",
+  "translation_ja": "聞き手は休憩の後に何を聞くか。",
+  "translation_options_ja": [
+   "ホールト氏へのインタビュー",
+   "地元の農場の一覧",
+   "スポーツニュース",
+   "天気予報"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0016",
+  "part": 4,
+  "set_id": "p4-s006",
+  "type": "reason",
+  "scene": "sales",
+  "prompt": "According to the speaker, why did the East region perform well?",
+  "options": [
+   {
+    "id": "a",
+    "text": "New stores opened there."
+   },
+   {
+    "id": "b",
+    "text": "It hired more staff."
+   },
+   {
+    "id": "c",
+    "text": "Prices were reduced."
+   },
+   {
+    "id": "d",
+    "text": "A new product was launched."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "since that's where we opened two new stores とある。",
+  "translation_ja": "話し手によると、東地域はなぜ業績が良かったのか。",
+  "translation_options_ja": [
+   "そこで新しい店が開いた。",
+   "人員を増やした。",
+   "値下げをした。",
+   "新製品が出た。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0017",
+  "part": 4,
+  "set_id": "p4-s006",
+  "type": "graphic",
+  "scene": "sales",
+  "prompt": "Look at the graphic. Which region does the speaker say needs more staff?",
+  "options": [
+   {
+    "id": "a",
+    "text": "North"
+   },
+   {
+    "id": "b",
+    "text": "South"
+   },
+   {
+    "id": "c",
+    "text": "East"
+   },
+   {
+    "id": "d",
+    "text": "West"
+   }
+  ],
+  "answer": "d",
+  "shuffle": false,
+  "explanation_ja": "人手が足りないのは the region with the lowest sales（売上がいちばん低い地域）で、図では70万ドルの西。北チームは手伝いに行く側。",
+  "translation_ja": "図を見よ。話し手が人手が必要だと言っているのはどの地域か。",
+  "translation_options_ja": [
+   "北",
+   "南",
+   "東",
+   "西"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0018",
+  "part": 4,
+  "set_id": "p4-s006",
+  "type": "request",
+  "scene": "sales",
+  "prompt": "What does the speaker ask some of the listeners to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Interview job candidates"
+   },
+   {
+    "id": "b",
+    "text": "Tell her if they can work in another region"
+   },
+   {
+    "id": "c",
+    "text": "Prepare a sales report"
+   },
+   {
+    "id": "d",
+    "text": "Visit the new stores in the East"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "北チームの何人かに数週間手伝いに行ってほしいと言い、Please let me know by Friday if you're available と頼んでいる。採用は人事部に頼んだこと。",
+  "translation_ja": "話し手は聞き手の一部に何をするよう頼んでいるか。",
+  "translation_options_ja": [
+   "採用の候補者を面接する",
+   "ほかの地域で働けるかを知らせる",
+   "売上の報告書を作る",
+   "東地域の新店舗を訪ねる"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0019",
+  "part": 4,
+  "set_id": "p4-s007",
+  "type": "detail",
+  "scene": "hr",
+  "prompt": "What does the speaker say about Dr. Reyes's book?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It will be released next month."
+   },
+   {
+    "id": "b",
+    "text": "It is mainly about leadership."
+   },
+   {
+    "id": "c",
+    "text": "It has been published in many languages."
+   },
+   {
+    "id": "d",
+    "text": "It is free for workshop attendees."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "has been translated into twelve languages とあり、これを published in many languages と言い換えている。",
+  "translation_ja": "話し手はレイエス博士の本について何と言っているか。",
+  "translation_options_ja": [
+   "来月発売される。",
+   "主にリーダーシップについての本だ。",
+   "多くの言語で出版されている。",
+   "参加者は無料でもらえる。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0020",
+  "part": 4,
+  "set_id": "p4-s007",
+  "type": "intention",
+  "scene": "hr",
+  "prompt": "Why does the speaker say, \"We have a lot of people here today\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To apologize for a lack of seats"
+   },
+   {
+    "id": "b",
+    "text": "To thank the event organizers"
+   },
+   {
+    "id": "c",
+    "text": "To suggest moving to a larger room"
+   },
+   {
+    "id": "d",
+    "text": "To explain why questions should be written down"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "直前で「質問はカードに書いて」と頼んでおり、人数が多いので口頭で質問を受けるのは難しい、という理由を補っている。",
+  "translation_ja": "話し手はなぜ「今日はたくさんの方がいらしています」と言っているのか。",
+  "translation_options_ja": [
+   "席が足りないことをわびるため",
+   "主催者に感謝するため",
+   "もっと広い部屋に移ることを提案するため",
+   "質問を書いて出す理由を説明するため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0021",
+  "part": 4,
+  "set_id": "p4-s007",
+  "type": "detail",
+  "scene": "hr",
+  "prompt": "What is available at the back of the room?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Copies of a book"
+   },
+   {
+    "id": "b",
+    "text": "Question cards"
+   },
+   {
+    "id": "c",
+    "text": "Refreshments"
+   },
+   {
+    "id": "d",
+    "text": "Name tags"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "copies of her book are available at the back of the room とある。質問用のカードはテーブルの上にある。",
+  "translation_ja": "部屋の後ろには何があるか。",
+  "translation_options_ja": [
+   "本",
+   "質問用のカード",
+   "軽食",
+   "名札"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0022",
+  "part": 4,
+  "set_id": "p4-s008",
+  "type": "detail",
+  "scene": "retail",
+  "prompt": "How long will the bakery discount last?",
+  "options": [
+   {
+    "id": "a",
+    "text": "For ten minutes"
+   },
+   {
+    "id": "b",
+    "text": "For thirty minutes"
+   },
+   {
+    "id": "c",
+    "text": "For one hour"
+   },
+   {
+    "id": "d",
+    "text": "For the whole day"
+   }
+  ],
+  "answer": "b",
+  "shuffle": false,
+  "explanation_ja": "For the next thirty minutes, all bakery items are twenty percent off とある。",
+  "translation_ja": "パン売り場の割引はどのくらい続くか。",
+  "translation_options_ja": [
+   "10分間",
+   "30分間",
+   "1時間",
+   "1日中"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0023",
+  "part": 4,
+  "set_id": "p4-s008",
+  "type": "detail",
+  "scene": "retail",
+  "prompt": "What can shoppers do in aisle seven?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Buy discounted bread"
+   },
+   {
+    "id": "b",
+    "text": "Try some beverages"
+   },
+   {
+    "id": "c",
+    "text": "Meet a local farmer"
+   },
+   {
+    "id": "d",
+    "text": "Use a new checkout machine"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "aisle seven, where our staff are offering free samples of ... fruit juices とあり、試飲できる。fruit juices を beverages と言い換えている。",
+  "translation_ja": "買い物客は7番通路で何ができるか。",
+  "translation_options_ja": [
+   "割引のパンを買う",
+   "飲み物を試す",
+   "地元の農家に会う",
+   "新しいレジを使う"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
+ },
+ {
+  "id": "p4-0024",
+  "part": 4,
+  "set_id": "p4-s008",
+  "type": "reason",
+  "scene": "retail",
+  "prompt": "Why will the store close early on Sunday?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To hold a staff meeting"
+   },
+   {
+    "id": "b",
+    "text": "To prepare for a holiday"
+   },
+   {
+    "id": "c",
+    "text": "To install some equipment"
+   },
+   {
+    "id": "d",
+    "text": "To clean the floors"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "so that we can install new self-checkout machines とあり、セルフレジを equipment と言い換えている。",
+  "translation_ja": "店はなぜ日曜日に早く閉まるのか。",
+  "translation_options_ja": [
+   "従業員の会議を開くため",
+   "祝日の準備をするため",
+   "機器を設置するため",
+   "床を掃除するため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch a",
+  "review": []
  },
  {
   "id": "p5-0001",
