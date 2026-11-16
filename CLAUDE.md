@@ -47,8 +47,8 @@
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。
 
 ## Part 1 の写真
-- 試作の3枚は Gamma の画像生成（1枚70クレジット、残り150）。数を増やすときは Google Cloud の Imagen など別手段を検討し、費用がかかる生成は先生に確認してから行う。
-- 1600px 幅の WebP にして `images/part1/<item id>.webp` に置く。
+- 試作の3枚は Gamma の画像生成。これからは、先生が GPT か Gemini（nano banana）に `images/part1/PROMPTS.md` のプロンプトを渡して作る。白黒・16:9・文字なし。
+- 先生が `images/part1/incoming/<item id>.png` を push → `python3 scripts/prep_photo.py` で 1600px 幅の WebP（`images/part1/<item id>.webp`）にする → **写真を見てから**選択肢を書く（プロンプトどおりに描かれないことが多いため）。
 
 ## 次にやること（TODO）
 1. ~~問題データの置き場所を変える~~ → 済み（`data/src/part{N}/*.json` を読む形。試作49問は `pilot-v0.json` に移した。出力は移行前と同一）

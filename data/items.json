@@ -6918,6 +6918,611 @@
   ]
  },
  {
+  "id": "p6-0005",
+  "part": 6,
+  "set_id": "p6-s002",
+  "type": "grammar.part_of_speech",
+  "scene": "retail",
+  "prompt": "[1]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Original"
+   },
+   {
+    "id": "b",
+    "text": "Originally"
+   },
+   {
+    "id": "c",
+    "text": "Origin"
+   },
+   {
+    "id": "d",
+    "text": "Originate"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "名詞 receipts の前なので、名詞を修飾する形容詞 Original（原本の）。Originally は副詞、Origin は名詞、Originate は動詞。",
+  "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0006",
+  "part": 6,
+  "set_id": "p6-s002",
+  "type": "text.insertion",
+  "scene": "retail",
+  "prompt": "[2]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Our garden center will be closed for the holidays."
+   },
+   {
+    "id": "b",
+    "text": "These items are clearly marked with a red tag."
+   },
+   {
+    "id": "c",
+    "text": "Please keep your receipts for at least 30 days."
+   },
+   {
+    "id": "d",
+    "text": "All returns must be made within one week."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。30日・1週間という文は、60日に延びるという前の段落と食い違う。",
+  "translation_ja": "（空欄2）文挿入問題",
+  "translation_options_ja": [
+   "園芸コーナーは休暇の間閉まります。",
+   "これらの商品には赤い札がはっきりと付いています。",
+   "レシートは少なくとも30日間保管してください。",
+   "返品はすべて1週間以内にお願いします。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0007",
+  "part": 6,
+  "set_id": "p6-s002",
+  "type": "grammar.tense",
+  "scene": "retail",
+  "prompt": "[3]",
+  "options": [
+   {
+    "id": "a",
+    "text": "has installed"
+   },
+   {
+    "id": "b",
+    "text": "will install"
+   },
+   {
+    "id": "c",
+    "text": "was installed"
+   },
+   {
+    "id": "d",
+    "text": "installs"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "カウンターは「設置された」側で、last week（先週）があるので過去の受け身 was installed。has installed・will install・installs は能動態で、後ろに目的語が必要。",
+  "translation_ja": "（空欄3）先週、正面入口の近くにセルフサービスの返品カウンターが設置された。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0008",
+  "part": 6,
+  "set_id": "p6-s002",
+  "type": "grammar.part_of_speech",
+  "scene": "retail",
+  "prompt": "[4]",
+  "options": [
+   {
+    "id": "a",
+    "text": "enjoyably"
+   },
+   {
+    "id": "b",
+    "text": "enjoyment"
+   },
+   {
+    "id": "c",
+    "text": "enjoy"
+   },
+   {
+    "id": "d",
+    "text": "enjoyable"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more enjoyable で「いっそう楽しく」。",
+  "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう楽しくなればと思う。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0009",
+  "part": 6,
+  "set_id": "p6-s003",
+  "type": "grammar.tense",
+  "scene": "hr",
+  "prompt": "[1]",
+  "options": [
+   {
+    "id": "a",
+    "text": "will be"
+   },
+   {
+    "id": "b",
+    "text": "was"
+   },
+   {
+    "id": "c",
+    "text": "has been"
+   },
+   {
+    "id": "d",
+    "text": "had been"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "メールは6月3日付で、初出勤日の6月17日はこれから先のことなので未来の will be。was・has been・had been は過去や完了を表す。",
+  "translation_ja": "（空欄1）お話ししたとおり、初出勤日は6月17日（月）だ。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0010",
+  "part": 6,
+  "set_id": "p6-s003",
+  "type": "text.insertion",
+  "scene": "hr",
+  "prompt": "[2]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Our office is closed on weekends and national holidays."
+   },
+   {
+    "id": "b",
+    "text": "You will spend the first hour attending a short orientation session."
+   },
+   {
+    "id": "c",
+    "text": "Thank you for applying for the position."
+   },
+   {
+    "id": "d",
+    "text": "Ms. Okonkwo joined the company last year."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。すでに採用が決まっているので応募のお礼は時期が合わない。",
+  "translation_ja": "（空欄2）文挿入問題",
+  "translation_options_ja": [
+   "当社は土日祝日は休みです。",
+   "最初の1時間は短いオリエンテーションに参加していただきます。",
+   "この職にご応募いただきありがとうございます。",
+   "オコンクォさんは昨年入社しました。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0011",
+  "part": 6,
+  "set_id": "p6-s003",
+  "type": "vocab.collocation",
+  "scene": "hr",
+  "prompt": "[3]",
+  "options": [
+   {
+    "id": "a",
+    "text": "regulations"
+   },
+   {
+    "id": "b",
+    "text": "resolutions"
+   },
+   {
+    "id": "c",
+    "text": "restrictions"
+   },
+   {
+    "id": "d",
+    "text": "recognitions"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で dietary とは組まない。",
+  "translation_ja": "（空欄3）食事の制限があれば知らせてほしい。",
+  "translation_options_ja": [
+   "規則",
+   "決意・決議",
+   "制限",
+   "認識・表彰"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0012",
+  "part": 6,
+  "set_id": "p6-s003",
+  "type": "grammar.part_of_speech",
+  "scene": "hr",
+  "prompt": "[4]",
+  "options": [
+   {
+    "id": "a",
+    "text": "work"
+   },
+   {
+    "id": "b",
+    "text": "worked"
+   },
+   {
+    "id": "c",
+    "text": "works"
+   },
+   {
+    "id": "d",
+    "text": "working"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "look forward to の to は前置詞なので、後ろは名詞か動名詞。working with you で「あなたと一緒に働くこと」。",
+  "translation_ja": "（空欄4）一緒に働けることを楽しみにしている。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0013",
+  "part": 6,
+  "set_id": "p6-s004",
+  "type": "vocab.verb",
+  "scene": "business.news",
+  "prompt": "[1]",
+  "options": [
+   {
+    "id": "a",
+    "text": "increase"
+   },
+   {
+    "id": "b",
+    "text": "achieve"
+   },
+   {
+    "id": "c",
+    "text": "attract"
+   },
+   {
+    "id": "d",
+    "text": "require"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "新施設が生産量（output）を約40パーセント「増やす」ので increase。by about 40 percent（約40パーセント分）とも合う。",
+  "translation_ja": "（空欄1）新施設で、同社の生産量は約40パーセント増える。",
+  "translation_options_ja": [
+   "増やす",
+   "成し遂げる",
+   "引きつける",
+   "必要とする"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0014",
+  "part": 6,
+  "set_id": "p6-s004",
+  "type": "text.insertion",
+  "scene": "business.news",
+  "prompt": "[2]",
+  "options": [
+   {
+    "id": "a",
+    "text": "The company was founded by Ms. Varga's parents in 1985."
+   },
+   {
+    "id": "b",
+    "text": "Demand for its breads has risen sharply over the past two years."
+   },
+   {
+    "id": "c",
+    "text": "The new facility will be closed on weekends."
+   },
+   {
+    "id": "d",
+    "text": "Grocery prices in the region have fallen this year."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "直後の this growing demand（この高まる需要）が指す内容が直前に必要。需要が急増しているという文を入れると「この需要に応える」につながる。",
+  "translation_ja": "（空欄2）文挿入問題",
+  "translation_options_ja": [
+   "同社は1985年にヴァルガ氏の両親が創業した。",
+   "同社のパンの需要はこの2年で急増している。",
+   "新しい施設は週末は休みになる。",
+   "地域の食料品の価格は今年下がった。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0015",
+  "part": 6,
+  "set_id": "p6-s004",
+  "type": "grammar.connector",
+  "scene": "business.news",
+  "prompt": "[3]",
+  "options": [
+   {
+    "id": "a",
+    "text": "For example"
+   },
+   {
+    "id": "b",
+    "text": "As a result"
+   },
+   {
+    "id": "c",
+    "text": "In addition"
+   },
+   {
+    "id": "d",
+    "text": "Instead"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「雇用の多くは製造と配送」に「食品科学者も採用する」という別の情報を付け加えているので In addition。例や結果ではなく、代わりでもない。",
+  "translation_ja": "（空欄3）さらに、リバーモントは新製品を開発するため食品科学者を数人採用する予定だ。",
+  "translation_options_ja": [
+   "たとえば",
+   "その結果",
+   "さらに",
+   "その代わりに"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0016",
+  "part": 6,
+  "set_id": "p6-s004",
+  "type": "grammar.comparative",
+  "scene": "business.news",
+  "prompt": "[4]",
+  "options": [
+   {
+    "id": "a",
+    "text": "large"
+   },
+   {
+    "id": "b",
+    "text": "largely"
+   },
+   {
+    "id": "c",
+    "text": "largest"
+   },
+   {
+    "id": "d",
+    "text": "larger"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large・much largest とは言わない。",
+  "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0017",
+  "part": 6,
+  "set_id": "p6-s005",
+  "type": "vocab.collocation",
+  "scene": "events",
+  "prompt": "[1]",
+  "options": [
+   {
+    "id": "a",
+    "text": "relies"
+   },
+   {
+    "id": "b",
+    "text": "consists"
+   },
+   {
+    "id": "c",
+    "text": "results"
+   },
+   {
+    "id": "d",
+    "text": "applies"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "rely on ～ で「～に頼る」。毎年200人以上のボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+  "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
+  "translation_options_ja": [
+   "頼る",
+   "成り立つ",
+   "結果として生じる",
+   "当てはまる・申し込む"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0018",
+  "part": 6,
+  "set_id": "p6-s005",
+  "type": "text.insertion",
+  "scene": "events",
+  "prompt": "[2]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tickets for the festival will go on sale in May."
+   },
+   {
+    "id": "b",
+    "text": "Training for all of these roles will be provided on July 10."
+   },
+   {
+    "id": "c",
+    "text": "Last year's festival was held in a different park."
+   },
+   {
+    "id": "d",
+    "text": "The park is located near the city's main train station."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "直前でボランティアの仕事（these roles）を挙げ、後で「経験は不要」と述べている。仕事の研修があるという文が入るとつながる。チケットや会場の話は、ボランティアの仕事の説明と「そのお礼として」の間に入らない。",
+  "translation_ja": "（空欄2）文挿入問題",
+  "translation_options_ja": [
+   "音楽祭のチケットは5月に発売されます。",
+   "どの役割についても、7月10日に研修を行います。",
+   "昨年の音楽祭は別の公園で開かれました。",
+   "公園は市の中心駅の近くにあります。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0019",
+  "part": 6,
+  "set_id": "p6-s005",
+  "type": "grammar.connector",
+  "scene": "events",
+  "prompt": "[3]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Therefore"
+   },
+   {
+    "id": "b",
+    "text": "For instance"
+   },
+   {
+    "id": "c",
+    "text": "However"
+   },
+   {
+    "id": "d",
+    "text": "Similarly"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「経験は不要」の後に「16歳以上で6時間のシフトに入れること」という条件を付けているので、逆接の However。",
+  "translation_ja": "（空欄3）ただし、16歳以上で、6時間のシフトに少なくとも1回入れることが条件だ。",
+  "translation_options_ja": [
+   "したがって",
+   "たとえば",
+   "ただし",
+   "同様に"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
+  "id": "p6-0020",
+  "part": 6,
+  "set_id": "p6-s005",
+  "type": "grammar.passive",
+  "scene": "events",
+  "prompt": "[4]",
+  "options": [
+   {
+    "id": "a",
+    "text": "notify"
+   },
+   {
+    "id": "b",
+    "text": "notifying"
+   },
+   {
+    "id": "c",
+    "text": "notification"
+   },
+   {
+    "id": "d",
+    "text": "notified"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "応募者は「知らされる」側なので be notified of ～（～を知らされる）の受け身。will be の後なので過去分詞。",
+  "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a",
+  "review": []
+ },
+ {
   "id": "p7-0001",
   "part": 7,
   "set_id": "p7-s001",
@@ -7656,30 +8261,30 @@
   "options": [
    {
     "id": "a",
-    "text": "To announce a temporary closure"
+    "text": "To announce a change to building access"
    },
    {
     "id": "b",
-    "text": "To introduce a new office manager"
+    "text": "To introduce a new facilities manager"
    },
    {
     "id": "c",
-    "text": "To request ideas for a kitchen design"
+    "text": "To request feedback on the cafeteria"
    },
    {
     "id": "d",
-    "text": "To report a problem with a coffee machine"
+    "text": "To report a problem with the parking garage"
    }
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "冒頭の the third-floor kitchen will be closed for renovation と The work is expected to take two weeks から、給湯室の一時的な閉鎖を知らせるメモ。デザイン案の募集やマシンの故障には触れていない。",
+  "explanation_ja": "冒頭の our building will use a new electronic entry system と、今の社員証が使えなくなるので新しい入館証を受け取るように、という内容から、出入りの方法が変わる知らせ。食堂や駐車場は入館証の使い道として出てくるだけ。",
   "translation_ja": "このメモの目的は何か。",
   "translation_options_ja": [
-   "一時的な閉鎖を知らせること",
-   "新しい総務マネージャーを紹介すること",
-   "給湯室のデザイン案を募ること",
-   "コーヒーマシンの故障を報告すること"
+   "ビルへの出入りの方法が変わることを知らせること",
+   "新しい施設管理マネージャーを紹介すること",
+   "社員食堂についての意見を求めること",
+   "駐車場の不具合を報告すること"
   ],
   "level": "B1",
   "status": "draft",
@@ -7692,34 +8297,34 @@
   "set_id": "p7-s004",
   "type": "not.true",
   "scene": "office",
-  "prompt": "What is NOT mentioned as a feature of the renovated kitchen?",
+  "prompt": "What is NOT mentioned as something the new badges can be used for?",
   "options": [
    {
     "id": "a",
-    "text": "A bigger refrigerator"
+    "text": "Entering the parking garage"
    },
    {
     "id": "b",
-    "text": "A dishwasher"
+    "text": "Printing documents"
    },
    {
     "id": "c",
-    "text": "An additional sink"
+    "text": "Opening stairwell doors"
    },
    {
     "id": "d",
-    "text": "A new coffee maker"
+    "text": "Paying for meals"
    }
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "a larger refrigerator, a second sink, and a new coffee machine とあり、それぞれ bigger refrigerator・additional sink・new coffee maker と言い換えられている。食器洗い機は書かれていない。",
-  "translation_ja": "改装後の給湯室の設備として述べられていないものはどれか。",
+  "explanation_ja": "the main entrance, the parking garage, and the stairwell doors が開き、pay for meals in the cafeteria にも使えるとある。印刷については書かれていない。",
+  "translation_ja": "新しい入館証の使い道として述べられていないものはどれか。",
   "translation_options_ja": [
-   "より大きな冷蔵庫",
-   "食器洗い機",
-   "追加の流し台",
-   "新しいコーヒーメーカー"
+   "駐車場に入ること",
+   "書類を印刷すること",
+   "階段の扉を開けること",
+   "食事の支払いをすること"
   ],
   "level": "B1",
   "status": "draft",
@@ -7732,34 +8337,34 @@
   "set_id": "p7-s004",
   "type": "detail",
   "scene": "office",
-  "prompt": "By what date should employees remove their belongings from the refrigerator?",
+  "prompt": "When can employees begin picking up their new badges?",
   "options": [
    {
     "id": "a",
-    "text": "October 6"
+    "text": "October 2"
    },
    {
     "id": "b",
-    "text": "October 9"
+    "text": "October 4"
    },
    {
     "id": "c",
-    "text": "October 16"
+    "text": "October 9"
    },
    {
     "id": "d",
-    "text": "October 23"
+    "text": "October 16"
    }
   ],
-  "answer": "a",
+  "answer": "b",
   "shuffle": false,
-  "explanation_ja": "Please remove any personal items ... by Friday, October 6 とある。10月9日は閉鎖が始まる日、10月23日は2週間の工事が終わるころ。",
-  "translation_ja": "社員はいつまでに冷蔵庫から私物を出さなければならないか。",
+  "explanation_ja": "Badges will be available for pickup starting Wednesday, October 4 とある。10月2日はメモの日付、10月9日は新しいシステムが始まる日。",
+  "translation_ja": "社員はいつから新しい入館証を受け取れるか。",
   "translation_options_ja": [
-   "10月6日",
+   "10月2日",
+   "10月4日",
    "10月9日",
-   "10月16日",
-   "10月23日"
+   "10月16日"
   ],
   "level": "B1",
   "status": "draft",

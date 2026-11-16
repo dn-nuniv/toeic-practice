@@ -289,6 +289,115 @@
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
  },
  {
+  "id": "p6-s002",
+  "part": 6,
+  "kind": "notice",
+  "scene": "retail",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Notice to Customers",
+    "text": "Starting March 1, Halbrook Home & Garden will update its return policy. Customers will have 60 days, instead of 30, to return most items. [1] receipts will still be required for all returns.\n\nItems purchased during our seasonal clearance sales, however, cannot be returned. [2]\n\nTo make returns easier, a self-service return counter [3] near the main entrance last week. Simply scan your receipt and place the item in the marked bin.\n\nWe hope these changes make shopping with us even more [4]. Thank you for your continued support."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0005",
+   "p6-0006",
+   "p6-0007",
+   "p6-0008"
+  ],
+  "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。ただし、すべての返品には引き続きレシートの原本が必要です。\nなお、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう楽しくなれば幸いです。日ごろのご愛顧に感謝いたします。",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a"
+ },
+ {
+  "id": "p6-s003",
+  "part": 6,
+  "kind": "email",
+  "scene": "hr",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "email",
+    "header": {
+     "To": "Lucia Fernandes <lfernandes@mailbox.example>",
+     "From": "David Kim <dkim@norvale.example>",
+     "Date": "June 3",
+     "Subject": "Welcome to Norvale Engineering"
+    },
+    "text": "Dear Ms. Fernandes,\n\nOn behalf of everyone at Norvale Engineering, I am pleased to welcome you to our design team. As we discussed, your first day [1] Monday, June 17.\n\nOn that morning, please come to the reception desk on the first floor at 9:00 A.M. [2] After that, your manager, Ms. Okonkwo, will show you to your workspace and introduce you to your colleagues.\n\nBefore your start date, please complete the attached forms and return them to me. Please also let me know if you have any dietary [3], as we will be holding a welcome lunch for new employees that week.\n\nWe are looking forward to [4] with you.\n\nSincerely,\nDavid Kim\nHuman Resources"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0009",
+   "p6-0010",
+   "p6-0011",
+   "p6-0012"
+  ],
+  "translation_ja": "宛先：ルシア・フェルナンデス／差出人：デイビッド・キム（ノーヴェイル・エンジニアリング）／日付：6月3日／件名：ノーヴェイル・エンジニアリングへようこそ\nフェルナンデス様\nノーヴェイル・エンジニアリングの全員を代表して、設計チームへのご入社を歓迎いたします。お話ししたとおり、初出勤日は6月17日（月）です。\n当日の朝は、午前9時に1階の受付にお越しください。［最初の1時間は短いオリエンテーションに参加していただきます。］その後、上司のオコンクォさんが席へご案内し、同僚に紹介します。\n入社日までに、添付の書類にご記入のうえ私宛てにご返送ください。また、その週に新入社員の歓迎昼食会を開きますので、食事の制限があればお知らせください。\n一緒に働けることを楽しみにしています。\n人事部　デイビッド・キム",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a"
+ },
+ {
+  "id": "p6-s004",
+  "part": 6,
+  "kind": "article",
+  "scene": "business.news",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "article",
+    "title": "Rivermont Bakery to Expand Production",
+    "text": "OAKDALE (August 14) — Rivermont Bakery, a family-owned company known for its whole-grain breads, announced yesterday that it will open a second production facility next spring. The new facility, located in the Oakdale Industrial Park, will [1] the company's output by about 40 percent.\n\nRivermont's products are currently sold in more than 300 grocery stores across the region. [2] The company says the new facility will allow it to meet this growing demand.\n\nThe expansion is also expected to create around 60 new jobs. Most of these positions will be in production and delivery. [3], Rivermont plans to hire several food scientists to develop new products.\n\n\"We have always focused on quality,\" said company president Elena Varga. \"Our new facility will help us continue to do so on a much [4] scale.\""
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0013",
+   "p6-0014",
+   "p6-0015",
+   "p6-0016"
+  ],
+  "translation_ja": "リバーモント・ベーカリー、生産を拡大へ\nオークデール（8月14日）――全粒粉のパンで知られる家族経営のリバーモント・ベーカリーは昨日、来春2か所目の生産施設を開くと発表した。オークデール工業団地にできる新施設で、同社の生産量は約40パーセント増える。\nリバーモントの製品は現在、地域の300以上の食料品店で売られている。［同社のパンの需要はこの2年で急増している。］同社によると、新施設によってこの高まる需要に応えられるようになるという。\n拡大によって約60人の新たな雇用も生まれる見込みだ。その多くは製造と配送の仕事である。さらに、リバーモントは新製品を開発するために食品科学者を数人採用する予定だ。\n「私たちはいつも品質を大切にしてきました」と社長のエレナ・ヴァルガ氏は語った。「新しい施設によって、それをはるかに大きな規模で続けられるようになります」",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a"
+ },
+ {
+  "id": "p6-s005",
+  "part": 6,
+  "kind": "notice",
+  "scene": "events",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Volunteers Wanted: Brookfield Summer Music Festival",
+    "text": "The Brookfield Summer Music Festival will take place in Lakeside Park from July 12 to July 14. Every year, the event [1] on the help of more than 200 volunteers.\n\nVolunteers assist with tasks such as greeting visitors, selling programs, and keeping the park clean. [2] In return, volunteers receive a free festival T-shirt and a pass to all three days of concerts.\n\nNo previous experience is necessary. [3], volunteers must be at least 16 years old and available for at least one six-hour shift.\n\nTo apply, complete the online form at www.brookfieldmusic.example/volunteer by June 20. Applicants will be [4] of their shift assignments by e-mail in early July."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0017",
+   "p6-0018",
+   "p6-0019",
+   "p6-0020"
+  ],
+  "translation_ja": "ボランティア募集：ブルックフィールド夏の音楽祭\nブルックフィールド夏の音楽祭は、7月12日から14日までレイクサイド公園で開かれます。毎年、この催しは200人を超えるボランティアの協力に支えられています。\nボランティアは、来場者の出迎え、プログラムの販売、公園の清掃などを手伝います。［どの役割についても、7月10日に研修を行います。］そのお礼として、ボランティアには音楽祭の T シャツと、3日間すべてのコンサートに入れるパスを差し上げます。\n経験は問いません。ただし、16歳以上で、6時間のシフトに少なくとも1回入れることが条件です。\n応募は6月20日までにウェブサイトのフォームから。担当シフトは7月上旬にメールでお知らせします。",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch a"
+ },
+ {
   "id": "p7-s001",
   "part": 7,
   "kind": "single",
@@ -415,11 +524,11 @@
     "type": "memo",
     "header": {
      "To": "All Employees",
-     "From": "Hannah Osei, Office Manager",
+     "From": "Hannah Osei, Facilities Manager",
      "Date": "October 2",
-     "Subject": "Kitchen renovation"
+     "Subject": "New security badges"
     },
-    "text": "Beginning Monday, October 9, the third-floor kitchen will be closed for renovation. The work is expected to take two weeks. During this time, employees may use the kitchen on the fifth floor, which will remain open from 7:00 A.M. to 7:00 P.M.\n\nThe renovated kitchen will include a larger refrigerator, a second sink, and a new coffee machine. Please remove any personal items from the third-floor refrigerator by Friday, October 6. Items left after that date will be thrown away.\n\nThank you for your patience. If you have any questions, please contact me at extension 214."
+    "text": "Beginning Monday, October 9, our building will use a new electronic entry system. Current ID badges will stop working on that date, so all employees must pick up a new badge from the security desk in the main lobby.\n\nThe new badges will open the main entrance, the parking garage, and the stairwell doors on every floor. They can also be used to pay for meals in the cafeteria. Badges will be available for pickup starting Wednesday, October 4. Please bring a photo ID when you come.\n\nIf you lose your badge, report it to the security desk immediately. Thank you for your cooperation."
    }
   ],
   "graphic": null,
@@ -429,7 +538,7 @@
    "p7-0012",
    "p7-0013"
   ],
-  "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（総務マネージャー）／日付：10月2日／件名：給湯室の改装\n10月9日（月）から、3階の給湯室は改装のため閉鎖します。工事は2週間かかる見込みです。その間は5階の給湯室を利用できます（午前7時〜午後7時）。\n改装後の給湯室には、より大きな冷蔵庫、2つ目の流し台、新しいコーヒーマシンが入ります。3階の冷蔵庫にある私物は10月6日（金）までに出してください。それ以降に残っている物は処分します。\nご協力ありがとうございます。質問があれば内線214の私までご連絡ください。",
+  "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（施設管理マネージャー）／日付：10月2日／件名：新しい入館証\n10月9日（月）から、当ビルは新しい電子入館システムを使います。今の社員証はその日から使えなくなるので、全社員は正面ロビーの警備デスクで新しい入館証を受け取ってください。\n新しい入館証で、正面入口、駐車場、各階の階段の扉が開きます。社員食堂での食事の支払いにも使えます。入館証は10月4日（水）から受け取れます。受け取りの際は写真付きの身分証明書をお持ちください。\n入館証をなくした場合は、すぐに警備デスクに届け出てください。ご協力ありがとうございます。",
   "status": "draft",
   "source": "2026-11-16 / part7 batch a"
  },

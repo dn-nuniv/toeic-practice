@@ -12,14 +12,14 @@
      "type": "memo",
      "header": {
       "To": "All Employees",
-      "From": "Hannah Osei, Office Manager",
+      "From": "Hannah Osei, Facilities Manager",
       "Date": "October 2",
-      "Subject": "Kitchen renovation"
+      "Subject": "New security badges"
      },
-     "text": "Beginning Monday, October 9, the third-floor kitchen will be closed for renovation. The work is expected to take two weeks. During this time, employees may use the kitchen on the fifth floor, which will remain open from 7:00 A.M. to 7:00 P.M.\n\nThe renovated kitchen will include a larger refrigerator, a second sink, and a new coffee machine. Please remove any personal items from the third-floor refrigerator by Friday, October 6. Items left after that date will be thrown away.\n\nThank you for your patience. If you have any questions, please contact me at extension 214."
+     "text": "Beginning Monday, October 9, our building will use a new electronic entry system. Current ID badges will stop working on that date, so all employees must pick up a new badge from the security desk in the main lobby.\n\nThe new badges will open the main entrance, the parking garage, and the stairwell doors on every floor. They can also be used to pay for meals in the cafeteria. Badges will be available for pickup starting Wednesday, October 4. Please bring a photo ID when you come.\n\nIf you lose your badge, report it to the security desk immediately. Thank you for your cooperation."
     }
    ],
-   "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（総務マネージャー）／日付：10月2日／件名：給湯室の改装\n10月9日（月）から、3階の給湯室は改装のため閉鎖します。工事は2週間かかる見込みです。その間は5階の給湯室を利用できます（午前7時〜午後7時）。\n改装後の給湯室には、より大きな冷蔵庫、2つ目の流し台、新しいコーヒーマシンが入ります。3階の冷蔵庫にある私物は10月6日（金）までに出してください。それ以降に残っている物は処分します。\nご協力ありがとうございます。質問があれば内線214の私までご連絡ください。",
+   "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（施設管理マネージャー）／日付：10月2日／件名：新しい入館証\n10月9日（月）から、当ビルは新しい電子入館システムを使います。今の社員証はその日から使えなくなるので、全社員は正面ロビーの警備デスクで新しい入館証を受け取ってください。\n新しい入館証で、正面入口、駐車場、各階の階段の扉が開きます。社員食堂での食事の支払いにも使えます。入館証は10月4日（水）から受け取れます。受け取りの際は写真付きの身分証明書をお持ちください。\n入館証をなくした場合は、すぐに警備デスクに届け出てください。ご協力ありがとうございます。",
    "questions": [
     {
      "id": "p7-0011",
@@ -28,40 +28,50 @@
      "level": "B1",
      "prompt": "What is the purpose of the memo?",
      "options": [
-      "To announce a temporary closure",
-      "To introduce a new office manager",
-      "To request ideas for a kitchen design",
-      "To report a problem with a coffee machine"
+      "To announce a change to building access",
+      "To introduce a new facilities manager",
+      "To request feedback on the cafeteria",
+      "To report a problem with the parking garage"
      ],
      "answer": "a",
-     "explanation_ja": "冒頭の the third-floor kitchen will be closed for renovation と The work is expected to take two weeks から、給湯室の一時的な閉鎖を知らせるメモ。デザイン案の募集やマシンの故障には触れていない。",
+     "explanation_ja": "冒頭の our building will use a new electronic entry system と、今の社員証が使えなくなるので新しい入館証を受け取るように、という内容から、出入りの方法が変わる知らせ。食堂や駐車場は入館証の使い道として出てくるだけ。",
      "translation_ja": "このメモの目的は何か。",
-     "translation_options_ja": ["一時的な閉鎖を知らせること", "新しい総務マネージャーを紹介すること", "給湯室のデザイン案を募ること", "コーヒーマシンの故障を報告すること"]
+     "translation_options_ja": [
+      "ビルへの出入りの方法が変わることを知らせること",
+      "新しい施設管理マネージャーを紹介すること",
+      "社員食堂についての意見を求めること",
+      "駐車場の不具合を報告すること"
+     ]
     },
     {
      "id": "p7-0012",
      "type": "not.true",
      "scene": "office",
      "level": "B1",
-     "prompt": "What is NOT mentioned as a feature of the renovated kitchen?",
-     "options": ["A bigger refrigerator", "A dishwasher", "An additional sink", "A new coffee maker"],
+     "prompt": "What is NOT mentioned as something the new badges can be used for?",
+     "options": [
+      "Entering the parking garage",
+      "Printing documents",
+      "Opening stairwell doors",
+      "Paying for meals"
+     ],
      "answer": "b",
-     "explanation_ja": "a larger refrigerator, a second sink, and a new coffee machine とあり、それぞれ bigger refrigerator・additional sink・new coffee maker と言い換えられている。食器洗い機は書かれていない。",
-     "translation_ja": "改装後の給湯室の設備として述べられていないものはどれか。",
-     "translation_options_ja": ["より大きな冷蔵庫", "食器洗い機", "追加の流し台", "新しいコーヒーメーカー"]
+     "explanation_ja": "the main entrance, the parking garage, and the stairwell doors が開き、pay for meals in the cafeteria にも使えるとある。印刷については書かれていない。",
+     "translation_ja": "新しい入館証の使い道として述べられていないものはどれか。",
+     "translation_options_ja": ["駐車場に入ること", "書類を印刷すること", "階段の扉を開けること", "食事の支払いをすること"]
     },
     {
      "id": "p7-0013",
      "type": "detail",
      "scene": "office",
      "level": "B1",
-     "prompt": "By what date should employees remove their belongings from the refrigerator?",
-     "options": ["October 6", "October 9", "October 16", "October 23"],
-     "answer": "a",
+     "prompt": "When can employees begin picking up their new badges?",
+     "options": ["October 2", "October 4", "October 9", "October 16"],
+     "answer": "b",
      "shuffle": false,
-     "explanation_ja": "Please remove any personal items ... by Friday, October 6 とある。10月9日は閉鎖が始まる日、10月23日は2週間の工事が終わるころ。",
-     "translation_ja": "社員はいつまでに冷蔵庫から私物を出さなければならないか。",
-     "translation_options_ja": ["10月6日", "10月9日", "10月16日", "10月23日"]
+     "explanation_ja": "Badges will be available for pickup starting Wednesday, October 4 とある。10月2日はメモの日付、10月9日は新しいシステムが始まる日。",
+     "translation_ja": "社員はいつから新しい入館証を受け取れるか。",
+     "translation_options_ja": ["10月2日", "10月4日", "10月9日", "10月16日"]
     }
    ]
   },

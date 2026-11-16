@@ -1,0 +1,297 @@
+{
+ "batch": "2026-11-16-p6-a",
+ "source": "2026-11-16 / part6 batch a",
+ "note": "blueprint に沿った Part 6 の4セット16問（各セット文挿入1問）",
+ "sets": [
+  {
+   "id": "p6-s002",
+   "kind": "notice",
+   "scene": "retail",
+   "passages": [
+    {
+     "type": "notice",
+     "title": "Notice to Customers",
+     "text": "Starting March 1, Halbrook Home & Garden will update its return policy. Customers will have 60 days, instead of 30, to return most items. [1] receipts will still be required for all returns.\n\nItems purchased during our seasonal clearance sales, however, cannot be returned. [2]\n\nTo make returns easier, a self-service return counter [3] near the main entrance last week. Simply scan your receipt and place the item in the marked bin.\n\nWe hope these changes make shopping with us even more [4]. Thank you for your continued support."
+    }
+   ],
+   "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。ただし、すべての返品には引き続きレシートの原本が必要です。\nなお、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう楽しくなれば幸いです。日ごろのご愛顧に感謝いたします。",
+   "questions": [
+    {
+     "id": "p6-0005",
+     "type": "grammar.part_of_speech",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["Original", "Originally", "Origin", "Originate"],
+     "answer": "a",
+     "explanation_ja": "名詞 receipts の前なので、名詞を修飾する形容詞 Original（原本の）。Originally は副詞、Origin は名詞、Originate は動詞。",
+     "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。"
+    },
+    {
+     "id": "p6-0006",
+     "type": "text.insertion",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "Our garden center will be closed for the holidays.",
+      "These items are clearly marked with a red tag.",
+      "Please keep your receipts for at least 30 days.",
+      "All returns must be made within one week."
+     ],
+     "answer": "b",
+     "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。30日・1週間という文は、60日に延びるという前の段落と食い違う。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "園芸コーナーは休暇の間閉まります。",
+      "これらの商品には赤い札がはっきりと付いています。",
+      "レシートは少なくとも30日間保管してください。",
+      "返品はすべて1週間以内にお願いします。"
+     ]
+    },
+    {
+     "id": "p6-0007",
+     "type": "grammar.tense",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["has installed", "will install", "was installed", "installs"],
+     "answer": "c",
+     "explanation_ja": "カウンターは「設置された」側で、last week（先週）があるので過去の受け身 was installed。has installed・will install・installs は能動態で、後ろに目的語が必要。",
+     "translation_ja": "（空欄3）先週、正面入口の近くにセルフサービスの返品カウンターが設置された。"
+    },
+    {
+     "id": "p6-0008",
+     "type": "grammar.part_of_speech",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["enjoyably", "enjoyment", "enjoy", "enjoyable"],
+     "answer": "d",
+     "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more enjoyable で「いっそう楽しく」。",
+     "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう楽しくなればと思う。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s003",
+   "kind": "email",
+   "scene": "hr",
+   "passages": [
+    {
+     "type": "email",
+     "header": {
+      "To": "Lucia Fernandes <lfernandes@mailbox.example>",
+      "From": "David Kim <dkim@norvale.example>",
+      "Date": "June 3",
+      "Subject": "Welcome to Norvale Engineering"
+     },
+     "text": "Dear Ms. Fernandes,\n\nOn behalf of everyone at Norvale Engineering, I am pleased to welcome you to our design team. As we discussed, your first day [1] Monday, June 17.\n\nOn that morning, please come to the reception desk on the first floor at 9:00 A.M. [2] After that, your manager, Ms. Okonkwo, will show you to your workspace and introduce you to your colleagues.\n\nBefore your start date, please complete the attached forms and return them to me. Please also let me know if you have any dietary [3], as we will be holding a welcome lunch for new employees that week.\n\nWe are looking forward to [4] with you.\n\nSincerely,\nDavid Kim\nHuman Resources"
+    }
+   ],
+   "translation_ja": "宛先：ルシア・フェルナンデス／差出人：デイビッド・キム（ノーヴェイル・エンジニアリング）／日付：6月3日／件名：ノーヴェイル・エンジニアリングへようこそ\nフェルナンデス様\nノーヴェイル・エンジニアリングの全員を代表して、設計チームへのご入社を歓迎いたします。お話ししたとおり、初出勤日は6月17日（月）です。\n当日の朝は、午前9時に1階の受付にお越しください。［最初の1時間は短いオリエンテーションに参加していただきます。］その後、上司のオコンクォさんが席へご案内し、同僚に紹介します。\n入社日までに、添付の書類にご記入のうえ私宛てにご返送ください。また、その週に新入社員の歓迎昼食会を開きますので、食事の制限があればお知らせください。\n一緒に働けることを楽しみにしています。\n人事部　デイビッド・キム",
+   "questions": [
+    {
+     "id": "p6-0009",
+     "type": "grammar.tense",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["will be", "was", "has been", "had been"],
+     "answer": "a",
+     "explanation_ja": "メールは6月3日付で、初出勤日の6月17日はこれから先のことなので未来の will be。was・has been・had been は過去や完了を表す。",
+     "translation_ja": "（空欄1）お話ししたとおり、初出勤日は6月17日（月）だ。"
+    },
+    {
+     "id": "p6-0010",
+     "type": "text.insertion",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "Our office is closed on weekends and national holidays.",
+      "You will spend the first hour attending a short orientation session.",
+      "Thank you for applying for the position.",
+      "Ms. Okonkwo joined the company last year."
+     ],
+     "answer": "b",
+     "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。すでに採用が決まっているので応募のお礼は時期が合わない。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "当社は土日祝日は休みです。",
+      "最初の1時間は短いオリエンテーションに参加していただきます。",
+      "この職にご応募いただきありがとうございます。",
+      "オコンクォさんは昨年入社しました。"
+     ]
+    },
+    {
+     "id": "p6-0011",
+     "type": "vocab.collocation",
+     "scene": "hr",
+     "level": "B2",
+     "prompt": "[3]",
+     "options": ["regulations", "resolutions", "restrictions", "recognitions"],
+     "answer": "c",
+     "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で dietary とは組まない。",
+     "translation_ja": "（空欄3）食事の制限があれば知らせてほしい。",
+     "translation_options_ja": ["規則", "決意・決議", "制限", "認識・表彰"]
+    },
+    {
+     "id": "p6-0012",
+     "type": "grammar.part_of_speech",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["work", "worked", "works", "working"],
+     "answer": "d",
+     "explanation_ja": "look forward to の to は前置詞なので、後ろは名詞か動名詞。working with you で「あなたと一緒に働くこと」。",
+     "translation_ja": "（空欄4）一緒に働けることを楽しみにしている。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s004",
+   "kind": "article",
+   "scene": "business.news",
+   "passages": [
+    {
+     "type": "article",
+     "title": "Rivermont Bakery to Expand Production",
+     "text": "OAKDALE (August 14) — Rivermont Bakery, a family-owned company known for its whole-grain breads, announced yesterday that it will open a second production facility next spring. The new facility, located in the Oakdale Industrial Park, will [1] the company's output by about 40 percent.\n\nRivermont's products are currently sold in more than 300 grocery stores across the region. [2] The company says the new facility will allow it to meet this growing demand.\n\nThe expansion is also expected to create around 60 new jobs. Most of these positions will be in production and delivery. [3], Rivermont plans to hire several food scientists to develop new products.\n\n\"We have always focused on quality,\" said company president Elena Varga. \"Our new facility will help us continue to do so on a much [4] scale.\""
+    }
+   ],
+   "translation_ja": "リバーモント・ベーカリー、生産を拡大へ\nオークデール（8月14日）――全粒粉のパンで知られる家族経営のリバーモント・ベーカリーは昨日、来春2か所目の生産施設を開くと発表した。オークデール工業団地にできる新施設で、同社の生産量は約40パーセント増える。\nリバーモントの製品は現在、地域の300以上の食料品店で売られている。［同社のパンの需要はこの2年で急増している。］同社によると、新施設によってこの高まる需要に応えられるようになるという。\n拡大によって約60人の新たな雇用も生まれる見込みだ。その多くは製造と配送の仕事である。さらに、リバーモントは新製品を開発するために食品科学者を数人採用する予定だ。\n「私たちはいつも品質を大切にしてきました」と社長のエレナ・ヴァルガ氏は語った。「新しい施設によって、それをはるかに大きな規模で続けられるようになります」",
+   "questions": [
+    {
+     "id": "p6-0013",
+     "type": "vocab.verb",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["increase", "achieve", "attract", "require"],
+     "answer": "a",
+     "explanation_ja": "新施設が生産量（output）を約40パーセント「増やす」ので increase。by about 40 percent（約40パーセント分）とも合う。",
+     "translation_ja": "（空欄1）新施設で、同社の生産量は約40パーセント増える。",
+     "translation_options_ja": ["増やす", "成し遂げる", "引きつける", "必要とする"]
+    },
+    {
+     "id": "p6-0014",
+     "type": "text.insertion",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "The company was founded by Ms. Varga's parents in 1985.",
+      "Demand for its breads has risen sharply over the past two years.",
+      "The new facility will be closed on weekends.",
+      "Grocery prices in the region have fallen this year."
+     ],
+     "answer": "b",
+     "explanation_ja": "直後の this growing demand（この高まる需要）が指す内容が直前に必要。需要が急増しているという文を入れると「この需要に応える」につながる。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "同社は1985年にヴァルガ氏の両親が創業した。",
+      "同社のパンの需要はこの2年で急増している。",
+      "新しい施設は週末は休みになる。",
+      "地域の食料品の価格は今年下がった。"
+     ]
+    },
+    {
+     "id": "p6-0015",
+     "type": "grammar.connector",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["For example", "As a result", "In addition", "Instead"],
+     "answer": "c",
+     "explanation_ja": "「雇用の多くは製造と配送」に「食品科学者も採用する」という別の情報を付け加えているので In addition。例や結果ではなく、代わりでもない。",
+     "translation_ja": "（空欄3）さらに、リバーモントは新製品を開発するため食品科学者を数人採用する予定だ。",
+     "translation_options_ja": ["たとえば", "その結果", "さらに", "その代わりに"]
+    },
+    {
+     "id": "p6-0016",
+     "type": "grammar.comparative",
+     "scene": "business.news",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["large", "largely", "largest", "larger"],
+     "answer": "d",
+     "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large・much largest とは言わない。",
+     "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s005",
+   "kind": "notice",
+   "scene": "events",
+   "passages": [
+    {
+     "type": "notice",
+     "title": "Volunteers Wanted: Brookfield Summer Music Festival",
+     "text": "The Brookfield Summer Music Festival will take place in Lakeside Park from July 12 to July 14. Every year, the event [1] on the help of more than 200 volunteers.\n\nVolunteers assist with tasks such as greeting visitors, selling programs, and keeping the park clean. [2] In return, volunteers receive a free festival T-shirt and a pass to all three days of concerts.\n\nNo previous experience is necessary. [3], volunteers must be at least 16 years old and available for at least one six-hour shift.\n\nTo apply, complete the online form at www.brookfieldmusic.example/volunteer by June 20. Applicants will be [4] of their shift assignments by e-mail in early July."
+    }
+   ],
+   "translation_ja": "ボランティア募集：ブルックフィールド夏の音楽祭\nブルックフィールド夏の音楽祭は、7月12日から14日までレイクサイド公園で開かれます。毎年、この催しは200人を超えるボランティアの協力に支えられています。\nボランティアは、来場者の出迎え、プログラムの販売、公園の清掃などを手伝います。［どの役割についても、7月10日に研修を行います。］そのお礼として、ボランティアには音楽祭の T シャツと、3日間すべてのコンサートに入れるパスを差し上げます。\n経験は問いません。ただし、16歳以上で、6時間のシフトに少なくとも1回入れることが条件です。\n応募は6月20日までにウェブサイトのフォームから。担当シフトは7月上旬にメールでお知らせします。",
+   "questions": [
+    {
+     "id": "p6-0017",
+     "type": "vocab.collocation",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["relies", "consists", "results", "applies"],
+     "answer": "a",
+     "explanation_ja": "rely on ～ で「～に頼る」。毎年200人以上のボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+     "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
+     "translation_options_ja": ["頼る", "成り立つ", "結果として生じる", "当てはまる・申し込む"]
+    },
+    {
+     "id": "p6-0018",
+     "type": "text.insertion",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "Tickets for the festival will go on sale in May.",
+      "Training for all of these roles will be provided on July 10.",
+      "Last year's festival was held in a different park.",
+      "The park is located near the city's main train station."
+     ],
+     "answer": "b",
+     "explanation_ja": "直前でボランティアの仕事（these roles）を挙げ、後で「経験は不要」と述べている。仕事の研修があるという文が入るとつながる。チケットや会場の話は、ボランティアの仕事の説明と「そのお礼として」の間に入らない。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "音楽祭のチケットは5月に発売されます。",
+      "どの役割についても、7月10日に研修を行います。",
+      "昨年の音楽祭は別の公園で開かれました。",
+      "公園は市の中心駅の近くにあります。"
+     ]
+    },
+    {
+     "id": "p6-0019",
+     "type": "grammar.connector",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["Therefore", "For instance", "However", "Similarly"],
+     "answer": "c",
+     "explanation_ja": "「経験は不要」の後に「16歳以上で6時間のシフトに入れること」という条件を付けているので、逆接の However。",
+     "translation_ja": "（空欄3）ただし、16歳以上で、6時間のシフトに少なくとも1回入れることが条件だ。",
+     "translation_options_ja": ["したがって", "たとえば", "ただし", "同様に"]
+    },
+    {
+     "id": "p6-0020",
+     "type": "grammar.passive",
+     "scene": "events",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["notify", "notifying", "notification", "notified"],
+     "answer": "d",
+     "explanation_ja": "応募者は「知らされる」側なので be notified of ～（～を知らされる）の受け身。will be の後なので過去分詞。",
+     "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。"
+    }
+   ]
+  }
+ ]
+}
