@@ -5369,6 +5369,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "5183b869d81d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "77451871725d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "77451871725d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "77451871725d"
   }
  ],
  "p3-0008": [
@@ -5404,6 +5437,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "39901769bc78"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "15b778f3c5b2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "15b778f3c5b2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "15b778f3c5b2"
   }
  ],
  "p3-0009": [
@@ -5439,6 +5505,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "5369410c4470"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "c352adc9da57"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "c352adc9da57"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "c352adc9da57"
   }
  ],
  "p3-0010": [
@@ -5579,6 +5678,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "d18aa7c0f707"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "ebea3158af0b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ebea3158af0b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "ebea3158af0b"
   }
  ],
  "p3-0014": [
@@ -5614,6 +5746,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "9643729c7b56"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "0399213b7a72"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0399213b7a72"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "0399213b7a72"
   }
  ],
  "p3-0015": [
@@ -5649,6 +5814,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "78c061b01e20"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "6b687e09d2ab"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6b687e09d2ab"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6b687e09d2ab"
   }
  ],
  "p3-0016": [
@@ -5999,6 +6197,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "5c19530f17e4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "ab8825bf9d40"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ab8825bf9d40"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "ab8825bf9d40"
   }
  ],
  "p4-0008": [
@@ -6034,6 +6265,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "0355039edf90"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "066576cbd648"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "066576cbd648"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "066576cbd648"
   }
  ],
  "p4-0009": [
@@ -6069,6 +6333,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "351183d66139"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "a24f617dd4e7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.88,
+   "issues": "Cが文脈上の最適解ですが、館内撮影の全面禁止は明言されていません。撮影条件の変更とも解釈できるため、スクリプトに禁止を明示すると解答根拠が明確になります。",
+   "content_hash": "a24f617dd4e7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "a24f617dd4e7"
   }
  ],
  "p4-0010": [
@@ -6104,6 +6401,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "70ad1999a196"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "e597c9b8bb10"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e597c9b8bb10"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e597c9b8bb10"
   }
  ],
  "p4-0011": [
@@ -6139,6 +6469,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "65ff1c5891f5"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "66ef5786d7ef"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "66ef5786d7ef"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "66ef5786d7ef"
   }
  ],
  "p4-0012": [
@@ -6174,6 +6537,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "a65dd30a69cd"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "dd59e554b547"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "dd59e554b547"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "dd59e554b547"
   }
  ],
  "p4-0013": [
@@ -6602,6 +6998,216 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "3072f4594037"
+  }
+ ],
+ "p1-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "169f27ade4d0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "169f27ade4d0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "169f27ade4d0"
+  }
+ ],
+ "p1-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "be346a6e37d7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "be346a6e37d7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "be346a6e37d7"
+  }
+ ],
+ "p1-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "710b4b6ba39e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "710b4b6ba39e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "710b4b6ba39e"
+  }
+ ],
+ "p1-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "cee02393e8f3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "cee02393e8f3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "cee02393e8f3"
+  }
+ ],
+ "p1-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "5023b65558a9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "5023b65558a9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "5023b65558a9"
+  }
+ ],
+ "p1-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "左端の自転車1台はラックの外にスタンドで立っているが、主語が Some bicycles なので正解は変わらない",
+   "content_hash": "8231338c13cf"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8231338c13cf"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T19:25:37",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8231338c13cf"
   }
  ]
 }
