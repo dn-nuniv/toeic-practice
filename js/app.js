@@ -223,6 +223,7 @@
     const head = u.part === 6 ? `空欄 ${esc(it.prompt)}` : u.part === 1 ? '' : u.part === 2 ? 'Mark your answer.' : nl(esc(it.prompt));
     return `<div class="q" data-id="${it.id}">
       ${head ? `<div class="qt">${head}</div>` : ''}
+      ${u.part === 2 ? `<div class="qscript hidden-until-graded"><b>質問</b>${esc(it.prompt)}</div>` : ''}
       <div class="opts">${u.order[it.id].map((oid, i) => {
         const o = it.options.find(x => x.id === oid);
         return `<label class="opt" data-oid="${oid}"><input type="radio" name="q-${it.id}" value="${oid}"><span class="ol">(${L[i]})</span><span class="ot ${hideText ? 'hidden-until-graded' : ''}">${esc(o.text)}</span></label>`;
