@@ -1336,6 +1336,1206 @@
   "review": []
  },
  {
+  "id": "p5-0013",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "retail",
+  "prompt": "The store manager made a ------- to extend opening hours during the holiday season.",
+  "options": [
+   {
+    "id": "a",
+    "text": "decision"
+   },
+   {
+    "id": "b",
+    "text": "decide"
+   },
+   {
+    "id": "c",
+    "text": "decisive"
+   },
+   {
+    "id": "d",
+    "text": "decisively"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "冠詞 a の後で、made の目的語になる名詞が入る。made a decision（決定を下す）。decisive は形容詞なので後ろに名詞が必要。",
+  "translation_ja": "店長は、年末年始の期間に営業時間を延長することを決めた。",
+  "translation_options_ja": [
+   "決定（名詞）",
+   "決める（動詞）",
+   "決定的な（形容詞）",
+   "きっぱりと（副詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0014",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "manufacturing",
+  "prompt": "The factory has become significantly more ------- since the new equipment was installed.",
+  "options": [
+   {
+    "id": "a",
+    "text": "produce"
+   },
+   {
+    "id": "b",
+    "text": "productive"
+   },
+   {
+    "id": "c",
+    "text": "productively"
+   },
+   {
+    "id": "d",
+    "text": "production"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "become（～になる）の後には補語の形容詞が来る。more productive で「より生産的に」。副詞 productively は補語になれない。",
+  "translation_ja": "新しい設備が導入されてから、その工場は大幅に生産性が上がった。",
+  "translation_options_ja": [
+   "生産する（動詞）",
+   "生産的な（形容詞）",
+   "生産的に（副詞）",
+   "生産（名詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0015",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "real.estate",
+  "prompt": "The apartment complex is ------- located near both the subway station and a large shopping center.",
+  "options": [
+   {
+    "id": "a",
+    "text": "convenient"
+   },
+   {
+    "id": "b",
+    "text": "convenience"
+   },
+   {
+    "id": "c",
+    "text": "conveniently"
+   },
+   {
+    "id": "d",
+    "text": "more convenient"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "is located（位置している）という受け身の動詞を修飾するので副詞。conveniently located は「便利な場所にある」という決まった言い方。",
+  "translation_ja": "その集合住宅は、地下鉄の駅と大型ショッピングセンターの両方に近い便利な場所にある。",
+  "translation_options_ja": [
+   "便利な（形容詞）",
+   "便利さ（名詞）",
+   "便利に（副詞）",
+   "より便利な（比較級）"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0016",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "restaurant",
+  "prompt": "Diners at Bellmont Bistro often comment on the ------- of the staff.",
+  "options": [
+   {
+    "id": "a",
+    "text": "friendly"
+   },
+   {
+    "id": "b",
+    "text": "friendlier"
+   },
+   {
+    "id": "c",
+    "text": "befriend"
+   },
+   {
+    "id": "d",
+    "text": "friendliness"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "the と of にはさまれた位置なので名詞。the friendliness of the staff（スタッフの感じのよさ）。friendly は -ly で終わるが形容詞。",
+  "translation_ja": "ベルモント・ビストロの客は、よくスタッフの感じのよさについて口にする。",
+  "translation_options_ja": [
+   "親しみやすい（形容詞）",
+   "より親しみやすい（比較級）",
+   "友達になる（動詞）",
+   "親しみやすさ（名詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0017",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "finance",
+  "prompt": "Ms. Okafor's ------- analysis of the budget helped the team identify several unnecessary expenses.",
+  "options": [
+   {
+    "id": "a",
+    "text": "thorough"
+   },
+   {
+    "id": "b",
+    "text": "thoroughly"
+   },
+   {
+    "id": "c",
+    "text": "thoroughness"
+   },
+   {
+    "id": "d",
+    "text": "more thoroughly"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "所有格 Ms. Okafor's と名詞 analysis の間なので、名詞を修飾する形容詞 thorough。副詞は名詞を修飾できない。",
+  "translation_ja": "オカフォーさんが予算を徹底的に分析したおかげで、チームはいくつかの不要な経費を見つけることができた。",
+  "translation_options_ja": [
+   "徹底的な（形容詞）",
+   "徹底的に（副詞）",
+   "徹底ぶり（名詞）",
+   "より徹底的に（比較級）"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0018",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "it",
+  "prompt": "The technical support team responded ------- to the network outage reported this morning.",
+  "options": [
+   {
+    "id": "a",
+    "text": "quick"
+   },
+   {
+    "id": "b",
+    "text": "quickly"
+   },
+   {
+    "id": "c",
+    "text": "quickness"
+   },
+   {
+    "id": "d",
+    "text": "quickest"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "自動詞 responded（対応した）を修飾するので副詞 quickly。quick・quickest は形容詞、quickness は名詞。",
+  "translation_ja": "技術サポートチームは、今朝報告されたネットワーク障害にすばやく対応した。",
+  "translation_options_ja": [
+   "すばやい（形容詞）",
+   "すばやく（副詞）",
+   "すばやさ（名詞）",
+   "最もすばやい（最上級）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0019",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "marketing",
+  "prompt": "The survey results will be used to develop a more ------- advertising strategy.",
+  "options": [
+   {
+    "id": "a",
+    "text": "effect"
+   },
+   {
+    "id": "b",
+    "text": "effectively"
+   },
+   {
+    "id": "c",
+    "text": "effective"
+   },
+   {
+    "id": "d",
+    "text": "effectiveness"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "a more ------- strategy で、名詞 strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
+  "translation_ja": "調査結果は、より効果的な広告戦略を立てるために使われる。",
+  "translation_options_ja": [
+   "効果（名詞）",
+   "効果的に（副詞）",
+   "効果的な（形容詞）",
+   "効果の高さ（名詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0020",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.tense",
+  "scene": "events",
+  "prompt": "By the time the conference begins next Monday, the organizers ------- all of the name badges.",
+  "options": [
+   {
+    "id": "a",
+    "text": "print"
+   },
+   {
+    "id": "b",
+    "text": "printed"
+   },
+   {
+    "id": "c",
+    "text": "have been printing"
+   },
+   {
+    "id": "d",
+    "text": "will have printed"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "By the time + 未来の時点（next Monday）までに完了していることを表すので未来完了 will have printed。",
+  "translation_ja": "来週の月曜日に会議が始まるまでに、主催者はすべての名札を印刷し終えているだろう。",
+  "translation_options_ja": [
+   "印刷する（現在形）",
+   "印刷した（過去形）",
+   "ずっと印刷している（現在完了進行形）",
+   "印刷し終えているだろう（未来完了）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0021",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.tense",
+  "scene": "sales",
+  "prompt": "Sales of the new model ------- steadily since it was launched in March.",
+  "options": [
+   {
+    "id": "a",
+    "text": "have risen"
+   },
+   {
+    "id": "b",
+    "text": "rise"
+   },
+   {
+    "id": "c",
+    "text": "rose"
+   },
+   {
+    "id": "d",
+    "text": "will rise"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "since（～以来）があり、3月から今までの変化を表すので現在完了 have risen。主語は複数の Sales。",
+  "translation_ja": "新型モデルの売り上げは、3月に発売されて以来、着実に伸びている。",
+  "translation_options_ja": [
+   "増え続けている（現在完了）",
+   "増える（現在形）",
+   "増えた（過去形）",
+   "増えるだろう（未来）"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0022",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.passive",
+  "scene": "facilities",
+  "prompt": "The parking lot behind the main building ------- next week, so employees should park on Elm Street.",
+  "options": [
+   {
+    "id": "a",
+    "text": "will repave"
+   },
+   {
+    "id": "b",
+    "text": "will be repaved"
+   },
+   {
+    "id": "c",
+    "text": "is repaving"
+   },
+   {
+    "id": "d",
+    "text": "repaved"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "駐車場は「舗装される」側なので受け身、時は next week なので will be repaved。能動の will repave・is repaving は後ろに目的語が必要。",
+  "translation_ja": "本館裏の駐車場は来週舗装し直されるので、従業員はエルム通りに駐車してください。",
+  "translation_options_ja": [
+   "舗装し直す（未来・能動）",
+   "舗装し直される（未来の受け身）",
+   "舗装し直している（進行形・能動）",
+   "舗装し直した（過去形）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0023",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.pronoun",
+  "scene": "office",
+  "prompt": "Mr. Harding prefers to review the contracts -------, so please do not forward them to his assistant.",
+  "options": [
+   {
+    "id": "a",
+    "text": "he"
+   },
+   {
+    "id": "b",
+    "text": "him"
+   },
+   {
+    "id": "c",
+    "text": "himself"
+   },
+   {
+    "id": "d",
+    "text": "his"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "文の要素がそろった後に置いて「自分自身で」を表すのは再帰代名詞 himself。he・him・his はこの位置に入らない。",
+  "translation_ja": "ハーディングさんは契約書を自分で確認したいので、アシスタントには転送しないでください。",
+  "translation_options_ja": [
+   "彼は（主格）",
+   "彼を（目的格）",
+   "自分で（再帰代名詞）",
+   "彼の（所有格）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0024",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.pronoun",
+  "scene": "customer.service",
+  "prompt": "Customers whose orders have not arrived within ten days should contact ------- directly.",
+  "options": [
+   {
+    "id": "a",
+    "text": "we"
+   },
+   {
+    "id": "b",
+    "text": "our"
+   },
+   {
+    "id": "c",
+    "text": "ours"
+   },
+   {
+    "id": "d",
+    "text": "us"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "他動詞 contact の目的語なので目的格 us。ours（私たちのもの）では意味が通らない。",
+  "translation_ja": "10日以内に注文品が届かないお客さまは、直接当社にご連絡ください。",
+  "translation_options_ja": [
+   "私たちは（主格）",
+   "私たちの（所有格）",
+   "私たちのもの（所有代名詞）",
+   "私たちに（目的格）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0025",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition",
+  "scene": "events",
+  "prompt": "The museum's special exhibition will be open to the public ------- July 1 to September 30.",
+  "options": [
+   {
+    "id": "a",
+    "text": "from"
+   },
+   {
+    "id": "b",
+    "text": "between"
+   },
+   {
+    "id": "c",
+    "text": "since"
+   },
+   {
+    "id": "d",
+    "text": "during"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "後ろの to と組んで from A to B（AからBまで）。between は between A and B の形で使う。",
+  "translation_ja": "その博物館の特別展は、7月1日から9月30日まで一般公開される。",
+  "translation_options_ja": [
+   "～から",
+   "～の間",
+   "～以来",
+   "～の間に"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0026",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.conjunction",
+  "scene": "logistics",
+  "prompt": "The shipment was delayed at customs, ------- the products did not reach the store until Thursday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "but"
+   },
+   {
+    "id": "b",
+    "text": "so"
+   },
+   {
+    "id": "c",
+    "text": "or"
+   },
+   {
+    "id": "d",
+    "text": "yet"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "前半（税関で遅れた）が原因、後半（木曜まで届かなかった）が結果なので so。but・yet は逆の内容をつなぐ。",
+  "translation_ja": "荷物が税関で遅れたため、商品は木曜日まで店に届かなかった。",
+  "translation_options_ja": [
+   "しかし",
+   "だから",
+   "または",
+   "それでも"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0027",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition_vs_conjunction",
+  "scene": "meeting",
+  "prompt": "------- the heavy snowfall, most employees managed to arrive on time for the meeting.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Although"
+   },
+   {
+    "id": "b",
+    "text": "Even if"
+   },
+   {
+    "id": "c",
+    "text": "Despite"
+   },
+   {
+    "id": "d",
+    "text": "Because"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because は接続詞で、後ろに主語と動詞が必要。",
+  "translation_ja": "大雪にもかかわらず、ほとんどの社員が会議に間に合った。",
+  "translation_options_ja": [
+   "～だけれども（接続詞）",
+   "たとえ～でも（接続詞）",
+   "～にもかかわらず（前置詞）",
+   "～なので（接続詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0028",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition_vs_conjunction",
+  "scene": "hr",
+  "prompt": "------- the hiring committee has reviewed all applications, interviews will be scheduled.",
+  "options": [
+   {
+    "id": "a",
+    "text": "During"
+   },
+   {
+    "id": "b",
+    "text": "Upon"
+   },
+   {
+    "id": "c",
+    "text": "Following"
+   },
+   {
+    "id": "d",
+    "text": "Once"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "後ろに主語 the hiring committee と動詞 has reviewed が続くので接続詞 Once。During・Upon・Following は前置詞なので名詞句しか続かない。",
+  "translation_ja": "採用委員会がすべての応募書類を確認したら、面接の日程が組まれる。",
+  "translation_options_ja": [
+   "～の間（前置詞）",
+   "～するとすぐ（前置詞）",
+   "～の後で（前置詞）",
+   "いったん～したら（接続詞）"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0029",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.relative",
+  "scene": "hr",
+  "prompt": "The award will be given to the employee ------- suggestion saves the company the most money.",
+  "options": [
+   {
+    "id": "a",
+    "text": "whose"
+   },
+   {
+    "id": "b",
+    "text": "who"
+   },
+   {
+    "id": "c",
+    "text": "whom"
+   },
+   {
+    "id": "d",
+    "text": "which"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "空所の後が suggestion（名詞）で「その社員の提案」という関係なので所有格 whose。",
+  "translation_ja": "その賞は、会社の経費を最も多く節約する提案をした社員に贈られる。",
+  "translation_options_ja": [
+   "その人の（関係代名詞・所有格）",
+   "～する人（主格）",
+   "～する人（目的格）",
+   "～するもの（主格・目的格）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0030",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.relative",
+  "scene": "real.estate",
+  "prompt": "The office building ------- Brantley Partners moved into last year has a rooftop garden.",
+  "options": [
+   {
+    "id": "a",
+    "text": "where"
+   },
+   {
+    "id": "b",
+    "text": "which"
+   },
+   {
+    "id": "c",
+    "text": "what"
+   },
+   {
+    "id": "d",
+    "text": "who"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "moved into の後の目的語が欠けているので関係代名詞 which。where は into which の意味を含むので、文末の into と重なってしまう。",
+  "translation_ja": "ブラントリー・パートナーズが昨年入居したオフィスビルには屋上庭園がある。",
+  "translation_options_ja": [
+   "～する場所（関係副詞）",
+   "～するもの（関係代名詞）",
+   "～すること（関係代名詞）",
+   "～する人（関係代名詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0031",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.comparative",
+  "scene": "retail",
+  "prompt": "Of the three proposals, the one from Delford Design was the ------- expensive.",
+  "options": [
+   {
+    "id": "a",
+    "text": "less"
+   },
+   {
+    "id": "b",
+    "text": "fewer"
+   },
+   {
+    "id": "c",
+    "text": "least"
+   },
+   {
+    "id": "d",
+    "text": "little"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "Of the three（3つのうちで）と the があるので最上級 the least expensive（最も安い）。less は2つを比べるとき、fewer は数えられる名詞に使う。",
+  "translation_ja": "3つの提案のうち、デルフォード・デザインの提案が最も安かった。",
+  "translation_options_ja": [
+   "より～でない（比較級）",
+   "より少ない（数）",
+   "最も～でない（最上級）",
+   "少ない"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0032",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.quantifier",
+  "scene": "warehouse",
+  "prompt": "------- of the boxes in the storage room were damaged during the move.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Every"
+   },
+   {
+    "id": "b",
+    "text": "Much"
+   },
+   {
+    "id": "c",
+    "text": "Each"
+   },
+   {
+    "id": "d",
+    "text": "Several"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "動詞が were（複数）なので Several of the boxes。Each of ～ は単数扱い（was）、Every は of を続けられない、Much は数えられない名詞に使う。",
+  "translation_ja": "倉庫の箱のいくつかが引っ越しの間に傷んだ。",
+  "translation_options_ja": [
+   "すべての",
+   "多くの（量）",
+   "それぞれ",
+   "いくつか"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0033",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.correlative",
+  "scene": "fitness",
+  "prompt": "Members can pay for their classes either online ------- at the front desk.",
+  "options": [
+   {
+    "id": "a",
+    "text": "or"
+   },
+   {
+    "id": "b",
+    "text": "nor"
+   },
+   {
+    "id": "c",
+    "text": "and"
+   },
+   {
+    "id": "d",
+    "text": "but"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "either A or B（AかBのどちらか）。nor は neither と組む。",
+  "translation_ja": "会員はレッスン料をオンラインか受付のどちらかで支払うことができる。",
+  "translation_options_ja": [
+   "または",
+   "～も…ない",
+   "そして",
+   "しかし"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0034",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.participle",
+  "scene": "printing",
+  "prompt": "The brochures ------- by Kestrel Print last week contained several spelling errors.",
+  "options": [
+   {
+    "id": "a",
+    "text": "produce"
+   },
+   {
+    "id": "b",
+    "text": "produced"
+   },
+   {
+    "id": "c",
+    "text": "producing"
+   },
+   {
+    "id": "d",
+    "text": "to produce"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "パンフレットは「作られた」側で、by ～ が続くので過去分詞 produced が後ろから名詞を修飾する。文の動詞は contained。",
+  "translation_ja": "先週ケストレル・プリントが作ったパンフレットには、いくつかつづりの誤りがあった。",
+  "translation_options_ja": [
+   "作る（原形）",
+   "作られた（過去分詞）",
+   "作っている（現在分詞）",
+   "作るための（不定詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0035",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.participle",
+  "scene": "events",
+  "prompt": "Many attendees were ------- in the workshop on digital marketing.",
+  "options": [
+   {
+    "id": "a",
+    "text": "interest"
+   },
+   {
+    "id": "b",
+    "text": "interesting"
+   },
+   {
+    "id": "c",
+    "text": "interested"
+   },
+   {
+    "id": "d",
+    "text": "interestingly"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "人が「興味を持たされる」側なので be interested in ～。interesting は「（物事が）興味深い」で、人を主語にすると意味が合わない。",
+  "translation_ja": "多くの参加者が、デジタルマーケティングのワークショップに興味を持った。",
+  "translation_options_ja": [
+   "興味（名詞）・興味を持たせる（動詞）",
+   "興味深い（現在分詞）",
+   "興味を持った（過去分詞）",
+   "興味深いことに（副詞）"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0036",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.verb",
+  "scene": "finance",
+  "prompt": "The accounting department will ------- all expense reports to ensure that they follow company policy.",
+  "options": [
+   {
+    "id": "a",
+    "text": "remind"
+   },
+   {
+    "id": "b",
+    "text": "depend"
+   },
+   {
+    "id": "c",
+    "text": "consist"
+   },
+   {
+    "id": "d",
+    "text": "verify"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "経費報告書が規定どおりか「確認する」ので verify。depend・consist は自動詞で目的語をとらず、remind は remind 人 of ～ の形。",
+  "translation_ja": "経理部は、会社の規定に従っているか確かめるため、すべての経費報告書を確認する。",
+  "translation_options_ja": [
+   "思い出させる",
+   "頼る",
+   "成り立つ",
+   "確認する"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0037",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.verb",
+  "scene": "it",
+  "prompt": "Employees are asked to ------- their passwords every ninety days for security reasons.",
+  "options": [
+   {
+    "id": "a",
+    "text": "change"
+   },
+   {
+    "id": "b",
+    "text": "charge"
+   },
+   {
+    "id": "c",
+    "text": "cancel"
+   },
+   {
+    "id": "d",
+    "text": "collect"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "セキュリティのために90日ごとにパスワードを「変える」。charge は「請求する・充電する」で、つづりが似たひっかけ。",
+  "translation_ja": "社員は、安全のために90日ごとにパスワードを変更するよう求められている。",
+  "translation_options_ja": [
+   "変える",
+   "請求する・充電する",
+   "取り消す",
+   "集める"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0038",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.noun",
+  "scene": "travel",
+  "prompt": "Guests who wish to change their ------- should contact the front desk at least 24 hours in advance.",
+  "options": [
+   {
+    "id": "a",
+    "text": "reception"
+   },
+   {
+    "id": "b",
+    "text": "reservation"
+   },
+   {
+    "id": "c",
+    "text": "receipt"
+   },
+   {
+    "id": "d",
+    "text": "recipe"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "24時間前までに変更するのは「予約」reservation。reception・receipt・recipe は似たつづりのひっかけ。",
+  "translation_ja": "予約の変更を希望するお客さまは、少なくとも24時間前までにフロントにご連絡ください。",
+  "translation_options_ja": [
+   "受付・歓迎会",
+   "予約",
+   "領収書",
+   "作り方・レシピ"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0039",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.noun",
+  "scene": "sales",
+  "prompt": "The sales team exceeded its quarterly ------- by nearly 15 percent.",
+  "options": [
+   {
+    "id": "a",
+    "text": "origin"
+   },
+   {
+    "id": "b",
+    "text": "routine"
+   },
+   {
+    "id": "c",
+    "text": "target"
+   },
+   {
+    "id": "d",
+    "text": "outline"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "exceeded（上回った）の目的語で、15パーセント上回ったのは「目標」target。",
+  "translation_ja": "営業チームは四半期の目標を15パーセント近く上回った。",
+  "translation_options_ja": [
+   "起源",
+   "決まった手順",
+   "目標",
+   "概要"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0040",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.adjective",
+  "scene": "hr",
+  "prompt": "Applicants for the position must have ------- experience in project management.",
+  "options": [
+   {
+    "id": "a",
+    "text": "expensive"
+   },
+   {
+    "id": "b",
+    "text": "exclusive"
+   },
+   {
+    "id": "c",
+    "text": "excessive"
+   },
+   {
+    "id": "d",
+    "text": "extensive"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "応募条件として必要なのは「豊富な」経験 extensive experience。excessive は「行き過ぎた」という否定的な意味。",
+  "translation_ja": "その職の応募者には、プロジェクト管理の豊富な経験が求められる。",
+  "translation_options_ja": [
+   "高価な",
+   "独占的な",
+   "過剰な",
+   "豊富な"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0041",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.adverb",
+  "scene": "business.news",
+  "prompt": "Harwell Motors' profits have increased ------- since the company began selling vehicles overseas.",
+  "options": [
+   {
+    "id": "a",
+    "text": "significantly"
+   },
+   {
+    "id": "b",
+    "text": "approximately"
+   },
+   {
+    "id": "c",
+    "text": "punctually"
+   },
+   {
+    "id": "d",
+    "text": "mutually"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "利益が「大幅に」増えた。approximately は数字の前に置いて「約」の意味で使う。",
+  "translation_ja": "ハーウェル・モーターズの利益は、海外で車の販売を始めて以来、大幅に増えている。",
+  "translation_options_ja": [
+   "大幅に",
+   "およそ",
+   "時間どおりに",
+   "互いに"
+  ],
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
+  "id": "p5-0042",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.collocation",
+  "scene": "meeting",
+  "prompt": "Ms. Lindqvist will ------- a presentation on the new product line at Thursday's meeting.",
+  "options": [
+   {
+    "id": "a",
+    "text": "take"
+   },
+   {
+    "id": "b",
+    "text": "give"
+   },
+   {
+    "id": "c",
+    "text": "tell"
+   },
+   {
+    "id": "d",
+    "text": "say"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "give a presentation（発表をする）という決まった組み合わせ。tell・say は presentation を目的語にとらない。",
+  "translation_ja": "リンドクヴィストさんは木曜日の会議で新しい製品群について発表する。",
+  "translation_options_ja": [
+   "取る",
+   "（発表を）する",
+   "話す・伝える",
+   "言う"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch a",
+  "review": []
+ },
+ {
   "id": "p6-0001",
   "part": 6,
   "set_id": "p6-s001",
