@@ -7172,28 +7172,28 @@
   "options": [
    {
     "id": "a",
-    "text": "enjoyably"
+    "text": "conveniently"
    },
    {
     "id": "b",
-    "text": "enjoyment"
+    "text": "convenience"
    },
    {
     "id": "c",
-    "text": "enjoy"
+    "text": "conveniences"
    },
    {
     "id": "d",
-    "text": "enjoyable"
+    "text": "convenient"
    }
   ],
   "answer": "d",
   "shuffle": true,
-  "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more enjoyable で「いっそう楽しく」。",
-  "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう楽しくなればと思う。",
+  "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more convenient で「いっそう便利に」。conveniently は副詞、convenience・conveniences は名詞。",
+  "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう便利になればと思う。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part6 batch a",
   "review": [
    {

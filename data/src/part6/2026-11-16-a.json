@@ -14,7 +14,7 @@
      "text": "Starting March 1, Halbrook Home & Garden will update its return policy. Customers will have 60 days, instead of 30, to return most items. [1] receipts will still be required for all returns.\n\nItems purchased during our seasonal clearance sales, however, cannot be returned. [2]\n\nTo make returns easier, a self-service return counter [3] near the main entrance last week. Simply scan your receipt and place the item in the marked bin.\n\nWe hope these changes make shopping with us even more [4]. Thank you for your continued support."
     }
    ],
-   "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。ただし、すべての返品には引き続きレシートの原本が必要です。\nなお、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう楽しくなれば幸いです。日ごろのご愛顧に感謝いたします。",
+   "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。ただし、すべての返品には引き続きレシートの原本が必要です。\nなお、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう便利になれば幸いです。日ごろのご愛顧に感謝いたします。",
    "questions": [
     {
      "id": "p6-0005",
@@ -66,10 +66,10 @@
      "scene": "retail",
      "level": "B1",
      "prompt": "[4]",
-     "options": ["enjoyably", "enjoyment", "enjoy", "enjoyable"],
+     "options": ["conveniently", "convenience", "conveniences", "convenient"],
      "answer": "d",
-     "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more enjoyable で「いっそう楽しく」。",
-     "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう楽しくなればと思う。"
+     "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more convenient で「いっそう便利に」。conveniently は副詞、convenience・conveniences は名詞。",
+     "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう便利になればと思う。"
     }
    ]
   },
