@@ -133,7 +133,41 @@ if rpath.exists():
         bad = any(((not r["agree"]) or r.get("ambiguous") or r.get("issues")) and not r.get("resolved") for r in cur)
         it["status"] = "flagged" if bad else "reviewed"
 
+# ------------------------------------------------------------ 単語（data/vocab/src → data/vocab.json・vocab.js）
+import vocab_lib as V
+verrors = []
+words = V.load(verrors)
+for k, n in Counter(w["id"] for w in words).items():
+    if n > 1: verrors.append(f"{k}: 同じ単語IDが {n} 回出てくる")
+if verrors:
+    for e in verrors: print("エラー:", e)
+    sys.exit(f"単語ファイルにエラーが {len(verrors)} 件あります。直してからもう一度実行してください（出力は更新していません）。")
+words.sort(key=lambda w: w["id"])
+toks = V.item_tokens([i for i in items if i["status"] != "retired"], sets)
+meaning = {w["id"]: w["meaning_ja"] for w in words}
+reviews_all = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
+vstale = []
+for w in words:
+    w["distractors"] = V.pick_distractors(w, words)
+    w["choices"] = V.choices(w)
+    fs = V.forms(w["word"])
+    w["related_items"] = sorted(i for i, t in toks.items() if fs & t)  # この語が出てくる問題（今日の単語に使う）
+    w.pop("fixed_distractors")
+    rs = reviews_all.get(w["id"], [])
+    w["review"] = rs
+    if rs and w["status"] != "retired":
+        hh = V.content_hash(w, meaning)
+        cur = [r for r in rs if r.get("content_hash") == hh]
+        if not cur: vstale.append(w["id"])
+        else:
+            bad = any(((not r["agree"]) or r.get("ambiguous") or r.get("issues")) and not r.get("resolved") for r in cur)
+            w["status"] = "flagged" if bad else "reviewed"
+
 # ------------------------------------------------------------ 書き出し
+(ROOT / "data" / "vocab.json").write_text(json.dumps(words, ensure_ascii=False, indent=1), encoding="utf-8")
+(ROOT / "data" / "vocab.js").write_text(
+    "// 自動生成（scripts/build_data.py）。単語練習のデータ\n"
+    "window.VOCAB = " + json.dumps({"words": words}, ensure_ascii=False) + ";\n", encoding="utf-8")
 (ROOT / "data" / "items.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
 (ROOT / "data" / "sets.json").write_text(json.dumps(sets, ensure_ascii=False, indent=1), encoding="utf-8")
 ub = list(dict.fromkeys(batches))
@@ -146,3 +180,6 @@ print(len(files), "files |", len(live), "items", dict(sorted(Counter(i["part"] f
       f"| retired {len(items) - len(live)}" if len(items) != len(live) else "")
 print("状態:", dict(Counter(i["status"] for i in items)))
 if stale_ids: print("問題を直したため再レビューが必要（draft に戻した）:", ", ".join(stale_ids))
+print(f"単語 {len(words)}語", dict(Counter(w["pos"] for w in words)), "| 状態:", dict(Counter(w["status"] for w in words)),
+      f"| 問題に出てくる語 {sum(1 for w in words if w['related_items'])}語")
+if vstale: print("単語を直したため再レビューが必要（draft に戻した）:", ", ".join(vstale))

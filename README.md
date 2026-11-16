@@ -18,6 +18,7 @@ AIで作ったTOEIC L&R形式のオリジナル問題を、シャッフル・復
 - **音声**：`audio/` に生成済みの音声があればそれを再生し、なければブラウザの読み上げで代用。米国・英国・オーストラリア（・カナダ）を選択
 - **Part 1・2** は選択肢の英文を採点まで伏せる。採点後に解説・和訳・スクリプトを表示
 - キーボード：1〜4で選択、Enterで採点・次へ
+- **単語**：英→日（4択）・日→英（最初の1文字と字数のヒントでつづりを書く）・例文の穴埋め・単語の復習。Part の練習の前に、これから解く問題に出てくる語を「今日の単語」として先に確認できる（設定で切れる）
 
 ## フォルダ構成
 
@@ -26,6 +27,7 @@ index.html, css/, js/          アプリ本体（js/store.js だけ差し替え�
 data/src/part{N}/*.json        問題の元データ（生成バッチごとに1ファイル。書き方は data/src/README.md）
 data/items.json, sets.json     問題データ（1件＝Supabase の1行。build_data.py が data/src から作る）
 data/bank.js                   上の2つをまとめたもの（アプリはこれを読む）
+data/vocab/src/*.json          単語の元データ（書き方は data/vocab/README.md）。build で data/vocab.json・vocab.js を作る
 data/blueprint.json            大量生成の設計表（Part × 出題タイプ × 場面）
 data/reviews.json              相互レビューの結果（import_review.py が作る）
 images/part1/                  Part 1 の写真

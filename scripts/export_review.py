@@ -6,7 +6,7 @@
 レビュー役には PROMPT.md と packet.md を渡し、返ってきた JSON を
   python3 scripts/import_review.py <返ってきたファイル> --reviewer orca
 で取り込む。"""
-import json, pathlib, argparse
+import json, pathlib, argparse, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ap = argparse.ArgumentParser(); ap.add_argument("--all", action="store_true"); a = ap.parse_args()
@@ -32,6 +32,21 @@ for it in target:
             out.append(p.get("text", "") + "\n")
     out.append(f"\n### {it['id']}（Part {it['part']}）\n{it['prompt']}\n")
     out.append("\n".join(f"({L[k]}) {o['text']}" for k, o in enumerate(it["options"])) + "\n")
+# ------------------------------------------------------------ 単語（英→日の4択の正解を答えてもらい、例文・ヒントも確認してもらう）
+sys.path.insert(0, str(ROOT / "scripts"))
+import vocab_lib as V
+vpath = ROOT / "data/vocab.json"
+vocab = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else []
+vby = {w["id"]: w for w in vocab}
+vtarget = [w for w in vocab if a.all or w["status"] == "draft"]
+if vtarget: out.append("\n---\n# 単語（英→日の4択の正解を answer に。例文・和訳・ヒントも確認）\n")
+for w in vtarget:
+    blank = w["example"].replace(w["cloze"], V.hint(w["cloze"]).replace("_", "＿"), 1)
+    out.append(f"\n### {w['id']}（単語）\n**{w['word']}**（{w['pos']}）\n")
+    out.append("英→日：" + "　".join(f"({L[k]}) {vby[c]['meaning_ja']}" for k, c in enumerate(w["choices"])))
+    out.append(f"\n例文：{w['example']}\n和訳：{w['example_ja']}")
+    out.append(f"\n日→英の出題：{w['meaning_ja']} → {' '.join(V.hint(w['word']))}")
+    out.append(f"例文の穴埋めの出題：{blank}（和訳つき）\n")
 (ROOT / "review").mkdir(exist_ok=True)
 (ROOT / "review/packet.md").write_text("\n".join(out), encoding="utf-8")
 (ROOT / "review/PROMPT.md").write_text("""あなたは英語検定問題の校閲者です。添付の packet.md にある TOEIC L&R 形式の練習問題を、正解を見ずに自分で解いてください。
@@ -40,9 +55,14 @@ for it in target:
 2. 英文として自然か、文法の誤りがないか
 3. 本文・スクリプト・図と設問の内容が矛盾していないか
 4. Part 1 は写真を見られない場合、写真の確認はせず other の項目だけ確認する
+5. 単語（ID が v- で始まるもの）は、英→日の4択の正解を answer に答え、次も確認する：
+   - 4択で正解が1つに決まるか（ダミーの意味が正解と重なるなら ambiguous を true）
+   - 日本語の意味が TOEIC でよく使う意味か
+   - 例文が自然な英文か、和訳が合っているか
+   - 日→英（意味と最初の1文字・字数）と、例文の穴埋め（和訳つき）で、答えの語が1つに決まるか
 
 出力は JSON 配列だけにしてください（説明文は不要）。形式：
 [{"id": "p5-0001", "answer": "C", "ambiguous": false, "confidence": 0.9, "issues": "問題がなければ空文字"}]
 answer は (A)〜(D) の記号の英字1文字。
 """, encoding="utf-8")
-print(f"{len(target)} 問を review/packet.md に書き出しました。review/PROMPT.md と一緒にレビュー役に渡してください。")
+print(f"{len(target)} 問と単語 {len(vtarget)} 語を review/packet.md に書き出しました。review/PROMPT.md と一緒にレビュー役に渡してください。")

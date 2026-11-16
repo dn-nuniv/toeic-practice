@@ -68,13 +68,67 @@ create table if not exists attempts (
 );
 create index if not exists attempts_item on attempts (item_id);
 
+-- 単語（data/vocab.json の1件が1行）
+create table if not exists vocab (
+  id            text primary key,            -- v-0001
+  word          text not null,
+  pos           text not null check (pos in ('noun','verb','adjective','adverb','phrase')),
+  meaning_ja    text not null,
+  level         text,
+  example       text not null,
+  example_ja    text not null,
+  cloze         text not null,               -- 例文の穴埋めにする語形（例文中にそのまま出てくる）
+  distractors   text[] not null default '{}', -- 英→日の4択のダミー（vocab.id）
+  choices       text[] not null default '{}', -- 4択の並び（レビュー用。アプリでは毎回シャッフル）
+  related_items text[] not null default '{}', -- この語が出てくる問題（items.id）。「今日の単語」に使う
+  status        text not null default 'draft' check (status in ('draft','reviewed','flagged','retired')),
+  source        text,
+  review        jsonb not null default '[]'
+);
+
+-- 単語の復習の状態（単語ID と形式ごと。形式は e2j＝英→日 / j2e＝日→英 / cloze＝例文の穴埋め）
+create table if not exists vocab_progress (
+  user_id       uuid not null references auth.users(id) on delete cascade,
+  word_id       text not null references vocab(id),
+  mode          text not null check (mode in ('e2j','j2e','cloze')),
+  reps          int not null default 0,
+  ease          real not null default 2.5,
+  interval_days int not null default 0,
+  due_at        timestamptz,
+  lapses        int not null default 0,
+  seen          int not null default 0,
+  correct       int not null default 0,
+  last_seen_at  timestamptz,
+  primary key (user_id, word_id, mode)
+);
+create index if not exists vocab_progress_due on vocab_progress (user_id, due_at);
+
+-- 単語の解答の記録
+create table if not exists vocab_attempts (
+  id            bigint generated always as identity primary key,
+  user_id       uuid not null references auth.users(id) on delete cascade,
+  word_id       text not null references vocab(id),
+  mode          text not null,
+  correct       boolean not null,
+  chosen        text,                        -- 選んだ単語ID、または書いた答え
+  first_try     boolean not null default false,
+  context       text,                        -- vocab（単語練習）/ warmup（今日の単語）
+  at            timestamptz not null default now()
+);
+
 -- 行単位のアクセス制御：問題はログインした人が読めるだけ、記録は本人のものだけ
 alter table sets enable row level security;
 alter table items enable row level security;
 alter table user_progress enable row level security;
 alter table attempts enable row level security;
+alter table vocab enable row level security;
+alter table vocab_progress enable row level security;
+alter table vocab_attempts enable row level security;
 create policy "read sets"  on sets  for select to authenticated using (status <> 'retired');
 create policy "read items" on items for select to authenticated using (status <> 'retired');
 create policy "own progress" on user_progress for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
 create policy "own attempts" on attempts for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
+create policy "read vocab" on vocab for select to authenticated using (status <> 'retired');
+create policy "own vocab progress" on vocab_progress for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
+create policy "own vocab attempts" on vocab_attempts for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
 -- 教員が全員の記録を見る用のビュー・関数は、JLPTアプリの教員ロールの仕組みに合わせて追加する

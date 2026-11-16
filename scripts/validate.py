@@ -78,10 +78,32 @@ for p in (2, 5):
 for p in (3, 4, 6, 7):
     near([(s["id"], body(s)) for s in sets if s["part"] == p], "似たセット")
 
+# 単語（data/vocab.json）
+vpath = ROOT / "data/vocab.json"
+vocab = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else []
+vby = {w["id"]: w for w in vocab}
+for w in vocab:
+    t = w["id"]
+    for f in ("word", "meaning_ja", "example", "example_ja", "cloze"):
+        if not str(w.get(f, "")).strip(): E.append(f"{t}: {f} が空")
+    n = len(re.findall(rf"(?<![A-Za-z]){re.escape(w['cloze'])}(?![A-Za-z])", w["example"]))
+    if n == 0: E.append(f"{t}: 穴埋めの語 '{w['cloze']}' が例文にない")
+    elif n > 1: W.append(f"{t}: 穴埋めの語 '{w['cloze']}' が例文に {n} 回ある（最初の1つを空欄にする）")
+    if len(w["distractors"]) < 3: E.append(f"{t}: 同じ品詞のダミーが3つ取れない（{len(w['distractors'])}つ）")
+    ms = [vby[c]["meaning_ja"] for c in w["choices"] if c in vby]
+    if len(set(ms)) != len(ms): E.append(f"{t}: 4択に同じ意味が並ぶ")
+    if len(w["cloze"]) < 3: W.append(f"{t}: 穴埋めの語が短すぎてヒントにならない")
+    if re.search(r"https?://|www\.", w["example"]) and ".example" not in w["example"]: E.append(f"{t}: 例文の URL は .example ドメインに")
+for k, n in Counter(w["word"].lower() for w in vocab).items():
+    if n > 1: W.append(f"同じ見出し語が {n} 回: {k}")
+for k, n in Counter((w["pos"], w["meaning_ja"]) for w in vocab).items():
+    if n > 1: W.append(f"同じ品詞・同じ意味の単語が {n} 語: {k[1]}（4択で両方が正解に見える）")
+
 # 位置固定の問題で正解の位置が偏っていないか
 fixed = [it for it in items if not it.get("shuffle", True)]
 pos = Counter([o["id"] for o in it["options"]].index(it["answer"]) for it in fixed)
 print("Part別の問題数:", dict(sorted(Counter(i["part"] for i in items).items())))
+if vocab: print("単語:", len(vocab), "語 / 品詞:", dict(Counter(w["pos"] for w in vocab)), "/ 状態:", dict(Counter(w["status"] for w in vocab)))
 print("出題タイプ:", len(Counter(i["type"] for i in items)), "種類 / 状態:", dict(Counter(i["status"] for i in items)))
 if fixed: print("位置固定の問題の正解位置:", {"ABCD"[k]: v for k, v in sorted(pos.items())})
 for w in W: print("警告:", w)

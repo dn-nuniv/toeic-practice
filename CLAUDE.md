@@ -12,9 +12,10 @@
 - `index.html`, `css/`, `js/`：アプリ本体。`js/store.js` は保存先の差し替え口（段階2で Supabase 版にする）。
 - `data/src/part{N}/*.json`：**問題の元データ**（生成バッチごとに1ファイル）。書き方は `data/src/README.md`。
 - `data/items.json`, `data/sets.json`：問題データ（1件＝Supabase の1行）。`data/bank.js` はアプリが読むまとめ版。この3つは `build_data.py` が `data/src` から作る（手で編集しない）。
+- `data/vocab/src/*.json`：**単語の元データ**（書き方は `data/vocab/README.md`）。`build_data.py` が `data/vocab.json`・`data/vocab.js` を作る。アプリの単語練習は `js/vocab.js`（英→日の4択・日→英のつづり・例文の穴埋め・単語の復習、Part の練習の前の「今日の単語」）。
 - `data/blueprint.json`：大量生成の設計表（Part × 出題タイプ × 場面）。
 - `data/reviews.json`：相互レビューの結果（`import_review.py` が作る）。
-- `scripts/`：`build_data.py`（データ作成）、`validate.py`（機械チェック）、`export_review.py` / `import_review.py`（相互レビュー）、`gen_audio.py`（音声）。
+- `scripts/`：`build_data.py`（データ作成）、`validate.py`（機械チェック）、`export_review.py` / `import_review.py`（相互レビュー。単語も同じ流れ）、`gen_audio.py`（音声）、`vocab_lib.py`（単語の共通処理）。
 - `supabase/schema.sql`：段階2のテーブル案。`images/part1/`：Part 1 の写真。`audio/`：生成した音声と manifest。
 
 ## 作業の流れ（問題を増やすとき）
@@ -40,6 +41,13 @@
 - ID は `p{Part}-{4桁}`、セットは `p{Part}-s{3桁}`（試作の Part 1 の3セットだけ `p1-s0001` の4桁）。既存の ID は変えない（学習記録が ID に紐づくため）。不要になった問題は削除せず `status: "retired"`。
 - `status` は draft → reviewed / flagged（レビュー結果から build_data が自動で設定）。各レビューは問題の版（`content_hash`、`scripts/review_hash.py`）を記録し、今の版へのレビューだけが状態に効く。
 
+## 単語を作るときのルール
+- 意味と例文は**オリジナル**。市販の単語帳の訳語・例文を写さない。見出し語のリストとして TSL（TOEIC Service List）を使う場合は CC BY-SA 4.0 の出典表示をアプリに入れる。
+- 同じ品詞で同じ意味（例：estimate と quote の「見積もり」）の語を作らない。英→日の4択で両方が正解に見えるため。どうしても要るときは `distractors` を手で決める。
+- `cloze` は例文の中にそのまま出てくる語形。ヒント（最初の1文字と字数）と和訳で答えが1つに決まる例文にする。
+- 大量に作るときは音声を後回しにし、100〜200語ずつ「作成 → validate → 相互レビュー」を回してから音声を作る。
+- 単語の学習記録は問題とは別（`vocab_progress` / `vocab_attempts`、単語ID×形式ごと）。形を変えるときは `supabase/schema.sql` も直す。
+
 ## 音声（Google Cloud Text-to-Speech）
 - `scripts/gen_audio.py` は環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）を使う。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要（Gemini API のキーは使えない）。**キーを表示・ログ出力・ファイル保存・コミットしない**。
 - 同じ文・同じ声は作り直さない（manifest の hash で判定）。Neural2 → WaveNet → Standard の順に声を選ぶ。
@@ -54,11 +62,13 @@
 ## 次にやること（TODO）
 1. ~~問題データの置き場所を変える~~ → 済み（`data/src/part{N}/*.json` を読む形。試作49問は `pilot-v0.json` に移した。出力は移行前と同一）
 2. `data/blueprint.json` に沿って Part ごとに生成（例：Part 5 を30問ずつ）。生成のたびに validate とレビュー用の書き出し。
-3. 語彙レベルの判定：NGSL / TSL（CC BY-SA 4.0、出典表示が必要）を取り込み、各問題の語彙をプロファイルする。
+3. 語彙レベルの判定：NGSL / TSL（CC BY-SA 4.0、出典表示が必要）を取り込み、各問題の語彙をプロファイルする。TSL は単語練習の見出し語のリストにも使う（配布元のサイトをネットワークで許可する必要がある）。
 4. ~~Part 3・4 の設問の読み上げ~~ → 済み（`<item>:q`。解答時間つき）
 5. 段階2：JLPT アプリの構成に合わせて Supabase へ移行（`supabase/schema.sql`）。
+6. 単語の音声（`<単語ID>:word`・`<単語ID>:ex`）：レビューを通った語から `gen_audio.py` に足す。今はブラウザの読み上げで代用。
+7. Part 1〜7 の学習のさせ方（Part ごとに固定か、1問ずつ Part を移れるようにするか）を決める。
 
 ## 確認のしかた
 - `python3 scripts/validate.py` がエラー0件であること。
 - ブラウザで index.html を開き、各 Part を1問ずつ解いて、表示・採点・解説・音声を確認する。
-- 学習記録の形（`user_progress` / `attempts`）を変えるときは `supabase/schema.sql` も合わせて直す。
+- 学習記録の形（`user_progress` / `attempts`、単語は `vocab_progress` / `vocab_attempts`）を変えるときは `supabase/schema.sql` も合わせて直す。

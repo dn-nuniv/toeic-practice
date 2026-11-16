@@ -15,6 +15,7 @@ import json, pathlib, argparse, datetime, re, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from review_hash import content_hash
+import vocab_lib as V
 
 ap = argparse.ArgumentParser()
 ap.add_argument("file", nargs="?", help="レビュー役が返した JSON のファイル")
@@ -25,13 +26,22 @@ a = ap.parse_args()
 
 items = {i["id"]: i for i in json.loads((ROOT / "data/items.json").read_text(encoding="utf-8"))}
 sets = {s["id"]: s for s in json.loads((ROOT / "data/sets.json").read_text(encoding="utf-8"))}
+# 単語（v-）も同じ形で取り込む。英→日の4択の並びは data/vocab.json の choices の順
+vocab = {w["id"]: w for w in json.loads((ROOT / "data/vocab.json").read_text(encoding="utf-8"))} if (ROOT / "data/vocab.json").exists() else {}
+meaning = {k: w["meaning_ja"] for k, w in vocab.items()}
 rpath = ROOT / "data/reviews.json"
 reviews = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
 now = datetime.datetime.now().isoformat(timespec="seconds")
 
 
 def chash(it):
+    if it["id"].startswith("v-"): return V.content_hash(it, meaning)
     return content_hash(it, sets.get(it.get("set_id")))
+
+
+def key_letter(it):
+    if it["id"].startswith("v-"): return "ABCD"[it["choices"].index(it["id"])]
+    return "ABCD"[[o["id"] for o in it["options"]].index(it["answer"])]
 
 
 def is_bad(r):
@@ -40,7 +50,7 @@ def is_bad(r):
 
 if a.resolve:
     if not a.note: sys.exit("--note で理由を書いてください")
-    it = items.get(a.resolve)
+    it = items.get(a.resolve) or vocab.get(a.resolve)
     if not it: sys.exit(f"不明なID: {a.resolve}")
     h = chash(it)
     targets = [r for r in reviews.get(it["id"], []) if r.get("content_hash", h) == h and is_bad(r) and not r.get("resolved")]
@@ -56,17 +66,17 @@ m = re.search(r"\[.*\]", raw, re.S)  # 前後に説明文が付いていても J
 res = json.loads(m.group(0) if m else raw)
 agree = disagree = flagged = 0
 for r in res:
-    it = items.get(r.get("id"))
+    it = items.get(r.get("id")) or vocab.get(r.get("id"))
     if not it: print("不明なID:", r.get("id")); continue
     letter = str(r.get("answer", "")).strip().strip("()").upper()[:1]
-    key_letter = "ABCD"[[o["id"] for o in it["options"]].index(it["answer"])]
-    ok = letter == key_letter
+    key = key_letter(it)
+    ok = letter == key
     issues = (r.get("issues") or "").strip()
-    reviews.setdefault(it["id"], []).append({"reviewer": a.reviewer, "at": now, "answer": letter, "key": key_letter, "agree": ok,
+    reviews.setdefault(it["id"], []).append({"reviewer": a.reviewer, "at": now, "answer": letter, "key": key, "agree": ok,
                                              "ambiguous": bool(r.get("ambiguous")), "confidence": r.get("confidence"), "issues": issues,
                                              "content_hash": chash(it)})
     if ok: agree += 1
-    else: disagree += 1; print(f"不一致 {it['id']}: レビュー {letter} / 正解 {key_letter}  {issues}")
+    else: disagree += 1; print(f"不一致 {it['id']}: レビュー {letter} / 正解 {key}  {issues}")
     if r.get("ambiguous") or issues: flagged += 1; print(f"指摘 {it['id']}: {'曖昧 ' if r.get('ambiguous') else ''}{issues}")
 rpath.write_text(json.dumps(reviews, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"一致 {agree} / 不一致 {disagree} / 指摘あり {flagged}。python3 scripts/build_data.py を実行すると状態に反映されます。")

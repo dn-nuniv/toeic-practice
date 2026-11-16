@@ -70,6 +70,7 @@
         <button class="mode" data-mode="mock"><b>ミニ模試</b><span>Part 1〜7を本番の順に</span></button>
       </div>
     </section>
+    ${window.Vocab && Vocab.words.length ? Vocab.homeCard() : ''}
     <section class="card">
       <h2>設定</h2>
       <div class="row"><span class="lab">Part</span><div class="chips">${[1, 2, 3, 4, 5, 6, 7].map(p => `<label class="chip"><input type="checkbox" name="part" value="${p}" ${parts.includes(p) ? 'checked' : ''}><span>${p}</span></label>`).join('')}</div></div>
@@ -85,7 +86,8 @@
     $('#region').onchange = e => Store.setSetting('region', e.target.value);
     $('#rate').onchange = e => Store.setSetting('rate', +e.target.value);
     $('#qread').onchange = e => Store.setSetting('qread', e.target.value);
-    main.querySelectorAll('.mode').forEach(b => b.onclick = () => start(b.dataset.mode));
+    main.querySelectorAll('.mode[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
+    if (window.Vocab) Vocab.bindHome(home);
   }
 
   function start(mode) {
@@ -93,7 +95,9 @@
     if (!parts.length) { alertBox('Partを1つ以上選んでください。'); return; }
     const s = buildSession(mode, parts, mode === 'mock' ? 0 : Store.getSetting('count', 10));
     if (!s.units.length) { alertBox('出題できる問題がありません。'); return; }
-    session = s; renderUnit();
+    // 今日の単語：これから解く問題に出てくる語を先に確認する（設定で切れる。覚えた語は出さない）
+    const go = () => { session = s; renderUnit(); };
+    if (window.Vocab) Vocab.warmup(s.units.flatMap(u => u.items.map(it => it.id)), go); else go();
   }
   function alertBox(msg) { const p = document.createElement('p'); p.className = 'warn'; p.textContent = msg; main.prepend(p); setTimeout(() => p.remove(), 3000); }
 
@@ -248,6 +252,7 @@
     main.innerHTML = `<section class="card"><h2>成績</h2>
       <table class="tbl"><thead><tr><th>Part</th><th>解いた問題</th><th>初回の正答率</th><th>全体の正答率</th></tr></thead><tbody>${rows}</tbody></table>
       <p class="meta">今日の復習 ${dueCount()}問・解答の記録 ${at.length}件。記録はこのブラウザに保存されています。</p>
+      ${window.Vocab && Vocab.words.length ? Vocab.statsRow() : ''}
       <div class="actions"><button id="exp" class="ghost">記録を書き出す</button><label class="ghost file">記録を読み込む<input type="file" id="imp" accept="application/json" hidden></label><button id="rst" class="ghost danger">記録を消去</button></div></section>`;
     $('#exp').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([Store.exportAll()], { type: 'application/json' })); a.download = 'toeic-practice-progress.json'; a.click(); };
     $('#imp').onchange = e => { const f = e.target.files[0]; if (!f) return; f.text().then(t => { try { Store.importAll(t); stats(); } catch (err) { alertBox(err.message); } }); };
