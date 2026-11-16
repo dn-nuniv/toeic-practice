@@ -1264,6 +1264,246 @@
    "file": "audio/us/p1-0009_opt_d.mp3",
    "hash": "4a8fe07be476",
    "voice": "en-US-Neural2-C"
+  },
+  "p3-0001:q": {
+   "file": "audio/us/p3-0001_q.mp3",
+   "hash": "dfb2a99533e1",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0002:q": {
+   "file": "audio/us/p3-0002_q.mp3",
+   "hash": "5360e232c5d8",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0003:q": {
+   "file": "audio/us/p3-0003_q.mp3",
+   "hash": "ed9be7803f44",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0004:q": {
+   "file": "audio/us/p3-0004_q.mp3",
+   "hash": "5b24960e3a8a",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0005:q": {
+   "file": "audio/us/p3-0005_q.mp3",
+   "hash": "8eb7e0cbdcb9",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0006:q": {
+   "file": "audio/us/p3-0006_q.mp3",
+   "hash": "61c4bdeddf34",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0007:q": {
+   "file": "audio/us/p3-0007_q.mp3",
+   "hash": "55c299bdd144",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0008:q": {
+   "file": "audio/us/p3-0008_q.mp3",
+   "hash": "50b86f9e73ef",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0009:q": {
+   "file": "audio/us/p3-0009_q.mp3",
+   "hash": "4bcf834e0382",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0010:q": {
+   "file": "audio/us/p3-0010_q.mp3",
+   "hash": "49aa09d8bf56",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0011:q": {
+   "file": "audio/us/p3-0011_q.mp3",
+   "hash": "6b159de04ccc",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0012:q": {
+   "file": "audio/us/p3-0012_q.mp3",
+   "hash": "a3147a018a9a",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0013:q": {
+   "file": "audio/us/p3-0013_q.mp3",
+   "hash": "ed24ac16db19",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0014:q": {
+   "file": "audio/us/p3-0014_q.mp3",
+   "hash": "7a2122b87a92",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0015:q": {
+   "file": "audio/us/p3-0015_q.mp3",
+   "hash": "5a65b78fe513",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0016:q": {
+   "file": "audio/us/p3-0016_q.mp3",
+   "hash": "80e0901c7def",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0017:q": {
+   "file": "audio/us/p3-0017_q.mp3",
+   "hash": "7912a37ddd32",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0018:q": {
+   "file": "audio/us/p3-0018_q.mp3",
+   "hash": "86b313fcfc1c",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0019:q": {
+   "file": "audio/us/p3-0019_q.mp3",
+   "hash": "bf303aef5409",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0020:q": {
+   "file": "audio/us/p3-0020_q.mp3",
+   "hash": "ed9be7803f44",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0021:q": {
+   "file": "audio/us/p3-0021_q.mp3",
+   "hash": "9be602f7ea54",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0022:q": {
+   "file": "audio/us/p3-0022_q.mp3",
+   "hash": "c86afaf4cfcc",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0023:q": {
+   "file": "audio/us/p3-0023_q.mp3",
+   "hash": "d1969213e223",
+   "voice": "en-US-Neural2-J"
+  },
+  "p3-0024:q": {
+   "file": "audio/us/p3-0024_q.mp3",
+   "hash": "644ab4ecc435",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0001:q": {
+   "file": "audio/us/p4-0001_q.mp3",
+   "hash": "289c94d16407",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0002:q": {
+   "file": "audio/us/p4-0002_q.mp3",
+   "hash": "22e69c014d77",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0003:q": {
+   "file": "audio/us/p4-0003_q.mp3",
+   "hash": "2a0a8030fa0e",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0004:q": {
+   "file": "audio/us/p4-0004_q.mp3",
+   "hash": "fb68025afc82",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0005:q": {
+   "file": "audio/us/p4-0005_q.mp3",
+   "hash": "060a9ca157d4",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0006:q": {
+   "file": "audio/us/p4-0006_q.mp3",
+   "hash": "b28dc408f534",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0007:q": {
+   "file": "audio/us/p4-0007_q.mp3",
+   "hash": "28202e968bbb",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0008:q": {
+   "file": "audio/us/p4-0008_q.mp3",
+   "hash": "608a5e124391",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0009:q": {
+   "file": "audio/us/p4-0009_q.mp3",
+   "hash": "81550b062ec4",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0010:q": {
+   "file": "audio/us/p4-0010_q.mp3",
+   "hash": "c7e5ee1ea196",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0011:q": {
+   "file": "audio/us/p4-0011_q.mp3",
+   "hash": "c0a06c62c906",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0012:q": {
+   "file": "audio/us/p4-0012_q.mp3",
+   "hash": "9877f4974ea9",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0013:q": {
+   "file": "audio/us/p4-0013_q.mp3",
+   "hash": "8807e5a5296f",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0014:q": {
+   "file": "audio/us/p4-0014_q.mp3",
+   "hash": "b4ffc9dbf9d8",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0015:q": {
+   "file": "audio/us/p4-0015_q.mp3",
+   "hash": "b21c2da046cb",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0016:q": {
+   "file": "audio/us/p4-0016_q.mp3",
+   "hash": "8425ee64daa6",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0017:q": {
+   "file": "audio/us/p4-0017_q.mp3",
+   "hash": "9eb5e6362c9c",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0018:q": {
+   "file": "audio/us/p4-0018_q.mp3",
+   "hash": "797836143191",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0019:q": {
+   "file": "audio/us/p4-0019_q.mp3",
+   "hash": "75411503ef36",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0020:q": {
+   "file": "audio/us/p4-0020_q.mp3",
+   "hash": "74c43134458a",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0021:q": {
+   "file": "audio/us/p4-0021_q.mp3",
+   "hash": "713c2d470dc3",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0022:q": {
+   "file": "audio/us/p4-0022_q.mp3",
+   "hash": "2f907f8a7204",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0023:q": {
+   "file": "audio/us/p4-0023_q.mp3",
+   "hash": "c87f6f324652",
+   "voice": "en-US-Neural2-J"
+  },
+  "p4-0024:q": {
+   "file": "audio/us/p4-0024_q.mp3",
+   "hash": "e198296436e0",
+   "voice": "en-US-Neural2-J"
   }
  },
  "gb": {
@@ -2531,6 +2771,246 @@
    "file": "audio/gb/p1-0009_opt_d.mp3",
    "hash": "1a3cd7912d67",
    "voice": "en-GB-Neural2-A"
+  },
+  "p3-0001:q": {
+   "file": "audio/gb/p3-0001_q.mp3",
+   "hash": "07b13660249c",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0002:q": {
+   "file": "audio/gb/p3-0002_q.mp3",
+   "hash": "61bc2c5b3804",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0003:q": {
+   "file": "audio/gb/p3-0003_q.mp3",
+   "hash": "ab38aac234e6",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0004:q": {
+   "file": "audio/gb/p3-0004_q.mp3",
+   "hash": "7b0caa560bbf",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0005:q": {
+   "file": "audio/gb/p3-0005_q.mp3",
+   "hash": "b97a0385c636",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0006:q": {
+   "file": "audio/gb/p3-0006_q.mp3",
+   "hash": "667751cca2ab",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0007:q": {
+   "file": "audio/gb/p3-0007_q.mp3",
+   "hash": "22baf3505c82",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0008:q": {
+   "file": "audio/gb/p3-0008_q.mp3",
+   "hash": "4a221423db53",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0009:q": {
+   "file": "audio/gb/p3-0009_q.mp3",
+   "hash": "ae39dde0c1d5",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0010:q": {
+   "file": "audio/gb/p3-0010_q.mp3",
+   "hash": "a34d682b6876",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0011:q": {
+   "file": "audio/gb/p3-0011_q.mp3",
+   "hash": "af606603ec05",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0012:q": {
+   "file": "audio/gb/p3-0012_q.mp3",
+   "hash": "18147fb0a34c",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0013:q": {
+   "file": "audio/gb/p3-0013_q.mp3",
+   "hash": "0d8424a06814",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0014:q": {
+   "file": "audio/gb/p3-0014_q.mp3",
+   "hash": "fbdf647b5310",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0015:q": {
+   "file": "audio/gb/p3-0015_q.mp3",
+   "hash": "6030d818db53",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0016:q": {
+   "file": "audio/gb/p3-0016_q.mp3",
+   "hash": "60dd2b27ad60",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0017:q": {
+   "file": "audio/gb/p3-0017_q.mp3",
+   "hash": "d42f718cc0f4",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0018:q": {
+   "file": "audio/gb/p3-0018_q.mp3",
+   "hash": "633b18745429",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0019:q": {
+   "file": "audio/gb/p3-0019_q.mp3",
+   "hash": "556bac7a0a7a",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0020:q": {
+   "file": "audio/gb/p3-0020_q.mp3",
+   "hash": "ab38aac234e6",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0021:q": {
+   "file": "audio/gb/p3-0021_q.mp3",
+   "hash": "3b5217006385",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0022:q": {
+   "file": "audio/gb/p3-0022_q.mp3",
+   "hash": "eaabf829dc1d",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0023:q": {
+   "file": "audio/gb/p3-0023_q.mp3",
+   "hash": "484f82fa63b2",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p3-0024:q": {
+   "file": "audio/gb/p3-0024_q.mp3",
+   "hash": "fa1255fce3f1",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0001:q": {
+   "file": "audio/gb/p4-0001_q.mp3",
+   "hash": "4bebdc7c0e76",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0002:q": {
+   "file": "audio/gb/p4-0002_q.mp3",
+   "hash": "803cffd7840f",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0003:q": {
+   "file": "audio/gb/p4-0003_q.mp3",
+   "hash": "67c7fd4f54d8",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0004:q": {
+   "file": "audio/gb/p4-0004_q.mp3",
+   "hash": "cd5324b96d07",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0005:q": {
+   "file": "audio/gb/p4-0005_q.mp3",
+   "hash": "fdf8170f98e9",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0006:q": {
+   "file": "audio/gb/p4-0006_q.mp3",
+   "hash": "78f3c4211de5",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0007:q": {
+   "file": "audio/gb/p4-0007_q.mp3",
+   "hash": "d57fb59bbb02",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0008:q": {
+   "file": "audio/gb/p4-0008_q.mp3",
+   "hash": "bb790e3219f8",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0009:q": {
+   "file": "audio/gb/p4-0009_q.mp3",
+   "hash": "627865f6b9df",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0010:q": {
+   "file": "audio/gb/p4-0010_q.mp3",
+   "hash": "9f225d0fef16",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0011:q": {
+   "file": "audio/gb/p4-0011_q.mp3",
+   "hash": "ef7088abbcc2",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0012:q": {
+   "file": "audio/gb/p4-0012_q.mp3",
+   "hash": "18c835ee8e1f",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0013:q": {
+   "file": "audio/gb/p4-0013_q.mp3",
+   "hash": "e0d535e174db",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0014:q": {
+   "file": "audio/gb/p4-0014_q.mp3",
+   "hash": "a86d9d411c18",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0015:q": {
+   "file": "audio/gb/p4-0015_q.mp3",
+   "hash": "2b0ab433106e",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0016:q": {
+   "file": "audio/gb/p4-0016_q.mp3",
+   "hash": "fdb42502f7ba",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0017:q": {
+   "file": "audio/gb/p4-0017_q.mp3",
+   "hash": "228a462cc64c",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0018:q": {
+   "file": "audio/gb/p4-0018_q.mp3",
+   "hash": "fe3ad157deb4",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0019:q": {
+   "file": "audio/gb/p4-0019_q.mp3",
+   "hash": "78067eebc432",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0020:q": {
+   "file": "audio/gb/p4-0020_q.mp3",
+   "hash": "8e227570be78",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0021:q": {
+   "file": "audio/gb/p4-0021_q.mp3",
+   "hash": "cd14496490e9",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0022:q": {
+   "file": "audio/gb/p4-0022_q.mp3",
+   "hash": "47c9a7af91fc",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0023:q": {
+   "file": "audio/gb/p4-0023_q.mp3",
+   "hash": "fa351a71b468",
+   "voice": "en-GB-Neural2-O"
+  },
+  "p4-0024:q": {
+   "file": "audio/gb/p4-0024_q.mp3",
+   "hash": "b532ad184faf",
+   "voice": "en-GB-Neural2-O"
   }
  },
  "au": {
@@ -3798,6 +4278,246 @@
    "file": "audio/au/p1-0009_opt_d.mp3",
    "hash": "d025363d04fc",
    "voice": "en-AU-Neural2-A"
+  },
+  "p3-0001:q": {
+   "file": "audio/au/p3-0001_q.mp3",
+   "hash": "cdd7494e2af5",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0002:q": {
+   "file": "audio/au/p3-0002_q.mp3",
+   "hash": "171bcf91f893",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0003:q": {
+   "file": "audio/au/p3-0003_q.mp3",
+   "hash": "f6c696bde8b2",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0004:q": {
+   "file": "audio/au/p3-0004_q.mp3",
+   "hash": "885c41e499df",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0005:q": {
+   "file": "audio/au/p3-0005_q.mp3",
+   "hash": "0900ce47a288",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0006:q": {
+   "file": "audio/au/p3-0006_q.mp3",
+   "hash": "780b4616a0b5",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0007:q": {
+   "file": "audio/au/p3-0007_q.mp3",
+   "hash": "23def263c30e",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0008:q": {
+   "file": "audio/au/p3-0008_q.mp3",
+   "hash": "1d9d0a53bf41",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0009:q": {
+   "file": "audio/au/p3-0009_q.mp3",
+   "hash": "586c07a5bd09",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0010:q": {
+   "file": "audio/au/p3-0010_q.mp3",
+   "hash": "a299cef2557a",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0011:q": {
+   "file": "audio/au/p3-0011_q.mp3",
+   "hash": "4b3d108b33ce",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0012:q": {
+   "file": "audio/au/p3-0012_q.mp3",
+   "hash": "d0cef7153611",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0013:q": {
+   "file": "audio/au/p3-0013_q.mp3",
+   "hash": "af29819268a0",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0014:q": {
+   "file": "audio/au/p3-0014_q.mp3",
+   "hash": "e1336412aba6",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0015:q": {
+   "file": "audio/au/p3-0015_q.mp3",
+   "hash": "fa0cc4f643dd",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0016:q": {
+   "file": "audio/au/p3-0016_q.mp3",
+   "hash": "aa00e5dd064f",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0017:q": {
+   "file": "audio/au/p3-0017_q.mp3",
+   "hash": "0e18217ab678",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0018:q": {
+   "file": "audio/au/p3-0018_q.mp3",
+   "hash": "fc02e950ee27",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0019:q": {
+   "file": "audio/au/p3-0019_q.mp3",
+   "hash": "6d0459c68221",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0020:q": {
+   "file": "audio/au/p3-0020_q.mp3",
+   "hash": "f6c696bde8b2",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0021:q": {
+   "file": "audio/au/p3-0021_q.mp3",
+   "hash": "c55fe48c9a19",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0022:q": {
+   "file": "audio/au/p3-0022_q.mp3",
+   "hash": "5b040d564aa9",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0023:q": {
+   "file": "audio/au/p3-0023_q.mp3",
+   "hash": "899b523b72d5",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p3-0024:q": {
+   "file": "audio/au/p3-0024_q.mp3",
+   "hash": "9d47be2b2d5e",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0001:q": {
+   "file": "audio/au/p4-0001_q.mp3",
+   "hash": "6fe7b27f1633",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0002:q": {
+   "file": "audio/au/p4-0002_q.mp3",
+   "hash": "9669af7fc734",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0003:q": {
+   "file": "audio/au/p4-0003_q.mp3",
+   "hash": "bfc47880ea58",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0004:q": {
+   "file": "audio/au/p4-0004_q.mp3",
+   "hash": "c1aea43b000c",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0005:q": {
+   "file": "audio/au/p4-0005_q.mp3",
+   "hash": "f982b2bf45d0",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0006:q": {
+   "file": "audio/au/p4-0006_q.mp3",
+   "hash": "a17cd694de4c",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0007:q": {
+   "file": "audio/au/p4-0007_q.mp3",
+   "hash": "6fa3cb00d4e2",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0008:q": {
+   "file": "audio/au/p4-0008_q.mp3",
+   "hash": "d6f002dae085",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0009:q": {
+   "file": "audio/au/p4-0009_q.mp3",
+   "hash": "9e121ea2d2ec",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0010:q": {
+   "file": "audio/au/p4-0010_q.mp3",
+   "hash": "a5d0e3d6074c",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0011:q": {
+   "file": "audio/au/p4-0011_q.mp3",
+   "hash": "f83a29fddbba",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0012:q": {
+   "file": "audio/au/p4-0012_q.mp3",
+   "hash": "ba6a208b6088",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0013:q": {
+   "file": "audio/au/p4-0013_q.mp3",
+   "hash": "02a1d55419e0",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0014:q": {
+   "file": "audio/au/p4-0014_q.mp3",
+   "hash": "85e8aafee0a8",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0015:q": {
+   "file": "audio/au/p4-0015_q.mp3",
+   "hash": "cc1d35b5cb80",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0016:q": {
+   "file": "audio/au/p4-0016_q.mp3",
+   "hash": "ba328ef32c45",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0017:q": {
+   "file": "audio/au/p4-0017_q.mp3",
+   "hash": "6d1c72b8f96b",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0018:q": {
+   "file": "audio/au/p4-0018_q.mp3",
+   "hash": "166a368f5ee8",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0019:q": {
+   "file": "audio/au/p4-0019_q.mp3",
+   "hash": "38a5905f6ba4",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0020:q": {
+   "file": "audio/au/p4-0020_q.mp3",
+   "hash": "b6fb8344a617",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0021:q": {
+   "file": "audio/au/p4-0021_q.mp3",
+   "hash": "a20acaa1f429",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0022:q": {
+   "file": "audio/au/p4-0022_q.mp3",
+   "hash": "09b0b2f28020",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0023:q": {
+   "file": "audio/au/p4-0023_q.mp3",
+   "hash": "5f67571734f8",
+   "voice": "en-AU-Neural2-D"
+  },
+  "p4-0024:q": {
+   "file": "audio/au/p4-0024_q.mp3",
+   "hash": "c55dacf12373",
+   "voice": "en-AU-Neural2-D"
   }
  }
 }
