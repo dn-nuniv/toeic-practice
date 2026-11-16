@@ -6981,9 +6981,43 @@
   "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "7a0c31b629de"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "7a0c31b629de"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "7a0c31b629de"
+   }
+  ]
  },
  {
   "id": "p6-0006",
@@ -7021,9 +7055,43 @@
    "返品はすべて1週間以内にお願いします。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "ab42edbd4dd2"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "ab42edbd4dd2"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "ab42edbd4dd2"
+   }
+  ]
  },
  {
   "id": "p6-0007",
@@ -7056,9 +7124,43 @@
   "translation_ja": "（空欄3）先週、正面入口の近くにセルフサービスの返品カウンターが設置された。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "1ac5586a54d1"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "1ac5586a54d1"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "1ac5586a54d1"
+   }
+  ]
  },
  {
   "id": "p6-0008",
@@ -7091,9 +7193,43 @@
   "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう楽しくなればと思う。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "Correct, but for a return-policy notice, 'convenient' fits the context better than 'enjoyable' (vocabulary choice only, no change to the answer)",
+    "content_hash": "aa0fec247fc0"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "aa0fec247fc0"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "aa0fec247fc0"
+   }
+  ]
  },
  {
   "id": "p6-0009",
@@ -7126,9 +7262,43 @@
   "translation_ja": "（空欄1）お話ししたとおり、初出勤日は6月17日（月）だ。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "d8b6279115d6"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d8b6279115d6"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d8b6279115d6"
+   }
+  ]
  },
  {
   "id": "p6-0010",
@@ -7166,9 +7336,43 @@
    "オコンクォさんは昨年入社しました。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "2b3e6e4f62f7"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "2b3e6e4f62f7"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "2b3e6e4f62f7"
+   }
+  ]
  },
  {
   "id": "p6-0011",
@@ -7206,9 +7410,43 @@
    "認識・表彰"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "4e99987da412"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "4e99987da412"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "4e99987da412"
+   }
+  ]
  },
  {
   "id": "p6-0012",
@@ -7241,9 +7479,43 @@
   "translation_ja": "（空欄4）一緒に働けることを楽しみにしている。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "735ba8433306"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "735ba8433306"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "735ba8433306"
+   }
+  ]
  },
  {
   "id": "p6-0013",
@@ -7281,9 +7553,43 @@
    "必要とする"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "e6954116ecf3"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "e6954116ecf3"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "e6954116ecf3"
+   }
+  ]
  },
  {
   "id": "p6-0014",
@@ -7321,9 +7627,43 @@
    "地域の食料品の価格は今年下がった。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "cad7c5c7007a"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "cad7c5c7007a"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "cad7c5c7007a"
+   }
+  ]
  },
  {
   "id": "p6-0015",
@@ -7361,9 +7701,43 @@
    "その代わりに"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "47bf6de0bde9"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.91,
+    "issues": "",
+    "content_hash": "47bf6de0bde9"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "47bf6de0bde9"
+   }
+  ]
  },
  {
   "id": "p6-0016",
@@ -7396,9 +7770,43 @@
   "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "ac7d254e4920"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "ac7d254e4920"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "ac7d254e4920"
+   }
+  ]
  },
  {
   "id": "p6-0017",
@@ -7436,9 +7844,43 @@
    "当てはまる・申し込む"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "8ac9c507dd52"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "8ac9c507dd52"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "8ac9c507dd52"
+   }
+  ]
  },
  {
   "id": "p6-0018",
@@ -7476,9 +7918,43 @@
    "公園は市の中心駅の近くにあります。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "b39ab57dd0ea"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b39ab57dd0ea"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "b39ab57dd0ea"
+   }
+  ]
  },
  {
   "id": "p6-0019",
@@ -7516,9 +7992,43 @@
    "同様に"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "b9211bff5eea"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b9211bff5eea"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b9211bff5eea"
+   }
+  ]
  },
  {
   "id": "p6-0020",
@@ -7551,9 +8061,43 @@
   "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "45b38be03969"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "45b38be03969"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "45b38be03969"
+   }
+  ]
  },
  {
   "id": "p7-0001",
@@ -8320,7 +8864,7 @@
    "駐車場の不具合を報告すること"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -8355,6 +8899,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "254c42a26569"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "89236ad51453"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "89236ad51453"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "89236ad51453"
    }
   ]
  },
@@ -8394,7 +8971,7 @@
    "食事の支払いをすること"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -8429,6 +9006,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "7a52e2bf8f14"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "098ffc096f09"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "098ffc096f09"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "098ffc096f09"
    }
   ]
  },
@@ -8468,7 +9078,7 @@
    "10月16日"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -8503,6 +9113,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "5593253fc145"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "d817ebac9898"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d817ebac9898"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d817ebac9898"
    }
   ]
  },
@@ -8838,7 +9481,7 @@
    "ホーム・リビング博にブースを出す。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -8873,6 +9516,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "29c85ad082f9"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "bb8f09872ad5"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "bb8f09872ad5"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "bb8f09872ad5"
    }
   ]
  },
@@ -9134,7 +9810,7 @@
    "[4]"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9169,6 +9845,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "fb18e3387ab3"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "b1f87f335d67"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b1f87f335d67"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b1f87f335d67"
    }
   ]
  },
@@ -9578,7 +10287,7 @@
    "参加費が必要だ。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9613,6 +10322,39 @@
     "confidence": 0.9,
     "issues": "設問が 'the workshops' となっており、10月の案内文ではすべて午後（2:00 P.M. to 4:30 P.M.）だが、3通目のメールでは12月8日の回が午前（10:00 A.M. to 12:30 P.M.）と記載されているため、厳密には 'the October workshops' と限定したほうが矛盾を防げる。",
     "content_hash": "514e9237a6e3"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "b48c5970ea44"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b48c5970ea44"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b48c5970ea44"
    }
   ]
  },
@@ -9874,7 +10616,7 @@
    "ハダッドさんの文書の研修を受けたことがある。"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
   "review": [
    {
@@ -9909,6 +10651,39 @@
     "confidence": 0.95,
     "issues": "修了証の条件は年3回以上の受講完了であり、(B)は10月6日受講済み・10月27日登録済みに加えて10月27日の受講も完了することが暗黙の前提になっている（他選択肢が明確に誤りのため正解はBに決まる）。",
     "content_hash": "7d6f4e1ba107"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "1137559a9f15"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "1137559a9f15"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T18:43:42",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "1137559a9f15"
    }
   ]
  }
