@@ -275,13 +275,13 @@
    "prompt": "Why don't we move the meeting to the larger room?",
    "options": [
     "Good idea. More people are coming than expected.",
-    "Because the room was booked.",
+    "Because I missed the train.",
     "We moved here last year."
    ],
    "answer": "a",
-   "explanation_ja": "Why don't we ～?（～しませんか）という提案に賛成している (A) が正解。(B) は Why を理由の質問と取り違えたひっかけ、(C) は move に似た moved を使っている。",
+   "explanation_ja": "Why don't we ～?（～しませんか）という提案に賛成している (A) が正解。(B) は Why を理由の質問と取り違えて Because で答えたひっかけで、内容も提案と関係がない、(C) は move に似た moved を使っている。",
    "translation_ja": "会議を大きいほうの部屋に移しませんか。",
-   "translation_options_ja": ["いい考えですね。予想より多くの人が来ますから。", "その部屋が予約されていたからです。", "私たちは去年ここに引っ越しました。"]
+   "translation_options_ja": ["いい考えですね。予想より多くの人が来ますから。", "電車に乗り遅れたからです。", "私たちは去年ここに引っ越しました。"]
   },
   {
    "id": "p2-0028",

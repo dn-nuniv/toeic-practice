@@ -115,7 +115,9 @@ def main():
         if region not in LANG: print(f"未対応の地域: {region}"); continue
         if a.dry_run:
             m = manifest.get(region, {})
-            new = [x for x in us if x[0] not in m]
+            # キーがない、または文が変わった（記録した声で計算したハッシュが違う）ものを数える
+            new = [x for x in us if x[0] not in m or
+                   m[x[0]].get("hash") != hashlib.sha1(f"{x[1]}|{m[x[0]].get('voice')}|{a.rate}".encode()).hexdigest()[:12]]
             c = sum(len(x[1]) for x in new); total_chars += c; total_new += len(new)
             print(f"[{region}] 音声 {len(us)} 件（新しく作る {len(new)} 件・{c:,} 文字）")
             continue
