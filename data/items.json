@@ -12765,8 +12765,13 @@
    "水泳レッスンの割引",
    "無料のタオル"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "1か月無料とは書かれていない",
+   "pay no registration fee（入会金なし）と書かれている",
+   "水泳教室の割引は書かれていない",
+   "タオルの話は書かれていない"
+  ],
+  "point_ja": "広告の「特典」の問題は、Join ～ and … のように条件と特典がセットで書かれた文を探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -12841,8 +12846,13 @@
    "7月に一時的に使えなくなる。",
    "12か月会員しか使えない。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "最近造られたとは書かれていない",
+   "25メートルで、50メートルではない",
+   "7月10日から14日まで清掃で閉鎖（closed → temporarily unavailable）",
+   "12か月会員だけとは書かれていない"
+  ],
+  "point_ja": "indicated（示されている）の問題は、選択肢を1つずつ本文と照らし合わせる。数字（25 / 50）の食い違いに注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -12917,8 +12927,13 @@
    "駅の改修",
    "経営陣の交代"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ソルバーグ・コーヒーの日本1号店の開店についての記事",
+   "茶の文化は金沢を選んだ理由の1つとして出てくるだけ",
+   "駅の改装ではなく、駅の近くの新しいビル",
+   "経営陣の交代の話ではない"
+  ],
+  "point_ja": "記事の主題は第1段落（見出しの直後）に書かれる。一部の段落だけの内容を述べた選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -12993,8 +13008,13 @@
    "ディレクターの出身地である。",
    "大きなコーヒー工場がある。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "家賃の話は書かれていない",
+   "growing number of international visitors と書かれている",
+   "担当者の出身地の話は書かれていない",
+   "コーヒー工場の話は書かれていない"
+  ],
+  "point_ja": "理由の問題は because of / since / due to の後を探す。理由が2つ書かれていても、選択肢にあるのは1つだけのことが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13064,8 +13084,13 @@
   "explanation_ja": "「応募者（Applicants）」は、直前の「約40人を採用する予定」を受けている。[3] に入れると採用の話がつながる。",
   "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「英語を話せる応募者は特に歓迎する。」",
   "translation_options_ja": null,
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "開店の話の直後で、採用の話はまだ出ていない",
+   "金沢を選んだ理由の段落で、採用とつながらない",
+   "直前の「約40人を採用する予定」を受けて、応募者（Applicants）の話につながる",
+   "営業時間の後で、採用の話から離れている"
+  ],
+  "point_ja": "文挿入は、挿入する文の語（Applicants）が直前のどの語（hire about 40 staff members）を受けるかを探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13140,8 +13165,13 @@
    "1時間単位で予約できる。",
    "週末しか使えない。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "湖の眺めは書かれていない（Lakeview は名前）",
+   "全室にプロジェクターとマイク＝視聴覚機器（audio-visual equipment）",
+   "1時間単位ではなく1日あたりの料金",
+   "週末だけとは書かれていない"
+  ],
+  "point_ja": "projector・microphone → audio-visual equipment のように、具体的な物をまとめた語での言い換えが頻出。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13216,8 +13246,13 @@
    "サービスに苦情を言うため",
    "求人について尋ねるため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "取り消しではない",
+   "I would like to reserve a room と書いている",
+   "苦情ではない",
+   "求人の問い合わせではない"
+  ],
+  "point_ja": "メールの目的は最初の段落（I would like to ～ / I am writing to ～）に書かれることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13287,8 +13322,13 @@
   "explanation_ja": "【2文書の照合】参加者は約45人（文書2）。定員50人のシダー室なら収まる（文書1）。メープル室は20人で足りず、オーク・ホール以上は大きすぎる。",
   "translation_ja": "マルティネスさんの団体にはどの部屋が予約されると考えられるか。",
   "translation_options_ja": null,
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "定員20人で、約45人は入らない",
+   "定員50人で約45人が入る、いちばん小さく安い部屋",
+   "120人用で大きすぎる",
+   "200人用で大きすぎる"
+  ],
+  "point_ja": "照合問題：文書2の人数（約45人）を、文書1の表（定員）に当てはめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13367,8 +13407,13 @@
    "宿泊する。",
    "昨年もこのセンターを予約した。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "30人以上ならケータリングを利用でき、約45人の団体なので使える",
+   "部屋が2つ必要とは書かれていない",
+   "宿泊の話は書かれていない",
+   "昨年の予約の話は書かれていない"
+  ],
+  "point_ja": "照合問題：文書1の条件（30人以上）と文書2の事実（約45人）を組み合わせる。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13438,8 +13483,13 @@
   "explanation_ja": "【2文書の照合】3月3日の時点で5月15日は60日以上先なので10%割引が適用される。シダー室 $550 × 0.9 ＝ $495。",
   "translation_ja": "割引が適用されると、団体は部屋代にいくら払うか。",
   "translation_options_ja": null,
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "メープル室（300ドル）の割引後の額。部屋が違う",
+   "シダー室 550ドル×0.9＝495ドル",
+   "割引前の額",
+   "オーク・ホール（1,200ドル）の割引後の額。部屋が違う"
+  ],
+  "point_ja": "計算の照合問題は、①どの部屋か ②割引の条件を満たすか（60日前） ③計算、の順に確かめる。誤答には途中の数字が並ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13514,8 +13564,13 @@
    "社員食堂についての意見を求めること",
    "駐車場の不具合を報告すること"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "新しい電子入館システムに切り替わり、入館証を受け取るよう伝えている",
+   "施設管理マネージャーの紹介ではない（差出人として名前が出るだけ）",
+   "食堂への意見は求めていない",
+   "駐車場の不具合の報告ではない"
+  ],
+  "point_ja": "社内メモの目的は冒頭の1〜2文に書かれる。途中の細かい情報（食堂・駐車場）だけを使った選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13623,8 +13678,13 @@
    "階段の扉を開けること",
    "食事の支払いをすること"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "駐車場に入れると書かれている",
+   "印刷の話は書かれていない",
+   "階段の扉を開けられると書かれている",
+   "食堂での支払いに使えると書かれている"
+  ],
+  "point_ja": "NOT 問題は、本文に書かれている3つを消して残りを選ぶ。消すときは言い換え（open → enter）にも注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13732,8 +13792,13 @@
    "10月9日",
    "10月16日"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "メモの日付",
+   "starting Wednesday, October 4 と書かれている",
+   "新しいシステムが始まる日",
+   "本文に出てこない日付"
+  ],
+  "point_ja": "日付の問題では、メモの日付・開始日・受け取り開始日など、複数の日付を区別して読む。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13841,8 +13906,13 @@
    "急ぎの問題だとわかっている。",
    "セールの計画に反対している。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "文字どおり「黙って」と受け取ったひっかけ",
+   "10時19分にすでに注文書を見ている",
+   "週末のセールがあると聞き、急ぎだと理解して倉庫に連絡すると続けている",
+   "セールに反対しているのではない"
+  ],
+  "point_ja": "チャットの意図問題は、その発言の直前の発言（何に対する反応か）と直後の行動を合わせて読む。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13917,8 +13987,13 @@
    "パイン通り店に行く",
    "倉庫に連絡する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "荷物を降ろすのは運転手（I'll have the driver unload）",
+   "セールを中止するとは書かれていない",
+   "店に行くとは書かれていない",
+   "I'll call the warehouse（call → contact）"
+  ],
+  "point_ja": "I'll have ～ do（～に…させる）は、動作をするのが別の人であることに注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13993,8 +14068,13 @@
    "デザイナーの都合がつかない。",
    "カタログにいくつか誤りがある。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "カタログが予定より5日遅れる（won't be ready until → completed late）",
+   "ブースの予約は取り消されていない",
+   "デザイナーの都合の話は書かれていない",
+   "カタログの誤りの話は書かれていない"
+  ],
+  "point_ja": "won't be ready until ～（～まで仕上がらない）は「遅れる」の言い換えの定番。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14069,8 +14149,13 @@
    "ブースをもっと広い場所に移すべきだ。",
    "博覧会には追加の人員が必要だ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "印刷費の話は、すでにナタラジャンさんがしている",
+   "300部に対して来場者1,000人なので足りないと示唆している",
+   "ブースの広さの話ではない",
+   "人員の話ではない"
+  ],
+  "point_ja": "though（でも）がついた発言は、直前の提案や情報に対する反論・懸念を表す。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14145,8 +14230,13 @@
    "その会社がいつも使う印刷会社より高い。",
    "ホーム・リビング博にブースを出す。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "3月16日までに300部刷れると書かれている",
+   "横断幕をデザインしたのは社内のデザイナー",
+   "いつもの印刷会社の2倍近い料金（twice as much → costs more）",
+   "博覧会にブースを出すとは書かれていない"
+  ],
+  "point_ja": "twice as much as ～（～の2倍）は「～より高い（costs more than）」と言い換えられる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14254,8 +14344,13 @@
    "別の印刷会社に電話する",
    "予算を修正する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "デザイナーに頼むのはナタラジャンさん",
+   "新しい横断幕の注文ではない（今の横断幕に QR コードを足す）",
+   "別の印刷会社に電話するとは書かれていない",
+   "I'll update the expo budget（update → revise）"
+  ],
+  "point_ja": "チャットの「だれが何をするか」は、発言者の名前と I'll ～ を組にして読む。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14330,8 +14425,13 @@
    "部屋の修理の日程を決めるため",
    "新しい入居者として歓迎するため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "契約満了日と、更新の方法・1年と2年の家賃の違いを説明している",
+   "支払いの遅れの話ではない",
+   "修理の予定の話ではない",
+   "2年間住んでいる入居者なので、新しい入居者ではない"
+  ],
+  "point_ja": "目的の問題で、細部（家賃・点検）だけを述べた選択肢に注意。メール全体で何を伝えているかを考える。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14406,8 +14506,13 @@
    "よく考える",
    "写す"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "戻す。reflect の「反射する」から連想させるひっかけ",
+   "示す・表す。値上げは維持費の上昇を表している",
+   "よく考える。reflect on ～（よく考える）から連想させるひっかけ",
+   "写す。「映す」から連想させるひっかけ"
+  ],
+  "point_ja": "同義語問題は、辞書の第一の意味ではなく、その文の中での意味を選ぶ。選択肢を本文に当てはめて意味が通るか確かめる。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14482,8 +14587,13 @@
    "[3]",
    "[4]"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "更新の手続きの話の前で、2年契約はまだ出てこない",
+   "値上げの説明の直後で、this option が指すものがない",
+   "直前の「2年で更新すれば家賃は1,200ドルのまま」を this option が受ける",
+   "更新しない場合の話の後で、つながらない"
+  ],
+  "point_ja": "this option / this offer のような語で始まる挿入文は、直前に「選択肢・申し出」の内容があるかを探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14591,8 +14701,13 @@
    "10人分以上の注文が必要だ。",
    "調理場を2つ以上持っている。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "値上げの話は書かれていない",
+   "団体割引は書かれていない",
+   "The minimum order is 10 people と書かれている",
+   "調理場は1つ（our kitchen on Harbor Road）"
+  ],
+  "point_ja": "minimum（最低）・maximum（最大）・at least（少なくとも）は、条件の問題で頻出。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14667,8 +14782,13 @@
    "研修の日程を変えるため",
    "食事を注文するため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "配達の苦情ではない",
+   "求人の問い合わせではない",
+   "研修の日程は伝えているだけで、変更ではない",
+   "I would like to order lunch と書いている"
+  ],
+  "point_ja": "place an order（注文する）は頻出の言い方。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14743,8 +14863,13 @@
    "デラックス",
    "エグゼクティブ"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "スープもデザートもない",
+   "デザートがない",
+   "スープとデザートがあり、コーヒー・紅茶のサービスはない",
+   "コーヒー・紅茶のサービスが付いていて、不要と言っている"
+  ],
+  "point_ja": "照合問題：文書2の条件（スープとデザートは必要、コーヒーは不要）を全部満たす行を表から選ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14819,8 +14944,13 @@
    "512ドル",
    "532ドル"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "デラックス×16人の額だが、配達料が抜けている",
+   "25ドル×16人＝400ドルに、10キロを超える分の配達料20ドルを足す",
+   "エグゼクティブ×16人の額。セットが違う",
+   "エグゼクティブに配達料を足した額。セットが違う"
+  ],
+  "point_ja": "計算問題は条件を1つずつ足す：セットの単価 × 人数 ＋ 配達料（距離の条件）。誤答には途中の数字が並ぶ。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14895,8 +15025,13 @@
    "研修に遅れて来る。",
    "スープとサラダだけを食べる。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "すべてのセットでベジタリアン向けが追加料金なしで選べる",
+   "昼食を持ってくるとは書かれていない",
+   "遅れて来るとは書かれていない",
+   "スープとサラダだけとは書かれていない"
+  ],
+  "point_ja": "照合問題：文書2の事実（4人が肉を食べない）に、文書1の条件（ベジタリアン向けは追加料金なし）を当てはめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14971,8 +15106,13 @@
    "すべて同じ講師が担当する。",
    "参加費が必要だ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "社員向けの研修で、一般の人は参加できるとは書かれていない",
+   "All workshops run from 2:00 P.M. to 4:30 P.M.",
+   "講師は3人",
+   "参加費は書かれていない"
+  ],
+  "point_ja": "設問の範囲（October workshops）に注意。12月の追加の回は午前だが、設問は10月の研修について聞いている。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -15080,8 +15220,13 @@
    "コンピューター室",
    "人事部の部屋"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "101号室は安全の研修の部屋",
+   "204号室はハダッドさんの研修の部屋",
+   "リウさんのデータ分析の研修は前回コンピューター室。12月も same room as before",
+   "人事部の部屋とは書かれていない"
+  ],
+  "point_ja": "照合問題：文書3の same room as before を、文書1の表（だれの研修がどの部屋か）で確かめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -15156,8 +15301,13 @@
    "講師になりたいと思っている。",
    "まもなく指導する立場になる。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "上司に命じられたとは書かれていない",
+   "昨年の話は書かれていない",
+   "講師になりたいとは書かれていない",
+   "来月から新入社員2人の指導を始める（supervising → supervisory duties）"
+  ],
+  "point_ja": "since（～なので）の後に理由が書かれる。動詞（supervise）を名詞・形容詞（supervisory duties）で言い換える形に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -15232,8 +15382,13 @@
    "タンさんへの連絡が遅すぎた。",
    "コンピューター室が改装中だ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "研修は午後2時〜4時30分、打ち合わせは1時〜3時で重なる",
+   "定員に達したとは書かれていない",
+   "10月9日の連絡で、1週間前の期限には間に合っている",
+   "コンピューター室の改装は書かれていない"
+  ],
+  "point_ja": "照合問題：文書1の時間と文書2の予定を比べる。期限（1週間前）が守られているかも確かめて、ひっかけを消す。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -15308,8 +15463,13 @@
    "12月に研修の講師を務める。",
    "ハダッドさんの文書の研修を受けたことがある。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "所属は生産部（Production Department）",
+   "10月6日に参加済み・10月27日に申し込み済み。12月8日にも出れば3回になり、修了証の条件（3回以上）を満たせる",
+   "12月に教えるのはリウさん",
+   "ハダッドさんの文書の研修を受けたとは書かれていない"
+  ],
+  "point_ja": "3つの文書の照合：条件（文書1）、これまでの参加（文書2）、追加の回（文書3）を合わせて数える。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
