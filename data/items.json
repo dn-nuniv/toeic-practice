@@ -5951,7 +5951,7 @@
   "option_notes_ja": null,
   "point_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
@@ -6019,6 +6019,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "a24f617dd4e7"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T20:06:52",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "573429839dfa"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T20:06:52",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "573429839dfa"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T20:06:52",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "573429839dfa"
    }
   ]
  },

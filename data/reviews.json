@@ -6366,6 +6366,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "a24f617dd4e7"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "573429839dfa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "573429839dfa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "573429839dfa"
   }
  ],
  "p4-0010": [
@@ -7212,6 +7245,3506 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "8231338c13cf"
+  }
+ ],
+ "v-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "2d4fb22994da"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "2d4fb22994da"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "2d4fb22994da"
+  }
+ ],
+ "v-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8db47aff6c39"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8db47aff6c39"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8db47aff6c39"
+  }
+ ],
+ "v-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "09371ecc02b4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.95,
+   "issues": "4択は一意。日→英ではrebateも「返金」を表すr始まりの6字。穴埋めもfull rebateが成立するため一意ではない。",
+   "content_hash": "09371ecc02b4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "09371ecc02b4"
+  }
+ ],
+ "v-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "80b8926f751f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "80b8926f751f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "80b8926f751f"
+  }
+ ],
+ "v-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "395a7f082ea9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.99,
+   "issues": "4択は一意。renovationとremodelingはいずれも「改装」を表すr始まりの10字で、日→英・穴埋めとも両方成立する。",
+   "content_hash": "395a7f082ea9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "日→英の「改装 → r _ _ _ _ _ _ _ _ _」（r始まり10文字）では、remodeling（10文字）も意味上当てはまりうる。",
+   "content_hash": "395a7f082ea9"
+  }
+ ],
+ "v-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "2e7ec086214f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "2e7ec086214f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "2e7ec086214f"
+  }
+ ],
+ "v-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "712dbd2edfe7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "712dbd2edfe7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "712dbd2edfe7"
+  }
+ ],
+ "v-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "0551791571aa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0551791571aa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "0551791571aa"
+  }
+ ],
+ "v-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "1d00221e0f34"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "1d00221e0f34"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "1d00221e0f34"
+  }
+ ],
+ "v-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "05367e598306"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "05367e598306"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "05367e598306"
+  }
+ ],
+ "v-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "9d36b88eab97"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9d36b88eab97"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9d36b88eab97"
+  }
+ ],
+ "v-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "9ae6128a2add"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9ae6128a2add"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9ae6128a2add"
+  }
+ ],
+ "v-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "695c3e0a0c3c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "695c3e0a0c3c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "695c3e0a0c3c"
+  }
+ ],
+ "v-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "edb8cf32131c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "edb8cf32131c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "edb8cf32131c"
+  }
+ ],
+ "v-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "32563622d45b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "32563622d45b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "32563622d45b"
+  }
+ ],
+ "v-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "23dbb480aac8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "23dbb480aac8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "23dbb480aac8"
+  }
+ ],
+ "v-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "db62ec60c1f0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "db62ec60c1f0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "db62ec60c1f0"
+  }
+ ],
+ "v-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "03a655d41587"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "03a655d41587"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "03a655d41587"
+  }
+ ],
+ "v-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "8f3d0b27707d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8f3d0b27707d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8f3d0b27707d"
+  }
+ ],
+ "v-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "6832a9c21d29"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6832a9c21d29"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6832a9c21d29"
+  }
+ ],
+ "v-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "c569aae0e6ce"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.98,
+   "issues": "4択は一意。expansionとextensionはいずれもe始まりの9字で、工場の「拡張」を表せる。日→英・穴埋めとも別解が成立する。",
+   "content_hash": "c569aae0e6ce"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "c569aae0e6ce"
+  }
+ ],
+ "v-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "4749e70604ed"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "4749e70604ed"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "4749e70604ed"
+  }
+ ],
+ "v-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "b8f0bcd1a458"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "b8f0bcd1a458"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b8f0bcd1a458"
+  }
+ ],
+ "v-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "928272967f57"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "928272967f57"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "928272967f57"
+  }
+ ],
+ "v-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "ba7606bac8a1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ba7606bac8a1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "ba7606bac8a1"
+  }
+ ],
+ "v-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "例文の \"will end\" は誤りではないが、会員資格には \"will expire\" のほうがよく使われる",
+   "content_hash": "449d5e607b41"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "449d5e607b41"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "449d5e607b41"
+  }
+ ],
+ "v-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "a344a0457d35"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "a344a0457d35"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "a344a0457d35"
+  }
+ ],
+ "v-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8f1941315775"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8f1941315775"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8f1941315775"
+  }
+ ],
+ "v-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "60ea5e64f92d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "60ea5e64f92d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "60ea5e64f92d"
+  }
+ ],
+ "v-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e6df056ff3de"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e6df056ff3de"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e6df056ff3de"
+  }
+ ],
+ "v-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "fa8cb9d8ddfe"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "fa8cb9d8ddfe"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "fa8cb9d8ddfe"
+  }
+ ],
+ "v-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "907e3bb57800"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "907e3bb57800"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "907e3bb57800"
+  }
+ ],
+ "v-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "f39cee60d3a8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.98,
+   "issues": "4択は一意。entranceとentrywayはいずれも「入口」を表すe始まりの8字。main entrywayも自然で、日→英・穴埋めとも一意ではない。",
+   "content_hash": "f39cee60d3a8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f39cee60d3a8"
+  }
+ ],
+ "v-0034": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "375536e45141"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "375536e45141"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "375536e45141"
+  }
+ ],
+ "v-0035": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "9325ad720815"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9325ad720815"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9325ad720815"
+  }
+ ],
+ "v-0036": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "cc79bfb6edfe"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "cc79bfb6edfe"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "cc79bfb6edfe"
+  }
+ ],
+ "v-0037": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "bd8f2f4f8e27"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "bd8f2f4f8e27"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "bd8f2f4f8e27"
+  }
+ ],
+ "v-0038": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8e616a3fe603"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8e616a3fe603"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8e616a3fe603"
+  }
+ ],
+ "v-0039": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "15874e38afa0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "15874e38afa0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "15874e38afa0"
+  }
+ ],
+ "v-0040": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "bc1b1567199b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "bc1b1567199b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "bc1b1567199b"
+  }
+ ],
+ "v-0041": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "948af5810f5e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "948af5810f5e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "948af5810f5e"
+  }
+ ],
+ "v-0042": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "a135d15451aa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "a135d15451aa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "a135d15451aa"
+  }
+ ],
+ "v-0043": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "ca4d1434b1c8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ca4d1434b1c8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "ca4d1434b1c8"
+  }
+ ],
+ "v-0044": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "70bf17ad3a0f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "70bf17ad3a0f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "70bf17ad3a0f"
+  }
+ ],
+ "v-0045": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "47a3d195cace"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "47a3d195cace"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "47a3d195cace"
+  }
+ ],
+ "v-0046": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "3a52683461e3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "3a52683461e3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "3a52683461e3"
+  }
+ ],
+ "v-0047": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7ad15fff3f3d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.94,
+   "issues": "4択は一意。appendも「添付する」を表すa始まりの6字。穴埋めでもattachedとappendedがともに8字で、appended the file to this e-mailも成立する。",
+   "content_hash": "7ad15fff3f3d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7ad15fff3f3d"
+  }
+ ],
+ "v-0048": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "f148bbd8f200"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "f148bbd8f200"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f148bbd8f200"
+  }
+ ],
+ "v-0049": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "5cc6070cb2db"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "5cc6070cb2db"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "5cc6070cb2db"
+  }
+ ],
+ "v-0050": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "7a75c55e81e5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7a75c55e81e5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7a75c55e81e5"
+  }
+ ],
+ "v-0051": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "71b48a442520"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "71b48a442520"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "71b48a442520"
+  }
+ ],
+ "v-0052": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7e0084fb3877"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7e0084fb3877"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7e0084fb3877"
+  }
+ ],
+ "v-0053": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "b6b29833175c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "b6b29833175c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b6b29833175c"
+  }
+ ],
+ "v-0054": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "f30981cbfd40"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "f30981cbfd40"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f30981cbfd40"
+  }
+ ],
+ "v-0055": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "064bae104d7f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "More than two hundredは厳密には「200人を超える」。「200人以上」は200人ちょうども含むため、和訳の人数条件にずれがある。",
+   "content_hash": "064bae104d7f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "064bae104d7f"
+  }
+ ],
+ "v-0056": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "27adc97bb967"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "27adc97bb967"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "27adc97bb967"
+  }
+ ],
+ "v-0057": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "88baace02764"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "88baace02764"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "88baace02764"
+  }
+ ],
+ "v-0058": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7b49bba247fd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7b49bba247fd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7b49bba247fd"
+  }
+ ],
+ "v-0059": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e74462045ec9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e74462045ec9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e74462045ec9"
+  }
+ ],
+ "v-0060": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "ダミーの「更新する」(renew) は延長と意味が近く、契約や会員資格の文脈では少し紛らわしい。ただし正解は1つに決まる",
+   "content_hash": "af299269fae4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.95,
+   "issues": "4択は一意。expandも営業時間などを広げる意味で使えるe始まりの6字。穴埋めのexpandedもextendedと同じ8字で、営業時間を延長したという和訳に合う。",
+   "content_hash": "af299269fae4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "af299269fae4"
+  }
+ ],
+ "v-0061": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "9f4a706d42b8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9f4a706d42b8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9f4a706d42b8"
+  }
+ ],
+ "v-0062": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.94,
+   "issues": "例文の穴埋めで a＿＿＿＿＿（6文字）には advise も入る（\"happy to advise you\"）。和訳の「お手伝いします」で assist に決まるので問題はない",
+   "content_hash": "162d6c6efad1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "162d6c6efad1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "162d6c6efad1"
+  }
+ ],
+ "v-0063": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "2636e5999789"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.99,
+   "issues": "4択は一意。英式綴りapologiseもa始まりの9字で、日→英・穴埋めとも成立する。和訳「遅れておわびいたします」は謝罪が遅れたとも読めるため、「遅延についておわびします」が明確。",
+   "content_hash": "2636e5999789"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "2636e5999789"
+  }
+ ],
+ "v-0064": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "9c6126978414"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9c6126978414"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9c6126978414"
+  }
+ ],
+ "v-0065": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "4912cad12415"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.99,
+   "issues": "4択は一意。reviseとreworkはいずれも「修正する」を表すr始まりの6字。rework the scheduleも自然で、日→英・穴埋めとも一意ではない。",
+   "content_hash": "4912cad12415"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "4912cad12415"
+  }
+ ],
+ "v-0066": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e8b29c9bf76e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e8b29c9bf76e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e8b29c9bf76e"
+  }
+ ],
+ "v-0067": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "細かい点：energy costs は「電気代」より「光熱費・エネルギー費用」が近い（照明の文脈なので許容範囲）",
+   "content_hash": "23223de11f85"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "23223de11f85"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "23223de11f85"
+  }
+ ],
+ "v-0068": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "9413381ea33f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9413381ea33f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9413381ea33f"
+  }
+ ],
+ "v-0069": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "b4f1f86e3b13"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "b4f1f86e3b13"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b4f1f86e3b13"
+  }
+ ],
+ "v-0070": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "51f692b97904"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "51f692b97904"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "51f692b97904"
+  }
+ ],
+ "v-0071": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8f4a167c1ace"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8f4a167c1ace"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8f4a167c1ace"
+  }
+ ],
+ "v-0072": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "c5809b928ed4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "c5809b928ed4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "c5809b928ed4"
+  }
+ ],
+ "v-0073": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "穴埋めの字数は米式のつづり canceled（8文字）に合わせてある。英式の cancelled（9文字）では合わない",
+   "content_hash": "d0d37e783c33"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d0d37e783c33"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d0d37e783c33"
+  }
+ ],
+ "v-0074": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "fb1f7a525cd0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "fb1f7a525cd0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "fb1f7a525cd0"
+  }
+ ],
+ "v-0075": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "76bc31a26e37"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "76bc31a26e37"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "76bc31a26e37"
+  }
+ ],
+ "v-0076": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "f635961c9e8e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "f635961c9e8e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f635961c9e8e"
+  }
+ ],
+ "v-0077": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "5403bd022e36"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.97,
+   "issues": "4択と例文穴埋めは一意。日→英ではentitledも「資格がある・権利がある」を表すe始まりの8字で別解になる。またFull-time employeesは「フルタイム従業員」で、必ずしも「正社員」とは限らない。",
+   "content_hash": "5403bd022e36"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "5403bd022e36"
+  }
+ ],
+ "v-0078": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "d8064be05f84"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d8064be05f84"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d8064be05f84"
+  }
+ ],
+ "v-0079": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "572aa34f7c60"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "572aa34f7c60"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "572aa34f7c60"
+  }
+ ],
+ "v-0080": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "0264a7206d1d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0264a7206d1d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "0264a7206d1d"
+  }
+ ],
+ "v-0081": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "14c8fdf26b0c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.97,
+   "issues": "4択は一意。日→英ではtransientも「一時的な」を表すt始まりの9字で、temporaryに限定できない。",
+   "content_hash": "14c8fdf26b0c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "14c8fdf26b0c"
+  }
+ ],
+ "v-0082": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "c1be940f9a92"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.98,
+   "issues": "4択は一意。pragmaticも「実用的な・実践的な」を表すp始まりの9字。pragmatic adviceも自然で、日→英・穴埋めとも別解が成立する。",
+   "content_hash": "c1be940f9a92"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "c1be940f9a92"
+  }
+ ],
+ "v-0083": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7718ef9c2e25"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7718ef9c2e25"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7718ef9c2e25"
+  }
+ ],
+ "v-0084": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "29ffc14a43e7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.95,
+   "issues": "4択は一意。日→英ではexpansiveにも「広範な」の意味があり、e始まりの9字という条件が一致する。例文のexperienceにはextensiveが自然。",
+   "content_hash": "29ffc14a43e7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "29ffc14a43e7"
+  }
+ ],
+ "v-0085": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "878c171718e3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "878c171718e3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "878c171718e3"
+  }
+ ],
+ "v-0086": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "aadb26104a4b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "aadb26104a4b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "aadb26104a4b"
+  }
+ ],
+ "v-0087": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "7006797c8dde"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.97,
+   "issues": "4択は一意。日→英ではroutineも「通常の」を表すr始まりの7字で別解になる。例文の営業時間にはregularが自然。",
+   "content_hash": "7006797c8dde"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7006797c8dde"
+  }
+ ],
+ "v-0088": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7b13c9a6682c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7b13c9a6682c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7b13c9a6682c"
+  }
+ ],
+ "v-0089": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "57dc9b2c9264"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "57dc9b2c9264"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "57dc9b2c9264"
+  }
+ ],
+ "v-0090": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "68ff5207767b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.95,
+   "issues": "4択は一意。accessibleも価格について「手の届く・手ごろな」を表すa始まりの10字。at accessible pricesも成立するため、日→英・穴埋めとも一意ではない。",
+   "content_hash": "68ff5207767b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "68ff5207767b"
+  }
+ ],
+ "v-0091": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "70e6929d85f9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "70e6929d85f9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "70e6929d85f9"
+  }
+ ],
+ "v-0092": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "a62972a77eee"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "a62972a77eee"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "a62972a77eee"
+  }
+ ],
+ "v-0093": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "33d5204d1cf9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "33d5204d1cf9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "33d5204d1cf9"
+  }
+ ],
+ "v-0094": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "10341f655f57"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "10341f655f57"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "10341f655f57"
+  }
+ ],
+ "v-0095": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e63fa4a19852"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.97,
+   "issues": "4択は一意。日→英ではtransientlyも「一時的に」を表すt始まりの11字で、temporarilyに限定できない。例文にはtemporarilyのほうが一般的。",
+   "content_hash": "e63fa4a19852"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e63fa4a19852"
+  }
+ ],
+ "v-0096": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "efd373c8daac"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.99,
+   "issues": "4択は一意。substantiallyも「大幅に」を表すs始まりの13字。Costs have increased substantially this yearも自然で、日→英・穴埋めとも別解が成立する。",
+   "content_hash": "efd373c8daac"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "日→英の「大幅に → s _ _ _ _ _ _ _ _ _ _ _ _」および例文穴埋め（s始まり13文字）では、substantially（13文字）も意味・文脈ともに当てはまりうる。",
+   "content_hash": "efd373c8daac"
+  }
+ ],
+ "v-0097": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "579b2720f842"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "579b2720f842"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "579b2720f842"
+  }
+ ],
+ "v-0098": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "f04dea832a4d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "f04dea832a4d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f04dea832a4d"
+  }
+ ],
+ "v-0099": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "d34527842c42"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d34527842c42"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d34527842c42"
+  }
+ ],
+ "v-0100": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "934cf0689f6c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "934cf0689f6c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:06:52",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "934cf0689f6c"
   }
  ]
 }
