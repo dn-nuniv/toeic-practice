@@ -3434,8 +3434,13 @@
    "会議室が使えない。",
    "提案内容を変えたい。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "女性が Their flight was canceled と言っている",
+   "見本市に行くのは男性。顧客ではない",
+   "会議室はすでに予約してある",
+   "提案の変更の話は出てこない"
+  ],
+  "point_ja": "会話に出てくる語（trade fair・meeting room）を使った誤答に注意。だれについての話かを聞き分ける。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3510,8 +3515,13 @@
    "マリアはハーロウ・フーズを訪れたことがある。",
    "マリアが昼食を注文する。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "発表の内容をよく知っているので、男性の代わりに発表できると言いたい",
+   "提案書の手直しの話はしていない",
+   "取引先を訪ねた話はしていない",
+   "昼食を注文するのは男性（仕出し業者に電話する）"
+  ],
+  "point_ja": "発言の意図を問う問題は、その発言の前後（男性が木曜に行けない → だから…）の流れで考える。know ～ inside out は「～を知り尽くしている」。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3586,8 +3596,13 @@
    "別の部屋を予約する",
    "顧客に電話する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "シカゴに行くのはもともとの予定で、航空券を取るとは言っていない",
+   "call the caterer（仕出し業者に電話する）の言い換え",
+   "別の部屋の予約の話はしていない",
+   "顧客に電話するとは言っていない"
+  ],
+  "point_ja": "next.action（次に何をするか）は、会話の最後の I'll ～ を聞き取る。正解は言い換えられていることが多い（caterer → catering company）。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3662,8 +3677,13 @@
    "請求書が間違っている。",
    "郵送物がなくなった。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "注文した用紙がまだ届いていない",
+   "プリンターの故障の話はしていない",
+   "請求の誤りの話はしていない",
+   "郵送物（mailing）は水曜にある予定で、なくしたのではない"
+  ],
+  "point_ja": "problem の問題は、たいてい最初の発言で述べられる。hasn't arrived → has not arrived のようにそのまま言い換えることも多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3733,8 +3753,13 @@
   "explanation_ja": "女性は翌日配送（next-day delivery）で送ると言っている。表で Next Day の料金を見ると $25。当日配送は地域内（local only）のみなので対象外。",
   "translation_ja": "図を見てください。2回目の配送に男性は通常いくら払うことになるか。",
   "translation_options_ja": null,
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "標準配達の料金。2箱目は翌日配達で送る",
+   "速達（2〜3日）の料金。勧められたのは翌日配達",
+   "翌日配達の料金。女性が next-day delivery と言っている",
+   "当日配達は地元だけ（local only）。男性は地域外"
+  ],
+  "point_ja": "図表問題は、会話で言われた語（next-day delivery）を図表の中で探し、聞かれている欄（料金）を読む。条件（local only）にも注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3809,8 +3834,13 @@
    "最初の注文を取り消す",
    "元の注文代金を返金する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "見本を送る話はしていない",
+   "I'll waive the fee（料金を免除する）の言い換え",
+   "最初の注文は取り消さない",
+   "返金の話はしていない"
+  ],
+  "point_ja": "waive（免除する）は TOEIC 頻出。offer の問題は女性の I can ～ / I'll ～ を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3885,8 +3915,13 @@
    "運送会社",
    "料理学校"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "電話に Fairview Produce と名乗り、野菜の配達を扱っている",
+   "カフェで働いているのは男性",
+   "トラックで運ぶが、運送会社ではない",
+   "料理学校の話は出てこない"
+  ],
+  "point_ja": "話し手の職業・勤め先は、電話の名乗り（This is ～ from …）や仕事の内容から判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -3994,8 +4029,13 @@
    "カフェがスタッフを募集している理由を説明するため",
    "サービスの遅さに苦情を言うため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "昼食に誘っているのではない",
+   "午後の配達では昼の混雑に間に合わないと伝えている。女性が届け方を変えている",
+   "スタッフの募集の話は出てこない",
+   "サービスの遅さに苦情を言っているのではない"
+  ],
+  "point_ja": "意図の問題は、その発言のあとで相手がどう反応したか（In that case, 1時間以内に届ける）も手がかりになる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4103,8 +4143,13 @@
    "傷んだ野菜の代金を払う",
    "注文品を取りに行く"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "返品の話はしていない",
+   "契約の話はしていない",
+   "今朝届いたトマトの代金は請求しないと言っている",
+   "取りに行くのではなく、配達してもらう"
+  ],
+  "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4212,8 +4257,13 @@
    "メールの規則",
    "ソフトウェア"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "勤務予定の話はしていない",
+   "業者（vendor）は出てくるが、契約の話ではない",
+   "e-mail は不具合が起きる場面として出てくるだけ",
+   "新しいプロジェクト管理ソフトについて話している"
+  ],
+  "point_ja": "main.topic（主な話題）は最初の発言で示されることが多い。途中に出てくる語だけを使った選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4288,8 +4338,13 @@
    "業者がメールに返事をしない。",
    "チームの何人かが締め切りに遅れた。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "モバイル版で何度もログアウトしてしまう（logging out → signed out）",
+   "ファイルが消えた話はしていない",
+   "業者は来週更新を出すと言っており、返事がないわけではない",
+   "締め切りの話はしていない"
+  ],
+  "point_ja": "3人の会話では、2人目が We've had the same issue と同じ問題を繰り返すことがある。複数形（the men）の設問はそこを聞く。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4364,8 +4419,13 @@
    "更新を入れる",
    "ラージのチームと会う"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "業者に連絡するとは言っていない",
+   "I'll send a message to all staff this afternoon と言っている",
+   "更新を入れるのは来週で、業者が出すもの",
+   "ラージのチームと会うとは言っていない"
+  ],
+  "point_ja": "設問の時（this afternoon）が会話の中でそのまま出てくる箇所を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4440,8 +4500,13 @@
    "信号の故障のため",
    "線路の補修工事のため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "天気の話はしていない",
+   "人手不足の話はしていない",
+   "There's a problem with the signals と男性が言っている",
+   "線路の工事の話はしていない"
+  ],
+  "point_ja": "reason の問題は、Because ～ ではなく There's a problem with ～ のような形で答えが出ることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4549,8 +4614,13 @@
    "急行214",
    "普通318"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "運休になった列車",
+   "普通列車は2時間近くかかり、11時に間に合わない",
+   "次の急行。10時5分発で40分で着くので11時に間に合う",
+   "普通列車で、しかも遅れている"
+  ],
+  "point_ja": "図表問題は、会話の条件（次の急行・11時の打ち合わせ）と図表の情報（発車時刻・状況）を組み合わせて1つに絞る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4658,8 +4728,13 @@
    "通りの向かい側",
    "改札を出た所"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "2番線は急行のホームで、飲み物の話ではない",
+   "列車の中で買えるとは言っていない",
+   "通りの向かいとは言っていない",
+   "a café just past the ticket gates と言っている"
+  ],
+  "point_ja": "location の問題は、場所を表す語句（past・next to・across from・on your left）を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4767,8 +4842,13 @@
    "食べ物を多めに注文するよう勧めるため",
    "ピクニックを平日に開くよう提案するため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "150人までのパビリオンに200人は入らないと指摘している",
+   "料金が高いとは言っていない",
+   "食べ物の量の話はしていない",
+   "日程の話はしていない"
+  ],
+  "point_ja": "数字を挙げる発言は、直前の数字（150人まで）と比べて「足りない・多すぎる」を伝えていることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4843,8 +4923,13 @@
    "団体割引がある。",
    "6月は休みだ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "名前の Riverside から連想させるひっかけ。会話では言っていない",
+   "there's plenty of parking と言っている",
+   "団体割引の話はしていない",
+   "6月12日に空いているかを確かめるだけで、休みとは言っていない"
+  ],
+  "point_ja": "固有名詞（Riverside Gardens）から連想させる誤答に注意。会話で実際に言ったことだけを選ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4919,8 +5004,13 @@
    "会場に連絡する",
    "昼食を注文する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "パビリオンの予約は頼まれていない",
+   "営業チームを招く話ではない",
+   "could you call them today? と頼まれている。call → contact、them → 会場",
+   "昼食の注文は頼まれていない"
+  ],
+  "point_ja": "request（頼まれたこと）は Could you ～? / Can you ～? の後を聞き取る。代名詞（them）が何を指すかも確かめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4995,8 +5085,13 @@
    "会場が見つからない。",
    "飛行機が遅れた。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "名札の話はしていない",
+   "セッションは中止になっていない",
+   "会場の場所がわからないのではなく、着くのが遅れる",
+   "my flight was delayed（delayed → late）"
+  ],
+  "point_ja": "problem の問題の正解は、会話の語の言い換え（delayed → late）になっていることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5071,8 +5166,13 @@
    "空港に女性を迎えに行く",
    "女性を講演者に紹介する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "録画されているか受付で聞くと言っている",
+   "一緒に座ろうと誘ったが、席を取っておくとは言っていない",
+   "空港に迎えに行くとは言っていない",
+   "講演者に紹介するとは言っていない"
+  ],
+  "point_ja": "最初の発言（一緒に座ろう）と最後の発言（受付で聞く）のどちらが設問に合うかを確かめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5147,8 +5247,13 @@
    "ソーシャルメディア戦略",
    "ブランドへの愛着の育て方"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "10時の回。女性は昼ごろまで着かない",
+   "11時の回。間に合わないと言っている",
+   "昼食のすぐ後（1時30分）の回。女性が間に合うと言っている",
+   "3時の回で、昼食のすぐ後ではない"
+  ],
+  "point_ja": "図表問題では、図表に書いていない言い方（the one right after lunch）を図表の情報（時刻）に置き換えて考える。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5223,8 +5328,13 @@
    "レッスンに満足していない。",
    "けがをした。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "料金の値上げの話はしていない",
+   "I'm moving to Portland（moving → relocating）",
+   "レッスンへの不満は言っていない",
+   "けがの話はしていない"
+  ],
+  "point_ja": "relocate（引っ越す・移転する）は move の言い換えとして頻出。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5299,8 +5409,13 @@
    "追加の支払いは必要ない。",
    "用紙は必要ない。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "答えがわからないのではない",
+   "Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ",
+   "新しく入会金が要るかへの答えで、続けて Transfers are free と言っている",
+   "用紙への記入は必要だと言っている"
+  ],
+  "point_ja": "Not at all は「まったく～ない」と「（mind への答えで）かまいませんよ」の2つの意味がある。直前の質問の形で決める。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5375,8 +5490,13 @@
    "レッスンに出る",
    "用紙に記入する"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "料金は不要と言われている",
+   "ポートランドの店舗に行くのは引っ越した後",
+   "レッスンに出る話ではない",
+   "ペンを借りて用紙に記入する（fill out → complete）"
+  ],
+  "point_ja": "next.action は会話の最後のやりとり（Do you have a pen? → Here you go）から判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5451,8 +5571,13 @@
    "避難訓練",
    "新しい保安手順"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "事務所の移転の話ではない",
+   "east elevators の点検（maintenance work）の案内",
+   "避難訓練の話ではない",
+   "防犯の手続きの話ではない"
+  ],
+  "point_ja": "アナウンスの主題は最初の1〜2文で示される。This is a reminder that ～ の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5527,8 +5652,13 @@
    "月曜日の午後",
    "火曜日の朝"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "土曜の朝は始まるとき",
+   "土曜の夕方とは言っていない",
+   "continue through Monday afternoon（月曜の午後まで続く）",
+   "火曜の話は出てこない"
+  ],
+  "point_ja": "始まり（begin）と終わり（through・until）を聞き分ける。時を問う問題では、両方が選択肢に入っていることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5603,8 +5733,13 @@
    "駐車スペースを申し込むため",
    "新しい社員証を受け取るため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "問題を報告するためではない",
+   "重い機器を運ぶ人は、業務用エレベーターを予約するために連絡する",
+   "駐車場の話はしていない",
+   "入館証の話はしていない"
+  ],
+  "point_ja": "so that ～（～するように）の後に目的が来る。reason の問題でよく使われる形。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5679,8 +5814,13 @@
    "写真家",
    "配達ドライバー"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "イベントの担当者ではなく、印刷会社の人",
+   "Karen Lee from Brightline Printing と名乗り、パンフレットの校正をしている",
+   "写真家ではない（写真のファイルについて話しているだけ）",
+   "配達の運転手ではない"
+  ],
+  "point_ja": "留守電の話し手は最初の名乗り（this is ～ from …）でわかることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5755,8 +5895,13 @@
    "支払いが遅れている。",
    "文字につづりの誤りがある。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "送られた画像ファイルが小さすぎてぼやけるかもしれない",
+   "納品日は予定どおり（on schedule）",
+   "支払いの話はしていない",
+   "つづりの誤りの話はしていない"
+  ],
+  "point_ja": "too small → may look blurry のように、問題点とその結果がセットで話される。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5831,8 +5976,13 @@
    "パンフレットを受け取りに来る",
    "新しい写真家を選ぶ"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "価格の承認は頼んでいない",
+   "高解像度の画像をメールで送ってほしいと頼んでいる",
+   "パンフレットは配達する",
+   "写真家を選ぶ話ではない"
+  ],
+  "point_ja": "設問の期限（by tomorrow）は、本文の by noon tomorrow のように少し詳しく言われることがある。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5907,8 +6057,13 @@
    "灯台の職員",
    "建設作業員"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "walking tour へようこそ、とガイドが話しているので観光客",
+   "博物館は最後に寄るだけで、職員に話しているのではない",
+   "灯台は見学先",
+   "工事の話はしていない"
+  ],
+  "point_ja": "listener.identity（聞き手はだれか）は、welcome to ～ や your guide などの呼びかけから判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6016,8 +6171,13 @@
    "混雑した通り",
    "早い閉館時間"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "風の話はしていない",
+   "The path is a bit uneven ... watch your step と注意している",
+   "混雑の話はしていない",
+   "閉館時間の話はしていない"
+  ],
+  "point_ja": "warn（注意する）の問題は please watch / be careful / make sure の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6125,8 +6285,13 @@
    "そこでは撮影が制限されそうだと伝えるため",
    "入場料の変更を知らせるため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ツアーの長さの話ではない",
+   "新しい展示を勧めているのではない",
+   "規則が変わり職員が厳しいので、館内での撮影は難しいと遠回しに伝えている",
+   "入場料の話はしていない"
+  ],
+  "point_ja": "意図の問題では、直後の But（でも灯台では撮れる）が前の発言の意味を補うことがある。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6267,8 +6432,13 @@
    "立体駐車場",
    "自動車修理工場"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "レンタカー会社ではない",
+   "ガソリンスタンドではない",
+   "駐車場ではない",
+   "Auto Service と名乗り、車を点検して修理を勧めている"
+  ],
+  "point_ja": "勤め先の問題は、名乗りと仕事の内容（inspect your car・brake pads）の両方から判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6376,8 +6546,13 @@
    "30ドル",
    "25ドル"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ブレーキパッドは「いちばん大事」と言われただけで、金額は変わらない",
+   "オイル交換の金額は変わらない",
+   "タイヤのローテーションの金額は変わらない",
+   "ワイパーブレードは書いてある額より10ドル高い"
+  ],
+  "point_ja": "図表問題では「どの項目の話か」（wiper blades）を聞き取り、図表でその項目の値を選ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6485,8 +6660,13 @@
    "手付金を払う",
    "明日店に来る"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "Please call me back と頼んでいる（call back → return a call）",
+   "6時は閉店時刻で、車を取りに来るようには言っていない",
+   "手付金の話はしていない",
+   "明日来るようには言っていない"
+  ],
+  "point_ja": "return a call（折り返し電話する）は call back の言い換えとして頻出。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6594,8 +6774,13 @@
    "市の選挙",
    "道路工事の計画"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "農業の競技会ではない（農家は店を借りる側）",
+   "新しい公設市場の計画について伝えている",
+   "選挙の話ではない",
+   "道路工事ではなく市場の建設"
+  ],
+  "point_ja": "ニュースの主題は、最初の文の approved plans for ～ の後に来る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6670,8 +6855,13 @@
    "来年の秋",
    "今週末"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "3月は工事が始まる時期",
+   "来週の月曜日は申し込みが始まる日",
+   "the market is expected to open next fall",
+   "今週末は天気予報の話"
+  ],
+  "point_ja": "1つの話に時の表現がいくつも出るときは、何が始まる・終わる時かを区別して聞く。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6746,8 +6936,13 @@
    "スポーツニュース",
    "天気予報"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ホールト氏の話は引用されただけで、インタビューはない",
+   "農場の一覧の話は出てこない",
+   "スポーツニュースの話は出てこない",
+   "Coming up after the break, we'll have the weekend weather forecast"
+  ],
+  "point_ja": "ラジオの最後の Coming up next / after the break の後は、次に流れる内容。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6822,8 +7017,13 @@
    "値下げをした。",
    "新製品が出た。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "東地域で新しい店を2つ開いたから",
+   "人を増やしたのではない（人が減ったのは別の地域）",
+   "値下げの話はしていない",
+   "新製品の話はしていない"
+  ],
+  "point_ja": "since（～なので）の後に理由が来る。since には「～以来」の意味もあるので文脈で区別する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6898,8 +7098,13 @@
    "東",
    "西"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "北は手伝いに行く側のチーム",
+   "南は売上がいちばん低いわけではない",
+   "東はいちばん売上が高い",
+   "売上がいちばん低い地域（70万ドル）で人手が足りない"
+  ],
+  "point_ja": "図表問題では、話し手が図表の言い方（the region with the lowest sales）で指す項目を、数値から探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6974,8 +7179,13 @@
    "売上の報告書を作る",
    "東地域の新店舗を訪ねる"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "採用は人事部に頼んだこと",
+   "北チームに、数週間手伝いに行けるか金曜までに知らせてほしいと頼んでいる",
+   "売上の報告書は頼んでいない",
+   "東地域の店を訪ねるようには言っていない"
+  ],
+  "point_ja": "request の問題は I'd like ～ to … / Please let me know ～ の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7058,8 +7268,13 @@
    "多くの言語で出版されている。",
    "参加者は無料でもらえる。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "来月発売とは言っていない",
+   "時間管理のワークショップで、リーダーシップの本とは言っていない",
+   "has been translated into twelve languages の言い換え",
+   "無料とは言っていない"
+  ],
+  "point_ja": "数字（twelve languages）は many languages のように言い換えられることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7134,8 +7349,13 @@
    "もっと広い部屋に移ることを提案するため",
    "質問を書いて出す理由を説明するため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "席が足りないとは言っていない",
+   "主催者へのお礼ではない",
+   "部屋を移る提案ではない",
+   "人数が多いので、質問は口頭でなくカードに書いてほしいと補っている"
+  ],
+  "point_ja": "意図の問題では、その発言の直前の依頼（カードに書いて）とのつながりを考える。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7210,8 +7430,13 @@
    "軽食",
    "名札"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "copies of her book are available at the back of the room",
+   "質問用のカードはテーブルの上",
+   "軽食の話はしていない",
+   "名札の話はしていない"
+  ],
+  "point_ja": "場所が2つ出てくる（テーブルの上・部屋の後ろ）ときは、何がどこにあるかを組にして覚える。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7286,8 +7511,13 @@
    "1時間",
    "1日中"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "10分とは言っていない",
+   "For the next thirty minutes",
+   "1時間とは言っていない",
+   "1日中ではなく30分間だけ"
+  ],
+  "point_ja": "店内アナウンスの割引は、期間（for the next ～）と割引率（～ percent off）がよく問われる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7362,8 +7592,13 @@
    "地元の農家に会う",
    "新しいレジを使う"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "割引のパンはパン売り場",
+   "fruit juices の試飲ができる（juices → beverages）",
+   "地元の会社の商品だが、農家に会えるわけではない",
+   "新しいレジは日曜に設置する"
+  ],
+  "point_ja": "free samples（無料の試供品）は「試せる（try）」と言い換えられる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7438,8 +7673,13 @@
    "機器を設置するため",
    "床を掃除するため"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "従業員の会議ではない",
+   "祝日の準備ではない",
+   "セルフレジを設置するため（self-checkout machines → equipment）",
+   "床の掃除ではない"
+  ],
+  "point_ja": "具体的な物（self-checkout machines）は equipment・devices のように、まとめた語で言い換えられることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",

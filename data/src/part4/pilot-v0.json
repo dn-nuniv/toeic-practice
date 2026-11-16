@@ -31,7 +31,14 @@
      "answer": "b",
      "explanation_ja": "冒頭の maintenance work on the east elevators から、エレベーターの保守作業についての案内と分かる。",
      "translation_ja": "お知らせは主に何についてか。",
-     "translation_options_ja": ["事務所の移転", "エレベーターの保守", "避難訓練", "新しい保安手順"]
+     "translation_options_ja": ["事務所の移転", "エレベーターの保守", "避難訓練", "新しい保安手順"],
+     "option_notes_ja": [
+      "事務所の移転の話ではない",
+      "east elevators の点検（maintenance work）の案内",
+      "避難訓練の話ではない",
+      "防犯の手続きの話ではない"
+     ],
+     "point_ja": "アナウンスの主題は最初の1〜2文で示される。This is a reminder that ～ の後を聞き取る。"
     },
     {
      "id": "p4-0002",
@@ -44,7 +51,14 @@
      "shuffle": false,
      "explanation_ja": "continue through Monday afternoon（月曜日の午後まで続く）とある。土曜日の午前8時は開始時刻。",
      "translation_ja": "作業はいつ終わるか。",
-     "translation_options_ja": ["土曜日の朝", "土曜日の夕方", "月曜日の午後", "火曜日の朝"]
+     "translation_options_ja": ["土曜日の朝", "土曜日の夕方", "月曜日の午後", "火曜日の朝"],
+     "option_notes_ja": [
+      "土曜の朝は始まるとき",
+      "土曜の夕方とは言っていない",
+      "continue through Monday afternoon（月曜の午後まで続く）",
+      "火曜の話は出てこない"
+     ],
+     "point_ja": "始まり（begin）と終わり（through・until）を聞き分ける。時を問う問題では、両方が選択肢に入っていることが多い。"
     },
     {
      "id": "p4-0003",
@@ -61,7 +75,9 @@
      "answer": "b",
      "explanation_ja": "重い機材を運ぶ人は so that a service elevator can be reserved（業務用エレベーターを予約するために）連絡するよう求められている。",
      "translation_ja": "一部の従業員はなぜ施設管理室に連絡すべきなのか。",
-     "translation_options_ja": ["問題を報告するため", "業務用エレベーターを予約するため", "駐車スペースを申し込むため", "新しい社員証を受け取るため"]
+     "translation_options_ja": ["問題を報告するため", "業務用エレベーターを予約するため", "駐車スペースを申し込むため", "新しい社員証を受け取るため"],
+     "option_notes_ja": ["問題を報告するためではない", "重い機器を運ぶ人は、業務用エレベーターを予約するために連絡する", "駐車場の話はしていない", "入館証の話はしていない"],
+     "point_ja": "so that ～（～するように）の後に目的が来る。reason の問題でよく使われる形。"
     }
    ]
   },
@@ -96,7 +112,14 @@
      "answer": "b",
      "explanation_ja": "this is Karen Lee from Brightline Printing と名乗り、パンフレットの校正の話をしているので印刷会社の社員。",
      "translation_ja": "話し手は誰だと考えられるか。",
-     "translation_options_ja": ["イベントの企画者", "印刷会社の社員", "写真家", "配達ドライバー"]
+     "translation_options_ja": ["イベントの企画者", "印刷会社の社員", "写真家", "配達ドライバー"],
+     "option_notes_ja": [
+      "イベントの担当者ではなく、印刷会社の人",
+      "Karen Lee from Brightline Printing と名乗り、パンフレットの校正をしている",
+      "写真家ではない（写真のファイルについて話しているだけ）",
+      "配達の運転手ではない"
+     ],
+     "point_ja": "留守電の話し手は最初の名乗り（this is ～ from …）でわかることが多い。"
     },
     {
      "id": "p4-0005",
@@ -113,7 +136,14 @@
      "answer": "a",
      "explanation_ja": "The image file you sent is a little too small とある。納品日は予定どおりなので (B) は誤り。",
      "translation_ja": "話し手はどんな問題を述べているか。",
-     "translation_options_ja": ["画像ファイルが小さすぎる。", "配達日が変わった。", "支払いが遅れている。", "文字につづりの誤りがある。"]
+     "translation_options_ja": ["画像ファイルが小さすぎる。", "配達日が変わった。", "支払いが遅れている。", "文字につづりの誤りがある。"],
+     "option_notes_ja": [
+      "送られた画像ファイルが小さすぎてぼやけるかもしれない",
+      "納品日は予定どおり（on schedule）",
+      "支払いの話はしていない",
+      "つづりの誤りの話はしていない"
+     ],
+     "point_ja": "too small → may look blurry のように、問題点とその結果がセットで話される。"
     },
     {
      "id": "p4-0006",
@@ -125,7 +155,9 @@
      "answer": "b",
      "explanation_ja": "could you e-mail it to me by noon tomorrow と、高解像度の画像を送るよう頼んでいる。",
      "translation_ja": "話し手は聞き手に明日までに何をするよう頼んでいるか。",
-     "translation_options_ja": ["価格を承認する", "ファイルを送る", "パンフレットを受け取りに来る", "新しい写真家を選ぶ"]
+     "translation_options_ja": ["価格を承認する", "ファイルを送る", "パンフレットを受け取りに来る", "新しい写真家を選ぶ"],
+     "option_notes_ja": ["価格の承認は頼んでいない", "高解像度の画像をメールで送ってほしいと頼んでいる", "パンフレットは配達する", "写真家を選ぶ話ではない"],
+     "point_ja": "設問の期限（by tomorrow）は、本文の by noon tomorrow のように少し詳しく言われることがある。"
     }
    ]
   }

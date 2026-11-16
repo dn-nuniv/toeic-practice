@@ -40,7 +40,14 @@
      "answer": "a",
      "explanation_ja": "女性は電話に Fairview Produce と名乗って出ており、野菜の配達や代わりの品の手配をしている。カフェで働いているのは男性。",
      "translation_ja": "女性はどこで働いていると考えられるか。",
-     "translation_options_ja": ["青果の卸業者", "カフェ", "運送会社", "料理学校"]
+     "translation_options_ja": ["青果の卸業者", "カフェ", "運送会社", "料理学校"],
+     "option_notes_ja": [
+      "電話に Fairview Produce と名乗り、野菜の配達を扱っている",
+      "カフェで働いているのは男性",
+      "トラックで運ぶが、運送会社ではない",
+      "料理学校の話は出てこない"
+     ],
+     "point_ja": "話し手の職業・勤め先は、電話の名乗り（This is ～ from …）や仕事の内容から判断する。"
     },
     {
      "id": "p3-0008",
@@ -62,7 +69,14 @@
       "午後の配達では遅すぎると伝えるため",
       "カフェがスタッフを募集している理由を説明するため",
       "サービスの遅さに苦情を言うため"
-     ]
+     ],
+     "option_notes_ja": [
+      "昼食に誘っているのではない",
+      "午後の配達では昼の混雑に間に合わないと伝えている。女性が届け方を変えている",
+      "スタッフの募集の話は出てこない",
+      "サービスの遅さに苦情を言っているのではない"
+     ],
+     "point_ja": "意図の問題は、その発言のあとで相手がどう反応したか（In that case, 1時間以内に届ける）も手がかりになる。"
     },
     {
      "id": "p3-0009",
@@ -79,7 +93,9 @@
      "answer": "c",
      "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品や受け取りには触れていない。",
      "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
-     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "傷んだ野菜の代金を払う", "注文品を取りに行く"]
+     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "傷んだ野菜の代金を払う", "注文品を取りに行く"],
+     "option_notes_ja": ["返品の話はしていない", "契約の話はしていない", "今朝届いたトマトの代金は請求しないと言っている", "取りに行くのではなく、配達してもらう"],
+     "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。"
     }
    ]
   },
@@ -127,7 +143,14 @@
      "answer": "d",
      "explanation_ja": "冒頭で the new project-tracking software is working for your teams と尋ね、その不具合と対処を話している。e-mail は不具合が起きる場面として出てくるだけ。",
      "translation_ja": "話し手たちは主に何について話しているか。",
-     "translation_options_ja": ["社員の勤務予定", "業者との契約", "メールの規則", "ソフトウェア"]
+     "translation_options_ja": ["社員の勤務予定", "業者との契約", "メールの規則", "ソフトウェア"],
+     "option_notes_ja": [
+      "勤務予定の話はしていない",
+      "業者（vendor）は出てくるが、契約の話ではない",
+      "e-mail は不具合が起きる場面として出てくるだけ",
+      "新しいプロジェクト管理ソフトについて話している"
+     ],
+     "point_ja": "main.topic（主な話題）は最初の発言で示されることが多い。途中に出てくる語だけを使った選択肢に注意。"
     },
     {
      "id": "p3-0011",
@@ -149,7 +172,14 @@
       "いくつかのファイルが消えた。",
       "業者がメールに返事をしない。",
       "チームの何人かが締め切りに遅れた。"
-     ]
+     ],
+     "option_notes_ja": [
+      "モバイル版で何度もログアウトしてしまう（logging out → signed out）",
+      "ファイルが消えた話はしていない",
+      "業者は来週更新を出すと言っており、返事がないわけではない",
+      "締め切りの話はしていない"
+     ],
+     "point_ja": "3人の会話では、2人目が We've had the same issue と同じ問題を繰り返すことがある。複数形（the men）の設問はそこを聞く。"
     },
     {
      "id": "p3-0012",
@@ -166,7 +196,14 @@
      "answer": "b",
      "explanation_ja": "I'll send a message to all staff this afternoon とある。更新は来週業者が出すもの。",
      "translation_ja": "女性は今日の午後に何をするか。",
-     "translation_options_ja": ["業者に連絡する", "社員にメッセージを送る", "更新を入れる", "ラージのチームと会う"]
+     "translation_options_ja": ["業者に連絡する", "社員にメッセージを送る", "更新を入れる", "ラージのチームと会う"],
+     "option_notes_ja": [
+      "業者に連絡するとは言っていない",
+      "I'll send a message to all staff this afternoon と言っている",
+      "更新を入れるのは来週で、業者が出すもの",
+      "ラージのチームと会うとは言っていない"
+     ],
+     "point_ja": "設問の時（this afternoon）が会話の中でそのまま出てくる箇所を聞き取る。"
     }
    ]
   },
@@ -222,7 +259,14 @@
      "answer": "c",
      "explanation_ja": "男性が There's a problem with the signals on that line と言っている。",
      "translation_ja": "女性が乗る予定だった列車はなぜ運休になったのか。",
-     "translation_options_ja": ["悪天候のため", "人手不足のため", "信号の故障のため", "線路の補修工事のため"]
+     "translation_options_ja": ["悪天候のため", "人手不足のため", "信号の故障のため", "線路の補修工事のため"],
+     "option_notes_ja": [
+      "天気の話はしていない",
+      "人手不足の話はしていない",
+      "There's a problem with the signals と男性が言っている",
+      "線路の工事の話はしていない"
+     ],
+     "point_ja": "reason の問題は、Because ～ ではなく There's a problem with ～ のような形で答えが出ることが多い。"
     },
     {
      "id": "p3-0014",
@@ -235,7 +279,14 @@
      "shuffle": false,
      "explanation_ja": "男性が勧めたのは the next express（次の急行）で、女性も I'll take that one と答えている。9時15分の急行210は運休なので、次の急行は10時5分の急行214。40分で着くので11時の打ち合わせにも間に合う。普通列車は2時間近くかかるので9時40分発でも間に合わない。",
      "translation_ja": "図を見よ。女性はどの列車に乗ると考えられるか。",
-     "translation_options_ja": ["急行210", "普通312", "急行214", "普通318"]
+     "translation_options_ja": ["急行210", "普通312", "急行214", "普通318"],
+     "option_notes_ja": [
+      "運休になった列車",
+      "普通列車は2時間近くかかり、11時に間に合わない",
+      "次の急行。10時5分発で40分で着くので11時に間に合う",
+      "普通列車で、しかも遅れている"
+     ],
+     "point_ja": "図表問題は、会話の条件（次の急行・11時の打ち合わせ）と図表の情報（発車時刻・状況）を組み合わせて1つに絞る。"
     },
     {
      "id": "p3-0015",
@@ -247,7 +298,14 @@
      "answer": "d",
      "explanation_ja": "There's a café just past the ticket gates, on your left とある。coffee を a drink と言い換えている。",
      "translation_ja": "男性によると、女性はどこで飲み物を買えるか。",
-     "translation_options_ja": ["2番線のホーム", "列車の中", "通りの向かい側", "改札を出た所"]
+     "translation_options_ja": ["2番線のホーム", "列車の中", "通りの向かい側", "改札を出た所"],
+     "option_notes_ja": [
+      "2番線は急行のホームで、飲み物の話ではない",
+      "列車の中で買えるとは言っていない",
+      "通りの向かいとは言っていない",
+      "a café just past the ticket gates と言っている"
+     ],
+     "point_ja": "location の問題は、場所を表す語句（past・next to・across from・on your left）を聞き取る。"
     }
    ]
   },
@@ -302,7 +360,9 @@
      "answer": "a",
      "explanation_ja": "直前に男性が「パビリオンは150人まで」と言っており、200人来るなら入りきらないと指摘している。男性も「新しい営業チームを忘れていた」と認めている。",
      "translation_ja": "女性の1人はなぜ「でも、今年は200人くらいの社員が来る見込みよ」と言っているのか。",
-     "translation_options_ja": ["場所が狭すぎると指摘するため", "料金が高すぎると言うため", "食べ物を多めに注文するよう勧めるため", "ピクニックを平日に開くよう提案するため"]
+     "translation_options_ja": ["場所が狭すぎると指摘するため", "料金が高すぎると言うため", "食べ物を多めに注文するよう勧めるため", "ピクニックを平日に開くよう提案するため"],
+     "option_notes_ja": ["150人までのパビリオンに200人は入らないと指摘している", "料金が高いとは言っていない", "食べ物の量の話はしていない", "日程の話はしていない"],
+     "point_ja": "数字を挙げる発言は、直前の数字（150人まで）と比べて「足りない・多すぎる」を伝えていることが多い。"
     },
     {
      "id": "p3-0017",
@@ -319,7 +379,14 @@
      "answer": "b",
      "explanation_ja": "there's plenty of parking とある。名前の Riverside から「川のそば」を連想させるひっかけで、会話では述べていない。",
      "translation_ja": "女性の1人はリバーサイド・ガーデンズについて何と言っているか。",
-     "translation_options_ja": ["川のそばにある。", "駐車場がたくさんある。", "団体割引がある。", "6月は休みだ。"]
+     "translation_options_ja": ["川のそばにある。", "駐車場がたくさんある。", "団体割引がある。", "6月は休みだ。"],
+     "option_notes_ja": [
+      "名前の Riverside から連想させるひっかけ。会話では言っていない",
+      "there's plenty of parking と言っている",
+      "団体割引の話はしていない",
+      "6月12日に空いているかを確かめるだけで、休みとは言っていない"
+     ],
+     "point_ja": "固有名詞（Riverside Gardens）から連想させる誤答に注意。会話で実際に言ったことだけを選ぶ。"
     },
     {
      "id": "p3-0018",
@@ -331,7 +398,14 @@
      "answer": "c",
      "explanation_ja": "Hiroshi, could you call them today? とあり、them はリバーサイド・ガーデンズ。call を contact と言い換えている。",
      "translation_ja": "男性は何をするよう頼まれているか。",
-     "translation_options_ja": ["パビリオンを予約する", "営業チームを招く", "会場に連絡する", "昼食を注文する"]
+     "translation_options_ja": ["パビリオンを予約する", "営業チームを招く", "会場に連絡する", "昼食を注文する"],
+     "option_notes_ja": [
+      "パビリオンの予約は頼まれていない",
+      "営業チームを招く話ではない",
+      "could you call them today? と頼まれている。call → contact、them → 会場",
+      "昼食の注文は頼まれていない"
+     ],
+     "point_ja": "request（頼まれたこと）は Could you ～? / Can you ～? の後を聞き取る。代名詞（them）が何を指すかも確かめる。"
     }
    ]
   },
@@ -381,7 +455,14 @@
      "answer": "d",
      "explanation_ja": "my flight was delayed this morning とあり、delayed を late と言い換えている。",
      "translation_ja": "女性はどんな問題を伝えているか。",
-     "translation_options_ja": ["名札をなくした。", "セッションが中止になった。", "会場が見つからない。", "飛行機が遅れた。"]
+     "translation_options_ja": ["名札をなくした。", "セッションが中止になった。", "会場が見つからない。", "飛行機が遅れた。"],
+     "option_notes_ja": [
+      "名札の話はしていない",
+      "セッションは中止になっていない",
+      "会場の場所がわからないのではなく、着くのが遅れる",
+      "my flight was delayed（delayed → late）"
+     ],
+     "point_ja": "problem の問題の正解は、会話の語の言い換え（delayed → late）になっていることが多い。"
     },
     {
      "id": "p3-0020",
@@ -398,7 +479,14 @@
      "answer": "a",
      "explanation_ja": "録画されているかと聞かれ、I'll ask at the registration desk と答えている。一緒に座ろうと誘ったが、席を取っておくとは言っていない。",
      "translation_ja": "男性は何をすると言っているか。",
-     "translation_options_ja": ["録画について尋ねる", "女性の席を取っておく", "空港に女性を迎えに行く", "女性を講演者に紹介する"]
+     "translation_options_ja": ["録画について尋ねる", "女性の席を取っておく", "空港に女性を迎えに行く", "女性を講演者に紹介する"],
+     "option_notes_ja": [
+      "録画されているか受付で聞くと言っている",
+      "一緒に座ろうと誘ったが、席を取っておくとは言っていない",
+      "空港に迎えに行くとは言っていない",
+      "講演者に紹介するとは言っていない"
+     ],
+     "point_ja": "最初の発言（一緒に座ろう）と最後の発言（受付で聞く）のどちらが設問に合うかを確かめる。"
     },
     {
      "id": "p3-0021",
@@ -416,7 +504,14 @@
      "shuffle": false,
      "explanation_ja": "女性は昼ごろ会場に着き、the one right after lunch（昼食のすぐ後の回）には間に合うと言っている。図で昼食の後の最初の回は1時30分のソーシャルメディア戦略。",
      "translation_ja": "図を見よ。女性が最初に出るのはどのセッションだと考えられるか。",
-     "translation_options_ja": ["デジタルマーケティングの動向", "顧客データのプライバシー", "ソーシャルメディア戦略", "ブランドへの愛着の育て方"]
+     "translation_options_ja": ["デジタルマーケティングの動向", "顧客データのプライバシー", "ソーシャルメディア戦略", "ブランドへの愛着の育て方"],
+     "option_notes_ja": [
+      "10時の回。女性は昼ごろまで着かない",
+      "11時の回。間に合わないと言っている",
+      "昼食のすぐ後（1時30分）の回。女性が間に合うと言っている",
+      "3時の回で、昼食のすぐ後ではない"
+     ],
+     "point_ja": "図表問題では、図表に書いていない言い方（the one right after lunch）を図表の情報（時刻）に置き換えて考える。"
     }
    ]
   },
@@ -459,7 +554,14 @@
      "answer": "b",
      "explanation_ja": "I'm moving to Portland at the end of the month とあり、moving を relocating と言い換えている。",
      "translation_ja": "女性はなぜ会員をやめたいのか。",
-     "translation_options_ja": ["料金が上がった。", "引っ越す。", "レッスンに満足していない。", "けがをした。"]
+     "translation_options_ja": ["料金が上がった。", "引っ越す。", "レッスンに満足していない。", "けがをした。"],
+     "option_notes_ja": [
+      "料金の値上げの話はしていない",
+      "I'm moving to Portland（moving → relocating）",
+      "レッスンへの不満は言っていない",
+      "けがの話はしていない"
+     ],
+     "point_ja": "relocate（引っ越す・移転する）は move の言い換えとして頻出。"
     },
     {
      "id": "p3-0023",
@@ -476,7 +578,14 @@
      "answer": "c",
      "explanation_ja": "「新しく入会金を払う必要があるか」という質問への答えで、すぐ後に Transfers are free と続く。Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ。用紙への記入は必要。",
      "translation_ja": "男性が「Not at all」と言っているのはどういう意味か。",
-     "translation_options_ja": ["答えがわからない。", "喜んで女性を手伝う。", "追加の支払いは必要ない。", "用紙は必要ない。"]
+     "translation_options_ja": ["答えがわからない。", "喜んで女性を手伝う。", "追加の支払いは必要ない。", "用紙は必要ない。"],
+     "option_notes_ja": [
+      "答えがわからないのではない",
+      "Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ",
+      "新しく入会金が要るかへの答えで、続けて Transfers are free と言っている",
+      "用紙への記入は必要だと言っている"
+     ],
+     "point_ja": "Not at all は「まったく～ない」と「（mind への答えで）かまいませんよ」の2つの意味がある。直前の質問の形で決める。"
     },
     {
      "id": "p3-0024",
@@ -488,7 +597,14 @@
      "answer": "d",
      "explanation_ja": "男性に I just need you to fill out this form と言われ、女性はペンを借りている。fill out を complete と言い換えている。",
      "translation_ja": "女性は次に何をすると考えられるか。",
-     "translation_options_ja": ["料金を払う", "ポートランド店に行く", "レッスンに出る", "用紙に記入する"]
+     "translation_options_ja": ["料金を払う", "ポートランド店に行く", "レッスンに出る", "用紙に記入する"],
+     "option_notes_ja": [
+      "料金は不要と言われている",
+      "ポートランドの店舗に行くのは引っ越した後",
+      "レッスンに出る話ではない",
+      "ペンを借りて用紙に記入する（fill out → complete）"
+     ],
+     "point_ja": "next.action は会話の最後のやりとり（Do you have a pen? → Here you go）から判断する。"
     }
    ]
   }

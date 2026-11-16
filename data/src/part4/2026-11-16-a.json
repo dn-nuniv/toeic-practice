@@ -38,7 +38,14 @@
      "answer": "a",
      "explanation_ja": "welcome to the ... walking tour、I'll be your guide とあり、ツアーの参加者に話している。",
      "translation_ja": "聞き手は誰だと考えられるか。",
-     "translation_options_ja": ["観光客", "博物館の職員", "灯台の職員", "建設作業員"]
+     "translation_options_ja": ["観光客", "博物館の職員", "灯台の職員", "建設作業員"],
+     "option_notes_ja": [
+      "walking tour へようこそ、とガイドが話しているので観光客",
+      "博物館は最後に寄るだけで、職員に話しているのではない",
+      "灯台は見学先",
+      "工事の話はしていない"
+     ],
+     "point_ja": "listener.identity（聞き手はだれか）は、welcome to ～ や your guide などの呼びかけから判断する。"
     },
     {
      "id": "p4-0008",
@@ -50,7 +57,14 @@
      "answer": "b",
      "explanation_ja": "The path is a bit uneven in some places, so please watch your step とある。",
      "translation_ja": "話し手は聞き手に何について注意しているか。",
-     "translation_options_ja": ["強い風", "でこぼこした道", "混雑した通り", "早い閉館時間"]
+     "translation_options_ja": ["強い風", "でこぼこした道", "混雑した通り", "早い閉館時間"],
+     "option_notes_ja": [
+      "風の話はしていない",
+      "The path is a bit uneven ... watch your step と注意している",
+      "混雑の話はしていない",
+      "閉館時間の話はしていない"
+     ],
+     "point_ja": "warn（注意する）の問題は please watch / be careful / make sure の後を聞き取る。"
     },
     {
      "id": "p4-0009",
@@ -67,7 +81,14 @@
      "answer": "c",
      "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館の中では撮影が制限されそうだと遠回しに伝えている。",
      "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
-     "translation_options_ja": ["ツアーが短くなった理由を説明するため", "新しい展示を勧めるため", "そこでは撮影が制限されそうだと伝えるため", "入場料の変更を知らせるため"]
+     "translation_options_ja": ["ツアーが短くなった理由を説明するため", "新しい展示を勧めるため", "そこでは撮影が制限されそうだと伝えるため", "入場料の変更を知らせるため"],
+     "option_notes_ja": [
+      "ツアーの長さの話ではない",
+      "新しい展示を勧めているのではない",
+      "規則が変わり職員が厳しいので、館内での撮影は難しいと遠回しに伝えている",
+      "入場料の話はしていない"
+     ],
+     "point_ja": "意図の問題では、直後の But（でも灯台では撮れる）が前の発言の意味を補うことがある。"
     }
    ]
   },
@@ -111,7 +132,9 @@
      "answer": "d",
      "explanation_ja": "Glenwood Auto Service と名乗り、車の点検をしてブレーキパッドの交換などを勧めている。",
      "translation_ja": "話し手はどこで働いていると考えられるか。",
-     "translation_options_ja": ["レンタカー会社", "ガソリンスタンド", "立体駐車場", "自動車修理工場"]
+     "translation_options_ja": ["レンタカー会社", "ガソリンスタンド", "立体駐車場", "自動車修理工場"],
+     "option_notes_ja": ["レンタカー会社ではない", "ガソリンスタンドではない", "駐車場ではない", "Auto Service と名乗り、車を点検して修理を勧めている"],
+     "point_ja": "勤め先の問題は、名乗りと仕事の内容（inspect your car・brake pads）の両方から判断する。"
     },
     {
      "id": "p4-0011",
@@ -124,7 +147,14 @@
      "shuffle": false,
      "explanation_ja": "The wiper blades are actually ten dollars more than what's listed とある。図でワイパーブレードは25ドル（実際は35ドル）。ブレーキパッドは「いちばん大事」と言われているだけで金額の変更ではない。",
      "translation_ja": "図を見よ。どの金額が変わると考えられるか。",
-     "translation_options_ja": ["180ドル", "45ドル", "30ドル", "25ドル"]
+     "translation_options_ja": ["180ドル", "45ドル", "30ドル", "25ドル"],
+     "option_notes_ja": [
+      "ブレーキパッドは「いちばん大事」と言われただけで、金額は変わらない",
+      "オイル交換の金額は変わらない",
+      "タイヤのローテーションの金額は変わらない",
+      "ワイパーブレードは書いてある額より10ドル高い"
+     ],
+     "point_ja": "図表問題では「どの項目の話か」（wiper blades）を聞き取り、図表でその項目の値を選ぶ。"
     },
     {
      "id": "p4-0012",
@@ -136,7 +166,14 @@
      "answer": "a",
      "explanation_ja": "Please call me back ... to let us know what you'd like us to do とある。6時は閉店時刻を伝えているだけで、車を取りに来るようには言っていない。",
      "translation_ja": "話し手は聞き手に何をするよう頼んでいるか。",
-     "translation_options_ja": ["折り返し電話する", "6時までに車を取りに来る", "手付金を払う", "明日店に来る"]
+     "translation_options_ja": ["折り返し電話する", "6時までに車を取りに来る", "手付金を払う", "明日店に来る"],
+     "option_notes_ja": [
+      "Please call me back と頼んでいる（call back → return a call）",
+      "6時は閉店時刻で、車を取りに来るようには言っていない",
+      "手付金の話はしていない",
+      "明日来るようには言っていない"
+     ],
+     "point_ja": "return a call（折り返し電話する）は call back の言い換えとして頻出。"
     }
    ]
   },
@@ -177,7 +214,9 @@
      "answer": "b",
      "explanation_ja": "the Delmont City Council approved plans yesterday for a new public market とあり、その市場の内容と予定を伝えている。",
      "translation_ja": "この放送は主に何についてのものか。",
-     "translation_options_ja": ["農業の競技会", "計画中の市場", "市の選挙", "道路工事の計画"]
+     "translation_options_ja": ["農業の競技会", "計画中の市場", "市の選挙", "道路工事の計画"],
+     "option_notes_ja": ["農業の競技会ではない（農家は店を借りる側）", "新しい公設市場の計画について伝えている", "選挙の話ではない", "道路工事ではなく市場の建設"],
+     "point_ja": "ニュースの主題は、最初の文の approved plans for ～ の後に来る。"
     },
     {
      "id": "p4-0014",
@@ -189,7 +228,14 @@
      "answer": "c",
      "explanation_ja": "the market is expected to open next fall とある。3月は工事が始まる時期、来週の月曜日は申し込みが始まる日。",
      "translation_ja": "話し手によると、市場はいつ開くか。",
-     "translation_options_ja": ["3月", "来週の月曜日", "来年の秋", "今週末"]
+     "translation_options_ja": ["3月", "来週の月曜日", "来年の秋", "今週末"],
+     "option_notes_ja": [
+      "3月は工事が始まる時期",
+      "来週の月曜日は申し込みが始まる日",
+      "the market is expected to open next fall",
+      "今週末は天気予報の話"
+     ],
+     "point_ja": "1つの話に時の表現がいくつも出るときは、何が始まる・終わる時かを区別して聞く。"
     },
     {
      "id": "p4-0015",
@@ -201,7 +247,14 @@
      "answer": "d",
      "explanation_ja": "Coming up after the break, we'll have the weekend weather forecast とある。",
      "translation_ja": "聞き手は休憩の後に何を聞くか。",
-     "translation_options_ja": ["ホールト氏へのインタビュー", "地元の農場の一覧", "スポーツニュース", "天気予報"]
+     "translation_options_ja": ["ホールト氏へのインタビュー", "地元の農場の一覧", "スポーツニュース", "天気予報"],
+     "option_notes_ja": [
+      "ホールト氏の話は引用されただけで、インタビューはない",
+      "農場の一覧の話は出てこない",
+      "スポーツニュースの話は出てこない",
+      "Coming up after the break, we'll have the weekend weather forecast"
+     ],
+     "point_ja": "ラジオの最後の Coming up next / after the break の後は、次に流れる内容。"
     }
    ]
   },
@@ -251,7 +304,9 @@
      "answer": "a",
      "explanation_ja": "since that's where we opened two new stores とある。",
      "translation_ja": "話し手によると、東地域はなぜ業績が良かったのか。",
-     "translation_options_ja": ["そこで新しい店が開いた。", "人員を増やした。", "値下げをした。", "新製品が出た。"]
+     "translation_options_ja": ["そこで新しい店が開いた。", "人員を増やした。", "値下げをした。", "新製品が出た。"],
+     "option_notes_ja": ["東地域で新しい店を2つ開いたから", "人を増やしたのではない（人が減ったのは別の地域）", "値下げの話はしていない", "新製品の話はしていない"],
+     "point_ja": "since（～なので）の後に理由が来る。since には「～以来」の意味もあるので文脈で区別する。"
     },
     {
      "id": "p4-0017",
@@ -264,7 +319,9 @@
      "shuffle": false,
      "explanation_ja": "人手が足りないのは the region with the lowest sales（売上がいちばん低い地域）で、図では70万ドルの西。北チームは手伝いに行く側。",
      "translation_ja": "図を見よ。話し手が人手が必要だと言っているのはどの地域か。",
-     "translation_options_ja": ["北", "南", "東", "西"]
+     "translation_options_ja": ["北", "南", "東", "西"],
+     "option_notes_ja": ["北は手伝いに行く側のチーム", "南は売上がいちばん低いわけではない", "東はいちばん売上が高い", "売上がいちばん低い地域（70万ドル）で人手が足りない"],
+     "point_ja": "図表問題では、話し手が図表の言い方（the region with the lowest sales）で指す項目を、数値から探す。"
     },
     {
      "id": "p4-0018",
@@ -281,7 +338,14 @@
      "answer": "b",
      "explanation_ja": "北チームの何人かに数週間手伝いに行ってほしいと言い、Please let me know by Friday if you're available と頼んでいる。採用は人事部に頼んだこと。",
      "translation_ja": "話し手は聞き手の一部に何をするよう頼んでいるか。",
-     "translation_options_ja": ["採用の候補者を面接する", "ほかの地域で働けるかを知らせる", "売上の報告書を作る", "東地域の新店舗を訪ねる"]
+     "translation_options_ja": ["採用の候補者を面接する", "ほかの地域で働けるかを知らせる", "売上の報告書を作る", "東地域の新店舗を訪ねる"],
+     "option_notes_ja": [
+      "採用は人事部に頼んだこと",
+      "北チームに、数週間手伝いに行けるか金曜までに知らせてほしいと頼んでいる",
+      "売上の報告書は頼んでいない",
+      "東地域の店を訪ねるようには言っていない"
+     ],
+     "point_ja": "request の問題は I'd like ～ to … / Please let me know ～ の後を聞き取る。"
     }
    ]
   },
@@ -325,7 +389,14 @@
      "answer": "c",
      "explanation_ja": "has been translated into twelve languages とあり、これを published in many languages と言い換えている。",
      "translation_ja": "話し手はレイエス博士の本について何と言っているか。",
-     "translation_options_ja": ["来月発売される。", "主にリーダーシップについての本だ。", "多くの言語で出版されている。", "参加者は無料でもらえる。"]
+     "translation_options_ja": ["来月発売される。", "主にリーダーシップについての本だ。", "多くの言語で出版されている。", "参加者は無料でもらえる。"],
+     "option_notes_ja": [
+      "来月発売とは言っていない",
+      "時間管理のワークショップで、リーダーシップの本とは言っていない",
+      "has been translated into twelve languages の言い換え",
+      "無料とは言っていない"
+     ],
+     "point_ja": "数字（twelve languages）は many languages のように言い換えられることが多い。"
     },
     {
      "id": "p4-0020",
@@ -342,7 +413,9 @@
      "answer": "d",
      "explanation_ja": "直前で「質問はカードに書いて」と頼んでおり、人数が多いので口頭で質問を受けるのは難しい、という理由を補っている。",
      "translation_ja": "話し手はなぜ「今日はたくさんの方がいらしています」と言っているのか。",
-     "translation_options_ja": ["席が足りないことをわびるため", "主催者に感謝するため", "もっと広い部屋に移ることを提案するため", "質問を書いて出す理由を説明するため"]
+     "translation_options_ja": ["席が足りないことをわびるため", "主催者に感謝するため", "もっと広い部屋に移ることを提案するため", "質問を書いて出す理由を説明するため"],
+     "option_notes_ja": ["席が足りないとは言っていない", "主催者へのお礼ではない", "部屋を移る提案ではない", "人数が多いので、質問は口頭でなくカードに書いてほしいと補っている"],
+     "point_ja": "意図の問題では、その発言の直前の依頼（カードに書いて）とのつながりを考える。"
     },
     {
      "id": "p4-0021",
@@ -354,7 +427,14 @@
      "answer": "a",
      "explanation_ja": "copies of her book are available at the back of the room とある。質問用のカードはテーブルの上にある。",
      "translation_ja": "部屋の後ろには何があるか。",
-     "translation_options_ja": ["本", "質問用のカード", "軽食", "名札"]
+     "translation_options_ja": ["本", "質問用のカード", "軽食", "名札"],
+     "option_notes_ja": [
+      "copies of her book are available at the back of the room",
+      "質問用のカードはテーブルの上",
+      "軽食の話はしていない",
+      "名札の話はしていない"
+     ],
+     "point_ja": "場所が2つ出てくる（テーブルの上・部屋の後ろ）ときは、何がどこにあるかを組にして覚える。"
     }
    ]
   },
@@ -390,7 +470,9 @@
      "shuffle": false,
      "explanation_ja": "For the next thirty minutes, all bakery items are twenty percent off とある。",
      "translation_ja": "パン売り場の割引はどのくらい続くか。",
-     "translation_options_ja": ["10分間", "30分間", "1時間", "1日中"]
+     "translation_options_ja": ["10分間", "30分間", "1時間", "1日中"],
+     "option_notes_ja": ["10分とは言っていない", "For the next thirty minutes", "1時間とは言っていない", "1日中ではなく30分間だけ"],
+     "point_ja": "店内アナウンスの割引は、期間（for the next ～）と割引率（～ percent off）がよく問われる。"
     },
     {
      "id": "p4-0023",
@@ -407,7 +489,14 @@
      "answer": "b",
      "explanation_ja": "aisle seven, where our staff are offering free samples of ... fruit juices とあり、試飲できる。fruit juices を beverages と言い換えている。",
      "translation_ja": "買い物客は7番通路で何ができるか。",
-     "translation_options_ja": ["割引のパンを買う", "飲み物を試す", "地元の農家に会う", "新しいレジを使う"]
+     "translation_options_ja": ["割引のパンを買う", "飲み物を試す", "地元の農家に会う", "新しいレジを使う"],
+     "option_notes_ja": [
+      "割引のパンはパン売り場",
+      "fruit juices の試飲ができる（juices → beverages）",
+      "地元の会社の商品だが、農家に会えるわけではない",
+      "新しいレジは日曜に設置する"
+     ],
+     "point_ja": "free samples（無料の試供品）は「試せる（try）」と言い換えられる。"
     },
     {
      "id": "p4-0024",
@@ -424,7 +513,14 @@
      "answer": "c",
      "explanation_ja": "so that we can install new self-checkout machines とあり、セルフレジを equipment と言い換えている。",
      "translation_ja": "店はなぜ日曜日に早く閉まるのか。",
-     "translation_options_ja": ["従業員の会議を開くため", "祝日の準備をするため", "機器を設置するため", "床を掃除するため"]
+     "translation_options_ja": ["従業員の会議を開くため", "祝日の準備をするため", "機器を設置するため", "床を掃除するため"],
+     "option_notes_ja": [
+      "従業員の会議ではない",
+      "祝日の準備ではない",
+      "セルフレジを設置するため（self-checkout machines → equipment）",
+      "床の掃除ではない"
+     ],
+     "point_ja": "具体的な物（self-checkout machines）は equipment・devices のように、まとめた語で言い換えられることが多い。"
     }
    ]
   }
