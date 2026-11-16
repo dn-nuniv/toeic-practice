@@ -95,8 +95,9 @@
     bindSpeak(main);
   }
   function bindSpeak(root) {
+    // 英語の種類が「ランダム」なら1語ごとに地域を選ぶ（同じ語の単語と例文は同じ地域）
     root.querySelectorAll('.speak').forEach(b => b.onclick = () => Player.play([{ key: b.dataset.key, text: b.dataset.text, gender: 'female', pause: 200 }],
-      { region: Store.getSetting('region', 'us'), rate: Store.getSetting('rate', 1) }));
+      { region: Player.resolveRegion(Store.getSetting('region', 'us'), run ? run.qs[run.idx] : null), rate: Store.getSetting('rate', 1) }));
   }
 
   function answer(v) {

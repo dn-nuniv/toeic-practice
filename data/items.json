@@ -210,7 +210,7 @@
    "椅子がテーブルの周りに並べられた状態。have been arranged は「すでに並べられている」",
    "取り付けの作業をしている様子はない。being installed は進行中の動作"
   ],
-  "point_ja": "人のいない写真では、being＋過去分詞（進行中の動作）は原則として誤答（例外：Some items are being displayed（陳列されている）のように、状態を表す一部の表現）。並べられた・置かれた状態は have been＋過去分詞で表すことが多い。",
+  "point_ja": "人のいない写真では、being＋過去分詞（進行中の動作）の選択肢は誤答になることが多い。ただし人物の有無だけで決めず、その動作が進行中だと写真から分かるかを確かめる（機械が動いている場合や、are being displayed のような例外もある）。並べられた・置かれた状態は have been＋過去分詞で表すことが多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -249,7 +249,7 @@
     "content_hash": "e38434e93b6d"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "options": "female"
   }
@@ -366,7 +366,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "男性がピッチャーからグラスに水を注いでいる。客は座っておらず、皿はテーブルに置かれていて運んでいない。",
+  "explanation_ja": "男性がピッチャーからグラスに水を注いでいる。客は写っておらず、皿はテーブルに置かれていて運んでいない。",
   "translation_ja": "",
   "translation_options_ja": [
    "男性がテーブルをふいている。",
@@ -419,7 +419,7 @@
     "content_hash": "be346a6e37d7"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "options": "female"
   }
@@ -635,7 +635,7 @@
    "人のいない写真。作業員は写っていない",
    "棚はすでに組み立てられていて、組み立てている様子はない。being assembled は進行中の動作"
   ],
-  "point_ja": "人のいない写真では、have been＋過去分詞（～された状態）が正解になりやすい。being＋過去分詞（進行中の動作）は原則として誤答（例外：Some items are being displayed（陳列されている）のように、状態を表す一部の表現）。人の動作を述べた選択肢も誤答。",
+  "point_ja": "人のいない写真では、have been＋過去分詞（～された状態）が正解になりやすい。being＋過去分詞（進行中の動作）や人の動作を述べた選択肢は誤答になることが多いが、人物の有無だけで決めず、その動作や状態が写真と一致するかで判断する。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -674,7 +674,7 @@
     "content_hash": "5023b65558a9"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "options": "male"
   }
@@ -871,7 +871,7 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "Who（誰）に人物で答えている (A) が正解。疑問詞で始まる質問に Yes/No で答える (C) は誤り。",
+  "explanation_ja": "Who（誰）に人物で答えている (A) が正解。疑問詞で始まる質問に Yes/No で答える (C) は誤り。(B) は hiring と音が似た higher を使ったひっかけ。",
   "translation_ja": "新しい採用手続きの担当は誰ですか。",
   "translation_options_ja": [
    "人事部のパクさんです。",
@@ -880,7 +880,7 @@
   ],
   "option_notes_ja": [
    "人物の答え。Who に部署名と名前で答えている",
-   "比較の答え。質問と関係がない",
+   "hiring と音が似た higher を使ったひっかけ。比較の答えで、Who に合わない",
    "疑問詞の質問に Yes で答えている。process の繰り返しもひっかけ"
   ],
   "point_ja": "Who の質問には、名前のほか部署名・役職（the manager、someone in accounting）で答えることも多い。",
@@ -922,7 +922,7 @@
     "content_hash": "63736d9b0a1c"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "female",
    "options": "male"
@@ -1200,7 +1200,7 @@
   ],
   "option_notes_ja": [
    "電車を選び、理由も添えている",
-   "train（訓練する）と同じ音を使ったひっかけ。選択疑問文に Yes で答えている",
+   "train（電車）と、動詞 train（訓練する）の過去形 trained を使ったひっかけ。選択疑問文に Yes で答えている",
    "場所の答え。どちらにするかを答えていない"
   ],
   "point_ja": "A or B の選択疑問文には Yes / No で答えない。どちらかを選ぶ、両方・どちらでもない、と答える。",
@@ -1242,7 +1242,7 @@
     "content_hash": "e9f70b438996"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "female",
    "options": "male"
@@ -1279,7 +1279,7 @@
    "おもしろいと思いました。"
   ],
   "option_notes_ja": [
-   "場所の答え。社内のイントラネットに掲示されている",
+   "場所の答え。社内のイントラネットに掲載されている",
    "price を使ったひっかけ。場所を答えていない",
    "find を使ったひっかけ。意味が合わない"
   ],
@@ -1322,7 +1322,7 @@
     "content_hash": "3795d4d026d5"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "male",
    "options": "female"
@@ -1435,7 +1435,7 @@
   "translation_ja": "新しい事務用の椅子はいつ届きますか。",
   "translation_options_ja": [
    "業者は来週の初めだと言っていました。",
-   "大きいほうの倉庫です。",
+   "メインの倉庫です。",
    "はい、とても座り心地がいいです。"
   ],
   "option_notes_ja": [
@@ -1482,7 +1482,7 @@
     "content_hash": "3b48ba280332"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "male",
    "options": "female"
@@ -1911,19 +1911,19 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "人数を答えずに「申込書を確認しないと」と答える間接的な応答 (A) が正解。(C) は workshop を繰り返し、数（two）を含むが人数ではない。",
+  "explanation_ja": "人数を答えずに「申し込み表（参加者の名簿）を確認しないと」と答える間接的な応答 (A) が正解。(C) は workshop を繰り返し、数（two）を含むが人数ではない。",
   "translation_ja": "ワークショップには何人が申し込んでいますか。",
   "translation_options_ja": [
-   "申込書を確認しないとわかりません。",
+   "申し込み表を確認しないとわかりません。",
    "大会議室です。",
    "2日間のワークショップです。"
   ],
   "option_notes_ja": [
-   "人数を答えず「申込書を確認しないと」と答える間接的な応答",
+   "人数を答えず「申し込み表（参加者の名簿）を確認しないと」と答える間接的な応答",
    "場所の答え。How many（何人）に合わない",
    "workshop を繰り返し、数を含むが人数ではない"
   ],
-  "point_ja": "「確認してみます」「～を見ないと」は、どんな質問にも答えになりうる間接的な応答の定番。",
+  "point_ja": "人数などをすぐに答えられないとき、「確認してみます」「～を見ないと」と確認が必要なことを伝える間接的な応答も正解になる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1962,7 +1962,7 @@
     "content_hash": "4685491f6a51"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "male",
    "options": "female"
@@ -2071,7 +2071,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "「もう少し案がほしい」と、気に入っていないことを間接的に伝える (C) が正解。(B) は design を繰り返し、場所を答えている。",
+  "explanation_ja": "感想を直接言わず、「もういくつか案がほしいと言っている」というお客さまの反応で間接的に答えている (C) が正解。(B) は design を繰り返し、場所を答えている。",
   "translation_ja": "お客さまは新しいロゴのデザインをどう思っていましたか。",
   "translation_options_ja": [
    "正午に会います。",
@@ -2081,7 +2081,7 @@
   "option_notes_ja": [
    "clients を受けているが、感想を答えていない",
    "design を繰り返し、場所を答えている",
-   "もっと案がほしいと言っている＝気に入っていないことを間接的に伝えている"
+   "追加の案がほしいという反応で、感想を間接的に伝えている（まだ決めかねている様子）"
   ],
   "point_ja": "What did ～ think of …?（どう思ったか）には、感想を直接言わずに反応（追加の依頼など）で答えることもある。",
   "level": "A2",
@@ -2122,7 +2122,7 @@
     "content_hash": "0850c68fbfa4"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "male",
    "options": "female"
@@ -2471,16 +2471,16 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "A or B の質問に「前に近いほうならどちらでも」と条件で答えている (B) が正解。選択疑問文に Yes で答える (A) は誤り、(C) は window を繰り返したひっかけ。",
+  "explanation_ja": "A or B の質問に、席の種類ではなく「より前に近いほう」という条件で答えている (B) が正解。選択疑問文に Yes で答える (A) は誤り、(C) は window を繰り返したひっかけ。",
   "translation_ja": "窓側の席と通路側の席のどちらがよろしいですか。",
   "translation_options_ja": [
    "はい、そうしたいです。",
-   "前のほうに近いほうならどちらでも。",
+   "窓側でも通路側でも、前に近いほうをお願いします。",
    "窓から見えました。"
   ],
   "option_notes_ja": [
    "選択疑問文に Yes で答えている",
-   "前のほうならどちらでもよいと条件で答えている",
+   "席の種類ではなく「より前に近いほう」という条件で選んでいる",
    "window を繰り返したひっかけ"
   ],
   "point_ja": "選択疑問文の正解は「どちらでもよい（Either is fine / Whichever ～）」「両方」「どちらでもない」もある。",
@@ -2522,7 +2522,7 @@
     "content_hash": "406b8ccfe40e"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "female",
    "options": "male"
@@ -3562,7 +3562,7 @@
    "発表の内容をよく知っているので、男性の代わりに発表できると言いたい",
    "提案書の手直しの話はしていない",
    "取引先を訪ねた話はしていない",
-   "昼食を注文するのは男性（仕出し業者に電話する）"
+   "昼食はすでに注文済み。男性が仕出し業者に電話して注文を変更すると言っており、マリアが注文するとは言っていない"
   ],
   "point_ja": "発言の意図を問う問題は、その発言の前後（男性が木曜に行けない → だから…）の流れで考える。know ～ inside out は「～を知り尽くしている」。",
   "level": "B1",
@@ -3603,7 +3603,7 @@
     "content_hash": "9c18acc20b9d"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0003",
@@ -3646,7 +3646,7 @@
    "別の部屋の予約の話はしていない",
    "顧客に電話するとは言っていない"
   ],
-  "point_ja": "next.action（次に何をするか）は、会話の最後の I'll ～ を聞き取る。正解は言い換えられていることが多い（caterer → catering company）。",
+  "point_ja": "話し手がこれからすると言った行動は、I'll ～ / I'm going to ～ などの表現で述べられる（会話の後半に多い）。正解は言い換えられていることが多い（caterer → catering company）。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3685,7 +3685,7 @@
     "content_hash": "719bbb21b66f"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0004",
@@ -3728,7 +3728,7 @@
    "請求の誤りの話はしていない",
    "郵送物（mailing）は水曜にある予定で、なくしたのではない"
   ],
-  "point_ja": "problem の問題は、たいてい最初の発言で述べられる。hasn't arrived → has not arrived のようにそのまま言い換えることも多い。",
+  "point_ja": "問題点を問う問題は、たいてい最初の発言で述べられる。It（注文したプリンター用紙）→ An order のように、代名詞や具体的な語を一般的な語に置き換えた形で正解になることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3767,7 +3767,7 @@
     "content_hash": "0a01eebcb7ce"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0005",
@@ -3796,14 +3796,14 @@
   ],
   "answer": "c",
   "shuffle": false,
-  "explanation_ja": "女性は翌日配送（next-day delivery）で送ると言っている。表で Next Day の料金を見ると $25。当日配送は地域内（local only）のみなので対象外。",
+  "explanation_ja": "女性は翌日配送（next-day delivery）で送ると言っている。表で Next Day の料金を見ると $25。今回は料金を免除する（I'll waive the fee）と言っているが、設問は通常（normally）の料金を聞いている。当日配送は地域内（local only）のみなので対象外。",
   "translation_ja": "図を見てください。2回目の配送に男性は通常いくら払うことになるか。",
   "translation_options_ja": null,
   "option_notes_ja": [
-   "標準配達の料金。2箱目は翌日配達で送る",
-   "速達（2〜3日）の料金。勧められたのは翌日配達",
-   "翌日配達の料金。女性が next-day delivery と言っている",
-   "当日配達は地元だけ（local only）。男性は地域外"
+   "通常配送（Standard）の料金。2箱目は翌日配送で送る",
+   "速達（Express、2〜3日）の料金。勧められたのは翌日配送",
+   "翌日配送の料金。女性が next-day delivery と言っている。今回は免除されるが、通常はこの料金",
+   "当日配送は地域内だけ（local only）。男性は地域外"
   ],
   "point_ja": "図表問題は、会話で言われた語（next-day delivery）を図表の中で探し、聞かれている欄（料金）を読む。条件（local only）にも注意。",
   "level": "B1",
@@ -3844,7 +3844,7 @@
     "content_hash": "42cf1c3885b9"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0006",
@@ -3883,11 +3883,11 @@
   ],
   "option_notes_ja": [
    "見本を送る話はしていない",
-   "I'll waive the fee（料金を免除する）の言い換え",
-   "最初の注文は取り消さない",
+   "I'll waive the fee（料金は免除します）と言っている",
+   "最初の注文を取り消すとは言っていない",
    "返金の話はしていない"
   ],
-  "point_ja": "waive（免除する）は TOEIC 頻出。offer の問題は女性の I can ～ / I'll ～ を聞き取る。",
+  "point_ja": "waive（免除する）は TOEIC 頻出。申し出を問う問題は、その話し手の I can ～ / I'll ～ / Would you like me to ～? などを聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -3926,7 +3926,7 @@
     "content_hash": "c9e8711236e8"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0007",
@@ -4185,7 +4185,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品や受け取りには触れていない。",
+  "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品については言っておらず、代わりの品は配達すると言っているので、自分で取りに行く必要もない。",
   "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
   "translation_options_ja": [
    "トマトを返品する",
@@ -4197,7 +4197,7 @@
    "返品の話はしていない",
    "契約の話はしていない",
    "今朝届いたトマトの代金は請求しないと言っている",
-   "取りに行くのではなく、配達してもらう"
+   "代わりの品は運転手が届けると言っていて、取りに行く必要はない"
   ],
   "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。",
   "level": "B1",
@@ -4271,7 +4271,7 @@
     "content_hash": "c352adc9da57"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0010",
@@ -4314,7 +4314,7 @@
    "e-mail は不具合が起きる場面として出てくるだけ",
    "新しいプロジェクト管理ソフトについて話している"
   ],
-  "point_ja": "main.topic（主な話題）は最初の発言で示されることが多い。途中に出てくる語だけを使った選択肢に注意。",
+  "point_ja": "主な話題を問う問題は、最初の発言で示されることが多い。途中に出てくる語だけを使った選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4353,7 +4353,7 @@
     "content_hash": "95456dc3f9da"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0011",
@@ -4385,7 +4385,7 @@
   "explanation_ja": "the mobile version keeps logging them out とあり、logging out を signed out と言い換えている。もう1人も We've had the same issue と同じ問題を挙げている。",
   "translation_ja": "男性たちはどんな問題を挙げているか。",
   "translation_options_ja": [
-   "利用者がアプリから何度もログアウトされる。",
+   "利用者がアプリからログアウトされてしまう。",
    "いくつかのファイルが消えた。",
    "業者がメールに返事をしない。",
    "チームの何人かが締め切りに遅れた。"
@@ -4393,7 +4393,7 @@
   "option_notes_ja": [
    "モバイル版で何度もログアウトしてしまう（logging out → signed out）",
    "ファイルが消えた話はしていない",
-   "業者は来週更新を出すと言っており、返事がないわけではない",
+   "業者へのメールや、その返事については話していない",
    "締め切りの話はしていない"
   ],
   "point_ja": "3人の会話では、2人目が We've had the same issue と同じ問題を繰り返すことがある。複数形（the men）の設問はそこを聞く。",
@@ -4435,7 +4435,7 @@
     "content_hash": "c15ffea2cdf2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0012",
@@ -4475,7 +4475,7 @@
   "option_notes_ja": [
    "業者に連絡するとは言っていない",
    "I'll send a message to all staff this afternoon と言っている",
-   "更新を入れるのは来週で、業者が出すもの",
+   "更新は業者が来週出すもので、女性が今日の午後に入れるとは言っていない",
    "ラージのチームと会うとは言っていない"
   ],
   "point_ja": "設問の時（this afternoon）が会話の中でそのまま出てくる箇所を聞き取る。",
@@ -4517,7 +4517,7 @@
     "content_hash": "0c76a6d40326"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0013",
@@ -4560,7 +4560,7 @@
    "There's a problem with the signals と男性が言っている",
    "線路の工事の話はしていない"
   ],
-  "point_ja": "reason の問題は、Because ～ ではなく There's a problem with ～ のような形で答えが出ることが多い。",
+  "point_ja": "理由を問う問題では、Because を使わずに There's a problem with ～ のような形で理由が述べられることも多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4632,7 +4632,7 @@
     "content_hash": "ebea3158af0b"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0014",
@@ -4747,7 +4747,7 @@
     "content_hash": "0399213b7a72"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0015",
@@ -4782,7 +4782,7 @@
    "2番線のホーム",
    "列車の中",
    "通りの向かい側",
-   "改札を出た所"
+   "改札を通った先"
   ],
   "option_notes_ja": [
    "2番線は急行のホームで、飲み物の話ではない",
@@ -4790,7 +4790,7 @@
    "通りの向かいとは言っていない",
    "a café just past the ticket gates と言っている"
   ],
-  "point_ja": "location の問題は、場所を表す語句（past・next to・across from・on your left）を聞き取る。",
+  "point_ja": "場所を問う問題は、場所を表す語句（past・next to・across from・on your left）を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4862,7 +4862,7 @@
     "content_hash": "6b687e09d2ab"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0016",
@@ -4903,7 +4903,7 @@
    "150人までのパビリオンに200人は入らないと指摘している",
    "料金が高いとは言っていない",
    "食べ物の量の話はしていない",
-   "日程の話はしていない"
+   "この発言は人数についての指摘で、平日に開く提案ではない"
   ],
   "point_ja": "数字を挙げる発言は、直前の数字（150人まで）と比べて「足りない・多すぎる」を伝えていることが多い。",
   "level": "B1",
@@ -4944,7 +4944,7 @@
     "content_hash": "7d81dda6527f"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0017",
@@ -4977,7 +4977,7 @@
   "translation_ja": "女性の1人はリバーサイド・ガーデンズについて何と言っているか。",
   "translation_options_ja": [
    "川のそばにある。",
-   "駐車場がたくさんある。",
+   "駐車スペースが十分にある。",
    "団体割引がある。",
    "6月は休みだ。"
   ],
@@ -5026,7 +5026,7 @@
     "content_hash": "e2b58e4e0d01"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0018",
@@ -5069,7 +5069,7 @@
    "could you call them today? と頼まれている。call → contact、them → 会場",
    "昼食の注文は頼まれていない"
   ],
-  "point_ja": "request（頼まれたこと）は Could you ～? / Can you ～? の後を聞き取る。代名詞（them）が何を指すかも確かめる。",
+  "point_ja": "頼まれたことを問う問題は、Could you ～? / Can you ～? の後を聞き取る。代名詞（them）が何を指すかも確かめる。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5108,7 +5108,7 @@
     "content_hash": "53dec0b7e461"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0019",
@@ -5147,11 +5147,11 @@
   ],
   "option_notes_ja": [
    "名札の話はしていない",
-   "セッションは中止になっていない",
+   "セッションが中止になったという話は出ていない",
    "会場の場所がわからないのではなく、着くのが遅れる",
    "my flight was delayed（delayed → late）"
   ],
-  "point_ja": "problem の問題の正解は、会話の語の言い換え（delayed → late）になっていることが多い。",
+  "point_ja": "問題点を問う問題の正解は、会話の語の言い換え（delayed → late）になっていることが多い。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5190,7 +5190,7 @@
     "content_hash": "f9c49bf6e178"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0020",
@@ -5436,7 +5436,7 @@
     "content_hash": "2b01294003c6"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0023",
@@ -5465,7 +5465,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "「新しく入会金を払う必要があるか」という質問への答えで、すぐ後に Transfers are free と続く。Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ。用紙への記入は必要。",
+  "explanation_ja": "「新しく入会金を払う必要があるか」という質問への答えで、すぐ後に Transfers are free と続く。Would you mind ～? への Not at all（かまいませんよ）と取り違えさせるひっかけ。用紙への記入は必要。",
   "translation_ja": "男性が「Not at all」と言っているのはどういう意味か。",
   "translation_options_ja": [
    "答えがわからない。",
@@ -5475,11 +5475,11 @@
   ],
   "option_notes_ja": [
    "答えがわからないのではない",
-   "Would you mind ～? への Not at all（喜んで）と取り違えさせるひっかけ",
+   "Would you mind ～? への Not at all（かまいませんよ）と取り違えさせるひっかけ",
    "新しく入会金が要るかへの答えで、続けて Transfers are free と言っている",
    "用紙への記入は必要だと言っている"
   ],
-  "point_ja": "Not at all は「まったく～ない」と「（mind への答えで）かまいませんよ」の2つの意味がある。直前の質問の形で決める。",
+  "point_ja": "Not at all には「まったく～ない」のほかに、mind の質問への「かまいませんよ」や、お礼への「どういたしまして」の使い方もある。直前の発言の形で判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5518,7 +5518,7 @@
     "content_hash": "a8c04536c0c6"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0024",
@@ -5557,11 +5557,11 @@
   ],
   "option_notes_ja": [
    "料金は不要と言われている",
-   "ポートランドの店舗に行くのは引っ越した後",
+   "店舗に行く時期は言っていない。今は用紙への記入を求められ、ペンを受け取っている",
    "レッスンに出る話ではない",
    "ペンを借りて用紙に記入する（fill out → complete）"
   ],
-  "point_ja": "next.action は会話の最後のやりとり（Do you have a pen? → Here you go）から判断する。",
+  "point_ja": "次に何をするかを問う問題は、会話の終わりのやりとりから直後の行動を判断する（この問題ではペンを借りる流れ）。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -5600,7 +5600,7 @@
     "content_hash": "3af81aa580cb"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0001",
@@ -5643,7 +5643,7 @@
    "避難訓練の話ではない",
    "防犯の手続きの話ではない"
   ],
-  "point_ja": "アナウンスの主題は最初の1〜2文で示される。This is a reminder that ～ の後を聞き取る。",
+  "point_ja": "アナウンスの主題は最初の1〜2文で示されることが多い。This is a reminder that ～ の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5682,7 +5682,7 @@
     "content_hash": "a609f3e2246c"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0002",
@@ -5807,7 +5807,7 @@
    "駐車場の話はしていない",
    "入館証の話はしていない"
   ],
-  "point_ja": "so that ～（～するように）の後に目的が来る。reason の問題でよく使われる形。",
+  "point_ja": "so that ～（～するように）の後に目的が来る。理由・目的を問う問題でよく使われる形。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -5846,7 +5846,7 @@
     "content_hash": "9723b35bffce"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0004",
@@ -6135,7 +6135,7 @@
    "灯台は見学先",
    "工事の話はしていない"
   ],
-  "point_ja": "listener.identity（聞き手はだれか）は、welcome to ～ や your guide などの呼びかけから判断する。",
+  "point_ja": "聞き手はだれかを問う問題は、welcome to ～ や your guide などの呼びかけから判断する。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6207,7 +6207,7 @@
     "content_hash": "ab8825bf9d40"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0008",
@@ -6250,7 +6250,7 @@
    "混雑の話はしていない",
    "閉館時間の話はしていない"
   ],
-  "point_ja": "warn（注意する）の問題は please watch / be careful / make sure の後を聞き取る。",
+  "point_ja": "何に注意を促しているかを問う問題は、please watch / be careful / make sure の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6322,7 +6322,7 @@
     "content_hash": "066576cbd648"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0009",
@@ -6470,7 +6470,7 @@
     "content_hash": "573429839dfa"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0010",
@@ -6858,7 +6858,7 @@
    "選挙の話ではない",
    "道路工事ではなく市場の建設"
   ],
-  "point_ja": "ニュースの主題は、最初の文の approved plans for ～ の後に来る。",
+  "point_ja": "ニュースの主題は、番組名などの導入のすぐ後の文で示されることが多い（ここでは approved plans yesterday for a new public market）。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6897,7 +6897,7 @@
     "content_hash": "00f131631061"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0014",
@@ -6931,7 +6931,7 @@
   "translation_options_ja": [
    "3月",
    "来週の月曜日",
-   "来年の秋",
+   "次の秋",
    "今週末"
   ],
   "option_notes_ja": [
@@ -6979,7 +6979,7 @@
     "content_hash": "7d30295c1aa5"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0015",
@@ -7009,7 +7009,7 @@
   "answer": "d",
   "shuffle": true,
   "explanation_ja": "Coming up after the break, we'll have the weekend weather forecast とある。",
-  "translation_ja": "聞き手は休憩の後に何を聞くか。",
+  "translation_ja": "聞き手は（CMなどの）中断の後に何を聞くか。",
   "translation_options_ja": [
    "ホールト氏へのインタビュー",
    "地元の農場の一覧",
@@ -7061,7 +7061,7 @@
     "content_hash": "3d0b2824c3ca"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0016",
@@ -7100,7 +7100,7 @@
   ],
   "option_notes_ja": [
    "東地域で新しい店を2つ開いたから",
-   "人を増やしたのではない（人が減ったのは別の地域）",
+   "人を増やしたことは理由として挙げていない。理由は新しい店を2つ開いたこと",
    "値下げの話はしていない",
    "新製品の話はしていない"
   ],
@@ -7143,7 +7143,7 @@
     "content_hash": "f4daeda62af0"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0017",
@@ -7186,7 +7186,7 @@
    "東はいちばん売上が高い",
    "売上がいちばん低い地域（70万ドル）で人手が足りない"
   ],
-  "point_ja": "図表問題では、話し手が図表の言い方（the region with the lowest sales）で指す項目を、数値から探す。",
+  "point_ja": "図表問題では、話し手が図表の項目名を直接言わず別の言い方（the region with the lowest sales）で指すことがあるので、図表の数値から該当する項目を探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7225,7 +7225,7 @@
     "content_hash": "a3c34b0e5321"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0018",
@@ -7268,7 +7268,7 @@
    "売上の報告書は頼んでいない",
    "東地域の店を訪ねるようには言っていない"
   ],
-  "point_ja": "request の問題は I'd like ～ to … / Please let me know ～ の後を聞き取る。",
+  "point_ja": "依頼の内容を問う問題は、I'd like ～ to … / Please let me know ～ の後を聞き取る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -7315,7 +7315,7 @@
     }
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0019",
@@ -7643,7 +7643,7 @@
     "content_hash": "745cea81cfcc"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0023",
@@ -7681,7 +7681,7 @@
    "新しいレジを使う"
   ],
   "option_notes_ja": [
-   "割引のパンはパン売り場",
+   "7番通路で案内しているのはジュースの試飲で、割引のパンを買えるとは言っていない",
    "fruit juices の試飲ができる（juices → beverages）",
    "地元の会社の商品だが、農家に会えるわけではない",
    "新しいレジは日曜に設置する"
@@ -7725,7 +7725,7 @@
     "content_hash": "fd750289fa59"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0024",
@@ -7807,7 +7807,7 @@
     "content_hash": "3072f4594037"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0001",
@@ -13005,7 +13005,7 @@
    "7月10日から14日まで清掃で閉鎖（closed → temporarily unavailable）",
    "12か月会員だけとは書かれていない"
   ],
-  "point_ja": "indicated（示されている）の問題は、選択肢を1つずつ本文と照らし合わせる。数字（25 / 50）の食い違いに注意。",
+  "point_ja": "What is indicated ～?（何が示されているか）の問題は、選択肢を1つずつ本文と照らし合わせる。数字（25 / 50）の食い違いに注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",

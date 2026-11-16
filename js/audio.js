@@ -76,5 +76,18 @@
 
   // ブラウザによっては声の一覧が後から読み込まれる
   if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices(); }
-  window.Player = { play, stop, hasFiles, regions: Object.keys(LANG), NARRATOR: 'male' };
+  // 英語の種類が「ランダム」のとき：音声ファイルのある地域から1つ選ぶ。holder（問題のまとまりなど）に覚えておき、
+  // 同じ問題で再生し直したときは同じ地域にする
+  const REGION_NAME = { us: '米国', gb: '英国', au: 'オーストラリア', ca: 'カナダ' };
+  function resolveRegion(setting, holder) {
+    if (setting !== 'random') return setting || 'us';
+    if (holder && holder.region) return holder.region;
+    const m = window.AUDIO_MANIFEST || {};
+    const have = Object.keys(LANG).filter(r => m[r] && Object.keys(m[r]).length);
+    const pool = have.length ? have : ['us', 'gb', 'au'];
+    const r = pool[Math.floor(Math.random() * pool.length)];
+    if (holder) holder.region = r;
+    return r;
+  }
+  window.Player = { play, stop, hasFiles, resolveRegion, REGION_NAME, regions: Object.keys(LANG), NARRATOR: 'male' };
 })();

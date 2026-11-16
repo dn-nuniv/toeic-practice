@@ -38,6 +38,7 @@
 - Part 3・4：1セット3問。図表問題・発言の意図を問う問題・3人の会話も含める。
 - Part 6：1セット4問、うち1問は文挿入。空欄は本文中に `[1]`〜`[4]`。
 - Part 7：単一文書・チャット・ダブル／トリプルパッセージ。照合問題（cross.reference）を入れる。位置を問う問題の本文は `— [1] —` の形。
+- 解説では、データ上の出題タイプ名（main.topic・next.action・request など）を使わず「主な話題を問う問題」のように書く。本文にないことは「～ではない」と断定せず「～とは言っていない」と書く。
 - 解説は3つに分ける：`explanation_ja`（正解の理由。根拠の英文を短く引用）、`option_notes_ja`（選択肢ごとのコメント。options と同じ順の配列。表示順が変わるので (A) などの記号は使わず中身で書く）、`point_ja`（TOEIC のポイント。ほかの問題にも使える知識を1〜2文）。和訳（`translation_ja`、`translation_options_ja`）もつける。
 - ID は `p{Part}-{4桁}`、セットは `p{Part}-s{3桁}`（試作の Part 1 の3セットだけ `p1-s0001` の4桁）。既存の ID は変えない（学習記録が ID に紐づくため）。不要になった問題は削除せず `status: "retired"`。
 - `status` は draft → reviewed / flagged（レビュー結果から build_data が自動で設定）。各レビューは問題の版（`content_hash`、`scripts/review_hash.py`）を記録し、今の版へのレビューだけが状態に効く。
@@ -56,6 +57,7 @@
 - 音声ファイルがないときはブラウザの読み上げで代用する。macOS のおもしろ音声・古いロボット声（Albert・Bad News・Zarvox・Fred など）は使わず、Natural・Google などの声を優先する（`js/audio.js` の `NOVELTY`・`QUALITY`）。
 - Part 3・4 の設問（`<item>:q`）はナレーターが読む（男性の声の一覧の最後。`gen_audio.py` と `js/audio.js` の `NARRATOR`）。アプリでは会話の後に1問ずつ読み、解答時間（8秒・図表12秒、再生速度で縮まない）を空ける。設定で「間を短く」「読まない」も選べる。
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。
+- 英語の種類の「ランダム」は、問題のまとまり（単語は1語）ごとに音声のある地域から選ぶ（`js/audio.js` の `resolveRegion`）。再生し直しても同じ地域。再生中の表示に地域名を出す。
 
 ## Part 1 の写真
 - 試作の3枚は Gamma の画像生成。これからは、先生が Orca 経由で GPT と Gemini（nano banana）の両方に `images/part1/PROMPTS.md` の指示文を渡して作る。白黒・16:9・文字なし。
