@@ -1234,5 +1234,629 @@
    "fix": "",
    "explain_hash": "0658244728a4"
   }
+ ],
+ "p3-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "deefdd1571da"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "deefdd1571da"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "deefdd1571da"
+  }
+ ],
+ "p3-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8bd02db5bce7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(D)のコメントは、男性が昼食を注文すると説明しているが、男性がこれからすると述べているのは既存の注文の変更連絡。",
+   "fix": "「男性は仕出し業者に電話して昼食の注文を変更すると言っている。マリアが注文するとは述べていない」とする。",
+   "explain_hash": "8bd02db5bce7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "選択肢(D)のコメントに「昼食を注文するのは男性（仕出し業者に電話する）」とあるが、スクリプトでは昼食はすでに注文済み（We've already... ordered lunch）であり、男性が行うのは注文の「変更」のために仕出し業者へ電話することである。",
+   "fix": "選択肢(D)のコメントを「昼食はすでに注文済みで、注文変更のために仕出し業者へ電話するのも男性」などに改める。",
+   "explain_hash": "8bd02db5bce7"
+  }
+ ],
+ "p3-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "29eb1b2f5166"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEICのポイントで本問を「次に何をするか」の問題としているが、設問は男性がすると述べた行動を問うもの。「会話の最後の I'll」を聞けばよいという説明も限定的すぎる。",
+   "fix": "「男性がすると述べた行動を聞き取り、選択肢と照合する。I'll call the caterer が Contact a catering company に対応する」とする。",
+   "explain_hash": "29eb1b2f5166"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントに内部タグのような「next.action」という表記がそのまま残っている。また「会話の最後の I'll ～ を聞き取る」と断定しているが、今後の行動に関する発言は会話の最後とは限らず、表現も I'll ～ に限られない。",
+   "fix": "「next.action（次に何をするか）」を「『次に何をするか』を問う問題」とし、「会話の後半などで話される I'll ～ や I'm going to ～ などの表現を聞き取る」のように改める。",
+   "explain_hash": "29eb1b2f5166"
+  }
+ ],
+ "p3-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントの「hasn't arrived → has not arrived のようにそのまま言い換えることも多い」は、短縮形を元に戻しているだけで言い換えではない。この問題で実際に言い換えられているのは主語（It → An order）なので、学習者に伝わる要点がずれている。",
+   "fix": "「problem の問題は、たいてい最初の発言で述べられる。It（＝注文したプリンター用紙）→ An order のように、代名詞やくわしい語を一般的な語に置き換えた形で正解になることが多い。」",
+   "explain_hash": "93c304be1381"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "93c304be1381"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "93c304be1381"
+  }
+ ],
+ "p3-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(1) 設問の normally（通常は）の意味を説明していない。女性は料金を免除する（waive the fee）ので、実際には男性は払わない。「免除がなければ $25」という点を説明しないと、設問の意図が伝わらない。(2) 用語がそろっていない。コメントは「標準配達・翌日配達・当日配達」、正解の理由は「翌日配送・当日配送」、和訳は「通常配送」になっている。",
+   "fix": "正解の理由に「今回は料金を免除する（I'll waive the fee）と言っているが、設問は通常（normally）の料金を聞いている」を加える。用語は「通常配送・速達・翌日配送・当日配送」などにそろえる。",
+   "explain_hash": "631235abded0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "631235abded0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "セット p3-s002 の「本文・スクリプトの訳」に、この設問で参照する図（Delivery Options）の和訳が抜けている（p3-s005 や p3-s007 には【図】の和訳がある）。",
+   "fix": "p3-s002 の「本文・スクリプトの訳」に「【図】配送方法：通常（Standard）5〜7日 8ドル／速達（Express）2〜3日 15ドル／翌日（Next Day）1日 25ドル／当日（Same Day・地域内のみ）当日 40ドル」を追加する。",
+   "explain_hash": "631235abded0"
+  }
+ ],
+ "p3-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "332f2e9fe384"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(C)のコメント「最初の注文は取り消さない」は、会話で明言されていないことを断定している。",
+   "fix": "「最初の注文を取り消すとは言っていない」とする。",
+   "explain_hash": "332f2e9fe384"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントに「offer の問題は女性の I can ～ / I'll ～ を聞き取る」とあるが、男性が申し出る問題もあるため「女性の」と限定するのは一般的な説明として不適切。また、選択肢(B)のコメントで「I'll waive the fee（料金を免除する）の言い換え」としているが、同じ語（waive・fee）が使われており言い換えではなく、I'll の意味も訳から抜けている。",
+   "fix": "ポイントを「申し出（offer）を問う問題は、該当する話し手の I can ～ / I'll ～ などを聞き取る」とし、(B)のコメントを「I'll waive the fee（料金は免除します）と言っている」に改める。",
+   "explain_hash": "332f2e9fe384"
+  }
+ ],
+ "p3-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26a2dc8c8fbc"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26a2dc8c8fbc"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26a2dc8c8fbc"
+  }
+ ],
+ "p3-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f54d78cd20f4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f54d78cd20f4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f54d78cd20f4"
+  }
+ ],
+ "p3-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3fc94506a879"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "正解の理由の「受け取りには触れていない」は不正確。今朝の受領と代替品の配達には触れている。pick upは単なる受領ではなく、自分で取りに行くこと。",
+   "fix": "「返品については述べておらず、代替品は配達すると言っているため、自分で取りに行く必要もない」とする。",
+   "explain_hash": "3fc94506a879"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3fc94506a879"
+  }
+ ],
+ "p3-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "03b0426901f3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "03b0426901f3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントに内部タグのような「main.topic」という表記がそのまま残っている。",
+   "fix": "「main.topic（主な話題）」を「主な話題を問う問題」に改める。",
+   "explain_hash": "03b0426901f3"
+  }
+ ],
+ "p3-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6b846d720809"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(C)のコメントは、業者の更新公開予定を根拠に「返事がないわけではない」としているが、メールへの返信の有無は会話から分からない。",
+   "fix": "「業者へのメールや、その返信については話していない」とする。",
+   "explain_hash": "6b846d720809"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "選択肢(A)「Users are being signed out of an application.」の訳に「何度も」と入っているが、英文の選択肢自体には「何度も」に当たる語句はない（スクリプトの keeps logging them out からの混入）。",
+   "fix": "(A)の訳を「利用者がアプリからログアウトされる。」に改める。",
+   "explain_hash": "6b846d720809"
+  }
+ ],
+ "p3-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(C) のコメント「更新を入れるのは来週で」は会話にない内容。会話で言っているのは、業者が来週更新を出す（release）ことだけで、だれがいつ入れる（install）かは言っていない。",
+   "fix": "「更新は来週業者が出すもので、女性が今日の午後に入れるとは言っていない」",
+   "explain_hash": "6ebf294cd31e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(C)のコメント「更新を入れるのは来週」は、公開と導入を混同している。来週なのは業者による更新の公開で、女性が導入する時期は述べられていない。",
+   "fix": "「更新は業者が来週公開する予定。女性が更新を導入するとは言っていない」とする。",
+   "explain_hash": "6ebf294cd31e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "選択肢(C)のコメントに「更新を入れるのは来週で、業者が出すもの」とあるが、スクリプトで述べられているのは「業者が来週更新を出す（releasing an update next week）」ことだけであり、来週「更新を入れる」とは書かれていない。",
+   "fix": "(C)のコメントを「業者が来週更新を出すのであり、女性が今日の午後に更新を入れるわけではない」に改める。",
+   "explain_hash": "6ebf294cd31e"
+  }
+ ],
+ "p3-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントの「Because ～ ではなく There's a problem with ～ のような形で答えが出ることが多い」は言い過ぎ。Because を使って理由を言う場合もふつうにある。",
+   "fix": "「reason の問題では、Because を使わずに There's a problem with ～ のような形で理由が述べられることも多い。」",
+   "explain_hash": "4e681576c2d7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4e681576c2d7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4e681576c2d7"
+  }
+ ],
+ "p3-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a3fdc168eaad"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a3fdc168eaad"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a3fdc168eaad"
+  }
+ ],
+ "p3-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "和訳の「改札を出てすぐ左」と、選択肢の訳・コメントの「改札を出た所」について。女性はこれから列車に乗るので、past the ticket gates は改札を通った先（構内）と考えるのが自然。「出て」だと駅の外に出るように読める。",
+   "fix": "本文の訳を「改札を通ってすぐ左」、選択肢の訳を「改札を通った先」にする。",
+   "explain_hash": "6ac360ff75e8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(D)の訳と共通スクリプト訳の「改札を出た所／改札を出て」は、改札外と限定している。past the ticket gatesは改札を通った先という位置関係で、改札内外は確定できない。",
+   "fix": "(D)は「改札を通った先」、スクリプトは「改札を通ってすぐ先の左側にカフェがあります」とする。",
+   "explain_hash": "6ac360ff75e8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6ac360ff75e8"
+  }
+ ],
+ "p3-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(D) のコメント「日程の話はしていない」は事実と違う。会話の後半で6月12日に空いているか確かめる話をしている。",
+   "fix": "「ピクニックを平日に開くという話はしていない」",
+   "explain_hash": "42381bdb5f40"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(D)のコメント「日程の話はしていない」は、会話後半で6月12日の空きを確認する話があるため不正確。引用された発言が日程の提案ではないことを説明すべき。",
+   "fix": "「この発言は参加人数についての指摘で、平日に開催する提案ではない」とする。",
+   "explain_hash": "42381bdb5f40"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "選択肢(D)「To propose holding the picnic on a weekday」のコメントに「日程の話はしていない」とあるが、会話の後半で6月12日（June twelfth）という日程の話は出ている。話されていないのは「平日に開く」ことである。",
+   "fix": "(D)のコメントを「平日に開くという話はしていない（日程の確認が出るのも後の発言）」などに改める。",
+   "explain_hash": "42381bdb5f40"
+  }
+ ],
+ "p3-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "995a90283c73"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(B)と共通スクリプトの「駐車場がたくさんある」は、駐車施設の数を表す訳になっている。a lot of parking／plenty of parkingは、駐車スペースが十分にあるという意味。",
+   "fix": "選択肢訳を「駐車スペースが十分にある」、スクリプト訳を「駐車スペースも十分にあるわ」とする。",
+   "explain_hash": "995a90283c73"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "995a90283c73"
+  }
+ ],
+ "p3-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "60bc311af529"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "60bc311af529"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "60bc311af529"
+  }
+ ],
+ "p3-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9d0a008d26ca"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(B)のコメント「セッションは中止になっていない」は、中止の有無が明言されていないのに断定している。",
+   "fix": "「セッションが中止になったという話は出ていない」とする。",
+   "explain_hash": "9d0a008d26ca"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9d0a008d26ca"
+  }
+ ],
+ "p3-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "56b8573cbde4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "56b8573cbde4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "56b8573cbde4"
+  }
+ ],
+ "p3-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ab94f33b8ca"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ab94f33b8ca"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ab94f33b8ca"
+  }
+ ],
+ "p3-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0b6502162db2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0b6502162db2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0b6502162db2"
+  }
+ ],
+ "p3-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(1) TOEIC のポイントで Not at all の意味を「2つ」と言い切っているが、お礼への返事の「どういたしまして」の用法が抜けている。(B)「喜んで手伝う」は、むしろこちらの用法との取り違えも考えられる。(2) Would you mind ～? への Not at all は「全然かまいません（いいですよ）」の意味で、「喜んで」と訳すのはややずれる。",
+   "fix": "ポイント：「Not at all には『まったく～ない』のほかに、mind の質問への『かまいませんよ』や、お礼への『どういたしまして』の用法もある。直前の発言の形で判断する。」(B) のコメントと正解の理由の「（喜んで）」は「（かまいませんよ）」に直す。",
+   "explain_hash": "486d4579977d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "486d4579977d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "セット p3-s008 の「本文・スクリプトの訳」で、正解の根拠として引用されている「Transfers are free.」が「移籍は無料です。」と訳されている。同じ企業の別店舗へ会員資格を移す話なので「移籍」は不自然。",
+   "fix": "p3-s008 の訳を「会員資格の移行（店舗変更）は無料です。」に改める。",
+   "explain_hash": "486d4579977d"
+  }
+ ],
+ "p3-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:11:41",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9a30f27d3da3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "(B)のコメント「ポートランドの店舗に行くのは引っ越した後」は、会話にない訪店時期を断定している。",
+   "fix": "「店舗を訪れる時期は述べられていない。今は用紙への記入を求められ、ペンを受け取っている」とする。",
+   "explain_hash": "9a30f27d3da3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:11:41",
+   "ok": false,
+   "issues": "TOEIC のポイントに日本語の補足もないまま「next.action」という内部タグのような表記が残っている。また「会話の最後のやりとり（Do you have a pen? → Here you go）から判断する」とこの問題固有の具体例で書かれており、一般的な説明になっていない。",
+   "fix": "「『次に何をするか』を問う問題は、会話の終盤のやりとり（この問題ではペンを借りる流れ）から直後の行動を判断する」のように改める。",
+   "explain_hash": "9a30f27d3da3"
+  }
  ]
 }
