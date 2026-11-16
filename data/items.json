@@ -231,6 +231,221 @@
   }
  },
  {
+  "id": "p1-0004",
+  "part": 1,
+  "set_id": "p1-s004",
+  "type": "photo.person.action",
+  "scene": "office",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "She's reaching up toward a shelf."
+   },
+   {
+    "id": "b",
+    "text": "She's typing on a keyboard."
+   },
+   {
+    "id": "c",
+    "text": "She's opening a window."
+   },
+   {
+    "id": "d",
+    "text": "She's sitting at a desk."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "女性が高い棚に手を伸ばしてファイルを持っている。キーボード・窓・机は写っているが、打つ・開ける・座るという動作はしていない。写っている物を使ったひっかけに注意。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "彼女は棚のほうへ手を伸ばしている。",
+   "彼女はキーボードを打っている。",
+   "彼女は窓を開けている。",
+   "彼女は机に向かって座っている。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "male"
+  }
+ },
+ {
+  "id": "p1-0005",
+  "part": 1,
+  "set_id": "p1-s005",
+  "type": "photo.person.action",
+  "scene": "restaurant",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "A man is wiping a table."
+   },
+   {
+    "id": "b",
+    "text": "A man is pouring water into a glass."
+   },
+   {
+    "id": "c",
+    "text": "Some diners are seated at a table."
+   },
+   {
+    "id": "d",
+    "text": "A man is carrying a stack of plates."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "男性がピッチャーからグラスに水を注いでいる。客は座っておらず、皿はテーブルに置かれていて運んでいない。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "男性がテーブルをふいている。",
+   "男性がグラスに水を注いでいる。",
+   "何人かの客がテーブルに着いている。",
+   "男性が皿を重ねて運んでいる。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "female"
+  }
+ },
+ {
+  "id": "p1-0006",
+  "part": 1,
+  "set_id": "p1-s006",
+  "type": "photo.group.action",
+  "scene": "real.estate",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "They're putting on safety helmets."
+   },
+   {
+    "id": "b",
+    "text": "They're sitting around a table."
+   },
+   {
+    "id": "c",
+    "text": "They're looking at a plan on a table."
+   },
+   {
+    "id": "d",
+    "text": "One of them is rolling up a drawing."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "3人がテーブルに広げた図面を見ている（1人は指さしている）。ヘルメットはすでにかぶっている状態で、putting on（かぶる動作の途中）ではない。いすはあるが3人とも立っている。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "彼らは安全帽をかぶろうとしている。",
+   "彼らはテーブルを囲んで座っている。",
+   "彼らはテーブルの上の図面を見ている。",
+   "1人が図面を丸めている。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "male"
+  }
+ },
+ {
+  "id": "p1-0007",
+  "part": 1,
+  "set_id": "p1-s007",
+  "type": "photo.group.action",
+  "scene": "travel",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "Some passengers are boarding an airplane."
+   },
+   {
+    "id": "b",
+    "text": "The travelers are taking off their backpacks."
+   },
+   {
+    "id": "c",
+    "text": "Some suitcases are being loaded onto a cart."
+   },
+   {
+    "id": "d",
+    "text": "Some travelers are waiting in line."
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "スーツケースを持った人たちがカウンターの前に並んでいる。リュックは背負ったままで、taking off（下ろす動作）はしていない。飛行機やカートは写っていない。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "何人かの乗客が飛行機に乗り込んでいる。",
+   "旅行者たちはリュックを下ろしている。",
+   "スーツケースがカートに積まれているところだ。",
+   "何人かの旅行者が列に並んで待っている。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "female"
+  }
+ },
+ {
+  "id": "p1-0008",
+  "part": 1,
+  "set_id": "p1-s008",
+  "type": "photo.object.state",
+  "scene": "warehouse",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "Some boxes have been stacked on pallets."
+   },
+   {
+    "id": "b",
+    "text": "A forklift is being driven down an aisle."
+   },
+   {
+    "id": "c",
+    "text": "Some workers are moving boxes."
+   },
+   {
+    "id": "d",
+    "text": "Some shelves are being assembled."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "人のいない写真で、箱がパレットの上に積まれた状態を have been stacked で表している (A) が正解。フォークリフトは止まっていて、being driven・being assembled（進行中の動作）や作業員は写真に合わない。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "箱がパレットの上に積み重ねられている。",
+   "フォークリフトが通路を走っているところだ。",
+   "作業員たちが箱を運んでいる。",
+   "棚が組み立てられているところだ。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "male"
+  }
+ },
+ {
   "id": "p2-0001",
   "part": 2,
   "set_id": null,

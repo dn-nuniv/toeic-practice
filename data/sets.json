@@ -51,6 +51,91 @@
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
  },
  {
+  "id": "p1-s004",
+  "part": 1,
+  "kind": "photo",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0004.webp",
+  "question_ids": [
+   "p1-0004"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
+  "id": "p1-s005",
+  "part": 1,
+  "kind": "photo",
+  "scene": "restaurant",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0005.webp",
+  "question_ids": [
+   "p1-0005"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
+  "id": "p1-s006",
+  "part": 1,
+  "kind": "photo",
+  "scene": "real.estate",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0006.webp",
+  "question_ids": [
+   "p1-0006"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
+  "id": "p1-s007",
+  "part": 1,
+  "kind": "photo",
+  "scene": "travel",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0007.webp",
+  "question_ids": [
+   "p1-0007"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
+  "id": "p1-s008",
+  "part": 1,
+  "kind": "photo",
+  "scene": "warehouse",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0008.webp",
+  "question_ids": [
+   "p1-0008"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
   "id": "p3-s001",
   "part": 3,
   "kind": "conversation",
