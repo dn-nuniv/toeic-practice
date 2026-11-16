@@ -402,5 +402,262 @@
   "translation_ja": "【文書1】レイクビュー会議センター　会議室料金（1日あたり）\nメープル室：20人・300ドル／シダー室：50人・550ドル／オーク・ホール：120人・1,200ドル／パイン・ホール：200人・1,800ドル\n※全室にプロジェクターとマイクが含まれます。※ケータリングは30人以上の団体で利用できます。※60日前までのご予約は10%割引。\n【文書2】宛先：レイクビュー会議センター／差出人：ローサ・マルティネス（デルタライン物流）／日付：3月3日／件名：予約のお願い\n5月15日に当社の年次営業研修のための部屋を予約したいと思います。参加者は約45人の見込みです。全員分の昼食も必要で、ベジタリアン向けのメニューも用意していただきたいです。2か月以上前の予約なので割引の対象になると理解しています。合計金額をご確認いただけますか。",
   "status": "draft",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p7-s004",
+  "part": 7,
+  "kind": "single",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "memo",
+    "header": {
+     "To": "All Employees",
+     "From": "Hannah Osei, Office Manager",
+     "Date": "October 2",
+     "Subject": "Kitchen renovation"
+    },
+    "text": "Beginning Monday, October 9, the third-floor kitchen will be closed for renovation. The work is expected to take two weeks. During this time, employees may use the kitchen on the fifth floor, which will remain open from 7:00 A.M. to 7:00 P.M.\n\nThe renovated kitchen will include a larger refrigerator, a second sink, and a new coffee machine. Please remove any personal items from the third-floor refrigerator by Friday, October 6. Items left after that date will be thrown away.\n\nThank you for your patience. If you have any questions, please contact me at extension 214."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0011",
+   "p7-0012",
+   "p7-0013"
+  ],
+  "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（総務マネージャー）／日付：10月2日／件名：給湯室の改装\n10月9日（月）から、3階の給湯室は改装のため閉鎖します。工事は2週間かかる見込みです。その間は5階の給湯室を利用できます（午前7時〜午後7時）。\n改装後の給湯室には、より大きな冷蔵庫、2つ目の流し台、新しいコーヒーマシンが入ります。3階の冷蔵庫にある私物は10月6日（金）までに出してください。それ以降に残っている物は処分します。\nご協力ありがとうございます。質問があれば内線214の私までご連絡ください。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s005",
+  "part": 7,
+  "kind": "chat",
+  "scene": "logistics",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Text-message chain",
+    "text": "Marcus Bell (10:14 A.M.)\nHi, Jenna. The delivery van just arrived at the Pine Street store, but the driver only has 12 boxes of printer paper. Our order was for 20.\n\nJenna Kowalski (10:16 A.M.)\nThat's odd. Let me look at the order form.\n\nJenna Kowalski (10:19 A.M.)\nYou're right. It says 20. The warehouse must have split the shipment.\n\nMarcus Bell (10:20 A.M.)\nWe're running a sale on paper this weekend, though.\n\nJenna Kowalski (10:22 A.M.)\nSay no more. I'll call the warehouse and ask them to send the rest by Friday.\n\nMarcus Bell (10:23 A.M.)\nThanks. I'll have the driver unload what he has."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0014",
+   "p7-0015"
+  ],
+  "translation_ja": "マーカス・ベル（午前10時14分）：ジェナ、配送のバンがパイン通り店に着いたんだけど、運転手がプリンター用紙を12箱しか持っていないんだ。注文は20箱だったよね。\nジェナ・コワルスキ（10時16分）：おかしいわね。注文書を見てみる。\nジェナ・コワルスキ（10時19分）：そのとおり、20箱になってる。倉庫が出荷を分けたに違いないわ。\nマーカス・ベル（10時20分）：でも、今週末は用紙のセールをやるんだよ。\nジェナ・コワルスキ（10時22分）：わかった、皆まで言わなくていいわ。倉庫に電話して、残りを金曜日までに送ってもらうよう頼むわね。\nマーカス・ベル（10時23分）：ありがとう。運転手には今ある分を降ろしてもらうよ。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s006",
+  "part": 7,
+  "kind": "chat",
+  "scene": "marketing",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Online chat discussion",
+    "text": "Priya Natarajan [2:05 P.M.]\nHi, team. I just heard from the printer. The catalogs for our spring collection won't be ready until March 20, five days later than planned.\n\nTom Ellery [2:07 P.M.]\nThat's a problem. We were going to hand them out at the Home Living Expo on March 18.\n\nSofia Brandt [2:08 P.M.]\nCould we print a smaller number somewhere else in time for the expo?\n\nPriya Natarajan [2:10 P.M.]\nI asked about that. Quickprint Studio can do 300 copies by March 16, but they charge almost twice as much per copy as our regular printer.\n\nTom Ellery [2:11 P.M.]\nWe expect about 1,000 visitors to our booth, though.\n\nSofia Brandt [2:13 P.M.]\nWhat if we print 300 for the expo and put a QR code on our booth banner? Visitors could view the full catalog on their phones.\n\nPriya Natarajan [2:14 P.M.]\nI like that. I'll ask our designer to add a QR code to the banner today.\n\nTom Ellery [2:15 P.M.]\nGreat. I'll update the expo budget to include the extra printing cost."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0016",
+   "p7-0017",
+   "p7-0018",
+   "p7-0019"
+  ],
+  "translation_ja": "プリヤ・ナタラジャン［午後2時5分］：みなさん、印刷会社から連絡がありました。春のコレクションのカタログは3月20日まで仕上がらないそうです。予定より5日遅れです。\nトム・エラリー［2時7分］：それは困るな。3月18日のホーム・リビング博で配るつもりだったのに。\nソフィア・ブラント［2時8分］：博覧会に間に合うように、少ない部数をどこか別の所で刷れないかしら。\nプリヤ・ナタラジャン［2時10分］：それは聞いてみました。クイックプリント・スタジオなら3月16日までに300部刷れますが、1部あたりの料金はいつもの印刷会社の2倍近くかかります。\nトム・エラリー［2時11分］：でも、うちのブースには1,000人くらい来る見込みだよ。\nソフィア・ブラント［2時13分］：博覧会用に300部刷って、ブースの横断幕に QR コードを入れるのはどう？来場者はスマートフォンでカタログ全体を見られるわ。\nプリヤ・ナタラジャン［2時14分］：いいですね。今日中にデザイナーに横断幕へ QR コードを入れてもらうよう頼みます。\nトム・エラリー［2時15分］：よし。追加の印刷費を入れて、博覧会の予算を修正しておくよ。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s007",
+  "part": 7,
+  "kind": "single",
+  "scene": "real.estate",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "email",
+    "header": {
+     "To": "Daniel Mercer <dmercer@mailbox.example>",
+     "From": "Corinne Abara <cabara@westfieldproperties.example>",
+     "Date": "May 12",
+     "Subject": "Your lease renewal"
+    },
+    "text": "Dear Mr. Mercer,\n\nThank you for being a tenant at Westfield Court for the past two years. Your current lease will expire on July 31. — [1] — If you would like to renew it, please sign the attached agreement and return it to our office by June 15.\n\nThe monthly rent for a new one-year lease will be $1,240, an increase of $40. This reflects the rising cost of maintaining the building. — [2] — However, tenants who renew for two years instead of one will keep their current rent of $1,200 for the entire period. — [3] —\n\nIf you decide not to renew, please notify us in writing at least 30 days before your lease ends so that we can arrange a final inspection of the apartment. — [4] —\n\nSincerely,\nCorinne Abara\nWestfield Properties"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0020",
+   "p7-0021",
+   "p7-0022"
+  ],
+  "translation_ja": "宛先：ダニエル・マーサー／差出人：コリーヌ・アバラ（ウェストフィールド・プロパティーズ）／日付：5月12日／件名：賃貸契約の更新について\nマーサー様\nこの2年間、ウェストフィールド・コートにご入居いただきありがとうございます。現在の賃貸契約は7月31日で満了します。更新をご希望の場合は、添付の契約書に署名し、6月15日までに当事務所へご返送ください。\n新しい1年契約の月額家賃は1,240ドルで、40ドルの値上げとなります。これは建物の維持費の上昇を反映したものです。ただし、1年ではなく2年で更新される方は、期間中ずっと現在の家賃1,200ドルのままとなります。［2年間で960ドルの節約になります。］\n更新されない場合は、退去時の点検を手配できるよう、契約終了の30日前までに書面でお知らせください。\nウェストフィールド・プロパティーズ　コリーヌ・アバラ",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s008",
+  "part": 7,
+  "kind": "double",
+  "scene": "restaurant",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "webpage",
+    "title": "Maple & Sage Catering — Lunch Packages",
+    "table": {
+     "columns": [
+      "Package",
+      "Includes",
+      "Price per person"
+     ],
+     "rows": [
+      [
+       "Basic",
+       "Sandwiches, salad, soft drinks",
+       "$14"
+      ],
+      [
+       "Standard",
+       "Sandwiches, salad, soup, soft drinks",
+       "$18"
+      ],
+      [
+       "Deluxe",
+       "Hot main dish, salad, soup, dessert, soft drinks",
+       "$25"
+      ],
+      [
+       "Executive",
+       "Hot main dish, salad, soup, dessert, coffee and tea service",
+       "$32"
+      ]
+     ]
+    },
+    "text": "• The minimum order is 10 people.\n• Orders must be placed at least three business days in advance.\n• Delivery is free within 10 kilometers of our kitchen on Harbor Road. A $20 fee applies to other locations.\n• Vegetarian versions of all packages are available at no extra cost."
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "orders@mapleandsage.example",
+     "From": "Kenji Watanabe <kwatanabe@trilliumsoft.example>",
+     "Date": "September 8",
+     "Subject": "Lunch order"
+    },
+    "text": "Hello,\n\nI would like to order lunch for a training session at our office on September 18. There will be 16 participants. We would like soup and dessert to be included, but we don't need coffee or tea, since our office has its own coffee machine. Four of the participants do not eat meat.\n\nOur office is at 250 Linden Avenue, about 15 kilometers from your kitchen. Could you please send me an invoice with the total cost?\n\nBest regards,\nKenji Watanabe\nTrillium Software"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0023",
+   "p7-0024",
+   "p7-0025",
+   "p7-0026",
+   "p7-0027"
+  ],
+  "translation_ja": "【文書1】メープル＆セージ・ケータリング　ランチのセット（1人あたり）\nベーシック：サンドイッチ、サラダ、ソフトドリンク　14ドル／スタンダード：サンドイッチ、サラダ、スープ、ソフトドリンク　18ドル／デラックス：温かいメイン料理、サラダ、スープ、デザート、ソフトドリンク　25ドル／エグゼクティブ：温かいメイン料理、サラダ、スープ、デザート、コーヒー・紅茶のサービス　32ドル\n・ご注文は10人分から。・ご注文は3営業日前までにお願いします。・ハーバー通りの当店の調理場から10キロ以内は配達無料。それ以外の場所は20ドルかかります。・すべてのセットで、追加料金なしでベジタリアン向けにできます。\n【文書2】宛先：メープル＆セージ・ケータリング／差出人：ケンジ・ワタナベ（トリリウム・ソフトウェア）／日付：9月8日／件名：ランチの注文\n9月18日に当社で行う研修のランチを注文したいと思います。参加者は16人です。スープとデザートは付けてほしいのですが、社内にコーヒーマシンがあるので、コーヒーや紅茶は必要ありません。参加者のうち4人は肉を食べません。\n当社はリンデン通り250番地にあり、そちらの調理場から約15キロです。合計金額の請求書を送っていただけますか。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s009",
+  "part": 7,
+  "kind": "triple",
+  "scene": "hr",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Corlew Manufacturing — October Employee Workshops",
+    "table": {
+     "columns": [
+      "Date",
+      "Workshop",
+      "Room",
+      "Instructor"
+     ],
+     "rows": [
+      [
+       "October 6",
+       "Workplace Safety Basics",
+       "Room 101",
+       "Lena Fischer"
+      ],
+      [
+       "October 13",
+       "Effective Business Writing",
+       "Room 204",
+       "Omar Haddad"
+      ],
+      [
+       "October 20",
+       "Introduction to Data Analysis",
+       "Computer Lab",
+       "Grace Liu"
+      ],
+      [
+       "October 27",
+       "Leading Small Teams",
+       "Room 204",
+       "Omar Haddad"
+      ]
+     ]
+    },
+    "text": "All workshops run from 2:00 P.M. to 4:30 P.M. To register, e-mail Rebecca Tan in Human Resources at least one week before the workshop date. Each workshop is limited to 20 participants. Employees who complete three or more workshops this year will receive a certificate."
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "Rebecca Tan",
+     "From": "Martin Achebe",
+     "Date": "October 9",
+     "Subject": "Workshop registration"
+    },
+    "text": "Hi Rebecca,\n\nI attended the workshop on October 6, and I found it very practical. I would now like to sign up for Mr. Haddad's workshop on leading teams, since I will start supervising two new employees next month.\n\nI would also like to join the data analysis workshop, but I have a client meeting that afternoon from 1:00 to 3:00. Is there any chance that it will be offered again later this year?\n\nThanks,\nMartin Achebe\nProduction Department"
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "Martin Achebe",
+     "From": "Rebecca Tan",
+     "Date": "October 10",
+     "Subject": "RE: Workshop registration"
+    },
+    "text": "Hi Martin,\n\nI've added you to the list for October 27. As for the other workshop, Ms. Liu will teach it again on December 8, from 10:00 A.M. to 12:30 P.M., in the same room as before. Let me know if you would like me to register you for that session.\n\nBest,\nRebecca"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0028",
+   "p7-0029",
+   "p7-0030",
+   "p7-0031",
+   "p7-0032"
+  ],
+  "translation_ja": "【文書1】コーレウ製作所　10月の社員研修\n10月6日：職場の安全の基本（101号室、レナ・フィッシャー）／10月13日：効果的なビジネス文書（204号室、オマル・ハダッド）／10月20日：データ分析入門（コンピューター室、グレース・リウ）／10月27日：少人数チームの率い方（204号室、オマル・ハダッド）\n研修はすべて午後2時から4時30分まで。申し込みは、研修日の1週間前までに人事部のレベッカ・タンにメールで。各回の定員は20人。今年3回以上の研修を修了した社員には修了証を授与します。\n【文書2】宛先：レベッカ・タン／差出人：マーティン・アチェベ／日付：10月9日／件名：研修の申し込み\n10月6日の研修に参加しましたが、とても実践的でした。来月から新入社員2人の指導を始めるので、ハダッドさんのチームの率い方の研修に申し込みたいと思います。データ分析の研修にも参加したいのですが、その日の午後は1時から3時まで顧客との打ち合わせがあります。今年中にもう一度開かれる可能性はありますか。\n【文書3】宛先：マーティン・アチェベ／差出人：レベッカ・タン／日付：10月10日／件名：RE: 研修の申し込み\n10月27日の名簿に追加しました。もう1つの研修は、リウさんが12月8日の午前10時から12時30分に、前回と同じ部屋でもう一度担当します。その回にも申し込む場合はお知らせください。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch a"
  }
 ]

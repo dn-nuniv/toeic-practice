@@ -1,0 +1,508 @@
+{
+ "batch": "2026-11-16-p7-a",
+ "source": "2026-11-16 / part7 batch a",
+ "note": "blueprint に沿った Part 7 の6セット22問（単一2・チャット2・ダブル1・トリプル1。照合問題6問）",
+ "sets": [
+  {
+   "id": "p7-s004",
+   "kind": "single",
+   "scene": "office",
+   "passages": [
+    {
+     "type": "memo",
+     "header": {
+      "To": "All Employees",
+      "From": "Hannah Osei, Office Manager",
+      "Date": "October 2",
+      "Subject": "Kitchen renovation"
+     },
+     "text": "Beginning Monday, October 9, the third-floor kitchen will be closed for renovation. The work is expected to take two weeks. During this time, employees may use the kitchen on the fifth floor, which will remain open from 7:00 A.M. to 7:00 P.M.\n\nThe renovated kitchen will include a larger refrigerator, a second sink, and a new coffee machine. Please remove any personal items from the third-floor refrigerator by Friday, October 6. Items left after that date will be thrown away.\n\nThank you for your patience. If you have any questions, please contact me at extension 214."
+    }
+   ],
+   "translation_ja": "宛先：全社員／差出人：ハンナ・オセイ（総務マネージャー）／日付：10月2日／件名：給湯室の改装\n10月9日（月）から、3階の給湯室は改装のため閉鎖します。工事は2週間かかる見込みです。その間は5階の給湯室を利用できます（午前7時〜午後7時）。\n改装後の給湯室には、より大きな冷蔵庫、2つ目の流し台、新しいコーヒーマシンが入ります。3階の冷蔵庫にある私物は10月6日（金）までに出してください。それ以降に残っている物は処分します。\nご協力ありがとうございます。質問があれば内線214の私までご連絡ください。",
+   "questions": [
+    {
+     "id": "p7-0011",
+     "type": "purpose",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "What is the purpose of the memo?",
+     "options": [
+      "To announce a temporary closure",
+      "To introduce a new office manager",
+      "To request ideas for a kitchen design",
+      "To report a problem with a coffee machine"
+     ],
+     "answer": "a",
+     "explanation_ja": "冒頭の the third-floor kitchen will be closed for renovation と The work is expected to take two weeks から、給湯室の一時的な閉鎖を知らせるメモ。デザイン案の募集やマシンの故障には触れていない。",
+     "translation_ja": "このメモの目的は何か。",
+     "translation_options_ja": ["一時的な閉鎖を知らせること", "新しい総務マネージャーを紹介すること", "給湯室のデザイン案を募ること", "コーヒーマシンの故障を報告すること"]
+    },
+    {
+     "id": "p7-0012",
+     "type": "not.true",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "What is NOT mentioned as a feature of the renovated kitchen?",
+     "options": ["A bigger refrigerator", "A dishwasher", "An additional sink", "A new coffee maker"],
+     "answer": "b",
+     "explanation_ja": "a larger refrigerator, a second sink, and a new coffee machine とあり、それぞれ bigger refrigerator・additional sink・new coffee maker と言い換えられている。食器洗い機は書かれていない。",
+     "translation_ja": "改装後の給湯室の設備として述べられていないものはどれか。",
+     "translation_options_ja": ["より大きな冷蔵庫", "食器洗い機", "追加の流し台", "新しいコーヒーメーカー"]
+    },
+    {
+     "id": "p7-0013",
+     "type": "detail",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "By what date should employees remove their belongings from the refrigerator?",
+     "options": ["October 6", "October 9", "October 16", "October 23"],
+     "answer": "a",
+     "shuffle": false,
+     "explanation_ja": "Please remove any personal items ... by Friday, October 6 とある。10月9日は閉鎖が始まる日、10月23日は2週間の工事が終わるころ。",
+     "translation_ja": "社員はいつまでに冷蔵庫から私物を出さなければならないか。",
+     "translation_options_ja": ["10月6日", "10月9日", "10月16日", "10月23日"]
+    }
+   ]
+  },
+  {
+   "id": "p7-s005",
+   "kind": "chat",
+   "scene": "logistics",
+   "passages": [
+    {
+     "type": "chat",
+     "title": "Text-message chain",
+     "text": "Marcus Bell (10:14 A.M.)\nHi, Jenna. The delivery van just arrived at the Pine Street store, but the driver only has 12 boxes of printer paper. Our order was for 20.\n\nJenna Kowalski (10:16 A.M.)\nThat's odd. Let me look at the order form.\n\nJenna Kowalski (10:19 A.M.)\nYou're right. It says 20. The warehouse must have split the shipment.\n\nMarcus Bell (10:20 A.M.)\nWe're running a sale on paper this weekend, though.\n\nJenna Kowalski (10:22 A.M.)\nSay no more. I'll call the warehouse and ask them to send the rest by Friday.\n\nMarcus Bell (10:23 A.M.)\nThanks. I'll have the driver unload what he has."
+    }
+   ],
+   "translation_ja": "マーカス・ベル（午前10時14分）：ジェナ、配送のバンがパイン通り店に着いたんだけど、運転手がプリンター用紙を12箱しか持っていないんだ。注文は20箱だったよね。\nジェナ・コワルスキ（10時16分）：おかしいわね。注文書を見てみる。\nジェナ・コワルスキ（10時19分）：そのとおり、20箱になってる。倉庫が出荷を分けたに違いないわ。\nマーカス・ベル（10時20分）：でも、今週末は用紙のセールをやるんだよ。\nジェナ・コワルスキ（10時22分）：わかった、皆まで言わなくていいわ。倉庫に電話して、残りを金曜日までに送ってもらうよう頼むわね。\nマーカス・ベル（10時23分）：ありがとう。運転手には今ある分を降ろしてもらうよ。",
+   "questions": [
+    {
+     "id": "p7-0014",
+     "type": "intention.chat",
+     "scene": "logistics",
+     "level": "B1",
+     "prompt": "At 10:22 A.M., what does Ms. Kowalski most likely mean when she writes, \"Say no more\"?",
+     "options": [
+      "She wants Mr. Bell to stop complaining.",
+      "She has not seen the order form yet.",
+      "She understands that the matter is urgent.",
+      "She disagrees with the plan for a sale."
+     ],
+     "answer": "c",
+     "explanation_ja": "直前にベルさんが「週末に用紙のセールがある」と書き、それを受けて「すぐ倉庫に電話して金曜までに送らせる」と続けている。Say no more は「皆まで言わなくてもわかった」の意味で、急ぎだと理解したことを表す。文字どおり「黙って」と受け取るのはひっかけ。",
+     "translation_ja": "午前10時22分にコワルスキさんが「Say no more」と書いているのは、どういう意味だと考えられるか。",
+     "translation_options_ja": ["ベルさんに文句を言うのをやめてほしい。", "まだ注文書を見ていない。", "急ぎの問題だとわかっている。", "セールの計画に反対している。"]
+    },
+    {
+     "id": "p7-0015",
+     "type": "detail",
+     "scene": "logistics",
+     "level": "B1",
+     "prompt": "What will Ms. Kowalski most likely do next?",
+     "options": [
+      "Unload the delivery van",
+      "Cancel the weekend sale",
+      "Visit the Pine Street store",
+      "Contact the warehouse"
+     ],
+     "answer": "d",
+     "explanation_ja": "I'll call the warehouse and ask them to send the rest by Friday とある。荷物を降ろすのは運転手（I'll have the driver unload）なので誤り。",
+     "translation_ja": "コワルスキさんは次に何をすると考えられるか。",
+     "translation_options_ja": ["配送のバンから荷物を降ろす", "週末のセールを中止する", "パイン通り店に行く", "倉庫に連絡する"]
+    }
+   ]
+  },
+  {
+   "id": "p7-s006",
+   "kind": "chat",
+   "scene": "marketing",
+   "passages": [
+    {
+     "type": "chat",
+     "title": "Online chat discussion",
+     "text": "Priya Natarajan [2:05 P.M.]\nHi, team. I just heard from the printer. The catalogs for our spring collection won't be ready until March 20, five days later than planned.\n\nTom Ellery [2:07 P.M.]\nThat's a problem. We were going to hand them out at the Home Living Expo on March 18.\n\nSofia Brandt [2:08 P.M.]\nCould we print a smaller number somewhere else in time for the expo?\n\nPriya Natarajan [2:10 P.M.]\nI asked about that. Quickprint Studio can do 300 copies by March 16, but they charge almost twice as much per copy as our regular printer.\n\nTom Ellery [2:11 P.M.]\nWe expect about 1,000 visitors to our booth, though.\n\nSofia Brandt [2:13 P.M.]\nWhat if we print 300 for the expo and put a QR code on our booth banner? Visitors could view the full catalog on their phones.\n\nPriya Natarajan [2:14 P.M.]\nI like that. I'll ask our designer to add a QR code to the banner today.\n\nTom Ellery [2:15 P.M.]\nGreat. I'll update the expo budget to include the extra printing cost."
+    }
+   ],
+   "translation_ja": "プリヤ・ナタラジャン［午後2時5分］：みなさん、印刷会社から連絡がありました。春のコレクションのカタログは3月20日まで仕上がらないそうです。予定より5日遅れです。\nトム・エラリー［2時7分］：それは困るな。3月18日のホーム・リビング博で配るつもりだったのに。\nソフィア・ブラント［2時8分］：博覧会に間に合うように、少ない部数をどこか別の所で刷れないかしら。\nプリヤ・ナタラジャン［2時10分］：それは聞いてみました。クイックプリント・スタジオなら3月16日までに300部刷れますが、1部あたりの料金はいつもの印刷会社の2倍近くかかります。\nトム・エラリー［2時11分］：でも、うちのブースには1,000人くらい来る見込みだよ。\nソフィア・ブラント［2時13分］：博覧会用に300部刷って、ブースの横断幕に QR コードを入れるのはどう？来場者はスマートフォンでカタログ全体を見られるわ。\nプリヤ・ナタラジャン［2時14分］：いいですね。今日中にデザイナーに横断幕へ QR コードを入れてもらうよう頼みます。\nトム・エラリー［2時15分］：よし。追加の印刷費を入れて、博覧会の予算を修正しておくよ。",
+   "questions": [
+    {
+     "id": "p7-0016",
+     "type": "detail",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "What problem does Ms. Natarajan mention?",
+     "options": [
+      "A print job will be completed late.",
+      "A booth reservation has been canceled.",
+      "A designer is not available.",
+      "A catalog contains several errors."
+     ],
+     "answer": "a",
+     "explanation_ja": "The catalogs ... won't be ready until March 20, five days later than planned とあり、印刷物が遅れることを「completed late」と言い換えている。",
+     "translation_ja": "ナタラジャンさんはどんな問題を伝えているか。",
+     "translation_options_ja": ["印刷物の仕上がりが遅れる。", "ブースの予約が取り消された。", "デザイナーの都合がつかない。", "カタログにいくつか誤りがある。"]
+    },
+    {
+     "id": "p7-0017",
+     "type": "intention.chat",
+     "scene": "marketing",
+     "level": "B2",
+     "prompt": "At 2:11 P.M., what does Mr. Ellery imply when he writes, \"We expect about 1,000 visitors to our booth, though\"?",
+     "options": [
+      "The printing cost is too high.",
+      "Printing 300 copies may not be enough.",
+      "The booth should be moved to a larger space.",
+      "Extra staff will be needed at the expo."
+     ],
+     "answer": "b",
+     "explanation_ja": "直前の「300部なら間に合う」に対して though（でも）を付けて来場者数1,000人を挙げており、300部では足りないと言いたい。その後ブラントさんが QR コードで補う案を出していることからも確かめられる。",
+     "translation_ja": "午後2時11分にエラリーさんが「でも、うちのブースには1,000人くらい来る見込みだよ」と書いているのは、何を示唆しているか。",
+     "translation_options_ja": ["印刷費が高すぎる。", "300部では足りないかもしれない。", "ブースをもっと広い場所に移すべきだ。", "博覧会には追加の人員が必要だ。"]
+    },
+    {
+     "id": "p7-0018",
+     "type": "inference",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "What is suggested about Quickprint Studio?",
+     "options": [
+      "It cannot finish the job before March 16.",
+      "It designed the company's booth banner.",
+      "It costs more than the company's usual printer.",
+      "It will have a booth at the Home Living Expo."
+     ],
+     "answer": "c",
+     "explanation_ja": "they charge almost twice as much per copy as our regular printer から、いつもの印刷会社より高い。3月16日までに300部刷れると言っているので2つ目は誤り。",
+     "translation_ja": "クイックプリント・スタジオについて何が示唆されているか。",
+     "translation_options_ja": [
+      "3月16日より前に仕上げられない。",
+      "その会社のブースの横断幕をデザインした。",
+      "その会社がいつも使う印刷会社より高い。",
+      "ホーム・リビング博にブースを出す。"
+     ]
+    },
+    {
+     "id": "p7-0019",
+     "type": "detail",
+     "scene": "marketing",
+     "level": "B1",
+     "prompt": "What does Mr. Ellery say he will do?",
+     "options": [
+      "Contact a designer",
+      "Order a new banner",
+      "Call another printing company",
+      "Revise a budget"
+     ],
+     "answer": "d",
+     "explanation_ja": "I'll update the expo budget とあり、update を revise と言い換えている。デザイナーに頼むのはナタラジャンさん。",
+     "translation_ja": "エラリーさんは何をすると言っているか。",
+     "translation_options_ja": ["デザイナーに連絡する", "新しい横断幕を注文する", "別の印刷会社に電話する", "予算を修正する"]
+    }
+   ]
+  },
+  {
+   "id": "p7-s007",
+   "kind": "single",
+   "scene": "real.estate",
+   "passages": [
+    {
+     "type": "email",
+     "header": {
+      "To": "Daniel Mercer <dmercer@mailbox.example>",
+      "From": "Corinne Abara <cabara@westfieldproperties.example>",
+      "Date": "May 12",
+      "Subject": "Your lease renewal"
+     },
+     "text": "Dear Mr. Mercer,\n\nThank you for being a tenant at Westfield Court for the past two years. Your current lease will expire on July 31. — [1] — If you would like to renew it, please sign the attached agreement and return it to our office by June 15.\n\nThe monthly rent for a new one-year lease will be $1,240, an increase of $40. This reflects the rising cost of maintaining the building. — [2] — However, tenants who renew for two years instead of one will keep their current rent of $1,200 for the entire period. — [3] —\n\nIf you decide not to renew, please notify us in writing at least 30 days before your lease ends so that we can arrange a final inspection of the apartment. — [4] —\n\nSincerely,\nCorinne Abara\nWestfield Properties"
+    }
+   ],
+   "translation_ja": "宛先：ダニエル・マーサー／差出人：コリーヌ・アバラ（ウェストフィールド・プロパティーズ）／日付：5月12日／件名：賃貸契約の更新について\nマーサー様\nこの2年間、ウェストフィールド・コートにご入居いただきありがとうございます。現在の賃貸契約は7月31日で満了します。更新をご希望の場合は、添付の契約書に署名し、6月15日までに当事務所へご返送ください。\n新しい1年契約の月額家賃は1,240ドルで、40ドルの値上げとなります。これは建物の維持費の上昇を反映したものです。ただし、1年ではなく2年で更新される方は、期間中ずっと現在の家賃1,200ドルのままとなります。［2年間で960ドルの節約になります。］\n更新されない場合は、退去時の点検を手配できるよう、契約終了の30日前までに書面でお知らせください。\nウェストフィールド・プロパティーズ　コリーヌ・アバラ",
+   "questions": [
+    {
+     "id": "p7-0020",
+     "type": "purpose",
+     "scene": "real.estate",
+     "level": "B1",
+     "prompt": "Why did Ms. Abara write to Mr. Mercer?",
+     "options": [
+      "To explain his options for continuing a lease",
+      "To remind him about a late payment",
+      "To schedule a repair in his apartment",
+      "To welcome him as a new tenant"
+     ],
+     "answer": "a",
+     "explanation_ja": "契約満了日と更新の手続き、1年契約と2年契約の家賃の違いを説明している。2年間住んでいる入居者なので「新しい入居者」は誤り。",
+     "translation_ja": "アバラさんはなぜマーサーさんにメールを書いたのか。",
+     "translation_options_ja": ["契約を続けるための選択肢を説明するため", "支払いの遅れを知らせるため", "部屋の修理の日程を決めるため", "新しい入居者として歓迎するため"]
+    },
+    {
+     "id": "p7-0021",
+     "type": "synonym",
+     "scene": "real.estate",
+     "level": "B2",
+     "prompt": "In the e-mail, the word \"reflects\" in paragraph 2 is closest in meaning to",
+     "options": ["returns", "shows", "considers", "copies"],
+     "answer": "b",
+     "explanation_ja": "This reflects the rising cost は「これ（値上げ）は維持費の上昇を反映している＝表している」の意味なので shows。reflect on（よく考える）や「光を反射する」の連想から considers・copies・returns を選ばせるひっかけ。",
+     "translation_ja": "メールの第2段落にある「reflects」に最も意味が近いのはどれか。",
+     "translation_options_ja": ["戻す", "示す", "よく考える", "写す"]
+    },
+    {
+     "id": "p7-0022",
+     "type": "sentence.position",
+     "scene": "real.estate",
+     "level": "B1",
+     "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Choosing this option would save you $960 over the two years.\"",
+     "options": ["[1]", "[2]", "[3]", "[4]"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "this option は直前の「2年で更新すれば家賃は1,200ドルのまま」を指す。1か月40ドル×24か月＝960ドルで計算も合う。[2] だと this option が値上げを指すことになり、節約の話につながらない。",
+     "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「この選択肢を選ぶと、2年間で960ドルの節約になります。」",
+     "translation_options_ja": ["[1]", "[2]", "[3]", "[4]"]
+    }
+   ]
+  },
+  {
+   "id": "p7-s008",
+   "kind": "double",
+   "scene": "restaurant",
+   "passages": [
+    {
+     "type": "webpage",
+     "title": "Maple & Sage Catering — Lunch Packages",
+     "table": {
+      "columns": ["Package", "Includes", "Price per person"],
+      "rows": [
+       ["Basic", "Sandwiches, salad, soft drinks", "$14"],
+       ["Standard", "Sandwiches, salad, soup, soft drinks", "$18"],
+       ["Deluxe", "Hot main dish, salad, soup, dessert, soft drinks", "$25"],
+       ["Executive", "Hot main dish, salad, soup, dessert, coffee and tea service", "$32"]
+      ]
+     },
+     "text": "• The minimum order is 10 people.\n• Orders must be placed at least three business days in advance.\n• Delivery is free within 10 kilometers of our kitchen on Harbor Road. A $20 fee applies to other locations.\n• Vegetarian versions of all packages are available at no extra cost."
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "orders@mapleandsage.example",
+      "From": "Kenji Watanabe <kwatanabe@trilliumsoft.example>",
+      "Date": "September 8",
+      "Subject": "Lunch order"
+     },
+     "text": "Hello,\n\nI would like to order lunch for a training session at our office on September 18. There will be 16 participants. We would like soup and dessert to be included, but we don't need coffee or tea, since our office has its own coffee machine. Four of the participants do not eat meat.\n\nOur office is at 250 Linden Avenue, about 15 kilometers from your kitchen. Could you please send me an invoice with the total cost?\n\nBest regards,\nKenji Watanabe\nTrillium Software"
+    }
+   ],
+   "translation_ja": "【文書1】メープル＆セージ・ケータリング　ランチのセット（1人あたり）\nベーシック：サンドイッチ、サラダ、ソフトドリンク　14ドル／スタンダード：サンドイッチ、サラダ、スープ、ソフトドリンク　18ドル／デラックス：温かいメイン料理、サラダ、スープ、デザート、ソフトドリンク　25ドル／エグゼクティブ：温かいメイン料理、サラダ、スープ、デザート、コーヒー・紅茶のサービス　32ドル\n・ご注文は10人分から。・ご注文は3営業日前までにお願いします。・ハーバー通りの当店の調理場から10キロ以内は配達無料。それ以外の場所は20ドルかかります。・すべてのセットで、追加料金なしでベジタリアン向けにできます。\n【文書2】宛先：メープル＆セージ・ケータリング／差出人：ケンジ・ワタナベ（トリリウム・ソフトウェア）／日付：9月8日／件名：ランチの注文\n9月18日に当社で行う研修のランチを注文したいと思います。参加者は16人です。スープとデザートは付けてほしいのですが、社内にコーヒーマシンがあるので、コーヒーや紅茶は必要ありません。参加者のうち4人は肉を食べません。\n当社はリンデン通り250番地にあり、そちらの調理場から約15キロです。合計金額の請求書を送っていただけますか。",
+   "questions": [
+    {
+     "id": "p7-0023",
+     "type": "indicated",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "What is indicated about Maple & Sage Catering?",
+     "options": [
+      "It has recently changed its prices.",
+      "It offers a discount for large groups.",
+      "It requires orders for at least ten people.",
+      "It operates more than one kitchen."
+     ],
+     "answer": "c",
+     "explanation_ja": "文書1に The minimum order is 10 people とある。our kitchen on Harbor Road と調理場は1つで、値上げや団体割引には触れていない。",
+     "translation_ja": "メープル＆セージ・ケータリングについて何が示されているか。",
+     "translation_options_ja": ["最近料金を変えた。", "大人数の団体には割引がある。", "10人分以上の注文が必要だ。", "調理場を2つ以上持っている。"]
+    },
+    {
+     "id": "p7-0024",
+     "type": "purpose",
+     "scene": "restaurant",
+     "level": "A2",
+     "prompt": "Why did Mr. Watanabe send the e-mail?",
+     "options": [
+      "To complain about a delivery",
+      "To ask about a job opening",
+      "To reschedule a training session",
+      "To place an order for a meal"
+     ],
+     "answer": "d",
+     "explanation_ja": "文書2の I would like to order lunch for a training session から、ランチの注文のメール。研修は日程を伝えているだけで、変更ではない。",
+     "translation_ja": "ワタナベさんはなぜメールを送ったのか。",
+     "translation_options_ja": ["配達について苦情を言うため", "求人について尋ねるため", "研修の日程を変えるため", "食事を注文するため"]
+    },
+    {
+     "id": "p7-0025",
+     "type": "cross.reference",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "Which package will Mr. Watanabe most likely order?",
+     "options": ["Basic", "Standard", "Deluxe", "Executive"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "【2文書の照合】スープとデザートが必要でコーヒー・紅茶は不要（文書2）。両方を含みコーヒー・紅茶のサービスがないのはデラックス（文書1）。エグゼクティブはコーヒー・紅茶付き、スタンダードはデザートがない。",
+     "translation_ja": "ワタナベさんはどのセットを注文すると考えられるか。",
+     "translation_options_ja": ["ベーシック", "スタンダード", "デラックス", "エグゼクティブ"]
+    },
+    {
+     "id": "p7-0026",
+     "type": "cross.reference",
+     "scene": "restaurant",
+     "level": "B2",
+     "prompt": "How much will Mr. Watanabe's company most likely be charged in total?",
+     "options": ["$400", "$420", "$512", "$532"],
+     "answer": "b",
+     "shuffle": false,
+     "explanation_ja": "【2文書の照合】デラックス25ドル×16人＝400ドル。事務所は調理場から約15キロ（文書2）で、10キロを超えるので配達料20ドルがかかる（文書1）。合計420ドル。",
+     "translation_ja": "ワタナベさんの会社は合計でいくら請求されると考えられるか。",
+     "translation_options_ja": ["400ドル", "420ドル", "512ドル", "532ドル"]
+    },
+    {
+     "id": "p7-0027",
+     "type": "cross.reference",
+     "scene": "restaurant",
+     "level": "B1",
+     "prompt": "What is suggested about the four participants who do not eat meat?",
+     "options": [
+      "They can receive special meals at no additional charge.",
+      "They will bring their own lunches.",
+      "They will arrive at the session late.",
+      "They will have only soup and salad."
+     ],
+     "answer": "a",
+     "explanation_ja": "【2文書の照合】肉を食べない参加者が4人いる（文書2）。文書1に Vegetarian versions of all packages are available at no extra cost とあるので、追加料金なしでベジタリアン向けの食事を受け取れる。",
+     "translation_ja": "肉を食べない4人の参加者について何が示唆されているか。",
+     "translation_options_ja": ["追加料金なしで特別な食事を受け取れる。", "自分の昼食を持ってくる。", "研修に遅れて来る。", "スープとサラダだけを食べる。"]
+    }
+   ]
+  },
+  {
+   "id": "p7-s009",
+   "kind": "triple",
+   "scene": "hr",
+   "passages": [
+    {
+     "type": "notice",
+     "title": "Corlew Manufacturing — October Employee Workshops",
+     "table": {
+      "columns": ["Date", "Workshop", "Room", "Instructor"],
+      "rows": [
+       ["October 6", "Workplace Safety Basics", "Room 101", "Lena Fischer"],
+       ["October 13", "Effective Business Writing", "Room 204", "Omar Haddad"],
+       ["October 20", "Introduction to Data Analysis", "Computer Lab", "Grace Liu"],
+       ["October 27", "Leading Small Teams", "Room 204", "Omar Haddad"]
+      ]
+     },
+     "text": "All workshops run from 2:00 P.M. to 4:30 P.M. To register, e-mail Rebecca Tan in Human Resources at least one week before the workshop date. Each workshop is limited to 20 participants. Employees who complete three or more workshops this year will receive a certificate."
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "Rebecca Tan",
+      "From": "Martin Achebe",
+      "Date": "October 9",
+      "Subject": "Workshop registration"
+     },
+     "text": "Hi Rebecca,\n\nI attended the workshop on October 6, and I found it very practical. I would now like to sign up for Mr. Haddad's workshop on leading teams, since I will start supervising two new employees next month.\n\nI would also like to join the data analysis workshop, but I have a client meeting that afternoon from 1:00 to 3:00. Is there any chance that it will be offered again later this year?\n\nThanks,\nMartin Achebe\nProduction Department"
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "Martin Achebe",
+      "From": "Rebecca Tan",
+      "Date": "October 10",
+      "Subject": "RE: Workshop registration"
+     },
+     "text": "Hi Martin,\n\nI've added you to the list for October 27. As for the other workshop, Ms. Liu will teach it again on December 8, from 10:00 A.M. to 12:30 P.M., in the same room as before. Let me know if you would like me to register you for that session.\n\nBest,\nRebecca"
+    }
+   ],
+   "translation_ja": "【文書1】コーレウ製作所　10月の社員研修\n10月6日：職場の安全の基本（101号室、レナ・フィッシャー）／10月13日：効果的なビジネス文書（204号室、オマル・ハダッド）／10月20日：データ分析入門（コンピューター室、グレース・リウ）／10月27日：少人数チームの率い方（204号室、オマル・ハダッド）\n研修はすべて午後2時から4時30分まで。申し込みは、研修日の1週間前までに人事部のレベッカ・タンにメールで。各回の定員は20人。今年3回以上の研修を修了した社員には修了証を授与します。\n【文書2】宛先：レベッカ・タン／差出人：マーティン・アチェベ／日付：10月9日／件名：研修の申し込み\n10月6日の研修に参加しましたが、とても実践的でした。来月から新入社員2人の指導を始めるので、ハダッドさんのチームの率い方の研修に申し込みたいと思います。データ分析の研修にも参加したいのですが、その日の午後は1時から3時まで顧客との打ち合わせがあります。今年中にもう一度開かれる可能性はありますか。\n【文書3】宛先：マーティン・アチェベ／差出人：レベッカ・タン／日付：10月10日／件名：RE: 研修の申し込み\n10月27日の名簿に追加しました。もう1つの研修は、リウさんが12月8日の午前10時から12時30分に、前回と同じ部屋でもう一度担当します。その回にも申し込む場合はお知らせください。",
+   "questions": [
+    {
+     "id": "p7-0028",
+     "type": "indicated",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "What is indicated about the workshops?",
+     "options": [
+      "They are open to the public.",
+      "They take place in the afternoon.",
+      "They are all taught by the same instructor.",
+      "They require a registration fee."
+     ],
+     "answer": "b",
+     "explanation_ja": "文書1に All workshops run from 2:00 P.M. to 4:30 P.M. とある。講師は3人で、社員向けの研修であり、参加費には触れていない。",
+     "translation_ja": "研修について何が示されているか。",
+     "translation_options_ja": ["一般の人も参加できる。", "午後に行われる。", "すべて同じ講師が担当する。", "参加費が必要だ。"]
+    },
+    {
+     "id": "p7-0029",
+     "type": "cross.reference",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "Where will the December workshop be held?",
+     "options": ["In Room 101", "In Room 204", "In the Computer Lab", "In the Human Resources office"],
+     "answer": "c",
+     "explanation_ja": "【2文書の照合】文書3に、リウさんが12月8日に in the same room as before で教えるとある。文書1でリウさんのデータ分析入門はコンピューター室。",
+     "translation_ja": "12月の研修はどこで行われるか。",
+     "translation_options_ja": ["101号室", "204号室", "コンピューター室", "人事部の部屋"]
+    },
+    {
+     "id": "p7-0030",
+     "type": "inference",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "Why does Mr. Achebe want to attend the workshop on October 27?",
+     "options": [
+      "His manager has required him to attend.",
+      "He missed the workshop last year.",
+      "He hopes to become an instructor.",
+      "He will soon have supervisory duties."
+     ],
+     "answer": "d",
+     "explanation_ja": "文書2に I will start supervising two new employees next month とあり、これを supervisory duties（指導・監督の仕事）と言い換えている。",
+     "translation_ja": "アチェベさんはなぜ10月27日の研修に参加したいのか。",
+     "translation_options_ja": ["上司に参加を命じられた。", "昨年その研修に出られなかった。", "講師になりたいと思っている。", "まもなく指導する立場になる。"]
+    },
+    {
+     "id": "p7-0031",
+     "type": "cross.reference",
+     "scene": "hr",
+     "level": "B1",
+     "prompt": "Why is Mr. Achebe unable to attend the workshop on October 20?",
+     "options": [
+      "It conflicts with another appointment.",
+      "It is already full.",
+      "He contacted Ms. Tan too late.",
+      "The Computer Lab is being renovated."
+     ],
+     "answer": "a",
+     "explanation_ja": "【2文書の照合】研修は午後2時から4時30分（文書1）、アチェベさんはその日1時から3時まで顧客との打ち合わせがある（文書2）ので時間が重なる。申し込みは10月9日で、1週間前の期限には間に合っている。",
+     "translation_ja": "アチェベさんはなぜ10月20日の研修に参加できないのか。",
+     "translation_options_ja": ["別の予定と重なっている。", "すでに定員に達している。", "タンさんへの連絡が遅すぎた。", "コンピューター室が改装中だ。"]
+    },
+    {
+     "id": "p7-0032",
+     "type": "cross.reference",
+     "scene": "hr",
+     "level": "B2",
+     "prompt": "What is suggested about Mr. Achebe?",
+     "options": [
+      "He works in the Human Resources Department.",
+      "He will qualify for a certificate if he attends on December 8.",
+      "He will teach a workshop in December.",
+      "He has taken a writing workshop with Mr. Haddad."
+     ],
+     "answer": "b",
+     "explanation_ja": "【3文書の照合】3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで10月27日に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば3回になる。所属は生産部。",
+     "translation_ja": "アチェベさんについて何が示唆されているか。",
+     "translation_options_ja": [
+      "人事部で働いている。",
+      "12月8日に参加すれば修了証の条件を満たす。",
+      "12月に研修の講師を務める。",
+      "ハダッドさんの文書の研修を受けたことがある。"
+     ]
+    }
+   ]
+  }
+ ]
+}
