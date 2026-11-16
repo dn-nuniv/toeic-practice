@@ -1858,5 +1858,629 @@
    "fix": "「『次に何をするか』を問う問題は、会話の終盤のやりとり（この問題ではペンを借りる流れ）から直後の行動を判断する」のように改める。",
    "explain_hash": "9a30f27d3da3"
   }
+ ],
+ "p4-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eff3e317d877"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "ポイントの「主題は最初の1〜2文で示される」は、例外のない一般則として言い切っています。",
+   "fix": "「主題は最初の1〜2文で示されることが多い」とする。",
+   "explain_hash": "eff3e317d877"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eff3e317d877"
+  }
+ ],
+ "p4-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26270d2497e4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26270d2497e4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "26270d2497e4"
+  }
+ ],
+ "p4-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9b49b63c405"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9b49b63c405"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントの「reason の問題」で、設問タイプの英語表記がそのまま使われており学習者に分かりにくい。",
+   "fix": "「理由を問う問題でよく使われる形。」とする。",
+   "explain_hash": "d9b49b63c405"
+  }
+ ],
+ "p4-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b0d67b5beda8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b0d67b5beda8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b0d67b5beda8"
+  }
+ ],
+ "p4-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a644e67fcf77"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a644e67fcf77"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a644e67fcf77"
+  }
+ ],
+ "p4-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5982689c5b72"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5982689c5b72"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5982689c5b72"
+  }
+ ],
+ "p4-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントに、内部用のタグ名「listener.identity」がそのまま出ている。学習者には意味が分からない。",
+   "fix": "「聞き手はだれかを問う問題は、welcome to ～ や your guide などの呼びかけから判断する。」とする。",
+   "explain_hash": "b7700f51cf0c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b7700f51cf0c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントの「listener.identity（聞き手はだれか）」に、内部用の識別子のような英語表記がそのまま残っており不自然。",
+   "fix": "「聞き手はだれかを問う問題では、welcome to ～ や your guide などの呼びかけから判断する。」とする。",
+   "explain_hash": "b7700f51cf0c"
+  }
+ ],
+ "p4-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "38a27e8fb01e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "38a27e8fb01e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "38a27e8fb01e"
+  }
+ ],
+ "p4-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "スクリプトの訳「職員がかなり厳しいんです」では、the staff there are quite strict about it の about it（館内での撮影について）が抜けている。そのため、なぜ撮影が制限されるのかという推測の根拠が訳から読み取りにくい。",
+   "fix": "「博物館は先月規則を変えまして、そこの職員は撮影にかなり厳しいんです。」とする。",
+   "explain_hash": "6be5b6f297e3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6be5b6f297e3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6be5b6f297e3"
+  }
+ ],
+ "p4-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb27e81dca8e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb27e81dca8e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "eb27e81dca8e"
+  }
+ ],
+ "p4-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3745ef7e3ee"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3745ef7e3ee"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3745ef7e3ee"
+  }
+ ],
+ "p4-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f52d899c913"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f52d899c913"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f52d899c913"
+  }
+ ],
+ "p4-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントでは「最初の文の approved plans for ～ の後に来る」と書いているが、スクリプトの最初の文は You're listening to Morning Update on Radio Delmont. で、approved plans は2文目にある。また、approved plans for という特定の語句を一般的な規則のように書いており、言い過ぎになっている。",
+   "fix": "「ニュースの主題は、番組名などの導入のすぐ後の文で示されることが多い。ここでは approved plans for ～ の後が主題。」とする。",
+   "explain_hash": "9fecd210544d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳の more than forty は厳密には「40を超える」で、「40以上」では40も含まれます。また、next fall は発話時点によって同じ年の秋も指すため、「来年の秋」とは断定できません。末尾の after the break の訳も抜けています。ポイントは、ニュース一般の主題が approved plans for ～ の後に来るという説明になっています。",
+   "fix": "共通本文訳を「40を超える店」「次の秋」「この後、休憩を挟んで週末の天気予報をお伝えします」とする。ポイントは「この放送では、approved plans yesterday for a new public market が主題をつかむ手がかりになる」とする。",
+   "explain_hash": "9fecd210544d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントの「ニュースの主題は、最初の文の approved plans for ～ の後に来る。」は、この問題固有の表現をニュース全般の法則のように言い過ぎていて不正確。",
+   "fix": "「ニュースの主題は、最初の1〜2文で述べられることが多い（ここでは approved plans for ～ の後）。」のように一般化を避けて直す。",
+   "explain_hash": "9fecd210544d"
+  }
+ ],
+ "p4-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "284774c65b31"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳と選択肢Cの next fall を「来年の秋」としていますが、発話時点が不明なので年は確定できません。共通本文訳には more than forty を「40以上」とする範囲のずれと、after the break の訳抜けもあります。",
+   "fix": "共通本文訳と選択肢Cの「来年の秋」を「次の秋」にする。共通本文訳の「40以上」を「40を超える」にし、末尾に「休憩を挟んで」を補う。",
+   "explain_hash": "284774c65b31"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "284774c65b31"
+  }
+ ],
+ "p4-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "after the break を設問の訳で「休憩の後」としているが、ラジオ放送ではCMなどの中断を指すので、「休憩」は学習者に誤解されやすい。また本文の訳「この後は週末の天気予報を」では after the break が抜けている。",
+   "fix": "設問の訳を「聞き手は（CMなどの）中断の後に何を聞くか。」とする。本文の訳を「CMの後は、週末の天気予報をお伝えします。」とする。",
+   "explain_hash": "015a1014fdcd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳の「この後は」では、設問でも問われている after the break の「休憩の後」が抜けています。また、more than forty は「40を超える」であり、next fall も発話時点不明のまま「来年の秋」とは断定できません。",
+   "fix": "共通本文訳の末尾を「この後、休憩を挟んで週末の天気予報をお伝えします」とする。「40以上」は「40を超える」、「来年の秋」は「次の秋」にする。",
+   "explain_hash": "015a1014fdcd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "セット p4-s005 の本文訳で、最後の文の「after the break」（休憩の後に）の訳が抜けて「この後は週末の天気予報をお伝えします。」となっており、設問訳の「休憩の後に」との対応が分かりにくくなっている。",
+   "fix": "本文訳の最後の文を「休憩の後は、週末の天気予報をお伝えします。」（または「CMの後は〜」）とする。",
+   "explain_hash": "015a1014fdcd"
+  }
+ ],
+ "p4-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "358b17219d9e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "Bのコメント「人を増やしたのではない」は、東地域で増員していないと断定しています。本文は増員の有無を述べておらず、好業績の理由として新店舗の開設を挙げています。",
+   "fix": "「増員を好業績の理由としては挙げていない。理由として述べられているのは、新店舗を2つ開いたこと」とする。",
+   "explain_hash": "358b17219d9e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "358b17219d9e"
+  }
+ ],
+ "p4-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3710e8413dd1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3710e8413dd1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントの「話し手が図表の言い方（the region with the lowest sales）で指す項目」が誤り。the region with the lowest sales は図表の言い方ではなく、話し手が図表中の地域名を別の表現で指したものである。",
+   "fix": "「図表問題では、話し手が図表の項目名を直接言わず別の表現（the region with the lowest sales）で指すことがあるため、図表の数値から該当項目を探す。」とする。",
+   "explain_hash": "3710e8413dd1"
+  }
+ ],
+ "p4-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "23c88189b022"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "23c88189b022"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "TOEIC のポイントの「request の問題」で、設問タイプの英語表記がそのまま使われており学習者に分かりにくい。",
+   "fix": "「依頼内容を問う問題では、I'd like ～ to … / Please let me know ～ の後を聞き取る。」とする。",
+   "explain_hash": "23c88189b022"
+  }
+ ],
+ "p4-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fb30989596ec"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fb30989596ec"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fb30989596ec"
+  }
+ ],
+ "p4-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "abcef5181136"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "abcef5181136"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "abcef5181136"
+  }
+ ],
+ "p4-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "acef8c2fb00e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "acef8c2fb00e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "acef8c2fb00e"
+  }
+ ],
+ "p4-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "72bb24778a16"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳の「スタッフが無料で試飲していただいています」は主語と述語の関係が不自然です。原文はスタッフが試飲用のジュースを提供しているという意味です。",
+   "fix": "「地元の会社サンパス・ファームズの新しいフルーツジュースを、スタッフが試飲用に無料で提供しています」とする。",
+   "explain_hash": "72bb24778a16"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "72bb24778a16"
+  }
+ ],
+ "p4-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "本文の訳「スタッフが無料で試飲していただいています」は日本語として正しくない（主語がスタッフなのに「試飲していただく」となっていて、だれが飲むのかが分からない）。",
+   "fix": "「地元の会社サンパス・ファームズの新しいフルーツジュースを、スタッフが無料で試飲していただけるようご用意しています。」または「…の無料試飲をスタッフが行っています。」とする。",
+   "explain_hash": "899ca232a56f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳の「スタッフが無料で試飲していただいています」は主語と述語の関係が不自然です。また、Aのコメントはパン売り場の場所を根拠にしていますが、本文ではパン売り場と7番通路の位置関係は示されていません。",
+   "fix": "本文訳は「スタッフが試飲用のジュースを無料で提供しています」とする。Aのコメントは「7番通路について案内しているのはジュースの試飲であり、そこで割引のパンを買えるとは述べられていない」とする。",
+   "explain_hash": "899ca232a56f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "セット p4-s008 の本文訳「スタッフが無料で試飲していただいています」は、offering free samples の訳として日本語の敬語・表現が誤っており、スタッフが試飲しているように読めてしまう。",
+   "fix": "「スタッフが無料で試飲を提供しています。」または「スタッフのところで無料でご試飲いただけます。」とする。",
+   "explain_hash": "899ca232a56f"
+  }
+ ],
+ "p4-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b5ca9de1b71a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:18:31",
+   "ok": false,
+   "issues": "共通本文訳の「スタッフが無料で試飲していただいています」は主語と述語の関係が不自然です。原文はスタッフが試飲用のジュースを提供しているという意味です。",
+   "fix": "「地元の会社サンパス・ファームズの新しいフルーツジュースを、スタッフが試飲用に無料で提供しています」とする。",
+   "explain_hash": "b5ca9de1b71a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:18:31",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b5ca9de1b71a"
+  }
  ]
 }
