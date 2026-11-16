@@ -11293,6 +11293,1446 @@
   "explain_status": "checked"
  },
  {
+  "id": "p5-0043",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "manufacturing",
+  "prompt": "The new assembly line has greatly increased the plant's -------.",
+  "options": [
+   {
+    "id": "a",
+    "text": "productive"
+   },
+   {
+    "id": "b",
+    "text": "productively"
+   },
+   {
+    "id": "c",
+    "text": "productivity"
+   },
+   {
+    "id": "d",
+    "text": "produced"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "所有格 the plant's の後で、increased の目的語になる名詞が入る。productivity（生産性）。",
+  "translation_ja": "新しい組み立てラインで、工場の生産性が大きく上がった。",
+  "translation_options_ja": [
+   "生産的な（形容詞）",
+   "生産的に（副詞）",
+   "生産性（名詞）",
+   "生産した（動詞の過去形・過去分詞）"
+  ],
+  "option_notes_ja": [
+   "形容詞。後ろに名詞がなく、increased の目的語になる名詞が要る位置なので入らない",
+   "副詞。目的語の位置には入らない",
+   "名詞「生産性」。所有格 the plant's の後で increased の目的語になる",
+   "動詞の過去形・過去分詞。所有格の後で目的語になる名詞の役割はできない"
+  ],
+  "point_ja": "所有格（the plant's、our など）の後で、後ろに名詞が続かなければ、そこが名詞の位置。-ity・-tion・-ment・-ness は名詞の語尾。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0044",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "restaurant",
+  "prompt": "Chef Moreau ------- selects fresh vegetables from local farms each morning.",
+  "options": [
+   {
+    "id": "a",
+    "text": "carefully"
+   },
+   {
+    "id": "b",
+    "text": "careful"
+   },
+   {
+    "id": "c",
+    "text": "care"
+   },
+   {
+    "id": "d",
+    "text": "carefulness"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "主語 Chef Moreau と動詞 selects の間で、動詞を修飾する副詞 carefully が入る。",
+  "translation_ja": "モローシェフは毎朝、地元の農場から新鮮な野菜を丁寧に選んでいる。",
+  "translation_options_ja": [
+   "注意深く（副詞）",
+   "注意深い（形容詞）",
+   "注意・気をつける（名詞・動詞）",
+   "注意深さ（名詞）"
+  ],
+  "option_notes_ja": [
+   "副詞。主語と動詞の間で selects を修飾する",
+   "形容詞。動詞 selects を修飾できない",
+   "名詞・動詞。ここに置くと care selects と動詞が2つ並ぶ形などになり、文が成り立たない",
+   "名詞「注意深さ」。主語と動詞の間には入らない"
+  ],
+  "point_ja": "主語と動詞の間、助動詞と動詞の間（will carefully check）の空欄は、動詞を修飾する副詞が入ることが多い。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0045",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "fitness",
+  "prompt": "New members of Peakline Fitness receive a ------- assessment of their fitness level.",
+  "options": [
+   {
+    "id": "a",
+    "text": "person"
+   },
+   {
+    "id": "b",
+    "text": "personal"
+   },
+   {
+    "id": "c",
+    "text": "personally"
+   },
+   {
+    "id": "d",
+    "text": "personalize"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "冠詞 a と名詞 assessment（評価）の間で、名詞を修飾する形容詞 personal（個人の・一人ひとりの）が入る。",
+  "translation_ja": "ピークライン・フィットネスの新規会員は、体力のレベルについて個別の評価を受けられる。",
+  "translation_options_ja": [
+   "人（名詞）",
+   "個人の（形容詞）",
+   "個人的に・自ら（副詞）",
+   "個人に合わせる（動詞）"
+  ],
+  "option_notes_ja": [
+   "名詞「人」。person assessment では「個別の評価」の意味にならない",
+   "形容詞。名詞 assessment を修飾して「個別の評価」",
+   "副詞。後ろに形容詞がなく、名詞 assessment を直接修飾できない",
+   "動詞の原形。冠詞と名詞の間には置けない（過去分詞 personalized なら入る）"
+  ],
+  "point_ja": "冠詞と名詞の間の空欄は、名詞を修飾する形容詞が入ることが多い。-al（personal、seasonal）は形容詞によくある語尾。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0046",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "printing",
+  "prompt": "Brightway Printing guarantees that every color in your design will be reproduced -------.",
+  "options": [
+   {
+    "id": "a",
+    "text": "accurate"
+   },
+   {
+    "id": "b",
+    "text": "accuracy"
+   },
+   {
+    "id": "c",
+    "text": "accurateness"
+   },
+   {
+    "id": "d",
+    "text": "accurately"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "受動態の動詞 will be reproduced（再現される）を後ろから修飾する副詞 accurately が入る。",
+  "translation_ja": "ブライトウェイ印刷は、デザインのすべての色を正確に再現することを保証している。",
+  "translation_options_ja": [
+   "正確な（形容詞）",
+   "正確さ（名詞）",
+   "正確であること（名詞）",
+   "正確に（副詞）"
+  ],
+  "option_notes_ja": [
+   "形容詞。ここでは受動態の動詞 will be reproduced を修飾する語が要るので入らない",
+   "名詞「正確さ」。受動態の後に名詞を置くと文が成り立たない",
+   "名詞。accuracy と同じく、この位置には入らない",
+   "副詞。will be reproduced を修飾して「正確に再現される」"
+  ],
+  "point_ja": "受動態（be ＋過去分詞）や自動詞の後で文が終わる位置の空欄は、動詞を修飾する副詞が入ることが多い。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0047",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "it",
+  "prompt": "The IT department has made several ------- to the company's online booking system.",
+  "options": [
+   {
+    "id": "a",
+    "text": "improve"
+   },
+   {
+    "id": "b",
+    "text": "improvements"
+   },
+   {
+    "id": "c",
+    "text": "improved"
+   },
+   {
+    "id": "d",
+    "text": "improving"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "several（いくつかの）と前置詞 to の間で、made の目的語になる名詞が入る。several の後なので複数形 improvements。make improvements to ～（～を改良する）。",
+  "translation_ja": "IT部門は、会社のオンライン予約システムにいくつかの改良を加えた。",
+  "translation_options_ja": [
+   "改良する（動詞の原形）",
+   "改良（名詞の複数形）",
+   "改良した・改良された（過去形・過去分詞）",
+   "改良している（現在分詞・動名詞）"
+  ],
+  "option_notes_ja": [
+   "動詞の原形。several の後の、目的語になる名詞の位置には入らない",
+   "名詞の複数形。several の後で made の目的語になる",
+   "過去形・過去分詞。several improved の後に名詞がないので、名詞を修飾する働きもできない",
+   "現在分詞・動名詞。several improving だけでは「いくつかの改良」の意味にならない"
+  ],
+  "point_ja": "several・many・a few の後には名詞の複数形が来る。make improvements to ～（～を改良する）はよく出る言い方。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0048",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "real.estate",
+  "prompt": "The apartments on the top floor offer ------- views of the harbor.",
+  "options": [
+   {
+    "id": "a",
+    "text": "impress"
+   },
+   {
+    "id": "b",
+    "text": "impressively"
+   },
+   {
+    "id": "c",
+    "text": "impression"
+   },
+   {
+    "id": "d",
+    "text": "impressive"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "動詞 offer の目的語 views（眺め）を修飾する形容詞 impressive（見事な）が入る。",
+  "translation_ja": "最上階の部屋からは、港の見事な眺めが楽しめる。",
+  "translation_options_ja": [
+   "感心させる（動詞）",
+   "見事に（副詞）",
+   "印象（名詞）",
+   "見事な（形容詞）"
+  ],
+  "option_notes_ja": [
+   "動詞の原形。名詞 views の前に置いて修飾できない",
+   "副詞。後ろに形容詞がなく、名詞 views を直接修飾できない",
+   "名詞「印象」。impression views では意味が通らない",
+   "形容詞。名詞 views を修飾して「見事な眺め」"
+  ],
+  "point_ja": "動詞の目的語になる名詞の前の空欄は、名詞を修飾する形容詞が入ることが多い。-ive は形容詞によくある語尾。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0049",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "hr",
+  "prompt": "Ms. Petrova was promoted to regional manager because of her ------- to the company over the past ten years.",
+  "options": [
+   {
+    "id": "a",
+    "text": "dedicate"
+   },
+   {
+    "id": "b",
+    "text": "dedicated"
+   },
+   {
+    "id": "c",
+    "text": "dedication"
+   },
+   {
+    "id": "d",
+    "text": "dedicating"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "所有格 her の後、前置詞 to の前で、because of の目的語になる名詞 dedication（献身）が入る。dedication to ～（～への献身）。",
+  "translation_ja": "ペトロワさんは、この10年間の会社への献身が認められて、地域部長に昇進した。",
+  "translation_options_ja": [
+   "捧げる（動詞の原形）",
+   "献身的な（形容詞）・捧げた（過去分詞）",
+   "献身（名詞）",
+   "捧げること（動名詞）"
+  ],
+  "option_notes_ja": [
+   "動詞の原形。所有格 her の後には置けない",
+   "形容詞・過去分詞。her dedicated の後に名詞がないので入らない",
+   "名詞。her dedication to the company で「会社への献身」",
+   "動名詞。dedicate は dedicate oneself to ～ のように目的語が要るので、her dedicating to ～ では文が成り立たない"
+  ],
+  "point_ja": "所有格（her、Ms. Lee's）と前置詞の間の空欄は、名詞が入ることが多い。dedication to ～・commitment to ～ はセットで覚える。",
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0050",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.tense",
+  "scene": "business.news",
+  "prompt": "Lorvane Foods ------- its third factory in Brazil last month.",
+  "options": [
+   {
+    "id": "a",
+    "text": "opened"
+   },
+   {
+    "id": "b",
+    "text": "opens"
+   },
+   {
+    "id": "c",
+    "text": "has opened"
+   },
+   {
+    "id": "d",
+    "text": "will open"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "last month（先月）という過去の時点があるので、過去形 opened が入る。",
+  "translation_ja": "ローヴェイン・フーズは先月、ブラジルで3つ目の工場を開設した。",
+  "translation_options_ja": [
+   "開設した（過去形）",
+   "開設する（現在形）",
+   "開設した（現在完了）",
+   "開設する予定だ（未来）"
+  ],
+  "option_notes_ja": [
+   "過去形。last month の出来事",
+   "現在形。last month と合わない",
+   "現在完了。last month のような過去の時点を表す語句とは、ふつう一緒に使わない",
+   "未来を表す形。last month と合わない"
+  ],
+  "point_ja": "yesterday・last ～・～ ago・in 2020 など過去の時点を表す語句があれば過去形。現在完了はふつうこれらと一緒に使わない。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0051",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.tense",
+  "scene": "meeting",
+  "prompt": "Ms. Abe will send the meeting minutes to everyone as soon as she ------- them.",
+  "options": [
+   {
+    "id": "a",
+    "text": "will finish"
+   },
+   {
+    "id": "b",
+    "text": "finished"
+   },
+   {
+    "id": "c",
+    "text": "has been finishing"
+   },
+   {
+    "id": "d",
+    "text": "finishes"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "as soon as（～するとすぐに）のような時を表す接続詞の後では、未来のことも現在形で表すので finishes が入る。",
+  "translation_ja": "阿部さんは、議事録を書き終えたらすぐに全員に送る。",
+  "translation_options_ja": [
+   "終えるだろう（未来）",
+   "終えた（過去形）",
+   "終えつつある（現在完了進行形）",
+   "終える（現在形）"
+  ],
+  "option_notes_ja": [
+   "時を表す as soon as の後では、未来のことにふつう will を使わない",
+   "過去形。主節が will send で未来の話なので合わない",
+   "現在完了進行形。書き終えた時点を表すなら has finished の形になる",
+   "現在形。時を表す as soon as の後なので、未来のことでも現在形"
+  ],
+  "point_ja": "when・as soon as・after・before・until など時を表す接続詞の後では、未来のことでも現在形（または現在完了）を使う。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0052",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.passive",
+  "scene": "warehouse",
+  "prompt": "All packages must ------- before they are loaded onto the trucks.",
+  "options": [
+   {
+    "id": "a",
+    "text": "weigh"
+   },
+   {
+    "id": "b",
+    "text": "be weighed"
+   },
+   {
+    "id": "c",
+    "text": "weighing"
+   },
+   {
+    "id": "d",
+    "text": "have weighed"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "主語の packages（荷物）は「量られる」側なので受動態 be weighed。助動詞 must の後なので be は原形。",
+  "translation_ja": "すべての荷物は、トラックに積む前に重さを量らなければならない。",
+  "translation_options_ja": [
+   "量る・重さがある（原形）",
+   "量られる（受動態）",
+   "量っている（現在分詞）",
+   "量った（完了形）"
+  ],
+  "option_notes_ja": [
+   "能動態の原形。荷物が何かを量ることになる（「～の重さがある」の意味なら後ろに重さが要る）",
+   "受動態。荷物が量られる",
+   "助動詞 must の後には動詞の原形が来る",
+   "能動態の完了形。荷物が何かを量ったことになり、意味が合わない"
+  ],
+  "point_ja": "主語が動作を「される」側なら受動態。助動詞の後の受動態は 助動詞＋be＋過去分詞（must be weighed）。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0053",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.passive",
+  "scene": "events",
+  "prompt": "The keynote speech ------- by Dr. Helen Sato, a well-known economist.",
+  "options": [
+   {
+    "id": "a",
+    "text": "will be delivered"
+   },
+   {
+    "id": "b",
+    "text": "will deliver"
+   },
+   {
+    "id": "c",
+    "text": "is delivering"
+   },
+   {
+    "id": "d",
+    "text": "has delivered"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "主語 The keynote speech（基調講演）は「行われる」側で、後ろに by ～（～によって）があるので受動態 will be delivered が入る。",
+  "translation_ja": "基調講演は、著名な経済学者のヘレン・サトウ博士が行う。",
+  "translation_options_ja": [
+   "行われる（受動態）",
+   "行う（能動態）",
+   "行っている（進行形）",
+   "行った（現在完了）"
+  ],
+  "option_notes_ja": [
+   "受動態。by Dr. Helen Sato と合わせて「サトウ博士によって行われる」",
+   "能動態。講演が何かを行うことになる",
+   "進行形の能動態。講演が何かを届けることになる",
+   "能動態の現在完了。講演が何かを行ったことになる"
+  ],
+  "point_ja": "deliver a speech（講演をする）。主語が「話・講演」などで、後ろに by ＋人があれば受動態を考える。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0054",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.pronoun",
+  "scene": "office",
+  "prompt": "If you cannot find your parking permit, you may use -------, as I will be working from home this week.",
+  "options": [
+   {
+    "id": "a",
+    "text": "I"
+   },
+   {
+    "id": "b",
+    "text": "my"
+   },
+   {
+    "id": "c",
+    "text": "mine"
+   },
+   {
+    "id": "d",
+    "text": "myself"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「私のもの（私の駐車許可証）」を表す所有代名詞 mine が入る。use の目的語で、後ろに名詞がない。",
+  "translation_ja": "駐車許可証が見つからなければ、私のものを使ってください。今週は私は在宅勤務なので。",
+  "translation_options_ja": [
+   "私は（主格）",
+   "私の（所有格）",
+   "私のもの（所有代名詞）",
+   "私自身（再帰代名詞）"
+  ],
+  "option_notes_ja": [
+   "主格。use の目的語にはならない",
+   "所有格。後ろに名詞（my permit など）が必要",
+   "所有代名詞「私のもの」。my parking permit の代わり",
+   "再帰代名詞。use myself では「自分自身を使う」になり、意味が合わない"
+  ],
+  "point_ja": "所有代名詞（mine・yours・his・hers・ours・theirs）は「所有格＋名詞」の代わりになり、後ろに名詞を置かない。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0055",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.pronoun",
+  "scene": "events",
+  "prompt": "------- who wish to attend the seminar must register by Friday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Those"
+   },
+   {
+    "id": "b",
+    "text": "They"
+   },
+   {
+    "id": "c",
+    "text": "Them"
+   },
+   {
+    "id": "d",
+    "text": "Anyone"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "「～する人たち」は those who ～ で表す。who の後の wish も複数の主語に合う。",
+  "translation_ja": "セミナーに参加したい人は、金曜日までに登録しなければならない。",
+  "translation_options_ja": [
+   "～する人たち（those who ～）",
+   "彼らは（主格）",
+   "彼らを（目的格）",
+   "だれでも"
+  ],
+  "option_notes_ja": [
+   "those who ～ で「～する人たち」。動詞 wish・must register とも合う",
+   "主格。they who ～ は古い言い方で、ふつうは those who ～ を使う",
+   "目的格。文の主語の位置には置けない",
+   "「だれでも」。単数扱いなので、who の後の動詞は wishes になる（Anyone who wishes ～）"
+  ],
+  "point_ja": "「～する人々」は those who ～（動詞は複数に合わせる）。anyone who ～ は単数扱い（anyone who wishes）。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0056",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition_vs_conjunction",
+  "scene": "travel",
+  "prompt": "Passengers are not allowed to use the restrooms ------- takeoff and landing.",
+  "options": [
+   {
+    "id": "a",
+    "text": "while"
+   },
+   {
+    "id": "b",
+    "text": "when"
+   },
+   {
+    "id": "c",
+    "text": "during"
+   },
+   {
+    "id": "d",
+    "text": "although"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "takeoff and landing（離陸と着陸）という名詞の前で「～の間」を表すので、前置詞 during が入る。",
+  "translation_ja": "離陸と着陸の間は、乗客はトイレを使えない。",
+  "translation_options_ja": [
+   "～する間（接続詞）",
+   "～するとき（接続詞）",
+   "～の間（前置詞）",
+   "～だけれども（接続詞）"
+  ],
+  "option_notes_ja": [
+   "接続詞。後ろにはふつう主語＋動詞が来て、名詞だけは続かない",
+   "接続詞「～するとき」。後ろにはふつう主語＋動詞が来る",
+   "前置詞「～の間」。名詞 takeoff and landing を続ける",
+   "接続詞。意味も合わない"
+  ],
+  "point_ja": "「～の間」は、後ろが名詞なら during、主語＋動詞なら while。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0057",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition",
+  "scene": "hr",
+  "prompt": "Please submit your timesheet ------- 5 P.M. on Friday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "until"
+   },
+   {
+    "id": "b",
+    "text": "within"
+   },
+   {
+    "id": "c",
+    "text": "since"
+   },
+   {
+    "id": "d",
+    "text": "by"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "「金曜日の午後5時までに」提出するという期限なので by。submit は1回で終わる動作。",
+  "translation_ja": "勤務表は金曜日の午後5時までに提出してください。",
+  "translation_options_ja": [
+   "～までずっと（継続）",
+   "～以内に",
+   "～以来",
+   "～までに（期限）"
+  ],
+  "option_notes_ja": [
+   "「～までずっと」（継続）。1回で終わる submit には合わない",
+   "「～以内に」。後ろには期間（within three days）が来る",
+   "「～以来」。過去の時点からの継続を表し、意味が合わない",
+   "「～までに」（期限）。提出の締め切りを表す"
+  ],
+  "point_ja": "by は期限（～までに）、until は継続（～までずっと）。動詞が1回の動作か、続く状態かで選ぶ。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0058",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.conjunction",
+  "scene": "logistics",
+  "prompt": "The delivery was scheduled for Monday, ------- it did not arrive until Wednesday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "so"
+   },
+   {
+    "id": "b",
+    "text": "but"
+   },
+   {
+    "id": "c",
+    "text": "or"
+   },
+   {
+    "id": "d",
+    "text": "because"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "「月曜日の予定だった」と「水曜日まで届かなかった」は食い違う内容なので、逆接の but が入る。",
+  "translation_ja": "配達は月曜日の予定だったが、水曜日まで届かなかった。",
+  "translation_options_ja": [
+   "だから",
+   "しかし",
+   "または",
+   "なぜなら"
+  ],
+  "option_notes_ja": [
+   "「だから」。予定が月曜だったことは、水曜まで届かなかった理由にならない",
+   "逆接「しかし」。予定と実際が食い違っている",
+   "「または」。意味が合わない",
+   "「なぜなら」。水曜まで届かなかったことは、予定が月曜だった理由にならない"
+  ],
+  "point_ja": "接続詞の問題は、前後の内容の関係（逆接・理由・結果・選択）を確かめる。not ～ until …（…になってやっと～する）もよく出る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0059",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.relative",
+  "scene": "real.estate",
+  "prompt": "The building ------- the new clinic will open is located on Pine Street.",
+  "options": [
+   {
+    "id": "a",
+    "text": "which"
+   },
+   {
+    "id": "b",
+    "text": "where"
+   },
+   {
+    "id": "c",
+    "text": "who"
+   },
+   {
+    "id": "d",
+    "text": "what"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "後ろの the new clinic will open（新しいクリニックが開業する）は主語と動詞がそろった欠けのない文。場所を表す先行詞 The building に続けるので関係副詞 where が入る。",
+  "translation_ja": "新しいクリニックが開業する建物は、パイン通りにある。",
+  "translation_options_ja": [
+   "（それを）～する（関係代名詞）",
+   "（そこで）～する（関係副詞）",
+   "（その人が）～する（関係代名詞）",
+   "～すること・もの"
+  ],
+  "option_notes_ja": [
+   "関係代名詞。後ろの文に主語か目的語の欠けが必要（in which なら入る）",
+   "関係副詞。場所の先行詞の後で、欠けのない文を続ける",
+   "人を先行詞にする関係代名詞。建物には使わない",
+   "先行詞を含む（＝the thing which）ので、名詞 The building の後には置かない"
+  ],
+  "point_ja": "関係代名詞の後は主語か目的語が欠けた文、関係副詞 where の後は欠けのない文。場所の先行詞でも、後ろの文に欠けがあれば which。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0060",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.comparative",
+  "scene": "sales",
+  "prompt": "This year's holiday sales were the ------- in the company's history.",
+  "options": [
+   {
+    "id": "a",
+    "text": "high"
+   },
+   {
+    "id": "b",
+    "text": "higher"
+   },
+   {
+    "id": "c",
+    "text": "highest"
+   },
+   {
+    "id": "d",
+    "text": "highly"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "the と in the company's history（会社の歴史の中で）があるので、最上級 highest が入る。",
+  "translation_ja": "今年の年末商戦の売上は、会社の歴史の中で最も多かった。",
+  "translation_options_ja": [
+   "高い（原級）",
+   "より高い（比較級）",
+   "最も高い（最上級）",
+   "大いに（副詞）"
+  ],
+  "option_notes_ja": [
+   "原級。the high では「歴史の中で最も」の意味にならない",
+   "比較級。than がなく、in ～（範囲）の中で比べているので合わない",
+   "最上級。the highest in ～ で「～の中で最も高い」",
+   "副詞「大いに・非常に」。the の後で補語になる語として入らない"
+  ],
+  "point_ja": "the ＋最上級＋ in / of ～（～の中で）。in の後には範囲・場所・集団、of の後には同類の複数（of the three）が来る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0061",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.comparative",
+  "scene": "marketing",
+  "prompt": "The new advertisement attracted twice as ------- visitors to the website as the previous one.",
+  "options": [
+   {
+    "id": "a",
+    "text": "many"
+   },
+   {
+    "id": "b",
+    "text": "much"
+   },
+   {
+    "id": "c",
+    "text": "more"
+   },
+   {
+    "id": "d",
+    "text": "most"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "as ～ as の間は原級。visitors は数えられる名詞の複数形なので many。twice as many ～ as …（…の2倍の数の～）。",
+  "translation_ja": "新しい広告は、前の広告の2倍の数の訪問者をウェブサイトに呼び込んだ。",
+  "translation_options_ja": [
+   "多くの（原級・数）",
+   "多くの（原級・量）",
+   "より多くの（比較級）",
+   "最も多くの（最上級）"
+  ],
+  "option_notes_ja": [
+   "原級。数えられる名詞 visitors と組む",
+   "原級だが、数えられない名詞（much time など）に使う",
+   "比較級。as ～ as の間には原級が入る",
+   "最上級。as ～ as の間には入らない"
+  ],
+  "point_ja": "倍数の比べ方は 倍数＋as ～ as（twice as many ～ as）。as と as の間は原級で、数えられる名詞なら many、数えられない名詞なら much。",
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0062",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.quantifier",
+  "scene": "finance",
+  "prompt": "------- employee in the finance department must complete the online security training by the end of the month.",
+  "options": [
+   {
+    "id": "a",
+    "text": "All"
+   },
+   {
+    "id": "b",
+    "text": "Most"
+   },
+   {
+    "id": "c",
+    "text": "Several"
+   },
+   {
+    "id": "d",
+    "text": "Every"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "後ろが employee（単数形）なので Every が入る。",
+  "translation_ja": "経理部の全従業員は、月末までにオンラインのセキュリティ研修を終えなければならない。",
+  "translation_options_ja": [
+   "すべての（後ろは複数）",
+   "ほとんどの",
+   "いくつかの",
+   "すべての（後ろは単数）"
+  ],
+  "option_notes_ja": [
+   "後ろに数えられる名詞が来るなら複数形（all employees）",
+   "後ろに数えられる名詞が来るなら複数形（most employees）",
+   "後ろは複数形（several employees）",
+   "「すべての」。後ろは単数形の名詞 employee"
+  ],
+  "point_ja": "every・each の後は単数形の名詞、all・most・several・many の後は（数えられる名詞なら）複数形。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0063",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.quantifier",
+  "scene": "warehouse",
+  "prompt": "There is ------- space left in the warehouse, so we need to rent an additional storage unit.",
+  "options": [
+   {
+    "id": "a",
+    "text": "few"
+   },
+   {
+    "id": "b",
+    "text": "many"
+   },
+   {
+    "id": "c",
+    "text": "a few"
+   },
+   {
+    "id": "d",
+    "text": "little"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "space（空き場所）は数えられない名詞。「ほとんどない」が後半の「追加の保管スペースを借りる必要がある」と合うので little が入る。",
+  "translation_ja": "倉庫にはほとんど空きがないので、追加の保管スペースを借りる必要がある。",
+  "translation_options_ja": [
+   "ほとんどない（数）",
+   "多くの（数）",
+   "少しある（数）",
+   "ほとんどない（量）"
+  ],
+  "option_notes_ja": [
+   "数えられる名詞の複数形と使う",
+   "数えられる名詞の複数形と使う",
+   "数えられる名詞の複数形と使う",
+   "数えられない名詞と使い「ほとんどない」。後半の「追加で借りる必要がある」とつながる"
+  ],
+  "point_ja": "数えられる名詞には few / a few、数えられない名詞には little / a little。a がないと「ほとんどない」、a があると「少しある」。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0064",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.correlative",
+  "scene": "it",
+  "prompt": "The software update will improve both the speed ------- the security of the system.",
+  "options": [
+   {
+    "id": "a",
+    "text": "and"
+   },
+   {
+    "id": "b",
+    "text": "or"
+   },
+   {
+    "id": "c",
+    "text": "nor"
+   },
+   {
+    "id": "d",
+    "text": "but"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "前に both があるので both A and B（A と B の両方）の and が入る。",
+  "translation_ja": "そのソフトウェアの更新で、システムの速さと安全性の両方が向上する。",
+  "translation_options_ja": [
+   "～と…（both と組む）",
+   "～か…（either と組む）",
+   "～も…もない（neither と組む）",
+   "しかし（not only と組む）"
+  ],
+  "option_notes_ja": [
+   "both と組んで both A and B（A と B の両方）",
+   "either と組む（either A or B）",
+   "neither と組む（neither A nor B）",
+   "not only A but (also) B などで使う。both とは組まない"
+  ],
+  "point_ja": "相関接続詞の組み合わせ：both A and B／either A or B／neither A nor B／not only A but (also) B。前半の語を見て後半を選ぶ。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0065",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.participle",
+  "scene": "meeting",
+  "prompt": "Please read the ------- documents before the meeting on Thursday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "attach"
+   },
+   {
+    "id": "b",
+    "text": "attaching"
+   },
+   {
+    "id": "c",
+    "text": "attached"
+   },
+   {
+    "id": "d",
+    "text": "attachment"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "名詞 documents（書類）は「添付された」側なので、過去分詞 attached が入る。",
+  "translation_ja": "木曜日の会議の前に、添付の書類を読んでおいてください。",
+  "translation_options_ja": [
+   "添付する（動詞の原形）",
+   "添付している（現在分詞）",
+   "添付された（過去分詞）",
+   "添付ファイル（名詞）"
+  ],
+  "option_notes_ja": [
+   "動詞の原形。名詞の前に置いて修飾できない",
+   "現在分詞「添付している」。書類が何かを添付することになる",
+   "過去分詞「添付された」。名詞 documents を修飾する",
+   "名詞「添付ファイル」。attachment documents では意味が通らない"
+  ],
+  "point_ja": "名詞を修飾する分詞は、名詞が「する」側なら現在分詞（-ing）、「される」側なら過去分詞（-ed）。the attached file・the enclosed form はよく出る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0066",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.participle",
+  "scene": "manufacturing",
+  "prompt": "Workers ------- the new machinery must complete a safety course first.",
+  "options": [
+   {
+    "id": "a",
+    "text": "operate"
+   },
+   {
+    "id": "b",
+    "text": "operating"
+   },
+   {
+    "id": "c",
+    "text": "operated"
+   },
+   {
+    "id": "d",
+    "text": "operation"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "名詞 Workers を後ろから修飾する分詞が入る。作業員は機械を「操作する」側なので現在分詞 operating。文の動詞は must complete。",
+  "translation_ja": "新しい機械を操作する作業員は、まず安全講習を修了しなければならない。",
+  "translation_options_ja": [
+   "操作する（動詞の原形）",
+   "操作する（現在分詞）",
+   "操作された（過去分詞）",
+   "操作（名詞）"
+  ],
+  "option_notes_ja": [
+   "動詞の原形。文の動詞は must complete なので、ここにもう1つ動詞は置けない",
+   "現在分詞。Workers operating the new machinery で「新しい機械を操作する作業員」",
+   "過去分詞。作業員が「操作される」ことになり、後ろの目的語 the new machinery とも合わない",
+   "名詞「操作」。Workers operation では意味が通らない"
+  ],
+  "point_ja": "名詞の後ろに 分詞＋語句 が続いて名詞を修飾する形。文の動詞がほかにあるかを確かめ、名詞が「する」側なら -ing。",
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0067",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.verb",
+  "scene": "customer.service",
+  "prompt": "Please ------- the enclosed form and return it in the envelope provided.",
+  "options": [
+   {
+    "id": "a",
+    "text": "achieve"
+   },
+   {
+    "id": "b",
+    "text": "perform"
+   },
+   {
+    "id": "c",
+    "text": "complete"
+   },
+   {
+    "id": "d",
+    "text": "conduct"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "complete a form で「用紙に記入する」。記入して返送する、という流れに合う。",
+  "translation_ja": "同封の用紙に記入し、同封の封筒で返送してください。",
+  "translation_options_ja": [
+   "達成する",
+   "行う・演じる",
+   "記入する・仕上げる",
+   "実施する"
+  ],
+  "option_notes_ja": [
+   "「（目標を）達成する」。用紙には使わない",
+   "「（作業・演技を）行う」。用紙には使わない",
+   "「（用紙に）すべて記入する」。complete a form",
+   "「（調査・会議を）行う」。用紙には使わない"
+  ],
+  "point_ja": "用紙への記入は complete / fill out / fill in a form。TOEIC の案内文によく出る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0068",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.noun",
+  "scene": "finance",
+  "prompt": "Customers can check their account ------- at any time through our mobile app.",
+  "options": [
+   {
+    "id": "a",
+    "text": "weight"
+   },
+   {
+    "id": "b",
+    "text": "balance"
+   },
+   {
+    "id": "c",
+    "text": "scale"
+   },
+   {
+    "id": "d",
+    "text": "measure"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "account balance で「口座残高」。アプリでいつでも確認できるもの、という意味に合う。",
+  "translation_ja": "お客さまは、モバイルアプリでいつでも口座の残高を確認できる。",
+  "translation_options_ja": [
+   "重さ",
+   "残高",
+   "規模・目盛り",
+   "対策・尺度"
+  ],
+  "option_notes_ja": [
+   "「重さ」。口座には使わない",
+   "「残高」。account balance で「口座残高」",
+   "「規模・目盛り」。意味が合わない",
+   "「対策・尺度」。意味が合わない"
+  ],
+  "point_ja": "account balance（口座残高）。balance には「残り・残高」の意味があり、the balance due（未払いの残額）も請求書でよく出る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0069",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.adjective",
+  "scene": "travel",
+  "prompt": "Hotel guests have ------- access to the fitness center and pool.",
+  "options": [
+   {
+    "id": "a",
+    "text": "considerate"
+   },
+   {
+    "id": "b",
+    "text": "comparable"
+   },
+   {
+    "id": "c",
+    "text": "competitive"
+   },
+   {
+    "id": "d",
+    "text": "complimentary"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "complimentary access で「無料で利用できること」。ホテルの宿泊客向けのサービスの説明に合う。",
+  "translation_ja": "ホテルの宿泊客は、フィットネスセンターとプールを無料で利用できる。",
+  "translation_options_ja": [
+   "思いやりのある",
+   "同等の",
+   "競争力のある",
+   "無料の"
+  ],
+  "option_notes_ja": [
+   "「思いやりのある」。人の性質に使い、access には合わない",
+   "「同等の・比べられる」。何と比べるかがなく、意味が合わない",
+   "「競争力のある・他に負けない」。price や salary には使うが、ここでは意味が合わない",
+   "「無料の（サービスとしての）」。complimentary access で「無料で利用できる」"
+  ],
+  "point_ja": "complimentary は「無料の（サービスとしての）」。complimentary breakfast / shuttle などホテルの案内によく出る。似た形の complementary（補完的な）と区別する。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0070",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.adverb",
+  "scene": "sales",
+  "prompt": "Ms. Grant has ------- returned from a business trip to Singapore, so she has not read your e-mail yet.",
+  "options": [
+   {
+    "id": "a",
+    "text": "just"
+   },
+   {
+    "id": "b",
+    "text": "yet"
+   },
+   {
+    "id": "c",
+    "text": "ever"
+   },
+   {
+    "id": "d",
+    "text": "still"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "「出張から戻ったばかりなので、まだメールを読んでいない」とつながるので just（～したばかり）が入る。",
+  "translation_ja": "グラントさんはシンガポール出張から戻ったばかりなので、あなたのメールはまだ読んでいない。",
+  "translation_options_ja": [
+   "～したばかり",
+   "まだ・もう",
+   "これまでに",
+   "まだ"
+  ],
+  "option_notes_ja": [
+   "「～したばかり」。戻ったばかりでまだ読んでいない、とつながる",
+   "現在完了では否定文・疑問文で使う（has not returned yet）。肯定文のこの位置には置かない",
+   "「これまでに」。疑問文・否定文などで使い、ここでは意味が合わない",
+   "「まだ～している」。has still returned では意味が通らない"
+  ],
+  "point_ja": "現在完了と一緒に使う副詞：just（～したばかり）・already（もう）はふつう肯定文、yet（まだ・もう）は否定文・疑問文。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0071",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.collocation",
+  "scene": "meeting",
+  "prompt": "All department heads are expected to ------- part in the planning session.",
+  "options": [
+   {
+    "id": "a",
+    "text": "take"
+   },
+   {
+    "id": "b",
+    "text": "make"
+   },
+   {
+    "id": "c",
+    "text": "have"
+   },
+   {
+    "id": "d",
+    "text": "give"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "take part in ～ で「～に参加する」。part の前の動詞は take。",
+  "translation_ja": "部長は全員、計画会議に参加することになっている。",
+  "translation_options_ja": [
+   "（part と組んで）参加する",
+   "作る",
+   "持つ",
+   "与える"
+  ],
+  "option_notes_ja": [
+   "take part in ～ で「～に参加する」",
+   "make part とは言わない",
+   "have part in の形では「参加する」の意味にならない",
+   "give part とは言わず、意味も合わない"
+  ],
+  "point_ja": "take part in ～＝participate in ～＝join（参加する）。言い換えとして読解やリスニングでもよく出る。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p5-0072",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.verb",
+  "scene": "facilities",
+  "prompt": "The company plans to ------- its headquarters to a larger building in the city center.",
+  "options": [
+   {
+    "id": "a",
+    "text": "renovate"
+   },
+   {
+    "id": "b",
+    "text": "relocate"
+   },
+   {
+    "id": "c",
+    "text": "register"
+   },
+   {
+    "id": "d",
+    "text": "retain"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "relocate A to B で「A を B に移転する」。to a larger building（より大きなビルへ）とつながる。",
+  "translation_ja": "その会社は、本社を市の中心部のより大きなビルに移転する予定だ。",
+  "translation_options_ja": [
+   "改装する",
+   "移転する",
+   "登録する",
+   "保持する"
+  ],
+  "option_notes_ja": [
+   "「改装する」。to a larger building（より大きな建物へ）とつながらない",
+   "「移転する」。relocate A to B で「A を B に移す」",
+   "「登録する」。意味が合わない",
+   "「保持する」。to a larger building とつながらない"
+  ],
+  "point_ja": "語彙問題は、空欄の後の前置詞（to a larger building）も手がかりになる。relocate・move・transfer は「移す」。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part5 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
   "id": "p6-0001",
   "part": 6,
   "set_id": "p6-s001",
