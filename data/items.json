@@ -2483,7 +2483,7 @@
    "席の種類ではなく「より前に近いほう」という条件で選んでいる",
    "window を繰り返したひっかけ"
   ],
-  "point_ja": "選択疑問文の正解は「どちらでもよい（Either is fine / Whichever ～）」「両方」「どちらでもない」もある。",
+  "point_ja": "選択疑問文（A or B?）には、条件を添えて選ぶ（Whichever is closer to the front.）、どちらでもよいと答える（Either is fine.）、両方・どちらでもないと答える、といった応答もある。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2522,7 +2522,7 @@
     "content_hash": "406b8ccfe40e"
    }
   ],
-  "explain_status": "flagged",
+  "explain_status": "unchecked",
   "voices": {
    "stem": "female",
    "options": "male"
@@ -4180,28 +4180,28 @@
    },
    {
     "id": "d",
-    "text": "Pick up an order"
+    "text": "Fill out a complaint form"
    }
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品については言っておらず、代わりの品は配達すると言っているので、自分で取りに行く必要もない。",
+  "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品・契約・用紙の記入については話していない。",
   "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
   "translation_options_ja": [
    "トマトを返品する",
    "新しい契約を結ぶ",
    "傷んだ野菜の代金を払う",
-   "注文品を取りに行く"
+   "苦情の用紙に記入する"
   ],
   "option_notes_ja": [
    "返品の話はしていない",
    "契約の話はしていない",
    "今朝届いたトマトの代金は請求しないと言っている",
-   "代わりの品は運転手が届けると言っていて、取りに行く必要はない"
+   "苦情の用紙の話はしていない"
   ],
   "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。",
   "level": "B1",
-  "status": "reviewed",
+  "status": "draft",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -4271,7 +4271,7 @@
     "content_hash": "c352adc9da57"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0010",
@@ -4396,7 +4396,7 @@
    "業者へのメールや、その返事については話していない",
    "締め切りの話はしていない"
   ],
-  "point_ja": "3人の会話では、2人目が We've had the same issue と同じ問題を繰り返すことがある。複数形（the men）の設問はそこを聞く。",
+  "point_ja": "the men は男性2人を指す。この会話では1人目が不具合を説明し、2人目も We've had the same issue と同じ問題を挙げている。3人の会話で the men / the women と問われたら、2人に共通する話を探す。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4435,7 +4435,7 @@
     "content_hash": "c15ffea2cdf2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0012",
@@ -6250,7 +6250,7 @@
    "混雑の話はしていない",
    "閉館時間の話はしていない"
   ],
-  "point_ja": "何に注意を促しているかを問う問題は、please watch / be careful / make sure の後を聞き取る。",
+  "point_ja": "何に注意を促しているかを問う問題は、watch your step / be careful などの表現と、その前後にある具体的な危険の説明を合わせて聞き取る（この問題では The path is a bit uneven）。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part4 batch a",
@@ -6322,7 +6322,7 @@
     "content_hash": "066576cbd648"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0009",
@@ -7643,7 +7643,7 @@
     "content_hash": "745cea81cfcc"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0023",
@@ -7725,7 +7725,7 @@
     "content_hash": "fd750289fa59"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0024",
@@ -7807,7 +7807,7 @@
     "content_hash": "3072f4594037"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0001",
@@ -7990,16 +7990,16 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "「オフィスエリアに入る前に」という時の関係を表すので before。before は前置詞として動名詞 entering を続けられる。although・because・unless は意味が合わない（although は although working のような省略した形もとれるが、「～だけれども」になる）。",
+  "explanation_ja": "「オフィスエリアに入る前に」という時の関係を表すので before。before は前置詞として動名詞 entering を続けられる。although・because・unless は意味が合わない（although・unless は主語と be 動詞を省いて -ing を続けることもあるが、「入るけれども」「入る場合を除いて」になる）。",
   "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "前置詞としても使え、動名詞 entering を続けられる。「入る前に」",
    "接続詞「～だけれども」。although ＋ -ing の形もとれるが、意味が合わない",
    "接続詞。because の後には主語と動詞が要る",
-   "接続詞「～でない限り」。意味も形も合わない"
+   "接続詞「～でない限り」。unless entering の形もとれるが、「入る場合を除いて」になり意味が合わない"
   ],
-  "point_ja": "空欄の後が名詞・動名詞なら前置詞、主語＋動詞なら接続詞。before・after・since は両方の使い方がある。",
+  "point_ja": "空欄の後が名詞・動名詞なら前置詞、主語＋動詞なら接続詞が基本（although・unless などは主語と be 動詞を省いて -ing を続けることもあるので、意味も確かめる）。before・after・since は両方の使い方がある。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -8071,7 +8071,7 @@
     "content_hash": "9371be384ea2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0004",
@@ -8408,13 +8408,13 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "be available to ～ で「～が利用できる」。eligible は eligible for ～（～の対象となる・資格がある）の形で使い、to all guests とは組まず、意味も合わない。",
+  "explanation_ja": "be available to ～ で「～が利用できる」。eligible は eligible for ～（～の対象となる）や eligible to ＋動詞の原形（～する資格がある）の形で使い、to all guests（to ＋人）とは組まず、意味も合わない。",
   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "available to ～ で「～が利用できる」。シャトルが宿泊客に使える",
-   "capable of ～ で「～する能力がある」。to とは組まず、意味も合わない",
-   "eligible for ～ で「～の対象となる・資格がある」。to とは組まず、意味も合わない",
+   "capable of ～ で「～する能力がある」。to all guests とは組まず、意味も合わない",
+   "eligible for ～（～の対象となる）や eligible to ＋動詞の原形（～する資格がある）の形で使う。to all guests とは組まず、意味も合わない",
    "responsible for ～ で「～に責任がある」。意味が合わない"
   ],
   "point_ja": "形容詞の語彙問題は、後ろの前置詞（to / of / for）との組み合わせも手がかりになる。",
@@ -8456,7 +8456,7 @@
     "content_hash": "27d5a4cfab11"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0009",
@@ -8805,7 +8805,7 @@
    "名詞。冠詞 a の後で made の目的語になる。make a decision",
    "動詞。冠詞の後には置けない",
    "形容詞。a decisive の後に名詞が必要",
-   "副詞。冠詞の後には置けない"
+   "副詞。後ろに修飾する形容詞がなく、made a ＿ で名詞が要る位置なので入らない"
   ],
   "point_ja": "a / an / the の後の空欄は、後ろにほかの名詞が続かず、そこが名詞の中心になる位置なら名詞（後ろに形容詞＋名詞が続くなら副詞が入ることもある）。make a decision は決まった言い方。",
   "level": "B1",
@@ -8846,7 +8846,7 @@
     "content_hash": "9ee8041d561e"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0014",
@@ -9318,7 +9318,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "a more ------- strategy で、名詞 strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
+  "explanation_ja": "a more ------- advertising strategy で、名詞句 advertising strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
   "translation_ja": "調査結果は、より効果的な広告戦略を立てるために使われる。",
   "translation_options_ja": [
    "効果（名詞）",
@@ -9329,7 +9329,7 @@
   "option_notes_ja": [
    "名詞「効果」。advertising strategy の前に置くと意味が通らない",
    "副詞。名詞は修飾できない",
-   "形容詞。a more effective strategy で「より効果的な戦略」",
+   "形容詞。a more effective advertising strategy で「より効果的な広告戦略」",
    "名詞「効果の高さ」。effectiveness advertising strategy では「効果的な広告戦略」の意味にならない"
   ],
   "point_ja": "a more ＿ 名詞 の空欄は、名詞を修飾する形容詞が入ることが多い。more があっても、意味と修飾の関係から品詞を選ぶ。",
@@ -9371,7 +9371,7 @@
     "content_hash": "c6e54ba3afbb"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0020",
@@ -9400,7 +9400,7 @@
   ],
   "answer": "d",
   "shuffle": true,
-  "explanation_ja": "By the time + 未来の時点（next Monday）までに完了していることを表すので未来完了 will have printed。",
+  "explanation_ja": "By the time the conference begins next Monday（来週月曜日に会議が始まるまでに）という未来の時点までに完了していることを表すので、未来完了 will have printed。",
   "translation_ja": "来週の月曜日に会議が始まるまでに、主催者はすべての名札を印刷し終えているだろう。",
   "translation_options_ja": [
    "印刷する（現在形）",
@@ -9453,7 +9453,7 @@
     "content_hash": "7c984ed2ffe8"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0021",
@@ -9974,7 +9974,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because はふつう主語と動詞を続ける接続詞で、名詞句だけを続けることはできない。",
+  "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because は後ろに主語＋動詞をとる接続詞で、the heavy snowfall のような名詞句を前置詞のように続けることはできない（although などは主語と be 動詞を省いた形もあるが、ここはその形ではない）。",
   "translation_ja": "大雪にもかかわらず、ほとんどの社員が会議に間に合った。",
   "translation_options_ja": [
    "～だけれども（接続詞）",
@@ -9983,8 +9983,8 @@
    "～なので（接続詞）"
   ],
   "option_notes_ja": [
-   "接続詞。ふつう後ろに主語＋動詞が来る（although tired のような省略形もあるが、名詞句は続かない）",
-   "接続詞「たとえ～でも」。後ろに主語＋動詞が必要",
+   "接続詞。後ろには主語＋動詞が来るのが基本。主語と be 動詞を省いた形（Although a small company, ～ など）もあるが、ここでは the heavy snowfall が主節の主語 most employees を説明していないので使えない",
+   "接続詞「たとえ～でも」。後ろには主語＋動詞が来るのが基本で、名詞句 the heavy snowfall だけを続けることはできない",
    "前置詞「～にもかかわらず」。後ろの名詞句 the heavy snowfall をつなぐ",
    "接続詞。後ろに主語＋動詞が必要で、意味も合わない"
   ],
@@ -10027,7 +10027,7 @@
     "content_hash": "b3289d667c52"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0028",
@@ -11528,7 +11528,7 @@
   "option_notes_ja": [
    "名詞「忍耐・辛抱」。所有格 your の後に置く",
    "形容詞（名詞では「患者」）。your patient は「あなたの患者」で意味が合わない",
-   "副詞。所有格の後には置けない",
+   "副詞。名詞ではないので、後ろに修飾する語がないこの位置（your ＿）には置けない",
    "名詞の複数形「患者たち」。意味が合わない"
   ],
   "point_ja": "We appreciate your patience / cooperation / understanding は、お知らせの結びの決まり文句。",
@@ -11570,7 +11570,7 @@
     "content_hash": "df230cc670a5"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0005",
@@ -11599,14 +11599,14 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "名詞 receipts の前なので、名詞を修飾する形容詞 Original（原本の）。Originally は副詞、Origin は名詞、Originate は動詞。",
+  "explanation_ja": "名詞 receipts を修飾して「レシートの原本」を表す形容詞 Original。Originally は副詞で文頭にも置けるが、「当初は」の意味で文脈に合わない。Origin は名詞、Originate は動詞。",
   "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "形容詞「原本の」。名詞 receipts を修飾する",
-   "副詞。名詞は修飾できない",
+   "副詞「当初は」。文頭にも置けるが、「当初はレシートが必要」ではこの告知の意味に合わず、「レシートの原本」も表せない",
    "名詞「起源」。receipts の前に置くと意味が通らない",
-   "動詞「生じる」。名詞の前には置けない"
+   "動詞「生じる」。名詞 receipts を修飾できず、主語の前にも置けない"
   ],
   "point_ja": "名詞の直前の空欄は、名詞を修飾する形容詞が入ることが多い（safety regulations のような名詞＋名詞の形もあるので、意味も確かめる）。文頭で大文字になっていても品詞の考え方は同じ。",
   "level": "B1",
@@ -11647,7 +11647,7 @@
     "content_hash": "7a0c31b629de"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0006",
@@ -11729,7 +11729,7 @@
     "content_hash": "ab42edbd4dd2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0007",
@@ -11806,7 +11806,7 @@
     "content_hash": "1ac5586a54d1"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0008",
@@ -11916,7 +11916,7 @@
     "content_hash": "bdc835a44481"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0009",
@@ -12359,7 +12359,7 @@
    "週末の休みは需要の話と関係がない",
    "食料品の価格の話は、需要に応えるための施設の話につながらない"
   ],
-  "point_ja": "this ＋名詞（this demand、this change）で始まる文の前には、その名詞が指す内容が必要。",
+  "point_ja": "this ＋名詞（this demand、this change など）を含む文の前には、文頭でも文中でも、その名詞が指す内容が必要。挿入文は、後ろの this ～ が指す内容になるかで選ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
@@ -12398,7 +12398,7 @@
     "content_hash": "cad7c5c7007a"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0015",
@@ -12509,13 +12509,13 @@
   ],
   "answer": "d",
   "shuffle": true,
-  "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large とは言わず、最上級なら much the largest のように the が要る。",
+  "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。a much ＿ scale の形なので比較級が入り、much large や much largest とはしない（最上級を強める言い方には much the largest がある）。",
   "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "原級。large を強めるなら very large で、much large とは言わない",
    "副詞。scale（名詞）を修飾できない",
-   "最上級。much largest とは言わない（最上級を強めるなら much the largest）。a much ＿ scale には合わない",
+   "最上級。a much ＿ scale の形には合わない（最上級を強める言い方なら much the largest）",
    "比較級。much larger で「はるかに大きな」"
   ],
   "point_ja": "much / far / even / still は比較級を強める（much larger）。very は比較級を強められない（× very larger）。",
@@ -12557,7 +12557,7 @@
     "content_hash": "ac7d254e4920"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0017",
@@ -12586,7 +12586,7 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+  "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from、apply は for / to と組むのがふつうで、on と組んで「～に頼る」の意味になるのは rely。",
   "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
   "translation_options_ja": [
    "頼る",
@@ -12596,9 +12596,9 @@
   ],
   "option_notes_ja": [
    "rely on ～ で「～に頼る」",
-   "consist は of と組む（consist of ～）。on とは組まない",
-   "result は in / from と組む。on とは組まない",
-   "apply は for / to と組む。on とは組まない"
+   "consist of ～（～から成る）の形で使う。on と組んで「～に頼る」の意味にはならない",
+   "result in / from の形で使う。on と組んで「～に頼る」の意味にはならない",
+   "apply for（～に申し込む）・apply to（～に当てはまる）の形で使う。apply on で「～に頼る」の意味にはならない"
   ],
   "point_ja": "動詞と前置詞の組み合わせ：rely on・depend on・consist of・result in・apply for・comply with。",
   "level": "B1",
@@ -12639,7 +12639,7 @@
     "content_hash": "8ac9c507dd52"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0018",
@@ -15113,7 +15113,7 @@
   ],
   "answer": "b",
   "shuffle": false,
-  "explanation_ja": "【2文書の照合】デラックス25ドル×16人＝400ドル。事務所は調理場から約15キロ（文書2）で、10キロを超えるので配達料20ドルがかかる（文書1）。合計420ドル。",
+  "explanation_ja": "【2文書の照合】スープとデザートが要り、コーヒー・紅茶は要らない（文書2）ので、スープ・デザート付きで飲み物がソフトドリンクのデラックスが合う（エグゼクティブはコーヒー・紅茶のサービス付きで、要らないものが含まれる）。デラックス25ドル×16人＝400ドル。事務所は調理場から約15キロ（文書2）で、10キロを超えるので配達料20ドルがかかる（文書1）。合計420ドル。",
   "translation_ja": "ワタナベさんの会社は合計でいくら請求されると考えられるか。",
   "translation_options_ja": [
    "400ドル",
@@ -15124,8 +15124,8 @@
   "option_notes_ja": [
    "デラックス×16人の額だが、配達料が抜けている",
    "25ドル×16人＝400ドル。事務所は10キロ圏外なので、配達料20ドル（一律）を足す",
-   "エグゼクティブ×16人の額。セットが違う",
-   "エグゼクティブに配達料を足した額。セットが違う"
+   "エグゼクティブ32ドル×16人の額。コーヒー・紅茶は要らないと書いているので、コーヒー・紅茶のサービス付きのエグゼクティブではない",
+   "エグゼクティブ×16人に配達料を足した額。コーヒー・紅茶は要らないので、エグゼクティブではない"
   ],
   "point_ja": "計算問題は条件を1つずつ足す：セットの単価 × 人数 ＋ 配達料（距離の条件）。誤答には途中の数字が並ぶ。",
   "level": "B2",
@@ -15166,7 +15166,7 @@
     "content_hash": "9865ebe19c28"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0027",

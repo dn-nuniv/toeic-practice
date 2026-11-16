@@ -18,7 +18,7 @@
     "名詞。冠詞 a の後で made の目的語になる。make a decision",
     "動詞。冠詞の後には置けない",
     "形容詞。a decisive の後に名詞が必要",
-    "副詞。冠詞の後には置けない"
+    "副詞。後ろに修飾する形容詞がなく、made a ＿ で名詞が要る位置なので入らない"
    ],
    "point_ja": "a / an / the の後の空欄は、後ろにほかの名詞が続かず、そこが名詞の中心になる位置なら名詞（後ろに形容詞＋名詞が続くなら副詞が入ることもある）。make a decision は決まった言い方。"
   },
@@ -125,13 +125,13 @@
    "prompt": "The survey results will be used to develop a more ------- advertising strategy.",
    "options": ["effect", "effectively", "effective", "effectiveness"],
    "answer": "c",
-   "explanation_ja": "a more ------- strategy で、名詞 strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
+   "explanation_ja": "a more ------- advertising strategy で、名詞句 advertising strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
    "translation_ja": "調査結果は、より効果的な広告戦略を立てるために使われる。",
    "translation_options_ja": ["効果（名詞）", "効果的に（副詞）", "効果的な（形容詞）", "効果の高さ（名詞）"],
    "option_notes_ja": [
     "名詞「効果」。advertising strategy の前に置くと意味が通らない",
     "副詞。名詞は修飾できない",
-    "形容詞。a more effective strategy で「より効果的な戦略」",
+    "形容詞。a more effective advertising strategy で「より効果的な広告戦略」",
     "名詞「効果の高さ」。effectiveness advertising strategy では「効果的な広告戦略」の意味にならない"
    ],
    "point_ja": "a more ＿ 名詞 の空欄は、名詞を修飾する形容詞が入ることが多い。more があっても、意味と修飾の関係から品詞を選ぶ。"
@@ -144,7 +144,7 @@
    "prompt": "By the time the conference begins next Monday, the organizers ------- all of the name badges.",
    "options": ["print", "printed", "have been printing", "will have printed"],
    "answer": "d",
-   "explanation_ja": "By the time + 未来の時点（next Monday）までに完了していることを表すので未来完了 will have printed。",
+   "explanation_ja": "By the time the conference begins next Monday（来週月曜日に会議が始まるまでに）という未来の時点までに完了していることを表すので、未来完了 will have printed。",
    "translation_ja": "来週の月曜日に会議が始まるまでに、主催者はすべての名札を印刷し終えているだろう。",
    "translation_options_ja": ["印刷する（現在形）", "印刷した（過去形）", "ずっと印刷している（現在完了進行形）", "印刷し終えているだろう（未来完了）"],
    "option_notes_ja": [
@@ -272,12 +272,12 @@
    "prompt": "------- the heavy snowfall, most employees managed to arrive on time for the meeting.",
    "options": ["Although", "Even if", "Despite", "Because"],
    "answer": "c",
-   "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because はふつう主語と動詞を続ける接続詞で、名詞句だけを続けることはできない。",
+   "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because は後ろに主語＋動詞をとる接続詞で、the heavy snowfall のような名詞句を前置詞のように続けることはできない（although などは主語と be 動詞を省いた形もあるが、ここはその形ではない）。",
    "translation_ja": "大雪にもかかわらず、ほとんどの社員が会議に間に合った。",
    "translation_options_ja": ["～だけれども（接続詞）", "たとえ～でも（接続詞）", "～にもかかわらず（前置詞）", "～なので（接続詞）"],
    "option_notes_ja": [
-    "接続詞。ふつう後ろに主語＋動詞が来る（although tired のような省略形もあるが、名詞句は続かない）",
-    "接続詞「たとえ～でも」。後ろに主語＋動詞が必要",
+    "接続詞。後ろには主語＋動詞が来るのが基本。主語と be 動詞を省いた形（Although a small company, ～ など）もあるが、ここでは the heavy snowfall が主節の主語 most employees を説明していないので使えない",
+    "接続詞「たとえ～でも」。後ろには主語＋動詞が来るのが基本で、名詞句 the heavy snowfall だけを続けることはできない",
     "前置詞「～にもかかわらず」。後ろの名詞句 the heavy snowfall をつなぐ",
     "接続詞。後ろに主語＋動詞が必要で、意味も合わない"
    ],

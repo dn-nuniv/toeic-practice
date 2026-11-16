@@ -47,15 +47,15 @@
    "prompt": "All visitors are required to sign in at the front desk ------- entering the office area.",
    "options": ["before", "although", "because", "unless"],
    "answer": "a",
-   "explanation_ja": "「オフィスエリアに入る前に」という時の関係を表すので before。before は前置詞として動名詞 entering を続けられる。although・because・unless は意味が合わない（although は although working のような省略した形もとれるが、「～だけれども」になる）。",
+   "explanation_ja": "「オフィスエリアに入る前に」という時の関係を表すので before。before は前置詞として動名詞 entering を続けられる。although・because・unless は意味が合わない（although・unless は主語と be 動詞を省いて -ing を続けることもあるが、「入るけれども」「入る場合を除いて」になる）。",
    "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。",
    "option_notes_ja": [
     "前置詞としても使え、動名詞 entering を続けられる。「入る前に」",
     "接続詞「～だけれども」。although ＋ -ing の形もとれるが、意味が合わない",
     "接続詞。because の後には主語と動詞が要る",
-    "接続詞「～でない限り」。意味も形も合わない"
+    "接続詞「～でない限り」。unless entering の形もとれるが、「入る場合を除いて」になり意味が合わない"
    ],
-   "point_ja": "空欄の後が名詞・動名詞なら前置詞、主語＋動詞なら接続詞。before・after・since は両方の使い方がある。"
+   "point_ja": "空欄の後が名詞・動名詞なら前置詞、主語＋動詞なら接続詞が基本（although・unless などは主語と be 動詞を省いて -ing を続けることもあるので、意味も確かめる）。before・after・since は両方の使い方がある。"
   },
   {
    "id": "p5-0004",
@@ -137,12 +137,12 @@
    "prompt": "The hotel offers a shuttle service to the airport, which is ------- to all guests free of charge.",
    "options": ["available", "capable", "eligible", "responsible"],
    "answer": "a",
-   "explanation_ja": "be available to ～ で「～が利用できる」。eligible は eligible for ～（～の対象となる・資格がある）の形で使い、to all guests とは組まず、意味も合わない。",
+   "explanation_ja": "be available to ～ で「～が利用できる」。eligible は eligible for ～（～の対象となる）や eligible to ＋動詞の原形（～する資格がある）の形で使い、to all guests（to ＋人）とは組まず、意味も合わない。",
    "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
    "option_notes_ja": [
     "available to ～ で「～が利用できる」。シャトルが宿泊客に使える",
-    "capable of ～ で「～する能力がある」。to とは組まず、意味も合わない",
-    "eligible for ～ で「～の対象となる・資格がある」。to とは組まず、意味も合わない",
+    "capable of ～ で「～する能力がある」。to all guests とは組まず、意味も合わない",
+    "eligible for ～（～の対象となる）や eligible to ＋動詞の原形（～する資格がある）の形で使う。to all guests とは組まず、意味も合わない",
     "responsible for ～ で「～に責任がある」。意味が合わない"
    ],
    "point_ja": "形容詞の語彙問題は、後ろの前置詞（to / of / for）との組み合わせも手がかりになる。"

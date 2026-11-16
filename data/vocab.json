@@ -2893,7 +2893,9 @@
    "v-0026",
    "v-0006"
   ],
-  "related_items": [],
+  "related_items": [
+   "p3-0009"
+  ],
   "review": [
    {
     "reviewer": "claude",

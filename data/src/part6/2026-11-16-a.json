@@ -14,7 +14,7 @@
      "text": "Starting March 1, Halbrook Home & Garden will update its return policy. Customers will have 60 days, instead of 30, to return most items. [1] receipts will still be required for all returns.\n\nItems purchased during our seasonal clearance sales, however, cannot be returned. [2]\n\nTo make returns easier, a self-service return counter [3] near the main entrance last week. Simply scan your receipt and place the item in the marked bin.\n\nWe hope these changes make shopping with us even more [4]. Thank you for your continued support."
     }
    ],
-   "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。ただし、すべての返品には引き続きレシートの原本が必要です。\nなお、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう便利になれば幸いです。日ごろのご愛顧に感謝いたします。",
+   "translation_ja": "お客さまへのお知らせ\n3月1日から、ハルブルック・ホーム＆ガーデンは返品の規定を改めます。ほとんどの商品は、30日ではなく60日以内に返品できるようになります。すべての返品には引き続きレシートの原本が必要です。\nただし、季節のクリアランスセールで購入された商品は返品できません。［これらの商品には赤い札がはっきりと付いています。］\n返品をより簡単にするため、先週、正面入口の近くにセルフサービスの返品カウンターを設置しました。レシートを読み取らせて、商品を表示のある箱に入れるだけです。\n今回の変更で、当店でのお買い物がいっそう便利になれば幸いです。日ごろのご愛顧に感謝いたします。",
    "questions": [
     {
      "id": "p6-0005",
@@ -24,13 +24,13 @@
      "prompt": "[1]",
      "options": ["Original", "Originally", "Origin", "Originate"],
      "answer": "a",
-     "explanation_ja": "名詞 receipts の前なので、名詞を修飾する形容詞 Original（原本の）。Originally は副詞、Origin は名詞、Originate は動詞。",
+     "explanation_ja": "名詞 receipts を修飾して「レシートの原本」を表す形容詞 Original。Originally は副詞で文頭にも置けるが、「当初は」の意味で文脈に合わない。Origin は名詞、Originate は動詞。",
      "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。",
      "option_notes_ja": [
       "形容詞「原本の」。名詞 receipts を修飾する",
-      "副詞。名詞は修飾できない",
+      "副詞「当初は」。文頭にも置けるが、「当初はレシートが必要」ではこの告知の意味に合わず、「レシートの原本」も表せない",
       "名詞「起源」。receipts の前に置くと意味が通らない",
-      "動詞「生じる」。名詞の前には置けない"
+      "動詞「生じる」。名詞 receipts を修飾できず、主語の前にも置けない"
      ],
      "point_ja": "名詞の直前の空欄は、名詞を修飾する形容詞が入ることが多い（safety regulations のような名詞＋名詞の形もあるので、意味も確かめる）。文頭で大文字になっていても品詞の考え方は同じ。"
     },
@@ -264,7 +264,7 @@
       "週末の休みは需要の話と関係がない",
       "食料品の価格の話は、需要に応えるための施設の話につながらない"
      ],
-     "point_ja": "this ＋名詞（this demand、this change）で始まる文の前には、その名詞が指す内容が必要。"
+     "point_ja": "this ＋名詞（this demand、this change など）を含む文の前には、文頭でも文中でも、その名詞が指す内容が必要。挿入文は、後ろの this ～ が指す内容になるかで選ぶ。"
     },
     {
      "id": "p6-0015",
@@ -293,12 +293,12 @@
      "prompt": "[4]",
      "options": ["large", "largely", "largest", "larger"],
      "answer": "d",
-     "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large とは言わず、最上級なら much the largest のように the が要る。",
+     "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。a much ＿ scale の形なので比較級が入り、much large や much largest とはしない（最上級を強める言い方には much the largest がある）。",
      "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
      "option_notes_ja": [
       "原級。large を強めるなら very large で、much large とは言わない",
       "副詞。scale（名詞）を修飾できない",
-      "最上級。much largest とは言わない（最上級を強めるなら much the largest）。a much ＿ scale には合わない",
+      "最上級。a much ＿ scale の形には合わない（最上級を強める言い方なら much the largest）",
       "比較級。much larger で「はるかに大きな」"
      ],
      "point_ja": "much / far / even / still は比較級を強める（much larger）。very は比較級を強められない（× very larger）。"
@@ -326,14 +326,14 @@
      "prompt": "[1]",
      "options": ["relies", "consists", "results", "applies"],
      "answer": "a",
-     "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+     "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from、apply は for / to と組むのがふつうで、on と組んで「～に頼る」の意味になるのは rely。",
      "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
      "translation_options_ja": ["頼る", "成り立つ", "結果として生じる", "当てはまる・申し込む"],
      "option_notes_ja": [
       "rely on ～ で「～に頼る」",
-      "consist は of と組む（consist of ～）。on とは組まない",
-      "result は in / from と組む。on とは組まない",
-      "apply は for / to と組む。on とは組まない"
+      "consist of ～（～から成る）の形で使う。on と組んで「～に頼る」の意味にはならない",
+      "result in / from の形で使う。on と組んで「～に頼る」の意味にはならない",
+      "apply for（～に申し込む）・apply to（～に当てはまる）の形で使う。apply on で「～に頼る」の意味にはならない"
      ],
      "point_ja": "動詞と前置詞の組み合わせ：rely on・depend on・consist of・result in・apply for・comply with。"
     },

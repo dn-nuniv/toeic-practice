@@ -249,7 +249,7 @@
    "translation_ja": "窓側の席と通路側の席のどちらがよろしいですか。",
    "translation_options_ja": ["はい、そうしたいです。", "窓側でも通路側でも、前に近いほうをお願いします。", "窓から見えました。"],
    "option_notes_ja": ["選択疑問文に Yes で答えている", "席の種類ではなく「より前に近いほう」という条件で選んでいる", "window を繰り返したひっかけ"],
-   "point_ja": "選択疑問文の正解は「どちらでもよい（Either is fine / Whichever ～）」「両方」「どちらでもない」もある。"
+   "point_ja": "選択疑問文（A or B?）には、条件を添えて選ぶ（Whichever is closer to the front.）、どちらでもよいと答える（Either is fine.）、両方・どちらでもないと答える、といった応答もある。"
   },
   {
    "id": "p2-0023",

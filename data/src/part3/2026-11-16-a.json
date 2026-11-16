@@ -88,18 +88,13 @@
       "Return the tomatoes",
       "Sign a new contract",
       "Pay for the spoiled produce",
-      "Pick up an order"
+      "Fill out a complaint form"
      ],
      "answer": "c",
-     "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品については言っておらず、代わりの品は配達すると言っているので、自分で取りに行く必要もない。",
+     "explanation_ja": "you won't be charged for the tomatoes you received this morning とあり、柔らかすぎて使えないトマト（spoiled produce）の代金を払わなくてよい。返品・契約・用紙の記入については話していない。",
      "translation_ja": "女性は、男性が何をしなくてよいと言っているか。",
-     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "傷んだ野菜の代金を払う", "注文品を取りに行く"],
-     "option_notes_ja": [
-      "返品の話はしていない",
-      "契約の話はしていない",
-      "今朝届いたトマトの代金は請求しないと言っている",
-      "代わりの品は運転手が届けると言っていて、取りに行く必要はない"
-     ],
+     "translation_options_ja": ["トマトを返品する", "新しい契約を結ぶ", "傷んだ野菜の代金を払う", "苦情の用紙に記入する"],
+     "option_notes_ja": ["返品の話はしていない", "契約の話はしていない", "今朝届いたトマトの代金は請求しないと言っている", "苦情の用紙の話はしていない"],
      "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。"
     }
    ]
@@ -184,7 +179,7 @@
       "業者へのメールや、その返事については話していない",
       "締め切りの話はしていない"
      ],
-     "point_ja": "3人の会話では、2人目が We've had the same issue と同じ問題を繰り返すことがある。複数形（the men）の設問はそこを聞く。"
+     "point_ja": "the men は男性2人を指す。この会話では1人目が不具合を説明し、2人目も We've had the same issue と同じ問題を挙げている。3人の会話で the men / the women と問われたら、2人に共通する話を探す。"
     },
     {
      "id": "p3-0012",
