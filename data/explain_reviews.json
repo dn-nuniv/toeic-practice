@@ -5919,6 +5919,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "68bd1be9fc13"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c076a7cc31f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c076a7cc31f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c076a7cc31f"
   }
  ],
  "p7-0002": [
@@ -5945,6 +5969,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "bfc3adc63411"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0fc9b565e473"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0fc9b565e473"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0fc9b565e473"
   }
  ],
  "p7-0003": [
@@ -5971,6 +6019,30 @@
    "issues": "TOEIC のポイントの「記事の主題は第1段落（見出しの直後）に書かれる。」は断定的すぎて例外を無視している（見出しがない記事や、第2段落以降に主題・要点が述べられる記事もある）。",
    "fix": "「記事の主題は第1段落（見出しの直後）に書かれることが多い。」とする。",
    "explain_hash": "f132b823b88a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b5366a714f0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b5366a714f0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b5366a714f0"
   }
  ],
  "p7-0004": [
@@ -5997,6 +6069,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "bdd0c4b8c7f7"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9df62bf44dc"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9df62bf44dc"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9df62bf44dc"
   }
  ],
  "p7-0005": [
@@ -6023,6 +6119,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "c24ad678ddf5"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "972d439cf300"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "972d439cf300"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "972d439cf300"
   }
  ],
  "p7-0006": [
@@ -6049,6 +6169,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "ca2a43a4a3c4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3e79115109e5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3e79115109e5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3e79115109e5"
   }
  ],
  "p7-0007": [
@@ -6075,6 +6219,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "e714d8ce2d2b"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9092976212aa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9092976212aa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9092976212aa"
   }
  ],
  "p7-0008": [
@@ -6101,6 +6269,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "e358a24e1913"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6936028721ac"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6936028721ac"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6936028721ac"
   }
  ],
  "p7-0009": [
@@ -6127,6 +6319,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "a1ef394f10a4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3bd337859203"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3bd337859203"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3bd337859203"
   }
  ],
  "p7-0010": [
@@ -6153,6 +6369,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "ace03a20de6d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "624ccaa11499"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "624ccaa11499"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "624ccaa11499"
   }
  ],
  "p7-0011": [
@@ -6179,6 +6419,30 @@
    "issues": "TOEIC のポイントの「社内メモの目的は冒頭の1〜2文に書かれる。」は断定的すぎて例外を無視している（背景説明の後に目的や依頼が書かれるメモもある）。",
    "fix": "「社内メモの目的は冒頭の1〜2文に書かれることが多い。」とする。",
    "explain_hash": "09dd7d972cb5"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8ecc7d957f6f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8ecc7d957f6f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8ecc7d957f6f"
   }
  ],
  "p7-0012": [
@@ -6309,6 +6573,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "fca8692933e4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bf30d339d844"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bf30d339d844"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bf30d339d844"
   }
  ],
  "p7-0017": [
@@ -6335,6 +6623,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "8a3a6e46ee16"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a19e1da6c9bf"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a19e1da6c9bf"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a19e1da6c9bf"
   }
  ],
  "p7-0018": [
@@ -6361,6 +6673,30 @@
    "issues": "正解の理由に「3月16日までに300部刷れると言っているので2つ目は誤り」とあるが、「3月16日より前に仕上げられない（It cannot finish the job before March 16.）」は2つ目の (B) ではなく1つ目の (A) である。",
    "fix": "「2つ目は誤り」を「(A) は誤り」（または「1つ目は誤り」）に直す。",
    "explain_hash": "e9109a5c9e01"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a30942c3bd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a30942c3bd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a30942c3bd"
   }
  ],
  "p7-0019": [
@@ -6465,6 +6801,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "ab04ddfd136d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ef4f266559ca"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ef4f266559ca"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ef4f266559ca"
   }
  ],
  "p7-0023": [
@@ -6491,6 +6851,30 @@
    "issues": "(A) の原文は changed its prices（料金を変えた）であり、値上げとは限らないにもかかわらず、(A) のコメントと正解の理由で「値上げの話は書かれていない」「値上げや団体割引には触れていない」と「値上げ」に限定して説明している。",
    "fix": "(A) のコメントと正解の理由の「値上げ」を「料金変更」に直す。",
    "explain_hash": "353ce0a704fb"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "133b69370125"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "133b69370125"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "133b69370125"
   }
  ],
  "p7-0024": [
@@ -6569,6 +6953,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "2d570c8a3a5d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": false,
+   "issues": "正解の理由は「デラックス25ドル×16人」から計算を始めているが、なぜデラックスを選ぶのかを書いていない。この照合問題の大事な一歩が抜けている。エグゼクティブにもスープとデザートが付くので、学習者はエグゼクティブでもよいと考えるかもしれない。$512 と $532 の選択肢へのコメントも「セットが違う」だけで、理由が分からない。",
+   "fix": "正解の理由の最初に、次の文を足す。「スープとデザートが付き、コーヒー・紅茶は要らない（文書2）ので、デラックス（スープ・デザート付き、飲み物はソフトドリンク）が合う。エグゼクティブはコーヒー・紅茶のサービス付きで、要らないものが含まれる。」 $512 と $532 のコメントは「コーヒーや紅茶は要らないと書いているので、コーヒー・紅茶のサービスが付いたエグゼクティブではない」のように直す。",
+   "explain_hash": "7b75ea6b67ae"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b75ea6b67ae"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b75ea6b67ae"
   }
  ],
  "p7-0027": [
@@ -6621,6 +7029,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "e2d0fc62fd20"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f7091cc439e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f7091cc439e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f7091cc439e"
   }
  ],
  "p7-0029": [
@@ -6647,6 +7079,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "b02373b1b541"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "428bb3c0567d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "428bb3c0567d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "428bb3c0567d"
   }
  ],
  "p7-0030": [
@@ -6673,6 +7129,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "12978cac528d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "419f4bf06844"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "419f4bf06844"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "419f4bf06844"
   }
  ],
  "p7-0031": [
@@ -6699,6 +7179,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "7b4b7c3d49b4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b69dbf51f25"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b69dbf51f25"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3b69dbf51f25"
   }
  ],
  "p7-0032": [
@@ -6725,6 +7229,30 @@
    "issues": "セット p7-s009 の【文書2】の訳で、差出人の署名にある「Production Department（生産部）」の訳が抜け落ちている。p7-0032 の (A) のコメントおよび正解の理由で「所属は生産部（Production Department）」と言及しているが、和訳だけでは確認できない。",
    "fix": "セット p7-s009 の【文書2】の訳の差出人を「差出人：マーティン・アチェベ（生産部）」にする（または末尾に「生産部」を補う）。",
    "explain_hash": "7183399f8e1a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9eba3e374cd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9eba3e374cd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:10:22",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d9eba3e374cd"
   }
  ]
 }
