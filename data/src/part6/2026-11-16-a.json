@@ -32,7 +32,7 @@
       "名詞「起源」。receipts の前に置くと意味が通らない",
       "動詞「生じる」。名詞の前には置けない"
      ],
-     "point_ja": "名詞の直前の空欄は形容詞。文頭で大文字になっていても品詞の考え方は同じ。"
+     "point_ja": "名詞の直前の空欄は、名詞を修飾する形容詞が入ることが多い（safety regulations のような名詞＋名詞の形もあるので、意味も確かめる）。文頭で大文字になっていても品詞の考え方は同じ。"
     },
     {
      "id": "p6-0006",
@@ -47,7 +47,7 @@
       "All returns must be made within one week."
      ],
      "answer": "b",
-     "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。30日・1週間という文は、60日に延びるという前の段落と食い違う。",
+     "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。",
      "translation_ja": "（空欄2）文挿入問題",
      "translation_options_ja": [
       "園芸コーナーは休暇の間閉まります。",
@@ -58,8 +58,8 @@
      "option_notes_ja": [
       "園芸コーナーの休みは、返品できない商品の話と関係がない",
       "直前の「クリアランスセールの商品は返品できない」を受け、These items の見分け方を説明している",
-      "レシートの保管期間30日は、60日に延びるという前の段落と食い違う",
-      "1週間以内は、60日に延びるという前の段落と矛盾する"
+      "60日の返品期限と矛盾はしないが、直前の返品できない商品の説明を補う文ではない",
+      "1週間以内は、60日に延びるという前の段落と食い違う"
      ],
      "point_ja": "These / Those / Such ＋名詞 で始まる挿入文は、直前に指す内容があるかを確かめる。"
     },
@@ -150,7 +150,7 @@
       "Ms. Okonkwo joined the company last year."
      ],
      "answer": "b",
-     "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。すでに採用が決まっているので応募のお礼は時期が合わない。",
+     "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。",
      "translation_ja": "（空欄2）文挿入問題",
      "translation_options_ja": [
       "当社は土日祝日は休みです。",
@@ -161,7 +161,7 @@
      "option_notes_ja": [
       "休日の案内は、初日の朝の予定の流れに合わない",
       "直後の After that（その後）が受ける、初日の朝の予定。オリエンテーションに参加する",
-      "すでに採用が決まっているので、応募へのお礼は時期が合わない",
+      "応募へのお礼は、初日の朝の予定を補う内容ではなく、直後の After that につながる出来事にもならない",
       "オコンクォさんの紹介は、直後の After that の「その後」が指す出来事にならない"
      ],
      "point_ja": "After that・Then・Afterward で始まる文の前には、順序のある出来事が必要。"
@@ -174,11 +174,11 @@
      "prompt": "[3]",
      "options": ["regulations", "resolutions", "restrictions", "recognitions"],
      "answer": "c",
-     "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で dietary とは組まない。",
+     "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で、個人の食事の制限を尋ねるこの文脈には合わない。",
      "translation_ja": "（空欄3）食事の制限があれば知らせてほしい。",
      "translation_options_ja": ["規則", "決意・決議", "制限", "認識・表彰"],
      "option_notes_ja": [
-      "規則。dietary とは組まない",
+      "規則。dietary regulations は食品・食事に関する規定の意味で、個人が食べられない物を尋ねるこの文脈には合わない",
       "決意・決議。意味が合わない",
       "制限。dietary restrictions で「食事の制限（食べられない物）」",
       "認識・表彰。意味が合わない"
@@ -216,7 +216,7 @@
      "text": "OAKDALE (August 14) — Rivermont Bakery, a family-owned company known for its whole-grain breads, announced yesterday that it will open a second production facility next spring. The new facility, located in the Oakdale Industrial Park, will [1] the company's output by about 40 percent.\n\nRivermont's products are currently sold in more than 300 grocery stores across the region. [2] The company says the new facility will allow it to meet this growing demand.\n\nThe expansion is also expected to create around 60 new jobs. Most of these positions will be in production and delivery. [3], Rivermont plans to hire several food scientists to develop new products.\n\n\"We have always focused on quality,\" said company president Elena Varga. \"Our new facility will help us continue to do so on a much [4] scale.\""
     }
    ],
-   "translation_ja": "リバーモント・ベーカリー、生産を拡大へ\nオークデール（8月14日）――全粒粉のパンで知られる家族経営のリバーモント・ベーカリーは昨日、来春2か所目の生産施設を開くと発表した。オークデール工業団地にできる新施設で、同社の生産量は約40パーセント増える。\nリバーモントの製品は現在、地域の300以上の食料品店で売られている。［同社のパンの需要はこの2年で急増している。］同社によると、新施設によってこの高まる需要に応えられるようになるという。\n拡大によって約60人の新たな雇用も生まれる見込みだ。その多くは製造と配送の仕事である。さらに、リバーモントは新製品を開発するために食品科学者を数人採用する予定だ。\n「私たちはいつも品質を大切にしてきました」と社長のエレナ・ヴァルガ氏は語った。「新しい施設によって、それをはるかに大きな規模で続けられるようになります」",
+   "translation_ja": "リバーモント・ベーカリー、生産を拡大へ\nオークデール（8月14日）――全粒粉のパンで知られる家族経営のリバーモント・ベーカリーは昨日、来春2か所目の生産施設を開くと発表した。オークデール工業団地にできる新施設で、同社の生産量は約40パーセント増える。\nリバーモントの製品は現在、地域の300を超える食料品店で売られている。［同社のパンの需要はこの2年で急増している。］同社によると、新施設によってこの高まる需要に応えられるようになるという。\n拡大によって約60人の新たな雇用も生まれる見込みだ。その多くは製造と配送の仕事である。さらに、リバーモントは新製品を開発するために食品科学者を数人採用する予定だ。\n「私たちはいつも品質を大切にしてきました」と社長のエレナ・ヴァルガ氏は語った。「新しい施設によって、それをはるかに大きな規模で続けられるようになります」",
    "questions": [
     {
      "id": "p6-0013",
@@ -293,15 +293,15 @@
      "prompt": "[4]",
      "options": ["large", "largely", "largest", "larger"],
      "answer": "d",
-     "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large・much largest とは言わない。",
+     "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large とは言わず、最上級なら much the largest のように the が要る。",
      "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
      "option_notes_ja": [
-      "原級。much は原級を強めない",
+      "原級。large を強めるなら very large で、much large とは言わない",
       "副詞。scale（名詞）を修飾できない",
-      "最上級。much ～est の形にはならない",
+      "最上級。much largest とは言わない（最上級を強めるなら much the largest）。a much ＿ scale には合わない",
       "比較級。much larger で「はるかに大きな」"
      ],
-     "point_ja": "much / far / even / still は比較級を強める。very は原級を強める。"
+     "point_ja": "much / far / even / still は比較級を強める（much larger）。very は比較級を強められない（× very larger）。"
     }
    ]
   },
@@ -326,7 +326,7 @@
      "prompt": "[1]",
      "options": ["relies", "consists", "results", "applies"],
      "answer": "a",
-     "explanation_ja": "rely on ～ で「～に頼る」。毎年200人以上のボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+     "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
      "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
      "translation_options_ja": ["頼る", "成り立つ", "結果として生じる", "当てはまる・申し込む"],
      "option_notes_ja": [
@@ -397,7 +397,7 @@
      "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。",
      "option_notes_ja": [
       "原形。will be の後には置けない",
-      "現在分詞。be notifying は「知らせている」で、応募者が主語なので合わない",
+      "現在分詞。be notifying なら後ろに知らせる相手（目的語）が必要で、of their shift assignments にはつながらない。応募者は知らされる側",
       "名詞。be notification では意味が通らない",
       "過去分詞。be notified of ～ で「～を知らされる」"
      ],

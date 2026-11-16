@@ -19,7 +19,7 @@
      "text": "Dear staff,\n\nBeginning next Monday, the second-floor kitchen will be closed for renovation. The work is expected to [1] about two weeks. During this period, please use the kitchen on the third floor.\n\n[2] We ask that you take any personal items, such as mugs and food containers, out of the refrigerator by Friday evening. Anything left behind will be [3].\n\nWhen the kitchen reopens, it will have a larger refrigerator, a second microwave, and more seating. We appreciate your [4] while the work is being completed.\n\nPaul Greene"
     }
    ],
-   "translation_ja": "宛先：全従業員／差出人：ポール・グリーン（総務課長）／件名：給湯室の改装\n従業員の皆さま\n来週の月曜日から、2階の給湯室は改装のため閉鎖されます。工事は約2週間かかる見込みです。この間は3階の給湯室をご利用ください。\nなお、古い冷蔵庫は土曜日に撤去されます。マグカップや食品容器など私物は、金曜日の夕方までに冷蔵庫から出しておいてください。残されたものは処分されます。\n再開後の給湯室には、より大きな冷蔵庫、2台目の電子レンジ、座席の追加が予定されています。工事期間中のご理解に感謝いたします。",
+   "translation_ja": "宛先：全従業員／差出人：ポール・グリーン（総務課長）／件名：給湯室の改装／日付：5月2日\n従業員の皆さま\n来週の月曜日から、2階の給湯室は改装のため閉鎖されます。工事は約2週間かかる見込みです。この間は3階の給湯室をご利用ください。\n［なお、古い冷蔵庫は土曜日に撤去されます。］マグカップや食品容器など私物は、金曜日の夕方までに冷蔵庫から出しておいてください。残されたものは処分されます。\n再開後の給湯室には、より大きな冷蔵庫、2台目の電子レンジ、座席の追加が予定されています。工事期間中のご理解に感謝いたします。\nポール・グリーン",
    "questions": [
     {
      "id": "p6-0001",
@@ -34,8 +34,8 @@
      "option_notes_ja": [
       "take＋時間で「（時間が）かかる」。The work is expected to take about two weeks",
       "make は「作る・～させる」。時間を目的語にして「かかる」の意味にはならない",
-      "hold は「開く・保つ」。期間を表す使い方はない",
-      "keep は「保つ」。時間の長さを表す使い方はない"
+      "hold は「開く・保つ」。この文のように「（時間が）かかる」の意味では使わない",
+      "keep は「保つ」。この文のように「（時間が）かかる」の意味では使わない"
      ],
      "point_ja": "「（時間・費用が）かかる」は take（It takes two weeks）／cost（It costs $50）。"
     },
@@ -84,7 +84,7 @@
       "現在分詞。be discarding は「処分している」で、物が主語なので合わない",
       "三人称単数の現在形。will be の後には置けない"
      ],
-     "point_ja": "物が主語で「～される」なら受け身。will be / can be / must be の後は過去分詞。"
+     "point_ja": "物が主語で「～される」という受け身にするときは、will be / can be / must be の後に過去分詞（進行形や形容詞が続く場合もあるので、意味で判断する）。"
     },
     {
      "id": "p6-0004",

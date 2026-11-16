@@ -7990,12 +7990,12 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "動名詞 entering の前に置けるのは前置詞の before。although・because・unless は接続詞で、ここでは使えない。",
+  "explanation_ja": "「オフィスエリアに入る前に」という時の関係を表すので before。before は前置詞として動名詞 entering を続けられる。although・because・unless は意味が合わない（although は although working のような省略した形もとれるが、「～だけれども」になる）。",
   "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "前置詞としても使え、動名詞 entering を続けられる。「入る前に」",
-   "接続詞。後ろには主語と動詞が必要で、意味も「～だけれども」で合わない",
+   "接続詞「～だけれども」。although ＋ -ing の形もとれるが、意味が合わない",
    "接続詞。because の後には主語と動詞が要る",
    "接続詞「～でない限り」。意味も形も合わない"
   ],
@@ -8071,7 +8071,7 @@
     "content_hash": "9371be384ea2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0004",
@@ -8335,12 +8335,12 @@
   "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。",
   "translation_options_ja": null,
   "option_notes_ja": [
-   "主格。名詞 requests の前には置けない",
-   "目的格。名詞の前には置けない",
+   "主格。名詞 requests の前に置いて「彼らの」の意味にはならない",
+   "目的格。submit them requests のような形はとらず、「彼らの申請」の意味にもならない",
    "所有格。their requests で「彼らの申請」",
-   "再帰代名詞。名詞の前には置けない"
+   "再帰代名詞。名詞 requests の前に置いて「彼らの」の意味にはならない"
   ],
-  "point_ja": "空欄の直後が名詞なら所有格（my / your / his / her / its / our / their）。",
+  "point_ja": "代名詞の形を選ぶ問題で、直後の名詞を「だれの～」と修飾する位置なら所有格（my / your / his / her / its / our / their）。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -8379,7 +8379,7 @@
     "content_hash": "a6d52a7fe0a1"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0008",
@@ -8408,13 +8408,13 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "be available to ～ で「～が利用できる」。eligible は for を伴って「資格がある」の意味で、主語が人になる。",
+  "explanation_ja": "be available to ～ で「～が利用できる」。eligible は eligible for ～（～の対象となる・資格がある）の形で使い、to all guests とは組まず、意味も合わない。",
   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
   "translation_options_ja": null,
   "option_notes_ja": [
    "available to ～ で「～が利用できる」。シャトルが宿泊客に使える",
    "capable of ～ で「～する能力がある」。to とは組まず、意味も合わない",
-   "eligible for ～ で「～の資格がある」。人が主語になり、ここでは合わない",
+   "eligible for ～ で「～の対象となる・資格がある」。to とは組まず、意味も合わない",
    "responsible for ～ で「～に責任がある」。意味が合わない"
   ],
   "point_ja": "形容詞の語彙問題は、後ろの前置詞（to / of / for）との組み合わせも手がかりになる。",
@@ -8456,7 +8456,7 @@
     "content_hash": "27d5a4cfab11"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0009",
@@ -8807,7 +8807,7 @@
    "形容詞。a decisive の後に名詞が必要",
    "副詞。冠詞の後には置けない"
   ],
-  "point_ja": "a / an / the の後で、すぐ後ろに名詞がなければ空欄は名詞。make a decision は決まった言い方。",
+  "point_ja": "a / an / the の後の空欄は、後ろにほかの名詞が続かず、そこが名詞の中心になる位置なら名詞（後ろに形容詞＋名詞が続くなら副詞が入ることもある）。make a decision は決まった言い方。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -8846,7 +8846,7 @@
     "content_hash": "9ee8041d561e"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0014",
@@ -8875,7 +8875,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "become（～になる）の後には補語の形容詞が来る。more productive で「より生産的に」。副詞 productively は補語になれない。",
+  "explanation_ja": "become（～になる）の後の補語として、ここでは形容詞 productive が入る。more productive で「より生産的に」。副詞 productively は補語になれない。",
   "translation_ja": "新しい設備が導入されてから、その工場は大幅に生産性が上がった。",
   "translation_options_ja": [
    "生産する（動詞）",
@@ -8889,7 +8889,7 @@
    "副詞。補語にはなれない",
    "名詞。become more production では意味が通らない"
   ],
-  "point_ja": "become・remain・seem などの後の補語は形容詞。副詞は補語にならない。",
+  "point_ja": "become・remain・seem などの後の補語には形容詞（または名詞）が来る。副詞は補語にならない。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -8928,7 +8928,7 @@
     "content_hash": "d1985b122577"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0015",
@@ -8969,7 +8969,7 @@
    "形容詞。受け身の動詞 is located を修飾できない",
    "名詞。is convenience located では文にならない",
    "副詞。conveniently located で「便利な場所にある」",
-   "形容詞の比較級。動詞を修飾できず、比べる相手もない"
+   "形容詞の比較級。is located を修飾できない"
   ],
   "point_ja": "be 動詞と過去分詞の間は副詞の位置（is conveniently located、was carefully reviewed）。",
   "level": "B2",
@@ -9010,7 +9010,7 @@
     "content_hash": "7e13a7bba85e"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0016",
@@ -9121,7 +9121,7 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "所有格 Ms. Okafor's と名詞 analysis の間なので、名詞を修飾する形容詞 thorough。副詞は名詞を修飾できない。",
+  "explanation_ja": "所有格 Ms. Okafor's と名詞 analysis の間で「徹底的な分析」を表すので、形容詞 thorough。副詞は名詞を修飾できない。",
   "translation_ja": "オカフォーさんが予算を徹底的に分析したおかげで、チームはいくつかの不要な経費を見つけることができた。",
   "translation_options_ja": [
    "徹底的な（形容詞）",
@@ -9132,10 +9132,10 @@
   "option_notes_ja": [
    "形容詞。所有格と名詞 analysis の間で名詞を修飾する",
    "副詞。名詞は修飾できない",
-   "名詞。analysis の前に名詞を置くと意味が通らない",
+   "名詞「徹底ぶり」。thoroughness analysis では「徹底的な分析」の意味にならない",
    "副詞の比較級。名詞は修飾できない"
   ],
-  "point_ja": "所有格（Ms. Okafor's、our など）と名詞の間は形容詞の位置。",
+  "point_ja": "所有格（Ms. Okafor's、our など）と名詞の間は、名詞を修飾する語の位置。形容詞が入ることが多い（our budget analysis のように名詞が入る場合もある）。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -9174,7 +9174,7 @@
     "content_hash": "74e04fa052a6"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0018",
@@ -9215,7 +9215,7 @@
    "形容詞。動詞 responded を修飾する標準的な形ではない",
    "副詞。自動詞 responded を修飾する",
    "名詞。文の要素がそろっているので入らない",
-   "動詞「速める」。動詞の後に動詞は続かない"
+   "動詞「速める」。responded の様子を表す副詞の位置には入らない"
   ],
   "point_ja": "自動詞（respond・arrive・work など）の後で、どのように行うかを表すのは副詞。",
   "level": "B1",
@@ -9289,7 +9289,7 @@
     "content_hash": "25b3bc6740bf"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0019",
@@ -9330,9 +9330,9 @@
    "名詞「効果」。advertising strategy の前に置くと意味が通らない",
    "副詞。名詞は修飾できない",
    "形容詞。a more effective strategy で「より効果的な戦略」",
-   "名詞「効果の高さ」。名詞を修飾できない"
+   "名詞「効果の高さ」。effectiveness advertising strategy では「効果的な広告戦略」の意味にならない"
   ],
-  "point_ja": "a more ＿ 名詞 の空欄は形容詞。more があっても、後ろに名詞が来ていれば形容詞を選ぶ。",
+  "point_ja": "a more ＿ 名詞 の空欄は、名詞を修飾する形容詞が入ることが多い。more があっても、意味と修飾の関係から品詞を選ぶ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -9371,7 +9371,7 @@
     "content_hash": "c6e54ba3afbb"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0020",
@@ -9414,7 +9414,7 @@
    "現在完了進行形。未来の時点までの完了は表せない",
    "未来完了。来週の月曜日までに印刷し終えている"
   ],
-  "point_ja": "By the time ＋現在形（未来の時点）／by ＋未来の時点 → 未来完了 will have ＋過去分詞。",
+  "point_ja": "未来のある時点までに完了していることを表すときは、未来完了 will have ＋過去分詞が使える（By the time ＋現在形 などが手がかり）。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -9453,7 +9453,7 @@
     "content_hash": "7c984ed2ffe8"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0021",
@@ -9496,7 +9496,7 @@
    "過去形。since で今までの変化を表す文には合わない",
    "未来。since とは組まない"
   ],
-  "point_ja": "since ＋過去の時点 があれば、主節は現在完了（have / has ＋過去分詞）。",
+  "point_ja": "since ＋過去の時点 で「その時から今まで」の変化や継続を表すときは、主節は現在完了（have / has ＋過去分詞）。基準の時点が過去なら過去完了になることもある。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -9535,7 +9535,7 @@
     "content_hash": "5690ce48e22c"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0022",
@@ -9658,7 +9658,7 @@
    "主格。文の終わりに置いて「自分で」の意味にはならない",
    "目的格。review the contracts him では文にならない",
    "再帰代名詞。文の要素がそろった後に置いて「自分で」",
-   "所有格。後ろに名詞が必要"
+   "所有格・所有代名詞（彼のもの）。この位置で「自分で」の意味にはならない"
   ],
   "point_ja": "文の要素がそろった後の空欄で「自分で・自ら」を表すのは再帰代名詞（himself など）。",
   "level": "B1",
@@ -9699,7 +9699,7 @@
     "content_hash": "e079d16b0e7c"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0024",
@@ -9974,7 +9974,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because は接続詞で、後ろに主語と動詞が必要。",
+  "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because はふつう主語と動詞を続ける接続詞で、名詞句だけを続けることはできない。",
   "translation_ja": "大雪にもかかわらず、ほとんどの社員が会議に間に合った。",
   "translation_options_ja": [
    "～だけれども（接続詞）",
@@ -9983,7 +9983,7 @@
    "～なので（接続詞）"
   ],
   "option_notes_ja": [
-   "接続詞。後ろに主語＋動詞が必要",
+   "接続詞。ふつう後ろに主語＋動詞が来る（although tired のような省略形もあるが、名詞句は続かない）",
    "接続詞「たとえ～でも」。後ろに主語＋動詞が必要",
    "前置詞「～にもかかわらず」。後ろの名詞句 the heavy snowfall をつなぐ",
    "接続詞。後ろに主語＋動詞が必要で、意味も合わない"
@@ -10027,7 +10027,7 @@
     "content_hash": "b3289d667c52"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0028",
@@ -10149,7 +10149,7 @@
   "option_notes_ja": [
    "所有格の関係代名詞。the employee whose suggestion で「その人の提案が」",
    "主格の関係代名詞。後ろに動詞が来る形で、名詞 suggestion は続かない",
-   "目的格の関係代名詞。後ろに主語＋動詞が来る",
+   "目的格の関係代名詞。後ろの文に目的語の欠けが必要だが、ここは「その社員の提案」という所有の関係なので合わない",
    "人以外に使う関係代名詞。先行詞が人なので合わない"
   ],
   "point_ja": "関係代名詞の直後が名詞で「その～の…」の関係なら whose。",
@@ -10191,7 +10191,7 @@
     "content_hash": "55042cbcc402"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0030",
@@ -10220,7 +10220,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "moved into の後の目的語が欠けているので関係代名詞 which。where は into which の意味を含むので、文末の into と重なってしまう。",
+  "explanation_ja": "moved into の後の目的語が欠けているので関係代名詞 which。where は in which（その場所で）の意味を含む関係副詞なので、後ろの into（moved into）と一緒には使わない。",
   "translation_ja": "ブラントリー・パートナーズが昨年入居したオフィスビルには屋上庭園がある。",
   "translation_options_ja": [
    "～する場所（関係副詞）",
@@ -10229,12 +10229,12 @@
    "～する人（関係代名詞）"
   ],
   "option_notes_ja": [
-   "関係副詞。in which の意味を含むので、文末の into と重なる",
+   "関係副詞。in which の意味を含むので、後ろの into（moved into）と一緒には使わない",
    "関係代名詞。moved into の目的語が欠けている",
    "先行詞を含む関係代名詞。前に先行詞 building があるので使えない",
    "人に使う関係代名詞。先行詞が建物なので合わない"
   ],
-  "point_ja": "関係詞の後ろに前置詞の目的語が欠けていれば which / that。前置詞がなく「場所で」の意味なら where。",
+  "point_ja": "先行詞が人以外のとき、関係詞の後ろに前置詞の目的語が欠けていれば which / that。前置詞がなく「その場所で」の意味なら where。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -10273,7 +10273,7 @@
     "content_hash": "0f280a5173fc"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0031",
@@ -10630,7 +10630,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "人が「興味を持たされる」側なので be interested in ～。interesting は「（物事が）興味深い」で、人を主語にすると意味が合わない。",
+  "explanation_ja": "参加者がワークショップに関心を「持った」側なので be interested in ～。interesting は関心を「引く」側を表す（人が主語でも「おもしろい人」の意味になる）ので、ここでは合わない。",
   "translation_ja": "多くの参加者が、デジタルマーケティングのワークショップに興味を持った。",
   "translation_options_ja": [
    "興味（名詞）・興味を持たせる（動詞）",
@@ -10640,11 +10640,11 @@
   ],
   "option_notes_ja": [
    "名詞・動詞。were の後で in と組む形にならない",
-   "「（物事が）興味深い」。人が主語では意味が合わない",
+   "関心を「引く」側を表す。参加者が関心を持ったという意味にはならない",
    "「（人が）興味を持った」。be interested in ～",
    "副詞。were の補語にならない"
   ],
-  "point_ja": "感情の分詞：人が感じるなら過去分詞（interested・excited）、物事が感じさせるなら現在分詞（interesting・exciting）。",
+  "point_ja": "感情の分詞：関心・感情を持つ側なら過去分詞（interested・excited）、持たせる側なら現在分詞（interesting・exciting）。人か物かだけでは決まらない。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
@@ -10683,7 +10683,7 @@
     "content_hash": "e62fd9d22204"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0036",
@@ -11122,7 +11122,7 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "利益が「大幅に」増えた。approximately は数字の前に置いて「約」の意味で使う。",
+  "explanation_ja": "利益が「大幅に」増えた。approximately は「約」の意味で数字や数量と一緒に使うが、この文には数字がない。",
   "translation_ja": "ハーウェル・モーターズの利益は、海外で車の販売を始めて以来、大幅に増えている。",
   "translation_options_ja": [
    "大幅に",
@@ -11132,7 +11132,7 @@
   ],
   "option_notes_ja": [
    "大幅に。利益が大幅に増えた",
-   "およそ。数字の前に置く語で、動詞 increased の後には合わない",
+   "およそ。数字や数量と一緒に使うが、この文には「どれだけ増えたか」の数字がない",
    "時間どおりに。意味が合わない",
    "互いに。意味が合わない"
   ],
@@ -11175,7 +11175,7 @@
     "content_hash": "af25afb847cb"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0042",
@@ -11204,7 +11204,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "give a presentation（発表をする）という決まった組み合わせ。tell・say は presentation を目的語にとらない。",
+  "explanation_ja": "give a presentation（発表をする）という決まった組み合わせ。tell a presentation・say a presentation とは言わない。",
   "translation_ja": "リンドクヴィストさんは木曜日の会議で新しい製品群について発表する。",
   "translation_options_ja": [
    "取る",
@@ -11215,7 +11215,7 @@
   "option_notes_ja": [
    "take a presentation とは言わない",
    "give a presentation で「発表をする」",
-   "tell は人を目的語にとる（tell 人 about ～）",
+   "tell は tell 人 about ～ や tell a story の形で使う。tell a presentation とは言わない",
    "say は発言の内容を目的語にとる"
   ],
   "point_ja": "動詞と名詞の決まった組み合わせ：give a presentation／make a decision／hold a meeting／take a break。",
@@ -11257,7 +11257,7 @@
     "content_hash": "c6bd112ed260"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0001",
@@ -11292,8 +11292,8 @@
   "option_notes_ja": [
    "take＋時間で「（時間が）かかる」。The work is expected to take about two weeks",
    "make は「作る・～させる」。時間を目的語にして「かかる」の意味にはならない",
-   "hold は「開く・保つ」。期間を表す使い方はない",
-   "keep は「保つ」。時間の長さを表す使い方はない"
+   "hold は「開く・保つ」。この文のように「（時間が）かかる」の意味では使わない",
+   "keep は「保つ」。この文のように「（時間が）かかる」の意味では使わない"
   ],
   "point_ja": "「（時間・費用が）かかる」は take（It takes two weeks）／cost（It costs $50）。",
   "level": "B1",
@@ -11334,7 +11334,7 @@
     "content_hash": "e167ed94bbc0"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0002",
@@ -11416,7 +11416,7 @@
     "content_hash": "024b5943ff20"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0003",
@@ -11454,7 +11454,7 @@
    "現在分詞。be discarding は「処分している」で、物が主語なので合わない",
    "三人称単数の現在形。will be の後には置けない"
   ],
-  "point_ja": "物が主語で「～される」なら受け身。will be / can be / must be の後は過去分詞。",
+  "point_ja": "物が主語で「～される」という受け身にするときは、will be / can be / must be の後に過去分詞（進行形や形容詞が続く場合もあるので、意味で判断する）。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -11493,7 +11493,7 @@
     "content_hash": "72f333904f63"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0004",
@@ -11570,7 +11570,7 @@
     "content_hash": "df230cc670a5"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0005",
@@ -11608,7 +11608,7 @@
    "名詞「起源」。receipts の前に置くと意味が通らない",
    "動詞「生じる」。名詞の前には置けない"
   ],
-  "point_ja": "名詞の直前の空欄は形容詞。文頭で大文字になっていても品詞の考え方は同じ。",
+  "point_ja": "名詞の直前の空欄は、名詞を修飾する形容詞が入ることが多い（safety regulations のような名詞＋名詞の形もあるので、意味も確かめる）。文頭で大文字になっていても品詞の考え方は同じ。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
@@ -11647,7 +11647,7 @@
     "content_hash": "7a0c31b629de"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0006",
@@ -11676,7 +11676,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。30日・1週間という文は、60日に延びるという前の段落と食い違う。",
+  "explanation_ja": "直前の「クリアランスセールの商品は返品できない」を受けて、These items（それらの商品）の見分け方を説明する文が自然。",
   "translation_ja": "（空欄2）文挿入問題",
   "translation_options_ja": [
    "園芸コーナーは休暇の間閉まります。",
@@ -11687,8 +11687,8 @@
   "option_notes_ja": [
    "園芸コーナーの休みは、返品できない商品の話と関係がない",
    "直前の「クリアランスセールの商品は返品できない」を受け、These items の見分け方を説明している",
-   "レシートの保管期間30日は、60日に延びるという前の段落と食い違う",
-   "1週間以内は、60日に延びるという前の段落と矛盾する"
+   "60日の返品期限と矛盾はしないが、直前の返品できない商品の説明を補う文ではない",
+   "1週間以内は、60日に延びるという前の段落と食い違う"
   ],
   "point_ja": "These / Those / Such ＋名詞 で始まる挿入文は、直前に指す内容があるかを確かめる。",
   "level": "B1",
@@ -11729,7 +11729,7 @@
     "content_hash": "ab42edbd4dd2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0007",
@@ -12022,7 +12022,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。すでに採用が決まっているので応募のお礼は時期が合わない。",
+  "explanation_ja": "直後の After that（その後）は、初日の朝に行う何かを受けている。9時に受付に来た後の予定（オリエンテーション）を述べる文が入る。",
   "translation_ja": "（空欄2）文挿入問題",
   "translation_options_ja": [
    "当社は土日祝日は休みです。",
@@ -12033,7 +12033,7 @@
   "option_notes_ja": [
    "休日の案内は、初日の朝の予定の流れに合わない",
    "直後の After that（その後）が受ける、初日の朝の予定。オリエンテーションに参加する",
-   "すでに採用が決まっているので、応募へのお礼は時期が合わない",
+   "応募へのお礼は、初日の朝の予定を補う内容ではなく、直後の After that につながる出来事にもならない",
    "オコンクォさんの紹介は、直後の After that の「その後」が指す出来事にならない"
   ],
   "point_ja": "After that・Then・Afterward で始まる文の前には、順序のある出来事が必要。",
@@ -12075,7 +12075,7 @@
     "content_hash": "2b3e6e4f62f7"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0011",
@@ -12104,7 +12104,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で dietary とは組まない。",
+  "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で、個人の食事の制限を尋ねるこの文脈には合わない。",
   "translation_ja": "（空欄3）食事の制限があれば知らせてほしい。",
   "translation_options_ja": [
    "規則",
@@ -12113,7 +12113,7 @@
    "認識・表彰"
   ],
   "option_notes_ja": [
-   "規則。dietary とは組まない",
+   "規則。dietary regulations は食品・食事に関する規定の意味で、個人が食べられない物を尋ねるこの文脈には合わない",
    "決意・決議。意味が合わない",
    "制限。dietary restrictions で「食事の制限（食べられない物）」",
    "認識・表彰。意味が合わない"
@@ -12157,7 +12157,7 @@
     "content_hash": "4e99987da412"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0012",
@@ -12316,7 +12316,7 @@
     "content_hash": "e6954116ecf3"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0014",
@@ -12398,7 +12398,7 @@
     "content_hash": "cad7c5c7007a"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0015",
@@ -12480,7 +12480,7 @@
     "content_hash": "47bf6de0bde9"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0016",
@@ -12509,16 +12509,16 @@
   ],
   "answer": "d",
   "shuffle": true,
-  "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large・much largest とは言わない。",
+  "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large とは言わず、最上級なら much the largest のように the が要る。",
   "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
   "translation_options_ja": null,
   "option_notes_ja": [
-   "原級。much は原級を強めない",
+   "原級。large を強めるなら very large で、much large とは言わない",
    "副詞。scale（名詞）を修飾できない",
-   "最上級。much ～est の形にはならない",
+   "最上級。much largest とは言わない（最上級を強めるなら much the largest）。a much ＿ scale には合わない",
    "比較級。much larger で「はるかに大きな」"
   ],
-  "point_ja": "much / far / even / still は比較級を強める。very は原級を強める。",
+  "point_ja": "much / far / even / still は比較級を強める（much larger）。very は比較級を強められない（× very larger）。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
@@ -12557,7 +12557,7 @@
     "content_hash": "ac7d254e4920"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0017",
@@ -12586,7 +12586,7 @@
   ],
   "answer": "a",
   "shuffle": true,
-  "explanation_ja": "rely on ～ で「～に頼る」。毎年200人以上のボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
+  "explanation_ja": "rely on ～ で「～に頼る」。毎年200人を超えるボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
   "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
   "translation_options_ja": [
    "頼る",
@@ -12639,7 +12639,7 @@
     "content_hash": "8ac9c507dd52"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0018",
@@ -12837,7 +12837,7 @@
   "translation_options_ja": null,
   "option_notes_ja": [
    "原形。will be の後には置けない",
-   "現在分詞。be notifying は「知らせている」で、応募者が主語なので合わない",
+   "現在分詞。be notifying なら後ろに知らせる相手（目的語）が必要で、of their shift assignments にはつながらない。応募者は知らされる側",
    "名詞。be notification では意味が通らない",
    "過去分詞。be notified of ～ で「～を知らされる」"
   ],
@@ -12880,7 +12880,7 @@
     "content_hash": "45b38be03969"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0001",
@@ -12962,7 +12962,7 @@
     "content_hash": "601aec427c96"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0002",
@@ -13044,7 +13044,7 @@
     "content_hash": "be331d72d131"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0003",
@@ -13087,7 +13087,7 @@
    "駅の改装ではなく、駅の近くの新しいビル",
    "経営陣の交代の話ではない"
   ],
-  "point_ja": "記事の主題は第1段落（見出しの直後）に書かれる。一部の段落だけの内容を述べた選択肢に注意。",
+  "point_ja": "記事の主題は第1段落（見出しの直後）に書かれることが多い。一部の段落だけの内容を述べた選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -13126,7 +13126,7 @@
     "content_hash": "84ace8c8096b"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0004",
@@ -13208,7 +13208,7 @@
     "content_hash": "f1f3259683ea"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0005",
@@ -13285,7 +13285,7 @@
     "content_hash": "f8d1c01d5f7a"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0006",
@@ -13325,7 +13325,7 @@
   "option_notes_ja": [
    "湖の眺めは書かれていない（Lakeview は名前）",
    "全室にプロジェクターとマイク＝視聴覚機器（audio-visual equipment）",
-   "1時間単位ではなく1日あたりの料金",
+   "1日あたりの料金は書かれているが、1時間単位で予約できるとは書かれていない",
    "週末だけとは書かれていない"
   ],
   "point_ja": "projector・microphone → audio-visual equipment のように、具体的な物をまとめた語での言い換えが頻出。",
@@ -13367,7 +13367,7 @@
     "content_hash": "159f37d99b07"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0007",
@@ -13449,7 +13449,7 @@
     "content_hash": "77b8157edc1f"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0008",
@@ -13483,7 +13483,7 @@
   "translation_options_ja": null,
   "option_notes_ja": [
    "定員20人で、約45人は入らない",
-   "定員50人で約45人が入る、いちばん小さく安い部屋",
+   "定員50人で約45人が入る。入る部屋の中ではいちばん小さく安い",
    "120人用で大きすぎる",
    "200人用で大きすぎる"
   ],
@@ -13530,7 +13530,7 @@
     "content_hash": "5218fa2c3d9e"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0009",
@@ -13612,7 +13612,7 @@
     "content_hash": "5508f85e2bae"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0010",
@@ -13689,7 +13689,7 @@
     "content_hash": "aa9c85af98ba"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0011",
@@ -13732,7 +13732,7 @@
    "食堂への意見は求めていない",
    "駐車場の不具合の報告ではない"
   ],
-  "point_ja": "社内メモの目的は冒頭の1〜2文に書かれる。途中の細かい情報（食堂・駐車場）だけを使った選択肢に注意。",
+  "point_ja": "社内メモの目的は冒頭の1〜2文に書かれることが多いので、まずそこを確かめる。途中の細かい情報（食堂・駐車場）だけを使った選択肢に注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -13804,7 +13804,7 @@
     "content_hash": "89236ad51453"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0012",
@@ -14237,11 +14237,11 @@
   ],
   "option_notes_ja": [
    "カタログが予定より5日遅れる（won't be ready until → completed late）",
-   "ブースの予約は取り消されていない",
+   "ブースの予約が取り消されたとは書かれていない",
    "デザイナーの都合の話は書かれていない",
    "カタログの誤りの話は書かれていない"
   ],
-  "point_ja": "won't be ready until ～（～まで仕上がらない）は「遅れる」の言い換えの定番。",
+  "point_ja": "won't be ready until ～（～まで仕上がらない）に later than planned（予定より遅く）が加わると「遅れる」の意味になる。completed late などへの言い換えに注意。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14280,7 +14280,7 @@
     "content_hash": "e3ae477074b3"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0017",
@@ -14318,12 +14318,12 @@
    "博覧会には追加の人員が必要だ。"
   ],
   "option_notes_ja": [
-   "印刷費の話は、すでにナタラジャンさんがしている",
+   "エラリーさんは費用ではなく、300部に対して来場者が約1,000人という数の差を挙げている",
    "300部に対して来場者1,000人なので足りないと示唆している",
    "ブースの広さの話ではない",
    "人員の話ではない"
   ],
-  "point_ja": "though（でも）がついた発言は、直前の提案や情報に対する反論・懸念を表す。",
+  "point_ja": "文末の though（でも）は、直前の情報との対比を添える。この発言では部数が足りないという懸念を表している。",
   "level": "B2",
   "status": "reviewed",
   "source": "2026-11-16 / part7 batch a",
@@ -14362,7 +14362,7 @@
     "content_hash": "fdaf676502e5"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0018",
@@ -14391,7 +14391,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "they charge almost twice as much per copy as our regular printer から、いつもの印刷会社より高い。3月16日までに300部刷れると言っているので2つ目は誤り。",
+  "explanation_ja": "they charge almost twice as much per copy as our regular printer から、いつもの印刷会社より高い。3月16日までに300部刷れるとあり、「3月16日より前には仕上げられない」とは書かれていない。",
   "translation_ja": "クイックプリント・スタジオについて何が示されているか。",
   "translation_options_ja": [
    "3月16日より前に仕上げられない。",
@@ -14400,8 +14400,8 @@
    "ホーム・リビング博にブースを出す。"
   ],
   "option_notes_ja": [
-   "3月16日までに300部刷れると書かれている",
-   "横断幕をデザインしたのは社内のデザイナー",
+   "3月16日までに300部刷れるとあり、それより前に仕上げられないとは書かれていない",
+   "横断幕に QR コードを入れるのは自社のデザイナーで、クイックプリント・スタジオが横断幕をデザインしたとは書かれていない",
    "いつもの印刷会社の2倍近い料金（twice as much → costs more）",
    "博覧会にブースを出すとは書かれていない"
   ],
@@ -14477,7 +14477,7 @@
     "content_hash": "bb8f09872ad5"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0019",
@@ -14762,7 +14762,7 @@
   ],
   "option_notes_ja": [
    "更新の手続きの話の前で、2年契約はまだ出てこない",
-   "値上げの説明の直後で、this option が指すものがない",
+   "[2] の時点では2年契約がまだ出てこない。this option を1年契約と読むと「1年契約より40ドル安い」という比較が成り立たない",
    "直前の「2年で更新すれば家賃は1,200ドルのまま」を this option が受ける",
    "更新しない場合の話の後で、つながらない"
   ],
@@ -14838,7 +14838,7 @@
     "content_hash": "b1f87f335d67"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0023",
@@ -14867,7 +14867,7 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "文書1に The minimum order is 10 people とある。our kitchen on Harbor Road と調理場は1つで、値上げや団体割引には触れていない。",
+  "explanation_ja": "文書1に The minimum order is 10 people とある。料金の変更・団体割引には触れておらず、調理場が複数あるかどうかも書かれていない。",
   "translation_ja": "メープル＆セージ・ケータリングについて何が示されているか。",
   "translation_options_ja": [
    "最近料金を変えた。",
@@ -14876,10 +14876,10 @@
    "調理場を2つ以上持っている。"
   ],
   "option_notes_ja": [
-   "値上げの話は書かれていない",
+   "最近料金を変えたとは書かれていない",
    "団体割引は書かれていない",
    "The minimum order is 10 people と書かれている",
-   "調理場は1つ（our kitchen on Harbor Road）"
+   "調理場を複数持っているかどうかは書かれていない（our kitchen on Harbor Road とあるだけ）"
   ],
   "point_ja": "minimum（最低）・maximum（最大）・at least（少なくとも）は、条件の問題で頻出。",
   "level": "B1",
@@ -14920,7 +14920,7 @@
     "content_hash": "e0256bfa1c36"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0024",
@@ -15123,7 +15123,7 @@
   ],
   "option_notes_ja": [
    "デラックス×16人の額だが、配達料が抜けている",
-   "25ドル×16人＝400ドルに、10キロを超える分の配達料20ドルを足す",
+   "25ドル×16人＝400ドル。事務所は10キロ圏外なので、配達料20ドル（一律）を足す",
    "エグゼクティブ×16人の額。セットが違う",
    "エグゼクティブに配達料を足した額。セットが違う"
   ],
@@ -15166,7 +15166,7 @@
     "content_hash": "9865ebe19c28"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0027",
@@ -15363,7 +15363,7 @@
     "content_hash": "b48c5970ea44"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0029",
@@ -15445,7 +15445,7 @@
     "content_hash": "27098562c3ec"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0030",
@@ -15527,7 +15527,7 @@
     "content_hash": "24220be6c595"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0031",
@@ -15609,7 +15609,7 @@
     "content_hash": "cf986379b3e9"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0032",
@@ -15638,7 +15638,7 @@
   ],
   "answer": "b",
   "shuffle": true,
-  "explanation_ja": "【3文書の照合】今年3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで、10月27日の回に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば今年3回になる。所属は生産部で、ハダッドさんの文書の研修は受けていない。",
+  "explanation_ja": "【3文書の照合】今年3回以上修了すると修了証がもらえる（文書1）。アチェベさんは10月6日に参加済みで、10月27日の回に申し込んだ（文書2・3）。12月8日の回（文書3）にも出れば今年3回になる。所属は生産部で、ハダッドさんの文書の研修を受けたとは書かれていない。",
   "translation_ja": "アチェベさんについて何が示唆されているか。",
   "translation_options_ja": [
    "人事部で働いている。",
@@ -15724,6 +15724,6 @@
     "content_hash": "1137559a9f15"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  }
 ]
