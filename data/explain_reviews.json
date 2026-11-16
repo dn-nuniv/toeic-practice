@@ -2023,6 +2023,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "1de0bd2d0c38"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": false,
+   "issues": "セットの本文訳で、男性1を「ラージ」、男性2を「ピーター」と決めている。女性は Raj, Peter と2人に呼びかけているだけで、どちらが先に話したかはスクリプトからは分からない。根拠のない人物の割り当てになっている。設問・選択肢・解説・コメントには誤りはない。",
+   "fix": "本文訳の話者名を「男性1」「男性2」だけにする（「（ラージ）」「（ピーター）」を消す）。",
+   "explain_hash": "df70552c7f11"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "df70552c7f11"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "df70552c7f11"
   }
  ],
  "p3-0012": [
@@ -3533,6 +3557,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "b41f1d2d2e62"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8c291cd5370b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8c291cd5370b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8c291cd5370b"
   }
  ],
  "p4-0023": [
@@ -3607,6 +3655,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "e81da8556b9e"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": false,
+   "issues": "(C) のコメント「農家に会えるわけではない」は、本文にないことを言い切っている（ルールでは「～とは言っていない」と書く）。また、Sunpath Farms は名前に Farms とあるが、本文では a local company（地元の会社）と言っているだけ。社名の Farms から farmer を連想させるひっかけだという点に触れると、学習者に分かりやすい。(D) のコメント「新しいレジは日曜に設置する」も、7番通路で何ができるかとの関係が書かれておらず、説明が足りない。",
+   "fix": "(C)：「Sunpath Farms は地元の会社（a local company）で、社名の Farms からの連想を誘うひっかけ。農家に会えるとは言っていない」。(D)：「新しいセルフレジは日曜の早じまいの後に設置する予定で、7番通路で使えるとは言っていない」。",
+   "explain_hash": "3a00e66974d7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3a00e66974d7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3a00e66974d7"
   }
  ],
  "p4-0024": [
@@ -3681,6 +3753,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "368a6a4795ba"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "612ec3bfaed3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "612ec3bfaed3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "612ec3bfaed3"
   }
  ],
  "p5-0001": [
@@ -5721,6 +5817,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "f8196f36b9eb"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b4e759635c5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": false,
+   "issues": "選択肢(C)のコメントで「60日に延びた新しい規定とかみ合わない」としているが、at least 30 days は「少なくとも30日間」であり、60日間の保管も含み得る。数字の違いだけでは不適切と判断できない。",
+   "fix": "(C)のコメントを「『少なくとも30日間』は60日間の保管を排除しない。ただし、この位置では直前の返品できない商品の説明を補わず、(B)のような自然なつながりがない」に修正する。",
+   "explain_hash": "2b4e759635c5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b4e759635c5"
   }
  ],
  "p6-0007": [
@@ -6097,6 +6217,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "057c75cb2556"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "84215c759c38"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "84215c759c38"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:29:25",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "84215c759c38"
   }
  ],
  "p6-0015": [
