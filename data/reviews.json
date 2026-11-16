@@ -3497,6 +3497,39 @@
    "confidence": 0.99,
    "issues": "",
    "content_hash": "990b019983ed"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "d668a418cc63"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d668a418cc63"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d668a418cc63"
   }
  ],
  "p2-0028": [
@@ -3707,6 +3740,776 @@
    "confidence": 0.99,
    "issues": "",
    "content_hash": "9c766065cf7b"
+  }
+ ],
+ "p7-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "254c42a26569"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "254c42a26569"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "254c42a26569"
+  }
+ ],
+ "p7-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7a52e2bf8f14"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7a52e2bf8f14"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7a52e2bf8f14"
+  }
+ ],
+ "p7-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "5593253fc145"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "5593253fc145"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "5593253fc145"
+  }
+ ],
+ "p7-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "22cdbdf9a9e9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "22cdbdf9a9e9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "22cdbdf9a9e9"
+  }
+ ],
+ "p7-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "99fbfca1e9a4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "99fbfca1e9a4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "99fbfca1e9a4"
+  }
+ ],
+ "p7-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e3ae477074b3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e3ae477074b3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e3ae477074b3"
+  }
+ ],
+ "p7-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "fdaf676502e5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "fdaf676502e5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "fdaf676502e5"
+  }
+ ],
+ "p7-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "軽微：本文に「almost twice as much per copy」とはっきり書いてあるので、設問の 'suggested' は 'indicated' のほうが合う。",
+   "content_hash": "29c85ad082f9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "29c85ad082f9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "29c85ad082f9"
+  }
+ ],
+ "p7-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "1d282a64f542"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1d282a64f542"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "1d282a64f542"
+  }
+ ],
+ "p7-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "4c77d706a4b8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "4c77d706a4b8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "4c77d706a4b8"
+  }
+ ],
+ "p7-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "11ecd7c09d7d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "11ecd7c09d7d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "11ecd7c09d7d"
+  }
+ ],
+ "p7-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.92,
+   "issues": "",
+   "content_hash": "fb18e3387ab3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "挿入位置は[3]で一意。ただし、960ドルの節約額は比較対象の月額1,240ドルが2年間続く前提であり、1年契約を再更新する際の賃料は明記されていない。",
+   "content_hash": "fb18e3387ab3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "fb18e3387ab3"
+  }
+ ],
+ "p7-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "e0256bfa1c36"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e0256bfa1c36"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e0256bfa1c36"
+  }
+ ],
+ "p7-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "0fddc5e84523"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0fddc5e84523"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "0fddc5e84523"
+  }
+ ],
+ "p7-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "6479a8cba2ef"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6479a8cba2ef"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6479a8cba2ef"
+  }
+ ],
+ "p7-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "9865ebe19c28"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "9865ebe19c28"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "9865ebe19c28"
+  }
+ ],
+ "p7-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "e669b10e58a0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e669b10e58a0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e669b10e58a0"
+  }
+ ],
+ "p7-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "514e9237a6e3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.91,
+   "issues": "Bは10月の一覧について成立するが、12月8日の再開催は午前である。設問を「the October workshops」とすると対象範囲が明確になる。",
+   "content_hash": "514e9237a6e3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "設問が 'the workshops' となっており、10月の案内文ではすべて午後（2:00 P.M. to 4:30 P.M.）だが、3通目のメールでは12月8日の回が午前（10:00 A.M. to 12:30 P.M.）と記載されているため、厳密には 'the October workshops' と限定したほうが矛盾を防げる。",
+   "content_hash": "514e9237a6e3"
+  }
+ ],
+ "p7-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "27098562c3ec"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "27098562c3ec"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "27098562c3ec"
+  }
+ ],
+ "p7-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "24220be6c595"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "24220be6c595"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "24220be6c595"
+  }
+ ],
+ "p7-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "cf986379b3e9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "cf986379b3e9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "cf986379b3e9"
+  }
+ ],
+ "p7-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.85,
+   "issues": "軽微：(B) が成り立つのは、10月27日のワークショップも修了したときだけ（3回の内訳は10月6日・10月27日・12月8日）。27日にはまだ参加していないので、'if he attends on December 8' だけだとやや言葉が足りない。ただ、ほかの選択肢ははっきり誤りなので、正解は1つに決まる。",
+   "content_hash": "7d6f4e1ba107"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "7d6f4e1ba107"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T18:37:17",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "修了証の条件は年3回以上の受講完了であり、(B)は10月6日受講済み・10月27日登録済みに加えて10月27日の受講も完了することが暗黙の前提になっている（他選択肢が明確に誤りのため正解はBに決まる）。",
+   "content_hash": "7d6f4e1ba107"
   }
  ]
 }
