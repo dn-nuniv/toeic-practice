@@ -5063,6 +5063,30 @@
    "issues": "1) (C) hold と (D) keep のコメントで「期間を表す使い方はない」「時間の長さを表す使い方はない」と断定しているが、hold for two weeks や keep for two weeks のように期間を表す用法自体は存在するため不正確。2) セット p6-s001 の本文・スクリプトの訳で、冒頭の「Date: May 2」と末尾の署名「Paul Greene」の訳が抜けている（また空欄[2]の挿入文の訳だけ他のセットのような［］の囲みがない）。",
    "fix": "1) (C)(D) のコメントを (B) と同様に「時間を目的語にして『（時間が）かかる』という意味では使わない」のように改める。2) 本文訳の冒頭に「日付：5月2日」、末尾に「ポール・グリーン」を補う。",
    "explain_hash": "f78f51c733de"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "20cf2ffe8d3d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "20cf2ffe8d3d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "20cf2ffe8d3d"
   }
  ],
  "p6-0002": [
@@ -5089,6 +5113,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "b6187520d482"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9fdb07645954"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9fdb07645954"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9fdb07645954"
   }
  ],
  "p6-0003": [
@@ -5115,6 +5163,30 @@
    "issues": "TOEIC のポイントで「will be / can be / must be の後は過去分詞。」と言い切っており、進行形（will be doing など）や形容詞・名詞が続く場合を無視した言い過ぎになっている。",
    "fix": "「物が主語で『～される』という受け身にするときは、will be / can be / must be の後は過去分詞。」のように条件を明記する。",
    "explain_hash": "eb6a8e4fd869"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "665a7ab759a1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "665a7ab759a1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "665a7ab759a1"
   }
  ],
  "p6-0004": [
@@ -5141,6 +5213,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "fcad3f97dcc6"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "09e14ccdaeec"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "09e14ccdaeec"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": false,
+   "issues": "選択肢 (C) patiently のコメントに「副詞。所有格の後には置けない」とあるが、後ろに形容詞や分詞が続く場合（例：your very kind help）には所有格の直後に副詞が置けるため、一般化した文法説明として言い過ぎになっている（ここでは後ろに修飾する語がなく名詞が必要な位置であるため不適）。",
+   "fix": "「副詞。名詞ではないため、後ろに修飾する形容詞などがないこの位置（your ＿）には置けない」のように修正する。",
+   "explain_hash": "09e14ccdaeec"
   }
  ],
  "p6-0005": [
@@ -5167,6 +5263,30 @@
    "issues": "TOEIC のポイントで「名詞の直前の空欄は形容詞。」と言い切っているが、名詞の直前には複合名詞を作る名詞、所有格、限定詞、分詞なども入るため、例外を無視した言い過ぎになっている。",
    "fix": "「名詞を修飾する語を問う品詞問題では形容詞が入ることが多い（複合名詞を作る名詞や所有格などが入る場合もある）。」のように改める。",
    "explain_hash": "a47893b7f078"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4e561055c911"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": false,
+   "issues": "(B)のコメントと正解理由は、名詞の前だから形容詞が必要という説明になっている。しかし、この空欄は文頭なので、Originallyが文全体を修飾する構文も可能であり、副詞であることだけでは除外できない。",
+   "fix": "Originalはreceiptsを修飾して「レシートの原本」を表す。一方、Originallyは文頭でも使えるが、「当初は」という意味がこの告知の文脈に合わない、と説明する。文頭での用例：[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/originally)。",
+   "explain_hash": "4e561055c911"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": false,
+   "issues": "選択肢 (D) Originate のコメントに「動詞「生じる」。名詞の前には置けない」とあるが、他動詞は目的語の名詞の前に置かれる（例：keep receipts）ため文法説明として誤解を招く。ここでは名詞 receipts を修飾する形容詞の働きがなく、主語の名詞の前に動詞を置けない点が理由。",
+   "fix": "「動詞「生じる」。名詞を修飾できず、主語 receipts の前には置けない」のように修正する。",
+   "explain_hash": "4e561055c911"
   }
  ],
  "p6-0006": [
@@ -5193,6 +5313,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "fe2223648760"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": false,
+   "issues": "本文の和訳で、Items purchased during our seasonal clearance sales, however, cannot be returned. の however を「なお」と訳している。「なお」は話を付け足す言葉なので、however の逆接（返品期間が延びる一方で、返品できない商品もある）が伝わらない。また前の文には however がないのに「ただし」を付けているので、逆接の位置が原文とずれている。",
+   "fix": "前の文は「すべての返品には引き続きレシートの原本が必要です。」とし（「ただし」を外す）、この文を「ただし、季節のクリアランスセールで購入された商品は返品できません。」とする。",
+   "explain_hash": "c2dff4e836c4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c2dff4e836c4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c2dff4e836c4"
   }
  ],
  "p6-0007": [
@@ -5297,6 +5441,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "9583d7a504fd"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "398955c4b7e0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "398955c4b7e0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "398955c4b7e0"
   }
  ],
  "p6-0011": [
@@ -5323,6 +5491,30 @@
    "issues": "(A) regulations のコメントおよび正解の理由で「dietary とは組まない」と断定しているが、dietary regulations（食品・栄養や給食等の規定）という表現自体は英語に存在するため不正確。",
    "fix": "「法律や組織の『規則』を指す語なので、個人の食事の制限を尋ねるこの文脈には合わない」のように改める。",
    "explain_hash": "3d03db96be92"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a752c03a51"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a752c03a51"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "33a752c03a51"
   }
  ],
  "p6-0012": [
@@ -5375,6 +5567,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "2350daf9eed6"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f8a88487372"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f8a88487372"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f8a88487372"
   }
  ],
  "p6-0014": [
@@ -5401,6 +5617,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "173801ba8136"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "115f5374f889"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "115f5374f889"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": false,
+   "issues": "TOEIC のポイントに「this ＋名詞（this demand、this change）で始まる文の前には、その名詞が指す内容が必要」とあるが、実際の本文の文は The company says the new facility will allow it to meet this growing demand. であり、this growing demand は文頭ではなく文末にある。文頭に限らず文中に現れる場合にも成り立つ点とずれている。",
+   "fix": "「this ＋名詞（this demand、this change など）を含む文の前には、その名詞が指す内容が必要（文頭でも文中・文末でも同様）。」のように修正する。",
+   "explain_hash": "115f5374f889"
   }
  ],
  "p6-0015": [
@@ -5427,6 +5667,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "8e373cdba506"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ecfa9d82804a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ecfa9d82804a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ecfa9d82804a"
   }
  ],
  "p6-0016": [
@@ -5453,6 +5717,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "a6cf80926306"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3003ce242352"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": false,
+   "issues": "正解理由の「最上級ならmuch the largestのようにtheが要る」は言い過ぎ。my bestなど、所有格を伴いtheを使わない最上級もある。",
+   "fix": "「この文ではmuch largerで『はるかに大きな』となる。a much largest scaleとはしない。最上級をmuchで強める表現にはmuch the largestがある」と、この文型に限定して説明する。参考：[Cambridge Grammar](https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives-bigger-biggest-more-interesting)。",
+   "explain_hash": "3003ce242352"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3003ce242352"
   }
  ],
  "p6-0017": [
@@ -5479,6 +5767,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "5c07e8cb9c0f"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": false,
+   "issues": "applies のコメント「apply は for / to と組む。on とは組まない」は言い過ぎ。The discount applies on weekends.（割引は週末に適用される）や apply on the website（ウェブサイトで申し込む）のように、apply の後に on が来ることはある。「～に頼る」の意味で on と組まない、というのが正しい。",
+   "fix": "「apply は apply for（～に申し込む）／apply to（～に当てはまる）の形で使う。apply on で『～に頼る』の意味にはならない」とする。consists・results のコメントも「『～に頼る』の意味で on をとるのは rely」という書き方にそろえるとよい。",
+   "explain_hash": "ec6080615824"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ec6080615824"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ec6080615824"
   }
  ],
  "p6-0018": [
@@ -5557,6 +5869,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "8c04d789ed85"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "803821094eea"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:04:06",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "803821094eea"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:04:07",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "803821094eea"
   }
  ],
  "p7-0001": [
