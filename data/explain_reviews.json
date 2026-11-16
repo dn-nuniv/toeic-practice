@@ -2482,5 +2482,1097 @@
    "fix": "",
    "explain_hash": "b5ca9de1b71a"
   }
+ ],
+ "p5-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f984481b2ee5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f984481b2ee5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f984481b2ee5"
+  }
+ ],
+ "p5-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "630a8773bd82"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "630a8773bd82"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "630a8773bd82"
+  }
+ ],
+ "p5-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7801783f0f09"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(B)の「後ろには主語と動詞が必要」と、正解理由の「接続詞なので使えない」は断定しすぎ。although は although working のような非定形節も導けるため、形だけでは排除できない。",
+   "fix": "「although＋-ing節も可能だが、ここでは譲歩ではなく『入る前に』という時間関係を表す before が適切」とする。[Cambridge Grammar](https://dictionary.cambridge.org/grammar/british-grammar/although)",
+   "explain_hash": "7801783f0f09"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7801783f0f09"
+  }
+ ],
+ "p5-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fcf9af453d1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fcf9af453d1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fcf9af453d1"
+  }
+ ],
+ "p5-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7aa76602c1fe"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7aa76602c1fe"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7aa76602c1fe"
+  }
+ ],
+ "p5-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97f62cd77174"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97f62cd77174"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97f62cd77174"
+  }
+ ],
+ "p5-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9659c9e1de08"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "ポイントの「空欄の直後が名詞なら所有格」は一般化しすぎ。名詞の前には形容詞や名詞修飾語なども置ける。",
+   "fix": "「人称代名詞の語形を選ぶこの問題では、requests を修飾する所有格 their が必要」と範囲を限定する。",
+   "explain_hash": "9659c9e1de08"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(B) のコメント「名詞の前には置けない」および TOEIC のポイント「空欄の直後が名詞なら所有格」が言い過ぎで誤り。第4文型（give / send ＋人＋物 など）では名詞の直前に目的格（them など）を置くことができ、一般にも名詞の前には形容詞や冠詞なども入る。",
+   "fix": "(B) は「目的格。submit は『submit＋物＋to＋人』の形をとり、『彼らに申請書を提出する』のようには使えず、『彼らの申請書』という意味にもならない」とし、TOEIC のポイントは「代名詞の格問題で、直後の名詞を『誰の～』と修飾する位置なら所有格（my / your / his / her / its / our / their）」とする。",
+   "explain_hash": "9659c9e1de08"
+  }
+ ],
+ "p5-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(C) eligible のコメントと正解の理由で「人が主語になる」と言い切っているが、物も主語になる（例：Purchases over $50 are eligible for free shipping.）。TOEIC でもよく出る形なので、学習者が誤って覚えるおそれがある。",
+   "fix": "(C) のコメント：「eligible for ～ で『～の対象となる・資格がある』。to とは組まず、意味も合わない」。正解の理由：「eligible は for を伴って『～の対象となる』の意味で、ここでは合わない」",
+   "explain_hash": "bc6421ed381e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(C)と正解理由の「eligible は主語が人になる」は誤り。計画など、人以外も主語になれる。また eligible to＋動詞の用法もある。",
+   "fix": "「eligible は eligible for＋名詞、eligible to＋動詞などで使い、人以外の主語も可能。ただし eligible to all guests という組み合わせは不適切」とする。[非人主語の用例](https://dictionary.cambridge.org/dictionary/english-spanish/eligible)",
+   "explain_hash": "bc6421ed381e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bc6421ed381e"
+  }
+ ],
+ "p5-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e1209ec085cf"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e1209ec085cf"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e1209ec085cf"
+  }
+ ],
+ "p5-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5a32945d6dc9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5a32945d6dc9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5a32945d6dc9"
+  }
+ ],
+ "p5-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5ac6669bbfe7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5ac6669bbfe7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5ac6669bbfe7"
+  }
+ ],
+ "p5-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6ad8cb49b47d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6ad8cb49b47d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6ad8cb49b47d"
+  }
+ ],
+ "p5-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a1697f5e8130"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "ポイントの「すぐ後ろに名詞がなければ空欄は名詞」は一般則として不正確。例えば a ------- revised policy では、空欄直後が名詞でなくても副詞 recently を入れられる。",
+   "fix": "「冠詞に続く名詞句全体を確認する。この文では made の目的語となる中心の名詞が必要なので decision」とする。",
+   "explain_hash": "a1697f5e8130"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "TOEIC のポイント「a / an / the の後で、すぐ後ろに名詞がなければ空欄は名詞」は例外を無視した説明。空欄の直後に形容詞や分詞が続く場合（例：a very important decision、the least expensive）は副詞が入ることがある。",
+   "fix": "「a / an / the の後で名詞の位置（後ろに別の名詞や形容詞＋名詞が続いていない場合など）なら空欄は名詞。make a decision は決まった言い方。」のように言い換える。",
+   "explain_hash": "a1697f5e8130"
+  }
+ ],
+ "p5-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "正解の理由（「become の後には補語の形容詞が来る」）と TOEIC のポイント（「become・remain・seem などの後の補語は形容詞」）が言い過ぎ。become a manager、remain a mystery のように名詞も補語になる。この問題で大事なのは「副詞は補語になれない」という点。",
+   "fix": "ポイント：「become・remain・seem などの後の補語は形容詞（または名詞）。副詞は補語にならない」。正解の理由：「become（～になる）の後の補語として、ここでは形容詞 productive が入る」",
+   "explain_hash": "1d68d4678c4d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "正解理由とポイントが、become・remain・seem の補語を形容詞に限定している。become a manager のように名詞句も補語になれる。",
+   "fix": "「これらの動詞は形容詞や名詞句などを補語に取る。この文では工場の生産性を表す形容詞 productive が適切」とする。",
+   "explain_hash": "1d68d4678c4d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "TOEIC のポイント「become・remain・seem などの後の補語は形容詞」は言い過ぎ。become や remain は名詞も補語にとる（become a manager、remain a member など）ため、名詞補語を無視している。",
+   "fix": "「become・remain・seem などの後の補語には形容詞（または名詞）が来る。副詞は補語にならない。」とする。",
+   "explain_hash": "1d68d4678c4d"
+  }
+ ],
+ "p5-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f3ab2c29795"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(D)の「比べる相手もない」は不適切な排除理由。比較対象を明示しない比較級も使える。",
+   "fix": "「more convenient は形容詞で、ここでは located を修飾できない」とする。比較対象に関する記述は削除する。",
+   "explain_hash": "3f3ab2c29795"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f3ab2c29795"
+  }
+ ],
+ "p5-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1a5890d73036"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1a5890d73036"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1a5890d73036"
+  }
+ ],
+ "p5-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ff833264bb26"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "ポイントの「所有格と名詞の間は形容詞の位置」は限定しすぎ。また(C)は名詞を analysis の前に置くこと自体が不適切であるかのように読める。our budget analysis のような名詞による修飾も可能。",
+   "fix": "「この文では『徹底的な分析』を表す thorough analysis が適切。thoroughness analysis ではその意味にならない。所有格と名詞の間には名詞修飾語が入ることもある」とする。",
+   "explain_hash": "ff833264bb26"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ff833264bb26"
+  }
+ ],
+ "p5-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "54f2a88c148e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(D)の「動詞の後に動詞は続かない」は一般則として誤り。不定詞・動名詞などが動詞の後に続く構文がある。",
+   "fix": "「この文では responded の様子を説明する副詞が必要で、動詞の原形 quicken は入らない」とする。",
+   "explain_hash": "54f2a88c148e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "54f2a88c148e"
+  }
+ ],
+ "p5-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "23353cc288aa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(D)の「名詞を修飾できない」は誤り。名詞が別の名詞を修飾する用法はある。ポイントも、後ろに名詞があるだけで形容詞と決める説明になっている。",
+   "fix": "「名詞による名詞修飾も可能だが、この文で意図する『効果的な広告戦略』は effective advertising strategy。意味と修飾関係から形容詞を選ぶ」とする。",
+   "explain_hash": "23353cc288aa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "23353cc288aa"
+  }
+ ],
+ "p5-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "44a98a842376"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "ポイントが、by＋未来の時点などがあれば必ず未来完了になると読める。I will send it by Monday. のように単純未来も使える。",
+   "fix": "「未来のある時点までに完了していることを表すとき、未来完了が使える。この問題では will have printed が適切」とする。",
+   "explain_hash": "44a98a842376"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "44a98a842376"
+  }
+ ],
+ "p5-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bd8321b43576"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "ポイントの「since＋過去の時点があれば、主節は現在完了」は一般化しすぎ。過去の時点を基準に振り返る文では過去完了も使える。",
+   "fix": "「この文では発売から現在までの変化を表すので現在完了。since があっても、時制は基準となる時点に応じて判断する」とする。",
+   "explain_hash": "bd8321b43576"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bd8321b43576"
+  }
+ ],
+ "p5-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c69af3fb86de"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c69af3fb86de"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c69af3fb86de"
+  }
+ ],
+ "p5-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "713c2ddbdbf1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(D)の「his は後ろに名詞が必要」は不正確。his は所有代名詞として This is his. のように単独でも使える。",
+   "fix": "「his は所有格にも所有代名詞にもなるが、この位置で『自分で』を表すことはできない。himself は強調用法」とする。",
+   "explain_hash": "713c2ddbdbf1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "713c2ddbdbf1"
+  }
+ ],
+ "p5-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c7e1d829e662"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c7e1d829e662"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c7e1d829e662"
+  }
+ ],
+ "p5-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "22ddee401659"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "22ddee401659"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "22ddee401659"
+  }
+ ],
+ "p5-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c7b9b35ae94"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c7b9b35ae94"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3c7b9b35ae94"
+  }
+ ],
+ "p5-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aabd3a1619ed"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "Although の後には必ず主語と動詞が必要だという説明は断定しすぎ。although tired のような省略節も可能。ただし、この設問の the heavy snowfall は省略節ではなく名詞句なので Although は使えない。",
+   "fix": "「Although は通常、節を導き、省略節を導く場合もある。この文では後ろが名詞句なので Despite」とする。[Cambridge Grammar](https://dictionary.cambridge.org/grammar/british-grammar/although)",
+   "explain_hash": "aabd3a1619ed"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "aabd3a1619ed"
+  }
+ ],
+ "p5-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b531ac7faa5e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b531ac7faa5e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b531ac7faa5e"
+  }
+ ],
+ "p5-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d90d0635dd31"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d90d0635dd31"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(C) whom のコメント「目的格の関係代名詞。後ろに主語＋動詞が来る」だけでは不正解の理由になっていない（本問でも空欄の後ろは suggestion〔主語〕＋ saves〔動詞〕になっており、学習者が混乱する）。",
+   "fix": "「目的格の関係代名詞。後ろの文に目的語の欠落が必要だが、saves the company the most money には目的語がそろっており、また『その社員の提案』を表す所有格も必要なので合わない」のように説明する。",
+   "explain_hash": "d90d0635dd31"
+  }
+ ],
+ "p5-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "where の説明が食い違っている。(A) のコメントは「in which の意味を含む」、正解の理由は「into which の意味を含む」と書いている。where が表すのは in / at which で、into which ではない。",
+   "fix": "正解の理由：「where は in which（場所で）の意味を含む関係副詞なので、文末の前置詞 into とは一緒に使わない」とし、(A) のコメントと表現をそろえる",
+   "explain_hash": "0a581331bca7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0a581331bca7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(A) のコメントおよび正解の理由で、into を「文末の into」と説明しているが、英文（moved into last year has a rooftop garden）では into は文末ではなく文中にある。また、TOEIC のポイント「関係詞の後ろに前置詞の目的語が欠けていれば which / that」は先行詞が人以外の場合に限られる（人なら who / whom / that）。",
+   "fix": "(A) と正解の理由の「文末の into」を「後ろの into（moved into）」に直し、TOEIC のポイントは「先行詞が人以外のとき、関係詞の後ろに前置詞の目的語が欠けていれば which / that。前置詞がなく『場所で』の意味なら where。」とする。",
+   "explain_hash": "0a581331bca7"
+  }
+ ],
+ "p5-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cb210c18db6c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cb210c18db6c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cb210c18db6c"
+  }
+ ],
+ "p5-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0357912f888e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0357912f888e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0357912f888e"
+  }
+ ],
+ "p5-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "085b6c5c8899"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "085b6c5c8899"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "085b6c5c8899"
+  }
+ ],
+ "p5-0034": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49f4aa0dcd13"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49f4aa0dcd13"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49f4aa0dcd13"
+  }
+ ],
+ "p5-0035": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "598764ec3e20"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(B)と正解理由の「interesting は人が主語では意味が合わない」は誤り。人も「興味深い・人の興味を引く」という意味で interesting の主語になれる。感情の分詞は人か物かだけでは決まらない。",
+   "fix": "「関心を持つ側なら interested、関心を引く側なら interesting。この文では参加者がワークショップに関心を持つので interested in」とする。[人を表す interesting の用例](https://dictionary.cambridge.org/us/dictionary/english/interesting)",
+   "explain_hash": "598764ec3e20"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "598764ec3e20"
+  }
+ ],
+ "p5-0036": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f927fab1a963"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f927fab1a963"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f927fab1a963"
+  }
+ ],
+ "p5-0037": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b4a500abff2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b4a500abff2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b4a500abff2"
+  }
+ ],
+ "p5-0038": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f0d7282bd24a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f0d7282bd24a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f0d7282bd24a"
+  }
+ ],
+ "p5-0039": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b7ea8c63b4d2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b7ea8c63b4d2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b7ea8c63b4d2"
+  }
+ ],
+ "p5-0040": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d1ef7b144253"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d1ef7b144253"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d1ef7b144253"
+  }
+ ],
+ "p5-0041": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0db22ffb2a64"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(B)は approximately が動詞 increased の後に置けないかのような説明になっている。数値・数量などを伴えば動詞の後にも置けるため、位置そのものは排除理由にならない。",
+   "fix": "「approximately は『約』を表す。この文には『約どれだけ増えたか』を示す数値・数量が続かないため不適切」とする。[Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/approximately)",
+   "explain_hash": "0db22ffb2a64"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0db22ffb2a64"
+  }
+ ],
+ "p5-0042": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(C) tell のコメント「tell は人を目的語にとる」が言い過ぎ。tell a story / tell the truth / tell a joke のように、物も目的語になる。",
+   "fix": "(C) のコメント：「tell は tell 人 about ～ や tell a story の形で使う。tell a presentation とは言わない」",
+   "explain_hash": "a890fd0299d5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:30:58",
+   "ok": false,
+   "issues": "(C)の「tell は人を目的語にとる」は限定しすぎ。tell a story、tell a lie のように、人以外を目的語にする用法もある。",
+   "fix": "「tell a story などの用法もあるが、『発表をする』は give a presentation という組み合わせで、tell a presentation とは言わない」とする。[Cambridge Grammar](https://dictionary.cambridge.org/us/grammar/british-grammar/say-and-tell)",
+   "explain_hash": "a890fd0299d5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:30:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a890fd0299d5"
+  }
  ]
 }
