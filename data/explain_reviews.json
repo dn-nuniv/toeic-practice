@@ -123,6 +123,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "5008703ccb37"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5b4c3aced8c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5b4c3aced8c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5b4c3aced8c"
   }
  ],
  "p1-0004": [
@@ -199,6 +223,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "6adfd8a54596"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f1f5c36b233"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f1f5c36b233"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f1f5c36b233"
   }
  ],
  "p1-0006": [
@@ -349,6 +397,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "f468c698d39d"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8d1666cb6956"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8d1666cb6956"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8d1666cb6956"
   }
  ],
  "p1-0009": [
@@ -427,6 +499,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "8d8253d7e384"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a4181100b5b5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a4181100b5b5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a4181100b5b5"
   }
  ],
  "p2-0003": [
@@ -531,6 +627,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "a2ff1699ce94"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97cb690170b4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97cb690170b4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "97cb690170b4"
   }
  ],
  "p2-0007": [
@@ -557,6 +677,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "377a21d402bd"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "81c1fdf349a6"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "81c1fdf349a6"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "81c1fdf349a6"
   }
  ],
  "p2-0008": [
@@ -609,6 +753,30 @@
    "issues": "選択肢(B)「In the main storage room.」の和訳が「大きいほうの倉庫です。」になっており、main（主な・メインの）の誤訳（larger と混同している）。",
    "fix": "選択肢(B)の和訳を「メインの倉庫です。」（または「主な倉庫です。」）に直す。",
    "explain_hash": "818aae1cf3ee"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c203992868dd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c203992868dd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c203992868dd"
   }
  ],
  "p2-0010": [
@@ -765,6 +933,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "b7d9d3cbce6a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ec7d9754dc9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ec7d9754dc9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ec7d9754dc9"
   }
  ],
  "p2-0016": [
@@ -817,6 +1009,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "ae1baf8b6066"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a74eec2b8b88"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a74eec2b8b88"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a74eec2b8b88"
   }
  ],
  "p2-0018": [
@@ -947,6 +1163,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "f286282a0012"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T07:39:11",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "54dc686eea7d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T07:39:12",
+   "ok": false,
+   "issues": "TOEICのポイントで「Whichever ～」を「どちらでもよい」の例として示しているが、後続部分によって選択条件が付く。この問題の応答は「前に近いほう」という条件付きの選択であり、無条件の Either is fine と同じ意味ではない。",
+   "fix": "「選択疑問文には、条件を添えて選ぶ（Whichever is closer to the front.）、どちらでもよいと答える（Either is fine）、両方・どちらでもないと答える、といった応答もある。」に修正する。",
+   "explain_hash": "54dc686eea7d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T07:39:12",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "54dc686eea7d"
   }
  ],
  "p2-0023": [
