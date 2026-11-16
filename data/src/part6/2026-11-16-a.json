@@ -25,7 +25,14 @@
      "options": ["Original", "Originally", "Origin", "Originate"],
      "answer": "a",
      "explanation_ja": "名詞 receipts の前なので、名詞を修飾する形容詞 Original（原本の）。Originally は副詞、Origin は名詞、Originate は動詞。",
-     "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。"
+     "translation_ja": "（空欄1）すべての返品には引き続きレシートの原本が必要だ。",
+     "option_notes_ja": [
+      "形容詞「原本の」。名詞 receipts を修飾する",
+      "副詞。名詞は修飾できない",
+      "名詞「起源」。receipts の前に置くと意味が通らない",
+      "動詞「生じる」。名詞の前には置けない"
+     ],
+     "point_ja": "名詞の直前の空欄は形容詞。文頭で大文字になっていても品詞の考え方は同じ。"
     },
     {
      "id": "p6-0006",
@@ -47,7 +54,14 @@
       "これらの商品には赤い札がはっきりと付いています。",
       "レシートは少なくとも30日間保管してください。",
       "返品はすべて1週間以内にお願いします。"
-     ]
+     ],
+     "option_notes_ja": [
+      "園芸コーナーの休みは、返品できない商品の話と関係がない",
+      "直前の「クリアランスセールの商品は返品できない」を受け、These items の見分け方を説明している",
+      "レシートの保管期間30日は、60日に延びるという前の段落と食い違う",
+      "1週間以内は、60日に延びるという前の段落と矛盾する"
+     ],
+     "point_ja": "These / Those / Such ＋名詞 で始まる挿入文は、直前に指す内容があるかを確かめる。"
     },
     {
      "id": "p6-0007",
@@ -58,7 +72,14 @@
      "options": ["has installed", "will install", "was installed", "installs"],
      "answer": "c",
      "explanation_ja": "カウンターは「設置された」側で、last week（先週）があるので過去の受け身 was installed。has installed・will install・installs は能動態で、後ろに目的語が必要。",
-     "translation_ja": "（空欄3）先週、正面入口の近くにセルフサービスの返品カウンターが設置された。"
+     "translation_ja": "（空欄3）先週、正面入口の近くにセルフサービスの返品カウンターが設置された。",
+     "option_notes_ja": [
+      "能動態の現在完了。後ろに目的語が必要",
+      "能動態の未来。last week と合わず、目的語も必要",
+      "過去の受け身。カウンターは「設置された」側で、last week がある",
+      "能動態の現在形。last week と合わない"
+     ],
+     "point_ja": "Part 6 の時制は、文の中の時の語（last week・next month）と文脈の両方で決める。"
     },
     {
      "id": "p6-0008",
@@ -69,7 +90,14 @@
      "options": ["conveniently", "convenience", "conveniences", "convenient"],
      "answer": "d",
      "explanation_ja": "make ＋ 目的語（shopping with us）＋ 補語 の形で、補語には形容詞が入る。even more convenient で「いっそう便利に」。conveniently は副詞、convenience・conveniences は名詞。",
-     "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう便利になればと思う。"
+     "translation_ja": "（空欄4）今回の変更で、当店での買い物がいっそう便利になればと思う。",
+     "option_notes_ja": [
+      "副詞。make の補語にはならない",
+      "名詞「便利さ」。even more convenience では意味が通らない",
+      "名詞の複数形。補語として意味が通らない",
+      "形容詞。make ＋目的語＋形容詞 で「～をより便利にする」"
+     ],
+     "point_ja": "make ＋目的語＋補語（形容詞）の形（make shopping convenient、keep the room clean）。補語に副詞は入らない。"
     }
    ]
   },
@@ -100,7 +128,14 @@
      "options": ["will be", "was", "has been", "had been"],
      "answer": "a",
      "explanation_ja": "メールは6月3日付で、初出勤日の6月17日はこれから先のことなので未来の will be。was・has been・had been は過去や完了を表す。",
-     "translation_ja": "（空欄1）お話ししたとおり、初出勤日は6月17日（月）だ。"
+     "translation_ja": "（空欄1）お話ししたとおり、初出勤日は6月17日（月）だ。",
+     "option_notes_ja": [
+      "未来。メールの日付（6月3日）から見て6月17日はこれから先",
+      "過去。初出勤日はまだ来ていないので合わない",
+      "現在完了。これから先の予定には使えない",
+      "過去完了。意味が合わない"
+     ],
+     "point_ja": "Part 6 では、メールの日付と本文中の日付を比べて時制を決める問題がよく出る。"
     },
     {
      "id": "p6-0010",
@@ -122,7 +157,14 @@
       "最初の1時間は短いオリエンテーションに参加していただきます。",
       "この職にご応募いただきありがとうございます。",
       "オコンクォさんは昨年入社しました。"
-     ]
+     ],
+     "option_notes_ja": [
+      "休日の案内は、初日の朝の予定の流れに合わない",
+      "直後の After that（その後）が受ける、初日の朝の予定。オリエンテーションに参加する",
+      "すでに採用が決まっているので、応募へのお礼は時期が合わない",
+      "オコンクォさんの紹介は、直後の After that の「その後」が指す出来事にならない"
+     ],
+     "point_ja": "After that・Then・Afterward で始まる文の前には、順序のある出来事が必要。"
     },
     {
      "id": "p6-0011",
@@ -134,7 +176,14 @@
      "answer": "c",
      "explanation_ja": "dietary restrictions で「食事の制限（食べられない物）」。歓迎昼食会のために尋ねている。regulations は法律や組織の「規則」で dietary とは組まない。",
      "translation_ja": "（空欄3）食事の制限があれば知らせてほしい。",
-     "translation_options_ja": ["規則", "決意・決議", "制限", "認識・表彰"]
+     "translation_options_ja": ["規則", "決意・決議", "制限", "認識・表彰"],
+     "option_notes_ja": [
+      "規則。dietary とは組まない",
+      "決意・決議。意味が合わない",
+      "制限。dietary restrictions で「食事の制限（食べられない物）」",
+      "認識・表彰。意味が合わない"
+     ],
+     "point_ja": "dietary restrictions / dietary requirements（食事の制限・配慮が必要なこと）は、昼食会や出張の案内で頻出。"
     },
     {
      "id": "p6-0012",
@@ -145,7 +194,14 @@
      "options": ["work", "worked", "works", "working"],
      "answer": "d",
      "explanation_ja": "look forward to の to は前置詞なので、後ろは名詞か動名詞。working with you で「あなたと一緒に働くこと」。",
-     "translation_ja": "（空欄4）一緒に働けることを楽しみにしている。"
+     "translation_ja": "（空欄4）一緒に働けることを楽しみにしている。",
+     "option_notes_ja": [
+      "原形。look forward to の to は前置詞なので原形は続かない",
+      "過去形・過去分詞。前置詞の後には置けない",
+      "三人称単数の現在形。前置詞の後には置けない",
+      "動名詞。look forward to ～ing で「～するのを楽しみにする」"
+     ],
+     "point_ja": "look forward to ～ing の to は前置詞。be used to ～ing、be committed to ～ing も同じ形。"
     }
    ]
   },
@@ -172,7 +228,14 @@
      "answer": "a",
      "explanation_ja": "新施設が生産量（output）を約40パーセント「増やす」ので increase。by about 40 percent（約40パーセント分）とも合う。",
      "translation_ja": "（空欄1）新施設で、同社の生産量は約40パーセント増える。",
-     "translation_options_ja": ["増やす", "成し遂げる", "引きつける", "必要とする"]
+     "translation_options_ja": ["増やす", "成し遂げる", "引きつける", "必要とする"],
+     "option_notes_ja": [
+      "増やす。生産量を約40パーセント増やす",
+      "成し遂げる。output を目的語にして「40パーセント分」とは合わない",
+      "引きつける。生産量を引きつけるでは意味が通らない",
+      "必要とする。意味が合わない"
+     ],
+     "point_ja": "increase / reduce A by ～ percent（A を～パーセント増やす・減らす）の by は「差」を表す。"
     },
     {
      "id": "p6-0014",
@@ -194,7 +257,14 @@
       "同社のパンの需要はこの2年で急増している。",
       "新しい施設は週末は休みになる。",
       "地域の食料品の価格は今年下がった。"
-     ]
+     ],
+     "option_notes_ja": [
+      "創業の歴史は、直後の this growing demand（この高まる需要）につながらない",
+      "需要が急増しているという文。直後の this growing demand が指す内容になる",
+      "週末の休みは需要の話と関係がない",
+      "食料品の価格の話は、需要に応えるための施設の話につながらない"
+     ],
+     "point_ja": "this ＋名詞（this demand、this change）で始まる文の前には、その名詞が指す内容が必要。"
     },
     {
      "id": "p6-0015",
@@ -206,7 +276,14 @@
      "answer": "c",
      "explanation_ja": "「雇用の多くは製造と配送」に「食品科学者も採用する」という別の情報を付け加えているので In addition。例や結果ではなく、代わりでもない。",
      "translation_ja": "（空欄3）さらに、リバーモントは新製品を開発するため食品科学者を数人採用する予定だ。",
-     "translation_options_ja": ["たとえば", "その結果", "さらに", "その代わりに"]
+     "translation_options_ja": ["たとえば", "その結果", "さらに", "その代わりに"],
+     "option_notes_ja": [
+      "例を挙げるつなぎ語。食品科学者の採用は、前の文の例ではない",
+      "結果を表す。前の文の結果ではない",
+      "情報を付け加える。製造・配送の仕事に加えて、食品科学者も採用する",
+      "代わりに。前の内容を打ち消していない"
+     ],
+     "point_ja": "つなぎ語は前後の関係で選ぶ：付け加え（In addition・Also）、例（For example）、結果（As a result）、逆接（However）。"
     },
     {
      "id": "p6-0016",
@@ -217,7 +294,14 @@
      "options": ["large", "largely", "largest", "larger"],
      "answer": "d",
      "explanation_ja": "much は比較級を強めるので much larger（はるかに大きな）。much large・much largest とは言わない。",
-     "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。"
+     "translation_ja": "（空欄4）新しい施設によって、それをはるかに大きな規模で続けられる。",
+     "option_notes_ja": [
+      "原級。much は原級を強めない",
+      "副詞。scale（名詞）を修飾できない",
+      "最上級。much ～est の形にはならない",
+      "比較級。much larger で「はるかに大きな」"
+     ],
+     "point_ja": "much / far / even / still は比較級を強める。very は原級を強める。"
     }
    ]
   },
@@ -244,7 +328,14 @@
      "answer": "a",
      "explanation_ja": "rely on ～ で「～に頼る」。毎年200人以上のボランティアの協力に頼っている。consist は of、result は in / from と組み、on とは組まない。",
      "translation_ja": "（空欄1）毎年、この催しは200人を超えるボランティアの協力に頼っている。",
-     "translation_options_ja": ["頼る", "成り立つ", "結果として生じる", "当てはまる・申し込む"]
+     "translation_options_ja": ["頼る", "成り立つ", "結果として生じる", "当てはまる・申し込む"],
+     "option_notes_ja": [
+      "rely on ～ で「～に頼る」",
+      "consist は of と組む（consist of ～）。on とは組まない",
+      "result は in / from と組む。on とは組まない",
+      "apply は for / to と組む。on とは組まない"
+     ],
+     "point_ja": "動詞と前置詞の組み合わせ：rely on・depend on・consist of・result in・apply for・comply with。"
     },
     {
      "id": "p6-0018",
@@ -266,7 +357,14 @@
       "どの役割についても、7月10日に研修を行います。",
       "昨年の音楽祭は別の公園で開かれました。",
       "公園は市の中心駅の近くにあります。"
-     ]
+     ],
+     "option_notes_ja": [
+      "チケットの発売は、ボランティアの仕事の説明と「そのお礼として」の間に入らない",
+      "these roles がボランティアの仕事を指し、研修があることを伝える",
+      "昨年の会場の話は、ボランティアの仕事の話の流れに合わない",
+      "公園の場所は、この位置の話の流れに合わない"
+     ],
+     "point_ja": "挿入する文に these ～ があれば、直前の文に指す内容があるか確かめる。直後の In return（その見返りに）ともつながるかを見る。"
     },
     {
      "id": "p6-0019",
@@ -278,7 +376,14 @@
      "answer": "c",
      "explanation_ja": "「経験は不要」の後に「16歳以上で6時間のシフトに入れること」という条件を付けているので、逆接の However。",
      "translation_ja": "（空欄3）ただし、16歳以上で、6時間のシフトに少なくとも1回入れることが条件だ。",
-     "translation_options_ja": ["したがって", "たとえば", "ただし", "同様に"]
+     "translation_options_ja": ["したがって", "たとえば", "ただし", "同様に"],
+     "option_notes_ja": [
+      "したがって。経験不要の「結果」として条件があるわけではない",
+      "たとえば。条件は経験不要の例ではない",
+      "ただし。経験不要と言った後に条件を付ける逆接",
+      "同様に。前と同じ種類の内容ではない"
+     ],
+     "point_ja": "「～は不要。ただし…が条件」のように、許可の後に条件を付けるときは However。"
     },
     {
      "id": "p6-0020",
@@ -289,7 +394,14 @@
      "options": ["notify", "notifying", "notification", "notified"],
      "answer": "d",
      "explanation_ja": "応募者は「知らされる」側なので be notified of ～（～を知らされる）の受け身。will be の後なので過去分詞。",
-     "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。"
+     "translation_ja": "（空欄4）応募者は7月上旬にメールで担当シフトを知らされる。",
+     "option_notes_ja": [
+      "原形。will be の後には置けない",
+      "現在分詞。be notifying は「知らせている」で、応募者が主語なので合わない",
+      "名詞。be notification では意味が通らない",
+      "過去分詞。be notified of ～ で「～を知らされる」"
+     ],
+     "point_ja": "notify 人 of ～（人に～を知らせる）の受け身は 人 be notified of ～。inform も同じ形をとる。"
     }
    ]
   }

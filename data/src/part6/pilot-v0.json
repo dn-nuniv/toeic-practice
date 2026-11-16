@@ -30,7 +30,14 @@
      "options": ["take", "make", "hold", "keep"],
      "answer": "a",
      "explanation_ja": "take ＋時間 で「（時間が）かかる」。The work is expected to take about two weeks.",
-     "translation_ja": "（空欄1）工事は約2週間かかる見込みだ。"
+     "translation_ja": "（空欄1）工事は約2週間かかる見込みだ。",
+     "option_notes_ja": [
+      "take＋時間で「（時間が）かかる」。The work is expected to take about two weeks",
+      "make は「作る・～させる」。時間を目的語にして「かかる」の意味にはならない",
+      "hold は「開く・保つ」。期間を表す使い方はない",
+      "keep は「保つ」。時間の長さを表す使い方はない"
+     ],
+     "point_ja": "「（時間・費用が）かかる」は take（It takes two weeks）／cost（It costs $50）。"
     },
     {
      "id": "p6-0002",
@@ -52,7 +59,14 @@
       "新しいメニューは食堂に掲示されます。",
       "先週の安全研修へのご参加ありがとうございました。",
       "3階の給湯室もこの間閉鎖されます。"
-     ]
+     ],
+     "option_notes_ja": [
+      "直後の「金曜の夕方までに私物を冷蔵庫から出して」につながる。古い冷蔵庫が土曜に撤去される",
+      "食堂のメニューは給湯室の改装と関係がない",
+      "安全研修のお礼は話の流れと関係がない",
+      "前の段落で「3階の給湯室を使って」と言っているので矛盾する"
+     ],
+     "point_ja": "文挿入は、空欄の直後の文とのつながり（なぜそうするのか）を手がかりにする。前の内容と矛盾する選択肢はすぐに消せる。"
     },
     {
      "id": "p6-0003",
@@ -63,7 +77,14 @@
      "options": ["discard", "discarded", "discarding", "discards"],
      "answer": "b",
      "explanation_ja": "will be の後で「処分される」という受け身にするので過去分詞 discarded。",
-     "translation_ja": "（空欄3）残されたものは処分される。"
+     "translation_ja": "（空欄3）残されたものは処分される。",
+     "option_notes_ja": [
+      "原形。will be の後には置けない",
+      "過去分詞。will be discarded で「処分される」（受け身）",
+      "現在分詞。be discarding は「処分している」で、物が主語なので合わない",
+      "三人称単数の現在形。will be の後には置けない"
+     ],
+     "point_ja": "物が主語で「～される」なら受け身。will be / can be / must be の後は過去分詞。"
     },
     {
      "id": "p6-0004",
@@ -74,7 +95,14 @@
      "options": ["patience", "patient", "patiently", "patients"],
      "answer": "a",
      "explanation_ja": "所有格 your の後には名詞が来る。「忍耐・辛抱」の patience。patients は「患者たち」で意味が合わない。",
-     "translation_ja": "（空欄4）ご辛抱（ご理解）に感謝します。"
+     "translation_ja": "（空欄4）ご辛抱（ご理解）に感謝します。",
+     "option_notes_ja": [
+      "名詞「忍耐・辛抱」。所有格 your の後に置く",
+      "形容詞（名詞では「患者」）。your patient は「あなたの患者」で意味が合わない",
+      "副詞。所有格の後には置けない",
+      "名詞の複数形「患者たち」。意味が合わない"
+     ],
+     "point_ja": "We appreciate your patience / cooperation / understanding は、お知らせの結びの決まり文句。"
     }
    ]
   }
