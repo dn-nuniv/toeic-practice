@@ -8,7 +8,7 @@ SRC = ROOT / "data" / "vocab" / "src"
 POS = {"noun", "verb", "adjective", "adverb", "phrase"}
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 REQ = {"id", "word", "pos", "meaning_ja", "level", "example", "example_ja", "cloze"}
-OPT = {"status", "source", "distractors", "also_ok", "note"}
+OPT = {"status", "source", "distractors", "also_ok", "also_ok_cloze", "note"}
 
 
 def h(s):
@@ -37,7 +37,7 @@ def load(errors):
             if w["level"] not in LEVELS: errors.append(f"{where}: level は {LEVELS} のどれか")
             if w.get("status", "draft") not in ("draft", "retired"): errors.append(f"{where}: status は draft か retired")
             words.append(dict(id=w["id"], word=w["word"], pos=w["pos"], meaning_ja=w["meaning_ja"], level=w["level"],
-                              example=w["example"], example_ja=w["example_ja"], cloze=w["cloze"], also_ok=w.get("also_ok", []),
+                              example=w["example"], example_ja=w["example_ja"], cloze=w["cloze"], also_ok=w.get("also_ok", []), also_ok_cloze=w.get("also_ok_cloze", []),
                               status=w.get("status", "draft"), source=w.get("source", doc.get("source", "")),
                               fixed_distractors=w.get("distractors")))
     return words

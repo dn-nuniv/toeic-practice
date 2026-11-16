@@ -41,7 +41,8 @@ data/vocab/src/<バッチ名>.json      100〜200語ずつ足していく
 | `example` | ○ | オリジナルの例文。人名・会社名は架空 |
 | `example_ja` | ○ | 例文の和訳（穴埋め問題で一緒に表示する） |
 | `cloze` | ○ | 例文の穴埋めにする語形。**例文の中にそのまま出てくる形**（approved、Registration など）。熟語は**ひと続きで出てくる形**にする（looking forward to は可、fill it out のように間に語が入る形は不可） |
-| `also_ok` | | 日→英・穴埋めで正解にする別解（頭文字と字数が同じ類義語、英式のつづり、穴埋めの語形も）。例：`["remodeling"]`、`["append", "appended"]`、`["cancelled"]` |
+| `also_ok` | | 日→英のつづりで正解にする別解（頭文字が同じ類義語、英式のつづり）。例：`["remodeling"]`、`["entitled"]` |
+| `also_ok_cloze` | | 例文の穴埋めで正解にする別解。**その例文に入れても自然な語形だけ**（eligible for の例文に entitled は入れない。entitled to になるため）。例：`["appended"]`、`["cancelled"]` |
 | `distractors` | | 4択のダミーを手で決めるときだけ（単語 ID を3つ）。省略すると build が同じ品詞・近いレベルから決まった順で選ぶ |
 | `status` | | `retired` にすると出題しない。省略時は `draft`（reviewed / flagged はレビュー結果から自動） |
 

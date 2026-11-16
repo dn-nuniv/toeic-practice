@@ -4429,7 +4429,7 @@
    "業者へのメールや、その返事については話していない",
    "締め切りの話はしていない"
   ],
-  "point_ja": "the men は男性2人を指す。この会話では1人目が不具合を説明し、2人目も We've had the same issue と同じ問題を挙げている。3人の会話で the men / the women と問われたら、2人に共通する話を探す。",
+  "point_ja": "the men / the women と問われたら、まずだれを指すかを確かめ、設問に関係する発言を聞き取る。この問題では、1人目の不具合の説明に、2人目も We've had the same issue と続けている。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
@@ -4468,7 +4468,7 @@
     "content_hash": "c15ffea2cdf2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0012",
@@ -7676,7 +7676,7 @@
     "content_hash": "745cea81cfcc"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0023",
@@ -7758,7 +7758,7 @@
     "content_hash": "fd750289fa59"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0024",
@@ -7840,7 +7840,7 @@
     "content_hash": "3072f4594037"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p5-0001",
@@ -11720,7 +11720,7 @@
   "option_notes_ja": [
    "園芸コーナーの休みは、返品できない商品の話と関係がない",
    "直前の「クリアランスセールの商品は返品できない」を受け、These items の見分け方を説明している",
-   "60日の返品期限と矛盾はしないが、直前の返品できない商品の説明を補う文ではない",
+   "30日は変更前の返品期限の数字で、60日に延びた新しい規定とかみ合わない。また、直前の返品できない商品の説明を補う文でもない",
    "1週間以内は、60日に延びるという前の段落と食い違う"
   ],
   "point_ja": "These / Those / Such ＋名詞 で始まる挿入文は、直前に指す内容があるかを確かめる。",
@@ -11762,7 +11762,7 @@
     "content_hash": "ab42edbd4dd2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0007",
@@ -12392,7 +12392,7 @@
    "週末の休みは需要の話と関係がない",
    "食料品の価格の話は、需要に応えるための施設の話につながらない"
   ],
-  "point_ja": "this ＋名詞（this demand、this change など）を含む文の前には、文頭でも文中でも、その名詞が指す内容が必要。挿入文は、後ろの this ～ が指す内容になるかで選ぶ。",
+  "point_ja": "this ＋名詞が何を指すかを確かめる。この問題では、後ろの this growing demand が、挿入文の「需要の急増」を受けている。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part6 batch a",
@@ -12431,7 +12431,7 @@
     "content_hash": "cad7c5c7007a"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0015",

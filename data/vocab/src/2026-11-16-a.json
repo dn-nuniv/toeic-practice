@@ -52,7 +52,8 @@
    "example": "The lobby will be closed during the renovation.",
    "example_ja": "改装の間、ロビーは閉鎖される。",
    "cloze": "renovation",
-   "also_ok": ["remodeling"]
+   "also_ok": ["remodeling"],
+   "also_ok_cloze": ["remodeling"]
   },
   {
    "id": "v-0006",
@@ -213,7 +214,8 @@
    "example": "The expansion of the factory will create fifty jobs.",
    "example_ja": "工場の拡張で50人分の雇用が生まれる。",
    "cloze": "expansion",
-   "also_ok": ["extension"]
+   "also_ok": ["extension"],
+   "also_ok_cloze": ["extension"]
   },
   {
    "id": "v-0022",
@@ -334,7 +336,8 @@
    "example": "Please wait for me at the main entrance.",
    "example_ja": "正面入口で待っていてください。",
    "cloze": "entrance",
-   "also_ok": ["entryway"]
+   "also_ok": ["entryway"],
+   "also_ok_cloze": ["entryway"]
   },
   {
    "id": "v-0034",
@@ -475,7 +478,8 @@
    "example": "I have attached the file to this e-mail.",
    "example_ja": "このメールにファイルを添付しました。",
    "cloze": "attached",
-   "also_ok": ["append", "appended"]
+   "also_ok": ["append"],
+   "also_ok_cloze": ["appended"]
   },
   {
    "id": "v-0048",
@@ -606,7 +610,8 @@
    "example": "The store extended its opening hours for the holidays.",
    "example_ja": "その店は休暇シーズンに営業時間を延長した。",
    "cloze": "extended",
-   "also_ok": ["expand", "expanded"]
+   "also_ok": ["expand"],
+   "also_ok_cloze": ["expanded"]
   },
   {
    "id": "v-0061",
@@ -637,7 +642,8 @@
    "example": "We apologize for the delay.",
    "example_ja": "遅延についておわびいたします。",
    "cloze": "apologize",
-   "also_ok": ["apologise"]
+   "also_ok": ["apologise"],
+   "also_ok_cloze": ["apologise"]
   },
   {
    "id": "v-0064",
@@ -658,7 +664,8 @@
    "example": "Please revise the schedule and send it back to me.",
    "example_ja": "予定表を修正して送り返してください。",
    "cloze": "revise",
-   "also_ok": ["rework"]
+   "also_ok": ["rework"],
+   "also_ok_cloze": ["rework"]
   },
   {
    "id": "v-0066",
@@ -739,7 +746,7 @@
    "example": "The flight was canceled due to heavy snow.",
    "example_ja": "大雪のため、その便は欠航になった。",
    "cloze": "canceled",
-   "also_ok": ["cancelled"]
+   "also_ok_cloze": ["cancelled"]
   },
   {
    "id": "v-0074",
@@ -832,7 +839,8 @@
    "example": "The course offers practical advice for small businesses.",
    "example_ja": "その講座は小さな事業者に実用的な助言をする。",
    "cloze": "practical",
-   "also_ok": ["pragmatic"]
+   "also_ok": ["pragmatic"],
+   "also_ok_cloze": ["pragmatic"]
   },
   {
    "id": "v-0083",
@@ -977,7 +985,8 @@
    "example": "Costs have increased significantly this year.",
    "example_ja": "今年は費用が大幅に増えた。",
    "cloze": "significantly",
-   "also_ok": ["substantially"]
+   "also_ok": ["substantially"],
+   "also_ok_cloze": ["substantially"]
   },
   {
    "id": "v-0097",

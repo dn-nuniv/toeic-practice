@@ -78,6 +78,7 @@
       const i = w.example.indexOf(w.cloze);
       body = `<div class="vex">${esc(w.example.slice(0, i))}${blank}${esc(w.example.slice(i + w.cloze.length))}</div>
         <div class="vexja">${esc(w.example_ja)}</div>
+        <p class="meta">空所に、文に合う形（過去形・複数形など）で書く</p>
         <div class="vinput"><input id="vin" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${esc(w.cloze[0])}…"><button id="vcheck" class="primary">答え合わせ</button></div>`;
     }
     main.innerHTML = `
@@ -110,8 +111,8 @@
     } else {
       chosen = String(v || '').trim();
       ok = norm(chosen) === norm(q.mode === 'j2e' ? w.word : w.cloze);
-      // 別解（同じ意味で頭文字の同じ語、英式のつづりなど）も正解にする
-      alt = !ok && (w.also_ok || []).some(x => norm(x) === norm(chosen));
+      // 別解（同じ意味で頭文字の同じ語、英式のつづりなど）も正解にする。穴埋めは例文に入れて自然な語だけ（also_ok_cloze）
+      alt = !ok && ((q.mode === 'cloze' ? w.also_ok_cloze : w.also_ok) || []).some(x => norm(x) === norm(chosen));
       if (alt) ok = true;
       $('#vin').disabled = true; $('#vcheck').hidden = true;
     }

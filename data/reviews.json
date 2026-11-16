@@ -9281,7 +9281,11 @@
    "ambiguous": false,
    "confidence": 0.99,
    "issues": "英文穴埋めでは原形 register ではなく過去分詞 registered（10字）が必要。字数は合っているが、活用形で答える旨を明記するとよい。",
-   "content_hash": "1dc6c893ccc1"
+   "content_hash": "1dc6c893ccc1",
+   "resolved": {
+    "at": "2026-11-16T23:23:40",
+    "note": "穴埋めの画面に「空所に、文に合う形（過去形・複数形など）で書く」と表示するようにした。和訳の「200人を超える」は前回直し済み"
+   }
   },
   {
    "reviewer": "agy",
@@ -10170,7 +10174,11 @@
    "ambiguous": true,
    "confidence": 0.98,
    "issues": "英→日の正解はCで一意。日→英では eligible と entitled が意味・頭文字・8字の条件を満たす。entitled は別解として許容されているが、英文穴埋めには適用できない。are entitled to the bonus とする必要があるため、穴埋めで entitled を正解扱いしないよう形式別に採点を分ける必要がある。",
-   "content_hash": "0b4972c3afaa"
+   "content_hash": "0b4972c3afaa",
+   "resolved": {
+    "at": "2026-11-16T23:23:40",
+    "note": "別解を形式ごとに分けた（also_ok は日→英だけ、穴埋めの別解は also_ok_cloze）。entitled は日→英だけの別解にし、穴埋め（eligible for）では正解にしない"
+   }
   },
   {
    "reviewer": "agy",
@@ -10181,7 +10189,11 @@
    "ambiguous": false,
    "confidence": 0.99,
    "issues": "別解の entitled は日→英（資格がある → e _ _ _ _ _ _ _）では成立しうるが、例文穴埋めでは直後が for the bonus となっているため、entitled for は語法上不自然（通常は entitled to）。例文穴埋めでも別解として正解にするのであれば不適切なため、日→英のみの別解とするか削除を検討すべき。",
-   "content_hash": "0b4972c3afaa"
+   "content_hash": "0b4972c3afaa",
+   "resolved": {
+    "at": "2026-11-16T23:23:40",
+    "note": "別解を形式ごとに分けた（also_ok は日→英だけ、穴埋めの別解は also_ok_cloze）。entitled は日→英だけの別解にし、穴埋め（eligible for）では正解にしない"
+   }
   }
  ],
  "v-0078": [

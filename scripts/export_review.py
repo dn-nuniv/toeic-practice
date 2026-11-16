@@ -58,8 +58,8 @@ for w in vtarget:
     out.append(f"\n### {w['id']}（単語）\n**{w['word']}**（{w['pos']}）\n")
     out.append("英→日：" + "　".join(f"({L[k]}) {vby[c]['meaning_ja']}" for k, c in enumerate(w["choices"])))
     out.append(f"\n例文：{w['example']}\n和訳：{w['example_ja']}")
-    out.append(f"\n日→英の出題：{w['meaning_ja']} → {' '.join(V.hint(w['word']))}")
-    out.append(f"例文の穴埋めの出題：{blank}（和訳つき）" + (f"\n別解として正解にする語：{', '.join(w['also_ok'])}" if w.get("also_ok") else "") + "\n")
+    out.append(f"\n日→英の出題：{w['meaning_ja']} → {' '.join(V.hint(w['word']))}" + (f"（別解として正解にする語：{', '.join(w['also_ok'])}）" if w.get("also_ok") else ""))
+    out.append(f"例文の穴埋めの出題：{blank}（和訳つき。文に合う形で書く）" + (f"（別解として正解にする語：{', '.join(w['also_ok_cloze'])}）" if w.get("also_ok_cloze") else "") + "\n")
 (ROOT / "review").mkdir(exist_ok=True)
 (ROOT / "review/packet.md").write_text("\n".join(out), encoding="utf-8")
 (ROOT / "review/PROMPT.md").write_text("""あなたは英語検定問題の校閲者です。添付の packet.md にある TOEIC L&R 形式の練習問題を、正解を見ずに自分で解いてください。

@@ -98,7 +98,8 @@ for w in vocab:
     ms = [vby[c]["meaning_ja"] for c in w["choices"] if c in vby]
     if len(set(ms)) != len(ms): E.append(f"{t}: 4択に同じ意味が並ぶ")
     if len(w["cloze"]) < 3: W.append(f"{t}: 穴埋めの語が短すぎてヒントにならない")
-    if any(x.lower() in (w["word"].lower(), w["cloze"].lower()) for x in w.get("also_ok", [])): W.append(f"{t}: 別解（also_ok）に見出し語・穴埋めの語と同じものがある")
+    if any(x.lower() == w["word"].lower() for x in w.get("also_ok", [])): W.append(f"{t}: 日→英の別解（also_ok）に見出し語と同じものがある")
+    if any(x.lower() == w["cloze"].lower() for x in w.get("also_ok_cloze", [])): W.append(f"{t}: 穴埋めの別解（also_ok_cloze）に穴埋めの語と同じものがある")
     if re.search(r"https?://|www\.", w["example"]) and ".example" not in w["example"]: E.append(f"{t}: 例文の URL は .example ドメインに")
 for k, n in Counter(w["word"].lower() for w in vocab).items():
     if n > 1: W.append(f"同じ見出し語が {n} 回: {k}")
