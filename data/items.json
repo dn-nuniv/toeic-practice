@@ -35,9 +35,40 @@
    "彼女は上着を着ているところだ。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "options": "female"
   }
@@ -78,9 +109,40 @@
    "トラックが車庫に止めてある。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "options": "male"
   }
@@ -121,9 +183,40 @@
    "スクリーンが取り付けられているところだ。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "options": "female"
   }
@@ -159,9 +252,40 @@
    "新しい予算についてです。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "male",
    "options": "female"
@@ -198,9 +322,40 @@
    "はい、手続き中です。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "female",
    "options": "male"
@@ -237,9 +392,40 @@
    "ロビーに届けられました。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "male",
    "options": "female"
@@ -276,9 +462,40 @@
    "そのプリンターは新しいです。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "female",
    "options": "male"
@@ -315,9 +532,40 @@
    "はい、彼が報告しました。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "male",
    "options": "female"
@@ -354,9 +602,40 @@
    "12番ゲートです。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "female",
    "options": "male"
@@ -393,9 +672,40 @@
    "おもしろいと思いました。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "male",
    "options": "female"
@@ -432,9 +742,40 @@
    "今セール中です。"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ],
   "voices": {
    "stem": "female",
    "options": "male"
@@ -476,9 +817,40 @@
    "提案内容を変えたい。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p3-0002",
@@ -516,9 +888,40 @@
    "マリアが昼食を注文する。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p3-0003",
@@ -556,9 +959,40 @@
    "顧客に電話する"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p3-0004",
@@ -596,9 +1030,40 @@
    "郵送物がなくなった。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p3-0005",
@@ -631,9 +1096,40 @@
   "translation_ja": "図を見てください。2回目の配送に男性は通常いくら払うことになるか。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p3-0006",
@@ -671,9 +1167,40 @@
    "元の注文代金を返金する"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0001",
@@ -711,9 +1238,40 @@
    "新しい保安手順"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0002",
@@ -751,9 +1309,40 @@
    "火曜日の朝"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0003",
@@ -791,9 +1380,40 @@
    "新しい社員証を受け取るため"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0004",
@@ -831,9 +1451,40 @@
    "配達ドライバー"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0005",
@@ -871,9 +1522,40 @@
    "文字につづりの誤りがある。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p4-0006",
@@ -911,9 +1593,40 @@
    "新しい写真家を選ぶ"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0001",
@@ -946,9 +1659,40 @@
   "translation_ja": "四半期報告書は金曜日までに経理部に提出されなければならない。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0002",
@@ -981,9 +1725,40 @@
   "translation_ja": "タナカさんは2019年からコーベックス工業で働いている。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0003",
@@ -1016,9 +1791,40 @@
   "translation_ja": "来訪者は全員、建物に入る前に受付で記帳しなければならない。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "受付が建物内にある通常の想定では、入館前に受付で記帳するという順序が不自然。「before entering the office area」などにすると明確。"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0004",
@@ -1051,9 +1857,40 @@
   "translation_ja": "新しい販促キャンペーンは、会社が予想していた以上に成功した。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0005",
@@ -1086,9 +1923,40 @@
   "translation_ja": "契約について何か質問があればお知らせください。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0006",
@@ -1121,9 +1989,40 @@
   "translation_ja": "講師が病気のため、研修は延期された。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0007",
@@ -1156,9 +2055,40 @@
   "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0008",
@@ -1191,9 +2121,40 @@
   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0009",
@@ -1226,9 +2187,40 @@
   "translation_ja": "顧客から電話があったとき、オルティスさんは出荷予定を確認していた。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0010",
@@ -1261,9 +2253,40 @@
   "translation_ja": "その会社は海外の顧客により良く対応するため、顧客サービスの受付時間を延長することにした。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0011",
@@ -1296,9 +2319,40 @@
   "translation_ja": "部長もそのアシスタントも、会議に出席できなかった。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0012",
@@ -1331,9 +2385,40 @@
   "translation_ja": "応募書類は慎重に審査され、条件を満たす候補者には2週間以内に連絡がある。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0013",
@@ -1371,9 +2456,40 @@
    "きっぱりと（副詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0014",
@@ -1411,9 +2527,40 @@
    "生産（名詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0015",
@@ -1451,9 +2598,40 @@
    "より便利な（比較級）"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0016",
@@ -1491,9 +2669,40 @@
    "親しみやすさ（名詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0017",
@@ -1531,9 +2740,40 @@
    "より徹底的に（比較級）"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0018",
@@ -1571,9 +2811,40 @@
    "最もすばやい（最上級）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": true,
+    "confidence": 0.91,
+    "issues": "Bが想定解だが、Dのquickestも「最も速く」という副詞として成立する。他チームとの比較を暗黙に補えるため、正解の唯一性に問題がある。"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0019",
@@ -1611,9 +2882,40 @@
    "効果の高さ（名詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0020",
@@ -1651,9 +2953,40 @@
    "印刷し終えているだろう（未来完了）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0021",
@@ -1691,9 +3024,40 @@
    "増えるだろう（未来）"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0022",
@@ -1731,9 +3095,40 @@
    "舗装し直した（過去形）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0023",
@@ -1771,9 +3166,40 @@
    "彼の（所有格）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0024",
@@ -1811,9 +3237,40 @@
    "私たちに（目的格）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0025",
@@ -1851,9 +3308,40 @@
    "～の間に"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0026",
@@ -1891,9 +3379,40 @@
    "それでも"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0027",
@@ -1931,9 +3450,40 @@
    "～なので（接続詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0028",
@@ -1971,9 +3521,40 @@
    "いったん～したら（接続詞）"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0029",
@@ -2011,9 +3592,40 @@
    "～するもの（主格・目的格）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0030",
@@ -2051,9 +3663,40 @@
    "～する人（関係代名詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0031",
@@ -2091,9 +3734,40 @@
    "少ない"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0032",
@@ -2131,9 +3805,40 @@
    "いくつか"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0033",
@@ -2171,9 +3876,40 @@
    "しかし"
   ],
   "level": "A2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0034",
@@ -2211,9 +3947,40 @@
    "作るための（不定詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0035",
@@ -2251,9 +4018,40 @@
    "興味深いことに（副詞）"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0036",
@@ -2291,9 +4089,40 @@
    "確認する"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0037",
@@ -2331,9 +4160,40 @@
    "集める"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0038",
@@ -2371,9 +4231,40 @@
    "作り方・レシピ"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0039",
@@ -2411,9 +4302,40 @@
    "概要"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0040",
@@ -2451,9 +4373,40 @@
    "豊富な"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0041",
@@ -2491,9 +4444,40 @@
    "互いに"
   ],
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p5-0042",
@@ -2531,9 +4515,40 @@
    "言う"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch a",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p6-0001",
@@ -2566,9 +4581,40 @@
   "translation_ja": "（空欄1）工事は約2週間かかる見込みだ。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p6-0002",
@@ -2606,9 +4652,40 @@
    "3階の給湯室もこの間閉鎖されます。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p6-0003",
@@ -2641,9 +4718,40 @@
   "translation_ja": "（空欄3）残されたものは処分される。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p6-0004",
@@ -2676,9 +4784,40 @@
   "translation_ja": "（空欄4）ご辛抱（ご理解）に感謝します。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0001",
@@ -2716,9 +4855,40 @@
    "無料のタオル"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0002",
@@ -2756,9 +4926,40 @@
    "12か月会員しか使えない。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0003",
@@ -2796,9 +4997,40 @@
    "経営陣の交代"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0004",
@@ -2836,9 +5068,40 @@
    "大きなコーヒー工場がある。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0005",
@@ -2871,9 +5134,40 @@
   "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「英語を話せる応募者は特に歓迎する。」",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.92,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0006",
@@ -2911,9 +5205,40 @@
    "週末しか使えない。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0007",
@@ -2951,9 +5276,40 @@
    "求人について尋ねるため"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0008",
@@ -2986,9 +5342,40 @@
   "translation_ja": "マルティネスさんの団体にはどの部屋が予約されると考えられるか。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.88,
+    "issues": "Oak Hall/Pine Hall にも45人は収容できるが、45人が入る最小・最安の部屋として Cedar Room に決まる（most likely）。TOEIC の通常の推論の範囲内"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0009",
@@ -3026,9 +5413,40 @@
    "昨年もこのセンターを予約した。"
   ],
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  },
  {
   "id": "p7-0010",
@@ -3061,8 +5479,39 @@
   "translation_ja": "割引が適用されると、団体は部屋代にいくら払うか。",
   "translation_options_ja": null,
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
-  "review": []
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": ""
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": ""
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-16T17:49:25",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": ""
+   }
+  ]
  }
 ]

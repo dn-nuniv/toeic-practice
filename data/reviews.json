@@ -1,0 +1,2530 @@
+{
+ "p1-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p1-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p1-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p2-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p3-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p4-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "受付が建物内にある通常の想定では、入館前に受付で記帳するという順序が不自然。「before entering the office area」などにすると明確。"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.91,
+   "issues": "Bが想定解だが、Dのquickestも「最も速く」という副詞として成立する。他チームとの比較を暗黙に補えるため、正解の唯一性に問題がある。"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0034": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0035": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0036": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0037": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0038": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0039": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0040": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0041": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p5-0042": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p6-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p6-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p6-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p6-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.92,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.88,
+   "issues": "Oak Hall/Pine Hall にも45人は収容できるが、45人が入る最小・最安の部屋として Cedar Room に決まる（most likely）。TOEIC の通常の推論の範囲内"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  }
+ ],
+ "p7-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ],
+ "p7-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": ""
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": ""
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T17:49:25",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": ""
+  }
+ ]
+}
