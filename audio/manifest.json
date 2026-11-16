@@ -717,7 +717,7 @@
   },
   "p2-0027:opt:b": {
    "file": "audio/us/p2-0027_opt_b.mp3",
-   "hash": "c5aeb37d0b2a",
+   "hash": "786a6bc61365",
    "voice": "en-US-Neural2-C"
   },
   "p2-0027:opt:c": {
@@ -1564,7 +1564,7 @@
   },
   "p2-0027:opt:b": {
    "file": "audio/gb/p2-0027_opt_b.mp3",
-   "hash": "97ae5686a643",
+   "hash": "52f3855c5c9a",
    "voice": "en-GB-Neural2-A"
   },
   "p2-0027:opt:c": {
@@ -2411,7 +2411,7 @@
   },
   "p2-0027:opt:b": {
    "file": "audio/au/p2-0027_opt_b.mp3",
-   "hash": "a0100acdc145",
+   "hash": "a63bb22e7078",
    "voice": "en-AU-Neural2-A"
   },
   "p2-0027:opt:c": {
