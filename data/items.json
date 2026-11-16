@@ -12237,7 +12237,7 @@
   ],
   "point_ja": "所有代名詞（mine・yours・his・hers・ours・theirs）は「所有格＋名詞」の代わりになり、後ろに名詞を置かない。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
   "review": [
    {
@@ -12272,6 +12272,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "8f0e2fd87e86"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:58:04",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "8d6429bb9602"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:58:04",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8d6429bb9602"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:58:04",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8d6429bb9602"
    }
   ],
   "explain_status": "checked"
@@ -12319,7 +12352,7 @@
   ],
   "point_ja": "「～する人々」は those who ～（動詞は複数に合わせる）。anyone who ～ は単数扱い（anyone who wishes）。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
   "review": [
    {
@@ -12354,6 +12387,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "8093501a03a1"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:58:04",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": "",
+    "content_hash": "b698c107b28d"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:58:04",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "b698c107b28d"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:58:04",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "b698c107b28d"
    }
   ],
   "explain_status": "checked"
@@ -13467,7 +13533,7 @@
   ],
   "point_ja": "complimentary は「無料の（サービスとしての）」。complimentary breakfast / shuttle などホテルの案内によく出る。似た形の complementary（補完的な）と区別する。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
   "review": [
    {
@@ -13502,6 +13568,39 @@
     "confidence": 1.0,
     "issues": "",
     "content_hash": "796e86f128f2"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:58:04",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "7f1d1ab960f6"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:58:04",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "7f1d1ab960f6"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:58:04",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "7f1d1ab960f6"
    }
   ],
   "explain_status": "checked"

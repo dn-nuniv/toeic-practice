@@ -11451,6 +11451,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "8f0e2fd87e86"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:58:04",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8d6429bb9602"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:58:04",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8d6429bb9602"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:58:04",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8d6429bb9602"
   }
  ],
  "p5-0055": [
@@ -11486,6 +11519,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "8093501a03a1"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:58:04",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "b698c107b28d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:58:04",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b698c107b28d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:58:04",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b698c107b28d"
   }
  ],
  "p5-0056": [
@@ -11976,6 +12042,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "796e86f128f2"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:58:04",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "7f1d1ab960f6"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:58:04",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7f1d1ab960f6"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:58:04",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7f1d1ab960f6"
   }
  ],
  "p5-0070": [
