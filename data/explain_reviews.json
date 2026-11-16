@@ -1,0 +1,236 @@
+{
+ "p1-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "(D) の訳「彼女は上着を着ているところだ」は、日本語では「上着を着ている（状態）」とも読める。写真の女性は実際に上着を着ているので、学習者はこの訳を見て (D) も正しいと誤解しかねない。(D) のコメントも、すでに着ている状態（wearing）であることに触れていないので、ひっかけの理由が分かりにくい。(A) の「椅子は写っている」は、右奥にオフィスチェアらしいものが少し見える程度で、言い過ぎ気味。",
+   "fix": "(D) の訳を「彼女は上着を着ようとしている（袖を通している最中だ）」にする。コメントを「上着はすでに着ている状態（wearing）。putting on は着る途中の動作なので不一致」にする。(A) のコメントを「奥に椅子が少し見えるが、並べる動作はしていない」にする。",
+   "explain_hash": "f65795377c60"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f65795377c60"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f65795377c60"
+  }
+ ],
+ "p1-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87f04d2e274a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87f04d2e274a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87f04d2e274a"
+  }
+ ],
+ "p1-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "TOEIC のポイント「人のいない写真で being＋過去分詞（進行中の動作）は誤答」は言い過ぎ。is being displayed（陳列されている）のように、人がいなくても being＋過去分詞が正解になる例外がある。",
+   "fix": "「人のいない写真では、being＋過去分詞（進行中の動作）は原則として誤答（例外：be being displayed など、状態を表す一部の表現）」にする。",
+   "explain_hash": "c3aa1dc0ff55"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "正解の理由とTOEICのポイントにある「人のいない写真で being＋過去分詞は誤答」という断定は不正確。行為者が写っていなくても、進行中の動作が写真に示される場合はある。また、have been＋過去分詞や is / are＋過去分詞が常に状態を表すわけではない。",
+   "fix": "「being＋過去分詞は進行中の受け身の動作を表す。この写真には発表や設置作業を示す様子がないため、B・Dは合わない。Cの have been arranged は、椅子を並べる作業が完了し、その結果が現在の配置に表れていることを示す」とする。",
+   "explain_hash": "c3aa1dc0ff55"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c3aa1dc0ff55"
+  }
+ ],
+ "p1-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "95833d62bc66"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "95833d62bc66"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "95833d62bc66"
+  }
+ ],
+ "p1-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "TOEIC のポイントで stack を「重ねる」という動詞として挙げているが、この問題の (D) の a stack of plates の stack は名詞（ひと重ね）。(C) のコメント「客は座っていない」は、客自体が写っていないので不正確。",
+   "fix": "ポイントを「pour（注ぐ）・wipe（ふく）や a stack of plates（重ねた皿）など…」にする。(C) のコメントを「客は写っていない（diners＝食事をする客）」にする。",
+   "explain_hash": "5aeb01ae7ff4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5aeb01ae7ff4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5aeb01ae7ff4"
+  }
+ ],
+ "p1-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8788f14a2090"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "Aの訳「かぶろうとしている」は、これからかぶる意図や試みとも読め、putting on が表す「身につける動作の途中」という意味が不明確。着用動作と着用状態の区別を教える問題なので、訳も明確にする必要がある。",
+   "fix": "「彼らは安全帽をかぶっているところだ（かぶる動作の途中）。」とする。",
+   "explain_hash": "8788f14a2090"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "(A) の和訳「彼らは安全帽をかぶろうとしている。」は、これから着ける・試みるニュアンスになり、直後のコメント「putting on は『かぶる途中の動作』」とずれている（p1-0001 (D) の「着ているところだ」とも不統一）。",
+   "fix": "(A) の和訳を「彼らは安全帽をかぶっているところだ。」に変更する。",
+   "explain_hash": "8788f14a2090"
+  }
+ ],
+ "p1-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "309ff4acddfd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "309ff4acddfd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "TOEIC のポイントで「taking off と wearing、boarding（乗り込む）など、動作の違いを聞き分ける」としているが、wearing は「動作」ではなく「身につけている状態」を表す（p1-0006 の説明とも不整合）。",
+   "fix": "「taking off（下ろす動作）と wearing（身につけている状態）、boarding（乗り込む）など、動作や状態の違いを聞き分ける。」のように修正する。",
+   "explain_hash": "309ff4acddfd"
+  }
+ ],
+ "p1-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "TOEIC のポイント「being＋過去分詞と人の動作は誤答」は p1-0003 と同じく言い過ぎ。is being displayed などの例外に触れていない。",
+   "fix": "「being＋過去分詞は原則として誤答（例外：be being displayed など）。人の動作を描写する選択肢も誤答」にする。",
+   "explain_hash": "fb01ffe0a841"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": false,
+   "issues": "Dのコメント「人がいないので…ことはない」とTOEICのポイント「being＋過去分詞と人の動作は誤答」は、人の不在だけで進行受動態を除外する不正確な一般化。",
+   "fix": "Dは「棚はすでに組み立てられており、組み立て作業は見られない」とする。ポイントは「人の有無だけで判断せず、進行中の動作が写真に示されているか確認する。この写真の have been stacked は、箱が積まれた結果の状態を表す」とする。",
+   "explain_hash": "fb01ffe0a841"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fb01ffe0a841"
+  }
+ ],
+ "p1-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "344acc95dff7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "344acc95dff7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T20:45:54",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "344acc95dff7"
+  }
+ ]
+}
