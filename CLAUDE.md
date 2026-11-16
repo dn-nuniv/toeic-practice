@@ -52,7 +52,8 @@
 ## 音声（Google Cloud Text-to-Speech）
 - `scripts/gen_audio.py` は環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）を使う。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要（Gemini API のキーは使えない）。**キーを表示・ログ出力・ファイル保存・コミットしない**。
 - 同じ文・同じ声は作り直さない（manifest の hash で判定）。Neural2 → WaveNet → Standard の順に声を選ぶ。
-- 音声のキーは `js/audio.js` と共通の規則（`<item>:opt:<id>`, `<item>:stem`, `<set>:seg:<n>`, `<item>:q`, `label:A:female`）。変えるときは両方を直す。
+- 音声のキーは `js/audio.js` と共通の規則（`<item>:opt:<id>`, `<item>:stem`, `<set>:seg:<n>`, `<item>:q`, `label:A:female`、単語は `<単語ID>:word`・`<単語ID>:ex`）。変えるときは両方を直す。
+- 音声ファイルがないときはブラウザの読み上げで代用する。macOS のおもしろ音声・古いロボット声（Albert・Bad News・Zarvox・Fred など）は使わず、Natural・Google などの声を優先する（`js/audio.js` の `NOVELTY`・`QUALITY`）。
 - Part 3・4 の設問（`<item>:q`）はナレーターが読む（男性の声の一覧の最後。`gen_audio.py` と `js/audio.js` の `NARRATOR`）。アプリでは会話の後に1問ずつ読み、解答時間（8秒・図表12秒、再生速度で縮まない）を空ける。設定で「間を短く」「読まない」も選べる。
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。
 
@@ -67,7 +68,7 @@
 4. ~~Part 3・4 の設問の読み上げ~~ → 済み（`<item>:q`。解答時間つき）
 5. 段階2：JLPT アプリの構成に合わせて Supabase へ移行（`supabase/schema.sql`）。
 8. 厚い解説（`option_notes_ja`・`point_ja`）：既存の184問すべてに追加済み。解説の確認のしくみ（`--explain`）も済み。次は実際に184問の解説を確認してもらう（Part 1・2／3・4／5・6／7 くらいに分けて）。※問題を作ったときの生成スクリプトを流し直すと解説が消えるので、今後の修正は `data/src` の JSON を直接直す。
-6. 単語の音声（`<単語ID>:word`・`<単語ID>:ex`）：レビューを通った語から `gen_audio.py` に足す。今はブラウザの読み上げで代用。
+6. ~~単語の音声~~ → `gen_audio.py` が `data/vocab.json` の単語と例文も作る（`<単語ID>:word`・`<単語ID>:ex`）。
 7. ~~Part 1〜7 の学習のさせ方~~ → 「今日の学習」（1日1 Part、5→2→6→3→7→4→5→1 の順で読解とリスニングを交互、約10問、今日の単語→問題）。記録は Store の daily。
 
 ## 確認のしかた

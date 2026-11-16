@@ -14,6 +14,7 @@ Cloud Text-to-Speech 用のキー（AIza で始まる）が必要。Gemini API �
 音声のキーは js/audio.js と同じ規則:
   Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / Part 3・4 の設問 <item>:q / 記号 label:A:female
 Part 3・4 の設問はナレーター（男性の声のうち、会話で使わない最後の声）が読む。
+単語 <単語ID>:word と例文 <単語ID>:ex（data/vocab.json）も作る。
 """
 import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error, urllib.parse
 
@@ -107,6 +108,13 @@ def main():
     text = (ROOT / "data/bank.js").read_text(encoding="utf-8")
     bank = json.loads(text[text.index("=") + 1:].rstrip().rstrip(";"))
     us = utterances(bank)
+    # 単語と例文（js/vocab.js の発音ボタン）。キーは <単語ID>:word と <単語ID>:ex
+    vpath = ROOT / "data/vocab.json"
+    if vpath.exists():
+        for w in json.loads(vpath.read_text(encoding="utf-8")):
+            if w.get("status") == "retired": continue
+            us.append((f"{w['id']}:word", w["word"], "female", 0))
+            us.append((f"{w['id']}:ex", w["example"], "female", 0))
     mpath = ROOT / "audio/manifest.json"
     manifest = json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {}
     regions = [r.strip() for r in a.regions.split(",") if r.strip()]
