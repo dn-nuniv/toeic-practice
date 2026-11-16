@@ -61,13 +61,13 @@
      "options": [
       "To explain why the tour is shorter",
       "To recommend a new exhibit",
-      "To indicate that photography is not allowed",
+      "To suggest that photos may be restricted there",
       "To announce a change in ticket prices"
      ],
      "answer": "c",
-     "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
+     "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館の中では撮影が制限されそうだと遠回しに伝えている。",
      "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
-     "translation_options_ja": ["ツアーが短くなった理由を説明するため", "新しい展示を勧めるため", "写真撮影が許されていないことを伝えるため", "入場料の変更を知らせるため"]
+     "translation_options_ja": ["ツアーが短くなった理由を説明するため", "新しい展示を勧めるため", "そこでは撮影が制限されそうだと伝えるため", "入場料の変更を知らせるため"]
     }
    ]
   },

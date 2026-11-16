@@ -7185,7 +7185,11 @@
    "ambiguous": false,
    "confidence": 0.93,
    "issues": "左端の自転車1台はラックの外にスタンドで立っているが、主語が Some bicycles なので正解は変わらない",
-   "content_hash": "8231338c13cf"
+   "content_hash": "8231338c13cf",
+   "resolved": {
+    "at": "2026-11-16T10:26:44",
+    "note": "左端の1台はラックの外だが、Some bicycles have been parked in a rack は成り立つ（ラックに止めてある自転車が複数ある）。Claude のコメントも正解は変わらないという確認"
+   }
   },
   {
    "reviewer": "gpt",

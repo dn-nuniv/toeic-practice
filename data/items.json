@@ -651,7 +651,7 @@
    "男性が自転車に鍵をかけている。"
   ],
   "level": "A2",
-  "status": "flagged",
+  "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
   "review": [
    {
@@ -663,7 +663,11 @@
     "ambiguous": false,
     "confidence": 0.93,
     "issues": "左端の自転車1台はラックの外にスタンドで立っているが、主語が Some bicycles なので正解は変わらない",
-    "content_hash": "8231338c13cf"
+    "content_hash": "8231338c13cf",
+    "resolved": {
+     "at": "2026-11-16T10:26:44",
+     "note": "左端の1台はラックの外だが、Some bicycles have been parked in a rack は成り立つ（ラックに止めてある自転車が複数ある）。Claude のコメントも正解は変わらないという確認"
+    }
    },
    {
     "reviewer": "gpt",
@@ -5779,7 +5783,7 @@
    },
    {
     "id": "c",
-    "text": "To indicate that photography is not allowed"
+    "text": "To suggest that photos may be restricted there"
    },
    {
     "id": "d",
@@ -5788,16 +5792,16 @@
   ],
   "answer": "c",
   "shuffle": true,
-  "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館では撮れないことを遠回しに伝えている。",
+  "explanation_ja": "博物館の中で写真を撮れるかという質問に「規則が変わって職員が厳しい」と答え、すぐ後に But you're welcome to take ... pictures at the lighthouse（でも灯台では撮れる）と続く。博物館の中では撮影が制限されそうだと遠回しに伝えている。",
   "translation_ja": "話し手はなぜ「博物館は先月規則を変えた」と言っているのか。",
   "translation_options_ja": [
    "ツアーが短くなった理由を説明するため",
    "新しい展示を勧めるため",
-   "写真撮影が許されていないことを伝えるため",
+   "そこでは撮影が制限されそうだと伝えるため",
    "入場料の変更を知らせるため"
   ],
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part4 batch a",
   "review": [
    {
