@@ -73,6 +73,7 @@
     const reviewed = BANK.items.filter(it => it.status === 'reviewed').length;
     main.innerHTML = `
     ${dailyCard()}
+    ${partCard()}
     <section class="card">
       <h2>練習のしかた</h2>
       <div class="modes">
@@ -99,6 +100,7 @@
     $('#qread').onchange = e => Store.setSetting('qread', e.target.value);
     main.querySelectorAll('.mode[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
     $('#daily').onclick = () => start('daily');
+    main.querySelectorAll('.pmode').forEach(b => b.onclick = () => start('practice', +b.dataset.part));
     if (window.Vocab) Vocab.bindHome(home);
   }
 
@@ -120,7 +122,18 @@
       <p class="meta">1日1 Part、読解とリスニングを交互に進めます（これまでに ${log.length}回）。</p></section>`;
   }
 
-  function start(mode) {
+  // Part を1つ選んで解くカード（設定の Part のチェックは変えない）
+  function partCard() {
+    const btn = p => {
+      const all = BANK.items.filter(i => i.part === p), seen = all.filter(i => Store.getProgress(i.id)).length;
+      return all.length ? `<button class="mode pmode" data-part="${p}"><b>Part ${p}</b><span>${PART_NAME[p].replace('問題', '')}<br>${seen} / ${all.length}問</span></button>` : '';
+    };
+    return `<section class="card"><h2>Part を選んで練習</h2>
+      <div class="modes parts7">${[1, 2, 3, 4, 5, 6, 7].map(btn).join('')}</div>
+      <p class="meta">まだ解いていない問題から順に出します（問題数は下の設定）。数字は解いた問題 / 全体。</p></section>`;
+  }
+
+  function start(mode, onlyPart) {
     if (mode === 'daily') {
       const p = nextDailyPart(), s = buildSession('daily', [p], DAILY_COUNT);
       if (!s.units.length) { alertBox('出題できる問題がありません。'); return; }
@@ -129,7 +142,7 @@
       if (window.Vocab) Vocab.warmup(s.units.flatMap(u => u.items.map(it => it.id)), go); else go();
       return;
     }
-    const parts = Store.getSetting('parts', [1, 2, 3, 4, 5, 6, 7]);
+    const parts = onlyPart ? [onlyPart] : Store.getSetting('parts', [1, 2, 3, 4, 5, 6, 7]);
     if (!parts.length) { alertBox('Partを1つ以上選んでください。'); return; }
     const s = buildSession(mode, parts, mode === 'mock' ? 0 : Store.getSetting('count', 10));
     if (!s.units.length) { alertBox('出題できる問題がありません。'); return; }

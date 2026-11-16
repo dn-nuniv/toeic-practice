@@ -86,3 +86,4 @@ details{margin:10px 0;border:1px solid var(--line);border-radius:10px;padding:8p
 .tro li.ans b{color:var(--ok)}.tro .note{display:block;color:var(--ink);font-size:14px;margin:1px 0 4px 1.9em}
 .point{background:var(--hl);border-radius:8px;padding:8px 12px;margin-top:10px;font-size:14.5px}.point b{display:block;font-size:13px;color:var(--muted)}
 .qscript{font-size:17px;margin:-2px 0 10px;padding:8px 12px;background:var(--pale);border-radius:8px}.qscript b{font-size:13px;color:var(--muted);margin-right:8px}
+.parts7{grid-template-columns:repeat(auto-fill,minmax(118px,1fr))}.pmode span{font-size:12.5px;line-height:1.5}
