@@ -5538,6 +5538,39 @@
    "confidence": 0.98,
    "issues": "",
    "content_hash": "c352adc9da57"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "32fe5ffd7306"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "32fe5ffd7306"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "32fe5ffd7306"
   }
  ],
  "p3-0010": [
@@ -8171,6 +8204,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "449d5e607b41"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "6301bf80dcb0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6301bf80dcb0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6301bf80dcb0"
   }
  ],
  "v-0027": [
@@ -9194,6 +9260,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "064bae104d7f"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "1dc6c893ccc1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "英文穴埋めでは原形 register ではなく過去分詞 registered（10字）が必要。字数は合っているが、活用形で答える旨を明記するとよい。",
+   "content_hash": "1dc6c893ccc1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1dc6c893ccc1"
   }
  ],
  "v-0056": [
@@ -9486,6 +9585,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "2636e5999789"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "ae52d6248891"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ae52d6248891"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ae52d6248891"
   }
  ],
  "v-0064": [
@@ -9630,6 +9762,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "23223de11f85"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "0322e8f629fd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0322e8f629fd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0322e8f629fd"
   }
  ],
  "v-0068": [
@@ -9984,6 +10149,39 @@
    "confidence": 1.0,
    "issues": "",
    "content_hash": "5403bd022e36"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "0b4972c3afaa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.98,
+   "issues": "英→日の正解はCで一意。日→英では eligible と entitled が意味・頭文字・8字の条件を満たす。entitled は別解として許容されているが、英文穴埋めには適用できない。are entitled to the bonus とする必要があるため、穴埋めで entitled を正解扱いしないよう形式別に採点を分ける必要がある。",
+   "content_hash": "0b4972c3afaa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:21:29",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "別解の entitled は日→英（資格がある → e _ _ _ _ _ _ _）では成立しうるが、例文穴埋めでは直後が for the bonus となっているため、entitled for は語法上不自然（通常は entitled to）。例文穴埋めでも別解として正解にするのであれば不適切なため、日→英のみの別解とするか削除を検討すべき。",
+   "content_hash": "0b4972c3afaa"
   }
  ],
  "v-0078": [

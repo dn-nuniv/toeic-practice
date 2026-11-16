@@ -4201,7 +4201,7 @@
   ],
   "point_ja": "won't be charged（請求されない）＝ not have to pay（払わなくてよい）。否定の言い換えに注意。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part3 batch a",
   "review": [
    {
@@ -4269,6 +4269,39 @@
     "confidence": 0.98,
     "issues": "",
     "content_hash": "c352adc9da57"
+   },
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:21:29",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "32fe5ffd7306"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:21:29",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "32fe5ffd7306"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:21:29",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "32fe5ffd7306"
    }
   ],
   "explain_status": "checked"
