@@ -39,7 +39,7 @@
 - `status` は draft → reviewed / flagged（import_review が自動で設定）。
 
 ## 音声（Google Cloud Text-to-Speech）
-- `scripts/gen_audio.py` は環境変数 `GOOGLE_API_KEY` を使う。**キーを表示・ログ出力・ファイル保存・コミットしない**。
+- `scripts/gen_audio.py` は環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）を使う。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要（Gemini API のキーは使えない）。**キーを表示・ログ出力・ファイル保存・コミットしない**。
 - 同じ文・同じ声は作り直さない（manifest の hash で判定）。Neural2 → WaveNet → Standard の順に声を選ぶ。
 - 音声のキーは `js/audio.js` と共通の規則（`<item>:opt:<id>`, `<item>:stem`, `<set>:seg:<n>`, `label:A:female`）。変えるときは両方を直す。
 - Part 1・2 の話者の性別は `build_data.py` が `voices` に設定する。

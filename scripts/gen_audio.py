@@ -8,7 +8,8 @@
   python3 scripts/gen_audio.py                  # 米国・英国・オーストラリアの音声を作る
   python3 scripts/gen_audio.py --regions us     # 米国だけ
 
-API キーは環境変数 GOOGLE_API_KEY から読む（画面やファイルには書き出さない）。
+API キーは環境変数 GOOGLE_TTS_API_KEY（なければ GOOGLE_API_KEY）から読む（画面やファイルには書き出さない）。
+Cloud Text-to-Speech 用のキー（AIza で始まる）が必要。Gemini API のキーでは 401 になる。
 同じ文・同じ声の音声はすでにあれば作り直さないので、問題を追加したら同じコマンドを実行するだけでよい。
 音声のキーは js/audio.js と同じ規則:
   Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / 記号 label:A:female
@@ -105,9 +106,9 @@ def main():
     manifest = json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {}
     regions = [r.strip() for r in a.regions.split(",") if r.strip()]
 
-    key = os.environ.get("GOOGLE_API_KEY", "")
+    key = os.environ.get("GOOGLE_TTS_API_KEY") or os.environ.get("GOOGLE_API_KEY", "")
     if not a.dry_run and not key:
-        sys.exit("環境変数 GOOGLE_API_KEY が設定されていません。")
+        sys.exit("環境変数 GOOGLE_TTS_API_KEY が設定されていません。")
 
     total_chars = total_new = 0
     for region in regions:

@@ -45,7 +45,7 @@ supabase/schema.sql            段階2のテーブル案（行単位のアクセ
 
 ## 音声の作り方（Google Cloud Text-to-Speech）
 
-Mac のターミナルで、このフォルダに移動してから実行します。API キーは環境変数 `GOOGLE_API_KEY` から読みます（どこにも書き出しません）。追加のライブラリは不要です。
+Mac のターミナルで、このフォルダに移動してから実行します。API キーは環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）から読みます（どこにも書き出しません）。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要で、Gemini API のキーでは動きません。追加のライブラリは不要です。
 
 ```sh
 python3 scripts/gen_audio.py --dry-run     # 作る件数と文字数の確認だけ（APIは呼ばない）
