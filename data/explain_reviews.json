@@ -8149,6 +8149,30 @@
    "issues": "選択肢(B)のコメントに「受動態の後に名詞を置くと文が成り立たない」とあるが、第4文型・第5文型の受動態（be given a prize、be named manager など）では受動態の直後に名詞が置かれるため、一般論として言い過ぎになっている。",
    "fix": "「名詞『正確さ』。ここでは目的語を取る受動態ではないため、will be reproduced の後に名詞を置くと文が成り立たない」とする。",
    "explain_hash": "5aa916b2bd15"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4c9b05a89db5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4c9b05a89db5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4c9b05a89db5"
   }
  ],
  "p5-0047": [
@@ -8253,6 +8277,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "d79fff9707bd"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c215b8410485"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c215b8410485"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c215b8410485"
   }
  ],
  "p5-0051": [
@@ -8357,6 +8405,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "91eafbd7e19f"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "85b75a6d9244"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "85b75a6d9244"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "85b75a6d9244"
   }
  ],
  "p5-0055": [
@@ -8383,6 +8455,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "5f5b28a93a0a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f30ed281d638"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f30ed281d638"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f30ed281d638"
   }
  ],
  "p5-0056": [
@@ -8409,6 +8505,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "d772f6c95829"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b9ac2b835370"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b9ac2b835370"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b9ac2b835370"
   }
  ],
  "p5-0057": [
@@ -8487,6 +8607,30 @@
    "issues": "TOEIC のポイントに「関係代名詞の後は主語か目的語が欠けた文」とあるが、所有格の関係代名詞 whose や「前置詞＋関係代名詞」（選択肢(A)のコメントでも挙げている in which など）の後ろには主語・目的語の欠けがない文が続くため、例外を無視した説明になっている。",
    "fix": "「主格・目的格の関係代名詞（who・which・that など）の後は主語か目的語が欠けた文、関係副詞 where（や in which など）の後は欠けのない文。場所の先行詞でも、後ろの文に欠けがあれば which。」とする。",
    "explain_hash": "402872e37c6e"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87676cd6ede1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87676cd6ede1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "87676cd6ede1"
   }
  ],
  "p5-0060": [
@@ -8513,6 +8657,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "7f4bcfb413fc"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7ceb5a238cee"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7ceb5a238cee"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7ceb5a238cee"
   }
  ],
  "p5-0061": [
@@ -8643,6 +8811,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "66787d0a631a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "494f450d0829"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "494f450d0829"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "494f450d0829"
   }
  ],
  "p5-0066": [
@@ -8747,6 +8939,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "3b649d447409"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ae239f3232bd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ae239f3232bd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:57:58",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ae239f3232bd"
   }
  ],
  "p5-0070": [
