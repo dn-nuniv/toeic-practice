@@ -15,7 +15,7 @@ FILE_KEYS = {"batch", "source", "note", "sets", "items"}
 SET_REQ = {"id", "kind", "scene", "translation_ja", "questions"}
 SET_OPT = {"part", "speakers", "segments", "passages", "graphic", "image", "status", "source"}
 ITEM_REQ = {"id", "type", "scene", "level", "prompt", "options", "answer", "explanation_ja", "translation_ja"}
-ITEM_OPT = {"part", "shuffle", "translation_options_ja", "status", "source", "voices"}
+ITEM_OPT = {"part", "shuffle", "translation_options_ja", "option_notes_ja", "point_ja", "status", "source", "voices"}
 STATUS_IN_SRC = {"draft", "retired"}  # reviewed / flagged はレビュー結果から自動で決まる
 
 errors, items, sets, batches = [], [], [], []
@@ -55,7 +55,8 @@ def make_item(where, d, part, source, set_id):
     row = dict(id=iid, part=part, set_id=set_id, type=d["type"], scene=d["scene"], prompt=d["prompt"],
                options=opts, answer=d["answer"], shuffle=d.get("shuffle", True),
                explanation_ja=d["explanation_ja"], translation_ja=d["translation_ja"],
-               translation_options_ja=d.get("translation_options_ja"), level=d["level"],
+               translation_options_ja=d.get("translation_options_ja"), option_notes_ja=d.get("option_notes_ja"),
+               point_ja=d.get("point_ja"), level=d["level"],
                status=status, source=d.get("source", source), review=[])
     if part in (1, 2): row["voices"] = d.get("voices") or default_voices(iid, part)
     items.append(row)
@@ -150,8 +151,7 @@ vstale = []
 for w in words:
     w["distractors"] = V.pick_distractors(w, words)
     w["choices"] = V.choices(w)
-    fs = V.forms(w["word"])
-    w["related_items"] = sorted(i for i, t in toks.items() if fs & t)  # この語が出てくる問題（今日の単語に使う）
+    w["related_items"] = sorted(i for i, t in toks.items() if V.appears(w, t))  # この語が出てくる問題（今日の単語に使う）
     w.pop("fixed_distractors")
     rs = reviews_all.get(w["id"], [])
     w["review"] = rs

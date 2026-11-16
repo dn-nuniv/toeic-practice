@@ -9,6 +9,8 @@
   const PART_NAME = { 1: '写真描写問題', 2: '応答問題', 3: '会話問題', 4: '説明文問題', 5: '短文穴埋め問題', 6: '長文穴埋め問題', 7: '読解問題' };
   const LISTENING = new Set([1, 2, 3, 4]);
   const L = 'ABCD';
+  // 今日の学習：1日1 Part、読解とリスニングを交互に回す（Part 5 は問題が多いので1周に2回）。1日の目安は約10問
+  const DAILY_ROTATION = [5, 2, 6, 3, 7, 4, 5, 1], DAILY_COUNT = 10;
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -37,6 +39,14 @@
       const plan = { 1: 1, 2: 3, 3: 1, 4: 1, 5: 4, 6: 1, 7: 2 };
       units = [];
       for (const p of [1, 2, 3, 4, 5, 6, 7]) if (parts.includes(p)) units.push(...shuffle(pool.filter(u => u.part === p)).slice(0, plan[p]));
+    } else if (mode === 'daily') {
+      // 今日の学習：復習の期日が来た問題 → まだ解いていない問題 → 解いたことのある問題 の順
+      const now = Date.now();
+      const isDue = u => u.items.some(it => SRS.isDue(Store.getProgress(it.id), now));
+      const dueU = pool.filter(isDue).sort((a, b) => due(a) - due(b));
+      const fresh = shuffle(pool.filter(u => !isDue(u) && u.items.some(it => !Store.getProgress(it.id))));
+      const seen = shuffle(pool.filter(u => !dueU.includes(u) && !fresh.includes(u)));
+      units = takeUntil(dueU.concat(fresh, seen), count);
     } else if (mode === 'retry') {
       const wrong = new Set(session.results.filter(r => !r.correct).map(r => r.item_id));
       units = session.units.filter(u => u.items.some(it => wrong.has(it.id))).map(u => ({ part: u.part, set: u.set, items: u.items }));
@@ -62,6 +72,7 @@
     const n = BANK.items.length, seen = BANK.items.filter(it => Store.getProgress(it.id)).length, d = dueCount();
     const reviewed = BANK.items.filter(it => it.status === 'reviewed').length;
     main.innerHTML = `
+    ${dailyCard()}
     <section class="card">
       <h2>練習のしかた</h2>
       <div class="modes">
@@ -87,10 +98,37 @@
     $('#rate').onchange = e => Store.setSetting('rate', +e.target.value);
     $('#qread').onchange = e => Store.setSetting('qread', e.target.value);
     main.querySelectorAll('.mode[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
+    $('#daily').onclick = () => start('daily');
     if (window.Vocab) Vocab.bindHome(home);
   }
 
+  // ------------------------------------------------------------ 今日の学習
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+  function nextDailyPart() {
+    const has = p => BANK.items.some(i => i.part === p);
+    const n = Store.dailyLog().length;
+    for (let k = 0; k < DAILY_ROTATION.length; k++) { const p = DAILY_ROTATION[(n + k) % DAILY_ROTATION.length]; if (has(p)) return p; }
+    return 5;
+  }
+  function dailyCard() {
+    const log = Store.dailyLog(), t = today(), done = log.filter(r => r.date === t), p = nextDailyPart();
+    const head = done.length
+      ? `<p class="done">✓ 今日の学習は終わりました（${done.map(r => `Part ${r.part}：${r.correct} / ${r.total}問正解`).join('、')}）</p>`
+      : `<p>今日は <b>Part ${p}｜${PART_NAME[p]}</b> を約${DAILY_COUNT}問。${window.Vocab && Store.getSetting('warmup', true) ? '先に関係する単語を確認します。' : ''}</p>`;
+    return `<section class="card daily"><h2>今日の学習</h2>${head}
+      <div class="actions"><button id="daily" class="${done.length ? 'ghost' : 'primary'}">${done.length ? `次の Part も解く（Part ${p}）` : '今日の学習を始める'}</button></div>
+      <p class="meta">1日1 Part、読解とリスニングを交互に進めます（これまでに ${log.length}回）。</p></section>`;
+  }
+
   function start(mode) {
+    if (mode === 'daily') {
+      const p = nextDailyPart(), s = buildSession('daily', [p], DAILY_COUNT);
+      if (!s.units.length) { alertBox('出題できる問題がありません。'); return; }
+      s.dailyPart = p;
+      const go = () => { session = s; renderUnit(); };
+      if (window.Vocab) Vocab.warmup(s.units.flatMap(u => u.items.map(it => it.id)), go); else go();
+      return;
+    }
     const parts = Store.getSetting('parts', [1, 2, 3, 4, 5, 6, 7]);
     if (!parts.length) { alertBox('Partを1つ以上選んでください。'); return; }
     const s = buildSession(mode, parts, mode === 'mock' ? 0 : Store.getSetting('count', 10));
@@ -214,9 +252,13 @@
       box.querySelectorAll('.opt').forEach(l => { if (l.dataset.oid === it.answer) l.classList.add('right'); else if (l.dataset.oid === chosen) l.classList.add('wrong'); });
       box.classList.add(ok ? 'ok' : 'ng');
       const ord = u.order[it.id], letter = L[ord.indexOf(it.answer)];
-      const tro = it.translation_options_ja ? `<ul class="tro">${ord.map((oid, i) => `<li>(${L[i]}) ${esc(it.translation_options_ja[it.options.findIndex(o => o.id === oid)])}</li>`).join('')}</ul>` : '';
+      // 選択肢ごとの和訳とコメント（表示した並び順で）、TOEIC のポイント
+      const tr = it.translation_options_ja, on = it.option_notes_ja;
+      const tro = tr || on ? `<ul class="tro">${ord.map((oid, i) => { const k = it.options.findIndex(o => o.id === oid);
+          return `<li class="${oid === it.answer ? 'ans' : ''}"><b>(${L[i]})</b> ${tr ? esc(tr[k]) : ''}${on ? `<span class="note">${esc(on[k])}</span>` : ''}</li>`; }).join('')}</ul>` : '';
+      const pt = it.point_ja ? `<p class="point"><b>TOEIC のポイント</b>${esc(it.point_ja)}</p>` : '';
       const e = box.querySelector('.exp'); e.hidden = false;
-      e.innerHTML = `<div class="verdict">${ok ? '◯ 正解' : chosen ? '✕ 不正解' : '― 未解答'}　正解は (${letter})</div><p>${esc(relabel(it.explanation_ja, it, ord))}</p>${it.translation_ja && it.part !== 6 ? `<p class="tr">訳：${esc(it.translation_ja)}</p>` : ''}${tro}`;
+      e.innerHTML = `<div class="verdict">${ok ? '◯ 正解' : chosen ? '✕ 不正解' : '― 未解答'}　正解は (${letter})</div><p>${esc(relabel(it.explanation_ja, it, ord))}</p>${it.translation_ja && it.part !== 6 ? `<p class="tr">訳：${esc(it.translation_ja)}</p>` : ''}${tro}${pt}`;
       const prev = Store.getProgress(it.id);
       Store.putProgress(SRS.update(prev, it.id, ok, now));
       Store.addAttempt({ item_id: it.id, part: it.part, correct: ok, chosen, first_try: !prev, mode: session.mode, at: new Date(now).toISOString() });
@@ -230,8 +272,15 @@
   function finish() {
     Player.stop();
     const r = session.results, ok = r.filter(x => x.correct).length;
+    // 今日の学習は、最後まで解いたときだけ記録する
+    const nQ = session.units.reduce((a, x) => a + x.items.length, 0);
+    let dailyMsg = '';
+    if (session.mode === 'daily' && !session.recorded) {
+      if (r.length === nQ) { Store.addDaily({ date: today(), part: session.dailyPart, correct: ok, total: r.length, at: new Date().toISOString() }); session.recorded = true; dailyMsg = '<p class="done">✓ 今日の学習を記録しました。</p>'; }
+      else dailyMsg = '<p class="meta">途中でやめたので、今日の学習には記録していません。</p>';
+    }
     const byPart = {}; r.forEach(x => { (byPart[x.part] = byPart[x.part] || [0, 0])[1]++; if (x.correct) byPart[x.part][0]++; });
-    main.innerHTML = `<section class="card"><h2>結果</h2><p class="big">${ok} / ${r.length} 問正解</p>
+    main.innerHTML = `<section class="card"><h2>${session.mode === 'daily' ? '今日の学習の結果' : '結果'}</h2>${dailyMsg}<p class="big">${ok} / ${r.length} 問正解</p>
       <table class="tbl"><thead><tr><th>Part</th><th>正解</th><th>正答率</th></tr></thead><tbody>${Object.entries(byPart).map(([p, [a, b]]) => `<tr><td>Part ${p}</td><td>${a} / ${b}</td><td>${Math.round(a / b * 100)}%</td></tr>`).join('')}</tbody></table>
       <p class="meta">間違えた問題は10分後から「復習」に出ます。正解した問題も、1日後・3日後…と間隔を空けて出し直します。</p>
       <div class="actions">${ok < r.length ? '<button id="retry" class="primary">間違えた問題をもう一度</button>' : ''}<button id="home" class="ghost">ホームへ</button></div></section>`;

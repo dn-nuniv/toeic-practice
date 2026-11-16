@@ -29,6 +29,11 @@ for it in items:
     if len({o['text'].strip().lower() for o in it['options']}) != len(oids): E.append(f"{t}: 同じ文の選択肢がある")
     tro = it.get("translation_options_ja")
     if tro and len(tro) != len(oids): E.append(f"{t}: 選択肢の和訳の数が合わない")
+    on = it.get("option_notes_ja")
+    if on is not None:
+        if len(on) != len(oids): E.append(f"{t}: 選択肢ごとのコメントの数が合わない")
+        elif any(re.search(r"\([A-D]\)", x or "") for x in on): E.append(f"{t}: 選択肢ごとのコメントに (A)〜(D) の記号がある（表示順が変わるので中身で書く）")
+        elif not all((x or "").strip() for x in on): E.append(f"{t}: 空の選択肢コメントがある")
     if it.get("set_id"):
         s = sid.get(it["set_id"])
         if not s: E.append(f"{t}: set_id {it['set_id']} がない")
@@ -98,6 +103,10 @@ for k, n in Counter(w["word"].lower() for w in vocab).items():
     if n > 1: W.append(f"同じ見出し語が {n} 回: {k}")
 for k, n in Counter((w["pos"], w["meaning_ja"]) for w in vocab).items():
     if n > 1: W.append(f"同じ品詞・同じ意味の単語が {n} 語: {k[1]}（4択で両方が正解に見える）")
+
+# 厚い解説（選択肢ごとのコメント・TOEIC のポイント）がまだの問題
+thin = [it["id"] for it in items if it["status"] != "retired" and not (it.get("option_notes_ja") and it.get("point_ja"))]
+if thin: W.append(f"解説がまだ厚くなっていない問題 {len(thin)}問（選択肢ごとのコメント・TOEIC のポイント）: Part別 {dict(sorted(Counter(i.split('-')[0] for i in thin).items()))}")
 
 # 位置固定の問題で正解の位置が偏っていないか
 fixed = [it for it in items if not it.get("shuffle", True)]

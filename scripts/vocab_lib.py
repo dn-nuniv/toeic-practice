@@ -63,8 +63,18 @@ def item_tokens(items, sets):
         if s:
             t += [g["text"] for g in s["segments"]] + [p.get("text", "") for p in s["passages"]]
             t += [" ".join(" ".join(r) for r in (p.get("table") or {}).get("rows", [])) for p in s["passages"]]
-        out[it["id"]] = set(re.findall(r"[a-z][a-z\-]*", " ".join(t).lower()))
+        text = " ".join(t).lower()
+        out[it["id"]] = (set(re.findall(r"[a-z][a-z\-]*", text)), " " + " ".join(re.findall(r"[a-z][a-z\-']*", text)) + " ")
     return out
+
+
+def appears(w, tok):
+    """この語（熟語はひと続きの形）が問題に出てくるか。tok は item_tokens の値"""
+    words, text = tok
+    parts = w["word"].lower().split()
+    if len(parts) == 1: return bool(forms(parts[0]) & words)
+    head = "|".join(re.escape(f) for f in forms(parts[0]))  # 熟語は先頭の語だけ語形変化を見る（look → looking forward to）
+    return re.search(rf" (?:{head}) {re.escape(' '.join(parts[1:]))} ", text) is not None
 
 
 def pick_distractors(w, pool):
@@ -90,5 +100,5 @@ def content_hash(w, meaning):
 
 
 def hint(s):
-    """記述問題のヒント：最初の文字＋残りの字数分の下線（スペース・ハイフンはそのまま）"""
-    return s[0] + "".join(c if c in " -'" else "_" for c in s[1:])
+    """記述問題のヒント：各語の最初の文字＋残りの字数分の下線（熟語は look forward to → l___ f______ t_）"""
+    return " ".join(t[0] + "".join(c if c in "-'" else "_" for c in t[1:]) for t in s.split(" "))

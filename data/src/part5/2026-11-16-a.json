@@ -13,7 +13,14 @@
    "answer": "a",
    "explanation_ja": "冠詞 a の後で、made の目的語になる名詞が入る。made a decision（決定を下す）。decisive は形容詞なので後ろに名詞が必要。",
    "translation_ja": "店長は、年末年始の期間に営業時間を延長することを決めた。",
-   "translation_options_ja": ["決定（名詞）", "決める（動詞）", "決定的な（形容詞）", "きっぱりと（副詞）"]
+   "translation_options_ja": ["決定（名詞）", "決める（動詞）", "決定的な（形容詞）", "きっぱりと（副詞）"],
+   "option_notes_ja": [
+    "名詞。冠詞 a の後で made の目的語になる。make a decision",
+    "動詞。冠詞の後には置けない",
+    "形容詞。a decisive の後に名詞が必要",
+    "副詞。冠詞の後には置けない"
+   ],
+   "point_ja": "a / an / the の後で、すぐ後ろに名詞がなければ空欄は名詞。make a decision は決まった言い方。"
   },
   {
    "id": "p5-0014",
@@ -25,7 +32,14 @@
    "answer": "b",
    "explanation_ja": "become（～になる）の後には補語の形容詞が来る。more productive で「より生産的に」。副詞 productively は補語になれない。",
    "translation_ja": "新しい設備が導入されてから、その工場は大幅に生産性が上がった。",
-   "translation_options_ja": ["生産する（動詞）", "生産的な（形容詞）", "生産的に（副詞）", "生産（名詞）"]
+   "translation_options_ja": ["生産する（動詞）", "生産的な（形容詞）", "生産的に（副詞）", "生産（名詞）"],
+   "option_notes_ja": [
+    "動詞「生産する」。become の補語にならない",
+    "形容詞。become の補語で「生産的になった」",
+    "副詞。補語にはなれない",
+    "名詞。become more production では意味が通らない"
+   ],
+   "point_ja": "become・remain・seem などの後の補語は形容詞。副詞は補語にならない。"
   },
   {
    "id": "p5-0015",
@@ -37,7 +51,14 @@
    "answer": "c",
    "explanation_ja": "is located（位置している）という受け身の動詞を修飾するので副詞。conveniently located は「便利な場所にある」という決まった言い方。",
    "translation_ja": "その集合住宅は、地下鉄の駅と大型ショッピングセンターの両方に近い便利な場所にある。",
-   "translation_options_ja": ["便利な（形容詞）", "便利さ（名詞）", "便利に（副詞）", "より便利な（比較級）"]
+   "translation_options_ja": ["便利な（形容詞）", "便利さ（名詞）", "便利に（副詞）", "より便利な（比較級）"],
+   "option_notes_ja": [
+    "形容詞。受け身の動詞 is located を修飾できない",
+    "名詞。is convenience located では文にならない",
+    "副詞。conveniently located で「便利な場所にある」",
+    "形容詞の比較級。動詞を修飾できず、比べる相手もない"
+   ],
+   "point_ja": "be 動詞と過去分詞の間は副詞の位置（is conveniently located、was carefully reviewed）。"
   },
   {
    "id": "p5-0016",
@@ -49,7 +70,14 @@
    "answer": "d",
    "explanation_ja": "the と of にはさまれた位置なので名詞。the friendliness of the staff（スタッフの感じのよさ）。friendly は -ly で終わるが形容詞。",
    "translation_ja": "ベルモント・ビストロの客は、よくスタッフの感じのよさについて口にする。",
-   "translation_options_ja": ["親しみやすい（形容詞）", "より親しみやすい（比較級）", "友達になる（動詞）", "親しみやすさ（名詞）"]
+   "translation_options_ja": ["親しみやすい（形容詞）", "より親しみやすい（比較級）", "友達になる（動詞）", "親しみやすさ（名詞）"],
+   "option_notes_ja": [
+    "-ly で終わるが形容詞。the と of の間には名詞が必要",
+    "形容詞の比較級。名詞の位置には入らない",
+    "動詞「友達になる」。名詞の位置には入らない",
+    "名詞「親しみやすさ」。the ～ of the staff の形になる"
+   ],
+   "point_ja": "the ＿ of ～ の空欄は名詞。friendly・costly・timely のように -ly で終わる形容詞に注意。"
   },
   {
    "id": "p5-0017",
@@ -61,7 +89,14 @@
    "answer": "a",
    "explanation_ja": "所有格 Ms. Okafor's と名詞 analysis の間なので、名詞を修飾する形容詞 thorough。副詞は名詞を修飾できない。",
    "translation_ja": "オカフォーさんが予算を徹底的に分析したおかげで、チームはいくつかの不要な経費を見つけることができた。",
-   "translation_options_ja": ["徹底的な（形容詞）", "徹底的に（副詞）", "徹底ぶり（名詞）", "より徹底的に（比較級）"]
+   "translation_options_ja": ["徹底的な（形容詞）", "徹底的に（副詞）", "徹底ぶり（名詞）", "より徹底的に（比較級）"],
+   "option_notes_ja": [
+    "形容詞。所有格と名詞 analysis の間で名詞を修飾する",
+    "副詞。名詞は修飾できない",
+    "名詞。analysis の前に名詞を置くと意味が通らない",
+    "副詞の比較級。名詞は修飾できない"
+   ],
+   "point_ja": "所有格（Ms. Okafor's、our など）と名詞の間は形容詞の位置。"
   },
   {
    "id": "p5-0018",
@@ -73,7 +108,14 @@
    "answer": "b",
    "explanation_ja": "自動詞 responded（対応した）を修飾するので副詞 quickly。quick は形容詞、quickness は名詞、quicken は「速める」という動詞。",
    "translation_ja": "技術サポートチームは、今朝報告されたネットワーク障害にすばやく対応した。",
-   "translation_options_ja": ["すばやい（形容詞）", "すばやく（副詞）", "すばやさ（名詞）", "速める（動詞）"]
+   "translation_options_ja": ["すばやい（形容詞）", "すばやく（副詞）", "すばやさ（名詞）", "速める（動詞）"],
+   "option_notes_ja": [
+    "形容詞。動詞 responded を修飾する標準的な形ではない",
+    "副詞。自動詞 responded を修飾する",
+    "名詞。文の要素がそろっているので入らない",
+    "動詞「速める」。動詞の後に動詞は続かない"
+   ],
+   "point_ja": "自動詞（respond・arrive・work など）の後で、どのように行うかを表すのは副詞。"
   },
   {
    "id": "p5-0019",
@@ -85,7 +127,14 @@
    "answer": "c",
    "explanation_ja": "a more ------- strategy で、名詞 strategy を修飾する形容詞が入る。effect・effectiveness は名詞、effectively は副詞。",
    "translation_ja": "調査結果は、より効果的な広告戦略を立てるために使われる。",
-   "translation_options_ja": ["効果（名詞）", "効果的に（副詞）", "効果的な（形容詞）", "効果の高さ（名詞）"]
+   "translation_options_ja": ["効果（名詞）", "効果的に（副詞）", "効果的な（形容詞）", "効果の高さ（名詞）"],
+   "option_notes_ja": [
+    "名詞「効果」。advertising strategy の前に置くと意味が通らない",
+    "副詞。名詞は修飾できない",
+    "形容詞。a more effective strategy で「より効果的な戦略」",
+    "名詞「効果の高さ」。名詞を修飾できない"
+   ],
+   "point_ja": "a more ＿ 名詞 の空欄は形容詞。more があっても、後ろに名詞が来ていれば形容詞を選ぶ。"
   },
   {
    "id": "p5-0020",
@@ -97,7 +146,14 @@
    "answer": "d",
    "explanation_ja": "By the time + 未来の時点（next Monday）までに完了していることを表すので未来完了 will have printed。",
    "translation_ja": "来週の月曜日に会議が始まるまでに、主催者はすべての名札を印刷し終えているだろう。",
-   "translation_options_ja": ["印刷する（現在形）", "印刷した（過去形）", "ずっと印刷している（現在完了進行形）", "印刷し終えているだろう（未来完了）"]
+   "translation_options_ja": ["印刷する（現在形）", "印刷した（過去形）", "ずっと印刷している（現在完了進行形）", "印刷し終えているだろう（未来完了）"],
+   "option_notes_ja": [
+    "現在形。未来の時点までの完了は表せない",
+    "過去形。next Monday（未来）と合わない",
+    "現在完了進行形。未来の時点までの完了は表せない",
+    "未来完了。来週の月曜日までに印刷し終えている"
+   ],
+   "point_ja": "By the time ＋現在形（未来の時点）／by ＋未来の時点 → 未来完了 will have ＋過去分詞。"
   },
   {
    "id": "p5-0021",
@@ -109,7 +165,14 @@
    "answer": "a",
    "explanation_ja": "since（～以来）があり、3月から今までの変化を表すので現在完了 have risen。主語は複数の Sales。",
    "translation_ja": "新型モデルの売り上げは、3月に発売されて以来、着実に伸びている。",
-   "translation_options_ja": ["増え続けている（現在完了）", "増える（現在形）", "増えた（過去形）", "増えるだろう（未来）"]
+   "translation_options_ja": ["増え続けている（現在完了）", "増える（現在形）", "増えた（過去形）", "増えるだろう（未来）"],
+   "option_notes_ja": [
+    "現在完了。since ～ で「～以来ずっと増えている」",
+    "現在形。since とは組まない",
+    "過去形。since で今までの変化を表す文には合わない",
+    "未来。since とは組まない"
+   ],
+   "point_ja": "since ＋過去の時点 があれば、主節は現在完了（have / has ＋過去分詞）。"
   },
   {
    "id": "p5-0022",
@@ -121,7 +184,14 @@
    "answer": "b",
    "explanation_ja": "駐車場は「舗装される」側なので受け身、時は next week なので will be repaved。能動の will repave・is repaving は後ろに目的語が必要。",
    "translation_ja": "本館裏の駐車場は来週舗装し直されるので、従業員はエルム通りに駐車してください。",
-   "translation_options_ja": ["舗装し直す（未来・能動）", "舗装し直される（未来の受け身）", "舗装し直している（進行形・能動）", "舗装し直した（過去形）"]
+   "translation_options_ja": ["舗装し直す（未来・能動）", "舗装し直される（未来の受け身）", "舗装し直している（進行形・能動）", "舗装し直した（過去形）"],
+   "option_notes_ja": [
+    "能動態の未来。repave の後に目的語が必要",
+    "受け身の未来。駐車場は「舗装し直される」側",
+    "現在進行形の能動態。目的語が必要",
+    "過去形。next week と合わない"
+   ],
+   "point_ja": "主語が動作を受ける側で、目的語がなければ受け身。時を表す語（next week）で時制も決める。"
   },
   {
    "id": "p5-0023",
@@ -133,7 +203,14 @@
    "answer": "c",
    "explanation_ja": "文の要素がそろった後に置いて「自分自身で」を表すのは再帰代名詞 himself。he・him・his はこの位置に入らない。",
    "translation_ja": "ハーディングさんは契約書を自分で確認したいので、アシスタントには転送しないでください。",
-   "translation_options_ja": ["彼は（主格）", "彼を（目的格）", "自分で（再帰代名詞）", "彼の（所有格）"]
+   "translation_options_ja": ["彼は（主格）", "彼を（目的格）", "自分で（再帰代名詞）", "彼の（所有格）"],
+   "option_notes_ja": [
+    "主格。文の終わりに置いて「自分で」の意味にはならない",
+    "目的格。review the contracts him では文にならない",
+    "再帰代名詞。文の要素がそろった後に置いて「自分で」",
+    "所有格。後ろに名詞が必要"
+   ],
+   "point_ja": "文の要素がそろった後の空欄で「自分で・自ら」を表すのは再帰代名詞（himself など）。"
   },
   {
    "id": "p5-0024",
@@ -145,7 +222,9 @@
    "answer": "d",
    "explanation_ja": "他動詞 contact の目的語なので目的格 us。ours（私たちのもの）では意味が通らない。",
    "translation_ja": "10日以内に注文品が届かないお客さまは、直接当社にご連絡ください。",
-   "translation_options_ja": ["私たちは（主格）", "私たちの（所有格）", "私たちのもの（所有代名詞）", "私たちに（目的格）"]
+   "translation_options_ja": ["私たちは（主格）", "私たちの（所有格）", "私たちのもの（所有代名詞）", "私たちに（目的格）"],
+   "option_notes_ja": ["主格。他動詞の目的語にはなれない", "所有格。後ろに名詞が必要", "所有代名詞「私たちのもの」。意味が合わない", "目的格。他動詞 contact の目的語"],
+   "point_ja": "動詞や前置詞の後は目的格（me / us / him / them）。"
   },
   {
    "id": "p5-0025",
@@ -157,7 +236,14 @@
    "answer": "a",
    "explanation_ja": "後ろの to と組んで from A to B（AからBまで）。between は between A and B の形で使う。",
    "translation_ja": "その博物館の特別展は、7月1日から9月30日まで一般公開される。",
-   "translation_options_ja": ["～から", "～の間", "～以来", "～の間に"]
+   "translation_options_ja": ["～から", "～の間", "～以来", "～の間に"],
+   "option_notes_ja": [
+    "from A to B で「AからBまで」",
+    "between A and B の形で使う。to とは組まない",
+    "「～以来」。to とは組まない",
+    "「～の間に」。to とは組まない"
+   ],
+   "point_ja": "期間の前置詞の組み合わせ：from A to B／between A and B。後ろの語から前を決める。"
   },
   {
    "id": "p5-0026",
@@ -169,7 +255,14 @@
    "answer": "b",
    "explanation_ja": "前半（税関で遅れた）が原因、後半（木曜まで届かなかった）が結果なので so。but・yet は逆の内容をつなぐ。",
    "translation_ja": "荷物が税関で遅れたため、商品は木曜日まで店に届かなかった。",
-   "translation_options_ja": ["しかし", "だから", "または", "それでも"]
+   "translation_options_ja": ["しかし", "だから", "または", "それでも"],
+   "option_notes_ja": [
+    "逆接「しかし」。遅れた結果届かなかったので、逆の内容ではない",
+    "結果「だから」。遅れた→届かなかった",
+    "「または」。意味が合わない",
+    "逆接「それでも」。意味が合わない"
+   ],
+   "point_ja": "前後の関係（原因→結果、逆の内容、並べる）を読み取ってつなぎ語を選ぶ。"
   },
   {
    "id": "p5-0027",
@@ -181,7 +274,14 @@
    "answer": "c",
    "explanation_ja": "後ろが the heavy snowfall という名詞句なので前置詞 Despite。Although・Even if・Because は接続詞で、後ろに主語と動詞が必要。",
    "translation_ja": "大雪にもかかわらず、ほとんどの社員が会議に間に合った。",
-   "translation_options_ja": ["～だけれども（接続詞）", "たとえ～でも（接続詞）", "～にもかかわらず（前置詞）", "～なので（接続詞）"]
+   "translation_options_ja": ["～だけれども（接続詞）", "たとえ～でも（接続詞）", "～にもかかわらず（前置詞）", "～なので（接続詞）"],
+   "option_notes_ja": [
+    "接続詞。後ろに主語＋動詞が必要",
+    "接続詞「たとえ～でも」。後ろに主語＋動詞が必要",
+    "前置詞「～にもかかわらず」。後ろの名詞句 the heavy snowfall をつなぐ",
+    "接続詞。後ろに主語＋動詞が必要で、意味も合わない"
+   ],
+   "point_ja": "although と despite はどちらも「～にもかかわらず」。後ろが名詞なら despite / in spite of、主語＋動詞なら although。"
   },
   {
    "id": "p5-0028",
@@ -193,7 +293,14 @@
    "answer": "d",
    "explanation_ja": "後ろに主語 the hiring committee と動詞 has reviewed が続くので接続詞 Once。During・Upon・Following は前置詞なので名詞句しか続かない。",
    "translation_ja": "採用委員会がすべての応募書類を確認したら、面接の日程が組まれる。",
-   "translation_options_ja": ["～の間（前置詞）", "～するとすぐ（前置詞）", "～の後で（前置詞）", "いったん～したら（接続詞）"]
+   "translation_options_ja": ["～の間（前置詞）", "～するとすぐ（前置詞）", "～の後で（前置詞）", "いったん～したら（接続詞）"],
+   "option_notes_ja": [
+    "前置詞。後ろに主語＋動詞は続かない",
+    "前置詞「～するとすぐ」。後ろは名詞や動名詞",
+    "前置詞「～の後で」。後ろに主語＋動詞は続かない",
+    "接続詞「いったん～したら」。後ろに主語＋動詞が続く"
+   ],
+   "point_ja": "once は接続詞として「いったん～すると」の意味でよく出る。during・upon・following は前置詞。"
   },
   {
    "id": "p5-0029",
@@ -205,7 +312,14 @@
    "answer": "a",
    "explanation_ja": "空所の後が suggestion（名詞）で「その社員の提案」という関係なので所有格 whose。",
    "translation_ja": "その賞は、会社の経費を最も多く節約する提案をした社員に贈られる。",
-   "translation_options_ja": ["その人の（関係代名詞・所有格）", "～する人（主格）", "～する人（目的格）", "～するもの（主格・目的格）"]
+   "translation_options_ja": ["その人の（関係代名詞・所有格）", "～する人（主格）", "～する人（目的格）", "～するもの（主格・目的格）"],
+   "option_notes_ja": [
+    "所有格の関係代名詞。the employee whose suggestion で「その人の提案が」",
+    "主格の関係代名詞。後ろに動詞が来る形で、名詞 suggestion は続かない",
+    "目的格の関係代名詞。後ろに主語＋動詞が来る",
+    "人以外に使う関係代名詞。先行詞が人なので合わない"
+   ],
+   "point_ja": "関係代名詞の直後が名詞で「その～の…」の関係なら whose。"
   },
   {
    "id": "p5-0030",
@@ -217,7 +331,14 @@
    "answer": "b",
    "explanation_ja": "moved into の後の目的語が欠けているので関係代名詞 which。where は into which の意味を含むので、文末の into と重なってしまう。",
    "translation_ja": "ブラントリー・パートナーズが昨年入居したオフィスビルには屋上庭園がある。",
-   "translation_options_ja": ["～する場所（関係副詞）", "～するもの（関係代名詞）", "～すること（関係代名詞）", "～する人（関係代名詞）"]
+   "translation_options_ja": ["～する場所（関係副詞）", "～するもの（関係代名詞）", "～すること（関係代名詞）", "～する人（関係代名詞）"],
+   "option_notes_ja": [
+    "関係副詞。in which の意味を含むので、文末の into と重なる",
+    "関係代名詞。moved into の目的語が欠けている",
+    "先行詞を含む関係代名詞。前に先行詞 building があるので使えない",
+    "人に使う関係代名詞。先行詞が建物なので合わない"
+   ],
+   "point_ja": "関係詞の後ろに前置詞の目的語が欠けていれば which / that。前置詞がなく「場所で」の意味なら where。"
   },
   {
    "id": "p5-0031",
@@ -229,7 +350,14 @@
    "answer": "c",
    "explanation_ja": "Of the three（3つのうちで）と the があるので最上級 the least expensive（最も安い）。less は2つを比べるとき、fewer は数えられる名詞に使う。",
    "translation_ja": "3つの提案のうち、デルフォード・デザインの提案が最も安かった。",
-   "translation_options_ja": ["より～でない（比較級）", "より少ない（数）", "最も～でない（最上級）", "少ない"]
+   "translation_options_ja": ["より～でない（比較級）", "より少ない（数）", "最も～でない（最上級）", "少ない"],
+   "option_notes_ja": [
+    "比較級。2つを比べるときに使う",
+    "数えられる名詞の数が「より少ない」。形容詞 expensive の前には置かない",
+    "最上級。Of the three で3つのうち最も安い",
+    "原級「少ない」。the little expensive では意味が通らない"
+   ],
+   "point_ja": "Of the three / among ～ と the があれば最上級。the least ＋形容詞 で「最も～でない」。"
   },
   {
    "id": "p5-0032",
@@ -241,7 +369,14 @@
    "answer": "d",
    "explanation_ja": "動詞が were（複数）なので Several of the boxes。Each of ～ は単数扱い（was）、Every は of を続けられない、Much は数えられない名詞に使う。",
    "translation_ja": "倉庫の箱のいくつかが引っ越しの間に傷んだ。",
-   "translation_options_ja": ["すべての", "多くの（量）", "それぞれ", "いくつか"]
+   "translation_options_ja": ["すべての", "多くの（量）", "それぞれ", "いくつか"],
+   "option_notes_ja": [
+    "of を続けられない。Every of とは言わない",
+    "数えられない名詞に使う。boxes には使えない",
+    "Each of ～ は単数扱いで、動詞は was になる",
+    "Several of ～ は複数扱い。動詞 were と合う"
+   ],
+   "point_ja": "数量詞は後ろの名詞（数えられるか）と動詞の数（単数・複数）を両方確かめる。"
   },
   {
    "id": "p5-0033",
@@ -253,7 +388,9 @@
    "answer": "a",
    "explanation_ja": "either A or B（AかBのどちらか）。nor は neither と組む。",
    "translation_ja": "会員はレッスン料をオンラインか受付のどちらかで支払うことができる。",
-   "translation_options_ja": ["または", "～も…ない", "そして", "しかし"]
+   "translation_options_ja": ["または", "～も…ない", "そして", "しかし"],
+   "option_notes_ja": ["either A or B で「AかBのどちらか」", "neither と組む", "both と組む", "not only ～ but also などで使う"],
+   "point_ja": "either を見たら or、neither を見たら nor。"
   },
   {
    "id": "p5-0034",
@@ -265,7 +402,14 @@
    "answer": "b",
    "explanation_ja": "パンフレットは「作られた」側で、by ～ が続くので過去分詞 produced が後ろから名詞を修飾する。文の動詞は contained。",
    "translation_ja": "先週ケストレル・プリントが作ったパンフレットには、いくつかつづりの誤りがあった。",
-   "translation_options_ja": ["作る（原形）", "作られた（過去分詞）", "作っている（現在分詞）", "作るための（不定詞）"]
+   "translation_options_ja": ["作る（原形）", "作られた（過去分詞）", "作っている（現在分詞）", "作るための（不定詞）"],
+   "option_notes_ja": [
+    "動詞の原形。文の動詞は contained なので入らない",
+    "過去分詞。パンフレットは「作られた」側で、by ～ が続く",
+    "現在分詞。「作っている」で意味が合わない",
+    "不定詞。「作るための」で意味が合わない"
+   ],
+   "point_ja": "名詞を後ろから修飾する分詞：「～される・された」なら過去分詞、「～している」なら現在分詞。"
   },
   {
    "id": "p5-0035",
@@ -277,7 +421,14 @@
    "answer": "c",
    "explanation_ja": "人が「興味を持たされる」側なので be interested in ～。interesting は「（物事が）興味深い」で、人を主語にすると意味が合わない。",
    "translation_ja": "多くの参加者が、デジタルマーケティングのワークショップに興味を持った。",
-   "translation_options_ja": ["興味（名詞）・興味を持たせる（動詞）", "興味深い（現在分詞）", "興味を持った（過去分詞）", "興味深いことに（副詞）"]
+   "translation_options_ja": ["興味（名詞）・興味を持たせる（動詞）", "興味深い（現在分詞）", "興味を持った（過去分詞）", "興味深いことに（副詞）"],
+   "option_notes_ja": [
+    "名詞・動詞。were の後で in と組む形にならない",
+    "「（物事が）興味深い」。人が主語では意味が合わない",
+    "「（人が）興味を持った」。be interested in ～",
+    "副詞。were の補語にならない"
+   ],
+   "point_ja": "感情の分詞：人が感じるなら過去分詞（interested・excited）、物事が感じさせるなら現在分詞（interesting・exciting）。"
   },
   {
    "id": "p5-0036",
@@ -289,7 +440,14 @@
    "answer": "d",
    "explanation_ja": "経費報告書が規定どおりか「確認する」ので verify。depend・consist は自動詞で目的語をとらず、remind は remind 人 of ～ の形。",
    "translation_ja": "経理部は、会社の規定に従っているか確かめるため、すべての経費報告書を確認する。",
-   "translation_options_ja": ["思い出させる", "頼る", "成り立つ", "確認する"]
+   "translation_options_ja": ["思い出させる", "頼る", "成り立つ", "確認する"],
+   "option_notes_ja": [
+    "思い出させる。remind 人 of ～ の形で、報告書を目的語にとると意味が合わない",
+    "頼る。自動詞で depend on ～ の形。目的語をとらない",
+    "成り立つ。自動詞で consist of ～ の形。目的語をとらない",
+    "確認する・検証する。規定に合っているか報告書を確かめる"
+   ],
+   "point_ja": "語彙問題では、意味に加えて「目的語をとれるか（他動詞か）」も手がかりにする。"
   },
   {
    "id": "p5-0037",
@@ -301,7 +459,9 @@
    "answer": "a",
    "explanation_ja": "セキュリティのために90日ごとにパスワードを「変える」。charge は「請求する・充電する」で、つづりが似たひっかけ。",
    "translation_ja": "社員は、安全のために90日ごとにパスワードを変更するよう求められている。",
-   "translation_options_ja": ["変える", "請求する・充電する", "取り消す", "集める"]
+   "translation_options_ja": ["変える", "請求する・充電する", "取り消す", "集める"],
+   "option_notes_ja": ["変える。パスワードを定期的に変える", "請求する・充電する。つづりが似たひっかけ", "取り消す。パスワードを取り消すでは意味が合わない", "集める。意味が合わない"],
+   "point_ja": "つづりや音が似た語のひっかけに注意し、文全体の意味で選ぶ。"
   },
   {
    "id": "p5-0038",
@@ -313,7 +473,9 @@
    "answer": "b",
    "explanation_ja": "24時間前までに変更するのは「予約」reservation。reception・receipt・recipe は似たつづりのひっかけ。",
    "translation_ja": "予約の変更を希望するお客さまは、少なくとも24時間前までにフロントにご連絡ください。",
-   "translation_options_ja": ["受付・歓迎会", "予約", "領収書", "作り方・レシピ"]
+   "translation_options_ja": ["受付・歓迎会", "予約", "領収書", "作り方・レシピ"],
+   "option_notes_ja": ["受付・歓迎会。変更する対象として合わない", "予約。24時間前までに変更するのは予約", "領収書。意味が合わない", "料理の作り方。似たつづりのひっかけ"],
+   "point_ja": "re- で始まる似た名詞（reservation・reception・receipt）は TOEIC の頻出の組み合わせ。"
   },
   {
    "id": "p5-0039",
@@ -325,7 +487,9 @@
    "answer": "c",
    "explanation_ja": "exceeded（上回った）の目的語で、15パーセント上回ったのは「目標」target。",
    "translation_ja": "営業チームは四半期の目標を15パーセント近く上回った。",
-   "translation_options_ja": ["起源", "決まった手順", "目標", "概要"]
+   "translation_options_ja": ["起源", "決まった手順", "目標", "概要"],
+   "option_notes_ja": ["起源。意味が合わない", "決まった手順。意味が合わない", "目標。exceed its target で「目標を上回る」", "概要。意味が合わない"],
+   "point_ja": "exceed（上回る）・meet / reach（達成する）と組む名詞は target・goal・quota。"
   },
   {
    "id": "p5-0040",
@@ -337,7 +501,14 @@
    "answer": "d",
    "explanation_ja": "応募条件として必要なのは「豊富な」経験 extensive experience。excessive は「行き過ぎた」という否定的な意味。",
    "translation_ja": "その職の応募者には、プロジェクト管理の豊富な経験が求められる。",
-   "translation_options_ja": ["高価な", "独占的な", "過剰な", "豊富な"]
+   "translation_options_ja": ["高価な", "独占的な", "過剰な", "豊富な"],
+   "option_notes_ja": [
+    "高価な。経験の説明として合わない",
+    "独占的な。意味が合わない",
+    "過剰な。否定的な意味で、応募条件に合わない",
+    "豊富な。extensive experience は決まった言い方"
+   ],
+   "point_ja": "experience と組む形容詞：extensive・considerable・previous・relevant。"
   },
   {
    "id": "p5-0041",
@@ -349,7 +520,14 @@
    "answer": "a",
    "explanation_ja": "利益が「大幅に」増えた。approximately は数字の前に置いて「約」の意味で使う。",
    "translation_ja": "ハーウェル・モーターズの利益は、海外で車の販売を始めて以来、大幅に増えている。",
-   "translation_options_ja": ["大幅に", "およそ", "時間どおりに", "互いに"]
+   "translation_options_ja": ["大幅に", "およそ", "時間どおりに", "互いに"],
+   "option_notes_ja": [
+    "大幅に。利益が大幅に増えた",
+    "およそ。数字の前に置く語で、動詞 increased の後には合わない",
+    "時間どおりに。意味が合わない",
+    "互いに。意味が合わない"
+   ],
+   "point_ja": "increase・decrease・rise と組む副詞：significantly・sharply・steadily・slightly。"
   },
   {
    "id": "p5-0042",
@@ -361,7 +539,14 @@
    "answer": "b",
    "explanation_ja": "give a presentation（発表をする）という決まった組み合わせ。tell・say は presentation を目的語にとらない。",
    "translation_ja": "リンドクヴィストさんは木曜日の会議で新しい製品群について発表する。",
-   "translation_options_ja": ["取る", "（発表を）する", "話す・伝える", "言う"]
+   "translation_options_ja": ["取る", "（発表を）する", "話す・伝える", "言う"],
+   "option_notes_ja": [
+    "take a presentation とは言わない",
+    "give a presentation で「発表をする」",
+    "tell は人を目的語にとる（tell 人 about ～）",
+    "say は発言の内容を目的語にとる"
+   ],
+   "point_ja": "動詞と名詞の決まった組み合わせ：give a presentation／make a decision／hold a meeting／take a break。"
   }
  ]
 }

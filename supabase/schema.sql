@@ -31,6 +31,8 @@ create table if not exists items (
   explanation_ja text,
   translation_ja text,
   translation_options_ja jsonb,
+  option_notes_ja jsonb,                    -- 選択肢ごとのコメント（options と同じ順）
+  point_ja      text,                     -- TOEIC のポイント
   voices        jsonb,                     -- Part 1・2 の話者の性別
   level         text,
   status        text not null default 'draft' check (status in ('draft','reviewed','flagged','retired')),

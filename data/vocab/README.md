@@ -35,12 +35,12 @@ data/vocab/src/<バッチ名>.json      100〜200語ずつ足していく
 |---|---|---|
 | `id` | ○ | `v-{4桁}`。一度使った ID は変えない・使い回さない（学習記録が ID に紐づく） |
 | `word` | ○ | 見出し語（原形）。日→英のつづり問題の答え |
-| `pos` | ○ | `noun` / `verb` / `adjective` / `adverb` / `phrase` |
+| `pos` | ○ | `noun` / `verb` / `adjective` / `adverb` / `phrase`（熟語。日→英・穴埋めのヒントは各語の頭文字：look forward to → `l___ f______ t_`） |
 | `meaning_ja` | ○ | TOEIC でよく使う意味。英→日の4択の正解と、日→英の出題に使う。同じ品詞で同じ意味の語を作らない（4択で両方が正解に見える） |
 | `level` | ○ | 目安の CEFR（A1〜C1）。4択のダミーは近いレベルから選ばれる |
 | `example` | ○ | オリジナルの例文。人名・会社名は架空 |
 | `example_ja` | ○ | 例文の和訳（穴埋め問題で一緒に表示する） |
-| `cloze` | ○ | 例文の穴埋めにする語形。**例文の中にそのまま出てくる形**（approved、Registration など） |
+| `cloze` | ○ | 例文の穴埋めにする語形。**例文の中にそのまま出てくる形**（approved、Registration など）。熟語は**ひと続きで出てくる形**にする（looking forward to は可、fill it out のように間に語が入る形は不可） |
 | `distractors` | | 4択のダミーを手で決めるときだけ（単語 ID を3つ）。省略すると build が同じ品詞・近いレベルから決まった順で選ぶ |
 | `status` | | `retired` にすると出題しない。省略時は `draft`（reviewed / flagged はレビュー結果から自動） |
 

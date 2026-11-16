@@ -12,7 +12,14 @@
    "options": ["submit", "submitting", "submitted", "submission"],
    "answer": "c",
    "explanation_ja": "must be の後で「提出される」という受け身にするので過去分詞 submitted。",
-   "translation_ja": "四半期報告書は金曜日までに経理部に提出されなければならない。"
+   "translation_ja": "四半期報告書は金曜日までに経理部に提出されなければならない。",
+   "option_notes_ja": [
+    "動詞の原形。must be の後には置けない",
+    "現在分詞。be submitting は「提出している」で、報告書が主語なので意味が合わない",
+    "過去分詞。must be submitted で「提出されなければならない」（受け身）",
+    "名詞。be submission では意味が通らない"
+   ],
+   "point_ja": "主語が「されるもの」（報告書・書類・荷物など）なら受け身 be＋過去分詞。助動詞の後の be にも注意。"
   },
   {
    "id": "p5-0002",
@@ -23,7 +30,14 @@
    "options": ["since", "for", "during", "until"],
    "answer": "a",
    "explanation_ja": "現在完了（has worked）と、起点を表す年（2019）を結ぶのは since。for の後には期間（five years など）が来る。",
-   "translation_ja": "タナカさんは2019年からコーベックス工業で働いている。"
+   "translation_ja": "タナカさんは2019年からコーベックス工業で働いている。",
+   "option_notes_ja": [
+    "起点（～以来）。現在完了と組んで has worked since 2019",
+    "期間の長さ（for five years）に使う。後ろに年号は来ない",
+    "「～の間に」。特定の期間の中の出来事に使い、起点は表さない",
+    "「～まで」。継続の終わりを表すので、現在完了の起点には合わない"
+   ],
+   "point_ja": "現在完了の文で、後ろが「時点」なら since、「期間の長さ」なら for。"
   },
   {
    "id": "p5-0003",
@@ -34,7 +48,14 @@
    "options": ["before", "although", "because", "unless"],
    "answer": "a",
    "explanation_ja": "動名詞 entering の前に置けるのは前置詞の before。although・because・unless は接続詞で、ここでは使えない。",
-   "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。"
+   "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。",
+   "option_notes_ja": [
+    "前置詞としても使え、動名詞 entering を続けられる。「入る前に」",
+    "接続詞。後ろには主語と動詞が必要で、意味も「～だけれども」で合わない",
+    "接続詞。because の後には主語と動詞が要る",
+    "接続詞「～でない限り」。意味も形も合わない"
+   ],
+   "point_ja": "空欄の後が名詞・動名詞なら前置詞、主語＋動詞なら接続詞。before・after・since は両方の使い方がある。"
   },
   {
    "id": "p5-0004",
@@ -45,7 +66,14 @@
    "options": ["much", "more", "most", "very"],
    "answer": "b",
    "explanation_ja": "than があるので比較級を作る more。much は比較級を強める語なので、much more successful の形なら使える。",
-   "translation_ja": "新しい販促キャンペーンは、会社が予想していた以上に成功した。"
+   "translation_ja": "新しい販促キャンペーンは、会社が予想していた以上に成功した。",
+   "option_notes_ja": [
+    "比較級を強める語。much more successful の形なら使える",
+    "than があるので比較級を作る more",
+    "最上級。than とは組まない",
+    "原級を強める語。than と一緒には使わない"
+   ],
+   "point_ja": "than を見たら比較級。much・far・even は比較級を強め、very は強められない。"
   },
   {
    "id": "p5-0005",
@@ -56,7 +84,14 @@
    "options": ["any", "every", "much", "each"],
    "answer": "a",
    "explanation_ja": "疑問・条件の文で複数形の名詞 questions を修飾できるのは any。every と each は単数名詞、much は数えられない名詞に付く。",
-   "translation_ja": "契約について何か質問があればお知らせください。"
+   "translation_ja": "契約について何か質問があればお知らせください。",
+   "option_notes_ja": [
+    "疑問文・if 節で「何か（いくつか）」。複数名詞 questions と使える",
+    "単数名詞と使う。every questions とは言わない",
+    "数えられない名詞に使う。questions には使えない",
+    "単数名詞と使う。each questions とは言わない"
+   ],
+   "point_ja": "any は疑問文・否定文・if 節で数えられる複数名詞にも数えられない名詞にも使える。every・each は単数名詞と組む。"
   },
   {
    "id": "p5-0006",
@@ -67,7 +102,14 @@
    "options": ["because", "because of", "despite", "so that"],
    "answer": "a",
    "explanation_ja": "後ろに主語と動詞（the instructor is ill）が続くので接続詞の because。because of と despite の後には名詞が来る。",
-   "translation_ja": "講師が病気のため、研修は延期された。"
+   "translation_ja": "講師が病気のため、研修は延期された。",
+   "option_notes_ja": [
+    "接続詞。後ろの the instructor is ill（主語＋動詞）を理由としてつなぐ",
+    "前置詞の働き。後ろには名詞が来るので、主語＋動詞はつなげない",
+    "前置詞「～にもかかわらず」。形も意味も合わない",
+    "接続詞だが「～するように」と目的を表し、意味が合わない"
+   ],
+   "point_ja": "because＋主語＋動詞、because of＋名詞。空欄の後の形を先に確かめる。"
   },
   {
    "id": "p5-0007",
@@ -78,7 +120,14 @@
    "options": ["they", "them", "their", "themselves"],
    "answer": "c",
    "explanation_ja": "名詞 requests の前なので所有格 their。",
-   "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。"
+   "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。",
+   "option_notes_ja": [
+    "主格。名詞 requests の前には置けない",
+    "目的格。名詞の前には置けない",
+    "所有格。their requests で「彼らの申請」",
+    "再帰代名詞。名詞の前には置けない"
+   ],
+   "point_ja": "空欄の直後が名詞なら所有格（my / your / his / her / its / our / their）。"
   },
   {
    "id": "p5-0008",
@@ -89,7 +138,14 @@
    "options": ["available", "capable", "eligible", "responsible"],
    "answer": "a",
    "explanation_ja": "be available to ～ で「～が利用できる」。eligible は for を伴って「資格がある」の意味で、主語が人になる。",
-   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。"
+   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
+   "option_notes_ja": [
+    "available to ～ で「～が利用できる」。シャトルが宿泊客に使える",
+    "capable of ～ で「～する能力がある」。to とは組まず、意味も合わない",
+    "eligible for ～ で「～の資格がある」。人が主語になり、ここでは合わない",
+    "responsible for ～ で「～に責任がある」。意味が合わない"
+   ],
+   "point_ja": "形容詞の語彙問題は、後ろの前置詞（to / of / for）との組み合わせも手がかりになる。"
   },
   {
    "id": "p5-0009",
@@ -100,7 +156,14 @@
    "options": ["reviews", "was reviewing", "has reviewed", "will review"],
    "answer": "b",
    "explanation_ja": "when the client called（過去のある時点）にしていた最中の動作なので過去進行形。",
-   "translation_ja": "顧客から電話があったとき、オルティスさんは出荷予定を確認していた。"
+   "translation_ja": "顧客から電話があったとき、オルティスさんは出荷予定を確認していた。",
+   "option_notes_ja": [
+    "現在形。when the client called（過去）の時点の動作には合わない",
+    "過去進行形。電話がかかってきた時に「確認しているところだった」",
+    "現在完了。過去の一時点を表す when ～ called とは使わない",
+    "未来。過去の出来事と合わない"
+   ],
+   "point_ja": "when ＋過去形「～したとき」に、その最中だった動作は過去進行形 was / were ～ing。"
   },
   {
    "id": "p5-0010",
@@ -111,7 +174,14 @@
    "options": ["extend", "expire", "exceed", "explain"],
    "answer": "a",
    "explanation_ja": "「受付時間を延長する」の extend。expire（期限が切れる）は目的語をとらない。",
-   "translation_ja": "その会社は海外の顧客により良く対応するため、顧客サービスの受付時間を延長することにした。"
+   "translation_ja": "その会社は海外の顧客により良く対応するため、顧客サービスの受付時間を延長することにした。",
+   "option_notes_ja": [
+    "延長する。営業時間を延ばして海外の顧客に対応する",
+    "期限が切れる。自動詞なので目的語 hours をとらない",
+    "上回る。営業時間を「上回る」では意味が通らない",
+    "説明する。意味が合わない"
+   ],
+   "point_ja": "ex- で始まる似た形の動詞（extend / expire / exceed / explain / expand）は TOEIC の語彙問題の定番。"
   },
   {
    "id": "p5-0011",
@@ -122,7 +192,14 @@
    "options": ["or", "nor", "and", "but"],
    "answer": "b",
    "explanation_ja": "neither A nor B（AもBも～ない）の組み合わせ。either なら or を使う。",
-   "translation_ja": "部長もそのアシスタントも、会議に出席できなかった。"
+   "translation_ja": "部長もそのアシスタントも、会議に出席できなかった。",
+   "option_notes_ja": [
+    "either と組む。neither とは組まない",
+    "neither A nor B で「AもBも～ない」",
+    "both と組む",
+    "not only A but (also) B などで使う"
+   ],
+   "point_ja": "相関接続詞：both A and B／either A or B／neither A nor B／not only A but also B。前半の語から後半を決める。"
   },
   {
    "id": "p5-0012",
@@ -133,7 +210,14 @@
    "options": ["careful", "carefully", "carefulness", "more careful"],
    "answer": "b",
    "explanation_ja": "動詞 reviewed を修飾するので副詞 carefully。",
-   "translation_ja": "応募書類は慎重に審査され、条件を満たす候補者には2週間以内に連絡がある。"
+   "translation_ja": "応募書類は慎重に審査され、条件を満たす候補者には2週間以内に連絡がある。",
+   "option_notes_ja": [
+    "形容詞。動詞 be reviewed を修飾できない",
+    "副詞。受け身の動詞 be reviewed を修飾する",
+    "名詞。文の要素がそろっているので入らない",
+    "形容詞の比較級。動詞は修飾できない"
+   ],
+   "point_ja": "文の要素（主語・動詞）がそろった後で動詞を修飾するのは副詞。"
   }
  ]
 }

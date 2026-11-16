@@ -12,7 +12,8 @@
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-  const hint = s => s[0] + [...s.slice(1)].map(c => (/[ \-']/.test(c) ? c : '_')).join('');
+  // ヒント：各語の最初の1文字を見せ、残りは下線（熟語は look forward to → l___ f______ t_）
+  const hint = s => s.split(' ').map(t => t[0] + [...t.slice(1)].map(c => (/[\-']/.test(c) ? c : '_')).join('')).join(' ');
   const norm = s => String(s || '').trim().toLowerCase().replace(/[’]/g, "'").replace(/\s+/g, ' ');
   let run = null;   // 実行中の単語練習
 
@@ -70,10 +71,10 @@
         <div class="vopts">${q.order.map((c, i) => `<button class="vopt" data-id="${c}"><span class="ol">${i + 1}</span>${esc(BY.get(c) ? BY.get(c).meaning_ja : '')}</button>`).join('')}</div>`;
     } else if (q.mode === 'j2e') {
       body = `<div class="vmean">${esc(w.meaning_ja)} <small>${POS_JA[w.pos] || ''}</small></div>
-        <div class="vhint">${esc([...hint(w.word)].join(' '))}<small>（${w.word.replace(/[ \-']/g, '').length}文字）</small></div>
+        <div class="vhint">${esc(hint(w.word).split(' ').map(t => [...t].join(' ')).join('　 '))}<small>（${w.word.includes(' ') ? w.word.split(' ').map(t => t.replace(/[\-']/g, '').length).join('＋') : w.word.replace(/[\-']/g, '').length}文字）</small></div>
         <div class="vinput"><input id="vin" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${esc(w.word[0])}…"><button id="vcheck" class="primary">答え合わせ</button></div>`;
     } else {
-      const blank = `<span class="vblank">${esc([...hint(w.cloze)].join(' '))}</span>`;
+      const blank = `<span class="vblank">${esc(hint(w.cloze).split(' ').map(t => [...t].join(' ')).join('　 '))}</span>`;
       const i = w.example.indexOf(w.cloze);
       body = `<div class="vex">${esc(w.example.slice(0, i))}${blank}${esc(w.example.slice(i + w.cloze.length))}</div>
         <div class="vexja">${esc(w.example_ja)}</div>

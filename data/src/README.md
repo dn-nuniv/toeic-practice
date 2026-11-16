@@ -43,6 +43,8 @@ data/src/part5/2026-11-20-a.json  生成バッチごとに1ファイル足して
 | `explanation_ja` | ○ | 解説。根拠の英文を短く引用し、他が違う理由を1文で |
 | `translation_ja` | ○ | 設問文の和訳（Part 1 など不要なら空文字 `""`） |
 | `translation_options_ja` | | 選択肢の和訳（選択肢と同じ数） |
+| `option_notes_ja` | ○（新しい問題） | 選択肢ごとのコメント（選択肢と同じ順・同じ数）。正解には「なぜ正解か」、誤答には「どこが違うか」。表示順は変わるので (A) などの記号は使わない |
+| `point_ja` | ○（新しい問題） | TOEIC のポイント。ほかの問題にも使える知識を1〜2文（例：than を見たら比較級。much・far・even は比較級を強める） |
 | `shuffle` | | 選択肢の並びを固定するときだけ `false`（金額の昇順、[1]〜[4] の位置など） |
 | `status` | | `retired` にすると出題されなくなる。省略時は `draft`（reviewed / flagged はレビュー結果から自動） |
 | `voices` | | Part 1・2 の話者の性別を指定するとき（例 `{"stem": "female", "options": "male"}`）。省略すると ID の番号で男女が交互に決まる |

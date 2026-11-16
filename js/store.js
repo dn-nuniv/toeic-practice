@@ -14,6 +14,7 @@
     mem.settings = mem.settings || {};
     mem.vocab_progress = mem.vocab_progress || {};  // "<単語ID>:<形式>" -> 復習の状態（形式は e2j / j2e / cloze）
     mem.vocab_attempts = mem.vocab_attempts || [];  // 単語の解答の記録
+    mem.daily = mem.daily || [];                    // 今日の学習を終えた記録 { date, part, correct, total, at }
     return mem;
   }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch (e) { /* 保存できない環境では、このページを開いている間だけ保持 */ } }
@@ -30,14 +31,17 @@
     putWordProgress(row) { load().vocab_progress[row.word_id + ':' + row.mode] = row; save(); },
     addWordAttempt(row) { const m = load(); m.vocab_attempts.push(row); if (m.vocab_attempts.length > MAX_ATTEMPTS) m.vocab_attempts.splice(0, m.vocab_attempts.length - MAX_ATTEMPTS); save(); },
     wordAttempts() { return load().vocab_attempts; },
+    // 今日の学習（1日1 Part）：終えたときに1行足す
+    addDaily(row) { load().daily.push(row); save(); },
+    dailyLog() { return load().daily; },
     getSetting(k, d) { const v = load().settings[k]; return v === undefined ? d : v; },
     setSetting(k, v) { load().settings[k] = v; save(); },
     exportAll() { return JSON.stringify({ format: 'toeic-practice-progress', version: 1, exported_at: new Date().toISOString(), ...load() }, null, 1); },
     importAll(text) {
       const d = JSON.parse(text);
       if (d.format !== 'toeic-practice-progress') throw new Error('このアプリの記録ファイルではありません');
-      mem = { progress: d.progress || {}, attempts: d.attempts || [], settings: d.settings || {}, vocab_progress: d.vocab_progress || {}, vocab_attempts: d.vocab_attempts || [] }; save();
+      mem = { progress: d.progress || {}, attempts: d.attempts || [], settings: d.settings || {}, vocab_progress: d.vocab_progress || {}, vocab_attempts: d.vocab_attempts || [], daily: d.daily || [] }; save();
     },
-    reset() { mem = { progress: {}, attempts: [], settings: load().settings, vocab_progress: {}, vocab_attempts: [] }; save(); }
+    reset() { mem = { progress: {}, attempts: [], settings: load().settings, vocab_progress: {}, vocab_attempts: [], daily: [] }; save(); }
   };
 })();
