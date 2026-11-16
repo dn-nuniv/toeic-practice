@@ -4386,7 +4386,7 @@
     "content_hash": "95456dc3f9da"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0011",
@@ -4468,7 +4468,7 @@
     "content_hash": "c15ffea2cdf2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0012",
@@ -4550,7 +4550,7 @@
     "content_hash": "0c76a6d40326"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p3-0013",
@@ -7716,8 +7716,8 @@
   "option_notes_ja": [
    "7番通路で案内しているのはジュースの試飲で、割引のパンを買えるとは言っていない",
    "fruit juices の試飲ができる（juices → beverages）",
-   "地元の会社の商品だが、農家に会えるわけではない",
-   "新しいレジは日曜に設置する"
+   "Sunpath Farms は地元の会社（a local company）で、社名の Farms から「農家」を連想させるひっかけ。農家に会えるとは言っていない",
+   "新しいセルフレジは日曜の早じまいの後に設置する予定で、7番通路で使えるとは言っていない"
   ],
   "point_ja": "free samples（無料の試供品）は「試せる（try）」と言い換えられる。",
   "level": "B1",
@@ -7758,7 +7758,7 @@
     "content_hash": "fd750289fa59"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p4-0024",
@@ -11720,7 +11720,7 @@
   "option_notes_ja": [
    "園芸コーナーの休みは、返品できない商品の話と関係がない",
    "直前の「クリアランスセールの商品は返品できない」を受け、These items の見分け方を説明している",
-   "30日は変更前の返品期限の数字で、60日に延びた新しい規定とかみ合わない。また、直前の返品できない商品の説明を補う文でもない",
+   "レシートの保管を求める文で、直前の「クリアランスセールの商品は返品できない」を補う内容ではない（「少なくとも30日」なので、60日の返品期限と食い違うわけではない）",
    "1週間以内は、60日に延びるという前の段落と食い違う"
   ],
   "point_ja": "These / Those / Such ＋名詞 で始まる挿入文は、直前に指す内容があるかを確かめる。",
@@ -11762,7 +11762,7 @@
     "content_hash": "ab42edbd4dd2"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0007",
