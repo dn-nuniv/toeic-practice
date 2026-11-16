@@ -446,6 +446,49 @@
   }
  },
  {
+  "id": "p1-0009",
+  "part": 1,
+  "set_id": "p1-s009",
+  "type": "photo.object.state",
+  "scene": "real.estate",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "Some people are sitting on a bench."
+   },
+   {
+    "id": "b",
+    "text": "Some bicycles have been parked in a rack."
+   },
+   {
+    "id": "c",
+    "text": "Some leaves are being swept into a pile."
+   },
+   {
+    "id": "d",
+    "text": "A man is locking his bicycle."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "人のいない写真で、自転車がラックに止めてある状態を have been parked で表している (B) が正解。ベンチや落ち葉は写っているが、座っている人や掃いている人はいない。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "何人かがベンチに座っている。",
+   "何台かの自転車が駐輪ラックに止めてある。",
+   "落ち葉が掃き集められているところだ。",
+   "男性が自転車に鍵をかけている。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
+  "review": [],
+  "voices": {
+   "options": "female"
+  }
+ },
+ {
   "id": "p2-0001",
   "part": 2,
   "set_id": null,

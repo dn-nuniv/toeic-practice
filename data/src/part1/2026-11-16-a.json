@@ -1,7 +1,7 @@
 {
  "batch": "2026-11-16-p1-a",
  "source": "2026-11-16 / part1 batch a（写真：Gemini）",
- "note": "Part 1 の5問。写真は Orca 経由で Gemini（nano banana）が生成し、右下のラベルを切り落として使用。選択肢は写真を見てから作成",
+ "note": "Part 1 の6問。写真は Orca 経由で Gemini（nano banana）が生成し、右下のラベルを切り落として使用。選択肢は写真を見てから作成",
  "sets": [
   {
    "id": "p1-s004",
@@ -144,6 +144,37 @@
       "フォークリフトが通路を走っているところだ。",
       "作業員たちが箱を運んでいる。",
       "棚が組み立てられているところだ。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p1-s009",
+   "kind": "photo",
+   "scene": "real.estate",
+   "image": "images/part1/p1-0009.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0009",
+     "type": "photo.object.state",
+     "scene": "real.estate",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "Some people are sitting on a bench.",
+      "Some bicycles have been parked in a rack.",
+      "Some leaves are being swept into a pile.",
+      "A man is locking his bicycle."
+     ],
+     "answer": "b",
+     "explanation_ja": "人のいない写真で、自転車がラックに止めてある状態を have been parked で表している (B) が正解。ベンチや落ち葉は写っているが、座っている人や掃いている人はいない。",
+     "translation_ja": "",
+     "translation_options_ja": [
+      "何人かがベンチに座っている。",
+      "何台かの自転車が駐輪ラックに止めてある。",
+      "落ち葉が掃き集められているところだ。",
+      "男性が自転車に鍵をかけている。"
      ]
     }
    ]

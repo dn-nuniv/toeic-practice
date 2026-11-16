@@ -136,6 +136,23 @@
   "source": "2026-11-16 / part1 batch a（写真：Gemini）"
  },
  {
+  "id": "p1-s009",
+  "part": 1,
+  "kind": "photo",
+  "scene": "real.estate",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0009.webp",
+  "question_ids": [
+   "p1-0009"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch a（写真：Gemini）"
+ },
+ {
   "id": "p3-s001",
   "part": 3,
   "kind": "conversation",
