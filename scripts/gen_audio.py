@@ -13,7 +13,7 @@ API キーは環境変数 GOOGLE_API_KEY から読む（画面やファイルに
 音声のキーは js/audio.js と同じ規則:
   Part 1・2 の選択肢 <item>:opt:<option> / Part 2 の質問 <item>:stem / Part 3・4 <set>:seg:<n> / 記号 label:A:female
 """
-import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error, urllib.parse
+import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://texttospeech.googleapis.com/v1"
@@ -22,10 +22,12 @@ TIERS = ["Neural2", "Wavenet", "Standard"]  # 上から順に使える声を探�
 
 
 def call(method, path, key, body=None, retries=4):
-    url = f"{API}/{path}{'&' if '?' in path else '?'}key={urllib.parse.quote(key)}"
+    # キーは URL ではなくヘッダーで送る（URL はログに残りやすいため）
+    url = f"{API}/{path}"
     data = json.dumps(body).encode() if body is not None else None
     for i in range(retries):
-        req = urllib.request.Request(url, data=data, method=method, headers={"Content-Type": "application/json"})
+        req = urllib.request.Request(url, data=data, method=method,
+                                     headers={"Content-Type": "application/json", "X-Goog-Api-Key": key})
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.loads(r.read())
