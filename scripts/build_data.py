@@ -114,6 +114,12 @@ sets.sort(key=lambda s: (s["part"], s["id"]))
 
 # ------------------------------------------------------------ レビュー結果を反映（scripts/import_review.py が作る）
 rpath = ROOT / "data" / "reviews.json"
+# 状態を決めるのは「今の版の問題」へのレビューだけ（問題を直すと古いレビューは効かなくなり draft に戻る）
+# 指摘があっても resolved（検討して直さないと決めた）が付いていれば問題なしとみなす
+sys.path.insert(0, str(ROOT / "scripts"))
+from review_hash import content_hash
+set_by_id = {s["id"]: s for s in sets}
+stale_ids = []
 if rpath.exists():
     reviews = json.loads(rpath.read_text(encoding="utf-8"))
     for it in items:
@@ -121,7 +127,10 @@ if rpath.exists():
         if not rs: continue
         it["review"] = rs
         if it["status"] == "retired": continue
-        bad = any((not r["agree"]) or r.get("ambiguous") or r.get("issues") for r in rs)
+        h = content_hash(it, set_by_id.get(it["set_id"]))
+        cur = [r for r in rs if r.get("content_hash", h) == h]
+        if not cur: stale_ids.append(it["id"]); continue
+        bad = any(((not r["agree"]) or r.get("ambiguous") or r.get("issues")) and not r.get("resolved") for r in cur)
         it["status"] = "flagged" if bad else "reviewed"
 
 # ------------------------------------------------------------ 書き出し
@@ -135,3 +144,5 @@ VERSION = datetime.date.today().isoformat() + "-" + (ub[0] if len(ub) == 1 else 
 live = [i for i in items if i["status"] != "retired"]
 print(len(files), "files |", len(live), "items", dict(sorted(Counter(i["part"] for i in live).items())), "|", len(sets), "sets",
       f"| retired {len(items) - len(live)}" if len(items) != len(live) else "")
+print("状態:", dict(Counter(i["status"] for i in items)))
+if stale_ids: print("問題を直したため再レビューが必要（draft に戻した）:", ", ".join(stale_ids))

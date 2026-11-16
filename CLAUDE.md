@@ -22,6 +22,8 @@
 2. `python3 scripts/build_data.py` — 書き方の誤り（知らない項目・必須項目の欠け・ID の形・重複）があるとエラーで止まる
 3. `python3 scripts/validate.py` — **エラー0件になるまで直す**。警告も目を通す
 4. `python3 scripts/export_review.py` → `review/PROMPT.md` と `review/packet.md` を先生が Orca に渡す → 返ってきた JSON を `python3 scripts/import_review.py <file> --reviewer orca` → もう一度 `build_data.py`
+   - flagged の問題は、直すなら `data/src` の問題を書き換える（ID はそのまま）。古いレビューは効かなくなり draft に戻るので、次の export で再レビューに回る
+   - 検討して直さないなら `python3 scripts/import_review.py --resolve <ID> --note "理由"` で解決済みにする
 5. `python3 scripts/gen_audio.py --dry-run` で件数と文字数を確認 → `python3 scripts/gen_audio.py`
 6. ブラウザで `index.html` を開いて確認 → コミット・push（コミットメッセージは日本語）
 
@@ -36,7 +38,7 @@
 - Part 7：単一文書・チャット・ダブル／トリプルパッセージ。照合問題（cross.reference）を入れる。位置を問う問題の本文は `— [1] —` の形。
 - 解説（`explanation_ja`）は根拠の英文を短く引用し、なぜ他が違うかを1文で。和訳（`translation_ja`、`translation_options_ja`）をつける。
 - ID は `p{Part}-{4桁}`、セットは `p{Part}-s{3桁}`（試作の Part 1 の3セットだけ `p1-s0001` の4桁）。既存の ID は変えない（学習記録が ID に紐づくため）。不要になった問題は削除せず `status: "retired"`。
-- `status` は draft → reviewed / flagged（import_review が自動で設定）。
+- `status` は draft → reviewed / flagged（レビュー結果から build_data が自動で設定）。各レビューは問題の版（`content_hash`、`scripts/review_hash.py`）を記録し、今の版へのレビューだけが状態に効く。
 
 ## 音声（Google Cloud Text-to-Speech）
 - `scripts/gen_audio.py` は環境変数 `GOOGLE_TTS_API_KEY`（なければ `GOOGLE_API_KEY`）を使う。Cloud Text-to-Speech 用の `AIza` で始まるキーが必要（Gemini API のキーは使えない）。**キーを表示・ログ出力・ファイル保存・コミットしない**。

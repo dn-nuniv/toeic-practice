@@ -8,7 +8,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "ff713e566028"
   },
   {
    "reviewer": "gpt",
@@ -18,7 +19,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "ff713e566028"
   },
   {
    "reviewer": "agy",
@@ -28,7 +30,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "ff713e566028"
   }
  ],
  "p1-0002": [
@@ -40,7 +43,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0cc43d0503c8"
   },
   {
    "reviewer": "gpt",
@@ -50,7 +54,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0cc43d0503c8"
   },
   {
    "reviewer": "agy",
@@ -60,7 +65,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0cc43d0503c8"
   }
  ],
  "p1-0003": [
@@ -72,7 +78,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e38434e93b6d"
   },
   {
    "reviewer": "gpt",
@@ -82,7 +89,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e38434e93b6d"
   },
   {
    "reviewer": "agy",
@@ -92,7 +100,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e38434e93b6d"
   }
  ],
  "p2-0001": [
@@ -104,7 +113,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "4bb8cd0a599e"
   },
   {
    "reviewer": "gpt",
@@ -114,7 +124,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "4bb8cd0a599e"
   },
   {
    "reviewer": "agy",
@@ -124,7 +135,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "4bb8cd0a599e"
   }
  ],
  "p2-0002": [
@@ -136,7 +148,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "63736d9b0a1c"
   },
   {
    "reviewer": "gpt",
@@ -146,7 +159,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "63736d9b0a1c"
   },
   {
    "reviewer": "agy",
@@ -156,7 +170,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "63736d9b0a1c"
   }
  ],
  "p2-0003": [
@@ -168,7 +183,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a107099f3039"
   },
   {
    "reviewer": "gpt",
@@ -178,7 +194,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a107099f3039"
   },
   {
    "reviewer": "agy",
@@ -188,7 +205,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a107099f3039"
   }
  ],
  "p2-0004": [
@@ -200,7 +218,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37b60402c32d"
   },
   {
    "reviewer": "gpt",
@@ -210,7 +229,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37b60402c32d"
   },
   {
    "reviewer": "agy",
@@ -220,7 +240,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37b60402c32d"
   }
  ],
  "p2-0005": [
@@ -232,7 +253,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8fc6f3277190"
   },
   {
    "reviewer": "gpt",
@@ -242,7 +264,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8fc6f3277190"
   },
   {
    "reviewer": "agy",
@@ -252,7 +275,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8fc6f3277190"
   }
  ],
  "p2-0006": [
@@ -264,7 +288,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e9f70b438996"
   },
   {
    "reviewer": "gpt",
@@ -274,7 +299,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e9f70b438996"
   },
   {
    "reviewer": "agy",
@@ -284,7 +310,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e9f70b438996"
   }
  ],
  "p2-0007": [
@@ -296,7 +323,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3795d4d026d5"
   },
   {
    "reviewer": "gpt",
@@ -306,7 +334,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3795d4d026d5"
   },
   {
    "reviewer": "agy",
@@ -316,7 +345,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3795d4d026d5"
   }
  ],
  "p2-0008": [
@@ -328,7 +358,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a14bb3b78492"
   },
   {
    "reviewer": "gpt",
@@ -338,7 +369,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a14bb3b78492"
   },
   {
    "reviewer": "agy",
@@ -348,7 +380,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a14bb3b78492"
   }
  ],
  "p3-0001": [
@@ -360,7 +393,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "70fda582c781"
   },
   {
    "reviewer": "gpt",
@@ -370,7 +404,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "70fda582c781"
   },
   {
    "reviewer": "agy",
@@ -380,7 +415,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "70fda582c781"
   }
  ],
  "p3-0002": [
@@ -392,7 +428,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.93,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9c18acc20b9d"
   },
   {
    "reviewer": "gpt",
@@ -402,7 +439,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9c18acc20b9d"
   },
   {
    "reviewer": "agy",
@@ -412,7 +450,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9c18acc20b9d"
   }
  ],
  "p3-0003": [
@@ -424,7 +463,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719bbb21b66f"
   },
   {
    "reviewer": "gpt",
@@ -434,7 +474,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719bbb21b66f"
   },
   {
    "reviewer": "agy",
@@ -444,7 +485,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719bbb21b66f"
   }
  ],
  "p3-0004": [
@@ -456,7 +498,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a01eebcb7ce"
   },
   {
    "reviewer": "gpt",
@@ -466,7 +509,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a01eebcb7ce"
   },
   {
    "reviewer": "agy",
@@ -476,7 +520,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a01eebcb7ce"
   }
  ],
  "p3-0005": [
@@ -488,7 +533,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42cf1c3885b9"
   },
   {
    "reviewer": "gpt",
@@ -498,7 +544,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42cf1c3885b9"
   },
   {
    "reviewer": "agy",
@@ -508,7 +555,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42cf1c3885b9"
   }
  ],
  "p3-0006": [
@@ -520,7 +568,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c9e8711236e8"
   },
   {
    "reviewer": "gpt",
@@ -530,7 +579,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c9e8711236e8"
   },
   {
    "reviewer": "agy",
@@ -540,7 +590,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c9e8711236e8"
   }
  ],
  "p4-0001": [
@@ -552,7 +603,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a609f3e2246c"
   },
   {
    "reviewer": "gpt",
@@ -562,7 +614,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a609f3e2246c"
   },
   {
    "reviewer": "agy",
@@ -572,7 +625,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a609f3e2246c"
   }
  ],
  "p4-0002": [
@@ -584,7 +638,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.96,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e2b38895b49d"
   },
   {
    "reviewer": "gpt",
@@ -594,7 +649,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e2b38895b49d"
   },
   {
    "reviewer": "agy",
@@ -604,7 +660,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e2b38895b49d"
   }
  ],
  "p4-0003": [
@@ -616,7 +673,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9723b35bffce"
   },
   {
    "reviewer": "gpt",
@@ -626,7 +684,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9723b35bffce"
   },
   {
    "reviewer": "agy",
@@ -636,7 +695,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9723b35bffce"
   }
  ],
  "p4-0004": [
@@ -648,7 +708,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "104f9c712812"
   },
   {
    "reviewer": "gpt",
@@ -658,7 +719,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "104f9c712812"
   },
   {
    "reviewer": "agy",
@@ -668,7 +730,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "104f9c712812"
   }
  ],
  "p4-0005": [
@@ -680,7 +743,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "87c9450062e9"
   },
   {
    "reviewer": "gpt",
@@ -690,7 +754,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "87c9450062e9"
   },
   {
    "reviewer": "agy",
@@ -700,7 +765,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "87c9450062e9"
   }
  ],
  "p4-0006": [
@@ -712,7 +778,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "1b2b92ba86c5"
   },
   {
    "reviewer": "gpt",
@@ -722,7 +789,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "1b2b92ba86c5"
   },
   {
    "reviewer": "agy",
@@ -732,7 +800,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "1b2b92ba86c5"
   }
  ],
  "p5-0001": [
@@ -744,7 +813,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e82d95b0e150"
   },
   {
    "reviewer": "gpt",
@@ -754,7 +824,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e82d95b0e150"
   },
   {
    "reviewer": "agy",
@@ -764,7 +835,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e82d95b0e150"
   }
  ],
  "p5-0002": [
@@ -776,7 +848,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "baa0e62c6e7c"
   },
   {
    "reviewer": "gpt",
@@ -786,7 +859,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "baa0e62c6e7c"
   },
   {
    "reviewer": "agy",
@@ -796,7 +870,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "baa0e62c6e7c"
   }
  ],
  "p5-0003": [
@@ -808,7 +883,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "39cc863a47ab"
   },
   {
    "reviewer": "gpt",
@@ -818,7 +894,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": "受付が建物内にある通常の想定では、入館前に受付で記帳するという順序が不自然。「before entering the office area」などにすると明確。"
+   "issues": "受付が建物内にある通常の想定では、入館前に受付で記帳するという順序が不自然。「before entering the office area」などにすると明確。",
+   "content_hash": "39cc863a47ab"
   },
   {
    "reviewer": "agy",
@@ -828,7 +905,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "39cc863a47ab"
   }
  ],
  "p5-0004": [
@@ -840,7 +918,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "197de45521b2"
   },
   {
    "reviewer": "gpt",
@@ -850,7 +929,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "197de45521b2"
   },
   {
    "reviewer": "agy",
@@ -860,7 +940,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "197de45521b2"
   }
  ],
  "p5-0005": [
@@ -872,7 +953,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "2bc9c1e6d3de"
   },
   {
    "reviewer": "gpt",
@@ -882,7 +964,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "2bc9c1e6d3de"
   },
   {
    "reviewer": "agy",
@@ -892,7 +975,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "2bc9c1e6d3de"
   }
  ],
  "p5-0006": [
@@ -904,7 +988,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a71e351ac862"
   },
   {
    "reviewer": "gpt",
@@ -914,7 +999,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a71e351ac862"
   },
   {
    "reviewer": "agy",
@@ -924,7 +1010,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a71e351ac862"
   }
  ],
  "p5-0007": [
@@ -936,7 +1023,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a6d52a7fe0a1"
   },
   {
    "reviewer": "gpt",
@@ -946,7 +1034,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a6d52a7fe0a1"
   },
   {
    "reviewer": "agy",
@@ -956,7 +1045,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a6d52a7fe0a1"
   }
  ],
  "p5-0008": [
@@ -968,7 +1058,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "27d5a4cfab11"
   },
   {
    "reviewer": "gpt",
@@ -978,7 +1069,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "27d5a4cfab11"
   },
   {
    "reviewer": "agy",
@@ -988,7 +1080,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "27d5a4cfab11"
   }
  ],
  "p5-0009": [
@@ -1000,7 +1093,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1b725c2d6ee"
   },
   {
    "reviewer": "gpt",
@@ -1010,7 +1104,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1b725c2d6ee"
   },
   {
    "reviewer": "agy",
@@ -1020,7 +1115,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1b725c2d6ee"
   }
  ],
  "p5-0010": [
@@ -1032,7 +1128,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c8cb97a97b3c"
   },
   {
    "reviewer": "gpt",
@@ -1042,7 +1139,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c8cb97a97b3c"
   },
   {
    "reviewer": "agy",
@@ -1052,7 +1150,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c8cb97a97b3c"
   }
  ],
  "p5-0011": [
@@ -1064,7 +1163,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8ab29bb82787"
   },
   {
    "reviewer": "gpt",
@@ -1074,7 +1174,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8ab29bb82787"
   },
   {
    "reviewer": "agy",
@@ -1084,7 +1185,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "8ab29bb82787"
   }
  ],
  "p5-0012": [
@@ -1096,7 +1198,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "dbe0a9aa7c87"
   },
   {
    "reviewer": "gpt",
@@ -1106,7 +1209,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "dbe0a9aa7c87"
   },
   {
    "reviewer": "agy",
@@ -1116,7 +1220,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "dbe0a9aa7c87"
   }
  ],
  "p5-0013": [
@@ -1128,7 +1233,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9ee8041d561e"
   },
   {
    "reviewer": "gpt",
@@ -1138,7 +1244,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9ee8041d561e"
   },
   {
    "reviewer": "agy",
@@ -1148,7 +1255,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "9ee8041d561e"
   }
  ],
  "p5-0014": [
@@ -1160,7 +1268,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1985b122577"
   },
   {
    "reviewer": "gpt",
@@ -1170,7 +1279,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1985b122577"
   },
   {
    "reviewer": "agy",
@@ -1180,7 +1290,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "d1985b122577"
   }
  ],
  "p5-0015": [
@@ -1192,7 +1303,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7e13a7bba85e"
   },
   {
    "reviewer": "gpt",
@@ -1202,7 +1314,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7e13a7bba85e"
   },
   {
    "reviewer": "agy",
@@ -1212,7 +1325,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7e13a7bba85e"
   }
  ],
  "p5-0016": [
@@ -1224,7 +1338,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "daf006de71ec"
   },
   {
    "reviewer": "gpt",
@@ -1234,7 +1349,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "daf006de71ec"
   },
   {
    "reviewer": "agy",
@@ -1244,7 +1360,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "daf006de71ec"
   }
  ],
  "p5-0017": [
@@ -1256,7 +1373,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "74e04fa052a6"
   },
   {
    "reviewer": "gpt",
@@ -1266,7 +1384,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "74e04fa052a6"
   },
   {
    "reviewer": "agy",
@@ -1276,7 +1395,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "74e04fa052a6"
   }
  ],
  "p5-0018": [
@@ -1288,7 +1408,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "15c4261ced50"
   },
   {
    "reviewer": "gpt",
@@ -1298,7 +1419,8 @@
    "agree": true,
    "ambiguous": true,
    "confidence": 0.91,
-   "issues": "Bが想定解だが、Dのquickestも「最も速く」という副詞として成立する。他チームとの比較を暗黙に補えるため、正解の唯一性に問題がある。"
+   "issues": "Bが想定解だが、Dのquickestも「最も速く」という副詞として成立する。他チームとの比較を暗黙に補えるため、正解の唯一性に問題がある。",
+   "content_hash": "15c4261ced50"
   },
   {
    "reviewer": "agy",
@@ -1308,7 +1430,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "15c4261ced50"
   }
  ],
  "p5-0019": [
@@ -1320,7 +1443,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6e54ba3afbb"
   },
   {
    "reviewer": "gpt",
@@ -1330,7 +1454,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6e54ba3afbb"
   },
   {
    "reviewer": "agy",
@@ -1340,7 +1465,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6e54ba3afbb"
   }
  ],
  "p5-0020": [
@@ -1352,7 +1478,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7c984ed2ffe8"
   },
   {
    "reviewer": "gpt",
@@ -1362,7 +1489,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7c984ed2ffe8"
   },
   {
    "reviewer": "agy",
@@ -1372,7 +1500,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "7c984ed2ffe8"
   }
  ],
  "p5-0021": [
@@ -1384,7 +1513,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5690ce48e22c"
   },
   {
    "reviewer": "gpt",
@@ -1394,7 +1524,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5690ce48e22c"
   },
   {
    "reviewer": "agy",
@@ -1404,7 +1535,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5690ce48e22c"
   }
  ],
  "p5-0022": [
@@ -1416,7 +1548,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "00b772fc4715"
   },
   {
    "reviewer": "gpt",
@@ -1426,7 +1559,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "00b772fc4715"
   },
   {
    "reviewer": "agy",
@@ -1436,7 +1570,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "00b772fc4715"
   }
  ],
  "p5-0023": [
@@ -1448,7 +1583,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e079d16b0e7c"
   },
   {
    "reviewer": "gpt",
@@ -1458,7 +1594,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e079d16b0e7c"
   },
   {
    "reviewer": "agy",
@@ -1468,7 +1605,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e079d16b0e7c"
   }
  ],
  "p5-0024": [
@@ -1480,7 +1618,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a26e19ee1c22"
   },
   {
    "reviewer": "gpt",
@@ -1490,7 +1629,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a26e19ee1c22"
   },
   {
    "reviewer": "agy",
@@ -1500,7 +1640,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a26e19ee1c22"
   }
  ],
  "p5-0025": [
@@ -1512,7 +1653,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a5453a577673"
   },
   {
    "reviewer": "gpt",
@@ -1522,7 +1664,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a5453a577673"
   },
   {
    "reviewer": "agy",
@@ -1532,7 +1675,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "a5453a577673"
   }
  ],
  "p5-0026": [
@@ -1544,7 +1688,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "49688fecb189"
   },
   {
    "reviewer": "gpt",
@@ -1554,7 +1699,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "49688fecb189"
   },
   {
    "reviewer": "agy",
@@ -1564,7 +1710,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "49688fecb189"
   }
  ],
  "p5-0027": [
@@ -1576,7 +1723,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "b3289d667c52"
   },
   {
    "reviewer": "gpt",
@@ -1586,7 +1734,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "b3289d667c52"
   },
   {
    "reviewer": "agy",
@@ -1596,7 +1745,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "b3289d667c52"
   }
  ],
  "p5-0028": [
@@ -1608,7 +1758,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "75d75fdcbfb2"
   },
   {
    "reviewer": "gpt",
@@ -1618,7 +1769,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "75d75fdcbfb2"
   },
   {
    "reviewer": "agy",
@@ -1628,7 +1780,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "75d75fdcbfb2"
   }
  ],
  "p5-0029": [
@@ -1640,7 +1793,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "55042cbcc402"
   },
   {
    "reviewer": "gpt",
@@ -1650,7 +1804,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "55042cbcc402"
   },
   {
    "reviewer": "agy",
@@ -1660,7 +1815,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "55042cbcc402"
   }
  ],
  "p5-0030": [
@@ -1672,7 +1828,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.93,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0f280a5173fc"
   },
   {
    "reviewer": "gpt",
@@ -1682,7 +1839,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0f280a5173fc"
   },
   {
    "reviewer": "agy",
@@ -1692,7 +1850,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0f280a5173fc"
   }
  ],
  "p5-0031": [
@@ -1704,7 +1863,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719a6d850478"
   },
   {
    "reviewer": "gpt",
@@ -1714,7 +1874,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719a6d850478"
   },
   {
    "reviewer": "agy",
@@ -1724,7 +1885,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "719a6d850478"
   }
  ],
  "p5-0032": [
@@ -1736,7 +1898,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c402d8f0490d"
   },
   {
    "reviewer": "gpt",
@@ -1746,7 +1909,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c402d8f0490d"
   },
   {
    "reviewer": "agy",
@@ -1756,7 +1920,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c402d8f0490d"
   }
  ],
  "p5-0033": [
@@ -1768,7 +1933,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "db8670d0a21c"
   },
   {
    "reviewer": "gpt",
@@ -1778,7 +1944,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "db8670d0a21c"
   },
   {
    "reviewer": "agy",
@@ -1788,7 +1955,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "db8670d0a21c"
   }
  ],
  "p5-0034": [
@@ -1800,7 +1968,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f3c44a8ee526"
   },
   {
    "reviewer": "gpt",
@@ -1810,7 +1979,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f3c44a8ee526"
   },
   {
    "reviewer": "agy",
@@ -1820,7 +1990,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f3c44a8ee526"
   }
  ],
  "p5-0035": [
@@ -1832,7 +2003,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e62fd9d22204"
   },
   {
    "reviewer": "gpt",
@@ -1842,7 +2014,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e62fd9d22204"
   },
   {
    "reviewer": "agy",
@@ -1852,7 +2025,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e62fd9d22204"
   }
  ],
  "p5-0036": [
@@ -1864,7 +2038,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a00640a9867"
   },
   {
    "reviewer": "gpt",
@@ -1874,7 +2049,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a00640a9867"
   },
   {
    "reviewer": "agy",
@@ -1884,7 +2060,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "0a00640a9867"
   }
  ],
  "p5-0037": [
@@ -1896,7 +2073,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.96,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3505bb5dc106"
   },
   {
    "reviewer": "gpt",
@@ -1906,7 +2084,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3505bb5dc106"
   },
   {
    "reviewer": "agy",
@@ -1916,7 +2095,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "3505bb5dc106"
   }
  ],
  "p5-0038": [
@@ -1928,7 +2108,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37ac44aa4610"
   },
   {
    "reviewer": "gpt",
@@ -1938,7 +2119,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37ac44aa4610"
   },
   {
    "reviewer": "agy",
@@ -1948,7 +2130,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "37ac44aa4610"
   }
  ],
  "p5-0039": [
@@ -1960,7 +2143,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "26b88aa4a163"
   },
   {
    "reviewer": "gpt",
@@ -1970,7 +2154,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "26b88aa4a163"
   },
   {
    "reviewer": "agy",
@@ -1980,7 +2165,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "26b88aa4a163"
   }
  ],
  "p5-0040": [
@@ -1992,7 +2178,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42d705b27961"
   },
   {
    "reviewer": "gpt",
@@ -2002,7 +2189,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42d705b27961"
   },
   {
    "reviewer": "agy",
@@ -2012,7 +2200,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "42d705b27961"
   }
  ],
  "p5-0041": [
@@ -2024,7 +2213,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.96,
-   "issues": ""
+   "issues": "",
+   "content_hash": "af25afb847cb"
   },
   {
    "reviewer": "gpt",
@@ -2034,7 +2224,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "af25afb847cb"
   },
   {
    "reviewer": "agy",
@@ -2044,7 +2235,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "af25afb847cb"
   }
  ],
  "p5-0042": [
@@ -2056,7 +2248,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6bd112ed260"
   },
   {
    "reviewer": "gpt",
@@ -2066,7 +2259,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6bd112ed260"
   },
   {
    "reviewer": "agy",
@@ -2076,7 +2270,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "c6bd112ed260"
   }
  ],
  "p6-0001": [
@@ -2088,7 +2283,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.97,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e167ed94bbc0"
   },
   {
    "reviewer": "gpt",
@@ -2098,7 +2294,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e167ed94bbc0"
   },
   {
    "reviewer": "agy",
@@ -2108,7 +2305,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "e167ed94bbc0"
   }
  ],
  "p6-0002": [
@@ -2120,7 +2318,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.93,
-   "issues": ""
+   "issues": "",
+   "content_hash": "024b5943ff20"
   },
   {
    "reviewer": "gpt",
@@ -2130,7 +2329,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "024b5943ff20"
   },
   {
    "reviewer": "agy",
@@ -2140,7 +2340,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "024b5943ff20"
   }
  ],
  "p6-0003": [
@@ -2152,7 +2353,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "72f333904f63"
   },
   {
    "reviewer": "gpt",
@@ -2162,7 +2364,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "72f333904f63"
   },
   {
    "reviewer": "agy",
@@ -2172,7 +2375,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "72f333904f63"
   }
  ],
  "p6-0004": [
@@ -2184,7 +2388,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "df230cc670a5"
   },
   {
    "reviewer": "gpt",
@@ -2194,7 +2399,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "df230cc670a5"
   },
   {
    "reviewer": "agy",
@@ -2204,7 +2410,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "df230cc670a5"
   }
  ],
  "p7-0001": [
@@ -2216,7 +2423,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "601aec427c96"
   },
   {
    "reviewer": "gpt",
@@ -2226,7 +2434,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "601aec427c96"
   },
   {
    "reviewer": "agy",
@@ -2236,7 +2445,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "601aec427c96"
   }
  ],
  "p7-0002": [
@@ -2248,7 +2458,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "be331d72d131"
   },
   {
    "reviewer": "gpt",
@@ -2258,7 +2469,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "be331d72d131"
   },
   {
    "reviewer": "agy",
@@ -2268,7 +2480,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "be331d72d131"
   }
  ],
  "p7-0003": [
@@ -2280,7 +2493,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "84ace8c8096b"
   },
   {
    "reviewer": "gpt",
@@ -2290,7 +2504,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "84ace8c8096b"
   },
   {
    "reviewer": "agy",
@@ -2300,7 +2515,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "84ace8c8096b"
   }
  ],
  "p7-0004": [
@@ -2312,7 +2528,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f1f3259683ea"
   },
   {
    "reviewer": "gpt",
@@ -2322,7 +2539,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f1f3259683ea"
   },
   {
    "reviewer": "agy",
@@ -2332,7 +2550,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f1f3259683ea"
   }
  ],
  "p7-0005": [
@@ -2344,7 +2563,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.92,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f8d1c01d5f7a"
   },
   {
    "reviewer": "gpt",
@@ -2354,7 +2574,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f8d1c01d5f7a"
   },
   {
    "reviewer": "agy",
@@ -2364,7 +2585,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "f8d1c01d5f7a"
   }
  ],
  "p7-0006": [
@@ -2376,7 +2598,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "159f37d99b07"
   },
   {
    "reviewer": "gpt",
@@ -2386,7 +2609,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "159f37d99b07"
   },
   {
    "reviewer": "agy",
@@ -2396,7 +2620,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "159f37d99b07"
   }
  ],
  "p7-0007": [
@@ -2408,7 +2633,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.98,
-   "issues": ""
+   "issues": "",
+   "content_hash": "77b8157edc1f"
   },
   {
    "reviewer": "gpt",
@@ -2418,7 +2644,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "77b8157edc1f"
   },
   {
    "reviewer": "agy",
@@ -2428,7 +2655,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "77b8157edc1f"
   }
  ],
  "p7-0008": [
@@ -2440,7 +2668,12 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.88,
-   "issues": "Oak Hall/Pine Hall にも45人は収容できるが、45人が入る最小・最安の部屋として Cedar Room に決まる（most likely）。TOEIC の通常の推論の範囲内"
+   "issues": "Oak Hall/Pine Hall にも45人は収容できるが、45人が入る最小・最安の部屋として Cedar Room に決まる（most likely）。TOEIC の通常の推論の範囲内",
+   "content_hash": "5218fa2c3d9e",
+   "resolved": {
+    "at": "2026-11-16T08:52:49",
+    "note": "Claude のコメントは確認のみ（3者とも正解一致・曖昧なし）。45人が入る最小・最安の部屋として Cedar Room が most likely で一意に決まる。変更不要"
+   }
   },
   {
    "reviewer": "gpt",
@@ -2450,7 +2683,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5218fa2c3d9e"
   },
   {
    "reviewer": "agy",
@@ -2460,7 +2694,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5218fa2c3d9e"
   }
  ],
  "p7-0009": [
@@ -2472,7 +2707,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5508f85e2bae"
   },
   {
    "reviewer": "gpt",
@@ -2482,7 +2718,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5508f85e2bae"
   },
   {
    "reviewer": "agy",
@@ -2492,7 +2729,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "5508f85e2bae"
   }
  ],
  "p7-0010": [
@@ -2504,7 +2742,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.95,
-   "issues": ""
+   "issues": "",
+   "content_hash": "aa9c85af98ba"
   },
   {
    "reviewer": "gpt",
@@ -2514,7 +2753,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 0.99,
-   "issues": ""
+   "issues": "",
+   "content_hash": "aa9c85af98ba"
   },
   {
    "reviewer": "agy",
@@ -2524,7 +2764,8 @@
    "agree": true,
    "ambiguous": false,
    "confidence": 1.0,
-   "issues": ""
+   "issues": "",
+   "content_hash": "aa9c85af98ba"
   }
  ]
 }

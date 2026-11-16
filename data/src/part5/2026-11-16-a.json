@@ -69,11 +69,11 @@
    "scene": "it",
    "level": "B1",
    "prompt": "The technical support team responded ------- to the network outage reported this morning.",
-   "options": ["quick", "quickly", "quickness", "quickest"],
+   "options": ["quick", "quickly", "quickness", "quicken"],
    "answer": "b",
-   "explanation_ja": "自動詞 responded（対応した）を修飾するので副詞 quickly。quick・quickest は形容詞、quickness は名詞。",
+   "explanation_ja": "自動詞 responded（対応した）を修飾するので副詞 quickly。quick は形容詞、quickness は名詞、quicken は「速める」という動詞。",
    "translation_ja": "技術サポートチームは、今朝報告されたネットワーク障害にすばやく対応した。",
-   "translation_options_ja": ["すばやい（形容詞）", "すばやく（副詞）", "すばやさ（名詞）", "最もすばやい（最上級）"]
+   "translation_options_ja": ["すばやい（形容詞）", "すばやく（副詞）", "すばやさ（名詞）", "速める（動詞）"]
   },
   {
    "id": "p5-0019",

@@ -3,18 +3,57 @@
   python3 scripts/import_review.py review/orca_result.json --reviewer orca
 結果は data/reviews.json に追記され、次に build_data.py を実行すると各問題の状態に反映される。
   一致して曖昧さの指摘もない → reviewed（レビュー済み）
-  正解が食い違う／曖昧・誤りの指摘がある → flagged（要確認）"""
-import json, pathlib, argparse, datetime, re
+  正解が食い違う／曖昧・誤りの指摘がある → flagged（要確認）
+各レビューにはそのときの問題の版（content_hash）を記録する。問題を直すと古いレビューは効かなくなり、
+その問題は draft に戻って、次の export_review.py の対象になる。
+
+指摘を検討した結果、問題を直さないと決めたときは理由を記録する（その問題の今の版への指摘がすべて解決済みになる）:
+  python3 scripts/import_review.py --resolve p7-0008 --note "most likely の推論で一意に決まる。変更不要"
+"""
+import json, pathlib, argparse, datetime, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ap = argparse.ArgumentParser(); ap.add_argument("file"); ap.add_argument("--reviewer", required=True); a = ap.parse_args()
-raw = pathlib.Path(a.file).read_text(encoding="utf-8")
-m = re.search(r"\[.*\]", raw, re.S)  # 前後に説明文が付いていても JSON 部分だけ読む
-res = json.loads(m.group(0) if m else raw)
+sys.path.insert(0, str(ROOT / "scripts"))
+from review_hash import content_hash
+
+ap = argparse.ArgumentParser()
+ap.add_argument("file", nargs="?", help="レビュー役が返した JSON のファイル")
+ap.add_argument("--reviewer", help="レビュー役の名前（orca, gpt など）")
+ap.add_argument("--resolve", metavar="ID", help="この問題への指摘を解決済みにする")
+ap.add_argument("--note", help="--resolve の理由")
+a = ap.parse_args()
+
 items = {i["id"]: i for i in json.loads((ROOT / "data/items.json").read_text(encoding="utf-8"))}
+sets = {s["id"]: s for s in json.loads((ROOT / "data/sets.json").read_text(encoding="utf-8"))}
 rpath = ROOT / "data/reviews.json"
 reviews = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
 now = datetime.datetime.now().isoformat(timespec="seconds")
+
+
+def chash(it):
+    return content_hash(it, sets.get(it.get("set_id")))
+
+
+def is_bad(r):
+    return (not r["agree"]) or r.get("ambiguous") or r.get("issues")
+
+
+if a.resolve:
+    if not a.note: sys.exit("--note で理由を書いてください")
+    it = items.get(a.resolve)
+    if not it: sys.exit(f"不明なID: {a.resolve}")
+    h = chash(it)
+    targets = [r for r in reviews.get(it["id"], []) if r.get("content_hash", h) == h and is_bad(r) and not r.get("resolved")]
+    if not targets: sys.exit(f"{it['id']}: 今の版の問題に未解決の指摘はありません")
+    for r in targets: r["resolved"] = {"at": now, "note": a.note}
+    rpath.write_text(json.dumps(reviews, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{it['id']}: 指摘 {len(targets)} 件を解決済みにしました。python3 scripts/build_data.py で状態に反映されます。")
+    sys.exit()
+
+if not (a.file and a.reviewer): ap.error("レビュー結果のファイルと --reviewer を指定してください")
+raw = pathlib.Path(a.file).read_text(encoding="utf-8")
+m = re.search(r"\[.*\]", raw, re.S)  # 前後に説明文が付いていても JSON 部分だけ読む
+res = json.loads(m.group(0) if m else raw)
 agree = disagree = flagged = 0
 for r in res:
     it = items.get(r.get("id"))
@@ -24,7 +63,8 @@ for r in res:
     ok = letter == key_letter
     issues = (r.get("issues") or "").strip()
     reviews.setdefault(it["id"], []).append({"reviewer": a.reviewer, "at": now, "answer": letter, "key": key_letter, "agree": ok,
-                                             "ambiguous": bool(r.get("ambiguous")), "confidence": r.get("confidence"), "issues": issues})
+                                             "ambiguous": bool(r.get("ambiguous")), "confidence": r.get("confidence"), "issues": issues,
+                                             "content_hash": chash(it)})
     if ok: agree += 1
     else: disagree += 1; print(f"不一致 {it['id']}: レビュー {letter} / 正解 {key_letter}  {issues}")
     if r.get("ambiguous") or issues: flagged += 1; print(f"指摘 {it['id']}: {'曖昧 ' if r.get('ambiguous') else ''}{issues}")

@@ -30,11 +30,11 @@
    "type": "grammar.preposition_vs_conjunction",
    "scene": "office",
    "level": "B1",
-   "prompt": "All visitors are required to sign in at the front desk ------- entering the building.",
+   "prompt": "All visitors are required to sign in at the front desk ------- entering the office area.",
    "options": ["before", "although", "because", "unless"],
    "answer": "a",
    "explanation_ja": "動名詞 entering の前に置けるのは前置詞の before。although・because・unless は接続詞で、ここでは使えない。",
-   "translation_ja": "来訪者は全員、建物に入る前に受付で記帳しなければならない。"
+   "translation_ja": "来訪者は全員、オフィスエリアに入る前に受付で記帳しなければならない。"
   },
   {
    "id": "p5-0004",
