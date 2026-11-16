@@ -1,0 +1,82 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "sets": [
+  {
+   "id": "p6-s001",
+   "kind": "email",
+   "scene": "office",
+   "passages": [
+    {
+     "type": "email",
+     "header": {
+      "To": "All Staff",
+      "From": "Paul Greene, Office Manager",
+      "Subject": "Kitchen renovation",
+      "Date": "May 2"
+     },
+     "text": "Dear staff,\n\nBeginning next Monday, the second-floor kitchen will be closed for renovation. The work is expected to [1] about two weeks. During this period, please use the kitchen on the third floor.\n\n[2] We ask that you take any personal items, such as mugs and food containers, out of the refrigerator by Friday evening. Anything left behind will be [3].\n\nWhen the kitchen reopens, it will have a larger refrigerator, a second microwave, and more seating. We appreciate your [4] while the work is being completed.\n\nPaul Greene"
+    }
+   ],
+   "translation_ja": "宛先：全従業員／差出人：ポール・グリーン（総務課長）／件名：給湯室の改装\n従業員の皆さま\n来週の月曜日から、2階の給湯室は改装のため閉鎖されます。工事は約2週間かかる見込みです。この間は3階の給湯室をご利用ください。\nなお、古い冷蔵庫は土曜日に撤去されます。マグカップや食品容器など私物は、金曜日の夕方までに冷蔵庫から出しておいてください。残されたものは処分されます。\n再開後の給湯室には、より大きな冷蔵庫、2台目の電子レンジ、座席の追加が予定されています。工事期間中のご理解に感謝いたします。",
+   "questions": [
+    {
+     "id": "p6-0001",
+     "type": "vocab.collocation",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["take", "make", "hold", "keep"],
+     "answer": "a",
+     "explanation_ja": "take ＋時間 で「（時間が）かかる」。The work is expected to take about two weeks.",
+     "translation_ja": "（空欄1）工事は約2週間かかる見込みだ。"
+    },
+    {
+     "id": "p6-0002",
+     "type": "text.insertion",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "Please note that the old refrigerator will be removed on Saturday.",
+      "The new menu will be posted in the cafeteria.",
+      "Thank you for attending the safety training last week.",
+      "The third-floor kitchen will also be closed during this time."
+     ],
+     "answer": "a",
+     "explanation_ja": "直後に「私物を金曜日の夕方までに冷蔵庫から出して」と続くので、古い冷蔵庫が土曜日に撤去されるという文が自然。(D) は3階を使うよう求める前の段落と矛盾する。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "なお、古い冷蔵庫は土曜日に撤去されます。",
+      "新しいメニューは食堂に掲示されます。",
+      "先週の安全研修へのご参加ありがとうございました。",
+      "3階の給湯室もこの間閉鎖されます。"
+     ]
+    },
+    {
+     "id": "p6-0003",
+     "type": "grammar.passive",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["discard", "discarded", "discarding", "discards"],
+     "answer": "b",
+     "explanation_ja": "will be の後で「処分される」という受け身にするので過去分詞 discarded。",
+     "translation_ja": "（空欄3）残されたものは処分される。"
+    },
+    {
+     "id": "p6-0004",
+     "type": "grammar.part_of_speech",
+     "scene": "office",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["patience", "patient", "patiently", "patients"],
+     "answer": "a",
+     "explanation_ja": "所有格 your の後には名詞が来る。「忍耐・辛抱」の patience。patients は「患者たち」で意味が合わない。",
+     "translation_ja": "（空欄4）ご辛抱（ご理解）に感謝します。"
+    }
+   ]
+  }
+ ]
+}

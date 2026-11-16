@@ -23,7 +23,8 @@ AIで作ったTOEIC L&R形式のオリジナル問題を、シャッフル・復
 
 ```
 index.html, css/, js/          アプリ本体（js/store.js だけ差し替えれば保存先を Supabase にできる）
-data/items.json, sets.json     問題データ（1件＝Supabase の1行）
+data/src/part{N}/*.json        問題の元データ（生成バッチごとに1ファイル。書き方は data/src/README.md）
+data/items.json, sets.json     問題データ（1件＝Supabase の1行。build_data.py が data/src から作る）
 data/bank.js                   上の2つをまとめたもの（アプリはこれを読む）
 data/blueprint.json            大量生成の設計表（Part × 出題タイプ × 場面）
 data/reviews.json              相互レビューの結果（import_review.py が作る）
@@ -35,7 +36,7 @@ supabase/schema.sql            段階2のテーブル案（行単位のアクセ
 
 ## 問題を増やすときの流れ
 
-1. **生成**：`data/blueprint.json` の升目（Part × 出題タイプ × 場面）を指定してAIに問題を作らせ、データに追加する
+1. **生成**：`data/blueprint.json` の升目（Part × 出題タイプ × 場面）を指定してAIに問題を作らせ、`data/src/part{N}/<バッチ名>.json` として置く（形は `data/src/README.md`）
 2. **データ作成**：`python3 scripts/build_data.py`
 3. **機械チェック**：`python3 scripts/validate.py`（形式の誤り、正解が選択肢にない、似すぎた問題、正解だけが長い選択肢などを検出）
 4. **相互レビュー**：`python3 scripts/export_review.py` で正解を伏せた問題集（`review/packet.md`）と指示文（`review/PROMPT.md`）を作り、Orca などで別のAIに解かせる

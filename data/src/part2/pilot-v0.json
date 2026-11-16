@@ -1,0 +1,103 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "items": [
+  {
+   "id": "p2-0001",
+   "type": "wh.when",
+   "scene": "meeting",
+   "level": "A2",
+   "prompt": "When is the budget meeting?",
+   "options": ["In conference room B.", "Tomorrow at ten.", "About the new budget."],
+   "answer": "b",
+   "explanation_ja": "When（いつ）に時を答えている (B) が正解。(C) は質問と同じ budget を使ったひっかけ。",
+   "translation_ja": "予算会議はいつですか。",
+   "translation_options_ja": ["会議室Bです。", "明日の10時です。", "新しい予算についてです。"]
+  },
+  {
+   "id": "p2-0002",
+   "type": "wh.who",
+   "scene": "hr",
+   "level": "A2",
+   "prompt": "Who's in charge of the new hiring process?",
+   "options": ["Ms. Park in human resources.", "Higher than last year.", "Yes, it's in process."],
+   "answer": "a",
+   "explanation_ja": "Who（誰）に人物で答えている (A) が正解。疑問詞で始まる質問に Yes/No で答える (C) は誤り。",
+   "translation_ja": "新しい採用手続きの担当は誰ですか。",
+   "translation_options_ja": ["人事部のパクさんです。", "去年より高いです。", "はい、手続き中です。"]
+  },
+  {
+   "id": "p2-0003",
+   "type": "wh.why",
+   "scene": "logistics",
+   "level": "A2",
+   "prompt": "Why was the delivery delayed?",
+   "options": ["Because of the snowstorm.", "Two boxes, please.", "It was delivered to the lobby."],
+   "answer": "a",
+   "explanation_ja": "Why（なぜ）に理由で答えている (A) が正解。(C) は delivery と似た delivered を使ったひっかけ。",
+   "translation_ja": "配達はなぜ遅れたのですか。",
+   "translation_options_ja": ["吹雪のせいです。", "2箱お願いします。", "ロビーに届けられました。"]
+  },
+  {
+   "id": "p2-0004",
+   "type": "offer",
+   "scene": "office",
+   "level": "A2",
+   "prompt": "Would you like me to print the agenda?",
+   "options": ["Thanks, that would be helpful.", "It's on the second floor.", "The printer is new."],
+   "answer": "a",
+   "explanation_ja": "Would you like me to ～?（～しましょうか）という申し出に、お礼を言って受けている (A) が正解。",
+   "translation_ja": "議題を印刷しましょうか。",
+   "translation_options_ja": ["ありがとう、助かります。", "2階にあります。", "そのプリンターは新しいです。"]
+  },
+  {
+   "id": "p2-0005",
+   "type": "negative.question",
+   "scene": "sales",
+   "level": "A2",
+   "prompt": "Haven't you finished the sales report yet?",
+   "options": ["I'm still waiting for the final figures.", "The sale ends on Sunday.", "Yes, he reported it."],
+   "answer": "a",
+   "explanation_ja": "まだ終わっていない理由を述べる (A) が自然な応答。(B) は sales に似た sale、(C) は report を使ったひっかけで、主語も he でずれている。",
+   "translation_ja": "売上報告書はまだ終わっていないのですか。",
+   "translation_options_ja": ["最終的な数字をまだ待っているところです。", "セールは日曜日に終わります。", "はい、彼が報告しました。"]
+  },
+  {
+   "id": "p2-0006",
+   "type": "choice",
+   "scene": "travel",
+   "level": "A2",
+   "prompt": "Should we take a taxi or the train to the airport?",
+   "options": ["The train is faster at this hour.", "Yes, I trained them.", "At gate twelve."],
+   "answer": "a",
+   "explanation_ja": "A or B の選択疑問文には Yes/No で答えない。理由を添えて電車を選んでいる (A) が正解。",
+   "translation_ja": "空港へはタクシーと電車のどちらで行きましょうか。",
+   "translation_options_ja": ["この時間は電車のほうが速いです。", "はい、私が彼らを訓練しました。", "12番ゲートです。"]
+  },
+  {
+   "id": "p2-0007",
+   "type": "wh.where",
+   "scene": "sales",
+   "level": "A2",
+   "prompt": "Where can I find the updated price list?",
+   "options": ["It's posted on the company intranet.", "The prices went up.", "I found it interesting."],
+   "answer": "a",
+   "explanation_ja": "Where（どこ）に場所で答えている (A) が正解。(C) は find を使ったひっかけ。",
+   "translation_ja": "最新の価格表はどこにありますか。",
+   "translation_options_ja": ["社内のイントラネットに掲載されています。", "値段が上がりました。", "おもしろいと思いました。"]
+  },
+  {
+   "id": "p2-0008",
+   "type": "tag.question",
+   "scene": "it",
+   "level": "A2",
+   "prompt": "The new software is much easier to use, isn't it?",
+   "options": ["Yes, it saves me a lot of time.", "Use the side entrance.", "It's on sale now."],
+   "answer": "a",
+   "explanation_ja": "付加疑問文（～ですよね）に同意して具体的に答えている (A) が正解。",
+   "translation_ja": "新しいソフトはずっと使いやすいですよね。",
+   "translation_options_ja": ["ええ、ずいぶん時間の節約になります。", "横の入口を使ってください。", "今セール中です。"]
+  }
+ ]
+}

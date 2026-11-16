@@ -1,7 +1,9 @@
 // TOEIC L&R 練習アプリ（試作）本体。データは data/bank.js（window.BANK）から読む。
 (function () {
   'use strict';
-  const BANK = window.BANK || { items: [], sets: [] };
+  const RAW = window.BANK || { items: [], sets: [] };
+  // retired（使わなくなった問題）は出題しない。データには学習記録のために残してある
+  const BANK = { ...RAW, items: RAW.items.filter(i => i.status !== 'retired'), sets: RAW.sets.filter(s => s.status !== 'retired') };
   const ITEMS = new Map(BANK.items.map(i => [i.id, i]));
   const SETS = new Map(BANK.sets.map(s => [s.id, s]));
   const PART_NAME = { 1: '写真描写問題', 2: '応答問題', 3: '会話問題', 4: '説明文問題', 5: '短文穴埋め問題', 6: '長文穴埋め問題', 7: '読解問題' };
@@ -17,7 +19,7 @@
   // Part 1・3・4・6・7 はセット（写真・会話・本文）ごと、Part 2・5 は1問ごとに出す
   function allUnits() {
     const units = [];
-    for (const s of BANK.sets) units.push({ part: s.part, set: s, items: s.question_ids.map(id => ITEMS.get(id)).filter(Boolean) });
+    for (const s of BANK.sets) { const its = s.question_ids.map(id => ITEMS.get(id)).filter(Boolean); if (its.length) units.push({ part: s.part, set: s, items: its }); }
     for (const it of BANK.items) if (!it.set_id) units.push({ part: it.part, set: null, items: [it] });
     return units;
   }

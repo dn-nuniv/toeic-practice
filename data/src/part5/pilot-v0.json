@@ -1,0 +1,139 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "items": [
+  {
+   "id": "p5-0001",
+   "type": "grammar.passive",
+   "scene": "finance",
+   "level": "B1",
+   "prompt": "The quarterly report must be ------- to the finance department by Friday.",
+   "options": ["submit", "submitting", "submitted", "submission"],
+   "answer": "c",
+   "explanation_ja": "must be の後で「提出される」という受け身にするので過去分詞 submitted。",
+   "translation_ja": "四半期報告書は金曜日までに経理部に提出されなければならない。"
+  },
+  {
+   "id": "p5-0002",
+   "type": "grammar.preposition",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "Ms. Tanaka has worked at Corvex Industries ------- 2019.",
+   "options": ["since", "for", "during", "until"],
+   "answer": "a",
+   "explanation_ja": "現在完了（has worked）と、起点を表す年（2019）を結ぶのは since。for の後には期間（five years など）が来る。",
+   "translation_ja": "タナカさんは2019年からコーベックス工業で働いている。"
+  },
+  {
+   "id": "p5-0003",
+   "type": "grammar.preposition_vs_conjunction",
+   "scene": "office",
+   "level": "B1",
+   "prompt": "All visitors are required to sign in at the front desk ------- entering the building.",
+   "options": ["before", "although", "because", "unless"],
+   "answer": "a",
+   "explanation_ja": "動名詞 entering の前に置けるのは前置詞の before。although・because・unless は接続詞で、ここでは使えない。",
+   "translation_ja": "来訪者は全員、建物に入る前に受付で記帳しなければならない。"
+  },
+  {
+   "id": "p5-0004",
+   "type": "grammar.comparative",
+   "scene": "marketing",
+   "level": "B1",
+   "prompt": "The new marketing campaign was ------- successful than the company had expected.",
+   "options": ["much", "more", "most", "very"],
+   "answer": "b",
+   "explanation_ja": "than があるので比較級を作る more。much は比較級を強める語なので、much more successful の形なら使える。",
+   "translation_ja": "新しい販促キャンペーンは、会社が予想していた以上に成功した。"
+  },
+  {
+   "id": "p5-0005",
+   "type": "grammar.quantifier",
+   "scene": "legal",
+   "level": "B1",
+   "prompt": "Please let us know if you have ------- questions about the contract.",
+   "options": ["any", "every", "much", "each"],
+   "answer": "a",
+   "explanation_ja": "疑問・条件の文で複数形の名詞 questions を修飾できるのは any。every と each は単数名詞、much は数えられない名詞に付く。",
+   "translation_ja": "契約について何か質問があればお知らせください。"
+  },
+  {
+   "id": "p5-0006",
+   "type": "grammar.conjunction",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "The training session has been postponed ------- the instructor is ill.",
+   "options": ["because", "because of", "despite", "so that"],
+   "answer": "a",
+   "explanation_ja": "後ろに主語と動詞（the instructor is ill）が続くので接続詞の because。because of と despite の後には名詞が来る。",
+   "translation_ja": "講師が病気のため、研修は延期された。"
+  },
+  {
+   "id": "p5-0007",
+   "type": "grammar.pronoun",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "Employees who wish to take time off in August should submit ------- requests by June 30.",
+   "options": ["they", "them", "their", "themselves"],
+   "answer": "c",
+   "explanation_ja": "名詞 requests の前なので所有格 their。",
+   "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。"
+  },
+  {
+   "id": "p5-0008",
+   "type": "vocab.adjective",
+   "scene": "travel",
+   "level": "B1",
+   "prompt": "The hotel offers a shuttle service to the airport, which is ------- to all guests free of charge.",
+   "options": ["available", "capable", "eligible", "responsible"],
+   "answer": "a",
+   "explanation_ja": "be available to ～ で「～が利用できる」。eligible は for を伴って「資格がある」の意味で、主語が人になる。",
+   "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。"
+  },
+  {
+   "id": "p5-0009",
+   "type": "grammar.tense",
+   "scene": "logistics",
+   "level": "B1",
+   "prompt": "Mr. Ortiz ------- the shipment schedule when the client called.",
+   "options": ["reviews", "was reviewing", "has reviewed", "will review"],
+   "answer": "b",
+   "explanation_ja": "when the client called（過去のある時点）にしていた最中の動作なので過去進行形。",
+   "translation_ja": "顧客から電話があったとき、オルティスさんは出荷予定を確認していた。"
+  },
+  {
+   "id": "p5-0010",
+   "type": "vocab.verb",
+   "scene": "customer.service",
+   "level": "B1",
+   "prompt": "The company decided to ------- its customer service hours to better serve international clients.",
+   "options": ["extend", "expire", "exceed", "explain"],
+   "answer": "a",
+   "explanation_ja": "「受付時間を延長する」の extend。expire（期限が切れる）は目的語をとらない。",
+   "translation_ja": "その会社は海外の顧客により良く対応するため、顧客サービスの受付時間を延長することにした。"
+  },
+  {
+   "id": "p5-0011",
+   "type": "grammar.correlative",
+   "scene": "meeting",
+   "level": "B1",
+   "prompt": "Neither the manager ------- her assistant was able to attend the conference.",
+   "options": ["or", "nor", "and", "but"],
+   "answer": "b",
+   "explanation_ja": "neither A nor B（AもBも～ない）の組み合わせ。either なら or を使う。",
+   "translation_ja": "部長もそのアシスタントも、会議に出席できなかった。"
+  },
+  {
+   "id": "p5-0012",
+   "type": "grammar.part_of_speech",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "Applications will be reviewed -------, and qualified candidates will be contacted within two weeks.",
+   "options": ["careful", "carefully", "carefulness", "more careful"],
+   "answer": "b",
+   "explanation_ja": "動詞 reviewed を修飾するので副詞 carefully。",
+   "translation_ja": "応募書類は慎重に審査され、条件を満たす候補者には2週間以内に連絡がある。"
+  }
+ ]
+}

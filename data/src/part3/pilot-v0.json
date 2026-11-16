@@ -1,0 +1,166 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "sets": [
+  {
+   "id": "p3-s001",
+   "kind": "conversation",
+   "scene": "meeting",
+   "speakers": [{"id": "W", "gender": "female"}, {"id": "M", "gender": "male", "name": "Daniel"}],
+   "segments": [
+    {
+     "speaker": "W",
+     "text": "Hi, Daniel. The clients from Harlow Foods just called. Their flight was canceled, so they can't come in on Tuesday."
+    },
+    {
+     "speaker": "M",
+     "text": "That's a shame. We've already reserved the large meeting room and ordered lunch for twelve people."
+    },
+    {
+     "speaker": "W",
+     "text": "I know. They asked if we could move the presentation to Thursday afternoon instead."
+    },
+    {"speaker": "M", "text": "Thursday? I'm supposed to be at the trade fair in Chicago that day."},
+    {"speaker": "W", "text": "Well, Maria worked on the proposal with you. She knows it inside out."},
+    {
+     "speaker": "M",
+     "text": "True. I'll ask her this morning, and I'll call the caterer to change the lunch order."
+    }
+   ],
+   "translation_ja": "女性：ダニエル、ハーロウ・フーズのお客さまから電話があったわ。飛行機が欠航して、火曜日に来られなくなったそうよ。\n男性：それは残念だ。大会議室を予約して、12人分の昼食も注文してあるのに。\n女性：そうよね。代わりに木曜日の午後に発表を移せないかと聞かれたの。\n男性：木曜日？その日はシカゴの見本市に行くことになっているんだ。\n女性：でも、マリアはあなたと一緒に提案書を作ったでしょう。隅から隅まで分かっているわ。\n男性：確かに。今朝のうちに彼女に頼んでみるよ。それから、仕出し業者に電話して昼食の注文を変更しておく。",
+   "questions": [
+    {
+     "id": "p3-0001",
+     "type": "detail",
+     "scene": "meeting",
+     "level": "B1",
+     "prompt": "Why can't the clients come on Tuesday?",
+     "options": [
+      "Their flight was canceled.",
+      "They are attending a trade fair.",
+      "The meeting room is not available.",
+      "They want to change the proposal."
+     ],
+     "answer": "a",
+     "explanation_ja": "女性の最初の発言に Their flight was canceled とある。見本市に行くのは男性なので (B) は誤り。",
+     "translation_ja": "顧客はなぜ火曜日に来られないのか。",
+     "translation_options_ja": ["飛行機が欠航した。", "見本市に参加する。", "会議室が使えない。", "提案内容を変えたい。"]
+    },
+    {
+     "id": "p3-0002",
+     "type": "intention",
+     "scene": "meeting",
+     "level": "B1",
+     "prompt": "What does the woman imply when she says, \"She knows it inside out\"?",
+     "options": [
+      "Maria can give the presentation.",
+      "Maria should revise the proposal.",
+      "Maria has visited Harlow Foods.",
+      "Maria will order lunch."
+     ],
+     "answer": "a",
+     "explanation_ja": "男性が木曜日に不在だと言ったのを受けて、提案書をよく知るマリアなら代わりに発表できる、とほのめかしている。発言の意図を問う問題は前後の流れで判断する。",
+     "translation_ja": "女性が「隅から隅まで分かっている」と言うとき、何を示唆しているか。",
+     "translation_options_ja": ["マリアが発表できる。", "マリアは提案書を直すべきだ。", "マリアはハーロウ・フーズを訪れたことがある。", "マリアが昼食を注文する。"]
+    },
+    {
+     "id": "p3-0003",
+     "type": "next.action",
+     "scene": "meeting",
+     "level": "B1",
+     "prompt": "What does the man say he will do?",
+     "options": [
+      "Book a flight to Chicago",
+      "Contact a catering company",
+      "Reserve a different room",
+      "Call the clients"
+     ],
+     "answer": "b",
+     "explanation_ja": "最後に I'll call the caterer と言っている。caterer（仕出し業者）が catering company に言い換えられている。",
+     "translation_ja": "男性は何をすると言っているか。",
+     "translation_options_ja": ["シカゴ行きの飛行機を予約する", "仕出し業者に連絡する", "別の部屋を予約する", "顧客に電話する"]
+    }
+   ]
+  },
+  {
+   "id": "p3-s002",
+   "kind": "conversation",
+   "scene": "customer.service",
+   "speakers": [{"id": "M", "gender": "male"}, {"id": "W", "gender": "female"}],
+   "segments": [
+    {
+     "speaker": "M",
+     "text": "Hello, I'm calling about the order of printer paper we placed last week. It hasn't arrived yet, and we're running out."
+    },
+    {
+     "speaker": "W",
+     "text": "I'm sorry about that. I see that it was sent by standard delivery, so it should arrive by Friday."
+    },
+    {
+     "speaker": "M",
+     "text": "We have an important mailing on Wednesday. Is there any way to get more paper before then?"
+    },
+    {
+     "speaker": "W",
+     "text": "I can send a second box today. Since you're outside our local area, the fastest option would be next-day delivery, and I'll waive the fee."
+    },
+    {"speaker": "M", "text": "That would be great. Thank you."}
+   ],
+   "graphic": {
+    "title": "Delivery Options",
+    "columns": ["Option", "Time", "Fee"],
+    "rows": [
+     ["Standard", "5–7 days", "$8"],
+     ["Express", "2–3 days", "$15"],
+     ["Next Day", "1 day", "$25"],
+     ["Same Day (local only)", "Same day", "$40"]
+    ]
+   },
+   "translation_ja": "男性：もしもし、先週注文したプリンター用紙の件でお電話しました。まだ届かなくて、もうすぐなくなりそうなんです。\n女性：申し訳ございません。通常配送で発送されていますので、金曜日までには届くはずです。\n男性：水曜日に大事な郵送物があるんです。それまでに用紙を手に入れる方法はありませんか。\n女性：本日、もう1箱お送りできます。お客さまは当社の地域外ですので、最も早いのは翌日配送になります。配送料は無料にいたします。\n男性：それは助かります。ありがとうございます。",
+   "questions": [
+    {
+     "id": "p3-0004",
+     "type": "problem",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "What problem does the man mention?",
+     "options": [
+      "An order has not arrived.",
+      "A printer is broken.",
+      "A bill is incorrect.",
+      "A mailing was lost."
+     ],
+     "answer": "a",
+     "explanation_ja": "男性の最初の発言 It hasn't arrived yet から、注文品が届いていないことが分かる。",
+     "translation_ja": "男性はどんな問題を述べているか。",
+     "translation_options_ja": ["注文品が届いていない。", "プリンターが壊れている。", "請求書が間違っている。", "郵送物がなくなった。"]
+    },
+    {
+     "id": "p3-0005",
+     "type": "graphic",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "Look at the graphic. How much would the man normally pay for the second delivery?",
+     "options": ["$8", "$15", "$25", "$40"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "女性は翌日配送（next-day delivery）で送ると言っている。表で Next Day の料金を見ると $25。当日配送は地域内（local only）のみなので対象外。",
+     "translation_ja": "図を見てください。2回目の配送に男性は通常いくら払うことになるか。"
+    },
+    {
+     "id": "p3-0006",
+     "type": "offer",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "What does the woman offer to do?",
+     "options": ["Send a free sample", "Waive a fee", "Cancel the first order", "Refund the original order"],
+     "answer": "b",
+     "explanation_ja": "I'll waive the fee（料金を免除します）と言っている。",
+     "translation_ja": "女性は何をすると申し出ているか。",
+     "translation_options_ja": ["無料サンプルを送る", "料金を免除する", "最初の注文を取り消す", "元の注文代金を返金する"]
+    }
+   ]
+  }
+ ]
+}

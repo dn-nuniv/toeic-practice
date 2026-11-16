@@ -1,0 +1,133 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "sets": [
+  {
+   "id": "p4-s001",
+   "kind": "announcement",
+   "scene": "facilities",
+   "speakers": [{"id": "N", "gender": "female"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Attention, all employees. This is a reminder that maintenance work on the east elevators will begin this Saturday at 8 A.M. and is expected to continue through Monday afternoon."
+    },
+    {
+     "speaker": "N",
+     "text": "During this time, please use the west elevators or the stairs. Employees who need to move heavy equipment should contact the facilities office in advance so that a service elevator can be reserved."
+    },
+    {"speaker": "N", "text": "We apologize for any inconvenience and thank you for your patience."}
+   ],
+   "translation_ja": "従業員の皆さまにお知らせします。東側エレベーターの保守作業が、今週土曜日の午前8時に始まり、月曜日の午後まで続く予定です。この間は、西側のエレベーターか階段をご利用ください。重い機材を運ぶ必要がある方は、業務用エレベーターを予約できるよう、事前に施設管理室へご連絡ください。ご不便をおかけしますが、ご理解とご協力をお願いいたします。",
+   "questions": [
+    {
+     "id": "p4-0001",
+     "type": "main.topic",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "What is the announcement mainly about?",
+     "options": ["An office relocation", "Elevator maintenance", "A fire drill", "New security procedures"],
+     "answer": "b",
+     "explanation_ja": "冒頭の maintenance work on the east elevators から、エレベーターの保守作業についての案内と分かる。",
+     "translation_ja": "お知らせは主に何についてか。",
+     "translation_options_ja": ["事務所の移転", "エレベーターの保守", "避難訓練", "新しい保安手順"]
+    },
+    {
+     "id": "p4-0002",
+     "type": "detail",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "When will the work end?",
+     "options": ["On Saturday morning", "On Saturday evening", "On Monday afternoon", "On Tuesday morning"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "continue through Monday afternoon（月曜日の午後まで続く）とある。土曜日の午前8時は開始時刻。",
+     "translation_ja": "作業はいつ終わるか。",
+     "translation_options_ja": ["土曜日の朝", "土曜日の夕方", "月曜日の午後", "火曜日の朝"]
+    },
+    {
+     "id": "p4-0003",
+     "type": "reason",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "Why should some employees contact the facilities office?",
+     "options": [
+      "To report a problem",
+      "To reserve a service elevator",
+      "To request a parking space",
+      "To receive a new badge"
+     ],
+     "answer": "b",
+     "explanation_ja": "重い機材を運ぶ人は so that a service elevator can be reserved（業務用エレベーターを予約するために）連絡するよう求められている。",
+     "translation_ja": "一部の従業員はなぜ施設管理室に連絡すべきなのか。",
+     "translation_options_ja": ["問題を報告するため", "業務用エレベーターを予約するため", "駐車スペースを申し込むため", "新しい社員証を受け取るため"]
+    }
+   ]
+  },
+  {
+   "id": "p4-s002",
+   "kind": "voicemail",
+   "scene": "printing",
+   "speakers": [{"id": "N", "gender": "female", "name": "Karen Lee"}],
+   "segments": [
+    {
+     "speaker": "N",
+     "text": "Hi, this is Karen Lee from Brightline Printing. I'm calling about the brochures you ordered for your company's anniversary event."
+    },
+    {
+     "speaker": "N",
+     "text": "We've finished the design proofs, but there's a question about the cover photo. The image file you sent is a little too small, so it may look blurry when it's printed."
+    },
+    {
+     "speaker": "N",
+     "text": "If you have a higher-resolution version, could you e-mail it to me by noon tomorrow? That way, we can still deliver the brochures on schedule next Wednesday. Thanks."
+    }
+   ],
+   "translation_ja": "もしもし、ブライトライン印刷のカレン・リーです。御社の創立記念行事用にご注文いただいたパンフレットの件でお電話しました。デザインの校正刷りはできあがったのですが、表紙の写真について確認があります。お送りいただいた画像ファイルが少し小さいため、印刷するとぼやけて見えるかもしれません。解像度の高いものがあれば、明日の正午までにメールでお送りいただけますか。そうすれば、予定どおり来週の水曜日にパンフレットをお届けできます。よろしくお願いします。",
+   "questions": [
+    {
+     "id": "p4-0004",
+     "type": "speaker.identity",
+     "scene": "printing",
+     "level": "B1",
+     "prompt": "Who most likely is the speaker?",
+     "options": ["An event planner", "A printing company employee", "A photographer", "A delivery driver"],
+     "answer": "b",
+     "explanation_ja": "this is Karen Lee from Brightline Printing と名乗り、パンフレットの校正の話をしているので印刷会社の社員。",
+     "translation_ja": "話し手は誰だと考えられるか。",
+     "translation_options_ja": ["イベントの企画者", "印刷会社の社員", "写真家", "配達ドライバー"]
+    },
+    {
+     "id": "p4-0005",
+     "type": "problem",
+     "scene": "printing",
+     "level": "B1",
+     "prompt": "What problem does the speaker mention?",
+     "options": [
+      "An image file is too small.",
+      "A delivery date has changed.",
+      "A payment is overdue.",
+      "Some text is misspelled."
+     ],
+     "answer": "a",
+     "explanation_ja": "The image file you sent is a little too small とある。納品日は予定どおりなので (B) は誤り。",
+     "translation_ja": "話し手はどんな問題を述べているか。",
+     "translation_options_ja": ["画像ファイルが小さすぎる。", "配達日が変わった。", "支払いが遅れている。", "文字につづりの誤りがある。"]
+    },
+    {
+     "id": "p4-0006",
+     "type": "request",
+     "scene": "printing",
+     "level": "B1",
+     "prompt": "What does the speaker ask the listener to do by tomorrow?",
+     "options": ["Approve a price", "Send a file", "Pick up some brochures", "Choose a new photographer"],
+     "answer": "b",
+     "explanation_ja": "could you e-mail it to me by noon tomorrow と、高解像度の画像を送るよう頼んでいる。",
+     "translation_ja": "話し手は聞き手に明日までに何をするよう頼んでいるか。",
+     "translation_options_ja": ["価格を承認する", "ファイルを送る", "パンフレットを受け取りに来る", "新しい写真家を選ぶ"]
+    }
+   ]
+  }
+ ]
+}

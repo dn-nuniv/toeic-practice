@@ -1,0 +1,90 @@
+{
+ "batch": "pilot-v0",
+ "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+ "note": "試作の49問（もとは build_data.py に直書き）",
+ "sets": [
+  {
+   "id": "p1-s0001",
+   "kind": "photo",
+   "scene": "office",
+   "image": "images/part1/p1-0001.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0001",
+     "type": "photo.description",
+     "scene": "office",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "She's arranging chairs in a row.",
+      "She's watering some plants.",
+      "She's opening a window.",
+      "She's putting on a jacket."
+     ],
+     "answer": "b",
+     "explanation_ja": "女性がじょうろで窓辺の植物に水をやっている。窓は閉まっているので (C) は誤り。",
+     "translation_ja": "",
+     "translation_options_ja": ["彼女は椅子を一列に並べている。", "彼女は植物に水をやっている。", "彼女は窓を開けている。", "彼女は上着を着ているところだ。"]
+    }
+   ]
+  },
+  {
+   "id": "p1-s0002",
+   "kind": "photo",
+   "scene": "warehouse",
+   "image": "images/part1/p1-0002.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0002",
+     "type": "photo.description",
+     "scene": "warehouse",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "A man is moving some boxes with a hand truck.",
+      "A man is climbing a ladder.",
+      "Some shelves are being painted.",
+      "A truck is parked in a garage."
+     ],
+     "answer": "a",
+     "explanation_ja": "男性が台車（hand truck）で箱を運んでいる。はしご・ペンキ塗り・トラックは写真にない。写っていない物を含む選択肢は消去できる。",
+     "translation_ja": "",
+     "translation_options_ja": ["男性が台車で箱を運んでいる。", "男性がはしごを登っている。", "棚にペンキが塗られているところだ。", "トラックが車庫に止めてある。"]
+    }
+   ]
+  },
+  {
+   "id": "p1-s0003",
+   "kind": "photo",
+   "scene": "meeting",
+   "image": "images/part1/p1-0003.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0003",
+     "type": "photo.description",
+     "scene": "meeting",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "People are seated around a table.",
+      "A presentation is being given.",
+      "Some chairs have been arranged around a table.",
+      "A screen is being installed."
+     ],
+     "answer": "c",
+     "explanation_ja": "人が写っていない写真。being（進行中の動作）を含む選択肢は、動作をしている人がいないので誤り。have been arranged（並べられた状態）が正解。",
+     "translation_ja": "",
+     "translation_options_ja": [
+      "人々がテーブルを囲んで座っている。",
+      "発表が行われているところだ。",
+      "椅子がテーブルの周りに並べられている。",
+      "スクリーンが取り付けられているところだ。"
+     ]
+    }
+   ]
+  }
+ ]
+}
