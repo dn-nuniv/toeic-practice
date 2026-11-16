@@ -179,6 +179,14 @@
     </div>`;
   }
 
+  // 解説の (A)〜(D) はデータ上の並び順で書いてあるので、画面に出した並び順の記号に置き換える
+  function relabel(text, it, ord) {
+    return String(text || '').replace(/\(([A-D])\)/g, (m, a) => {
+      const o = it.options[a.charCodeAt(0) - 65];
+      return o ? `(${L[ord.indexOf(o.id)]})` : m;
+    });
+  }
+
   // ------------------------------------------------------------ 採点
   function grade() {
     if (session.graded) return;
@@ -193,7 +201,7 @@
       const ord = u.order[it.id], letter = L[ord.indexOf(it.answer)];
       const tro = it.translation_options_ja ? `<ul class="tro">${ord.map((oid, i) => `<li>(${L[i]}) ${esc(it.translation_options_ja[it.options.findIndex(o => o.id === oid)])}</li>`).join('')}</ul>` : '';
       const e = box.querySelector('.exp'); e.hidden = false;
-      e.innerHTML = `<div class="verdict">${ok ? '◯ 正解' : chosen ? '✕ 不正解' : '― 未解答'}　正解は (${letter})</div><p>${esc(it.explanation_ja)}</p>${it.translation_ja && it.part !== 6 ? `<p class="tr">訳：${esc(it.translation_ja)}</p>` : ''}${tro}`;
+      e.innerHTML = `<div class="verdict">${ok ? '◯ 正解' : chosen ? '✕ 不正解' : '― 未解答'}　正解は (${letter})</div><p>${esc(relabel(it.explanation_ja, it, ord))}</p>${it.translation_ja && it.part !== 6 ? `<p class="tr">訳：${esc(it.translation_ja)}</p>` : ''}${tro}`;
       const prev = Store.getProgress(it.id);
       Store.putProgress(SRS.update(prev, it.id, ok, now));
       Store.addAttempt({ item_id: it.id, part: it.part, correct: ok, chosen, first_try: !prev, mode: session.mode, at: new Date(now).toISOString() });

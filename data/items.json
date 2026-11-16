@@ -815,6 +815,981 @@
   }
  },
  {
+  "id": "p2-0009",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.when",
+  "scene": "logistics",
+  "prompt": "When will the new office chairs be delivered?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The supplier said early next week."
+   },
+   {
+    "id": "b",
+    "text": "In the main storage room."
+   },
+   {
+    "id": "c",
+    "text": "Yes, they're very comfortable."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "When（いつ）に「来週の初め」と時で答えている (A) が正解。(B) は場所の答え、(C) は疑問詞の質問に Yes で答えているので誤り。",
+  "translation_ja": "新しい事務用の椅子はいつ届きますか。",
+  "translation_options_ja": [
+   "業者は来週の初めだと言っていました。",
+   "大きいほうの倉庫です。",
+   "はい、とても座り心地がいいです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0010",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.where",
+  "scene": "travel",
+  "prompt": "Where should I leave my suitcase during the tour?",
+  "options": [
+   {
+    "id": "a",
+    "text": "About two hours long."
+   },
+   {
+    "id": "b",
+    "text": "There are lockers next to the ticket office."
+   },
+   {
+    "id": "c",
+    "text": "I'll leave at three."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "Where（どこ）に「チケット売り場の隣のロッカー」と場所で答えている (B) が正解。(C) は leave（置いていく／出発する）を使ったひっかけ。",
+  "translation_ja": "ツアーの間、スーツケースはどこに置いておけばいいですか。",
+  "translation_options_ja": [
+   "2時間ほどです。",
+   "チケット売り場の隣にロッカーがあります。",
+   "私は3時に出ます。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0011",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.where",
+  "scene": "retail",
+  "prompt": "Where are the new winter jackets displayed?",
+  "options": [
+   {
+    "id": "a",
+    "text": "They're very warm."
+   },
+   {
+    "id": "b",
+    "text": "On display until Friday."
+   },
+   {
+    "id": "c",
+    "text": "They haven't arrived yet."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "場所を答えずに「まだ入荷していない」と事情を伝える間接的な応答 (C) が正解。(B) は displayed に似た display を使い、時を答えている。",
+  "translation_ja": "新しい冬物のジャケットはどこに並べてありますか。",
+  "translation_options_ja": [
+   "とても暖かいです。",
+   "金曜日まで展示しています。",
+   "まだ入荷していないんです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0012",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.who",
+  "scene": "it",
+  "prompt": "Who's going to set up the projector for the training session?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ken from the IT department volunteered."
+   },
+   {
+    "id": "b",
+    "text": "It's on the third floor."
+   },
+   {
+    "id": "c",
+    "text": "Yes, the session was useful."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Who（誰）に「IT部のケン」と人物で答えている (A) が正解。(C) は session を繰り返したひっかけで、疑問詞の質問に Yes で答えている。",
+  "translation_ja": "研修のプロジェクターは誰が準備するのですか。",
+  "translation_options_ja": [
+   "IT部のケンが引き受けてくれました。",
+   "3階にあります。",
+   "はい、その研修は役に立ちました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0013",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.why",
+  "scene": "hr",
+  "prompt": "Why hasn't the job posting been published yet?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Because of the post office."
+   },
+   {
+    "id": "b",
+    "text": "Ms. Reyes is still revising the description."
+   },
+   {
+    "id": "c",
+    "text": "At the end of the month."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "理由として「まだ説明文を直している」と答えている (B) が正解。(A) は Because で始まるが posting に似た post を使ったひっかけで、内容が合わない。",
+  "translation_ja": "求人の告知はなぜまだ掲載されていないのですか。",
+  "translation_options_ja": [
+   "郵便局のせいです。",
+   "レイエスさんがまだ仕事内容の説明を直しているんです。",
+   "月末です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0014",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.how",
+  "scene": "finance",
+  "prompt": "How did you get the budget approved so quickly?",
+  "options": [
+   {
+    "id": "a",
+    "text": "About twenty thousand dollars."
+   },
+   {
+    "id": "b",
+    "text": "Yes, it was approved yesterday."
+   },
+   {
+    "id": "c",
+    "text": "I sent the director a detailed cost breakdown."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "How（どうやって）に方法で答えている (C) が正解。(A) は How much（いくら）への答え、(B) は approved を繰り返し、疑問詞の質問に Yes で答えている。",
+  "translation_ja": "どうやってそんなに早く予算の承認をもらったのですか。",
+  "translation_options_ja": [
+   "約2万ドルです。",
+   "はい、昨日承認されました。",
+   "部長に詳しい費用の内訳を送ったんです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0015",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.how",
+  "scene": "events",
+  "prompt": "How many people have registered for the workshop?",
+  "options": [
+   {
+    "id": "a",
+    "text": "I'll have to check the sign-up sheet."
+   },
+   {
+    "id": "b",
+    "text": "In the large conference room."
+   },
+   {
+    "id": "c",
+    "text": "It's a two-day workshop."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "人数を答えずに「申込書を確認しないと」と答える間接的な応答 (A) が正解。(C) は workshop を繰り返し、数（two）を含むが人数ではない。",
+  "translation_ja": "ワークショップには何人が申し込んでいますか。",
+  "translation_options_ja": [
+   "申込書を確認しないとわかりません。",
+   "大会議室です。",
+   "2日間のワークショップです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0016",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.what",
+  "scene": "restaurant",
+  "prompt": "What time does the restaurant start serving dinner?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A table for four, please."
+   },
+   {
+    "id": "b",
+    "text": "Usually at five-thirty."
+   },
+   {
+    "id": "c",
+    "text": "The dinner was excellent."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "What time（何時）に時刻で答えている (B) が正解。(C) は dinner を繰り返したひっかけ。",
+  "translation_ja": "そのレストランは何時から夕食を出していますか。",
+  "translation_options_ja": [
+   "4人でお願いします。",
+   "たいてい5時半です。",
+   "夕食はすばらしかったです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0017",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.what",
+  "scene": "marketing",
+  "prompt": "What did the clients think of our new logo design?",
+  "options": [
+   {
+    "id": "a",
+    "text": "We'll meet them at noon."
+   },
+   {
+    "id": "b",
+    "text": "In the design department."
+   },
+   {
+    "id": "c",
+    "text": "They've asked for a few more options."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「もう少し案がほしい」と、気に入っていないことを間接的に伝える (C) が正解。(B) は design を繰り返し、場所を答えている。",
+  "translation_ja": "お客さまは新しいロゴのデザインをどう思っていましたか。",
+  "translation_options_ja": [
+   "正午に会います。",
+   "デザイン部です。",
+   "もういくつか案がほしいと言っています。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0018",
+  "part": 2,
+  "set_id": null,
+  "type": "yes_no",
+  "scene": "office",
+  "prompt": "Is the printer on the second floor working again?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, a technician fixed it this morning."
+   },
+   {
+    "id": "b",
+    "text": "Print twenty copies, please."
+   },
+   {
+    "id": "c",
+    "text": "I usually work from home."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Yes と答えて、今朝直ったと補っている (A) が正解。(B) は printer に似た print、(C) は working に似た work を使ったひっかけ。",
+  "translation_ja": "2階のプリンターはまた使えるようになりましたか。",
+  "translation_options_ja": [
+   "はい、今朝技術者が直しました。",
+   "20部印刷してください。",
+   "私はふだん在宅勤務です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0019",
+  "part": 2,
+  "set_id": null,
+  "type": "yes_no",
+  "scene": "fitness",
+  "prompt": "Do you know if the gym is open on holidays?",
+  "options": [
+   {
+    "id": "a",
+    "text": "I go there three times a week."
+   },
+   {
+    "id": "b",
+    "text": "There's a schedule posted at the entrance."
+   },
+   {
+    "id": "c",
+    "text": "Yes, it's a great holiday."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "知っているかどうかではなく「入口に予定表がある」と調べ方を示す間接的な応答 (B) が正解。(C) は Yes と holiday を使ったひっかけ。",
+  "translation_ja": "ジムが祝日に開いているかご存じですか。",
+  "translation_options_ja": [
+   "週に3回通っています。",
+   "入口に予定表が貼ってありますよ。",
+   "はい、すてきな休日です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0020",
+  "part": 2,
+  "set_id": null,
+  "type": "negative.question",
+  "scene": "customer.service",
+  "prompt": "Didn't the customer receive a refund last week?",
+  "options": [
+   {
+    "id": "a",
+    "text": "She received an award."
+   },
+   {
+    "id": "b",
+    "text": "Every week on Monday."
+   },
+   {
+    "id": "c",
+    "text": "No, the payment is still being processed."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "No（受けていない）と答え、まだ手続き中だと理由を補う (C) が正解。(A) は receive、(B) は week を繰り返したひっかけ。",
+  "translation_ja": "そのお客さまは先週返金を受けたのではなかったですか。",
+  "translation_options_ja": [
+   "彼女は賞をもらいました。",
+   "毎週月曜日です。",
+   "いいえ、支払いはまだ手続き中です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0021",
+  "part": 2,
+  "set_id": null,
+  "type": "tag.question",
+  "scene": "facilities",
+  "prompt": "The elevators will be inspected tomorrow, won't they?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, so we'll have to take the stairs."
+   },
+   {
+    "id": "b",
+    "text": "He's an inspector."
+   },
+   {
+    "id": "c",
+    "text": "On the fifth floor."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Yes と認め、階段を使うことになると続ける (A) が正解。(B) は inspected に似た inspector を使ったひっかけ。",
+  "translation_ja": "エレベーターは明日点検されるのですよね。",
+  "translation_options_ja": [
+   "ええ、だから階段を使わないといけませんね。",
+   "彼は検査官です。",
+   "5階です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0022",
+  "part": 2,
+  "set_id": null,
+  "type": "choice",
+  "scene": "travel",
+  "prompt": "Would you prefer a window seat or an aisle seat?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, I would."
+   },
+   {
+    "id": "b",
+    "text": "Whichever is closer to the front."
+   },
+   {
+    "id": "c",
+    "text": "I saw it through the window."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "A or B の質問に「前に近いほうならどちらでも」と条件で答えている (B) が正解。選択疑問文に Yes で答える (A) は誤り、(C) は window を繰り返したひっかけ。",
+  "translation_ja": "窓側の席と通路側の席のどちらがよろしいですか。",
+  "translation_options_ja": [
+   "はい、そうしたいです。",
+   "前のほうに近いほうならどちらでも。",
+   "窓から見えました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0023",
+  "part": 2,
+  "set_id": null,
+  "type": "choice",
+  "scene": "printing",
+  "prompt": "Should we print the brochures in color or in black and white?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, we should."
+   },
+   {
+    "id": "b",
+    "text": "About three hundred copies."
+   },
+   {
+    "id": "c",
+    "text": "Color would attract more attention."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "カラーを選び、理由も添えている (C) が正解。選択疑問文に Yes で答える (A) は誤り、(B) は部数を答えている。",
+  "translation_ja": "パンフレットはカラーと白黒のどちらで印刷しましょうか。",
+  "translation_options_ja": [
+   "はい、そうすべきです。",
+   "300部ほどです。",
+   "カラーのほうが目を引くでしょう。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0024",
+  "part": 2,
+  "set_id": null,
+  "type": "offer",
+  "scene": "warehouse",
+  "prompt": "Do you want me to help you carry those boxes?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Thanks, but the cart will be here in a minute."
+   },
+   {
+    "id": "b",
+    "text": "They're in the back room."
+   },
+   {
+    "id": "c",
+    "text": "A box of pens."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "お礼を言いつつ「台車がすぐ来る」と遠回しに断る (A) が正解。(C) は boxes に似た box を使ったひっかけ。",
+  "translation_ja": "その箱を運ぶのを手伝いましょうか。",
+  "translation_options_ja": [
+   "ありがとう、でももうすぐ台車が来ますので。",
+   "奥の部屋にあります。",
+   "ペン1箱です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0025",
+  "part": 2,
+  "set_id": null,
+  "type": "request",
+  "scene": "office",
+  "prompt": "Could you send me the meeting minutes by this afternoon?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It lasted about thirty minutes."
+   },
+   {
+    "id": "b",
+    "text": "I'll e-mail them right after lunch."
+   },
+   {
+    "id": "c",
+    "text": "Yes, the meeting went well."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "「昼食後すぐにメールする」と依頼を引き受けている (B) が正解。(A) は minutes（議事録／分）の別の意味を使ったひっかけ、(C) は meeting を繰り返している。",
+  "translation_ja": "今日の午後までに会議の議事録を送ってもらえますか。",
+  "translation_options_ja": [
+   "30分ほどかかりました。",
+   "昼食のすぐ後にメールで送ります。",
+   "はい、会議はうまくいきました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0026",
+  "part": 2,
+  "set_id": null,
+  "type": "request",
+  "scene": "real.estate",
+  "prompt": "Would you mind showing me the apartment on Saturday?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It has two bedrooms."
+   },
+   {
+    "id": "b",
+    "text": "The rent is due on the first."
+   },
+   {
+    "id": "c",
+    "text": "Sorry, our office is closed on weekends."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "「週末は休み」と理由を述べて依頼を断る (C) が正解。(A)(B) は部屋の話題だが、土曜に見せられるかという依頼に答えていない。",
+  "translation_ja": "土曜日にその部屋を見せていただけますか。",
+  "translation_options_ja": [
+   "寝室が2つあります。",
+   "家賃の支払いは1日です。",
+   "すみません、週末は事務所が休みなんです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0027",
+  "part": 2,
+  "set_id": null,
+  "type": "suggestion",
+  "scene": "meeting",
+  "prompt": "Why don't we move the meeting to the larger room?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Good idea. More people are coming than expected."
+   },
+   {
+    "id": "b",
+    "text": "Because the room was booked."
+   },
+   {
+    "id": "c",
+    "text": "We moved here last year."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Why don't we ～?（～しませんか）という提案に賛成している (A) が正解。(B) は Why を理由の質問と取り違えたひっかけ、(C) は move に似た moved を使っている。",
+  "translation_ja": "会議を大きいほうの部屋に移しませんか。",
+  "translation_options_ja": [
+   "いい考えですね。予想より多くの人が来ますから。",
+   "その部屋が予約されていたからです。",
+   "私たちは去年ここに引っ越しました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0028",
+  "part": 2,
+  "set_id": null,
+  "type": "suggestion",
+  "scene": "sales",
+  "prompt": "How about offering a discount to first-time customers?",
+  "options": [
+   {
+    "id": "a",
+    "text": "About fifteen customers."
+   },
+   {
+    "id": "b",
+    "text": "Let's discuss it with the sales director."
+   },
+   {
+    "id": "c",
+    "text": "It was the first time I visited."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "How about ～?（～してはどうか）という提案に「部長と相談しよう」と応じる (B) が正解。(A) は How about に似た About、(C) は first を使ったひっかけ。",
+  "translation_ja": "初めてのお客さまに割引をしてはどうでしょう。",
+  "translation_options_ja": [
+   "15人ほどのお客さまです。",
+   "営業部長と相談しましょう。",
+   "そこを訪れたのは初めてでした。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0029",
+  "part": 2,
+  "set_id": null,
+  "type": "statement",
+  "scene": "it",
+  "prompt": "The Wi-Fi in the conference room keeps disconnecting.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, it was a great conference."
+   },
+   {
+    "id": "b",
+    "text": "It connects the two buildings."
+   },
+   {
+    "id": "c",
+    "text": "I'll call the IT help desk."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "困りごとを伝える発言に「ヘルプデスクに電話する」と対処を申し出る (C) が正解。(A) は conference、(B) は disconnecting に似た connects を使ったひっかけ。",
+  "translation_ja": "会議室の Wi-Fi がしょっちゅう切れるんです。",
+  "translation_options_ja": [
+   "ええ、すばらしい会議でした。",
+   "それは2つの建物をつないでいます。",
+   "IT のヘルプデスクに電話します。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0030",
+  "part": 2,
+  "set_id": null,
+  "type": "statement",
+  "scene": "manufacturing",
+  "prompt": "We're running low on packaging materials.",
+  "options": [
+   {
+    "id": "a",
+    "text": "I placed an order yesterday."
+   },
+   {
+    "id": "b",
+    "text": "He's running in the marathon."
+   },
+   {
+    "id": "c",
+    "text": "The package arrived on time."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "資材が減っているという発言に「昨日注文した」と応じる (A) が正解。(B) は running、(C) は packaging に似た package を使ったひっかけ。",
+  "translation_ja": "梱包資材が少なくなってきています。",
+  "translation_options_ja": [
+   "昨日注文しておきました。",
+   "彼はマラソンに出ています。",
+   "荷物は予定どおり届きました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0031",
+  "part": 2,
+  "set_id": null,
+  "type": "indirect.answer",
+  "scene": "hr",
+  "prompt": "When is Ms. Novak's retirement party?",
+  "options": [
+   {
+    "id": "a",
+    "text": "At the Riverside Hotel."
+   },
+   {
+    "id": "b",
+    "text": "Haven't you seen the invitation?"
+   },
+   {
+    "id": "c",
+    "text": "She's worked here for thirty years."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "日時を直接言わず「招待状に書いてある」ことを問い返しで伝える (B) が正解。(A) は場所、(C) はノヴァクさんの話題だが時を答えていない。",
+  "translation_ja": "ノヴァクさんの退職パーティーはいつですか。",
+  "translation_options_ja": [
+   "リバーサイド・ホテルです。",
+   "招待状を見ていないんですか。",
+   "彼女はここで30年働いてきました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0032",
+  "part": 2,
+  "set_id": null,
+  "type": "indirect.answer",
+  "scene": "logistics",
+  "prompt": "Has the shipment to Toronto left the warehouse?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Two hundred units."
+   },
+   {
+    "id": "b",
+    "text": "Turn right at the warehouse."
+   },
+   {
+    "id": "c",
+    "text": "Let me check the tracking system."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "はい・いいえで答えず「追跡システムで確認する」と応じる (C) が正解。(B) は warehouse を繰り返したひっかけ。",
+  "translation_ja": "トロント行きの荷物はもう倉庫を出ましたか。",
+  "translation_options_ja": [
+   "200個です。",
+   "倉庫のところで右に曲がってください。",
+   "追跡システムで確認してみます。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0033",
+  "part": 2,
+  "set_id": null,
+  "type": "indirect.answer",
+  "scene": "finance",
+  "prompt": "Who approved this travel expense?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It was submitted before I joined the department."
+   },
+   {
+    "id": "b",
+    "text": "By train, I think."
+   },
+   {
+    "id": "c",
+    "text": "Yes, it's expensive."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "「私が来る前のもの」と、自分は知らないことを間接的に伝える (A) が正解。(B) は travel から交通手段を連想させるひっかけ、(C) は expense に似た expensive。",
+  "translation_ja": "この出張費は誰が承認したのですか。",
+  "translation_options_ja": [
+   "それは私が部署に来る前に提出されたものです。",
+   "たしか電車です。",
+   "はい、高いです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part2 batch a",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
   "id": "p3-0001",
   "part": 3,
   "set_id": "p3-s001",
