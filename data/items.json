@@ -11335,9 +11335,43 @@
   ],
   "point_ja": "所有格（the plant's、our など）の後で、後ろに名詞が続かなければ、そこが名詞の位置。-ity・-tion・-ment・-ness は名詞の語尾。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "7da14a020798"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "7da14a020798"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "7da14a020798"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11383,9 +11417,43 @@
   ],
   "point_ja": "主語と動詞の間、助動詞と動詞の間（will carefully check）の空欄は、動詞を修飾する副詞が入ることが多い。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "ef06122970db"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "ef06122970db"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "ef06122970db"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11431,9 +11499,43 @@
   ],
   "point_ja": "冠詞と名詞の間の空欄は、名詞を修飾する形容詞が入ることが多い。-al（personal、seasonal）は形容詞によくある語尾。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "06f6caa05dfa"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "06f6caa05dfa"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "06f6caa05dfa"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11479,9 +11581,43 @@
   ],
   "point_ja": "受動態（be ＋過去分詞）や自動詞の後で文が終わる位置の空欄は、動詞を修飾する副詞が入ることが多い。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "f2d51c8b624b"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "f2d51c8b624b"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "f2d51c8b624b"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -11527,9 +11663,43 @@
   ],
   "point_ja": "several・many・a few の後には名詞の複数形が来る。make improvements to ～（～を改良する）はよく出る言い方。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "06a39c91167d"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "06a39c91167d"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "06a39c91167d"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11575,9 +11745,43 @@
   ],
   "point_ja": "動詞の目的語になる名詞の前の空欄は、名詞を修飾する形容詞が入ることが多い。-ive は形容詞によくある語尾。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "b02a4199b75c"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b02a4199b75c"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "b02a4199b75c"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11623,9 +11827,43 @@
   ],
   "point_ja": "所有格（her、Ms. Lee's）と前置詞の間の空欄は、名詞が入ることが多い。dedication to ～・commitment to ～ はセットで覚える。",
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "8bee7723258a"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "8bee7723258a"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8bee7723258a"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11671,9 +11909,43 @@
   ],
   "point_ja": "yesterday・last ～・～ ago・in 2020 など過去の時点を表す語句があれば過去形。現在完了はふつうこれらと一緒に使わない。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "63825ecb18d4"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "63825ecb18d4"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "63825ecb18d4"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -11719,9 +11991,43 @@
   ],
   "point_ja": "when・as soon as・after・before・until など時を表す接続詞の後では、未来のことでも現在形（または現在完了）を使う。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "a7ea87a8e9f6"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "a7ea87a8e9f6"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "a7ea87a8e9f6"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11767,9 +12073,43 @@
   ],
   "point_ja": "主語が動作を「される」側なら受動態。助動詞の後の受動態は 助動詞＋be＋過去分詞（must be weighed）。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "b6807877af62"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "b6807877af62"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "b6807877af62"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11815,9 +12155,43 @@
   ],
   "point_ja": "deliver a speech（講演をする）。主語が「話・講演」などで、後ろに by ＋人があれば受動態を考える。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "19a46ef14fae"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "19a46ef14fae"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "19a46ef14fae"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11863,9 +12237,43 @@
   ],
   "point_ja": "所有代名詞（mine・yours・his・hers・ours・theirs）は「所有格＋名詞」の代わりになり、後ろに名詞を置かない。",
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": "駐車許可証を他人に貸す設定はやや不自然に感じられるが、文法上・解答上の問題はない",
+    "content_hash": "8f0e2fd87e86"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "8f0e2fd87e86"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8f0e2fd87e86"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11911,9 +12319,43 @@
   ],
   "point_ja": "「～する人々」は those who ～（動詞は複数に合わせる）。anyone who ～ は単数扱い（anyone who wishes）。",
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.93,
+    "issues": "",
+    "content_hash": "8093501a03a1"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": true,
+    "confidence": 0.9,
+    "issues": "Aが通常の表現だが、BのThey whoも文語的な表現として文法上成立するため、厳密には唯一解にならない。",
+    "content_hash": "8093501a03a1"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8093501a03a1"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -11959,9 +12401,43 @@
   ],
   "point_ja": "「～の間」は、後ろが名詞なら during、主語＋動詞なら while。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "972e58824f12"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "972e58824f12"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "972e58824f12"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -12007,9 +12483,43 @@
   ],
   "point_ja": "by は期限（～までに）、until は継続（～までずっと）。動詞が1回の動作か、続く状態かで選ぶ。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "0eda371f9943"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "0eda371f9943"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "0eda371f9943"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12055,9 +12565,43 @@
   ],
   "point_ja": "接続詞の問題は、前後の内容の関係（逆接・理由・結果・選択）を確かめる。not ～ until …（…になってやっと～する）もよく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "8d9f8a5faec3"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "8d9f8a5faec3"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "8d9f8a5faec3"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12103,9 +12647,43 @@
   ],
   "point_ja": "関係代名詞の後は主語か目的語が欠けた文、関係副詞 where の後は欠けのない文。場所の先行詞でも、後ろの文に欠けがあれば which。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "2e334ddc16b8"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "2e334ddc16b8"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "2e334ddc16b8"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -12151,9 +12729,43 @@
   ],
   "point_ja": "the ＋最上級＋ in / of ～（～の中で）。in の後には範囲・場所・集団、of の後には同類の複数（of the three）が来る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "faef21af8ca4"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "faef21af8ca4"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "faef21af8ca4"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -12199,9 +12811,43 @@
   ],
   "point_ja": "倍数の比べ方は 倍数＋as ～ as（twice as many ～ as）。as と as の間は原級で、数えられる名詞なら many、数えられない名詞なら much。",
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "876503b2bf1b"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "876503b2bf1b"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "876503b2bf1b"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12247,9 +12893,43 @@
   ],
   "point_ja": "every・each の後は単数形の名詞、all・most・several・many の後は（数えられる名詞なら）複数形。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "525bc15d8df4"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "525bc15d8df4"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "525bc15d8df4"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12295,9 +12975,43 @@
   ],
   "point_ja": "数えられる名詞には few / a few、数えられない名詞には little / a little。a がないと「ほとんどない」、a があると「少しある」。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "1e20f497092f"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "1e20f497092f"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "1e20f497092f"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12343,9 +13057,43 @@
   ],
   "point_ja": "相関接続詞の組み合わせ：both A and B／either A or B／neither A nor B／not only A but (also) B。前半の語を見て後半を選ぶ。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "d7de32a643d9"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d7de32a643d9"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "d7de32a643d9"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12391,9 +13139,43 @@
   ],
   "point_ja": "名詞を修飾する分詞は、名詞が「する」側なら現在分詞（-ing）、「される」側なら過去分詞（-ed）。the attached file・the enclosed form はよく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "b10a06fcfe8f"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "b10a06fcfe8f"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "b10a06fcfe8f"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -12439,9 +13221,43 @@
   ],
   "point_ja": "名詞の後ろに 分詞＋語句 が続いて名詞を修飾する形。文の動詞がほかにあるかを確かめ、名詞が「する」側なら -ing。",
   "level": "B2",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "1c6f1759b43a"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "1c6f1759b43a"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "1c6f1759b43a"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12487,9 +13303,43 @@
   ],
   "point_ja": "用紙への記入は complete / fill out / fill in a form。TOEIC の案内文によく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "6b8e28b06961"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "6b8e28b06961"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "6b8e28b06961"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12535,9 +13385,43 @@
   ],
   "point_ja": "account balance（口座残高）。balance には「残り・残高」の意味があり、the balance due（未払いの残額）も請求書でよく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "00a0a1986efb"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "00a0a1986efb"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "00a0a1986efb"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12583,9 +13467,43 @@
   ],
   "point_ja": "complimentary は「無料の（サービスとしての）」。complimentary breakfast / shuttle などホテルの案内によく出る。似た形の complementary（補完的な）と区別する。",
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "796e86f128f2"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": true,
+    "confidence": 0.9,
+    "issues": "Dの「無料の」が想定解だが、Bのcomparable accessも「他の利用者などと同程度の利用条件」という意味で成立する。比較対象が明示されていないだけではBを排除できない。",
+    "content_hash": "796e86f128f2"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "796e86f128f2"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12631,9 +13549,43 @@
   ],
   "point_ja": "現在完了と一緒に使う副詞：just（～したばかり）・already（もう）はふつう肯定文、yet（まだ・もう）は否定文・疑問文。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "140a30e79c7e"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "140a30e79c7e"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "140a30e79c7e"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12679,9 +13631,43 @@
   ],
   "point_ja": "take part in ～＝participate in ～＝join（参加する）。言い換えとして読解やリスニングでもよく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "3fd5d9eb28fe"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.96,
+    "issues": "",
+    "content_hash": "3fd5d9eb28fe"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "3fd5d9eb28fe"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -12727,9 +13713,43 @@
   ],
   "point_ja": "語彙問題は、空欄の後の前置詞（to a larger building）も手がかりになる。relocate・move・transfer は「移す」。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part5 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "6a1d59355d6d"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "6a1d59355d6d"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T08:51:14",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "6a1d59355d6d"
+   }
+  ],
   "explain_status": "checked"
  },
  {

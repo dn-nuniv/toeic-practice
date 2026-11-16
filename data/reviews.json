@@ -11032,5 +11032,1055 @@
    "issues": "",
    "content_hash": "934cf0689f6c"
   }
+ ],
+ "p5-0043": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "7da14a020798"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "7da14a020798"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "7da14a020798"
+  }
+ ],
+ "p5-0044": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "ef06122970db"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "ef06122970db"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "ef06122970db"
+  }
+ ],
+ "p5-0045": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "06f6caa05dfa"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "06f6caa05dfa"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "06f6caa05dfa"
+  }
+ ],
+ "p5-0046": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "f2d51c8b624b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "f2d51c8b624b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "f2d51c8b624b"
+  }
+ ],
+ "p5-0047": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "06a39c91167d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "06a39c91167d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "06a39c91167d"
+  }
+ ],
+ "p5-0048": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "b02a4199b75c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "b02a4199b75c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b02a4199b75c"
+  }
+ ],
+ "p5-0049": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8bee7723258a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8bee7723258a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8bee7723258a"
+  }
+ ],
+ "p5-0050": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "63825ecb18d4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "63825ecb18d4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "63825ecb18d4"
+  }
+ ],
+ "p5-0051": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "a7ea87a8e9f6"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "a7ea87a8e9f6"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "a7ea87a8e9f6"
+  }
+ ],
+ "p5-0052": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "b6807877af62"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "b6807877af62"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b6807877af62"
+  }
+ ],
+ "p5-0053": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "19a46ef14fae"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "19a46ef14fae"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "19a46ef14fae"
+  }
+ ],
+ "p5-0054": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "駐車許可証を他人に貸す設定はやや不自然に感じられるが、文法上・解答上の問題はない",
+   "content_hash": "8f0e2fd87e86"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8f0e2fd87e86"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8f0e2fd87e86"
+  }
+ ],
+ "p5-0055": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.93,
+   "issues": "",
+   "content_hash": "8093501a03a1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.9,
+   "issues": "Aが通常の表現だが、BのThey whoも文語的な表現として文法上成立するため、厳密には唯一解にならない。",
+   "content_hash": "8093501a03a1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8093501a03a1"
+  }
+ ],
+ "p5-0056": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "972e58824f12"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "972e58824f12"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "972e58824f12"
+  }
+ ],
+ "p5-0057": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "0eda371f9943"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "0eda371f9943"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "0eda371f9943"
+  }
+ ],
+ "p5-0058": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "8d9f8a5faec3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "8d9f8a5faec3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "8d9f8a5faec3"
+  }
+ ],
+ "p5-0059": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "2e334ddc16b8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "2e334ddc16b8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "2e334ddc16b8"
+  }
+ ],
+ "p5-0060": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "faef21af8ca4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "faef21af8ca4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "faef21af8ca4"
+  }
+ ],
+ "p5-0061": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "876503b2bf1b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "876503b2bf1b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "876503b2bf1b"
+  }
+ ],
+ "p5-0062": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "525bc15d8df4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "525bc15d8df4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "525bc15d8df4"
+  }
+ ],
+ "p5-0063": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "1e20f497092f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1e20f497092f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "1e20f497092f"
+  }
+ ],
+ "p5-0064": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "d7de32a643d9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d7de32a643d9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d7de32a643d9"
+  }
+ ],
+ "p5-0065": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "b10a06fcfe8f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "b10a06fcfe8f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "b10a06fcfe8f"
+  }
+ ],
+ "p5-0066": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "1c6f1759b43a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1c6f1759b43a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "1c6f1759b43a"
+  }
+ ],
+ "p5-0067": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "6b8e28b06961"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6b8e28b06961"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6b8e28b06961"
+  }
+ ],
+ "p5-0068": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "00a0a1986efb"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "00a0a1986efb"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "00a0a1986efb"
+  }
+ ],
+ "p5-0069": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "796e86f128f2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": true,
+   "confidence": 0.9,
+   "issues": "Dの「無料の」が想定解だが、Bのcomparable accessも「他の利用者などと同程度の利用条件」という意味で成立する。比較対象が明示されていないだけではBを排除できない。",
+   "content_hash": "796e86f128f2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "796e86f128f2"
+  }
+ ],
+ "p5-0070": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "140a30e79c7e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "140a30e79c7e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "140a30e79c7e"
+  }
+ ],
+ "p5-0071": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "3fd5d9eb28fe"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.96,
+   "issues": "",
+   "content_hash": "3fd5d9eb28fe"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "3fd5d9eb28fe"
+  }
+ ],
+ "p5-0072": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "6a1d59355d6d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6a1d59355d6d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T08:51:14",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6a1d59355d6d"
+  }
  ]
 }
