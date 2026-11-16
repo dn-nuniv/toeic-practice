@@ -28,7 +28,8 @@
   function takeUntil(units, n) { const out = []; let c = 0; for (const u of units) { if (n && c >= n) break; out.push(u); c += u.items.length; } return out; }
 
   function buildSession(mode, parts, count) {
-    const pool = allUnits().filter(u => parts.includes(u.part));
+    // retry は直前のセッションから作るので parts を使わない（parts なしで呼ばれる）
+    const pool = parts ? allUnits().filter(u => parts.includes(u.part)) : [];
     let units;
     if (mode === 'review') {
       const now = Date.now();
