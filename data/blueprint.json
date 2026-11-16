@@ -1,0 +1,13 @@
+{
+ "note": "大量生成の設計表。Part × 出題タイプ × 場面の升目ごとに生成し、偏りを防ぐ。数字は1回の生成で作る目安。",
+ "scenes": ["office", "meeting", "hr", "finance", "sales", "marketing", "logistics", "warehouse", "customer.service", "travel", "facilities", "it", "printing", "events", "fitness", "business.news", "restaurant", "retail", "real.estate", "manufacturing"],
+ "parts": {
+  "1": {"types": ["photo.person.action", "photo.group.action", "photo.object.state"], "per_batch": 6, "notes": "人物の動作・複数人・人のいない物の状態をバランスよく。being（進行中）と have been（状態）の区別を含める"},
+  "2": {"types": ["wh.when", "wh.where", "wh.who", "wh.why", "wh.how", "wh.what", "yes_no", "negative.question", "tag.question", "choice", "offer", "request", "suggestion", "statement", "indirect.answer"], "per_batch": 25, "notes": "同じ単語・似た音のひっかけを入れる。間接的な応答（I'll check the schedule. など）が正解になる問題も一定数"},
+  "3": {"types": ["main.topic", "detail", "problem", "reason", "speaker.identity", "location", "next.action", "offer", "request", "intention", "graphic"], "sets_per_batch": 6, "notes": "3人の会話・図表問題・発言の意図問題を含める。1セット3問"},
+  "4": {"types": ["main.topic", "purpose", "speaker.identity", "listener.identity", "detail", "problem", "request", "next.action", "intention", "graphic"], "sets_per_batch": 6, "notes": "アナウンス・留守電・ラジオ・会議の抜粋・ツアー案内など。1セット3問"},
+  "5": {"types": ["grammar.part_of_speech", "grammar.tense", "grammar.passive", "grammar.pronoun", "grammar.preposition", "grammar.conjunction", "grammar.preposition_vs_conjunction", "grammar.relative", "grammar.comparative", "grammar.quantifier", "grammar.correlative", "grammar.participle", "vocab.verb", "vocab.noun", "vocab.adjective", "vocab.adverb", "vocab.collocation"], "per_batch": 30, "notes": "品詞問題を多めに（本番でも多い）。語彙問題は文脈で1つに決まるように"},
+  "6": {"types": ["vocab.collocation", "grammar.part_of_speech", "grammar.tense", "grammar.connector", "text.insertion"], "sets_per_batch": 4, "notes": "1セット4問で、うち1問は文挿入。メール・告知・記事・案内"},
+  "7": {"types": ["main.topic", "purpose", "detail", "indicated", "not.true", "inference", "synonym", "sentence.position", "intention.chat", "cross.reference"], "sets_per_batch": 6, "notes": "単一文書（2〜4問）、チャット（発言の意図）、ダブル・トリプルパッセージ（5問、照合問題を含む）"}
+ }
+}

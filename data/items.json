@@ -1,0 +1,1868 @@
+[
+ {
+  "id": "p1-0001",
+  "part": 1,
+  "set_id": "p1-s0001",
+  "type": "photo.description",
+  "scene": "office",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "She's arranging chairs in a row."
+   },
+   {
+    "id": "b",
+    "text": "She's watering some plants."
+   },
+   {
+    "id": "c",
+    "text": "She's opening a window."
+   },
+   {
+    "id": "d",
+    "text": "She's putting on a jacket."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "女性がじょうろで窓辺の植物に水をやっている。窓は閉まっているので (C) は誤り。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "彼女は椅子を一列に並べている。",
+   "彼女は植物に水をやっている。",
+   "彼女は窓を開けている。",
+   "彼女は上着を着ているところだ。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "options": "female"
+  }
+ },
+ {
+  "id": "p1-0002",
+  "part": 1,
+  "set_id": "p1-s0002",
+  "type": "photo.description",
+  "scene": "warehouse",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "A man is moving some boxes with a hand truck."
+   },
+   {
+    "id": "b",
+    "text": "A man is climbing a ladder."
+   },
+   {
+    "id": "c",
+    "text": "Some shelves are being painted."
+   },
+   {
+    "id": "d",
+    "text": "A truck is parked in a garage."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "男性が台車（hand truck）で箱を運んでいる。はしご・ペンキ塗り・トラックは写真にない。写っていない物を含む選択肢は消去できる。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "男性が台車で箱を運んでいる。",
+   "男性がはしごを登っている。",
+   "棚にペンキが塗られているところだ。",
+   "トラックが車庫に止めてある。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "options": "male"
+  }
+ },
+ {
+  "id": "p1-0003",
+  "part": 1,
+  "set_id": "p1-s0003",
+  "type": "photo.description",
+  "scene": "meeting",
+  "prompt": "写真に最も合う描写を選んでください。",
+  "options": [
+   {
+    "id": "a",
+    "text": "People are seated around a table."
+   },
+   {
+    "id": "b",
+    "text": "A presentation is being given."
+   },
+   {
+    "id": "c",
+    "text": "Some chairs have been arranged around a table."
+   },
+   {
+    "id": "d",
+    "text": "A screen is being installed."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "人が写っていない写真。being（進行中の動作）を含む選択肢は、動作をしている人がいないので誤り。have been arranged（並べられた状態）が正解。",
+  "translation_ja": "",
+  "translation_options_ja": [
+   "人々がテーブルを囲んで座っている。",
+   "発表が行われているところだ。",
+   "椅子がテーブルの周りに並べられている。",
+   "スクリーンが取り付けられているところだ。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0001",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.when",
+  "scene": "meeting",
+  "prompt": "When is the budget meeting?",
+  "options": [
+   {
+    "id": "a",
+    "text": "In conference room B."
+   },
+   {
+    "id": "b",
+    "text": "Tomorrow at ten."
+   },
+   {
+    "id": "c",
+    "text": "About the new budget."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "When（いつ）に時を答えている (B) が正解。(C) は質問と同じ budget を使ったひっかけ。",
+  "translation_ja": "予算会議はいつですか。",
+  "translation_options_ja": [
+   "会議室Bです。",
+   "明日の10時です。",
+   "新しい予算についてです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0002",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.who",
+  "scene": "hr",
+  "prompt": "Who's in charge of the new hiring process?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ms. Park in human resources."
+   },
+   {
+    "id": "b",
+    "text": "Higher than last year."
+   },
+   {
+    "id": "c",
+    "text": "Yes, it's in process."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Who（誰）に人物で答えている (A) が正解。疑問詞で始まる質問に Yes/No で答える (C) は誤り。",
+  "translation_ja": "新しい採用手続きの担当は誰ですか。",
+  "translation_options_ja": [
+   "人事部のパクさんです。",
+   "去年より高いです。",
+   "はい、手続き中です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0003",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.why",
+  "scene": "logistics",
+  "prompt": "Why was the delivery delayed?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Because of the snowstorm."
+   },
+   {
+    "id": "b",
+    "text": "Two boxes, please."
+   },
+   {
+    "id": "c",
+    "text": "It was delivered to the lobby."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Why（なぜ）に理由で答えている (A) が正解。(C) は delivery と似た delivered を使ったひっかけ。",
+  "translation_ja": "配達はなぜ遅れたのですか。",
+  "translation_options_ja": [
+   "吹雪のせいです。",
+   "2箱お願いします。",
+   "ロビーに届けられました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0004",
+  "part": 2,
+  "set_id": null,
+  "type": "offer",
+  "scene": "office",
+  "prompt": "Would you like me to print the agenda?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Thanks, that would be helpful."
+   },
+   {
+    "id": "b",
+    "text": "It's on the second floor."
+   },
+   {
+    "id": "c",
+    "text": "The printer is new."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Would you like me to ～?（～しましょうか）という申し出に、お礼を言って受けている (A) が正解。",
+  "translation_ja": "議題を印刷しましょうか。",
+  "translation_options_ja": [
+   "ありがとう、助かります。",
+   "2階にあります。",
+   "そのプリンターは新しいです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0005",
+  "part": 2,
+  "set_id": null,
+  "type": "negative.question",
+  "scene": "sales",
+  "prompt": "Haven't you finished the sales report yet?",
+  "options": [
+   {
+    "id": "a",
+    "text": "I'm still waiting for the final figures."
+   },
+   {
+    "id": "b",
+    "text": "The sale ends on Sunday."
+   },
+   {
+    "id": "c",
+    "text": "Yes, he reported it."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "まだ終わっていない理由を述べる (A) が自然な応答。(B) は sales に似た sale、(C) は report を使ったひっかけで、主語も he でずれている。",
+  "translation_ja": "売上報告書はまだ終わっていないのですか。",
+  "translation_options_ja": [
+   "最終的な数字をまだ待っているところです。",
+   "セールは日曜日に終わります。",
+   "はい、彼が報告しました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0006",
+  "part": 2,
+  "set_id": null,
+  "type": "choice",
+  "scene": "travel",
+  "prompt": "Should we take a taxi or the train to the airport?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The train is faster at this hour."
+   },
+   {
+    "id": "b",
+    "text": "Yes, I trained them."
+   },
+   {
+    "id": "c",
+    "text": "At gate twelve."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "A or B の選択疑問文には Yes/No で答えない。理由を添えて電車を選んでいる (A) が正解。",
+  "translation_ja": "空港へはタクシーと電車のどちらで行きましょうか。",
+  "translation_options_ja": [
+   "この時間は電車のほうが速いです。",
+   "はい、私が彼らを訓練しました。",
+   "12番ゲートです。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p2-0007",
+  "part": 2,
+  "set_id": null,
+  "type": "wh.where",
+  "scene": "sales",
+  "prompt": "Where can I find the updated price list?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It's posted on the company intranet."
+   },
+   {
+    "id": "b",
+    "text": "The prices went up."
+   },
+   {
+    "id": "c",
+    "text": "I found it interesting."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "Where（どこ）に場所で答えている (A) が正解。(C) は find を使ったひっかけ。",
+  "translation_ja": "最新の価格表はどこにありますか。",
+  "translation_options_ja": [
+   "社内のイントラネットに掲載されています。",
+   "値段が上がりました。",
+   "おもしろいと思いました。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "male",
+   "options": "female"
+  }
+ },
+ {
+  "id": "p2-0008",
+  "part": 2,
+  "set_id": null,
+  "type": "tag.question",
+  "scene": "it",
+  "prompt": "The new software is much easier to use, isn't it?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Yes, it saves me a lot of time."
+   },
+   {
+    "id": "b",
+    "text": "Use the side entrance."
+   },
+   {
+    "id": "c",
+    "text": "It's on sale now."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "付加疑問文（～ですよね）に同意して具体的に答えている (A) が正解。",
+  "translation_ja": "新しいソフトはずっと使いやすいですよね。",
+  "translation_options_ja": [
+   "ええ、ずいぶん時間の節約になります。",
+   "横の入口を使ってください。",
+   "今セール中です。"
+  ],
+  "level": "A2",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": [],
+  "voices": {
+   "stem": "female",
+   "options": "male"
+  }
+ },
+ {
+  "id": "p3-0001",
+  "part": 3,
+  "set_id": "p3-s001",
+  "type": "detail",
+  "scene": "meeting",
+  "prompt": "Why can't the clients come on Tuesday?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Their flight was canceled."
+   },
+   {
+    "id": "b",
+    "text": "They are attending a trade fair."
+   },
+   {
+    "id": "c",
+    "text": "The meeting room is not available."
+   },
+   {
+    "id": "d",
+    "text": "They want to change the proposal."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "女性の最初の発言に Their flight was canceled とある。見本市に行くのは男性なので (B) は誤り。",
+  "translation_ja": "顧客はなぜ火曜日に来られないのか。",
+  "translation_options_ja": [
+   "飛行機が欠航した。",
+   "見本市に参加する。",
+   "会議室が使えない。",
+   "提案内容を変えたい。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p3-0002",
+  "part": 3,
+  "set_id": "p3-s001",
+  "type": "intention",
+  "scene": "meeting",
+  "prompt": "What does the woman imply when she says, \"She knows it inside out\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Maria can give the presentation."
+   },
+   {
+    "id": "b",
+    "text": "Maria should revise the proposal."
+   },
+   {
+    "id": "c",
+    "text": "Maria has visited Harlow Foods."
+   },
+   {
+    "id": "d",
+    "text": "Maria will order lunch."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "男性が木曜日に不在だと言ったのを受けて、提案書をよく知るマリアなら代わりに発表できる、とほのめかしている。発言の意図を問う問題は前後の流れで判断する。",
+  "translation_ja": "女性が「隅から隅まで分かっている」と言うとき、何を示唆しているか。",
+  "translation_options_ja": [
+   "マリアが発表できる。",
+   "マリアは提案書を直すべきだ。",
+   "マリアはハーロウ・フーズを訪れたことがある。",
+   "マリアが昼食を注文する。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p3-0003",
+  "part": 3,
+  "set_id": "p3-s001",
+  "type": "next.action",
+  "scene": "meeting",
+  "prompt": "What does the man say he will do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Book a flight to Chicago"
+   },
+   {
+    "id": "b",
+    "text": "Contact a catering company"
+   },
+   {
+    "id": "c",
+    "text": "Reserve a different room"
+   },
+   {
+    "id": "d",
+    "text": "Call the clients"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "最後に I'll call the caterer と言っている。caterer（仕出し業者）が catering company に言い換えられている。",
+  "translation_ja": "男性は何をすると言っているか。",
+  "translation_options_ja": [
+   "シカゴ行きの飛行機を予約する",
+   "仕出し業者に連絡する",
+   "別の部屋を予約する",
+   "顧客に電話する"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p3-0004",
+  "part": 3,
+  "set_id": "p3-s002",
+  "type": "problem",
+  "scene": "customer.service",
+  "prompt": "What problem does the man mention?",
+  "options": [
+   {
+    "id": "a",
+    "text": "An order has not arrived."
+   },
+   {
+    "id": "b",
+    "text": "A printer is broken."
+   },
+   {
+    "id": "c",
+    "text": "A bill is incorrect."
+   },
+   {
+    "id": "d",
+    "text": "A mailing was lost."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "男性の最初の発言 It hasn't arrived yet から、注文品が届いていないことが分かる。",
+  "translation_ja": "男性はどんな問題を述べているか。",
+  "translation_options_ja": [
+   "注文品が届いていない。",
+   "プリンターが壊れている。",
+   "請求書が間違っている。",
+   "郵送物がなくなった。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p3-0005",
+  "part": 3,
+  "set_id": "p3-s002",
+  "type": "graphic",
+  "scene": "customer.service",
+  "prompt": "Look at the graphic. How much would the man normally pay for the second delivery?",
+  "options": [
+   {
+    "id": "a",
+    "text": "$8"
+   },
+   {
+    "id": "b",
+    "text": "$15"
+   },
+   {
+    "id": "c",
+    "text": "$25"
+   },
+   {
+    "id": "d",
+    "text": "$40"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "女性は翌日配送（next-day delivery）で送ると言っている。表で Next Day の料金を見ると $25。当日配送は地域内（local only）のみなので対象外。",
+  "translation_ja": "図を見てください。2回目の配送に男性は通常いくら払うことになるか。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p3-0006",
+  "part": 3,
+  "set_id": "p3-s002",
+  "type": "offer",
+  "scene": "customer.service",
+  "prompt": "What does the woman offer to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Send a free sample"
+   },
+   {
+    "id": "b",
+    "text": "Waive a fee"
+   },
+   {
+    "id": "c",
+    "text": "Cancel the first order"
+   },
+   {
+    "id": "d",
+    "text": "Refund the original order"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "I'll waive the fee（料金を免除します）と言っている。",
+  "translation_ja": "女性は何をすると申し出ているか。",
+  "translation_options_ja": [
+   "無料サンプルを送る",
+   "料金を免除する",
+   "最初の注文を取り消す",
+   "元の注文代金を返金する"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0001",
+  "part": 4,
+  "set_id": "p4-s001",
+  "type": "main.topic",
+  "scene": "facilities",
+  "prompt": "What is the announcement mainly about?",
+  "options": [
+   {
+    "id": "a",
+    "text": "An office relocation"
+   },
+   {
+    "id": "b",
+    "text": "Elevator maintenance"
+   },
+   {
+    "id": "c",
+    "text": "A fire drill"
+   },
+   {
+    "id": "d",
+    "text": "New security procedures"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "冒頭の maintenance work on the east elevators から、エレベーターの保守作業についての案内と分かる。",
+  "translation_ja": "お知らせは主に何についてか。",
+  "translation_options_ja": [
+   "事務所の移転",
+   "エレベーターの保守",
+   "避難訓練",
+   "新しい保安手順"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0002",
+  "part": 4,
+  "set_id": "p4-s001",
+  "type": "detail",
+  "scene": "facilities",
+  "prompt": "When will the work end?",
+  "options": [
+   {
+    "id": "a",
+    "text": "On Saturday morning"
+   },
+   {
+    "id": "b",
+    "text": "On Saturday evening"
+   },
+   {
+    "id": "c",
+    "text": "On Monday afternoon"
+   },
+   {
+    "id": "d",
+    "text": "On Tuesday morning"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "continue through Monday afternoon（月曜日の午後まで続く）とある。土曜日の午前8時は開始時刻。",
+  "translation_ja": "作業はいつ終わるか。",
+  "translation_options_ja": [
+   "土曜日の朝",
+   "土曜日の夕方",
+   "月曜日の午後",
+   "火曜日の朝"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0003",
+  "part": 4,
+  "set_id": "p4-s001",
+  "type": "reason",
+  "scene": "facilities",
+  "prompt": "Why should some employees contact the facilities office?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To report a problem"
+   },
+   {
+    "id": "b",
+    "text": "To reserve a service elevator"
+   },
+   {
+    "id": "c",
+    "text": "To request a parking space"
+   },
+   {
+    "id": "d",
+    "text": "To receive a new badge"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "重い機材を運ぶ人は so that a service elevator can be reserved（業務用エレベーターを予約するために）連絡するよう求められている。",
+  "translation_ja": "一部の従業員はなぜ施設管理室に連絡すべきなのか。",
+  "translation_options_ja": [
+   "問題を報告するため",
+   "業務用エレベーターを予約するため",
+   "駐車スペースを申し込むため",
+   "新しい社員証を受け取るため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0004",
+  "part": 4,
+  "set_id": "p4-s002",
+  "type": "speaker.identity",
+  "scene": "printing",
+  "prompt": "Who most likely is the speaker?",
+  "options": [
+   {
+    "id": "a",
+    "text": "An event planner"
+   },
+   {
+    "id": "b",
+    "text": "A printing company employee"
+   },
+   {
+    "id": "c",
+    "text": "A photographer"
+   },
+   {
+    "id": "d",
+    "text": "A delivery driver"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "this is Karen Lee from Brightline Printing と名乗り、パンフレットの校正の話をしているので印刷会社の社員。",
+  "translation_ja": "話し手は誰だと考えられるか。",
+  "translation_options_ja": [
+   "イベントの企画者",
+   "印刷会社の社員",
+   "写真家",
+   "配達ドライバー"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0005",
+  "part": 4,
+  "set_id": "p4-s002",
+  "type": "problem",
+  "scene": "printing",
+  "prompt": "What problem does the speaker mention?",
+  "options": [
+   {
+    "id": "a",
+    "text": "An image file is too small."
+   },
+   {
+    "id": "b",
+    "text": "A delivery date has changed."
+   },
+   {
+    "id": "c",
+    "text": "A payment is overdue."
+   },
+   {
+    "id": "d",
+    "text": "Some text is misspelled."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "The image file you sent is a little too small とある。納品日は予定どおりなので (B) は誤り。",
+  "translation_ja": "話し手はどんな問題を述べているか。",
+  "translation_options_ja": [
+   "画像ファイルが小さすぎる。",
+   "配達日が変わった。",
+   "支払いが遅れている。",
+   "文字につづりの誤りがある。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p4-0006",
+  "part": 4,
+  "set_id": "p4-s002",
+  "type": "request",
+  "scene": "printing",
+  "prompt": "What does the speaker ask the listener to do by tomorrow?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Approve a price"
+   },
+   {
+    "id": "b",
+    "text": "Send a file"
+   },
+   {
+    "id": "c",
+    "text": "Pick up some brochures"
+   },
+   {
+    "id": "d",
+    "text": "Choose a new photographer"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "could you e-mail it to me by noon tomorrow と、高解像度の画像を送るよう頼んでいる。",
+  "translation_ja": "話し手は聞き手に明日までに何をするよう頼んでいるか。",
+  "translation_options_ja": [
+   "価格を承認する",
+   "ファイルを送る",
+   "パンフレットを受け取りに来る",
+   "新しい写真家を選ぶ"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0001",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.passive",
+  "scene": "finance",
+  "prompt": "The quarterly report must be ------- to the finance department by Friday.",
+  "options": [
+   {
+    "id": "a",
+    "text": "submit"
+   },
+   {
+    "id": "b",
+    "text": "submitting"
+   },
+   {
+    "id": "c",
+    "text": "submitted"
+   },
+   {
+    "id": "d",
+    "text": "submission"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "must be の後で「提出される」という受け身にするので過去分詞 submitted。",
+  "translation_ja": "四半期報告書は金曜日までに経理部に提出されなければならない。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0002",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition",
+  "scene": "hr",
+  "prompt": "Ms. Tanaka has worked at Corvex Industries ------- 2019.",
+  "options": [
+   {
+    "id": "a",
+    "text": "since"
+   },
+   {
+    "id": "b",
+    "text": "for"
+   },
+   {
+    "id": "c",
+    "text": "during"
+   },
+   {
+    "id": "d",
+    "text": "until"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "現在完了（has worked）と、起点を表す年（2019）を結ぶのは since。for の後には期間（five years など）が来る。",
+  "translation_ja": "タナカさんは2019年からコーベックス工業で働いている。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0003",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.preposition_vs_conjunction",
+  "scene": "office",
+  "prompt": "All visitors are required to sign in at the front desk ------- entering the building.",
+  "options": [
+   {
+    "id": "a",
+    "text": "before"
+   },
+   {
+    "id": "b",
+    "text": "although"
+   },
+   {
+    "id": "c",
+    "text": "because"
+   },
+   {
+    "id": "d",
+    "text": "unless"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "動名詞 entering の前に置けるのは前置詞の before。although・because・unless は接続詞で、ここでは使えない。",
+  "translation_ja": "来訪者は全員、建物に入る前に受付で記帳しなければならない。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0004",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.comparative",
+  "scene": "marketing",
+  "prompt": "The new marketing campaign was ------- successful than the company had expected.",
+  "options": [
+   {
+    "id": "a",
+    "text": "much"
+   },
+   {
+    "id": "b",
+    "text": "more"
+   },
+   {
+    "id": "c",
+    "text": "most"
+   },
+   {
+    "id": "d",
+    "text": "very"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "than があるので比較級を作る more。much は比較級を強める語なので、much more successful の形なら使える。",
+  "translation_ja": "新しい販促キャンペーンは、会社が予想していた以上に成功した。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0005",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.quantifier",
+  "scene": "legal",
+  "prompt": "Please let us know if you have ------- questions about the contract.",
+  "options": [
+   {
+    "id": "a",
+    "text": "any"
+   },
+   {
+    "id": "b",
+    "text": "every"
+   },
+   {
+    "id": "c",
+    "text": "much"
+   },
+   {
+    "id": "d",
+    "text": "each"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "疑問・条件の文で複数形の名詞 questions を修飾できるのは any。every と each は単数名詞、much は数えられない名詞に付く。",
+  "translation_ja": "契約について何か質問があればお知らせください。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0006",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.conjunction",
+  "scene": "hr",
+  "prompt": "The training session has been postponed ------- the instructor is ill.",
+  "options": [
+   {
+    "id": "a",
+    "text": "because"
+   },
+   {
+    "id": "b",
+    "text": "because of"
+   },
+   {
+    "id": "c",
+    "text": "despite"
+   },
+   {
+    "id": "d",
+    "text": "so that"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "後ろに主語と動詞（the instructor is ill）が続くので接続詞の because。because of と despite の後には名詞が来る。",
+  "translation_ja": "講師が病気のため、研修は延期された。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0007",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.pronoun",
+  "scene": "hr",
+  "prompt": "Employees who wish to take time off in August should submit ------- requests by June 30.",
+  "options": [
+   {
+    "id": "a",
+    "text": "they"
+   },
+   {
+    "id": "b",
+    "text": "them"
+   },
+   {
+    "id": "c",
+    "text": "their"
+   },
+   {
+    "id": "d",
+    "text": "themselves"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "名詞 requests の前なので所有格 their。",
+  "translation_ja": "8月に休暇を取りたい従業員は、6月30日までに申請書を提出すること。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0008",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.adjective",
+  "scene": "travel",
+  "prompt": "The hotel offers a shuttle service to the airport, which is ------- to all guests free of charge.",
+  "options": [
+   {
+    "id": "a",
+    "text": "available"
+   },
+   {
+    "id": "b",
+    "text": "capable"
+   },
+   {
+    "id": "c",
+    "text": "eligible"
+   },
+   {
+    "id": "d",
+    "text": "responsible"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "be available to ～ で「～が利用できる」。eligible は for を伴って「資格がある」の意味で、主語が人になる。",
+  "translation_ja": "そのホテルは空港への送迎バスを運行しており、宿泊客は全員無料で利用できる。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0009",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.tense",
+  "scene": "logistics",
+  "prompt": "Mr. Ortiz ------- the shipment schedule when the client called.",
+  "options": [
+   {
+    "id": "a",
+    "text": "reviews"
+   },
+   {
+    "id": "b",
+    "text": "was reviewing"
+   },
+   {
+    "id": "c",
+    "text": "has reviewed"
+   },
+   {
+    "id": "d",
+    "text": "will review"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "when the client called（過去のある時点）にしていた最中の動作なので過去進行形。",
+  "translation_ja": "顧客から電話があったとき、オルティスさんは出荷予定を確認していた。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0010",
+  "part": 5,
+  "set_id": null,
+  "type": "vocab.verb",
+  "scene": "customer.service",
+  "prompt": "The company decided to ------- its customer service hours to better serve international clients.",
+  "options": [
+   {
+    "id": "a",
+    "text": "extend"
+   },
+   {
+    "id": "b",
+    "text": "expire"
+   },
+   {
+    "id": "c",
+    "text": "exceed"
+   },
+   {
+    "id": "d",
+    "text": "explain"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "「受付時間を延長する」の extend。expire（期限が切れる）は目的語をとらない。",
+  "translation_ja": "その会社は海外の顧客により良く対応するため、顧客サービスの受付時間を延長することにした。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0011",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.correlative",
+  "scene": "meeting",
+  "prompt": "Neither the manager ------- her assistant was able to attend the conference.",
+  "options": [
+   {
+    "id": "a",
+    "text": "or"
+   },
+   {
+    "id": "b",
+    "text": "nor"
+   },
+   {
+    "id": "c",
+    "text": "and"
+   },
+   {
+    "id": "d",
+    "text": "but"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "neither A nor B（AもBも～ない）の組み合わせ。either なら or を使う。",
+  "translation_ja": "部長もそのアシスタントも、会議に出席できなかった。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p5-0012",
+  "part": 5,
+  "set_id": null,
+  "type": "grammar.part_of_speech",
+  "scene": "hr",
+  "prompt": "Applications will be reviewed -------, and qualified candidates will be contacted within two weeks.",
+  "options": [
+   {
+    "id": "a",
+    "text": "careful"
+   },
+   {
+    "id": "b",
+    "text": "carefully"
+   },
+   {
+    "id": "c",
+    "text": "carefulness"
+   },
+   {
+    "id": "d",
+    "text": "more careful"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "動詞 reviewed を修飾するので副詞 carefully。",
+  "translation_ja": "応募書類は慎重に審査され、条件を満たす候補者には2週間以内に連絡がある。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p6-0001",
+  "part": 6,
+  "set_id": "p6-s001",
+  "type": "vocab.collocation",
+  "scene": "office",
+  "prompt": "[1]",
+  "options": [
+   {
+    "id": "a",
+    "text": "take"
+   },
+   {
+    "id": "b",
+    "text": "make"
+   },
+   {
+    "id": "c",
+    "text": "hold"
+   },
+   {
+    "id": "d",
+    "text": "keep"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "take ＋時間 で「（時間が）かかる」。The work is expected to take about two weeks.",
+  "translation_ja": "（空欄1）工事は約2週間かかる見込みだ。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p6-0002",
+  "part": 6,
+  "set_id": "p6-s001",
+  "type": "text.insertion",
+  "scene": "office",
+  "prompt": "[2]",
+  "options": [
+   {
+    "id": "a",
+    "text": "Please note that the old refrigerator will be removed on Saturday."
+   },
+   {
+    "id": "b",
+    "text": "The new menu will be posted in the cafeteria."
+   },
+   {
+    "id": "c",
+    "text": "Thank you for attending the safety training last week."
+   },
+   {
+    "id": "d",
+    "text": "The third-floor kitchen will also be closed during this time."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "直後に「私物を金曜日の夕方までに冷蔵庫から出して」と続くので、古い冷蔵庫が土曜日に撤去されるという文が自然。(D) は3階を使うよう求める前の段落と矛盾する。",
+  "translation_ja": "（空欄2）文挿入問題",
+  "translation_options_ja": [
+   "なお、古い冷蔵庫は土曜日に撤去されます。",
+   "新しいメニューは食堂に掲示されます。",
+   "先週の安全研修へのご参加ありがとうございました。",
+   "3階の給湯室もこの間閉鎖されます。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p6-0003",
+  "part": 6,
+  "set_id": "p6-s001",
+  "type": "grammar.passive",
+  "scene": "office",
+  "prompt": "[3]",
+  "options": [
+   {
+    "id": "a",
+    "text": "discard"
+   },
+   {
+    "id": "b",
+    "text": "discarded"
+   },
+   {
+    "id": "c",
+    "text": "discarding"
+   },
+   {
+    "id": "d",
+    "text": "discards"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "will be の後で「処分される」という受け身にするので過去分詞 discarded。",
+  "translation_ja": "（空欄3）残されたものは処分される。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p6-0004",
+  "part": 6,
+  "set_id": "p6-s001",
+  "type": "grammar.part_of_speech",
+  "scene": "office",
+  "prompt": "[4]",
+  "options": [
+   {
+    "id": "a",
+    "text": "patience"
+   },
+   {
+    "id": "b",
+    "text": "patient"
+   },
+   {
+    "id": "c",
+    "text": "patiently"
+   },
+   {
+    "id": "d",
+    "text": "patients"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "所有格 your の後には名詞が来る。「忍耐・辛抱」の patience。patients は「患者たち」で意味が合わない。",
+  "translation_ja": "（空欄4）ご辛抱（ご理解）に感謝します。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0001",
+  "part": 7,
+  "set_id": "p7-s001",
+  "type": "detail",
+  "scene": "fitness",
+  "prompt": "What is being offered to people who join in June?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A free month of membership"
+   },
+   {
+    "id": "b",
+    "text": "No registration fee"
+   },
+   {
+    "id": "c",
+    "text": "A discount on swimming lessons"
+   },
+   {
+    "id": "d",
+    "text": "A free towel"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "pay no registration fee（入会金なし）とある。トレーナーのセッション無料は12か月プランの人だけ。",
+  "translation_ja": "6月に入会する人には何が提供されるか。",
+  "translation_options_ja": [
+   "1か月分の会費無料",
+   "入会金の免除",
+   "水泳レッスンの割引",
+   "無料のタオル"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0002",
+  "part": 7,
+  "set_id": "p7-s001",
+  "type": "indicated",
+  "scene": "fitness",
+  "prompt": "What is indicated about the pool?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It was recently built."
+   },
+   {
+    "id": "b",
+    "text": "It is 50 meters long."
+   },
+   {
+    "id": "c",
+    "text": "It will be temporarily unavailable in July."
+   },
+   {
+    "id": "d",
+    "text": "It is open only to 12-month members."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "the pool will be closed for cleaning from July 10 to July 14 とある。temporarily unavailable（一時的に使えない）への言い換え。",
+  "translation_ja": "プールについて何が示されているか。",
+  "translation_options_ja": [
+   "最近造られた。",
+   "長さが50メートルある。",
+   "7月に一時的に使えなくなる。",
+   "12か月会員しか使えない。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0003",
+  "part": 7,
+  "set_id": "p7-s002",
+  "type": "main.topic",
+  "scene": "business.news",
+  "prompt": "What is the article mainly about?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A new café opening"
+   },
+   {
+    "id": "b",
+    "text": "The history of tea in Kanazawa"
+   },
+   {
+    "id": "c",
+    "text": "The renovation of a train station"
+   },
+   {
+    "id": "d",
+    "text": "A change in company leadership"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "第1文で日本初の店舗を開くと述べ、全体がその出店の話。茶の文化は選んだ理由の一つにすぎない。",
+  "translation_ja": "記事は主に何についてか。",
+  "translation_options_ja": [
+   "新しいカフェの開店",
+   "金沢の茶の歴史",
+   "駅の改修",
+   "経営陣の交代"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0004",
+  "part": 7,
+  "set_id": "p7-s002",
+  "type": "reason",
+  "scene": "business.news",
+  "prompt": "According to the article, why was Kanazawa chosen?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Its rent is lower than in other cities."
+   },
+   {
+    "id": "b",
+    "text": "It has a growing number of international visitors."
+   },
+   {
+    "id": "c",
+    "text": "The company's director was born there."
+   },
+   {
+    "id": "d",
+    "text": "It has a large coffee factory."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "because of its growing number of international visitors とある。",
+  "translation_ja": "記事によると、なぜ金沢が選ばれたのか。",
+  "translation_options_ja": [
+   "他の都市より家賃が安い。",
+   "海外からの訪問客が増えている。",
+   "ディレクターの出身地である。",
+   "大きなコーヒー工場がある。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0005",
+  "part": 7,
+  "set_id": "p7-s002",
+  "type": "sentence.position",
+  "scene": "business.news",
+  "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Applicants who speak English are especially encouraged to apply.\"",
+  "options": [
+   {
+    "id": "a",
+    "text": "[1]"
+   },
+   {
+    "id": "b",
+    "text": "[2]"
+   },
+   {
+    "id": "c",
+    "text": "[3]"
+   },
+   {
+    "id": "d",
+    "text": "[4]"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "「応募者（Applicants）」は、直前の「約40人を採用する予定」を受けている。[3] に入れると採用の話がつながる。",
+  "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「英語を話せる応募者は特に歓迎する。」",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0006",
+  "part": 7,
+  "set_id": "p7-s003",
+  "type": "indicated",
+  "scene": "events",
+  "prompt": "What is indicated about all the rooms at the conference center?",
+  "options": [
+   {
+    "id": "a",
+    "text": "They have a view of the lake."
+   },
+   {
+    "id": "b",
+    "text": "They include audio-visual equipment."
+   },
+   {
+    "id": "c",
+    "text": "They can be booked by the hour."
+   },
+   {
+    "id": "d",
+    "text": "They are available on weekends only."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "文書1に A projector and microphones are included in all rooms とある。プロジェクターとマイクを audio-visual equipment（視聴覚機器）と言い換えている。",
+  "translation_ja": "会議センターの全室について何が示されているか。",
+  "translation_options_ja": [
+   "湖が見える。",
+   "視聴覚機器が含まれている。",
+   "1時間単位で予約できる。",
+   "週末しか使えない。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0007",
+  "part": 7,
+  "set_id": "p7-s003",
+  "type": "purpose",
+  "scene": "events",
+  "prompt": "Why did Ms. Martinez write the e-mail?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To cancel a booking"
+   },
+   {
+    "id": "b",
+    "text": "To make a reservation"
+   },
+   {
+    "id": "c",
+    "text": "To complain about a service"
+   },
+   {
+    "id": "d",
+    "text": "To ask about job openings"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "文書2の I would like to reserve a room から、予約のためのメール。",
+  "translation_ja": "マルティネスさんはなぜメールを書いたのか。",
+  "translation_options_ja": [
+   "予約を取り消すため",
+   "予約をするため",
+   "サービスに苦情を言うため",
+   "求人について尋ねるため"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0008",
+  "part": 7,
+  "set_id": "p7-s003",
+  "type": "cross.reference",
+  "scene": "events",
+  "prompt": "Which room will most likely be reserved for Ms. Martinez's group?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Maple Room"
+   },
+   {
+    "id": "b",
+    "text": "Cedar Room"
+   },
+   {
+    "id": "c",
+    "text": "Oak Hall"
+   },
+   {
+    "id": "d",
+    "text": "Pine Hall"
+   }
+  ],
+  "answer": "b",
+  "shuffle": false,
+  "explanation_ja": "【2文書の照合】参加者は約45人（文書2）。定員50人のシダー室なら収まる（文書1）。メープル室は20人で足りず、オーク・ホール以上は大きすぎる。",
+  "translation_ja": "マルティネスさんの団体にはどの部屋が予約されると考えられるか。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0009",
+  "part": 7,
+  "set_id": "p7-s003",
+  "type": "cross.reference",
+  "scene": "events",
+  "prompt": "What is suggested about Ms. Martinez's group?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It can use the catering service."
+   },
+   {
+    "id": "b",
+    "text": "It needs two rooms."
+   },
+   {
+    "id": "c",
+    "text": "It will stay overnight."
+   },
+   {
+    "id": "d",
+    "text": "It booked the center last year."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "【2文書の照合】ケータリングは30人以上の団体が対象（文書1）で、この団体は約45人（文書2）なので利用できる。",
+  "translation_ja": "マルティネスさんの団体について何が示唆されているか。",
+  "translation_options_ja": [
+   "ケータリングを利用できる。",
+   "部屋が2つ必要だ。",
+   "宿泊する。",
+   "昨年もこのセンターを予約した。"
+  ],
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ },
+ {
+  "id": "p7-0010",
+  "part": 7,
+  "set_id": "p7-s003",
+  "type": "cross.reference",
+  "scene": "events",
+  "prompt": "If the discount is applied, how much will the group pay for the room?",
+  "options": [
+   {
+    "id": "a",
+    "text": "$270"
+   },
+   {
+    "id": "b",
+    "text": "$495"
+   },
+   {
+    "id": "c",
+    "text": "$550"
+   },
+   {
+    "id": "d",
+    "text": "$1,080"
+   }
+  ],
+  "answer": "b",
+  "shuffle": false,
+  "explanation_ja": "【2文書の照合】3月3日の時点で5月15日は60日以上先なので10%割引が適用される。シダー室 $550 × 0.9 ＝ $495。",
+  "translation_ja": "割引が適用されると、団体は部屋代にいくら払うか。",
+  "translation_options_ja": null,
+  "level": "B1",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
+  "review": []
+ }
+]

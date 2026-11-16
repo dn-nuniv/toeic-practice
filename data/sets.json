@@ -1,0 +1,406 @@
+[
+ {
+  "id": "p1-s0001",
+  "part": 1,
+  "kind": "photo",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0001.webp",
+  "question_ids": [
+   "p1-0001"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p1-s0002",
+  "part": 1,
+  "kind": "photo",
+  "scene": "warehouse",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0002.webp",
+  "question_ids": [
+   "p1-0002"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p1-s0003",
+  "part": 1,
+  "kind": "photo",
+  "scene": "meeting",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0003.webp",
+  "question_ids": [
+   "p1-0003"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p3-s001",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "meeting",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male",
+    "name": "Daniel"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Hi, Daniel. The clients from Harlow Foods just called. Their flight was canceled, so they can't come in on Tuesday."
+   },
+   {
+    "speaker": "M",
+    "text": "That's a shame. We've already reserved the large meeting room and ordered lunch for twelve people."
+   },
+   {
+    "speaker": "W",
+    "text": "I know. They asked if we could move the presentation to Thursday afternoon instead."
+   },
+   {
+    "speaker": "M",
+    "text": "Thursday? I'm supposed to be at the trade fair in Chicago that day."
+   },
+   {
+    "speaker": "W",
+    "text": "Well, Maria worked on the proposal with you. She knows it inside out."
+   },
+   {
+    "speaker": "M",
+    "text": "True. I'll ask her this morning, and I'll call the caterer to change the lunch order."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0001",
+   "p3-0002",
+   "p3-0003"
+  ],
+  "translation_ja": "女性：ダニエル、ハーロウ・フーズのお客さまから電話があったわ。飛行機が欠航して、火曜日に来られなくなったそうよ。\n男性：それは残念だ。大会議室を予約して、12人分の昼食も注文してあるのに。\n女性：そうよね。代わりに木曜日の午後に発表を移せないかと聞かれたの。\n男性：木曜日？その日はシカゴの見本市に行くことになっているんだ。\n女性：でも、マリアはあなたと一緒に提案書を作ったでしょう。隅から隅まで分かっているわ。\n男性：確かに。今朝のうちに彼女に頼んでみるよ。それから、仕出し業者に電話して昼食の注文を変更しておく。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p3-s002",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "customer.service",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   },
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "M",
+    "text": "Hello, I'm calling about the order of printer paper we placed last week. It hasn't arrived yet, and we're running out."
+   },
+   {
+    "speaker": "W",
+    "text": "I'm sorry about that. I see that it was sent by standard delivery, so it should arrive by Friday."
+   },
+   {
+    "speaker": "M",
+    "text": "We have an important mailing on Wednesday. Is there any way to get more paper before then?"
+   },
+   {
+    "speaker": "W",
+    "text": "I can send a second box today. Since you're outside our local area, the fastest option would be next-day delivery, and I'll waive the fee."
+   },
+   {
+    "speaker": "M",
+    "text": "That would be great. Thank you."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Delivery Options",
+   "columns": [
+    "Option",
+    "Time",
+    "Fee"
+   ],
+   "rows": [
+    [
+     "Standard",
+     "5–7 days",
+     "$8"
+    ],
+    [
+     "Express",
+     "2–3 days",
+     "$15"
+    ],
+    [
+     "Next Day",
+     "1 day",
+     "$25"
+    ],
+    [
+     "Same Day (local only)",
+     "Same day",
+     "$40"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p3-0004",
+   "p3-0005",
+   "p3-0006"
+  ],
+  "translation_ja": "男性：もしもし、先週注文したプリンター用紙の件でお電話しました。まだ届かなくて、もうすぐなくなりそうなんです。\n女性：申し訳ございません。通常配送で発送されていますので、金曜日までには届くはずです。\n男性：水曜日に大事な郵送物があるんです。それまでに用紙を手に入れる方法はありませんか。\n女性：本日、もう1箱お送りできます。お客さまは当社の地域外ですので、最も早いのは翌日配送になります。配送料は無料にいたします。\n男性：それは助かります。ありがとうございます。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p4-s001",
+  "part": 4,
+  "kind": "announcement",
+  "scene": "facilities",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Attention, all employees. This is a reminder that maintenance work on the east elevators will begin this Saturday at 8 A.M. and is expected to continue through Monday afternoon."
+   },
+   {
+    "speaker": "N",
+    "text": "During this time, please use the west elevators or the stairs. Employees who need to move heavy equipment should contact the facilities office in advance so that a service elevator can be reserved."
+   },
+   {
+    "speaker": "N",
+    "text": "We apologize for any inconvenience and thank you for your patience."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0001",
+   "p4-0002",
+   "p4-0003"
+  ],
+  "translation_ja": "従業員の皆さまにお知らせします。東側エレベーターの保守作業が、今週土曜日の午前8時に始まり、月曜日の午後まで続く予定です。この間は、西側のエレベーターか階段をご利用ください。重い機材を運ぶ必要がある方は、業務用エレベーターを予約できるよう、事前に施設管理室へご連絡ください。ご不便をおかけしますが、ご理解とご協力をお願いいたします。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p4-s002",
+  "part": 4,
+  "kind": "voicemail",
+  "scene": "printing",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female",
+    "name": "Karen Lee"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Hi, this is Karen Lee from Brightline Printing. I'm calling about the brochures you ordered for your company's anniversary event."
+   },
+   {
+    "speaker": "N",
+    "text": "We've finished the design proofs, but there's a question about the cover photo. The image file you sent is a little too small, so it may look blurry when it's printed."
+   },
+   {
+    "speaker": "N",
+    "text": "If you have a higher-resolution version, could you e-mail it to me by noon tomorrow? That way, we can still deliver the brochures on schedule next Wednesday. Thanks."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0004",
+   "p4-0005",
+   "p4-0006"
+  ],
+  "translation_ja": "もしもし、ブライトライン印刷のカレン・リーです。御社の創立記念行事用にご注文いただいたパンフレットの件でお電話しました。デザインの校正刷りはできあがったのですが、表紙の写真について確認があります。お送りいただいた画像ファイルが少し小さいため、印刷するとぼやけて見えるかもしれません。解像度の高いものがあれば、明日の正午までにメールでお送りいただけますか。そうすれば、予定どおり来週の水曜日にパンフレットをお届けできます。よろしくお願いします。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p6-s001",
+  "part": 6,
+  "kind": "email",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "email",
+    "header": {
+     "To": "All Staff",
+     "From": "Paul Greene, Office Manager",
+     "Subject": "Kitchen renovation",
+     "Date": "May 2"
+    },
+    "text": "Dear staff,\n\nBeginning next Monday, the second-floor kitchen will be closed for renovation. The work is expected to [1] about two weeks. During this period, please use the kitchen on the third floor.\n\n[2] We ask that you take any personal items, such as mugs and food containers, out of the refrigerator by Friday evening. Anything left behind will be [3].\n\nWhen the kitchen reopens, it will have a larger refrigerator, a second microwave, and more seating. We appreciate your [4] while the work is being completed.\n\nPaul Greene"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0001",
+   "p6-0002",
+   "p6-0003",
+   "p6-0004"
+  ],
+  "translation_ja": "宛先：全従業員／差出人：ポール・グリーン（総務課長）／件名：給湯室の改装\n従業員の皆さま\n来週の月曜日から、2階の給湯室は改装のため閉鎖されます。工事は約2週間かかる見込みです。この間は3階の給湯室をご利用ください。\nなお、古い冷蔵庫は土曜日に撤去されます。マグカップや食品容器など私物は、金曜日の夕方までに冷蔵庫から出しておいてください。残されたものは処分されます。\n再開後の給湯室には、より大きな冷蔵庫、2台目の電子レンジ、座席の追加が予定されています。工事期間中のご理解に感謝いたします。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p7-s001",
+  "part": 7,
+  "kind": "single",
+  "scene": "fitness",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Greenway Fitness Center — Summer Membership Offer",
+    "text": "Join between June 1 and June 30 and pay no registration fee (normally $50). New members who sign up for a 12-month plan will also receive two free sessions with a personal trainer.\n\nOur facilities include a 25-meter pool, a sauna, and more than 30 group classes each week. Please note that the pool will be closed for cleaning from July 10 to July 14.\n\nTo join, visit our front desk or register online at www.greenwayfit.example."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0001",
+   "p7-0002"
+  ],
+  "translation_ja": "グリーンウェイ・フィットネスセンター　夏の入会キャンペーン\n6月1日から30日までにご入会の方は、入会金（通常50ドル）が無料。12か月プランにお申し込みの新会員には、パーソナルトレーナーのセッションを2回無料でご提供します。施設には25メートルプール、サウナがあり、毎週30以上のグループレッスンを行っています。なお、プールは清掃のため7月10日から14日まで閉鎖します。ご入会は受付またはウェブサイトから。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p7-s002",
+  "part": 7,
+  "kind": "single",
+  "scene": "business.news",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "article",
+    "title": "Local Business",
+    "text": "KANAZAWA (April 3) — Solberg Coffee, a Seattle-based café chain, will open its first store in Japan next month. — [1] — The 120-seat café will be located on the ground floor of the newly completed Hikari Building near Kanazawa Station.\n\nAccording to the company's regional director, Anna Solberg, Kanazawa was chosen because of its growing number of international visitors and its long tradition of tea culture. — [2] — The café will serve locally roasted beans and will offer a seasonal menu featuring ingredients from farms in Ishikawa Prefecture.\n\nThe company plans to hire about 40 staff members. — [3] — Opening hours will be from 7 A.M. to 9 P.M. — [4] —"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0003",
+   "p7-0004",
+   "p7-0005"
+  ],
+  "translation_ja": "金沢（4月3日）――シアトルに本社を置くカフェチェーンのソルバーグ・コーヒーが、来月、日本で初めての店舗を開く。120席のカフェは、金沢駅近くに新しく完成したヒカリビルの1階に入る。\n同社の地域担当ディレクター、アンナ・ソルバーグ氏によると、金沢を選んだのは、海外からの訪問客が増えていることと、長い茶の文化があるためだという。カフェでは地元で焙煎した豆を使い、石川県の農場の食材を使った季節のメニューも提供する。\n同社は約40人のスタッフを採用する予定だ。［英語を話せる応募者は特に歓迎する。］営業時間は午前7時から午後9時まで。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ },
+ {
+  "id": "p7-s003",
+  "part": 7,
+  "kind": "double",
+  "scene": "events",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "table",
+    "title": "Lakeview Conference Center — Room Rates (per day)",
+    "table": {
+     "columns": [
+      "Room",
+      "Capacity",
+      "Rate"
+     ],
+     "rows": [
+      [
+       "Maple Room",
+       "20",
+       "$300"
+      ],
+      [
+       "Cedar Room",
+       "50",
+       "$550"
+      ],
+      [
+       "Oak Hall",
+       "120",
+       "$1,200"
+      ],
+      [
+       "Pine Hall",
+       "200",
+       "$1,800"
+      ]
+     ]
+    },
+    "text": "• A projector and microphones are included in all rooms.\n• Catering is available for groups of 30 or more.\n• Bookings made at least 60 days in advance receive a 10% discount on the room rate."
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "events@lakeviewcc.example",
+     "From": "Rosa Martinez <rmartinez@deltaline.example>",
+     "Date": "March 3",
+     "Subject": "Booking request"
+    },
+    "text": "Hello,\n\nI would like to reserve a room for our company's annual sales training on May 15. We expect about 45 participants. We will also need lunch for everyone, and we would like a vegetarian option to be available.\n\nSince we are booking more than two months in advance, I understand that we are eligible for a discount. Could you please confirm the total price?\n\nRegards,\nRosa Martinez\nDeltaline Logistics"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0006",
+   "p7-0007",
+   "p7-0008",
+   "p7-0009",
+   "p7-0010"
+  ],
+  "translation_ja": "【文書1】レイクビュー会議センター　会議室料金（1日あたり）\nメープル室：20人・300ドル／シダー室：50人・550ドル／オーク・ホール：120人・1,200ドル／パイン・ホール：200人・1,800ドル\n※全室にプロジェクターとマイクが含まれます。※ケータリングは30人以上の団体で利用できます。※60日前までのご予約は10%割引。\n【文書2】宛先：レイクビュー会議センター／差出人：ローサ・マルティネス（デルタライン物流）／日付：3月3日／件名：予約のお願い\n5月15日に当社の年次営業研修のための部屋を予約したいと思います。参加者は約45人の見込みです。全員分の昼食も必要で、ベジタリアン向けのメニューも用意していただきたいです。2か月以上前の予約なので割引の対象になると理解しています。合計金額をご確認いただけますか。",
+  "status": "draft",
+  "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0"
+ }
+]
