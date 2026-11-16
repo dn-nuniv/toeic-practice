@@ -14,7 +14,7 @@
 - `data/items.json`, `data/sets.json`：問題データ（1件＝Supabase の1行）。`data/bank.js` はアプリが読むまとめ版。この3つは `build_data.py` が `data/src` から作る（手で編集しない）。
 - `data/vocab/src/*.json`：**単語の元データ**（書き方は `data/vocab/README.md`）。`build_data.py` が `data/vocab.json`・`data/vocab.js` を作る。アプリの単語練習は `js/vocab.js`（英→日の4択・日→英のつづり・例文の穴埋め・単語の復習、Part の練習の前の「今日の単語」）。
 - `data/blueprint.json`：大量生成の設計表（Part × 出題タイプ × 場面）。
-- `data/reviews.json`：相互レビューの結果（`import_review.py` が作る）。
+- `data/reviews.json`：相互レビューの結果（`import_review.py` が作る）。`data/explain_reviews.json`：解説の確認の結果（`import_review.py --explain` が作る）。
 - `scripts/`：`build_data.py`（データ作成）、`validate.py`（機械チェック）、`export_review.py` / `import_review.py`（相互レビュー。単語も同じ流れ）、`gen_audio.py`（音声）、`vocab_lib.py`（単語の共通処理）。
 - `supabase/schema.sql`：段階2のテーブル案。`images/part1/`：Part 1 の写真。`audio/`：生成した音声と manifest。
 
@@ -25,6 +25,7 @@
 4. `python3 scripts/export_review.py` → `review/PROMPT.md` と `review/packet.md` を先生が Orca に渡す → 返ってきた JSON を `python3 scripts/import_review.py <file> --reviewer orca` → もう一度 `build_data.py`
    - flagged の問題は、直すなら `data/src` の問題を書き換える（ID はそのまま）。古いレビューは効かなくなり draft に戻るので、次の export で再レビューに回る
    - 検討して直さないなら `python3 scripts/import_review.py --resolve <ID> --note "理由"` で解決済みにする
+   - **解説の確認**（上とは別。正解と解説を見せて、解説・和訳の誤りを探してもらう）：`python3 scripts/export_review.py --explain [--part N] [--limit 40]` → `review/EXPLAIN_PROMPT.md` と `review/explain_packet.md` を渡す → `python3 scripts/import_review.py <file> --reviewer orca --explain` → `build_data.py`。結果は `data/explain_reviews.json`、問題ごとの状態は `explain_status`（unchecked / checked / flagged）。解説・和訳を直すと unchecked に戻る。直さないなら `--resolve <ID> --explain --note "理由"`
 5. `python3 scripts/gen_audio.py --dry-run` で件数と文字数を確認 → `python3 scripts/gen_audio.py`
 6. ブラウザで `index.html` を開いて確認 → コミット・push（コミットメッセージは日本語）
 
@@ -65,7 +66,7 @@
 3. 語彙レベルの判定：NGSL / TSL（CC BY-SA 4.0、出典表示が必要）を取り込み、各問題の語彙をプロファイルする。TSL は単語練習の見出し語のリストにも使う（配布元のサイトをネットワークで許可する必要がある）。
 4. ~~Part 3・4 の設問の読み上げ~~ → 済み（`<item>:q`。解答時間つき）
 5. 段階2：JLPT アプリの構成に合わせて Supabase へ移行（`supabase/schema.sql`）。
-8. 厚い解説（`option_notes_ja`・`point_ja`）：既存の184問すべてに追加済み。次は、解説の中身を確かめるレビュー（正解を見せて解説の誤りを探してもらう）を別に行う。※問題を作ったときの生成スクリプトを流し直すと解説が消えるので、今後の修正は `data/src` の JSON を直接直す。
+8. 厚い解説（`option_notes_ja`・`point_ja`）：既存の184問すべてに追加済み。解説の確認のしくみ（`--explain`）も済み。次は実際に184問の解説を確認してもらう（Part 1・2／3・4／5・6／7 くらいに分けて）。※問題を作ったときの生成スクリプトを流し直すと解説が消えるので、今後の修正は `data/src` の JSON を直接直す。
 6. 単語の音声（`<単語ID>:word`・`<単語ID>:ex`）：レビューを通った語から `gen_audio.py` に足す。今はブラウザの読み上げで代用。
 7. ~~Part 1〜7 の学習のさせ方~~ → 「今日の学習」（1日1 Part、5→2→6→3→7→4→5→1 の順で読解とリスニングを交互、約10問、今日の単語→問題）。記録は Store の daily。
 

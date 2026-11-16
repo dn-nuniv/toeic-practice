@@ -2,6 +2,9 @@
 """別のAI（Orca など）に解かせて照合するためのレビュー用ファイルを書き出す。
   python3 scripts/export_review.py            # まだレビューしていない問題だけ
   python3 scripts/export_review.py --all      # すべての問題
+  python3 scripts/export_review.py --explain [--part 5] [--limit 40]
+                                              # 解説の確認用（正解と解説を見せて誤りを探してもらう）
+                                              # → review/explain_packet.md と review/EXPLAIN_PROMPT.md
 出力：review/packet.md（正解を伏せた問題集）と review/PROMPT.md（レビュー役への指示文）。
 レビュー役には PROMPT.md と packet.md を渡し、返ってきた JSON を
   python3 scripts/import_review.py <返ってきたファイル> --reviewer orca
@@ -9,11 +12,21 @@
 import json, pathlib, argparse, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ap = argparse.ArgumentParser(); ap.add_argument("--all", action="store_true"); a = ap.parse_args()
+ap = argparse.ArgumentParser()
+ap.add_argument("--all", action="store_true")
+ap.add_argument("--explain", action="store_true", help="解説の確認用を書き出す")
+ap.add_argument("--part", type=int, help="この Part だけ（--explain のとき）")
+ap.add_argument("--limit", type=int, help="この問題数まで（セットの途中では切らない。--explain のとき）")
+a = ap.parse_args()
 items = json.loads((ROOT / "data/items.json").read_text(encoding="utf-8"))
 sets = {s["id"]: s for s in json.loads((ROOT / "data/sets.json").read_text(encoding="utf-8"))}
-target = [i for i in items if a.all or i["status"] == "draft"]
 L = "ABCD"
+if a.explain:
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import explain_export
+    explain_export.run(ROOT, items, sets, a)
+    sys.exit()
+target = [i for i in items if a.all or i["status"] == "draft"]
 out, done_sets = ["# TOEIC 練習問題 レビュー用（正解は伏せてある）\n"], set()
 for it in target:
     s = sets.get(it.get("set_id"))

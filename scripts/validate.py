@@ -115,6 +115,7 @@ pos = Counter([o["id"] for o in it["options"]].index(it["answer"]) for it in fix
 print("Part別の問題数:", dict(sorted(Counter(i["part"] for i in items).items())))
 if vocab: print("単語:", len(vocab), "語 / 品詞:", dict(Counter(w["pos"] for w in vocab)), "/ 状態:", dict(Counter(w["status"] for w in vocab)))
 print("出題タイプ:", len(Counter(i["type"] for i in items)), "種類 / 状態:", dict(Counter(i["status"] for i in items)))
+print("解説の確認:", dict(Counter(i.get("explain_status", "unchecked") for i in items)))
 if fixed: print("位置固定の問題の正解位置:", {"ABCD"[k]: v for k, v in sorted(pos.items())})
 for w in W: print("警告:", w)
 for e in E: print("エラー:", e)

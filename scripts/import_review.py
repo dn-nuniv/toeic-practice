@@ -9,6 +9,12 @@
 
 指摘を検討した結果、問題を直さないと決めたときは理由を記録する（その問題の今の版への指摘がすべて解決済みになる）:
   python3 scripts/import_review.py --resolve p7-0008 --note "most likely の推論で一意に決まる。変更不要"
+
+解説の確認（export_review.py --explain で書き出したもの）の結果は --explain を付けて取り込む。
+結果は data/explain_reviews.json に追記され、build_data.py で各問題の explain_status に反映される。
+  ok がすべて true → checked（確認済み）／ ok が false のものがある → flagged（要確認）
+解説・和訳を直すと古い確認は効かなくなり unchecked に戻る。直さないと決めたときは:
+  python3 scripts/import_review.py --resolve p5-0003 --explain --note "理由"
 """
 import json, pathlib, argparse, datetime, re, sys
 
@@ -22,6 +28,7 @@ ap.add_argument("file", nargs="?", help="レビュー役が返した JSON のフ
 ap.add_argument("--reviewer", help="レビュー役の名前（orca, gpt など）")
 ap.add_argument("--resolve", metavar="ID", help="この問題への指摘を解決済みにする")
 ap.add_argument("--note", help="--resolve の理由")
+ap.add_argument("--explain", action="store_true", help="解説の確認の結果として扱う")
 a = ap.parse_args()
 
 items = {i["id"]: i for i in json.loads((ROOT / "data/items.json").read_text(encoding="utf-8"))}
@@ -32,6 +39,37 @@ meaning = {k: w["meaning_ja"] for k, w in vocab.items()}
 rpath = ROOT / "data/reviews.json"
 reviews = json.loads(rpath.read_text(encoding="utf-8")) if rpath.exists() else {}
 now = datetime.datetime.now().isoformat(timespec="seconds")
+
+# ------------------------------------------------------------ 解説の確認
+if a.explain:
+    from review_hash import explain_hash
+    epath = ROOT / "data/explain_reviews.json"
+    er = json.loads(epath.read_text(encoding="utf-8")) if epath.exists() else {}
+    eh = lambda it: explain_hash(it, sets.get(it.get("set_id")))
+    if a.resolve:
+        if not a.note: sys.exit("--note で理由を書いてください")
+        it = items.get(a.resolve)
+        if not it: sys.exit(f"不明なID: {a.resolve}")
+        tg = [r for r in er.get(it["id"], []) if r.get("explain_hash") == eh(it) and not r["ok"] and not r.get("resolved")]
+        if not tg: sys.exit(f"{it['id']}: 今の版の解説に未解決の指摘はありません")
+        for r in tg: r["resolved"] = {"at": now, "note": a.note}
+        epath.write_text(json.dumps(er, ensure_ascii=False, indent=1), encoding="utf-8")
+        sys.exit(f"{it['id']}: 解説への指摘 {len(tg)} 件を解決済みにしました。build_data.py で反映されます。")
+    if not (a.file and a.reviewer): ap.error("結果のファイルと --reviewer を指定してください")
+    raw = pathlib.Path(a.file).read_text(encoding="utf-8")
+    m = re.search(r"\[.*\]", raw, re.S)
+    res = json.loads(m.group(0) if m else raw)
+    good = bad = 0
+    for r in res:
+        it = items.get(r.get("id"))
+        if not it: print("不明なID:", r.get("id")); continue
+        ok = r.get("ok") is True or str(r.get("ok")).lower() == "true"
+        issues, fix = (r.get("issues") or "").strip(), (r.get("fix") or "").strip()
+        er.setdefault(it["id"], []).append({"reviewer": a.reviewer, "at": now, "ok": ok, "issues": issues, "fix": fix, "explain_hash": eh(it)})
+        if ok: good += 1
+        else: bad += 1; print(f"指摘 {it['id']}: {issues}" + (f"\n   直し方の案: {fix}" if fix else ""))
+    epath.write_text(json.dumps(er, ensure_ascii=False, indent=1), encoding="utf-8")
+    sys.exit(f"解説の確認：問題なし {good} / 指摘あり {bad}。python3 scripts/build_data.py を実行すると反映されます。")
 
 
 def chash(it):

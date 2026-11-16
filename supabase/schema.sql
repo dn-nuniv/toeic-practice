@@ -37,7 +37,8 @@ create table if not exists items (
   level         text,
   status        text not null default 'draft' check (status in ('draft','reviewed','flagged','retired')),
   source        text,
-  review        jsonb not null default '[]'
+  review        jsonb not null default '[]',
+  explain_status text not null default 'unchecked' check (explain_status in ('unchecked','checked','flagged'))  -- 解説の確認
 );
 
 -- 学生ごとの復習の状態（SM-2）

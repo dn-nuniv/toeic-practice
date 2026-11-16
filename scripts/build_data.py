@@ -57,7 +57,8 @@ def make_item(where, d, part, source, set_id):
                explanation_ja=d["explanation_ja"], translation_ja=d["translation_ja"],
                translation_options_ja=d.get("translation_options_ja"), option_notes_ja=d.get("option_notes_ja"),
                point_ja=d.get("point_ja"), level=d["level"],
-               status=status, source=d.get("source", source), review=[])
+               status=status, source=d.get("source", source), review=[],
+               explain_status="unchecked")  # 解説の確認：unchecked / checked / flagged（data/explain_reviews.json から決まる）
     if part in (1, 2): row["voices"] = d.get("voices") or default_voices(iid, part)
     items.append(row)
     return iid
@@ -134,6 +135,17 @@ if rpath.exists():
         bad = any(((not r["agree"]) or r.get("ambiguous") or r.get("issues")) and not r.get("resolved") for r in cur)
         it["status"] = "flagged" if bad else "reviewed"
 
+# ------------------------------------------------------------ 解説の確認の結果を反映（import_review.py --explain が作る）
+# 今の版の解説（explain_hash）への確認だけが効く。解説・和訳・問題を直すと unchecked に戻る
+from review_hash import explain_hash
+epath = ROOT / "data" / "explain_reviews.json"
+ereviews = json.loads(epath.read_text(encoding="utf-8")) if epath.exists() else {}
+for it in items:
+    eh = explain_hash(it, set_by_id.get(it["set_id"]))
+    cur = [r for r in ereviews.get(it["id"], []) if r.get("explain_hash") == eh]
+    if not cur: it["explain_status"] = "unchecked"
+    else: it["explain_status"] = "flagged" if any((not r["ok"]) and not r.get("resolved") for r in cur) else "checked"
+
 # ------------------------------------------------------------ 単語（data/vocab/src → data/vocab.json・vocab.js）
 import vocab_lib as V
 verrors = []
@@ -178,7 +190,7 @@ VERSION = datetime.date.today().isoformat() + "-" + (ub[0] if len(ub) == 1 else 
 live = [i for i in items if i["status"] != "retired"]
 print(len(files), "files |", len(live), "items", dict(sorted(Counter(i["part"] for i in live).items())), "|", len(sets), "sets",
       f"| retired {len(items) - len(live)}" if len(items) != len(live) else "")
-print("状態:", dict(Counter(i["status"] for i in items)))
+print("状態:", dict(Counter(i["status"] for i in items)), "| 解説の確認:", dict(Counter(i["explain_status"] for i in items)))
 if stale_ids: print("問題を直したため再レビューが必要（draft に戻した）:", ", ".join(stale_ids))
 print(f"単語 {len(words)}語", dict(Counter(w["pos"] for w in words)), "| 状態:", dict(Counter(w["status"] for w in words)),
       f"| 問題に出てくる語 {sum(1 for w in words if w['related_items'])}語")
