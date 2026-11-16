@@ -23,6 +23,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "f65795377c60"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "322be5846f6d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "322be5846f6d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "322be5846f6d"
   }
  ],
  "p1-0002": [
@@ -75,6 +99,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "c3aa1dc0ff55"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5008703ccb37"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "TOEICのポイントの「人のいない写真では、being＋過去分詞は原則として誤答」は一般化しすぎです。動作主が画面外にいる場合や、機械による動作の場合にも進行中の受動態は成立します。",
+   "fix": "「人物の有無だけで判断せず、述べられた動作が進行中であることを写真から確認できるかを見る。この写真には発表や設置作業の様子がない」とする。参考：[Cambridgeの受動態の説明](https://dictionary.cambridge.org/grammar/british-grammar/passives)。",
+   "explain_hash": "5008703ccb37"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5008703ccb37"
   }
  ],
  "p1-0004": [
@@ -127,6 +175,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "5aeb01ae7ff4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "正解の理由の「客は座っておらず」は、客がいるのに座っていないようにも読める。写真には客が1人も写っていない（選択肢のコメントの「客は写っていない」とも食い違う）。",
+   "fix": "「客は写っておらず、皿はテーブルに置かれていて運んでいない。」",
+   "explain_hash": "6adfd8a54596"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6adfd8a54596"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6adfd8a54596"
   }
  ],
  "p1-0006": [
@@ -153,6 +225,30 @@
    "issues": "(A) の和訳「彼らは安全帽をかぶろうとしている。」は、これから着ける・試みるニュアンスになり、直後のコメント「putting on は『かぶる途中の動作』」とずれている（p1-0001 (D) の「着ているところだ」とも不統一）。",
    "fix": "(A) の和訳を「彼らは安全帽をかぶっているところだ。」に変更する。",
    "explain_hash": "8788f14a2090"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b71f5ea99d5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b71f5ea99d5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b71f5ea99d5"
   }
  ],
  "p1-0007": [
@@ -179,6 +275,30 @@
    "issues": "TOEIC のポイントで「taking off と wearing、boarding（乗り込む）など、動作の違いを聞き分ける」としているが、wearing は「動作」ではなく「身につけている状態」を表す（p1-0006 の説明とも不整合）。",
    "fix": "「taking off（下ろす動作）と wearing（身につけている状態）、boarding（乗り込む）など、動作や状態の違いを聞き分ける。」のように修正する。",
    "explain_hash": "309ff4acddfd"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bfa388c278b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bfa388c278b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bfa388c278b"
   }
  ],
  "p1-0008": [
@@ -205,6 +325,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "fb01ffe0a841"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f468c698d39d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "TOEICのポイントが、人の写っていないことから進行中の受動態を原則として排除しています。人物が写っていなくても、画面外の人や機械による動作を描写できるため、人物の有無だけでは判断できません。",
+   "fix": "「この写真では箱が積まれた状態が確認できる。一方、フォークリフトの走行や棚の組立作業を示す様子はない。人物の有無だけでなく、描写された動作・状態と写真が一致するかで判断する」とする。",
+   "explain_hash": "f468c698d39d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f468c698d39d"
   }
  ],
  "p1-0009": [
@@ -231,6 +375,864 @@
    "issues": "",
    "fix": "",
    "explain_hash": "344acc95dff7"
+  }
+ ],
+ "p2-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14dca4f7ae3d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14dca4f7ae3d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14dca4f7ae3d"
+  }
+ ],
+ "p2-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(B) Higher than last year のコメントが「質問と関係がない」だけになっている。質問の hiring と音が似た higher を使ったひっかけであることが抜けている。",
+   "fix": "(B) のコメント：「hiring と音が似た higher を使ったひっかけ。比較の答えで、Who に合わない」。正解の理由にも「(B) は hiring に似た音の higher を使ったひっかけ」と加える。",
+   "explain_hash": "8d8253d7e384"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8d8253d7e384"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8d8253d7e384"
+  }
+ ],
+ "p2-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4633a41097a5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4633a41097a5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4633a41097a5"
+  }
+ ],
+ "p2-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b3fba148d33c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b3fba148d33c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b3fba148d33c"
+  }
+ ],
+ "p2-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7136316907a2"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7136316907a2"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7136316907a2"
+  }
+ ],
+ "p2-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a2ff1699ce94"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(B)のコメントの「同じ音」は不正確です。選択肢のtrainedは語尾に/d/があり、設問のtrainと同じ発音ではありません。",
+   "fix": "「train（電車）と、動詞train（訓練する）の過去形trainedを使ったひっかけ。交通手段の選択に答えていない」とする。",
+   "explain_hash": "a2ff1699ce94"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a2ff1699ce94"
+  }
+ ],
+ "p2-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(A) のコメントは「イントラネットに掲示されている」、訳は「掲載されています」。イントラネットに「掲示」は合わず、訳とも食い違っている。",
+   "fix": "コメントを「場所の答え。社内のイントラネットに掲載されている」にする。",
+   "explain_hash": "377a21d402bd"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "377a21d402bd"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "377a21d402bd"
+  }
+ ],
+ "p2-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fae995a2d66"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fae995a2d66"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1fae995a2d66"
+  }
+ ],
+ "p2-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(B) In the main storage room. の訳「大きいほうの倉庫です」は誤訳。main は「大きいほう」ではなく「主な・メインの」。",
+   "fix": "訳を「メインの倉庫です」または「主倉庫です」にする。",
+   "explain_hash": "818aae1cf3ee"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(B)のmain storage roomを「大きいほうの倉庫」とするのは誤訳です。mainは主要であることを示し、倉庫の大小を比較していません。",
+   "fix": "「主要な倉庫の中です」または「メインの保管室です」とする。",
+   "explain_hash": "818aae1cf3ee"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "選択肢(B)「In the main storage room.」の和訳が「大きいほうの倉庫です。」になっており、main（主な・メインの）の誤訳（larger と混同している）。",
+   "fix": "選択肢(B)の和訳を「メインの倉庫です。」（または「主な倉庫です。」）に直す。",
+   "explain_hash": "818aae1cf3ee"
+  }
+ ],
+ "p2-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "182bc98ffb03"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "182bc98ffb03"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "182bc98ffb03"
+  }
+ ],
+ "p2-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "859420d6e45f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "859420d6e45f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "859420d6e45f"
+  }
+ ],
+ "p2-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b4808b8611be"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b4808b8611be"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b4808b8611be"
+  }
+ ],
+ "p2-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "74d36d490470"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "74d36d490470"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "74d36d490470"
+  }
+ ],
+ "p2-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0910b0bdc9c4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0910b0bdc9c4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0910b0bdc9c4"
+  }
+ ],
+ "p2-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "sign-up sheet の訳が「申込書」になっている。sign-up sheet は参加者が名前を書き込む一覧表のこと。「申込書」だと1人ずつの書類に聞こえ、人数を確かめるという応答の意味が伝わりにくい。",
+   "fix": "「申し込み表（参加者の名簿）を確認しないとわかりません」とし、コメント・正解の理由も「申し込み表」にそろえる。",
+   "explain_hash": "b7d9d3cbce6a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "TOEICのポイントの「どんな質問にも答えになりうる」は適用範囲を広げすぎています。確認するという応答が適切かどうかは、質問の内容と確認対象によります。",
+   "fix": "「人数などを即答できない場合は、『確認してみます』『～を見ないと』と、確認が必要なことを伝える間接的な応答も正解になる」とする。",
+   "explain_hash": "b7d9d3cbce6a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b7d9d3cbce6a"
+  }
+ ],
+ "p2-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "978b2beb6000"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "978b2beb6000"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "978b2beb6000"
+  }
+ ],
+ "p2-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(C) They've asked for a few more options を「気に入っていないことを間接的に伝えている」と説明しているが、言い過ぎ。案を追加で求めているだけで、気に入らなかったとまでは言えない（ほかの案も見たいだけかもしれない）。",
+   "fix": "コメント・正解の理由を「感想を直接言わず、もう少し案がほしいというお客さまの反応で答えている（まだ決めかねている様子）」に変える。",
+   "explain_hash": "ae1baf8b6066"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(C)のコメントと正解理由が、追加案を求めたことを「気に入っていない」と断定しています。比較検討のために追加案を求めた可能性もあり、否定的な評価までは確定しません。",
+   "fix": "「追加案を求めたという顧客の反応を伝え、デザインへの感想を間接的に答えている」とする。",
+   "explain_hash": "ae1baf8b6066"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ae1baf8b6066"
+  }
+ ],
+ "p2-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "887a95721007"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "887a95721007"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "887a95721007"
+  }
+ ],
+ "p2-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6aad905253e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6aad905253e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6aad905253e"
+  }
+ ],
+ "p2-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "713687607d0a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "713687607d0a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "713687607d0a"
+  }
+ ],
+ "p2-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4f9c4aed1e90"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4f9c4aed1e90"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4f9c4aed1e90"
+  }
+ ],
+ "p2-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f286282a0012"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": false,
+   "issues": "(B)のコメントの「前のほうならどちらでもよい」では、closerの比較条件が抜けています。原文は、単に前方の席ならよいという意味ではなく、窓側と通路側のうち、より前に近い席を希望しています。",
+   "fix": "訳を「窓側でも通路側でも、より前に近いほうをお願いします」、コメント・正解理由を「座席の種類ではなく、より前に近いほうという条件で選んでいる」とする。",
+   "explain_hash": "f286282a0012"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f286282a0012"
+  }
+ ],
+ "p2-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d141cb31281b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d141cb31281b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d141cb31281b"
+  }
+ ],
+ "p2-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "dba6cc8f9bc4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "dba6cc8f9bc4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "dba6cc8f9bc4"
+  }
+ ],
+ "p2-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ef947d70147"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ef947d70147"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "9ef947d70147"
+  }
+ ],
+ "p2-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e7c7cf57a612"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e7c7cf57a612"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e7c7cf57a612"
+  }
+ ],
+ "p2-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "93c5691cd843"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "93c5691cd843"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "93c5691cd843"
+  }
+ ],
+ "p2-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "971f591d538c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "971f591d538c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "971f591d538c"
+  }
+ ],
+ "p2-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bd1da6122f9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bd1da6122f9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0bd1da6122f9"
+  }
+ ],
+ "p2-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d68103d4e214"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d68103d4e214"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d68103d4e214"
+  }
+ ],
+ "p2-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f191e28df605"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f191e28df605"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f191e28df605"
+  }
+ ],
+ "p2-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1307ca0f2eac"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1307ca0f2eac"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "1307ca0f2eac"
+  }
+ ],
+ "p2-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0658244728a4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0658244728a4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:04:18",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "0658244728a4"
   }
  ]
 }
