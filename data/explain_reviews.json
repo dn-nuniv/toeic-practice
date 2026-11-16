@@ -4094,5 +4094,837 @@
    "fix": "",
    "explain_hash": "8c04d789ed85"
   }
+ ],
+ "p7-0001": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "68bd1be9fc13"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳の「毎週30以上」は、more than 30（30を超える）と数量の範囲が一致していない。",
+   "fix": "「毎週30を超えるグループレッスン」にする。",
+   "explain_hash": "68bd1be9fc13"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "68bd1be9fc13"
+  }
+ ],
+ "p7-0002": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bfc3adc63411"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳の「毎週30以上」は、more than 30（30を超える）と数量の範囲が一致していない。",
+   "fix": "「毎週30を超えるグループレッスン」にする。",
+   "explain_hash": "bfc3adc63411"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bfc3adc63411"
+  }
+ ],
+ "p7-0003": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "TOEIC のポイントの「記事の主題は第1段落（見出しの直後）に書かれる」は言い切りすぎ。主題が後のほうで明らかになる記事もある。",
+   "fix": "「記事の主題は第1段落（見出しの直後）に書かれることが多い。」にする。",
+   "explain_hash": "f132b823b88a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳の「シアトルに本社を置く」は、Seattle-basedから本社所在地まで断定している。また、ポイントの「記事の主題は第1段落に書かれる」は、例外を認めない説明になっている。",
+   "fix": "「シアトルを拠点とする」にする。ポイントは「記事の主題は第1段落に示されることが多い」にする。",
+   "explain_hash": "f132b823b88a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "TOEIC のポイントの「記事の主題は第1段落（見出しの直後）に書かれる。」は断定的すぎて例外を無視している（見出しがない記事や、第2段落以降に主題・要点が述べられる記事もある）。",
+   "fix": "「記事の主題は第1段落（見出しの直後）に書かれることが多い。」とする。",
+   "explain_hash": "f132b823b88a"
+  }
+ ],
+ "p7-0004": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bdd0c4b8c7f7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳の「シアトルに本社を置く」は、Seattle-basedから本社所在地まで断定している。",
+   "fix": "「シアトルを拠点とする」にする。",
+   "explain_hash": "bdd0c4b8c7f7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bdd0c4b8c7f7"
+  }
+ ],
+ "p7-0005": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c24ad678ddf5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳の「シアトルに本社を置く」は、Seattle-basedから本社所在地まで断定している。",
+   "fix": "「シアトルを拠点とする」にする。",
+   "explain_hash": "c24ad678ddf5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c24ad678ddf5"
+  }
+ ],
+ "p7-0006": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ca2a43a4a3c4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳で、10%割引の対象が部屋代に限られるという条件が抜けている。また、more than two monthsの「2か月以上」は、厳密には「2か月を超える」。選択肢Cのコメントは、日額の料金表示を時間単位での予約可否と混同している。",
+   "fix": "本文訳を「60日前までのご予約は部屋代が10%割引」「2か月を超える余裕をもって予約しているので」にする。Cは「日額は示されているが、時間単位で予約できるかは書かれていない」とする。",
+   "explain_hash": "ca2a43a4a3c4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ca2a43a4a3c4"
+  }
+ ],
+ "p7-0007": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e714d8ce2d2b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳で、10%割引の対象が部屋代に限られるという条件が抜けている。また、more than two monthsの「2か月以上」は、厳密には「2か月を超える」。",
+   "fix": "「60日前までのご予約は部屋代が10%割引」「2か月を超える余裕をもって予約しているので」にする。",
+   "explain_hash": "e714d8ce2d2b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e714d8ce2d2b"
+  }
+ ],
+ "p7-0008": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "Cedar Room のコメント「いちばん小さく安い部屋」は、全室の中でいちばん小さい部屋と読める。実際にいちばん小さく安いのは Maple Room。",
+   "fix": "「定員50人で約45人が入る。入る部屋の中ではいちばん小さく安い」にする。",
+   "explain_hash": "e358a24e1913"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳で、10%割引の対象が部屋代に限られるという条件が抜けている。また、more than two monthsの「2か月以上」は、厳密には「2か月を超える」。",
+   "fix": "「60日前までのご予約は部屋代が10%割引」「2か月を超える余裕をもって予約しているので」にする。",
+   "explain_hash": "e358a24e1913"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e358a24e1913"
+  }
+ ],
+ "p7-0009": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a1ef394f10a4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳で、10%割引の対象が部屋代に限られるという条件が抜けている。また、more than two monthsの「2か月以上」は、厳密には「2か月を超える」。",
+   "fix": "「60日前までのご予約は部屋代が10%割引」「2か月を超える余裕をもって予約しているので」にする。",
+   "explain_hash": "a1ef394f10a4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a1ef394f10a4"
+  }
+ ],
+ "p7-0010": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ace03a20de6d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "共通本文訳で、10%割引の対象が部屋代に限られるという条件が抜けている。また、more than two monthsの「2か月以上」は、厳密には「2か月を超える」。",
+   "fix": "「60日前までのご予約は部屋代が10%割引」「2か月を超える余裕をもって予約しているので」にする。",
+   "explain_hash": "ace03a20de6d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ace03a20de6d"
+  }
+ ],
+ "p7-0011": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "09dd7d972cb5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "ポイントの「社内メモの目的は冒頭の1〜2文に書かれる」は断定が強く、常に成立する規則ではない。",
+   "fix": "「社内メモの目的は冒頭の1〜2文に示されることが多いので、まずそこを確認する」とする。",
+   "explain_hash": "09dd7d972cb5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "TOEIC のポイントの「社内メモの目的は冒頭の1〜2文に書かれる。」は断定的すぎて例外を無視している（背景説明の後に目的や依頼が書かれるメモもある）。",
+   "fix": "「社内メモの目的は冒頭の1〜2文に書かれることが多い。」とする。",
+   "explain_hash": "09dd7d972cb5"
+  }
+ ],
+ "p7-0012": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14aee40eb154"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14aee40eb154"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "14aee40eb154"
+  }
+ ],
+ "p7-0013": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b730c07c84f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b730c07c84f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8b730c07c84f"
+  }
+ ],
+ "p7-0014": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13e96c902c49"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13e96c902c49"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "13e96c902c49"
+  }
+ ],
+ "p7-0015": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cdaafb35d066"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cdaafb35d066"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cdaafb35d066"
+  }
+ ],
+ "p7-0016": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "TOEIC のポイントの「won't be ready until ～ は『遅れる』の言い換えの定番」は言い過ぎ。won't be ready until は「～まで仕上がらない」という意味だけで、それ自体は遅れを表さない。この問題で遅れだと分かるのは、five days later than planned があるから。",
+   "fix": "「won't be ready until ～（～まで仕上がらない）に later than planned（予定より遅く）が加わると『遅れる』の意味になる。completed late などへの言い換えに注意。」にする。",
+   "explain_hash": "fca8692933e4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "ポイントのwon't be ready until ～は、それだけでは予定より遅れることを意味しない。この本文ではfive days later than plannedが遅延の根拠。また、Bの「ブースの予約は取り消されていない」は、記載がないことを否定の事実として断定している。",
+   "fix": "「won't be ready until ～は『～まで仕上がらない』。今回はfive days later than plannedから予定より遅れると分かる」とする。Bは「ブースの予約取り消しについては書かれていない」とする。",
+   "explain_hash": "fca8692933e4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "fca8692933e4"
+  }
+ ],
+ "p7-0017": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "The printing cost is too high のコメント「印刷費の話は、すでにナタラジャンさんがしている」は、誤答である理由の説明になっていない。エラリーさんの発言は人数（1,000人）についてで、費用についてではない、というのが理由。",
+   "fix": "「1,000人という来場者数の話で、費用が高いとは言っていない」にする。",
+   "explain_hash": "8a3a6e46ee16"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "Aの「印刷費の話は、すでにナタラジャンさんがしている」は、エラリーさんも費用を問題にしている可能性を排除する理由になっていない。また、thoughは対比・譲歩を表し、必ず反論や懸念を表すわけではない。",
+   "fix": "Aは「エラリーさんは費用ではなく、300部に対して来場者が約1,000人いるという数量差を挙げている」とする。ポイントは「文末のthoughは対比を添える。この発言では部数への懸念を表す」とする。",
+   "explain_hash": "8a3a6e46ee16"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "8a3a6e46ee16"
+  }
+ ],
+ "p7-0018": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "(1) 正解の理由の「2つ目は誤り」は表示の位置で選択肢を指しているが、表示順は変わる（しかもこの資料では1つ目の選択肢）。(2) It designed the company's booth banner のコメント「横断幕をデザインしたのは社内のデザイナー」は、本文に書かれていないことを書いている。本文にあるのは、自社のデザイナーに横断幕へ QR コードを足してもらうように頼む、ということだけ。",
+   "fix": "(1)「…と言っているので、『3月16日より前に仕上げられない』は誤り」にする。(2)「横断幕に QR コードを入れるのは自社のデザイナーで、クイックプリント・スタジオが横断幕をデザインしたとは書かれていない」にする。",
+   "explain_hash": "e9109a5c9e01"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "正解理由の「2つ目」はBを指すが、3月16日の説明が対応するのはA。また、by March 16はbefore March 16に仕上げられるかどうかを確定しないため、Aを直接否定する根拠にはならない。Bの「横断幕をデザインしたのは社内のデザイナー」も、担当者の所属や元のデザイン担当を本文以上に断定している。",
+   "fix": "Aは「3月16日までに300部刷れるとはあるが、それより前には仕上げられないとは書かれていない」とする。Bは「Quickprint Studioが横断幕をデザインしたとは書かれていない」とする。正解理由では選択肢記号を明記する。",
+   "explain_hash": "e9109a5c9e01"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "正解の理由に「3月16日までに300部刷れると言っているので2つ目は誤り」とあるが、「3月16日より前に仕上げられない（It cannot finish the job before March 16.）」は2つ目の (B) ではなく1つ目の (A) である。",
+   "fix": "「2つ目は誤り」を「(A) は誤り」（または「1つ目は誤り」）に直す。",
+   "explain_hash": "e9109a5c9e01"
+  }
+ ],
+ "p7-0019": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4ba11215e4c8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4ba11215e4c8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4ba11215e4c8"
+  }
+ ],
+ "p7-0020": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f62fcac90e8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f62fcac90e8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f62fcac90e8"
+  }
+ ],
+ "p7-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5e9c0429f2a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5e9c0429f2a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d5e9c0429f2a"
+  }
+ ],
+ "p7-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ab04ddfd136d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "Bの「this optionが指すものがない」は不正確。1年契約は既に示されているが、それを指すと「1年契約より40ドル安い」という比較が成立しないことが問題。",
+   "fix": "「[2]では2年契約がまだ示されていない。this optionを既出の1年契約と読むと、1年契約より40ドル安いという比較が成立しない」とする。",
+   "explain_hash": "ab04ddfd136d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ab04ddfd136d"
+  }
+ ],
+ "p7-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "It has recently changed its prices のコメントは「値上げの話は書かれていない」になっていて、範囲が狭すぎる。選択肢は値下げを含む料金の変更全般のこと。正解の理由にある「値上げ」も同じ問題。",
+   "fix": "コメントを「最近料金を変えたとは書かれていない」にし、正解の理由の「値上げ」を「料金の変更」にする。",
+   "explain_hash": "353ce0a704fb"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "Dのコメントと正解理由の「調理場は1つ」は断定できない。our kitchen on Harbor Roadは、その所在地の調理場に言及しているだけ。また、Aのchanged its pricesは値下げも含むため、「値上げの話はない」では説明の範囲が狭い。",
+   "fix": "Dと正解理由は「調理場を複数運営しているかどうかは書かれていない」とする。「値上げ」は「料金変更」に置き換える。",
+   "explain_hash": "353ce0a704fb"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "(A) の原文は changed its prices（料金を変えた）であり、値上げとは限らないにもかかわらず、(A) のコメントと正解の理由で「値上げの話は書かれていない」「値上げや団体割引には触れていない」と「値上げ」に限定して説明している。",
+   "fix": "(A) のコメントと正解の理由の「値上げ」を「料金変更」に直す。",
+   "explain_hash": "353ce0a704fb"
+  }
+ ],
+ "p7-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6d61c1bb095"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6d61c1bb095"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "a6d61c1bb095"
+  }
+ ],
+ "p7-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cbdb7134bd50"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cbdb7134bd50"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "cbdb7134bd50"
+  }
+ ],
+ "p7-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "$420 のコメント「10キロを超える分の配達料20ドル」は、超えた距離に応じた料金のように読める。実際は、10キロ圏外への配達に一律で20ドルかかる。",
+   "fix": "「事務所は10キロ圏外なので、配達料20ドル（一律）を足す」にする。",
+   "explain_hash": "2d570c8a3a5d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2d570c8a3a5d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2d570c8a3a5d"
+  }
+ ],
+ "p7-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49b16b24d6a7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49b16b24d6a7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "49b16b24d6a7"
+  }
+ ],
+ "p7-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e2d0fc62fd20"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e2d0fc62fd20"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e2d0fc62fd20"
+  }
+ ],
+ "p7-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b02373b1b541"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b02373b1b541"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b02373b1b541"
+  }
+ ],
+ "p7-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "12978cac528d"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "12978cac528d"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "12978cac528d"
+  }
+ ],
+ "p7-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b4b7c3d49b4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b4b7c3d49b4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7b4b7c3d49b4"
+  }
+ ],
+ "p7-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "正解の理由の「ハダッドさんの文書の研修は受けていない」は、本文にないことを断定している。本文はそうは言っていない（制作ルールでは「～とは言っていない」と書くことになっている）。",
+   "fix": "「ハダッドさんの文書の研修を受けたとは書かれていない」にする。",
+   "explain_hash": "7183399f8e1a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "正解理由末尾の「ハダッドさんの文書の研修は受けていない」は、受講歴が記載されていないことを未受講の事実として断定している。",
+   "fix": "「ハダッドさんの文書の研修を受けたことがあるかどうかは、本文からは分からない」とする。",
+   "explain_hash": "7183399f8e1a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-16T21:49:37",
+   "ok": false,
+   "issues": "セット p7-s009 の【文書2】の訳で、差出人の署名にある「Production Department（生産部）」の訳が抜け落ちている。p7-0032 の (A) のコメントおよび正解の理由で「所属は生産部（Production Department）」と言及しているが、和訳だけでは確認できない。",
+   "fix": "セット p7-s009 の【文書2】の訳の差出人を「差出人：マーティン・アチェベ（生産部）」にする（または末尾に「生産部」を補う）。",
+   "explain_hash": "7183399f8e1a"
+  }
  ]
 }
