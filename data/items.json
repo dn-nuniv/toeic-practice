@@ -34,8 +34,13 @@
    "彼女は窓を開けている。",
    "彼女は上着を着ているところだ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "椅子は写っているが、並べている動作はしていない",
+   "じょうろで植物に水をやっている。写真の動作と一致",
+   "窓は閉まったまま。開ける動作はしていない",
+   "上着を着る途中の動作（putting on）はしていない"
+  ],
+  "point_ja": "写真に写っている物（椅子・窓）を使った誤答に注意。人物の写真は「今している動作」が合っているかを確かめる。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -113,8 +118,13 @@
    "棚にペンキが塗られているところだ。",
    "トラックが車庫に止めてある。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "台車（hand truck）で箱を運んでいる。写真と一致",
+   "はしごは写っていない",
+   "棚にペンキを塗る人はいない。being painted は進行中の動作",
+   "トラックも車庫も写っていない"
+  ],
+  "point_ja": "写っていない物（ladder・truck）を含む選択肢はすぐに消せる。hand truck（台車）・forklift・cart は頻出。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -192,8 +202,13 @@
    "椅子がテーブルの周りに並べられている。",
    "スクリーンが取り付けられているところだ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "人は写っていない",
+   "人がいないので、発表が行われている（being given）ことはない",
+   "椅子がテーブルの周りに並べられた状態。have been arranged は「すでに並べられている」",
+   "取り付けている人がいないので being installed は誤り"
+  ],
+  "point_ja": "人のいない写真で being＋過去分詞（進行中の動作）は誤答。状態は have been＋過去分詞 や is / are＋過去分詞で表す。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -271,8 +286,13 @@
    "彼女は窓を開けている。",
    "彼女は机に向かって座っている。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "高い棚に手を伸ばしている。写真と一致",
+   "キーボードは机の上にあるが、打っていない",
+   "窓はあるが、開けていない",
+   "机はあるが、座らずに立っている"
+  ],
+  "point_ja": "写真にある物（keyboard・window・desk）を使った誤答が定番。動作の動詞（typing・opening・sitting）が合っているかで判断する。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -350,8 +370,13 @@
    "何人かの客がテーブルに着いている。",
    "男性が皿を重ねて運んでいる。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "テーブルをふく動作はしていない",
+   "ピッチャーからグラスに水を注いでいる。写真と一致",
+   "客は座っていない（diners＝食事をする客）",
+   "皿はテーブルに置かれていて、運んでいない"
+  ],
+  "point_ja": "pour（注ぐ）・wipe（ふく）・stack（重ねる）など、飲食店の写真の動詞は頻出。主語（a man か diners か）も確かめる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -429,8 +454,13 @@
    "彼らはテーブルの上の図面を見ている。",
    "1人が図面を丸めている。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ヘルメットはすでにかぶっている。putting on は「かぶる途中の動作」",
+   "いすはあるが、3人とも立っている",
+   "テーブルの上の図面を見ている。写真と一致",
+   "図面を丸める動作はしていない"
+  ],
+  "point_ja": "putting on（着る・かぶる動作）と wearing（身につけている状態）の区別は Part 1 の定番。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -508,8 +538,13 @@
    "スーツケースがカートに積まれているところだ。",
    "何人かの旅行者が列に並んで待っている。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "飛行機は写っていない",
+   "リュックは背負ったまま。taking off（下ろす・脱ぐ動作）はしていない",
+   "カートもスーツケースを積む人も写っていない",
+   "スーツケースを持った人たちがカウンターの前に並んでいる。写真と一致"
+  ],
+  "point_ja": "wait in line（列に並んで待つ）は頻出。taking off と wearing、boarding（乗り込む）など、動作の違いを聞き分ける。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -587,8 +622,13 @@
    "作業員たちが箱を運んでいる。",
    "棚が組み立てられているところだ。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "箱がパレットの上に積まれた状態。have been stacked。写真と一致",
+   "フォークリフトは止まっていて、運転する人もいない",
+   "人のいない写真。作業員は写っていない",
+   "人がいないので、組み立てている（being assembled）ことはない"
+  ],
+  "point_ja": "人のいない写真では、have been＋過去分詞（～された状態）が正解になりやすい。being＋過去分詞と人の動作は誤答。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -666,8 +706,13 @@
    "落ち葉が掃き集められているところだ。",
    "男性が自転車に鍵をかけている。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ベンチはあるが、座っている人はいない",
+   "自転車がラックに止めてある状態。have been parked。写真と一致",
+   "落ち葉はあるが、掃いている人はいない（being swept）",
+   "人のいない写真。鍵をかけている男性はいない"
+  ],
+  "point_ja": "人のいない写真に、写っている物（bench・leaves）と人の動作を組み合わせた誤答に注意。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part1 batch a（写真：Gemini）",
@@ -744,8 +789,12 @@
    "明日の10時です。",
    "新しい予算についてです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "場所の答え。When（いつ）には合わない",
+   "時の答え。When に「明日の10時」と答えている",
+   "質問の budget を繰り返したひっかけ。内容を答えている"
+  ],
+  "point_ja": "最初の疑問詞（When / Where / Who / Why / How）を聞き取り、それに合う種類の答えを選ぶ。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -819,8 +868,12 @@
    "去年より高いです。",
    "はい、手続き中です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "人物の答え。Who に部署名と名前で答えている",
+   "比較の答え。質問と関係がない",
+   "疑問詞の質問に Yes で答えている。process の繰り返しもひっかけ"
+  ],
+  "point_ja": "Who の質問には、名前のほか部署名・役職（the manager、someone in accounting）で答えることも多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -894,8 +947,12 @@
    "2箱お願いします。",
    "ロビーに届けられました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "理由の答え。Why に「吹雪のせい」と答えている",
+   "数量の答え。質問と関係がない",
+   "delivery に似た delivered を使ったひっかけ。理由を答えていない"
+  ],
+  "point_ja": "Why の質問の答えは Because で始まるとは限らない。似た語（delivery → delivered）を使った選択肢はひっかけのことが多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -969,8 +1026,12 @@
    "2階にあります。",
    "そのプリンターは新しいです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "申し出にお礼を言って受けている",
+   "場所の答え。申し出に答えていない",
+   "質問の print に似た printer を使ったひっかけ"
+  ],
+  "point_ja": "Would you like me to ～?（～しましょうか）は申し出。Thanks / That would be great（受ける）、No, thanks（断る）が自然な答え。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -1044,8 +1105,12 @@
    "セールは日曜日に終わります。",
    "はい、彼が報告しました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "まだ終わっていない理由を述べている。自然な応答",
+   "sales に似た sale を使ったひっかけ",
+   "report を使ったひっかけ。主語も he でずれている"
+  ],
+  "point_ja": "否定疑問文（Haven't you ～?）は普通の疑問文と同じように考えてよい。理由や事情で答える応答が正解になりやすい。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -1119,8 +1184,12 @@
    "はい、私が彼らを訓練しました。",
    "12番ゲートです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "電車を選び、理由も添えている",
+   "train（訓練する）と同じ音を使ったひっかけ。選択疑問文に Yes で答えている",
+   "場所の答え。どちらにするかを答えていない"
+  ],
+  "point_ja": "A or B の選択疑問文には Yes / No で答えない。どちらかを選ぶ、両方・どちらでもない、と答える。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -1194,8 +1263,12 @@
    "値段が上がりました。",
    "おもしろいと思いました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "場所の答え。社内のイントラネットに掲示されている",
+   "price を使ったひっかけ。場所を答えていない",
+   "find を使ったひっかけ。意味が合わない"
+  ],
+  "point_ja": "Where の質問の答えは、建物や部屋のほか、ウェブサイト・ファイル・人（Ask Mr. Lee.）のこともある。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -1269,8 +1342,12 @@
    "横の入口を使ってください。",
    "今セール中です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "同意して、時間の節約になると具体的に答えている",
+   "use を使ったひっかけ。意味が合わない",
+   "ソフトの話題だが、使いやすさについて答えていない"
+  ],
+  "point_ja": "付加疑問文（～, isn't it?）は「～ですよね」の確認。普通の疑問文と同じように内容で答える。",
   "level": "A2",
   "status": "reviewed",
   "source": "claude-opus-5.5 / 2026-11-16 / pilot-v0",
@@ -1344,8 +1421,12 @@
    "大きいほうの倉庫です。",
    "はい、とても座り心地がいいです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "時の答え。業者が来週の初めと言っている",
+   "場所の答え。When（いつ）に合わない",
+   "疑問詞の質問に Yes で答えている。座り心地の話もずれている"
+  ],
+  "point_ja": "「～と言っていた（The supplier said ～）」のように、人から聞いた情報で答える形もよく出る。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1419,8 +1500,12 @@
    "チケット売り場の隣にロッカーがあります。",
    "私は3時に出ます。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "時間の長さの答え。Where（どこ）に合わない",
+   "場所の答え。チケット売り場の隣のロッカー",
+   "leave（置いていく／出発する）の別の意味を使ったひっかけ"
+  ],
+  "point_ja": "同じ語が別の意味で使われるひっかけ（leave：置いていく／出発する）に注意する。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1494,8 +1579,12 @@
    "金曜日まで展示しています。",
    "まだ入荷していないんです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ジャケットの話題だが、場所を答えていない",
+   "displayed に似た display を使い、時を答えている",
+   "まだ入荷していないと事情を伝える間接的な応答"
+  ],
+  "point_ja": "質問に直接答えず「まだない」「確認する」「～に聞いて」と返す間接的な応答は、Part 2 の正解の定番。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1569,8 +1658,12 @@
    "3階にあります。",
    "はい、その研修は役に立ちました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "人物の答え。IT部のケンが引き受けた",
+   "場所の答え。Who（誰）に合わない",
+   "疑問詞の質問に Yes で答えている。session の繰り返しもひっかけ"
+  ],
+  "point_ja": "Who の質問に「～が引き受けた（volunteered）」「～の担当だ」と答える形は頻出。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1644,8 +1737,12 @@
    "レイエスさんがまだ仕事内容の説明を直しているんです。",
    "月末です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "Because で始まるが、posting に似た post を使ったひっかけで内容が合わない",
+   "理由の答え。担当者がまだ説明文を直している",
+   "時の答え。Why に合わない"
+  ],
+  "point_ja": "Because で始まる選択肢がいつも正解とは限らない。内容が質問とつながっているかを確かめる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1719,8 +1816,12 @@
    "はい、昨日承認されました。",
    "部長に詳しい費用の内訳を送ったんです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "How much（いくら）への答え。How（どうやって）には合わない",
+   "approved を繰り返し、疑問詞の質問に Yes で答えている",
+   "方法の答え。詳しい費用の内訳を送った"
+  ],
+  "point_ja": "How は「どうやって」。How much・How many・How long・How often と区別して聞き取る。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1794,8 +1895,12 @@
    "大会議室です。",
    "2日間のワークショップです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "人数を答えず「申込書を確認しないと」と答える間接的な応答",
+   "場所の答え。How many（何人）に合わない",
+   "workshop を繰り返し、数を含むが人数ではない"
+  ],
+  "point_ja": "「確認してみます」「～を見ないと」は、どんな質問にも答えになりうる間接的な応答の定番。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1869,8 +1974,12 @@
    "たいてい5時半です。",
    "夕食はすばらしかったです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "予約のときの言い方。開始時刻を答えていない",
+   "時刻の答え。たいてい5時半",
+   "dinner を繰り返したひっかけ"
+  ],
+  "point_ja": "What time は時刻を問う。質問の語をそのまま使った選択肢は誤答のことが多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -1944,8 +2053,12 @@
    "デザイン部です。",
    "もういくつか案がほしいと言っています。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "clients を受けているが、感想を答えていない",
+   "design を繰り返し、場所を答えている",
+   "もっと案がほしいと言っている＝気に入っていないことを間接的に伝えている"
+  ],
+  "point_ja": "What did ～ think of …?（どう思ったか）には、感想を直接言わずに反応（追加の依頼など）で答えることもある。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2019,8 +2132,12 @@
    "20部印刷してください。",
    "私はふだん在宅勤務です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "Yes と答え、今朝直ったと補っている",
+   "printer に似た print を使ったひっかけ",
+   "working に似た work を使ったひっかけ"
+  ],
+  "point_ja": "Yes / No 疑問文には、Yes / No の後に理由や事情を補う答えが自然。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2094,8 +2211,12 @@
    "入口に予定表が貼ってありますよ。",
    "はい、すてきな休日です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "ジムに通っていると答えているが、休日に開いているかは答えていない",
+   "入口に予定表があると調べ方を示す間接的な応答",
+   "Yes と holiday を使ったひっかけ"
+  ],
+  "point_ja": "Do you know if ～?（～かどうか知っていますか）には、「～を見ればわかる」と調べ方で答えることも多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2169,8 +2290,12 @@
    "毎週月曜日です。",
    "いいえ、支払いはまだ手続き中です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "receive を使ったひっかけ。賞の話で関係がない",
+   "week を使ったひっかけ。頻度の答え",
+   "No（まだ受けていない）と答え、手続き中だと補っている"
+  ],
+  "point_ja": "否定疑問文でも、事実が「受けていない」なら No、「受けた」なら Yes で答える。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2244,8 +2369,12 @@
    "彼は検査官です。",
    "5階です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "Yes と認め、階段を使うことになると続けている",
+   "inspected に似た inspector を使ったひっかけ",
+   "場所の答え。点検があるかを答えていない"
+  ],
+  "point_ja": "付加疑問文の答えは、Yes / No の後に関連する内容（だから～する）を続けるものが正解になりやすい。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2319,8 +2448,12 @@
    "前のほうに近いほうならどちらでも。",
    "窓から見えました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "選択疑問文に Yes で答えている",
+   "前のほうならどちらでもよいと条件で答えている",
+   "window を繰り返したひっかけ"
+  ],
+  "point_ja": "選択疑問文の正解は「どちらでもよい（Either is fine / Whichever ～）」「両方」「どちらでもない」もある。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2394,8 +2527,12 @@
    "300部ほどです。",
    "カラーのほうが目を引くでしょう。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "選択疑問文に Yes で答えている",
+   "部数の答え。どちらにするかを答えていない",
+   "カラーを選び、理由も添えている"
+  ],
+  "point_ja": "A or B の質問では、A か B の一方を選んで理由を添える答えが自然。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2469,8 +2606,12 @@
    "奥の部屋にあります。",
    "ペン1箱です。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "お礼を言いつつ、台車が来るからと遠回しに断っている",
+   "箱の場所を答えている。手伝いの申し出に答えていない",
+   "boxes に似た box を使ったひっかけ"
+  ],
+  "point_ja": "申し出（Do you want me to ～?）を断るときは Thanks, but ～ と理由を添えることが多い。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2544,8 +2685,12 @@
    "昼食のすぐ後にメールで送ります。",
    "はい、会議はうまくいきました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "minutes（議事録／分）の別の意味を使ったひっかけ",
+   "昼食後すぐにメールすると依頼を引き受けている",
+   "meeting を繰り返したひっかけ"
+  ],
+  "point_ja": "Could you ～?（～してもらえますか）には、Sure / I'll ～ と引き受けるか、理由を言って断る答えが自然。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2619,8 +2764,12 @@
    "家賃の支払いは1日です。",
    "すみません、週末は事務所が休みなんです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "部屋の話題だが、見せられるかに答えていない",
+   "家賃の話題で、依頼に答えていない",
+   "週末は休みと理由を述べて断っている"
+  ],
+  "point_ja": "Would you mind ～ing? は「～していただけますか」。引き受けるなら Not at all / Of course not、断るなら Sorry, ～。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2694,8 +2843,12 @@
    "電車に乗り遅れたからです。",
    "私たちは去年ここに引っ越しました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "提案に賛成し、理由を添えている",
+   "Why を理由の質問と取り違えて Because で答えたひっかけ",
+   "move に似た moved を使ったひっかけ"
+  ],
+  "point_ja": "Why don't we ～? は理由を尋ねる質問ではなく「～しませんか」という提案。Good idea / Sure と応じる答えが自然。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2802,8 +2955,12 @@
    "営業部長と相談しましょう。",
    "そこを訪れたのは初めてでした。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "How about に似た About を使ったひっかけ",
+   "提案に「部長と相談しよう」と応じている",
+   "first を使ったひっかけ"
+  ],
+  "point_ja": "How about ～ing? は提案。賛成・反対・保留（相談しよう、考えておく）のどれかで応じる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2877,8 +3034,12 @@
    "それは2つの建物をつないでいます。",
    "IT のヘルプデスクに電話します。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "conference を繰り返したひっかけ",
+   "disconnecting に似た connects を使ったひっかけ",
+   "困りごとに「ヘルプデスクに電話する」と対処を申し出ている"
+  ],
+  "point_ja": "平叙文（困りごと・報告）には、対処の申し出や提案で応じる答えが正解になりやすい。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -2952,8 +3113,12 @@
    "彼はマラソンに出ています。",
    "荷物は予定どおり届きました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "資材が減っているという発言に「昨日注文した」と応じている",
+   "running を別の意味で使ったひっかけ",
+   "packaging に似た package を使ったひっかけ"
+  ],
+  "point_ja": "run low on ～ は「～が少なくなる」。平叙文への応答は、話の流れがつながるかで判断する。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -3027,8 +3192,12 @@
    "招待状を見ていないんですか。",
    "彼女はここで30年働いてきました。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "場所の答え。When（いつ）に合わない",
+   "「招待状を見ていないの？」と問い返して、日時は招待状にあると伝えている",
+   "ノヴァクさんの話題だが、時を答えていない"
+  ],
+  "point_ja": "質問に質問で返す（Haven't you seen ～? / Didn't you get ～?）応答も、間接的な答えとして正解になる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -3102,8 +3271,12 @@
    "倉庫のところで右に曲がってください。",
    "追跡システムで確認してみます。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "数量の答え。出たかどうかに答えていない",
+   "warehouse を繰り返したひっかけ",
+   "追跡システムで確認すると応じている"
+  ],
+  "point_ja": "Has ～ left?（もう出ましたか）に Let me check と返すのは、知らないときの自然な応答。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
@@ -3177,8 +3350,12 @@
    "たしか電車です。",
    "はい、高いです。"
   ],
-  "option_notes_ja": null,
-  "point_ja": null,
+  "option_notes_ja": [
+   "自分が来る前のものだと、知らないことを間接的に伝えている",
+   "travel から交通手段を連想させるひっかけ",
+   "expense に似た expensive を使い、Yes で答えている"
+  ],
+  "point_ja": "Who の質問に「私はわからない」「～に聞いて」と答える間接的な応答もよく正解になる。",
   "level": "A2",
   "status": "reviewed",
   "source": "2026-11-16 / part2 batch a",
