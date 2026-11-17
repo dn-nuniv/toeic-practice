@@ -153,6 +153,108 @@
   "source": "2026-11-16 / part1 batch a（写真：Gemini）"
  },
  {
+  "id": "p1-s010",
+  "part": 1,
+  "kind": "photo",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0010.webp",
+  "question_ids": [
+   "p1-0010"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
+  "id": "p1-s011",
+  "part": 1,
+  "kind": "photo",
+  "scene": "manufacturing",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0011.webp",
+  "question_ids": [
+   "p1-0011"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
+  "id": "p1-s012",
+  "part": 1,
+  "kind": "photo",
+  "scene": "office",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0012.webp",
+  "question_ids": [
+   "p1-0012"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
+  "id": "p1-s013",
+  "part": 1,
+  "kind": "photo",
+  "scene": "restaurant",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0013.webp",
+  "question_ids": [
+   "p1-0013"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
+  "id": "p1-s014",
+  "part": 1,
+  "kind": "photo",
+  "scene": "meeting",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0014.webp",
+  "question_ids": [
+   "p1-0014"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
+  "id": "p1-s015",
+  "part": 1,
+  "kind": "photo",
+  "scene": "retail",
+  "speakers": [],
+  "segments": [],
+  "passages": [],
+  "graphic": null,
+  "image": "images/part1/p1-0015.webp",
+  "question_ids": [
+   "p1-0015"
+  ],
+  "translation_ja": "",
+  "status": "draft",
+  "source": "2026-11-16 / part1 batch b（写真：Gemini）"
+ },
+ {
   "id": "p3-s001",
   "part": 3,
   "kind": "conversation",

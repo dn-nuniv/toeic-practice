@@ -1,0 +1,215 @@
+{
+ "batch": "2026-11-16-p1-b",
+ "source": "2026-11-16 / part1 batch b（写真：Gemini）",
+ "note": "Part 1 の第2弾6問。写真は Orca 経由で Gemini（nano banana）が生成し、右下のラベルを切り落として使用。選択肢は写真を見てから作成",
+ "sets": [
+  {
+   "id": "p1-s010",
+   "kind": "photo",
+   "scene": "office",
+   "image": "images/part1/p1-0010.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0010",
+     "type": "photo.person.action",
+     "scene": "office",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "She's watering some plants.",
+      "She's opening the window.",
+      "She's sitting at a desk.",
+      "She's carrying a potted plant."
+     ],
+     "answer": "a",
+     "explanation_ja": "窓辺に並んだ鉢植えに、じょうろで水をやっている。机・窓・鉢植えは写っているが、座る・窓を開ける・鉢を運ぶ動作はしていない。",
+     "translation_ja": "",
+     "translation_options_ja": ["彼女は植物に水をやっている。", "彼女は窓を開けている。", "彼女は机に向かって座っている。", "彼女は鉢植えを運んでいる。"],
+     "option_notes_ja": [
+      "じょうろで窓辺の鉢植えに水をやっている。写真と一致",
+      "窓のそばにいるが、窓を開けてはいない",
+      "机といすは後ろに写っているが、彼女は立っている",
+      "手に持っているのはじょうろで、鉢植えではない"
+     ],
+     "point_ja": "1人の写真は、その人の手元の動作（何を持って何をしているか）を確かめる。写っている物（desk・window）を使った誤答に注意。"
+    }
+   ]
+  },
+  {
+   "id": "p1-s011",
+   "kind": "photo",
+   "scene": "manufacturing",
+   "image": "images/part1/p1-0011.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0011",
+     "type": "photo.person.action",
+     "scene": "manufacturing",
+     "level": "B1",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "He's hanging tools on the wall.",
+      "He's sawing a board in half.",
+      "He's measuring a piece of wood.",
+      "He's sweeping up wood shavings."
+     ],
+     "answer": "c",
+     "explanation_ja": "作業台の上の板に定規を当てて、長さを測っている。壁の道具・のこぎり・木くずは写っているが、それを使う動作はしていない。",
+     "translation_ja": "",
+     "translation_options_ja": ["彼は壁に道具を掛けている。", "彼は板を半分にのこぎりで切っている。", "彼は木材の長さを測っている。", "彼は木くずを掃き集めている。"],
+     "option_notes_ja": [
+      "壁に道具は掛かっているが、彼が掛けているところではない",
+      "のこぎりは壁に掛かっていて、切ってはいない",
+      "作業台の上の板に長い定規を当てて測っている。写真と一致",
+      "作業台の上に木くずはあるが、掃いてはいない"
+     ],
+     "point_ja": "写っている物（tools・saw・shavings）を使って、していない動作を述べる誤答が多い。今している動作は1つだけと考えて、手元を見る。"
+    }
+   ]
+  },
+  {
+   "id": "p1-s012",
+   "kind": "photo",
+   "scene": "office",
+   "image": "images/part1/p1-0012.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0012",
+     "type": "photo.group.action",
+     "scene": "office",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "They're sitting on a sofa.",
+      "They're shaking hands.",
+      "They're exchanging business cards.",
+      "The woman is carrying a briefcase."
+     ],
+     "answer": "b",
+     "explanation_ja": "男性と女性が向かい合って握手をしている。後ろにソファはあるが、2人は立っていて、名刺やかばんは写っていない。",
+     "translation_ja": "",
+     "translation_options_ja": ["彼らはソファに座っている。", "彼らは握手をしている。", "彼らは名刺を交換している。", "女性は書類かばんを持っている。"],
+     "option_notes_ja": [
+      "ソファは後ろにあるが、2人は立っている",
+      "男性と女性が向かい合って握手をしている。写真と一致",
+      "名刺は写っていない。握手をしている",
+      "女性はかばんを持っていない"
+     ],
+     "point_ja": "2人以上の写真は They're ～（全員の動作）と One of them / The woman ～（1人の動作）を区別して確かめる。"
+    }
+   ]
+  },
+  {
+   "id": "p1-s013",
+   "kind": "photo",
+   "scene": "restaurant",
+   "image": "images/part1/p1-0013.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0013",
+     "type": "photo.group.action",
+     "scene": "restaurant",
+     "level": "A2",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "A server is taking an order.",
+      "They're opening an umbrella.",
+      "Some chairs are stacked against a wall.",
+      "Some people are eating at an outdoor table."
+     ],
+     "answer": "d",
+     "explanation_ja": "4人が屋外のテラスのテーブルで食事をしている。パラソルは閉じていて、店員は写っていない。",
+     "translation_ja": "",
+     "translation_options_ja": [
+      "店員が注文を取っている。",
+      "彼らはパラソルを開いている。",
+      "いくつかのいすが壁際に積み重ねてある。",
+      "何人かが屋外のテーブルで食事をしている。"
+     ],
+     "option_notes_ja": [
+      "店員は写っていない",
+      "パラソルは閉じたままで、開いている人はいない",
+      "いすは並べて置いてあり、積み重ねてはいない",
+      "4人が屋外のテーブルで食事をしている。写真と一致"
+     ],
+     "point_ja": "屋外の写真では、写っている物の状態（パラソルが閉じている）と、人の動作（開いている）を取り違えさせる誤答に注意。"
+    }
+   ]
+  },
+  {
+   "id": "p1-s014",
+   "kind": "photo",
+   "scene": "meeting",
+   "image": "images/part1/p1-0014.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0014",
+     "type": "photo.object.state",
+     "scene": "meeting",
+     "level": "B1",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "Chairs have been arranged around a table.",
+      "Some people are attending a meeting.",
+      "Some glasses are being filled with water.",
+      "A laptop has been placed on the floor."
+     ],
+     "answer": "a",
+     "explanation_ja": "人のいない会議室で、いすがテーブルの周りに並べてある状態を have been arranged で表している。水差しとグラスはあるが、注いでいる人はいない。",
+     "translation_ja": "",
+     "translation_options_ja": ["いすがテーブルの周りに並べてある。", "何人かが会議に出ている。", "グラスに水が注がれているところだ。", "ノートパソコンが床に置いてある。"],
+     "option_notes_ja": [
+      "いすが長いテーブルの周りに並べてある状態。have been arranged。写真と一致",
+      "人のいない会議室。会議に出ている人はいない",
+      "水差しとグラスはあるが、注いでいる人はいない（being filled）",
+      "ノートパソコンはテーブルの上にある"
+     ],
+     "point_ja": "人のいない写真では、have been ＋過去分詞（～してある状態）が正解になりやすく、being ＋過去分詞（～されているところ）は人の動作が要るので誤答になることが多い。"
+    }
+   ]
+  },
+  {
+   "id": "p1-s015",
+   "kind": "photo",
+   "scene": "retail",
+   "image": "images/part1/p1-0015.webp",
+   "translation_ja": "",
+   "questions": [
+    {
+     "id": "p1-0015",
+     "type": "photo.object.state",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "写真に最も合う描写を選んでください。",
+     "options": [
+      "Some customers are choosing apples.",
+      "Some crates are being loaded onto a truck.",
+      "Some fruit is being displayed under a cover.",
+      "Some fruit has fallen onto the street."
+     ],
+     "answer": "c",
+     "explanation_ja": "日よけの下の台に、果物が箱やかごに入れて並べてある。人のいない写真の being ＋過去分詞はふつう誤答になるが、be being displayed は「陳列されている」という状態を表すので、人がいなくても使える。",
+     "translation_ja": "",
+     "translation_options_ja": [
+      "何人かの客がリンゴを選んでいる。",
+      "木箱がトラックに積み込まれているところだ。",
+      "果物が屋根の下に並べられている。",
+      "果物が通りに落ちている。"
+     ],
+     "option_notes_ja": [
+      "人のいない写真。客はいない",
+      "木箱はあるが、トラックも積み込む人も写っていない（being loaded）",
+      "果物が日よけの下に並べてある。is being displayed は「陳列されている」という状態を表し、人がいなくても使える。写真と一致",
+      "果物は台の上の箱やかごに入っていて、通りには落ちていない"
+     ],
+     "point_ja": "人のいない写真で being ＋過去分詞（進行中の動作）は誤答になることが多い。ただし be being displayed（陳列されている）のように状態を表す言い方は例外。"
+    }
+   ]
+  }
+ ]
+}
