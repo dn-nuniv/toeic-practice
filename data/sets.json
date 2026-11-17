@@ -683,6 +683,384 @@
   "source": "2026-11-16 / part3 batch a"
  },
  {
+  "id": "p3-s009",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "real.estate",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Hi, I'm calling about the office space on Ferris Street that's listed on your Web site. Is it still available?"
+   },
+   {
+    "speaker": "M",
+    "text": "Yes, it is. It's on the second floor, and it has room for about fifteen desks. The rent includes electricity and Internet service."
+   },
+   {
+    "speaker": "W",
+    "text": "That sounds good. Our company is growing, and our current office is too small. Is there parking for employees?"
+   },
+   {
+    "speaker": "M",
+    "text": "There's no parking at the building itself, but there's a public garage across the street that offers monthly passes."
+   },
+   {
+    "speaker": "W",
+    "text": "I see. I'd like to see the space before I make a decision. Would Thursday afternoon work?"
+   },
+   {
+    "speaker": "M",
+    "text": "Thursday afternoon is fine. I'll meet you at the front entrance at two o'clock and bring a copy of the lease so you can look it over."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0025",
+   "p3-0026",
+   "p3-0027"
+  ],
+  "translation_ja": "女性：こんにちは。御社のウェブサイトに載っているフェリス通りのオフィスの件でお電話しました。まだ空いていますか。\n男性：はい、空いています。2階で、机が15台ほど置ける広さです。家賃には電気代とインターネット代が含まれています。\n女性：いいですね。会社が大きくなって、今のオフィスでは狭すぎるんです。従業員用の駐車場はありますか。\n男性：建物自体に駐車場はありませんが、通りの向かいに、月決めの券がある公共の駐車場があります。\n女性：わかりました。決める前に部屋を見たいのですが、木曜日の午後はいかがですか。\n男性：木曜日の午後で大丈夫です。2時に正面入口でお待ちして、目を通していただけるよう賃貸契約書の写しをお持ちします。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
+  "id": "p3-s010",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "logistics",
+  "speakers": [
+   {
+    "id": "M1",
+    "gender": "male"
+   },
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M2",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "M1",
+    "text": "Hi, Carla. Have you heard from the trucking company? The shipment of kitchen chairs was supposed to arrive this morning."
+   },
+   {
+    "speaker": "W",
+    "text": "I just got off the phone with them. The truck broke down near Fairfield, so it won't get here until tomorrow afternoon."
+   },
+   {
+    "speaker": "M1",
+    "text": "That's a problem. Hartley Furniture is expecting fifty of those chairs by Wednesday."
+   },
+   {
+    "speaker": "M2",
+    "text": "We still have about thirty in the back of the warehouse from the last shipment."
+   },
+   {
+    "speaker": "W",
+    "text": "Then we could send those today and the other twenty when the truck arrives."
+   },
+   {
+    "speaker": "M1",
+    "text": "Good idea. Ken, could you check the condition of those thirty chairs before we pack them? And Carla, please let Hartley Furniture know about the change."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0028",
+   "p3-0029",
+   "p3-0030"
+  ],
+  "translation_ja": "男性1：やあ、カーラ。運送会社から連絡はあった？台所用の椅子の荷物が今朝届くはずだったんだけど。\n女性：ちょうど電話を切ったところです。トラックがフェアフィールドの近くで故障して、ここに着くのは明日の午後になるそうです。\n男性1：それは困ったな。ハートリー家具が、水曜日までにあの椅子が50脚届くのを待っているんだ。\n男性2：前回の入荷分が、倉庫の奥にまだ30脚くらいありますよ。\n女性：それなら、その分を今日送って、残りの20脚はトラックが着いたら送れますね。\n男性1：いい考えだ。ケン、梱包する前にその30脚の状態を確かめてくれるかな。それからカーラ、ハートリー家具に変更を知らせておいてくれ。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
+  "id": "p3-s011",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "retail",
+  "speakers": [
+   {
+    "id": "W",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W",
+    "text": "Excuse me. I bought this coffee maker here last week, but it stopped working after two days. I'd like to exchange it."
+   },
+   {
+    "speaker": "M",
+    "text": "I'm sorry to hear that. Do you have your receipt?"
+   },
+   {
+    "speaker": "W",
+    "text": "Yes, here it is."
+   },
+   {
+    "speaker": "M",
+    "text": "Thank you. Unfortunately, we don't have any more of this model in stock. But we have a similar one from the same company that's a little more expensive. I can give it to you for the same price."
+   },
+   {
+    "speaker": "W",
+    "text": "That would be great. Where can I pick it up?"
+   },
+   {
+    "speaker": "M",
+    "text": "I'll call the kitchen department and ask them to set one aside for you. Just go up to that floor, and they'll have it ready at the counter."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Store Directory",
+   "columns": [
+    "Floor",
+    "Department"
+   ],
+   "rows": [
+    [
+     "1",
+     "Cosmetics / Shoes"
+    ],
+    [
+     "2",
+     "Women's Clothing"
+    ],
+    [
+     "3",
+     "Men's Clothing"
+    ],
+    [
+     "4",
+     "Home Goods / Kitchen"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p3-0031",
+   "p3-0032",
+   "p3-0033"
+  ],
+  "translation_ja": "女性：すみません。先週ここでこのコーヒーメーカーを買ったんですが、2日で動かなくなってしまいました。交換したいのですが。\n男性：それは申し訳ありません。レシートはお持ちですか。\n女性：はい、これです。\n男性：ありがとうございます。あいにく、この型の在庫はもうありません。ですが、同じメーカーの似た商品で、少し値段の高いものがあります。それを同じ値段でお渡しできます。\n女性：それは助かります。どこで受け取れますか。\n男性：台所用品の売り場に電話して、1台取っておくよう頼みます。その階に上がっていただければ、カウンターに用意しておきます。\n【図】売り場案内：1階　化粧品・靴／2階　婦人服／3階　紳士服／4階　生活用品・台所用品",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
+  "id": "p3-s012",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "hr",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   },
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "M",
+    "text": "Hi, Akiko. I'm putting together the schedule for next month's customer service training. Would you be able to lead one of the sessions?"
+   },
+   {
+    "speaker": "W",
+    "text": "I'd be glad to. Which topic did you have in mind?"
+   },
+   {
+    "speaker": "M",
+    "text": "Handling complaints over the phone. You've had the highest customer satisfaction scores in the department for two years."
+   },
+   {
+    "speaker": "W",
+    "text": "Thanks. When would the session be?"
+   },
+   {
+    "speaker": "M",
+    "text": "Either the morning of the twelfth or the afternoon of the fourteenth."
+   },
+   {
+    "speaker": "W",
+    "text": "Well, I'm flying back from the Chicago conference on the twelfth."
+   },
+   {
+    "speaker": "M",
+    "text": "OK, I'll put you down for the fourteenth, then. Could you send me a short description of the session by Friday? I'd like to include it in the e-mail to participants."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0034",
+   "p3-0035",
+   "p3-0036"
+  ],
+  "translation_ja": "男性：アキコさん、来月の顧客対応の研修の日程を組んでいるんだけど、講座の1つを担当してもらえないかな。\n女性：喜んで。どのテーマを考えていますか。\n男性：電話での苦情への対応だよ。君はこの2年間、部で顧客満足度の点数がいちばん高いからね。\n女性：ありがとうございます。講座はいつですか。\n男性：12日の午前か、14日の午後のどちらかだ。\n女性：うーん、12日はシカゴの会議から飛行機で戻ってくる日なんです。\n男性：わかった、じゃあ14日にしておくよ。金曜日までに講座の短い説明を送ってくれるかな。参加者へのメールに入れたいんだ。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
+  "id": "p3-s013",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "printing",
+  "speakers": [
+   {
+    "id": "M",
+    "gender": "male"
+   },
+   {
+    "id": "W",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "M",
+    "text": "Hi. I need a banner for our bakery's tenth anniversary sale next Saturday. Can you have one ready by Friday?"
+   },
+   {
+    "speaker": "W",
+    "text": "Yes, standard orders take three days, so Friday is no problem. What size were you thinking of?"
+   },
+   {
+    "speaker": "M",
+    "text": "Our storefront window is about three meters wide, and I'd like the banner to cover the whole width. But it doesn't need to be very tall. One meter is enough."
+   },
+   {
+    "speaker": "W",
+    "text": "OK. Do you have a design, or would you like us to create one?"
+   },
+   {
+    "speaker": "M",
+    "text": "My daughter is a graphic designer, so she's making it. She'll e-mail you the file tomorrow."
+   },
+   {
+    "speaker": "W",
+    "text": "Great. When we receive it, we'll send you a sample by e-mail to approve before we print."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Banner Prices",
+   "columns": [
+    "Size",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Small (1 m × 2 m)",
+     "$40"
+    ],
+    [
+     "Medium (1 m × 3 m)",
+     "$55"
+    ],
+    [
+     "Large (2 m × 3 m)",
+     "$80"
+    ],
+    [
+     "Extra large (2 m × 5 m)",
+     "$120"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p3-0037",
+   "p3-0038",
+   "p3-0039"
+  ],
+  "translation_ja": "男性：こんにちは。来週の土曜日の、パン屋の10周年記念セールのために横断幕が必要なんです。金曜日までに用意できますか。\n女性：はい、通常のご注文は3日かかりますので、金曜日なら問題ありません。大きさはどのくらいをお考えですか。\n男性：店の正面の窓が幅3メートルほどで、横断幕で幅いっぱいを覆いたいんです。でも高さはそれほど要りません。1メートルで十分です。\n女性：わかりました。デザインはお持ちですか。それとも当店で作りましょうか。\n男性：娘がグラフィックデザイナーなので、娘が作っています。明日、ファイルをメールで送ります。\n女性：よかったです。受け取りましたら、印刷の前にご確認いただくための見本をメールでお送りします。\n【図】横断幕の料金：小（1 m × 2 m）40ドル／中（1 m × 3 m）55ドル／大（2 m × 3 m）80ドル／特大（2 m × 5 m）120ドル",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
+  "id": "p3-s014",
+  "part": 3,
+  "kind": "conversation",
+  "scene": "manufacturing",
+  "speakers": [
+   {
+    "id": "W1",
+    "gender": "female"
+   },
+   {
+    "id": "W2",
+    "gender": "female"
+   },
+   {
+    "id": "M",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "W1",
+    "text": "Welcome to Brightfield Packaging. I'm Nora, the plant manager. Before we start the tour, I'd like to introduce Grace, our head of quality control."
+   },
+   {
+    "speaker": "W2",
+    "text": "Nice to meet you. I understand your company is thinking of ordering our recycled paper boxes."
+   },
+   {
+    "speaker": "M",
+    "text": "That's right. We sell organic teas, and our customers have been asking for packaging that's better for the environment."
+   },
+   {
+    "speaker": "W2",
+    "text": "Then you'll be interested in our testing area. We check every batch of boxes to make sure they're strong enough for shipping."
+   },
+   {
+    "speaker": "M",
+    "text": "That's good to hear. Some of our current boxes have been arriving at stores with damaged corners."
+   },
+   {
+    "speaker": "W1",
+    "text": "Well, let's go see the testing area first. Please put on these safety glasses before we go onto the factory floor."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p3-0040",
+   "p3-0041",
+   "p3-0042"
+  ],
+  "translation_ja": "女性1：ブライトフィールド・パッケージングへようこそ。工場長のノラです。見学を始める前に、品質管理の責任者のグレースを紹介します。\n女性2：はじめまして。御社が当社の再生紙の箱の注文を検討されていると伺っています。\n男性：そうなんです。当社は有機栽培のお茶を売っていて、お客さまから環境にもっと優しい包装を求められているんです。\n女性2：それなら、検査の場所に興味を持たれると思います。輸送に耐える強さがあるか、箱は1回の製造分ごとに必ず確かめています。\n男性：それは心強いです。今使っている箱の中には、角が傷んだ状態で店に届くものがあるんです。\n女性1：では、まず検査の場所を見に行きましょう。作業場に入る前に、この安全めがねをかけてください。",
+  "status": "draft",
+  "source": "2026-11-16 / part3 batch b"
+ },
+ {
   "id": "p4-s001",
   "part": 4,
   "kind": "announcement",
