@@ -8707,6 +8707,870 @@
   "explain_status": "checked"
  },
  {
+  "id": "p4-0025",
+  "part": 4,
+  "set_id": "p4-s009",
+  "type": "purpose",
+  "scene": "events",
+  "prompt": "What is the main purpose of the announcement?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To inform attendees about changes to a schedule"
+   },
+   {
+    "id": "b",
+    "text": "To introduce a keynote speaker"
+   },
+   {
+    "id": "c",
+    "text": "To explain how to register for a conference"
+   },
+   {
+    "id": "d",
+    "text": "To promote an online marketing course"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "基調講演の時間の変更、パネル討論の繰り上げ、昼食の会場の変更を知らせている。アナウンス全体の目的は予定の変更を伝えること。",
+  "translation_ja": "アナウンスの主な目的は何か。",
+  "translation_options_ja": [
+   "参加者に予定の変更を知らせること",
+   "基調講演者を紹介すること",
+   "会議への登録の方法を説明すること",
+   "オンライン・マーケティングの講座を宣伝すること"
+  ],
+  "option_notes_ja": [
+   "講演の時間・パネル討論の時間・昼食の場所の変更を知らせている",
+   "基調講演者の名前は出るが、遅れることを伝えているだけで、紹介はしていない",
+   "登録の方法ではなく、名札をまだ受け取っていない人に受け取るよう言っているだけ",
+   "オンライン・マーケティングはパネル討論のテーマで、講座の宣伝ではない"
+  ],
+  "point_ja": "目的の問題は、アナウンス全体で何を伝えているか（ここでは複数の変更）を考える。I have a few announcements の後に何が続くかを聞く。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0026",
+  "part": 4,
+  "set_id": "p4-s009",
+  "type": "reason",
+  "scene": "events",
+  "prompt": "Why has Dr. Petrie been delayed?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Because his flight was canceled"
+   },
+   {
+    "id": "b",
+    "text": "Because of heavy traffic"
+   },
+   {
+    "id": "c",
+    "text": "Because he was ill"
+   },
+   {
+    "id": "d",
+    "text": "Because of poor weather conditions"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "has been delayed by fog at the airport とあり、空港の霧のため遅れている。fog を poor weather conditions と言い換えている。",
+  "translation_ja": "ペトリー博士はなぜ遅れているのか。",
+  "translation_options_ja": [
+   "乗る便が欠航したため",
+   "交通渋滞のため",
+   "体調が悪かったため",
+   "天候が悪いため"
+  ],
+  "option_notes_ja": [
+   "空港の霧で遅れていると言っているが、便が欠航したとは言っていない",
+   "交通渋滞とは言っていない",
+   "体調の話はしていない",
+   "delayed by fog at the airport（霧 → 天候が悪い）"
+  ],
+  "point_ja": "理由は because のほか by ～・due to ～ の後で述べられることもある。fog・snow・storm は weather（天候）と言い換えられる。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0027",
+  "part": 4,
+  "set_id": "p4-s009",
+  "type": "request",
+  "scene": "events",
+  "prompt": "What are some listeners asked to do?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Move to the main hall"
+   },
+   {
+    "id": "b",
+    "text": "Collect an item at a desk"
+   },
+   {
+    "id": "c",
+    "text": "Turn in a survey"
+   },
+   {
+    "id": "d",
+    "text": "Print a new program"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "if you haven't picked up your conference badge yet, please do so at the registration desk とあり、名札をまだ受け取っていない人に、受付で受け取るよう頼んでいる。pick up を collect、badge を an item と言い換えている。",
+  "translation_ja": "一部の聞き手は何をするよう頼まれているか。",
+  "translation_options_ja": [
+   "大ホールへ移動する",
+   "受付で物を受け取る",
+   "アンケートを提出する",
+   "新しいプログラムを印刷する"
+  ],
+  "option_notes_ja": [
+   "昼食はプログラムにある大ホールではなく、ガーデンルーム",
+   "名札をまだ受け取っていない人は受付で受け取る（pick up → collect）",
+   "アンケートの話はしていない",
+   "プログラムの記載と違うと言っているが、印刷し直すよう頼んではいない"
+  ],
+  "point_ja": "some listeners（一部の聞き手）を問う設問は、if you ～ で対象を絞った依頼を探す。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0028",
+  "part": 4,
+  "set_id": "p4-s010",
+  "type": "speaker.identity",
+  "scene": "restaurant",
+  "prompt": "Who most likely is the speaker?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A chef"
+   },
+   {
+    "id": "b",
+    "text": "A travel agent"
+   },
+   {
+    "id": "c",
+    "text": "A restaurant employee"
+   },
+   {
+    "id": "d",
+    "text": "A hotel receptionist"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "This is Marco from Bellview Bistro とあり、レストランの個室の予約について折り返しの電話をしている。シェフのことは our chef と別の人として話している。",
+  "translation_ja": "話し手はだれだと考えられるか。",
+  "translation_options_ja": [
+   "シェフ",
+   "旅行代理店の人",
+   "レストランの従業員",
+   "ホテルの受付係"
+  ],
+  "option_notes_ja": [
+   "シェフのことは our chef（当店のシェフ）と、自分とは別の人として話している",
+   "旅行の話ではない",
+   "ベルビュー・ビストロのマルコで、個室の予約の件で電話している",
+   "ホテルではなく、レストラン（Bistro）の人"
+  ],
+  "point_ja": "話し手の職業は、最初の This is ～ from …（所属）と用件から判断する。our chef のように別の人として出てくる職業は誤答になりやすい。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0029",
+  "part": 4,
+  "set_id": "p4-s010",
+  "type": "intention",
+  "scene": "restaurant",
+  "prompt": "What does the speaker imply when he says, \"I'm afraid that room only holds twenty\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The room is too small for the group."
+   },
+   {
+    "id": "b",
+    "text": "The room has already been reserved."
+   },
+   {
+    "id": "c",
+    "text": "The price of the room has increased."
+   },
+   {
+    "id": "d",
+    "text": "The room is being renovated."
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "25人で個室を予約したいという希望に対して、その部屋は20人しか入らないと伝えている。グループには狭すぎるということで、続けて However, our outdoor terrace can seat up to forty とテラスを勧めている。",
+  "translation_ja": "話し手が「あいにく、その部屋は20人しか入りません」と言うとき、何を示唆しているか。",
+  "translation_options_ja": [
+   "その部屋はグループには狭すぎる。",
+   "その部屋はすでに予約されている。",
+   "その部屋の料金が上がった。",
+   "その部屋は改装中だ。"
+  ],
+  "option_notes_ja": [
+   "25人に対して20人までなので入りきらない。続けて40人まで座れるテラスを勧めている",
+   "ほかの予約が入っているとは言っていない",
+   "料金の話はしていない",
+   "改装の話はしていない"
+  ],
+  "point_ja": "I'm afraid ～（あいにく～）は、相手の希望に沿えないことを伝える前置き。数字（25人と20人）を比べて意図をつかむ。",
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0030",
+  "part": 4,
+  "set_id": "p4-s010",
+  "type": "request",
+  "scene": "restaurant",
+  "prompt": "What does the speaker ask Ms. Price to provide by Monday?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A deposit for the reservation"
+   },
+   {
+    "id": "b",
+    "text": "The final number of guests"
+   },
+   {
+    "id": "c",
+    "text": "A list of menu choices"
+   },
+   {
+    "id": "d",
+    "text": "Information about dietary needs"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "We'd also need to know about any food allergies by Monday とあり、月曜日までに食物アレルギーについて知らせてほしいと言っている。food allergies を dietary needs と言い換えている。",
+  "translation_ja": "話し手はプライスさんに、月曜日までに何を知らせるよう頼んでいるか。",
+  "translation_options_ja": [
+   "予約の手付金",
+   "最終的な人数",
+   "メニューの選択肢の一覧",
+   "食事に関する配慮の情報"
+  ],
+  "option_notes_ja": [
+   "手付金の話はしていない",
+   "人数は25人と聞いていて、確定の人数を求めてはいない",
+   "メニューはシェフが考えると言っていて、客に一覧を求めてはいない",
+   "食物アレルギーについて知らせてほしい（food allergies → dietary needs）"
+  ],
+  "point_ja": "期限つきの依頼（by Monday）は、何を・いつまでにを組にして聞く。food allergies・dietary restrictions は dietary needs と言い換えられる。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0031",
+  "part": 4,
+  "set_id": "p4-s011",
+  "type": "main.topic",
+  "scene": "fitness",
+  "prompt": "What is being advertised?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A sporting goods store"
+   },
+   {
+    "id": "b",
+    "text": "A climbing facility"
+   },
+   {
+    "id": "c",
+    "text": "A ski resort"
+   },
+   {
+    "id": "d",
+    "text": "A hiking tour"
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "Summit Climbing Center, the city's largest indoor climbing gym とあり、屋内のクライミングジムの宣伝。gym を facility と言い換えている。",
+  "translation_ja": "何が宣伝されているか。",
+  "translation_options_ja": [
+   "スポーツ用品店",
+   "クライミングの施設",
+   "スキー場",
+   "ハイキングのツアー"
+  ],
+  "option_notes_ja": [
+   "道具はレッスン代に含まれると言っているが、道具を売る店ではない",
+   "市内最大の屋内クライミングジム（gym → facility）",
+   "冬の過ごし方の話だが、スキー場ではない",
+   "ハイキングのツアーではない"
+  ],
+  "point_ja": "広告の問題は、最初の数文で何の広告かが分かる。途中の語（winter・equipment）から連想させる誤答に注意。",
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0032",
+  "part": 4,
+  "set_id": "p4-s011",
+  "type": "detail",
+  "scene": "fitness",
+  "prompt": "What is offered this month?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Free equipment rental for members"
+   },
+   {
+    "id": "b",
+    "text": "Extended opening hours"
+   },
+   {
+    "id": "c",
+    "text": "A free booklet of class schedules"
+   },
+   {
+    "id": "d",
+    "text": "A low-cost lesson for first-time visitors"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "this month only, first-time visitors can take an introductory lesson for just ten dollars とあり、初めての人は入門レッスンを10ドルで受けられる。",
+  "translation_ja": "今月は何が提供されているか。",
+  "translation_options_ja": [
+   "会員向けの道具の無料レンタル",
+   "営業時間の延長",
+   "レッスンの日程の無料の冊子",
+   "初めての人向けの安いレッスン"
+  ],
+  "option_notes_ja": [
+   "道具はレッスン代に含まれるが、会員向けの無料レンタルとは言っていない",
+   "営業時間を延ばすとは言っていない",
+   "日程はウェブサイトで見られると言っている",
+   "初めての人は入門レッスンがたった10ドル（for just ten dollars → low-cost）"
+  ],
+  "point_ja": "this month only・for a limited time などの期間限定の表現の後に、特典の内容が続く。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0033",
+  "part": 4,
+  "set_id": "p4-s011",
+  "type": "detail",
+  "scene": "fitness",
+  "prompt": "According to the advertisement, how can listeners see a class schedule?",
+  "options": [
+   {
+    "id": "a",
+    "text": "By going online"
+   },
+   {
+    "id": "b",
+    "text": "By calling the center"
+   },
+   {
+    "id": "c",
+    "text": "By visiting Central Station"
+   },
+   {
+    "id": "d",
+    "text": "By reading a newspaper"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "To see our class schedule, visit our Web site とあり、ウェブサイトで見られる。visit our Web site を going online と言い換えている。",
+  "translation_ja": "広告によると、聞き手はどうすればレッスンの日程を見られるか。",
+  "translation_options_ja": [
+   "インターネットで見る",
+   "センターに電話する",
+   "中央駅へ行く",
+   "新聞を読む"
+  ],
+  "option_notes_ja": [
+   "visit our Web site（→ going online）",
+   "電話の案内はしていない",
+   "中央駅は、ジムまで歩いて5分という場所の説明に出てくるだけ",
+   "新聞の話はしていない"
+  ],
+  "point_ja": "広告の最後の To ～, visit / call ～ は、詳しい情報の得方を問う設問の答えになる。",
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0034",
+  "part": 4,
+  "set_id": "p4-s012",
+  "type": "graphic",
+  "scene": "office",
+  "prompt": "Look at the graphic. Which item does the speaker want to discuss today?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Quieter work areas"
+   },
+   {
+    "id": "b",
+    "text": "Better coffee machine"
+   },
+   {
+    "id": "c",
+    "text": "More meeting rooms"
+   },
+   {
+    "id": "d",
+    "text": "Bicycle parking"
+   }
+  ],
+  "answer": "b",
+  "shuffle": false,
+  "explanation_ja": "最も票が多い項目（静かな作業場所）にはすでに取り組み始めているので、今日は2位の項目について話し合いたいと言っている。図で2位はコーヒーマシンの改善（35票）。",
+  "translation_ja": "図を見よ。話し手は今日どの項目を話し合いたいのか。",
+  "translation_options_ja": [
+   "もっと静かな作業場所",
+   "よりよいコーヒーマシン",
+   "会議室を増やすこと",
+   "自転車置き場"
+  ],
+  "option_notes_ja": [
+   "最も票が多い項目で、すでに取り組み始めている（吸音パネルを注文済み）",
+   "2位（35票）。今日はこれを話し合いたいと言っている",
+   "3位の項目",
+   "4位の項目"
+  ],
+  "point_ja": "図表問題では、the most votes・second place のような順位を表す語を聞き取り、図の数字で項目を特定する。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0035",
+  "part": 4,
+  "set_id": "p4-s012",
+  "type": "detail",
+  "scene": "office",
+  "prompt": "What will happen next week?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A survey will be conducted."
+   },
+   {
+    "id": "b",
+    "text": "A new employee will start work."
+   },
+   {
+    "id": "c",
+    "text": "Some panels will be installed."
+   },
+   {
+    "id": "d",
+    "text": "The office will be closed."
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "We've ordered sound-absorbing panels, and they'll be installed next week とあり、来週、吸音パネルが取り付けられる。",
+  "translation_ja": "来週何が起こるか。",
+  "translation_options_ja": [
+   "アンケートが行われる。",
+   "新しい従業員が働き始める。",
+   "パネルが取り付けられる。",
+   "オフィスが閉まる。"
+  ],
+  "option_notes_ja": [
+   "アンケートは先月行った",
+   "新しい従業員の話はしていない",
+   "they'll be installed next week",
+   "オフィスが閉まるとは言っていない"
+  ],
+  "point_ja": "時を表す語（next week・last month）と出来事を組にして聞く。先月のアンケートを来週のことと取り違えさせる誤答に注意。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0036",
+  "part": 4,
+  "set_id": "p4-s012",
+  "type": "next.action",
+  "scene": "office",
+  "prompt": "What will Patricia do after the break?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Order some supplies"
+   },
+   {
+    "id": "b",
+    "text": "Explain a new budget"
+   },
+   {
+    "id": "c",
+    "text": "Collect survey forms"
+   },
+   {
+    "id": "d",
+    "text": "Present some choices"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "購買部のパトリシアさんにいくつかの選択肢を比べてもらうよう頼んであり、She'll present them after the break と言っている。options を choices と言い換えている。",
+  "translation_ja": "パトリシアさんは休憩の後に何をするか。",
+  "translation_options_ja": [
+   "備品を注文する",
+   "新しい予算を説明する",
+   "アンケートの用紙を集める",
+   "いくつかの選択肢を発表する"
+  ],
+  "option_notes_ja": [
+   "注文の話は吸音パネルのことで、パトリシアさんがすることとしては出てこない",
+   "予算が限られていると言っているが、新しい予算を説明するとは言っていない",
+   "アンケートは先月行ったもので、用紙を集めるとは言っていない",
+   "比べた選択肢を休憩の後に発表する（options → choices）"
+  ],
+  "point_ja": "だれが何をするかを問う設問は、人の名前の後の She'll ～ / He'll ～ を聞く。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0037",
+  "part": 4,
+  "set_id": "p4-s013",
+  "type": "speaker.identity",
+  "scene": "finance",
+  "prompt": "Who is the speaker?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A financial adviser"
+   },
+   {
+    "id": "b",
+    "text": "A new bank customer"
+   },
+   {
+    "id": "c",
+    "text": "A university professor"
+   },
+   {
+    "id": "d",
+    "text": "A restaurant owner"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "I've been a financial adviser at Corbin Savings Bank for fifteen years と自己紹介している。",
+  "translation_ja": "話し手はだれか。",
+  "translation_options_ja": [
+   "ファイナンシャル・アドバイザー",
+   "銀行の新しい客",
+   "大学教授",
+   "レストランの経営者"
+  ],
+  "option_notes_ja": [
+   "I've been a financial adviser at Corbin Savings Bank と自己紹介している",
+   "銀行の客ではなく、銀行で働くファイナンシャル・アドバイザー",
+   "大学の話はしていない",
+   "サンドイッチと飲み物は、会場の後ろに用意してあると言っているだけ"
+  ],
+  "point_ja": "話し手がだれかは、最初の自己紹介（My name is ～, and I've been a ～）で分かることが多い。",
+  "level": "A2",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0038",
+  "part": 4,
+  "set_id": "p4-s013",
+  "type": "detail",
+  "scene": "finance",
+  "prompt": "According to the speaker, what do many people believe?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Saving small amounts is not useful."
+   },
+   {
+    "id": "b",
+    "text": "Retirement planning is only for older people."
+   },
+   {
+    "id": "c",
+    "text": "Banks offer low interest rates."
+   },
+   {
+    "id": "d",
+    "text": "Financial workshops are too long."
+   }
+  ],
+  "answer": "b",
+  "shuffle": true,
+  "explanation_ja": "Many people think that retirement planning is only for people in their fifties or sixties とあり、多くの人は老後の計画は50代・60代の人だけのものだと考えている。people in their fifties or sixties を older people と言い換えている。",
+  "translation_ja": "話し手によると、多くの人は何を信じているか。",
+  "translation_options_ja": [
+   "少しずつの貯蓄は役に立たない。",
+   "老後の計画は年配の人だけのものだ。",
+   "銀行の金利は低い。",
+   "お金の講座は長すぎる。"
+  ],
+  "option_notes_ja": [
+   "少しの額でも積み重なると言っているのは話し手で、多くの人が役に立たないと考えているとは言っていない",
+   "50代・60代の人だけのもの（people in their fifties or sixties → older people）",
+   "金利の話はしていない",
+   "講座の長さの話はしていない"
+  ],
+  "point_ja": "Many people think ～. But … の形では、but の後に話し手自身の考えが来る。設問が問うているのが多くの人の考えか、話し手の考えかに注意する。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0039",
+  "part": 4,
+  "set_id": "p4-s013",
+  "type": "intention",
+  "scene": "finance",
+  "prompt": "Why does the speaker say, \"I know some of you came straight from work\"?",
+  "options": [
+   {
+    "id": "a",
+    "text": "To apologize for starting late"
+   },
+   {
+    "id": "b",
+    "text": "To ask listeners to fill out a form"
+   },
+   {
+    "id": "c",
+    "text": "To explain why food is provided"
+   },
+   {
+    "id": "d",
+    "text": "To suggest that the workshop will be short"
+   }
+  ],
+  "answer": "c",
+  "shuffle": true,
+  "explanation_ja": "仕事から直接来た人もいると言った後、There are sandwiches and drinks at the back of the room と続けている。食事をとらずに来た人のために、食べ物を用意してある理由を述べている。",
+  "translation_ja": "話し手はなぜ「仕事から直接来られた方もいらっしゃると思います」と言っているのか。",
+  "translation_options_ja": [
+   "始まりが遅れたことをわびるため",
+   "聞き手に用紙の記入を頼むため",
+   "食べ物が用意されている理由を説明するため",
+   "講座が短いことを示すため"
+  ],
+  "option_notes_ja": [
+   "始まりが遅れたとは言っていない",
+   "用紙の記入は頼んでいない",
+   "直後に、部屋の後ろにサンドイッチと飲み物があると言っている",
+   "講座が短いとは言っていない"
+  ],
+  "point_ja": "発言の意図を問う問題は、その発言の直後の文（ここでは食べ物の案内）とのつながりで考える。",
+  "level": "B2",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0040",
+  "part": 4,
+  "set_id": "p4-s014",
+  "type": "graphic",
+  "scene": "warehouse",
+  "prompt": "Look at the graphic. Which supplier's delivery has been postponed?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Kendall Paper"
+   },
+   {
+    "id": "b",
+    "text": "Northline Foods"
+   },
+   {
+    "id": "c",
+    "text": "Ridge Electronics"
+   },
+   {
+    "id": "d",
+    "text": "Alder Furniture"
+   }
+  ],
+  "answer": "c",
+  "shuffle": false,
+  "explanation_ja": "the delivery scheduled for one o'clock has been postponed until next Monday とあり、1時の予定だった配達が来週の月曜日に延期された。図で午後1時に着く予定なのはリッジ・エレクトロニクス。",
+  "translation_ja": "図を見よ。どの業者の配達が延期されたか。",
+  "translation_options_ja": [
+   "ケンドール・ペーパー",
+   "ノースライン・フーズ",
+   "リッジ・エレクトロニクス",
+   "アルダー家具"
+  ],
+  "option_notes_ja": [
+   "午前8時の配達",
+   "午前10時30分の配達",
+   "午後1時の配達。1時の予定の配達が延期された",
+   "午後3時30分の配達"
+  ],
+  "point_ja": "図表問題は、話の中の情報（1時）と図の別の列（業者名）を結びつける。話の中では業者名が出てこないことが多い。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0041",
+  "part": 4,
+  "set_id": "p4-s014",
+  "type": "request",
+  "scene": "warehouse",
+  "prompt": "What are listeners asked to do before unloading boxes?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Charge some devices"
+   },
+   {
+    "id": "b",
+    "text": "Weigh each pallet"
+   },
+   {
+    "id": "c",
+    "text": "Write down tracking numbers"
+   },
+   {
+    "id": "d",
+    "text": "Scan some labels"
+   }
+  ],
+  "answer": "d",
+  "shuffle": true,
+  "explanation_ja": "Before you unload any boxes, please scan the label on each pallet with the handheld devices とある。",
+  "translation_ja": "聞き手は箱を降ろす前に何をするよう頼まれているか。",
+  "translation_options_ja": [
+   "端末を充電する",
+   "パレットの重さを量る",
+   "追跡番号を書き留める",
+   "ラベルを読み取る"
+  ],
+  "option_notes_ja": [
+   "端末は今、監督者の部屋で充電中だと言っているだけ",
+   "重さを量るとは言っていない",
+   "情報は手で入力しないようにと言っている",
+   "please scan the label on each pallet"
+  ],
+  "point_ja": "Before you ～, please … の形では、please の後が先にすること。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
+  "id": "p4-0042",
+  "part": 4,
+  "set_id": "p4-s014",
+  "type": "detail",
+  "scene": "warehouse",
+  "prompt": "What should listeners do if a label does not scan?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Set the pallet aside and inform the speaker"
+   },
+   {
+    "id": "b",
+    "text": "Enter the information by hand"
+   },
+   {
+    "id": "c",
+    "text": "Call the supplier"
+   },
+   {
+    "id": "d",
+    "text": "Return the pallet to the truck"
+   }
+  ],
+  "answer": "a",
+  "shuffle": true,
+  "explanation_ja": "If a label won't scan, don't enter the information by hand. Just put the pallet aside and let me know とある。put aside を set aside、let me know を inform the speaker と言い換えている。手で入力するのは、しないよう言われていること。",
+  "translation_ja": "ラベルが読み取れないとき、聞き手はどうすべきか。",
+  "translation_options_ja": [
+   "パレットを脇に置き、話し手に知らせる",
+   "情報を手で入力する",
+   "業者に電話する",
+   "パレットをトラックに戻す"
+  ],
+  "option_notes_ja": [
+   "put the pallet aside and let me know（let me know → inform the speaker）",
+   "don't enter the information by hand と、しないよう言っている",
+   "業者に電話するとは言っていない",
+   "トラックに戻すとは言っていない"
+  ],
+  "point_ja": "don't ～ の後の内容は、してはいけないこととして誤答に使われやすい。否定の指示と肯定の指示を区別して聞く。",
+  "level": "B1",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b",
+  "review": [],
+  "explain_status": "unchecked"
+ },
+ {
   "id": "p5-0001",
   "part": 5,
   "set_id": null,

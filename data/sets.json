@@ -1424,6 +1424,281 @@
   "source": "2026-11-16 / part4 batch a"
  },
  {
+  "id": "p4-s009",
+  "part": 4,
+  "kind": "announcement",
+  "scene": "events",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Good morning, everyone, and welcome to the second day of the Northern Retail Conference. Before we begin, I have a few announcements."
+   },
+   {
+    "speaker": "N",
+    "text": "First, this morning's keynote speaker, Dr. Alan Petrie, has been delayed by fog at the airport. His talk will now begin at eleven thirty instead of nine o'clock. In the meantime, the panel discussion on online marketing will be moved up to nine."
+   },
+   {
+    "speaker": "N",
+    "text": "Also, lunch will be served in the Garden Room on the ground floor, not in the main hall as printed in your program. And finally, if you haven't picked up your conference badge yet, please do so at the registration desk. You'll need it to enter every session."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0025",
+   "p4-0026",
+   "p4-0027"
+  ],
+  "translation_ja": "皆さま、おはようございます。北部小売会議の2日目にようこそ。始める前に、いくつかお知らせがあります。\nまず、今朝の基調講演者のアラン・ペトリー博士が、空港の霧のため遅れています。講演は9時ではなく、11時30分からになります。その間に、オンライン・マーケティングについてのパネル討論を9時に繰り上げて行います。\nまた、昼食はプログラムに載っている大ホールではなく、1階のガーデンルームでご用意します。最後に、会議の名札をまだ受け取っていない方は、受付でお受け取りください。どのセッションに入るにも必要です。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
+  "id": "p4-s010",
+  "part": 4,
+  "kind": "voicemail",
+  "scene": "restaurant",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Hello, this message is for Ms. Yolanda Price. This is Marco from Bellview Bistro, returning your call about the private dinner for your team on Friday the twenty-first."
+   },
+   {
+    "speaker": "N",
+    "text": "You mentioned that you'd like to reserve our private room for twenty-five people. I'm afraid that room only holds twenty. However, our outdoor terrace can seat up to forty, and it has heaters in case the evening gets cool."
+   },
+   {
+    "speaker": "N",
+    "text": "We'd also need to know about any food allergies by Monday so our chef can plan the menu. Please call me back at 555-0148. I'm here until nine tonight."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0028",
+   "p4-0029",
+   "p4-0030"
+  ],
+  "translation_ja": "もしもし、ヨランダ・プライス様へのお電話です。ベルビュー・ビストロのマルコです。21日の金曜日にチームでなさる貸し切りの夕食の件で、お電話をいただいたので折り返しております。\n25人で個室を予約したいとのことでしたが、あいにく、その部屋は20人しか入りません。ですが、屋外のテラスなら40人までお座りいただけますし、夜が冷えた場合に備えて暖房器具もあります。\nまた、シェフがメニューを考えられるよう、食物アレルギーについて月曜日までにお知らせいただく必要があります。555-0148 までお電話ください。今夜は9時までおります。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
+  "id": "p4-s011",
+  "part": 4,
+  "kind": "advertisement",
+  "scene": "fitness",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Are you looking for a way to stay active this winter? Then visit Summit Climbing Center, the city's largest indoor climbing gym."
+   },
+   {
+    "speaker": "N",
+    "text": "Whether you're a complete beginner or an experienced climber, our certified instructors will help you reach the next level. And this month only, first-time visitors can take an introductory lesson for just ten dollars, with all equipment included."
+   },
+   {
+    "speaker": "N",
+    "text": "Summit Climbing Center is open every day from seven A.M. to eleven P.M. and is just a five-minute walk from Central Station. To see our class schedule, visit our Web site at summitclimbing.example."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0031",
+   "p4-0032",
+   "p4-0033"
+  ],
+  "translation_ja": "この冬、体を動かす方法をお探しですか。それなら、市内最大の屋内クライミングジム、サミット・クライミング・センターへお越しください。\nまったくの初心者でも経験豊富なクライマーでも、資格を持ったインストラクターが次のレベルへのお手伝いをします。さらに今月だけ、初めての方は、道具代込みでたった10ドルで入門レッスンを受けられます。\nサミット・クライミング・センターは毎日午前7時から午後11時まで営業していて、中央駅から歩いてわずか5分です。レッスンの日程は、ウェブサイト summitclimbing.example でご覧ください。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
+  "id": "p4-s012",
+  "part": 4,
+  "kind": "meeting",
+  "scene": "office",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Thanks for coming, everyone. As you know, last month we asked all staff to tell us what they'd most like to see improved in our office. The results are on the screen."
+   },
+   {
+    "speaker": "N",
+    "text": "The item that received the most votes is something we've already started working on. We've ordered sound-absorbing panels, and they'll be installed next week. So today, I'd like to focus on the item in second place."
+   },
+   {
+    "speaker": "N",
+    "text": "Our budget for office improvements is limited, so I've asked Patricia from the purchasing department to compare a few options. She'll present them after the break. Please think about which features matter most to you."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Employee Survey: Most Requested Improvements",
+   "columns": [
+    "Improvement",
+    "Votes"
+   ],
+   "rows": [
+    [
+     "Quieter work areas",
+     "42"
+    ],
+    [
+     "Better coffee machine",
+     "35"
+    ],
+    [
+     "More meeting rooms",
+     "28"
+    ],
+    [
+     "Bicycle parking",
+     "15"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p4-0034",
+   "p4-0035",
+   "p4-0036"
+  ],
+  "translation_ja": "皆さん、集まってくれてありがとう。ご存じのとおり、先月、オフィスで一番改善してほしいことは何かを全スタッフに尋ねました。結果は画面のとおりです。\n最も票が多かった項目には、すでに取り組み始めています。吸音パネルを注文していて、来週取り付けられます。そこで今日は、2位の項目について話し合いたいと思います。\nオフィスの改善の予算は限られているので、購買部のパトリシアにいくつかの選択肢を比べてもらうよう頼みました。休憩の後に彼女が発表します。皆さんにとってどんな機能が一番大事か、考えておいてください。\n【図】社員アンケート：改善の要望が多い項目：もっと静かな作業場所　42票／よりよいコーヒーマシン　35票／会議室を増やす　28票／自転車置き場　15票",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
+  "id": "p4-s013",
+  "part": 4,
+  "kind": "talk",
+  "scene": "finance",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "female"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Good evening, and thank you for coming to tonight's workshop on planning for retirement. My name is Ruth Adeyemi, and I've been a financial adviser at Corbin Savings Bank for fifteen years."
+   },
+   {
+    "speaker": "N",
+    "text": "Many people think that retirement planning is only for people in their fifties or sixties. But the earlier you start saving, the more time your money has to grow. Even small amounts add up."
+   },
+   {
+    "speaker": "N",
+    "text": "Tonight, I'll explain three simple ways to start saving. There will be time for questions at the end. And I know some of you came straight from work. There are sandwiches and drinks at the back of the room."
+   }
+  ],
+  "passages": [],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p4-0037",
+   "p4-0038",
+   "p4-0039"
+  ],
+  "translation_ja": "こんばんは。今夜の老後の資金計画についての講座にお越しいただき、ありがとうございます。ルース・アデイェミと申します。コービン貯蓄銀行で15年間、ファイナンシャル・アドバイザーをしています。\n老後の計画は、50代や60代の人だけのものだと思っている方がたくさんいます。でも、貯蓄を早く始めるほど、お金が増える時間が長くなります。少しの額でも積み重なっていきます。\n今夜は、貯蓄を始める簡単な方法を3つご説明します。最後に質問の時間もあります。それから、仕事から直接来られた方もいらっしゃると思います。部屋の後ろにサンドイッチと飲み物を用意しています。",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
+  "id": "p4-s014",
+  "part": 4,
+  "kind": "announcement",
+  "scene": "warehouse",
+  "speakers": [
+   {
+    "id": "N",
+    "gender": "male"
+   }
+  ],
+  "segments": [
+   {
+    "speaker": "N",
+    "text": "Attention, warehouse staff. I have some updates about tomorrow's deliveries. First, the delivery scheduled for one o'clock has been postponed until next Monday, so the team assigned to that dock can help out at the other docks instead."
+   },
+   {
+    "speaker": "N",
+    "text": "Second, we'll be testing the new scanning system tomorrow. Before you unload any boxes, please scan the label on each pallet with the handheld devices. They're charging in the supervisor's office now."
+   },
+   {
+    "speaker": "N",
+    "text": "If a label won't scan, don't enter the information by hand. Just put the pallet aside and let me know. Thanks, everyone."
+   }
+  ],
+  "passages": [],
+  "graphic": {
+   "title": "Thursday Deliveries",
+   "columns": [
+    "Supplier",
+    "Arrival",
+    "Loading Dock"
+   ],
+   "rows": [
+    [
+     "Kendall Paper",
+     "8:00 A.M.",
+     "A"
+    ],
+    [
+     "Northline Foods",
+     "10:30 A.M.",
+     "B"
+    ],
+    [
+     "Ridge Electronics",
+     "1:00 P.M.",
+     "C"
+    ],
+    [
+     "Alder Furniture",
+     "3:30 P.M.",
+     "D"
+    ]
+   ]
+  },
+  "image": null,
+  "question_ids": [
+   "p4-0040",
+   "p4-0041",
+   "p4-0042"
+  ],
+  "translation_ja": "倉庫スタッフの皆さんにお知らせです。明日の配達について、いくつか変更があります。まず、1時に予定されていた配達は来週の月曜日に延期になりました。そのため、その荷受け場の担当チームは、代わりにほかの荷受け場を手伝ってください。\n次に、明日は新しい読み取りシステムを試します。箱を降ろす前に、手持ちの端末で各パレットのラベルを読み取ってください。端末は今、監督者の部屋で充電しています。\nラベルが読み取れないときは、情報を手で入力しないでください。パレットを脇に置いて、私に知らせてください。皆さん、よろしくお願いします。\n【図】木曜日の配達：ケンドール・ペーパー　午前8時　荷受け場A／ノースライン・フーズ　午前10時30分　荷受け場B／リッジ・エレクトロニクス　午後1時　荷受け場C／アルダー家具　午後3時30分　荷受け場D",
+  "status": "draft",
+  "source": "2026-11-16 / part4 batch b"
+ },
+ {
   "id": "p6-s001",
   "part": 6,
   "kind": "email",
