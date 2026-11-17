@@ -18,7 +18,7 @@ def h(s):
 def load(errors):
     """問題ファイルを読み、行（辞書）のリストを返す。誤りは errors に足す"""
     words = []
-    for f in sorted(SRC.glob("*.json")):
+    for file_no, f in enumerate(sorted(SRC.glob("*.json"))):
         rel = f.relative_to(ROOT)
         try:
             doc = json.loads(f.read_text(encoding="utf-8"))
@@ -39,7 +39,7 @@ def load(errors):
             words.append(dict(id=w["id"], word=w["word"], pos=w["pos"], meaning_ja=w["meaning_ja"], level=w["level"],
                               example=w["example"], example_ja=w["example_ja"], cloze=w["cloze"], also_ok=w.get("also_ok", []), also_ok_cloze=w.get("also_ok_cloze", []),
                               status=w.get("status", "draft"), source=w.get("source", doc.get("source", "")),
-                              fixed_distractors=w.get("distractors")))
+                              fixed_distractors=w.get("distractors"), file_no=file_no))
     return words
 
 
@@ -81,7 +81,10 @@ def pick_distractors(w, pool):
     """英→日の4択のダミー3つ：同じ品詞・近いレベルから決まった順で選ぶ（データに残してレビューできるようにする）"""
     if w.get("fixed_distractors"): return w["fixed_distractors"]
     lv = LEVELS.index(w["level"])
+    # ダミーは、その語と同じファイルか、それより前のファイルの語から選ぶ。
+    # 後から単語ファイルを足しても、前からある語の4択は変わらない（レビューした版のまま）
     cand = [x for x in pool if x["id"] != w["id"] and x["pos"] == w["pos"] and x["status"] != "retired"
+            and x.get("file_no", 0) <= w.get("file_no", 0)
             and x["meaning_ja"] != w["meaning_ja"]]
     cand.sort(key=lambda x: (abs(LEVELS.index(x["level"]) - lv) > 1, h(w["id"] + "|" + x["id"])))
     return [x["id"] for x in cand[:3]]

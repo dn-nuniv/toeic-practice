@@ -164,7 +164,7 @@ for w in words:
     w["distractors"] = V.pick_distractors(w, words)
     w["choices"] = V.choices(w)
     w["related_items"] = sorted(i for i, t in toks.items() if V.appears(w, t))  # この語が出てくる問題（今日の単語に使う）
-    w.pop("fixed_distractors")
+    w.pop("fixed_distractors"); w.pop("file_no", None)
     rs = reviews_all.get(w["id"], [])
     w["review"] = rs
     if rs and w["status"] != "retired":

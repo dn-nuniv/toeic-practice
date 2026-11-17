@@ -1,0 +1,1566 @@
+{
+ "batch": "2026-11-16-vocab-b",
+ "source": "2026-11-16 / vocab batch b",
+ "note": "第2弾の155語（今ある問題によく出てくる語と TOEIC の基本語。名詞55・動詞45・形容詞25・副詞10・熟語20。意味と例文はオリジナル）",
+ "words": [
+  {
+   "id": "v-0101",
+   "word": "delivery",
+   "pos": "noun",
+   "meaning_ja": "配達",
+   "level": "A2",
+   "example": "The delivery will take place between nine and noon.",
+   "example_ja": "配達は9時から正午の間に行われる。",
+   "cloze": "delivery"
+  },
+  {
+   "id": "v-0102",
+   "word": "session",
+   "pos": "noun",
+   "meaning_ja": "（講習・会議などの）会・時間",
+   "level": "B1",
+   "example": "The afternoon session will focus on customer service.",
+   "example_ja": "午後の会は顧客サービスを中心に扱う。",
+   "cloze": "session"
+  },
+  {
+   "id": "v-0103",
+   "word": "conference",
+   "pos": "noun",
+   "meaning_ja": "会議・協議会",
+   "level": "A2",
+   "example": "More than 500 people attended the conference in Chicago.",
+   "example_ja": "シカゴの会議には500人を超える人が出席した。",
+   "cloze": "conference"
+  },
+  {
+   "id": "v-0104",
+   "word": "department",
+   "pos": "noun",
+   "meaning_ja": "部・部門",
+   "level": "A2",
+   "example": "She works in the accounting department.",
+   "example_ja": "彼女は経理部で働いている。",
+   "cloze": "department"
+  },
+  {
+   "id": "v-0105",
+   "word": "survey",
+   "pos": "noun",
+   "meaning_ja": "調査・アンケート",
+   "level": "B1",
+   "example": "Please take a few minutes to complete our customer survey.",
+   "example_ja": "数分お時間をいただき、顧客アンケートにご記入ください。",
+   "cloze": "survey"
+  },
+  {
+   "id": "v-0106",
+   "word": "inventory",
+   "pos": "noun",
+   "meaning_ja": "在庫（品）",
+   "level": "B2",
+   "example": "We check our inventory every Friday.",
+   "example_ja": "毎週金曜日に在庫を確認している。",
+   "cloze": "inventory"
+  },
+  {
+   "id": "v-0107",
+   "word": "contract",
+   "pos": "noun",
+   "meaning_ja": "契約（書）",
+   "level": "B1",
+   "example": "Both companies signed the contract on Monday.",
+   "example_ja": "両社は月曜日に契約書に署名した。",
+   "cloze": "contract"
+  },
+  {
+   "id": "v-0108",
+   "word": "interview",
+   "pos": "noun",
+   "meaning_ja": "面接",
+   "level": "A2",
+   "example": "The interview will last about forty-five minutes.",
+   "example_ja": "面接は45分ほどかかる。",
+   "cloze": "interview"
+  },
+  {
+   "id": "v-0109",
+   "word": "position",
+   "pos": "noun",
+   "meaning_ja": "職・地位",
+   "level": "B1",
+   "example": "We are looking for someone to fill the sales manager position.",
+   "example_ja": "営業部長の職に就く人を探している。",
+   "cloze": "position"
+  },
+  {
+   "id": "v-0110",
+   "word": "qualification",
+   "pos": "noun",
+   "meaning_ja": "資格・能力",
+   "level": "B2",
+   "example": "Applicants must have the right qualifications for the job.",
+   "example_ja": "応募者は、その仕事に必要な資格を持っていなければならない。",
+   "cloze": "qualifications"
+  },
+  {
+   "id": "v-0111",
+   "word": "promotion",
+   "pos": "noun",
+   "meaning_ja": "昇進",
+   "level": "B1",
+   "example": "Ms. Silva received a promotion to regional director.",
+   "example_ja": "シルバさんは地域部長に昇進した（昇進を受けた）。",
+   "cloze": "promotion"
+  },
+  {
+   "id": "v-0112",
+   "word": "headquarters",
+   "pos": "noun",
+   "meaning_ja": "本社",
+   "level": "B1",
+   "example": "The company's headquarters are in Seoul.",
+   "example_ja": "その会社の本社はソウルにある。",
+   "cloze": "headquarters"
+  },
+  {
+   "id": "v-0113",
+   "word": "branch",
+   "pos": "noun",
+   "meaning_ja": "支店",
+   "level": "A2",
+   "example": "The bank is opening a new branch downtown.",
+   "example_ja": "その銀行は中心街に新しい支店を開く。",
+   "cloze": "branch"
+  },
+  {
+   "id": "v-0114",
+   "word": "merger",
+   "pos": "noun",
+   "meaning_ja": "合併",
+   "level": "B2",
+   "example": "The merger of the two airlines was announced yesterday.",
+   "example_ja": "2つの航空会社の合併が昨日発表された。",
+   "cloze": "merger"
+  },
+  {
+   "id": "v-0115",
+   "word": "revenue",
+   "pos": "noun",
+   "meaning_ja": "収益・売上高",
+   "level": "B2",
+   "example": "The company's revenue rose by 12 percent last year.",
+   "example_ja": "その会社の収益は昨年12パーセント増えた。",
+   "cloze": "revenue"
+  },
+  {
+   "id": "v-0116",
+   "word": "profit",
+   "pos": "noun",
+   "meaning_ja": "利益",
+   "level": "B1",
+   "example": "The store made a small profit in its first year.",
+   "example_ja": "その店は1年目にわずかな利益を出した。",
+   "cloze": "profit"
+  },
+  {
+   "id": "v-0117",
+   "word": "investment",
+   "pos": "noun",
+   "meaning_ja": "投資",
+   "level": "B1",
+   "example": "The new factory is a large investment for the company.",
+   "example_ja": "新しい工場は、その会社にとって大きな投資だ。",
+   "cloze": "investment"
+  },
+  {
+   "id": "v-0118",
+   "word": "storage",
+   "pos": "noun",
+   "meaning_ja": "保管・収納",
+   "level": "B1",
+   "example": "Extra chairs are kept in the storage room.",
+   "example_ja": "予備のいすは保管室に置いてある。",
+   "cloze": "storage"
+  },
+  {
+   "id": "v-0119",
+   "word": "aisle",
+   "pos": "noun",
+   "meaning_ja": "通路",
+   "level": "B1",
+   "example": "Pasta and rice are in aisle four.",
+   "example_ja": "パスタと米は4番通路にある。",
+   "cloze": "aisle"
+  },
+  {
+   "id": "v-0120",
+   "word": "lobby",
+   "pos": "noun",
+   "meaning_ja": "ロビー",
+   "level": "A2",
+   "example": "Please wait for me in the hotel lobby.",
+   "example_ja": "ホテルのロビーで待っていてください。",
+   "cloze": "lobby"
+  },
+  {
+   "id": "v-0121",
+   "word": "garage",
+   "pos": "noun",
+   "meaning_ja": "駐車場・車庫",
+   "level": "A2",
+   "example": "Visitors can park in the garage next to the building.",
+   "example_ja": "来客は建物の隣の駐車場に車を止められる。",
+   "cloze": "garage"
+  },
+  {
+   "id": "v-0122",
+   "word": "itinerary",
+   "pos": "noun",
+   "meaning_ja": "旅程（表）",
+   "level": "B2",
+   "example": "Your travel itinerary has been sent to your e-mail address.",
+   "example_ja": "旅程表はあなたのメールアドレスに送られた。",
+   "cloze": "itinerary"
+  },
+  {
+   "id": "v-0123",
+   "word": "departure",
+   "pos": "noun",
+   "meaning_ja": "出発",
+   "level": "B1",
+   "example": "The departure of Flight 210 has been delayed.",
+   "example_ja": "210便の出発が遅れている。",
+   "cloze": "departure"
+  },
+  {
+   "id": "v-0124",
+   "word": "destination",
+   "pos": "noun",
+   "meaning_ja": "目的地・行き先",
+   "level": "B1",
+   "example": "Please enter your destination before you start the trip.",
+   "example_ja": "出発前に目的地を入力してください。",
+   "cloze": "destination"
+  },
+  {
+   "id": "v-0125",
+   "word": "fare",
+   "pos": "noun",
+   "meaning_ja": "運賃",
+   "level": "B1",
+   "example": "The bus fare will go up next month.",
+   "example_ja": "来月バスの運賃が上がる。",
+   "cloze": "fare"
+  },
+  {
+   "id": "v-0126",
+   "word": "luggage",
+   "pos": "noun",
+   "meaning_ja": "手荷物",
+   "level": "A2",
+   "example": "Each passenger may bring two pieces of luggage.",
+   "example_ja": "乗客は1人2個まで手荷物を持ち込める。",
+   "cloze": "luggage"
+  },
+  {
+   "id": "v-0127",
+   "word": "accommodation",
+   "pos": "noun",
+   "meaning_ja": "宿泊（場所）",
+   "level": "B2",
+   "example": "The conference fee includes accommodation for three nights.",
+   "example_ja": "会議の参加費には3泊分の宿泊が含まれている。",
+   "cloze": "accommodation"
+  },
+  {
+   "id": "v-0128",
+   "word": "reception",
+   "pos": "noun",
+   "meaning_ja": "歓迎会・受付",
+   "level": "B1",
+   "example": "A reception will be held for the new members after the meeting.",
+   "example_ja": "会議の後、新会員のための歓迎会が開かれる。",
+   "cloze": "reception"
+  },
+  {
+   "id": "v-0129",
+   "word": "attendance",
+   "pos": "noun",
+   "meaning_ja": "出席（者数）",
+   "level": "B1",
+   "example": "Attendance at the seminar was higher than expected.",
+   "example_ja": "セミナーの出席者数は予想より多かった。",
+   "cloze": "Attendance"
+  },
+  {
+   "id": "v-0130",
+   "word": "presentation",
+   "pos": "noun",
+   "meaning_ja": "発表・プレゼンテーション",
+   "level": "A2",
+   "example": "Mr. Wu will give a presentation on the new product.",
+   "example_ja": "ウーさんが新製品について発表を行う。",
+   "cloze": "presentation"
+  },
+  {
+   "id": "v-0131",
+   "word": "deposit",
+   "pos": "noun",
+   "meaning_ja": "手付金・保証金",
+   "level": "B1",
+   "example": "A deposit of $100 is required to hold the room.",
+   "example_ja": "部屋を押さえるには100ドルの手付金が必要だ。",
+   "cloze": "deposit"
+  },
+  {
+   "id": "v-0132",
+   "word": "warranty",
+   "pos": "noun",
+   "meaning_ja": "保証（書）",
+   "level": "B1",
+   "example": "The printer comes with a two-year warranty.",
+   "example_ja": "そのプリンターには2年間の保証が付いている。",
+   "cloze": "warranty"
+  },
+  {
+   "id": "v-0133",
+   "word": "replacement",
+   "pos": "noun",
+   "meaning_ja": "交換品・後任",
+   "level": "B1",
+   "example": "We will send you a replacement free of charge.",
+   "example_ja": "交換品を無料でお送りします。",
+   "cloze": "replacement"
+  },
+  {
+   "id": "v-0134",
+   "word": "feedback",
+   "pos": "noun",
+   "meaning_ja": "意見・感想",
+   "level": "B1",
+   "example": "Thank you for your feedback on our new menu.",
+   "example_ja": "新しいメニューへのご意見ありがとうございます。",
+   "cloze": "feedback"
+  },
+  {
+   "id": "v-0135",
+   "word": "description",
+   "pos": "noun",
+   "meaning_ja": "説明（書き）",
+   "level": "B1",
+   "example": "Please read the job description carefully before you apply.",
+   "example_ja": "応募する前に、職務の説明をよく読んでください。",
+   "cloze": "description"
+  },
+  {
+   "id": "v-0136",
+   "word": "personnel",
+   "pos": "noun",
+   "meaning_ja": "職員・人員",
+   "level": "B2",
+   "example": "Only authorized personnel may enter this area.",
+   "example_ja": "この場所には、許可された職員しか入れない。",
+   "cloze": "personnel"
+  },
+  {
+   "id": "v-0137",
+   "word": "supervisor",
+   "pos": "noun",
+   "meaning_ja": "監督者・上司",
+   "level": "B1",
+   "example": "Report any accidents to your supervisor immediately.",
+   "example_ja": "事故があったら、すぐに上司に報告してください。",
+   "cloze": "supervisor"
+  },
+  {
+   "id": "v-0138",
+   "word": "shift",
+   "pos": "noun",
+   "meaning_ja": "（交代制の）勤務時間",
+   "level": "B1",
+   "example": "My shift starts at six in the morning.",
+   "example_ja": "私の勤務は朝6時に始まる。",
+   "cloze": "shift"
+  },
+  {
+   "id": "v-0139",
+   "word": "overtime",
+   "pos": "noun",
+   "meaning_ja": "残業・時間外労働",
+   "level": "B1",
+   "example": "Employees who work overtime will be paid extra.",
+   "example_ja": "残業をした従業員には追加の手当が出る。",
+   "cloze": "overtime"
+  },
+  {
+   "id": "v-0140",
+   "word": "benefit",
+   "pos": "noun",
+   "meaning_ja": "手当・福利厚生・利点",
+   "level": "B1",
+   "example": "Health insurance is one of the benefits of the job.",
+   "example_ja": "健康保険は、その仕事の福利厚生の1つだ。",
+   "cloze": "benefits"
+  },
+  {
+   "id": "v-0141",
+   "word": "donation",
+   "pos": "noun",
+   "meaning_ja": "寄付（金）",
+   "level": "B1",
+   "example": "The museum received a large donation from a local family.",
+   "example_ja": "美術館は地元の一家から多額の寄付を受けた。",
+   "cloze": "donation"
+  },
+  {
+   "id": "v-0142",
+   "word": "exhibition",
+   "pos": "noun",
+   "meaning_ja": "展示会・展覧会",
+   "level": "B1",
+   "example": "The photography exhibition will run until the end of May.",
+   "example_ja": "写真展は5月末まで開かれる。",
+   "cloze": "exhibition"
+  },
+  {
+   "id": "v-0143",
+   "word": "admission",
+   "pos": "noun",
+   "meaning_ja": "入場（料）",
+   "level": "B1",
+   "example": "Admission is free for children under six.",
+   "example_ja": "6歳未満の子どもは入場無料だ。",
+   "cloze": "Admission"
+  },
+  {
+   "id": "v-0144",
+   "word": "manual",
+   "pos": "noun",
+   "meaning_ja": "説明書・手引き",
+   "level": "B1",
+   "example": "Read the user manual before you use the machine.",
+   "example_ja": "機械を使う前に、取扱説明書を読んでください。",
+   "cloze": "manual"
+  },
+  {
+   "id": "v-0145",
+   "word": "component",
+   "pos": "noun",
+   "meaning_ja": "部品・構成要素",
+   "level": "B2",
+   "example": "The factory produces components for electric cars.",
+   "example_ja": "その工場は電気自動車の部品を作っている。",
+   "cloze": "components"
+  },
+  {
+   "id": "v-0146",
+   "word": "shortage",
+   "pos": "noun",
+   "meaning_ja": "不足",
+   "level": "B2",
+   "example": "A shortage of staff has caused delays.",
+   "example_ja": "人手不足で遅れが出ている。",
+   "cloze": "shortage"
+  },
+  {
+   "id": "v-0147",
+   "word": "delay",
+   "pos": "noun",
+   "meaning_ja": "遅れ",
+   "level": "B1",
+   "example": "We apologize for the delay in shipping your order.",
+   "example_ja": "ご注文品の発送が遅れていることをおわびします。",
+   "cloze": "delay"
+  },
+  {
+   "id": "v-0148",
+   "word": "opening",
+   "pos": "noun",
+   "meaning_ja": "（職の）空き・欠員",
+   "level": "B1",
+   "example": "There is an opening for a part-time cashier.",
+   "example_ja": "パートのレジ係に空きがある。",
+   "cloze": "opening"
+  },
+  {
+   "id": "v-0149",
+   "word": "property",
+   "pos": "noun",
+   "meaning_ja": "物件・不動産",
+   "level": "B1",
+   "example": "The property includes a garden and a small garage.",
+   "example_ja": "その物件には庭と小さな車庫が付いている。",
+   "cloze": "property"
+  },
+  {
+   "id": "v-0150",
+   "word": "resident",
+   "pos": "noun",
+   "meaning_ja": "住民",
+   "level": "B1",
+   "example": "All residents can use the community pool for free.",
+   "example_ja": "住民は全員、地域のプールを無料で使える。",
+   "cloze": "residents"
+  },
+  {
+   "id": "v-0151",
+   "word": "commute",
+   "pos": "noun",
+   "meaning_ja": "通勤",
+   "level": "B1",
+   "example": "My commute to work takes about forty minutes.",
+   "example_ja": "職場までの通勤には40分ほどかかる。",
+   "cloze": "commute"
+  },
+  {
+   "id": "v-0152",
+   "word": "responsibility",
+   "pos": "noun",
+   "meaning_ja": "責任・職務",
+   "level": "B1",
+   "example": "Training new staff is one of her responsibilities.",
+   "example_ja": "新人の研修は彼女の職務の1つだ。",
+   "cloze": "responsibilities"
+  },
+  {
+   "id": "v-0153",
+   "word": "objective",
+   "pos": "noun",
+   "meaning_ja": "目的・目標",
+   "level": "B2",
+   "example": "The main objective of the meeting is to set next year's budget.",
+   "example_ja": "会議の主な目的は、来年度の予算を決めることだ。",
+   "cloze": "objective"
+  },
+  {
+   "id": "v-0154",
+   "word": "strategy",
+   "pos": "noun",
+   "meaning_ja": "戦略",
+   "level": "B1",
+   "example": "The team is developing a new marketing strategy.",
+   "example_ja": "チームは新しい販売戦略を立てている。",
+   "cloze": "strategy"
+  },
+  {
+   "id": "v-0155",
+   "word": "quarter",
+   "pos": "noun",
+   "meaning_ja": "四半期",
+   "level": "B1",
+   "example": "Sales increased in the third quarter.",
+   "example_ja": "第3四半期に売上が伸びた。",
+   "cloze": "quarter"
+  },
+  {
+   "id": "v-0156",
+   "word": "arrange",
+   "pos": "verb",
+   "meaning_ja": "手配する",
+   "level": "B1",
+   "example": "I'll arrange a taxi to take you to the airport.",
+   "example_ja": "空港までのタクシーを手配します。",
+   "cloze": "arrange"
+  },
+  {
+   "id": "v-0157",
+   "word": "organize",
+   "pos": "verb",
+   "meaning_ja": "（催しを）企画する・準備する",
+   "level": "B1",
+   "example": "Ms. Hale is organizing the company picnic.",
+   "example_ja": "ヘイルさんが会社のピクニックを企画している。",
+   "cloze": "organizing",
+   "also_ok": ["organise"],
+   "also_ok_cloze": ["organising"]
+  },
+  {
+   "id": "v-0158",
+   "word": "contact",
+   "pos": "verb",
+   "meaning_ja": "連絡する",
+   "level": "A2",
+   "example": "Please contact the front desk if you need anything.",
+   "example_ja": "何か必要なら受付に連絡してください。",
+   "cloze": "contact"
+  },
+  {
+   "id": "v-0159",
+   "word": "update",
+   "pos": "verb",
+   "meaning_ja": "最新の状態にする",
+   "level": "B1",
+   "example": "Please update your contact information on our Web site.",
+   "example_ja": "当社のウェブサイトで、連絡先を最新の状態にしてください。",
+   "cloze": "update"
+  },
+  {
+   "id": "v-0160",
+   "word": "complete",
+   "pos": "verb",
+   "meaning_ja": "仕上げる・（用紙に）記入する",
+   "level": "B1",
+   "example": "Please complete the form and return it by Friday.",
+   "example_ja": "用紙に記入して、金曜日までに返してください。",
+   "cloze": "complete"
+  },
+  {
+   "id": "v-0161",
+   "word": "require",
+   "pos": "verb",
+   "meaning_ja": "必要とする",
+   "level": "B1",
+   "example": "This job requires a driver's license.",
+   "example_ja": "この仕事には運転免許が必要だ。",
+   "cloze": "requires"
+  },
+  {
+   "id": "v-0162",
+   "word": "provide",
+   "pos": "verb",
+   "meaning_ja": "提供する",
+   "level": "B1",
+   "example": "The hotel provides free breakfast for all guests.",
+   "example_ja": "そのホテルは宿泊客全員に無料の朝食を提供している。",
+   "cloze": "provides"
+  },
+  {
+   "id": "v-0163",
+   "word": "include",
+   "pos": "verb",
+   "meaning_ja": "含む",
+   "level": "A2",
+   "example": "The price includes tax and delivery.",
+   "example_ja": "値段には税金と配送料が含まれる。",
+   "cloze": "includes"
+  },
+  {
+   "id": "v-0164",
+   "word": "exceed",
+   "pos": "verb",
+   "meaning_ja": "超える・上回る",
+   "level": "B2",
+   "example": "Sales exceeded our expectations this year.",
+   "example_ja": "今年の売上は予想を上回った。",
+   "cloze": "exceeded"
+  },
+  {
+   "id": "v-0165",
+   "word": "decline",
+   "pos": "verb",
+   "meaning_ja": "（丁寧に）断る",
+   "level": "B2",
+   "example": "She declined the job offer from the bank.",
+   "example_ja": "彼女は銀行からの仕事の申し出を断った。",
+   "cloze": "declined"
+  },
+  {
+   "id": "v-0166",
+   "word": "accept",
+   "pos": "verb",
+   "meaning_ja": "受け付ける・受け入れる",
+   "level": "A2",
+   "example": "We accept all major credit cards.",
+   "example_ja": "当店は主なクレジットカードをすべて受け付けています。",
+   "cloze": "accept"
+  },
+  {
+   "id": "v-0167",
+   "word": "hold",
+   "pos": "verb",
+   "meaning_ja": "（会などを）開く",
+   "level": "B1",
+   "example": "The meeting will be held in Room 3.",
+   "example_ja": "会議は3号室で開かれる。",
+   "cloze": "held",
+   "also_ok": ["host"]
+  },
+  {
+   "id": "v-0168",
+   "word": "conduct",
+   "pos": "verb",
+   "meaning_ja": "（調査などを）行う",
+   "level": "B2",
+   "example": "The company conducted a survey of its customers.",
+   "example_ja": "その会社は顧客に調査を行った。",
+   "cloze": "conducted"
+  },
+  {
+   "id": "v-0169",
+   "word": "promote",
+   "pos": "verb",
+   "meaning_ja": "昇進させる",
+   "level": "B1",
+   "example": "She was promoted to manager last year.",
+   "example_ja": "彼女は昨年、部長に昇進した。",
+   "cloze": "promoted"
+  },
+  {
+   "id": "v-0170",
+   "word": "resign",
+   "pos": "verb",
+   "meaning_ja": "辞職する",
+   "level": "B2",
+   "example": "Mr. Brooks resigned to start his own business.",
+   "example_ja": "ブルックスさんは自分の会社を始めるために辞職した。",
+   "cloze": "resigned"
+  },
+  {
+   "id": "v-0171",
+   "word": "retire",
+   "pos": "verb",
+   "meaning_ja": "引退する",
+   "level": "B1",
+   "example": "She plans to retire at the end of the year.",
+   "example_ja": "彼女は年末に引退する予定だ。",
+   "cloze": "retire"
+  },
+  {
+   "id": "v-0172",
+   "word": "ship",
+   "pos": "verb",
+   "meaning_ja": "発送する",
+   "level": "B1",
+   "example": "We will ship your order within two days.",
+   "example_ja": "ご注文の品は2日以内に発送します。",
+   "cloze": "ship",
+   "also_ok": ["send"],
+   "also_ok_cloze": ["send"]
+  },
+  {
+   "id": "v-0173",
+   "word": "load",
+   "pos": "verb",
+   "meaning_ja": "（荷を）積む",
+   "level": "B1",
+   "example": "The workers are loading boxes onto the truck.",
+   "example_ja": "作業員がトラックに箱を積んでいる。",
+   "cloze": "loading"
+  },
+  {
+   "id": "v-0174",
+   "word": "unload",
+   "pos": "verb",
+   "meaning_ja": "（荷を）降ろす",
+   "level": "B1",
+   "example": "Please unload the van at the back entrance.",
+   "example_ja": "裏口でバンの荷物を降ろしてください。",
+   "cloze": "unload"
+  },
+  {
+   "id": "v-0175",
+   "word": "assemble",
+   "pos": "verb",
+   "meaning_ja": "組み立てる",
+   "level": "B2",
+   "example": "The desks are easy to assemble.",
+   "example_ja": "その机は組み立てやすい。",
+   "cloze": "assemble"
+  },
+  {
+   "id": "v-0176",
+   "word": "repair",
+   "pos": "verb",
+   "meaning_ja": "修理する",
+   "level": "A2",
+   "example": "A technician came to repair the copier.",
+   "example_ja": "技術者がコピー機を修理しに来た。",
+   "cloze": "repair"
+  },
+  {
+   "id": "v-0177",
+   "word": "operate",
+   "pos": "verb",
+   "meaning_ja": "（機械を）操作する",
+   "level": "B1",
+   "example": "Only trained staff may operate this machine.",
+   "example_ja": "訓練を受けた職員だけが、この機械を操作できる。",
+   "cloze": "operate"
+  },
+  {
+   "id": "v-0178",
+   "word": "manufacture",
+   "pos": "verb",
+   "meaning_ja": "製造する",
+   "level": "B2",
+   "example": "The company manufactures kitchen appliances.",
+   "example_ja": "その会社は台所用の電化製品を製造している。",
+   "cloze": "manufactures"
+  },
+  {
+   "id": "v-0179",
+   "word": "distribute",
+   "pos": "verb",
+   "meaning_ja": "配布する",
+   "level": "B2",
+   "example": "Please distribute these handouts to all participants.",
+   "example_ja": "これらの資料を参加者全員に配ってください。",
+   "cloze": "distribute"
+  },
+  {
+   "id": "v-0180",
+   "word": "collect",
+   "pos": "verb",
+   "meaning_ja": "集める",
+   "level": "A2",
+   "example": "We will collect the surveys at the end of the session.",
+   "example_ja": "会の終わりにアンケートを集めます。",
+   "cloze": "collect"
+  },
+  {
+   "id": "v-0181",
+   "word": "review",
+   "pos": "verb",
+   "meaning_ja": "（内容を）検討する・目を通す",
+   "level": "B1",
+   "example": "The manager will review your application this week.",
+   "example_ja": "今週、部長があなたの応募書類に目を通す。",
+   "cloze": "review"
+  },
+  {
+   "id": "v-0182",
+   "word": "reschedule",
+   "pos": "verb",
+   "meaning_ja": "予定を変更する",
+   "level": "B1",
+   "example": "Can we reschedule the meeting for next week?",
+   "example_ja": "会議の予定を来週に変更できますか。",
+   "cloze": "reschedule"
+  },
+  {
+   "id": "v-0183",
+   "word": "permit",
+   "pos": "verb",
+   "meaning_ja": "許可する",
+   "level": "B2",
+   "example": "Smoking is not permitted inside the building.",
+   "example_ja": "建物内での喫煙は許可されていない。",
+   "cloze": "permitted"
+  },
+  {
+   "id": "v-0184",
+   "word": "prohibit",
+   "pos": "verb",
+   "meaning_ja": "禁止する",
+   "level": "B2",
+   "example": "Parking is prohibited in front of the gate.",
+   "example_ja": "門の前は駐車が禁止されている。",
+   "cloze": "prohibited"
+  },
+  {
+   "id": "v-0185",
+   "word": "remind",
+   "pos": "verb",
+   "meaning_ja": "（念のため）思い出させる",
+   "level": "B1",
+   "example": "Please remind Ms. Lee about tomorrow's meeting.",
+   "example_ja": "リーさんに、明日の会議のことを念のため伝えてください。",
+   "cloze": "remind"
+  },
+  {
+   "id": "v-0186",
+   "word": "suggest",
+   "pos": "verb",
+   "meaning_ja": "提案する",
+   "level": "B1",
+   "example": "I suggest that we leave early to avoid traffic.",
+   "example_ja": "渋滞を避けるために、早めに出ることを提案します。",
+   "cloze": "suggest"
+  },
+  {
+   "id": "v-0187",
+   "word": "indicate",
+   "pos": "verb",
+   "meaning_ja": "示す",
+   "level": "B2",
+   "example": "The survey results indicate that customers want longer opening hours.",
+   "example_ja": "調査の結果は、客が営業時間の延長を望んでいることを示している。",
+   "cloze": "indicate"
+  },
+  {
+   "id": "v-0188",
+   "word": "analyze",
+   "pos": "verb",
+   "meaning_ja": "分析する",
+   "level": "B2",
+   "example": "Our team will analyze the sales data.",
+   "example_ja": "私たちのチームが売上のデータを分析する。",
+   "cloze": "analyze",
+   "also_ok": ["analyse"],
+   "also_ok_cloze": ["analyse"]
+  },
+  {
+   "id": "v-0189",
+   "word": "compare",
+   "pos": "verb",
+   "meaning_ja": "比べる",
+   "level": "A2",
+   "example": "Compare prices before you buy a new laptop.",
+   "example_ja": "新しいノートパソコンを買う前に、値段を比べなさい。",
+   "cloze": "Compare"
+  },
+  {
+   "id": "v-0190",
+   "word": "prefer",
+   "pos": "verb",
+   "meaning_ja": "（～のほうを）好む",
+   "level": "B1",
+   "example": "Many customers prefer to shop online.",
+   "example_ja": "多くの客は、オンラインで買い物をするほうを好む。",
+   "cloze": "prefer"
+  },
+  {
+   "id": "v-0191",
+   "word": "locate",
+   "pos": "verb",
+   "meaning_ja": "（be located で）位置する",
+   "level": "B1",
+   "example": "The hotel is located near the station.",
+   "example_ja": "そのホテルは駅の近くにある。",
+   "cloze": "located"
+  },
+  {
+   "id": "v-0192",
+   "word": "transfer",
+   "pos": "verb",
+   "meaning_ja": "異動させる・移す",
+   "level": "B2",
+   "example": "Mr. Ito was transferred to the Osaka office.",
+   "example_ja": "伊藤さんは大阪支社に異動になった。",
+   "cloze": "transferred"
+  },
+  {
+   "id": "v-0193",
+   "word": "handle",
+   "pos": "verb",
+   "meaning_ja": "扱う・処理する",
+   "level": "B1",
+   "example": "Ms. Park handles all customer complaints.",
+   "example_ja": "パクさんが客の苦情をすべて処理している。",
+   "cloze": "handles"
+  },
+  {
+   "id": "v-0194",
+   "word": "achieve",
+   "pos": "verb",
+   "meaning_ja": "達成する",
+   "level": "B1",
+   "example": "The team achieved its sales goal for the year.",
+   "example_ja": "チームは年間の売上目標を達成した。",
+   "cloze": "achieved"
+  },
+  {
+   "id": "v-0195",
+   "word": "encourage",
+   "pos": "verb",
+   "meaning_ja": "促す・励ます",
+   "level": "B1",
+   "example": "We encourage all staff to take the online safety course.",
+   "example_ja": "全職員に、オンラインの安全講座を受けるよう促している。",
+   "cloze": "encourage"
+  },
+  {
+   "id": "v-0196",
+   "word": "donate",
+   "pos": "verb",
+   "meaning_ja": "寄付する",
+   "level": "B1",
+   "example": "The bakery donates its leftover bread to a local shelter.",
+   "example_ja": "そのパン屋は、売れ残ったパンを地元の施設に寄付している。",
+   "cloze": "donates"
+  },
+  {
+   "id": "v-0197",
+   "word": "respond",
+   "pos": "verb",
+   "meaning_ja": "返答する・対応する",
+   "level": "B1",
+   "example": "Please respond to this e-mail by Friday.",
+   "example_ja": "金曜日までにこのメールに返信してください。",
+   "cloze": "respond"
+  },
+  {
+   "id": "v-0198",
+   "word": "advertise",
+   "pos": "verb",
+   "meaning_ja": "広告する・宣伝する",
+   "level": "B1",
+   "example": "The store advertised the sale in the local newspaper.",
+   "example_ja": "その店は地元の新聞でセールを宣伝した。",
+   "cloze": "advertised"
+  },
+  {
+   "id": "v-0199",
+   "word": "maintain",
+   "pos": "verb",
+   "meaning_ja": "維持する・保守する",
+   "level": "B2",
+   "example": "It is important to maintain the equipment regularly.",
+   "example_ja": "機器を定期的に保守することが大切だ。",
+   "cloze": "maintain"
+  },
+  {
+   "id": "v-0200",
+   "word": "renovate",
+   "pos": "verb",
+   "meaning_ja": "改装する",
+   "level": "B1",
+   "example": "The hotel will renovate its restaurant this winter.",
+   "example_ja": "そのホテルは、この冬にレストランを改装する。",
+   "cloze": "renovate"
+  },
+  {
+   "id": "v-0201",
+   "word": "complimentary",
+   "pos": "adjective",
+   "meaning_ja": "無料の（サービスの）",
+   "level": "B2",
+   "example": "Guests receive a complimentary breakfast.",
+   "example_ja": "宿泊客は無料の朝食を受けられる。",
+   "cloze": "complimentary"
+  },
+  {
+   "id": "v-0202",
+   "word": "mandatory",
+   "pos": "adjective",
+   "meaning_ja": "必須の・義務の",
+   "level": "B2",
+   "example": "Attendance at the safety training is mandatory.",
+   "example_ja": "安全研修への出席は必須だ。",
+   "cloze": "mandatory"
+  },
+  {
+   "id": "v-0203",
+   "word": "outstanding",
+   "pos": "adjective",
+   "meaning_ja": "優れた・目立つ",
+   "level": "B2",
+   "example": "She received an award for her outstanding work.",
+   "example_ja": "彼女は優れた仕事ぶりで賞を受けた。",
+   "cloze": "outstanding"
+  },
+  {
+   "id": "v-0204",
+   "word": "confidential",
+   "pos": "adjective",
+   "meaning_ja": "機密の・内密の",
+   "level": "B2",
+   "example": "Please keep this information confidential.",
+   "example_ja": "この情報は内密にしておいてください。",
+   "cloze": "confidential"
+  },
+  {
+   "id": "v-0205",
+   "word": "durable",
+   "pos": "adjective",
+   "meaning_ja": "丈夫な・長持ちする",
+   "level": "B2",
+   "example": "These boots are durable and comfortable.",
+   "example_ja": "このブーツは丈夫で、履き心地がいい。",
+   "cloze": "durable"
+  },
+  {
+   "id": "v-0206",
+   "word": "spacious",
+   "pos": "adjective",
+   "meaning_ja": "広々とした",
+   "level": "B2",
+   "example": "The new office is bright and spacious.",
+   "example_ja": "新しいオフィスは明るく広々としている。",
+   "cloze": "spacious"
+  },
+  {
+   "id": "v-0207",
+   "word": "punctual",
+   "pos": "adjective",
+   "meaning_ja": "時間を守る",
+   "level": "B2",
+   "example": "Ms. Diaz is always punctual for meetings.",
+   "example_ja": "ディアスさんは、いつも会議の時間を守る。",
+   "cloze": "punctual"
+  },
+  {
+   "id": "v-0208",
+   "word": "local",
+   "pos": "adjective",
+   "meaning_ja": "地元の",
+   "level": "A2",
+   "example": "We buy vegetables from local farmers.",
+   "example_ja": "私たちは地元の農家から野菜を買っている。",
+   "cloze": "local"
+  },
+  {
+   "id": "v-0209",
+   "word": "recent",
+   "pos": "adjective",
+   "meaning_ja": "最近の",
+   "level": "B1",
+   "example": "The report shows recent changes in sales.",
+   "example_ja": "その報告書は、売上の最近の変化を示している。",
+   "cloze": "recent"
+  },
+  {
+   "id": "v-0210",
+   "word": "entire",
+   "pos": "adjective",
+   "meaning_ja": "全体の・全部の",
+   "level": "B1",
+   "example": "The entire staff attended the party.",
+   "example_ja": "職員全員がパーティーに出席した。",
+   "cloze": "entire"
+  },
+  {
+   "id": "v-0211",
+   "word": "various",
+   "pos": "adjective",
+   "meaning_ja": "さまざまな",
+   "level": "B1",
+   "example": "The store sells various kinds of tea.",
+   "example_ja": "その店はさまざまな種類のお茶を売っている。",
+   "cloze": "various"
+  },
+  {
+   "id": "v-0212",
+   "word": "sufficient",
+   "pos": "adjective",
+   "meaning_ja": "十分な",
+   "level": "B2",
+   "example": "We don't have sufficient time to finish the report today.",
+   "example_ja": "今日報告書を仕上げるのに十分な時間がない。",
+   "cloze": "sufficient"
+  },
+  {
+   "id": "v-0213",
+   "word": "urgent",
+   "pos": "adjective",
+   "meaning_ja": "緊急の・急ぎの",
+   "level": "B1",
+   "example": "Please call me back. It's urgent.",
+   "example_ja": "折り返し電話をください。急ぎの用です。",
+   "cloze": "urgent"
+  },
+  {
+   "id": "v-0214",
+   "word": "flexible",
+   "pos": "adjective",
+   "meaning_ja": "柔軟な・融通のきく",
+   "level": "B1",
+   "example": "The company offers flexible working hours.",
+   "example_ja": "その会社は柔軟な勤務時間を取り入れている。",
+   "cloze": "flexible"
+  },
+  {
+   "id": "v-0215",
+   "word": "informative",
+   "pos": "adjective",
+   "meaning_ja": "有益な・情報の多い",
+   "level": "B2",
+   "example": "The workshop was very informative.",
+   "example_ja": "その研修会はとても有益だった。",
+   "cloze": "informative"
+  },
+  {
+   "id": "v-0216",
+   "word": "knowledgeable",
+   "pos": "adjective",
+   "meaning_ja": "知識の豊富な",
+   "level": "B2",
+   "example": "Our staff are friendly and knowledgeable.",
+   "example_ja": "当店の店員は親切で、知識が豊富だ。",
+   "cloze": "knowledgeable"
+  },
+  {
+   "id": "v-0217",
+   "word": "crowded",
+   "pos": "adjective",
+   "meaning_ja": "混雑した",
+   "level": "A2",
+   "example": "The train was crowded this morning.",
+   "example_ja": "今朝の電車は混んでいた。",
+   "cloze": "crowded"
+  },
+  {
+   "id": "v-0218",
+   "word": "unavailable",
+   "pos": "adjective",
+   "meaning_ja": "手が空いていない・利用できない",
+   "level": "B1",
+   "example": "Mr. Chen is unavailable until Thursday.",
+   "example_ja": "チェンさんは木曜日まで手が空いていない。",
+   "cloze": "unavailable"
+  },
+  {
+   "id": "v-0219",
+   "word": "detailed",
+   "pos": "adjective",
+   "meaning_ja": "詳しい",
+   "level": "B1",
+   "example": "Please send me a detailed report.",
+   "example_ja": "詳しい報告書を送ってください。",
+   "cloze": "detailed"
+  },
+  {
+   "id": "v-0220",
+   "word": "competitive",
+   "pos": "adjective",
+   "meaning_ja": "（他に）負けない・競争の激しい",
+   "level": "B2",
+   "example": "We offer competitive salaries.",
+   "example_ja": "当社は他社に負けない給与を出している。",
+   "cloze": "competitive"
+  },
+  {
+   "id": "v-0221",
+   "word": "financial",
+   "pos": "adjective",
+   "meaning_ja": "財務の・金銭的な",
+   "level": "B1",
+   "example": "The financial report will be released in April.",
+   "example_ja": "財務報告書は4月に公開される。",
+   "cloze": "financial"
+  },
+  {
+   "id": "v-0222",
+   "word": "domestic",
+   "pos": "adjective",
+   "meaning_ja": "国内の",
+   "level": "B2",
+   "example": "Domestic flights leave from Terminal 1.",
+   "example_ja": "国内線は第1ターミナルから出発する。",
+   "cloze": "Domestic"
+  },
+  {
+   "id": "v-0223",
+   "word": "exclusive",
+   "pos": "adjective",
+   "meaning_ja": "限定の・独占的な",
+   "level": "B2",
+   "example": "Members receive exclusive discounts.",
+   "example_ja": "会員は会員限定の割引を受けられる。",
+   "cloze": "exclusive"
+  },
+  {
+   "id": "v-0224",
+   "word": "fragile",
+   "pos": "adjective",
+   "meaning_ja": "壊れやすい",
+   "level": "B2",
+   "example": "Please be careful with this box. It's fragile.",
+   "example_ja": "この箱は丁寧に扱ってください。壊れやすいので。",
+   "cloze": "fragile"
+  },
+  {
+   "id": "v-0225",
+   "word": "optional",
+   "pos": "adjective",
+   "meaning_ja": "任意の",
+   "level": "B2",
+   "example": "The evening tour is optional.",
+   "example_ja": "夕方のツアーは参加が任意だ。",
+   "cloze": "optional"
+  },
+  {
+   "id": "v-0226",
+   "word": "carefully",
+   "pos": "adverb",
+   "meaning_ja": "注意深く・丁寧に",
+   "level": "A2",
+   "example": "Please read the instructions carefully.",
+   "example_ja": "説明を注意深く読んでください。",
+   "cloze": "carefully"
+  },
+  {
+   "id": "v-0227",
+   "word": "promptly",
+   "pos": "adverb",
+   "meaning_ja": "（時間）きっかりに・遅れずに",
+   "level": "B2",
+   "example": "The meeting will begin promptly at nine.",
+   "example_ja": "会議は9時きっかりに始まる。",
+   "cloze": "promptly"
+  },
+  {
+   "id": "v-0228",
+   "word": "recently",
+   "pos": "adverb",
+   "meaning_ja": "最近",
+   "level": "B1",
+   "example": "We recently moved to a larger office.",
+   "example_ja": "私たちは最近、もっと広いオフィスに移った。",
+   "cloze": "recently"
+  },
+  {
+   "id": "v-0229",
+   "word": "regularly",
+   "pos": "adverb",
+   "meaning_ja": "定期的に",
+   "level": "B1",
+   "example": "The machines are checked regularly.",
+   "example_ja": "機械は定期的に点検されている。",
+   "cloze": "regularly"
+  },
+  {
+   "id": "v-0230",
+   "word": "frequently",
+   "pos": "adverb",
+   "meaning_ja": "頻繁に・よく",
+   "level": "B1",
+   "example": "This train is frequently late.",
+   "example_ja": "この電車はよく遅れる。",
+   "cloze": "frequently"
+  },
+  {
+   "id": "v-0231",
+   "word": "directly",
+   "pos": "adverb",
+   "meaning_ja": "直接",
+   "level": "B1",
+   "example": "Please send the invoice directly to me.",
+   "example_ja": "請求書は私に直接送ってください。",
+   "cloze": "directly"
+  },
+  {
+   "id": "v-0232",
+   "word": "conveniently",
+   "pos": "adverb",
+   "meaning_ja": "便利に",
+   "level": "B2",
+   "example": "The hotel is conveniently located near the airport.",
+   "example_ja": "そのホテルは空港の近くの便利な所にある。",
+   "cloze": "conveniently"
+  },
+  {
+   "id": "v-0233",
+   "word": "separately",
+   "pos": "adverb",
+   "meaning_ja": "別々に",
+   "level": "B1",
+   "example": "The items will be shipped separately.",
+   "example_ja": "品物は別々に発送される。",
+   "cloze": "separately"
+  },
+  {
+   "id": "v-0234",
+   "word": "eventually",
+   "pos": "adverb",
+   "meaning_ja": "最終的に・ついに",
+   "level": "B2",
+   "example": "The plan was eventually approved.",
+   "example_ja": "その計画は最終的に承認された。",
+   "cloze": "eventually"
+  },
+  {
+   "id": "v-0235",
+   "word": "slightly",
+   "pos": "adverb",
+   "meaning_ja": "わずかに",
+   "level": "B1",
+   "example": "Prices rose slightly in March.",
+   "example_ja": "3月に価格がわずかに上がった。",
+   "cloze": "slightly",
+   "also_ok": ["somewhat"],
+   "also_ok_cloze": ["somewhat"]
+  },
+  {
+   "id": "v-0236",
+   "word": "look forward to",
+   "pos": "phrase",
+   "meaning_ja": "～を楽しみにする",
+   "level": "A2",
+   "example": "We look forward to seeing you at the event.",
+   "example_ja": "催しでお会いできるのを楽しみにしています。",
+   "cloze": "look forward to"
+  },
+  {
+   "id": "v-0237",
+   "word": "take part in",
+   "pos": "phrase",
+   "meaning_ja": "～に参加する",
+   "level": "B1",
+   "example": "All employees are invited to take part in the survey.",
+   "example_ja": "全従業員がその調査に参加するよう求められている。",
+   "cloze": "take part in"
+  },
+  {
+   "id": "v-0238",
+   "word": "in charge of",
+   "pos": "phrase",
+   "meaning_ja": "～を担当して",
+   "level": "B1",
+   "example": "Ms. Ruiz is in charge of the project.",
+   "example_ja": "ルイスさんがそのプロジェクトを担当している。",
+   "cloze": "in charge of"
+  },
+  {
+   "id": "v-0239",
+   "word": "fill out",
+   "pos": "phrase",
+   "meaning_ja": "（用紙に）記入する",
+   "level": "A2",
+   "example": "Please fill out this form.",
+   "example_ja": "この用紙に記入してください。",
+   "cloze": "fill out"
+  },
+  {
+   "id": "v-0240",
+   "word": "set up",
+   "pos": "phrase",
+   "meaning_ja": "設置する・準備する",
+   "level": "A2",
+   "example": "Can you help me set up the projector?",
+   "example_ja": "プロジェクターを設置するのを手伝ってくれますか。",
+   "cloze": "set up"
+  },
+  {
+   "id": "v-0241",
+   "word": "call off",
+   "pos": "phrase",
+   "meaning_ja": "中止する",
+   "level": "B1",
+   "example": "The outdoor concert was called off because of rain.",
+   "example_ja": "雨のため屋外コンサートは中止になった。",
+   "cloze": "called off"
+  },
+  {
+   "id": "v-0242",
+   "word": "put off",
+   "pos": "phrase",
+   "meaning_ja": "延期する",
+   "level": "B1",
+   "example": "We had to put off the meeting until Friday.",
+   "example_ja": "会議を金曜日まで延期しなければならなかった。",
+   "cloze": "put off"
+  },
+  {
+   "id": "v-0243",
+   "word": "run out of",
+   "pos": "phrase",
+   "meaning_ja": "～を切らす・使い果たす",
+   "level": "B1",
+   "example": "We have run out of paper for the printer.",
+   "example_ja": "プリンターの用紙を切らしてしまった。",
+   "cloze": "run out of"
+  },
+  {
+   "id": "v-0244",
+   "word": "pick up",
+   "pos": "phrase",
+   "meaning_ja": "受け取る・迎えに行く",
+   "level": "A2",
+   "example": "I'll pick up the documents on my way to work.",
+   "example_ja": "出勤の途中で書類を受け取ります。",
+   "cloze": "pick up"
+  },
+  {
+   "id": "v-0245",
+   "word": "drop off",
+   "pos": "phrase",
+   "meaning_ja": "（物を）置いていく・届ける",
+   "level": "B1",
+   "example": "You can drop off your keys at the front desk.",
+   "example_ja": "鍵は受付に置いていってください。",
+   "cloze": "drop off"
+  },
+  {
+   "id": "v-0246",
+   "word": "turn in",
+   "pos": "phrase",
+   "meaning_ja": "提出する",
+   "level": "B1",
+   "example": "Please turn in your report by Monday.",
+   "example_ja": "月曜日までに報告書を提出してください。",
+   "cloze": "turn in"
+  },
+  {
+   "id": "v-0247",
+   "word": "in advance",
+   "pos": "phrase",
+   "meaning_ja": "前もって",
+   "level": "A2",
+   "example": "Please book your tickets in advance.",
+   "example_ja": "チケットは前もって予約してください。",
+   "cloze": "in advance"
+  },
+  {
+   "id": "v-0248",
+   "word": "on time",
+   "pos": "phrase",
+   "meaning_ja": "時間どおりに",
+   "level": "A2",
+   "example": "The train arrived on time.",
+   "example_ja": "電車は時間どおりに着いた。",
+   "cloze": "on time"
+  },
+  {
+   "id": "v-0249",
+   "word": "as soon as possible",
+   "pos": "phrase",
+   "meaning_ja": "できるだけ早く",
+   "level": "A2",
+   "example": "Please reply as soon as possible.",
+   "example_ja": "できるだけ早くご返信ください。",
+   "cloze": "as soon as possible"
+  },
+  {
+   "id": "v-0250",
+   "word": "due to",
+   "pos": "phrase",
+   "meaning_ja": "～のために（原因）",
+   "level": "B1",
+   "example": "The flight was delayed due to bad weather.",
+   "example_ja": "悪天候のために便が遅れた。",
+   "cloze": "due to"
+  },
+  {
+   "id": "v-0251",
+   "word": "in person",
+   "pos": "phrase",
+   "meaning_ja": "直接・本人が",
+   "level": "B1",
+   "example": "You must pick up the package in person.",
+   "example_ja": "小包は本人が受け取りに来なければならない。",
+   "cloze": "in person"
+  },
+  {
+   "id": "v-0252",
+   "word": "sign up for",
+   "pos": "phrase",
+   "meaning_ja": "～に申し込む",
+   "level": "A2",
+   "example": "More than thirty people signed up for the yoga class.",
+   "example_ja": "30人を超える人がヨガのクラスに申し込んだ。",
+   "cloze": "signed up for"
+  },
+  {
+   "id": "v-0253",
+   "word": "deal with",
+   "pos": "phrase",
+   "meaning_ja": "～に対処する",
+   "level": "B1",
+   "example": "She knows how to deal with difficult customers.",
+   "example_ja": "彼女は、難しい客への対処の仕方を知っている。",
+   "cloze": "deal with"
+  },
+  {
+   "id": "v-0254",
+   "word": "out of order",
+   "pos": "phrase",
+   "meaning_ja": "故障して",
+   "level": "A2",
+   "example": "The elevator is out of order.",
+   "example_ja": "エレベーターは故障している。",
+   "cloze": "out of order"
+  },
+  {
+   "id": "v-0255",
+   "word": "on behalf of",
+   "pos": "phrase",
+   "meaning_ja": "～を代表して・～に代わって",
+   "level": "B1",
+   "example": "I'm writing on behalf of my manager.",
+   "example_ja": "上司に代わってご連絡しています。",
+   "cloze": "on behalf of"
+  }
+ ]
+}
