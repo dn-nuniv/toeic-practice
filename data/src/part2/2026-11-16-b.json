@@ -1,0 +1,449 @@
+{
+ "batch": "2026-11-16-p2-b",
+ "source": "2026-11-16 / part2 batch b",
+ "note": "Part 2 の第2弾25問（15タイプ。約3分の1は間接的な応答が正解）",
+ "items": [
+  {
+   "id": "p2-0034",
+   "type": "wh.when",
+   "scene": "travel",
+   "level": "A2",
+   "prompt": "When does the next shuttle bus leave for the airport?",
+   "options": ["At terminal two.", "In about ten minutes.", "I'll take the bus."],
+   "answer": "b",
+   "explanation_ja": "次のバスがいつ出るかに、「10分ほどで」と時で答えている。",
+   "translation_ja": "空港行きの次のシャトルバスはいつ出ますか。",
+   "translation_options_ja": ["第2ターミナルです。", "あと10分ほどです。", "私はバスに乗ります。"],
+   "option_notes_ja": [
+    "場所の答えで、When に合わない（airport から連想させる）",
+    "When に「約10分後」と時で答えている",
+    "bus を繰り返したひっかけ。いつ出るかに答えていない"
+   ],
+   "point_ja": "When の質問には時（in about ten minutes・by Friday・not until ～）で答える。場所の答え（At ～）は Where の答え。"
+  },
+  {
+   "id": "p2-0035",
+   "type": "indirect.answer",
+   "scene": "office",
+   "level": "B1",
+   "prompt": "Where are the extra toner cartridges kept?",
+   "options": ["Yes, I'll keep it.", "They're very expensive.", "Ask Diane at the front desk."],
+   "answer": "c",
+   "explanation_ja": "置き場所を直接言わず、「受付のダイアンさんに聞いて」と、知っている人を教えている。",
+   "translation_ja": "予備のトナーカートリッジはどこに置いてありますか。",
+   "translation_options_ja": ["はい、私が持っておきます。", "とても高いですよ。", "受付のダイアンに聞いてください。"],
+   "option_notes_ja": [
+    "keep を繰り返したひっかけ。Where の質問に Yes では答えない",
+    "トナーの話題だが、置き場所に答えていない",
+    "場所は言わないが、知っている人（受付のダイアンさん）を教えている"
+   ],
+   "point_ja": "Where の質問に「～に聞いてください」「確認します」と答える間接的な応答も正解になる。"
+  },
+  {
+   "id": "p2-0036",
+   "type": "wh.who",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "Who's going to replace Ms. Tanaka as team leader?",
+   "options": ["The decision hasn't been made yet.", "The leader of the tour.", "Yes, it was replaced."],
+   "answer": "a",
+   "explanation_ja": "だれかを答えず、「まだ決まっていない」と答えている。",
+   "translation_ja": "田中さんの後任のチームリーダーはだれになりますか。",
+   "translation_options_ja": ["まだ決まっていません。", "ツアーのリーダーです。", "はい、取り替えられました。"],
+   "option_notes_ja": [
+    "人の名前は言わないが、まだ決まっていないと答えている",
+    "leader を繰り返したひっかけ",
+    "replace を形を変えて使ったひっかけ。Who の質問に Yes では答えない"
+   ],
+   "point_ja": "Who の質問には、人の名前・役職のほか、「まだ決まっていない」のような答えも正解になる。"
+  },
+  {
+   "id": "p2-0037",
+   "type": "wh.why",
+   "scene": "retail",
+   "level": "A2",
+   "prompt": "Why is the store closing early today?",
+   "options": [
+    "At six o'clock.",
+    "There's a staff training session this evening.",
+    "It's close to the station."
+   ],
+   "answer": "b",
+   "explanation_ja": "店が早く閉まる理由を、「今夜スタッフの研修がある」と答えている。",
+   "translation_ja": "なぜ今日は店が早く閉まるのですか。",
+   "translation_options_ja": ["6時です。", "今夜スタッフの研修があるんです。", "駅の近くです。"],
+   "option_notes_ja": ["時の答えで、Why に合わない", "理由（今夜スタッフの研修がある）を答えている", "closing と似た close（近い）を使ったひっかけ"],
+   "point_ja": "Why の質問の答えは Because で始まるとは限らない。理由になる事実（There's a ～）を述べる答えも多い。"
+  },
+  {
+   "id": "p2-0038",
+   "type": "wh.how",
+   "scene": "it",
+   "level": "B1",
+   "prompt": "How do I reset my password?",
+   "options": ["Every three months.", "I set it on the desk.", "There's a link on the login page."],
+   "answer": "c",
+   "explanation_ja": "方法を尋ねられ、「ログイン画面にリンクがある」と手順の手がかりを答えている。",
+   "translation_ja": "パスワードはどうやって再設定するのですか。",
+   "translation_options_ja": ["3か月ごとです。", "机の上に置きました。", "ログイン画面にリンクがあります。"],
+   "option_notes_ja": ["頻度の答えで、How often の質問に合う", "reset と似た set を使ったひっかけ", "方法の手がかり（ログイン画面のリンク）を答えている"],
+   "point_ja": "How の質問は、方法（There's a link ～・by ～）を聞いているのか、How long・How often・How many のように程度を聞いているのかを、最初の語で区別する。"
+  },
+  {
+   "id": "p2-0039",
+   "type": "indirect.answer",
+   "scene": "logistics",
+   "level": "B1",
+   "prompt": "How much does it cost to ship this package overnight?",
+   "options": ["It depends on the weight.", "By tomorrow morning.", "A large package arrived."],
+   "answer": "a",
+   "explanation_ja": "金額を直接言わず、「重さによる」と答えている。",
+   "translation_ja": "この小包を翌日配達で送るといくらかかりますか。",
+   "translation_options_ja": ["重さによります。", "明日の朝までに。", "大きな小包が届きました。"],
+   "option_notes_ja": ["金額は言わないが、重さで決まると答えている", "届く時期の答えで、料金に答えていない（overnight から連想させる）", "package を繰り返したひっかけ"],
+   "point_ja": "It depends on ～（～による）は、金額・時間などの質問への間接的な応答としてよく出る。"
+  },
+  {
+   "id": "p2-0040",
+   "type": "indirect.answer",
+   "scene": "meeting",
+   "level": "B1",
+   "prompt": "What's on the agenda for tomorrow's meeting?",
+   "options": [
+    "In the boardroom at ten.",
+    "Ms. Kim will send it out this afternoon.",
+    "Yes, I met him yesterday."
+   ],
+   "answer": "b",
+   "explanation_ja": "議題の中身を答えず、「キムさんが今日の午後に送る」と、議題を知る方法を答えている。",
+   "translation_ja": "明日の会議の議題は何ですか。",
+   "translation_options_ja": ["10時に役員室で。", "キムさんが今日の午後に送ります。", "はい、昨日彼に会いました。"],
+   "option_notes_ja": [
+    "場所と時刻の答えで、議題の中身に答えていない",
+    "中身は言わないが、議題がいつ届くかを答えている",
+    "meeting と似た met を使ったひっかけ。What の質問に Yes では答えない"
+   ],
+   "point_ja": "What の質問でも、答えを知る方法（～が送ります・確認します）を返す間接的な応答が正解になることがある。"
+  },
+  {
+   "id": "p2-0041",
+   "type": "wh.what",
+   "scene": "restaurant",
+   "level": "A2",
+   "prompt": "Which restaurant did you book for the client dinner?",
+   "options": ["For seven people.", "I read that book last week.", "The Italian place on Lake Street."],
+   "answer": "c",
+   "explanation_ja": "どのレストランかに、「レイク通りのイタリア料理店」と具体的に答えている。",
+   "translation_ja": "顧客との夕食に、どのレストランを予約しましたか。",
+   "translation_options_ja": ["7人分です。", "その本は先週読みました。", "レイク通りのイタリア料理店です。"],
+   "option_notes_ja": ["人数の答えで、どの店かに答えていない", "book（予約する）を「本」の意味で使ったひっかけ", "どの店かを具体的に答えている"],
+   "point_ja": "book は「予約する」の意味でよく出る。同じ語の別の意味（本）を使ったひっかけに注意。"
+  },
+  {
+   "id": "p2-0042",
+   "type": "yes_no",
+   "scene": "facilities",
+   "level": "A2",
+   "prompt": "Is the parking garage open on Sundays?",
+   "options": ["Only until six P.M.", "No, it's my garden.", "I parked next to the entrance."],
+   "answer": "a",
+   "explanation_ja": "Yes とは言わず、「午後6時までだけ」と条件をつけて答えている。日曜も時間を限って開いている、という意味になる。",
+   "translation_ja": "駐車場は日曜日も開いていますか。",
+   "translation_options_ja": ["午後6時までだけです。", "いいえ、それは私の庭です。", "入口の隣に止めました。"],
+   "option_notes_ja": [
+    "Yes を省き、開いている時間の条件を答えている",
+    "garage と音の似た garden を使ったひっかけ",
+    "parking と同じ語の park を使ったひっかけ。日曜に開いているかに答えていない"
+   ],
+   "point_ja": "Yes / No 疑問文の答えは、Yes / No を省いて条件や詳しい情報（Only until ～）だけを言うことが多い。"
+  },
+  {
+   "id": "p2-0043",
+   "type": "yes_no",
+   "scene": "marketing",
+   "level": "B1",
+   "prompt": "Did you finish the slides for the client presentation?",
+   "options": [
+    "Yes, the client was satisfied.",
+    "I'm just adding the final chart.",
+    "The slide show starts at noon."
+   ],
+   "answer": "b",
+   "explanation_ja": "終わったかに対して、「最後のグラフを入れているところ」と、もうすぐ終わることを伝えている。",
+   "translation_ja": "顧客向けの発表のスライドは終わりましたか。",
+   "translation_options_ja": ["はい、お客さまは満足していました。", "最後のグラフを入れているところです。", "スライドショーは正午に始まります。"],
+   "option_notes_ja": [
+    "Yes で始まるが、客が満足したという話で、スライドが終わったかに答えていない",
+    "もうすぐ終わる（最後のグラフを入れている）と答えている",
+    "slides を繰り返したひっかけ"
+   ],
+   "point_ja": "Yes で始まる選択肢でも、後半が質問とかみ合っているかを最後まで聞く。"
+  },
+  {
+   "id": "p2-0044",
+   "type": "negative.question",
+   "scene": "office",
+   "level": "B1",
+   "prompt": "Isn't Mr. Lopez supposed to be back from vacation today?",
+   "options": [
+    "Yes, I'll be back in five minutes.",
+    "It's a popular vacation spot.",
+    "His flight was delayed until tomorrow."
+   ],
+   "answer": "c",
+   "explanation_ja": "今日戻るはずではないかという確認に、「飛行機が明日に遅れた」と、今日は戻らない理由を答えている。",
+   "translation_ja": "ロペスさんは今日休暇から戻るはずではないのですか。",
+   "translation_options_ja": ["はい、5分で戻ります。", "人気の観光地ですよ。", "飛行機が明日に遅れたんです。"],
+   "option_notes_ja": [
+    "back を繰り返したひっかけ。話し手自身が戻る話で、ロペスさんのことに答えていない",
+    "vacation を繰り返したひっかけ",
+    "今日は戻らない理由（飛行機が明日に遅れた）を答えている"
+   ],
+   "point_ja": "否定疑問文（Isn't ～?）は「～ではないのですか」という確認。普通の疑問文と同じように、内容で答えを選ぶ。"
+  },
+  {
+   "id": "p2-0045",
+   "type": "negative.question",
+   "scene": "finance",
+   "level": "B1",
+   "prompt": "Haven't the invoices been sent to the clients yet?",
+   "options": ["They went out this morning.", "No, I haven't been there.", "Yes, the voices were clear."],
+   "answer": "a",
+   "explanation_ja": "まだ送っていないのかという確認に、「今朝送った」と答えている。go out は「発送される」。",
+   "translation_ja": "請求書はまだ取引先に送っていないのですか。",
+   "translation_options_ja": ["今朝送りました。", "いいえ、そこへは行ったことがありません。", "はい、声ははっきり聞こえました。"],
+   "option_notes_ja": [
+    "請求書は今朝送ったと答えている（go out＝発送される）",
+    "haven't を繰り返したひっかけ。行ったことの話で、請求書に答えていない",
+    "invoices と音の似た voices を使ったひっかけ"
+   ],
+   "point_ja": "go out（発送される）・be sent（送られる）は言い換えでよく出る。否定疑問文でも、事実に合う内容を選ぶ。"
+  },
+  {
+   "id": "p2-0046",
+   "type": "tag.question",
+   "scene": "events",
+   "level": "B1",
+   "prompt": "The award ceremony starts at seven, doesn't it?",
+   "options": ["Yes, she won an award.", "Actually, it was moved to seven thirty.", "It's a seven-day trip."],
+   "answer": "b",
+   "explanation_ja": "7時開始ですよねという確認に、「実は7時半に変更された」と訂正している。",
+   "translation_ja": "授賞式は7時からですよね。",
+   "translation_options_ja": ["はい、彼女が賞を取りました。", "実は7時半に変更になりました。", "7日間の旅行です。"],
+   "option_notes_ja": ["award を繰り返したひっかけ", "Actually（実は）で訂正し、7時半になったと答えている", "seven を繰り返したひっかけ"],
+   "point_ja": "付加疑問文への答えで、Actually ～（実は～）と相手の思い違いを正す応答はよく正解になる。"
+  },
+  {
+   "id": "p2-0047",
+   "type": "choice",
+   "scene": "office",
+   "level": "A2",
+   "prompt": "Would you like to meet in person or by video call?",
+   "options": [
+    "Yes, I'd like that.",
+    "I met him in person last year.",
+    "A video call would be easier for me."
+   ],
+   "answer": "c",
+   "explanation_ja": "対面かビデオ通話かを尋ねられ、ビデオ通話のほうがいいと一方を選んでいる。",
+   "translation_ja": "対面で会いますか、それともビデオ通話にしますか。",
+   "translation_options_ja": ["はい、そうしたいです。", "去年、彼に直接会いました。", "ビデオ通話のほうが楽です。"],
+   "option_notes_ja": [
+    "A or B の選択疑問文に Yes / No では答えない",
+    "in person を繰り返したひっかけ。過去の話で、質問に答えていない",
+    "一方（ビデオ通話）を選んでいる"
+   ],
+   "point_ja": "A or B の選択疑問文は、どちらかを選ぶ・どちらでもよい・別の案を出す、などで答える。Yes / No では答えない。"
+  },
+  {
+   "id": "p2-0048",
+   "type": "indirect.answer",
+   "scene": "warehouse",
+   "level": "B1",
+   "prompt": "Should we store these boxes in the warehouse or in the basement?",
+   "options": ["The basement floods sometimes.", "Yes, we should.", "Box number fifteen."],
+   "answer": "a",
+   "explanation_ja": "どちらかを直接言わず、「地下はときどき浸水する」と言って、倉庫のほうがよいことを伝えている。",
+   "translation_ja": "この箱は倉庫に置きますか、それとも地下に置きますか。",
+   "translation_options_ja": ["地下はときどき水が出るんですよ。", "はい、そうすべきです。", "15番の箱です。"],
+   "option_notes_ja": [
+    "地下は浸水することがあると言い、倉庫に置くほうがよいと伝えている",
+    "選択疑問文に Yes では答えない",
+    "boxes から連想させるひっかけ。置き場所に答えていない"
+   ],
+   "point_ja": "選択疑問文に、片方の欠点を挙げて、もう片方がよいと伝える間接的な応答もある。"
+  },
+  {
+   "id": "p2-0049",
+   "type": "offer",
+   "scene": "customer.service",
+   "level": "A2",
+   "prompt": "Would you like me to gift-wrap this for you?",
+   "options": [
+    "I'd like to buy a gift card.",
+    "No, thanks. It's for myself.",
+    "The wrapping paper is in aisle six."
+   ],
+   "answer": "b",
+   "explanation_ja": "包装の申し出を No, thanks で断り、「自分用だから」と理由を添えている。",
+   "translation_ja": "こちらを贈り物用にお包みしましょうか。",
+   "translation_options_ja": ["ギフトカードを買いたいのですが。", "いえ、結構です。自分用なので。", "包装紙は6番通路にあります。"],
+   "option_notes_ja": ["gift を繰り返したひっかけ", "申し出を断り、自分用だと理由を言っている", "wrap から連想させるひっかけ。申し出への答えになっていない"],
+   "point_ja": "Would you like me to ～?（～しましょうか）への答えは、お礼（Thanks・That would be great）か、断り（No, thanks ＋理由）。"
+  },
+  {
+   "id": "p2-0050",
+   "type": "request",
+   "scene": "office",
+   "level": "A2",
+   "prompt": "Can you help me move this table to the conference room?",
+   "options": ["It's a comfortable room.", "We moved here in May.", "Sure, just give me a minute."],
+   "answer": "c",
+   "explanation_ja": "頼みを Sure で引き受け、「少し待って」と答えている。",
+   "translation_ja": "このテーブルを会議室に運ぶのを手伝ってもらえますか。",
+   "translation_options_ja": ["居心地のいい部屋です。", "5月にここへ引っ越してきました。", "いいですよ、少し待ってください。"],
+   "option_notes_ja": ["room を繰り返したひっかけ", "move を形を変えて使ったひっかけ。引っ越しの話", "Sure で引き受けている"],
+   "point_ja": "依頼（Can you ～? / Could you ～?）には、引き受ける（Sure・No problem）か、断る（Sorry, ～ ＋理由）で答える。"
+  },
+  {
+   "id": "p2-0051",
+   "type": "indirect.answer",
+   "scene": "it",
+   "level": "B1",
+   "prompt": "Could you install the new software on my computer today?",
+   "options": [
+    "The IT team handles all installations.",
+    "The software company is in Boston.",
+    "I bought a new computer."
+   ],
+   "answer": "a",
+   "explanation_ja": "自分ではせず、「インストールはすべてITチームがしている」と、頼む相手が違うことを伝えている。",
+   "translation_ja": "今日、私のパソコンに新しいソフトを入れてもらえますか。",
+   "translation_options_ja": ["インストールはすべてITチームがやっているんです。", "そのソフトの会社はボストンにあります。", "新しいパソコンを買いました。"],
+   "option_notes_ja": ["インストールはIT担当の仕事だと伝え、間接的に断っている", "software を繰り返したひっかけ", "computer を繰り返したひっかけ"],
+   "point_ja": "依頼への答えとして、担当者が別にいることを伝える間接的な断りもよく出る。"
+  },
+  {
+   "id": "p2-0052",
+   "type": "suggestion",
+   "scene": "restaurant",
+   "level": "B1",
+   "prompt": "Why don't we ask the customers what they think of the new menu?",
+   "options": [
+    "Because the menu changed.",
+    "Let's put a short survey on each table.",
+    "The customers ordered dessert."
+   ],
+   "answer": "b",
+   "explanation_ja": "提案に賛成して、「各テーブルに短いアンケートを置こう」と具体的な方法を出している。",
+   "translation_ja": "新しいメニューについて、お客さまの意見を聞いてみませんか。",
+   "translation_options_ja": ["メニューが変わったからです。", "各テーブルに短いアンケートを置きましょう。", "お客さまはデザートを注文しました。"],
+   "option_notes_ja": [
+    "Why don't we ～? は提案で、理由を尋ねてはいない。Because で答えるひっかけ",
+    "提案に乗り、具体的な方法（アンケート）を出している",
+    "customers を繰り返したひっかけ"
+   ],
+   "point_ja": "Why don't we ～? は「～しませんか」という提案。Why で始まっても理由は尋ねていないので、Because の答えに注意。"
+  },
+  {
+   "id": "p2-0053",
+   "type": "suggestion",
+   "scene": "travel",
+   "level": "A2",
+   "prompt": "Let's take the early train to avoid the crowds.",
+   "options": ["It was very crowded.", "I trained for six months.", "Good idea. I'll set my alarm."],
+   "answer": "c",
+   "explanation_ja": "提案に賛成し、「目覚ましをかけておく」と答えている。",
+   "translation_ja": "混雑を避けるために、早い電車に乗りましょう。",
+   "translation_options_ja": ["とても混んでいました。", "6か月間トレーニングしました。", "いい考えですね。目覚ましをかけておきます。"],
+   "option_notes_ja": [
+    "crowds と似た crowded を使ったひっかけ。過去の話",
+    "train を「訓練する」の意味で使ったひっかけ",
+    "賛成して、早起きの準備（目覚まし）を答えている"
+   ],
+   "point_ja": "Let's ～ の提案には、Good idea・Sounds good などの賛成や、別の案（How about ～ instead?）で答える。"
+  },
+  {
+   "id": "p2-0054",
+   "type": "statement",
+   "scene": "office",
+   "level": "B1",
+   "prompt": "I can't find the key to the supply cabinet.",
+   "options": ["Ms. Ito borrowed it this morning.", "The supplies are on sale.", "Yes, I can."],
+   "answer": "a",
+   "explanation_ja": "鍵が見つからないという発言に、「伊藤さんが今朝借りた」と手がかりを答えている。",
+   "translation_ja": "備品棚の鍵が見つからないんです。",
+   "translation_options_ja": ["伊藤さんが今朝借りていきましたよ。", "備品がセール中です。", "はい、できます。"],
+   "option_notes_ja": [
+    "鍵のありか（伊藤さんが借りた）を教えている",
+    "supply と同じ語の supplies を使ったひっかけ",
+    "can't に can で答えたひっかけ。意味が通らない"
+   ],
+   "point_ja": "平叙文（問題・状況を述べる文）への応答は、解決の手がかりや次の行動を述べるものが正解になりやすい。"
+  },
+  {
+   "id": "p2-0055",
+   "type": "statement",
+   "scene": "fitness",
+   "level": "A2",
+   "prompt": "The new yoga class is already full.",
+   "options": ["I'm full, thank you.", "Then I'll sign up for the next session.", "It was a full-time job."],
+   "answer": "b",
+   "explanation_ja": "クラスがもう満員だという発言に、「それなら次の回に申し込む」と次の行動で答えている。",
+   "translation_ja": "新しいヨガのクラスはもう満員です。",
+   "translation_options_ja": ["おなかいっぱいです、ありがとう。", "それなら次の回に申し込みます。", "フルタイムの仕事でした。"],
+   "option_notes_ja": ["full を「満腹」の意味で使ったひっかけ", "満員なので次の回に申し込むと、次の行動で答えている", "full を含む full-time を使ったひっかけ"],
+   "point_ja": "平叙文への答えは、Then ～（それなら～）のように相手の情報を受けて次の行動を言うものが多い。"
+  },
+  {
+   "id": "p2-0056",
+   "type": "indirect.answer",
+   "scene": "real.estate",
+   "level": "B1",
+   "prompt": "When will the repairs to the roof be finished?",
+   "options": ["On the top floor.", "It's a pair of shoes.", "The contractor is coming to check tomorrow."],
+   "answer": "c",
+   "explanation_ja": "終わる時期を言わず、「業者が明日確認に来る」と答えている。まだはっきりしないことを伝えている。",
+   "translation_ja": "屋根の修理はいつ終わりますか。",
+   "translation_options_ja": ["最上階です。", "靴1足です。", "業者が明日確認に来ます。"],
+   "option_notes_ja": [
+    "屋根から連想させる場所の答え。When に合わない",
+    "repairs と音の似た pair を使ったひっかけ",
+    "終わる時期は言わないが、業者が明日確認に来ると答えている"
+   ],
+   "point_ja": "When の質問に、時を言わずに「～が確認する」「まだ分からない」と答える間接的な応答も正解になる。"
+  },
+  {
+   "id": "p2-0057",
+   "type": "indirect.answer",
+   "scene": "hr",
+   "level": "B1",
+   "prompt": "Are you going to apply for the manager position?",
+   "options": ["I'm still thinking about it.", "The position of the desk.", "She manages the sales team."],
+   "answer": "a",
+   "explanation_ja": "応募するかに Yes / No を言わず、「まだ考えている」と答えている。",
+   "translation_ja": "部長の職に応募するつもりですか。",
+   "translation_options_ja": ["まだ考えているところです。", "机の位置です。", "彼女が営業チームを管理しています。"],
+   "option_notes_ja": ["まだ決めていないと答えている", "position を「位置」の意味で使ったひっかけ", "manager と似た manages を使ったひっかけ。別の人の話"],
+   "point_ja": "Yes / No 疑問文に「まだ考えている」「まだ分からない」と答える応答は、よく正解になる。"
+  },
+  {
+   "id": "p2-0058",
+   "type": "wh.where",
+   "scene": "events",
+   "level": "A2",
+   "prompt": "Where is the welcome reception being held?",
+   "options": ["Around six thirty.", "In the lobby of the main hotel.", "Yes, she received it."],
+   "answer": "b",
+   "explanation_ja": "場所を尋ねられ、「メインのホテルのロビーで」と答えている。",
+   "translation_ja": "歓迎会はどこで開かれますか。",
+   "translation_options_ja": ["6時半ごろです。", "メインのホテルのロビーです。", "はい、彼女は受け取りました。"],
+   "option_notes_ja": [
+    "時刻の答えで、Where に合わない",
+    "場所を答えている",
+    "reception と似た received を使ったひっかけ。Where の質問に Yes では答えない"
+   ],
+   "point_ja": "Where の質問には場所（In ～・At ～・Next to ～）で答える。音の似た語（reception と received）のひっかけに注意。"
+  }
+ ]
+}
