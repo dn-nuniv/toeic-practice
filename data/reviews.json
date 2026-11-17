@@ -12285,6 +12285,39 @@
    "confidence": 0.95,
    "issues": "正解はDで一意に決まるが、建物に入る（enter the building）だけであれば必ずしも階段を使う必要はないため、\"access upper floors\" などのほうが論理的に自然。",
    "content_hash": "d10493ba4ad5"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:58",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "1b565506c78b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1b565506c78b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "1b565506c78b"
   }
  ],
  "p6-0024": [
