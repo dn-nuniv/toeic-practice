@@ -1,0 +1,605 @@
+{
+ "batch": "2026-11-16-p7-b",
+ "source": "2026-11-16 / part7 batch b",
+ "note": "Part 7 の第2弾6セット20問（お知らせ・記事・チャット・請求書・ダブル・トリプル）",
+ "sets": [
+  {
+   "id": "p7-s010",
+   "kind": "single",
+   "scene": "warehouse",
+   "passages": [
+    {
+     "type": "notice",
+     "title": "Notice to All Warehouse Staff",
+     "text": "Beginning Monday, June 2, all staff entering the loading area must wear the new high-visibility safety vests. The vests have been placed in the storage cabinet next to the main office, and each employee should take one before the start of his or her next shift.\n\nThe old yellow vests will no longer be accepted after May 31. Please return them to Ines Duarte in the main office so that they can be recycled.\n\nStaff members who need a larger or smaller size should speak to their shift supervisor. Thank you for helping us keep the warehouse safe.\n\nHarlow Distribution — Facilities Department"
+    }
+   ],
+   "translation_ja": "倉庫の全スタッフへのお知らせ\n6月2日（月）から、荷さばき場に入るスタッフは全員、新しい高視認性の安全ベストを着用しなければなりません。ベストは事務所の隣の保管棚に置いてあります。各従業員は、次の勤務が始まる前に1着ずつ受け取ってください。\n古い黄色のベストは、5月31日を過ぎると使えなくなります。リサイクルできるよう、事務所のイネス・ドゥアルテに返却してください。\nもっと大きい、または小さいサイズが必要な方は、勤務の監督者に申し出てください。倉庫の安全にご協力いただきありがとうございます。\nハーロウ・ディストリビューション　施設部",
+   "questions": [
+    {
+     "id": "p7-0033",
+     "type": "purpose",
+     "scene": "warehouse",
+     "level": "B1",
+     "prompt": "What is the purpose of the notice?",
+     "options": [
+      "To explain a new shift schedule",
+      "To introduce a new facilities manager",
+      "To report damage in the loading area",
+      "To announce a change in required safety equipment"
+     ],
+     "answer": "d",
+     "explanation_ja": "all staff entering the loading area must wear the new high-visibility safety vests とあり、6月2日から新しい安全ベストの着用が必要になることを知らせている。",
+     "translation_ja": "お知らせの目的は何か。",
+     "translation_options_ja": ["新しい勤務の日程を説明すること", "新しい施設管理者を紹介すること", "荷さばき場の損傷を報告すること", "必要な安全装備の変更を知らせること"],
+     "option_notes_ja": [
+      "勤務の前にベストを受け取るよう書いているだけで、勤務の日程が変わるとは書かれていない",
+      "イネス・ドゥアルテさんは古いベストを返す相手で、新しい管理者として紹介されてはいない",
+      "荷さばき場の損傷については書かれていない",
+      "6月2日から新しい安全ベストの着用が必要になる（vests → safety equipment）"
+     ],
+     "point_ja": "目的の問題は、最初の段落で何が変わるか・何を求めているかを読む。本文の具体的な語（vests）は、選択肢ではまとめた言い方（safety equipment）に言い換えられることが多い。"
+    },
+    {
+     "id": "p7-0034",
+     "type": "detail",
+     "scene": "warehouse",
+     "level": "B1",
+     "prompt": "What are employees asked to do with their old vests?",
+     "options": [
+      "Give them to a staff member in the main office",
+      "Keep them in their lockers",
+      "Exchange them for a different size",
+      "Throw them away after May 31"
+     ],
+     "answer": "a",
+     "explanation_ja": "Please return them to Ines Duarte in the main office とあり、事務所のドゥアルテさんに返す。return を give ... to a staff member と言い換えている。",
+     "translation_ja": "従業員は古いベストをどうするよう求められているか。",
+     "translation_options_ja": ["事務所の職員に渡す", "自分のロッカーにしまう", "別のサイズと交換する", "5月31日を過ぎたら捨てる"],
+     "option_notes_ja": [
+      "Please return them to Ines Duarte in the main office（return → give）",
+      "ロッカーにしまうとは書かれていない",
+      "サイズの相談は新しいベストについてで、相手は勤務の監督者。古いベストを交換するとは書かれていない",
+      "古いベストはリサイクルのために返すよう書かれていて、捨てるようには言っていない"
+     ],
+     "point_ja": "本文の人名（Ines Duarte）は、選択肢では役割（a staff member in the main office）に言い換えられることが多い。"
+    }
+   ]
+  },
+  {
+   "id": "p7-s011",
+   "kind": "single",
+   "scene": "manufacturing",
+   "passages": [
+    {
+     "type": "article",
+     "title": "Kestrel Bikes Moves Production Back Home",
+     "text": "DUNMORE (March 4) — Kestrel Bikes, a maker of lightweight bicycles, announced yesterday that it will build a new factory in Dunmore, the town where the company was founded thirty years ago. — [1] — For the past decade, most of Kestrel's bicycles have been assembled overseas.\n\nCompany president Laura Finch said the decision was driven by customer demand for faster delivery. \"When our bikes are made overseas, it can take up to three months for new models to reach stores,\" she said. \"Producing them here will cut that time in half.\" — [2] —\n\nThe factory is expected to open early next year and will employ about 150 people. — [3] — Kestrel will also work with Dunmore Technical College to offer a training program for new employees.\n\nLocal officials welcomed the news. — [4] — \"This is the largest investment in Dunmore in more than twenty years,\" said Mayor Tom Brennan."
+    }
+   ],
+   "translation_ja": "ケストレル・バイクス、生産を地元に戻す\nダンモア（3月4日）―軽量自転車メーカーのケストレル・バイクスは昨日、30年前に会社が創業した町ダンモアに新しい工場を建てると発表した。この10年間、ケストレルの自転車の大半は海外で組み立てられてきた。\nローラ・フィンチ社長によると、この決定のきっかけは、より早く届けてほしいという客の要望だった。「自転車を海外で作ると、新しいモデルが店に並ぶまで最大3か月かかることがあります」と社長は言う。「ここで作れば、その期間を半分にできます」。［社長はさらに、この移転によって会社の輸送費も下がると述べた。］\n工場は来年の初めに開業する予定で、約150人を雇用する。ケストレルはまた、ダンモア技術専門学校と協力して、新しい従業員向けの研修プログラムを行う。\n地元の役人はこの知らせを歓迎した。「これは、この20年あまりでダンモアへの最大の投資です」とトム・ブレナン町長は話した。",
+   "questions": [
+    {
+     "id": "p7-0035",
+     "type": "main.topic",
+     "scene": "manufacturing",
+     "level": "B1",
+     "prompt": "What is the article mainly about?",
+     "options": [
+      "The opening of a new bicycle store",
+      "A change in a company's leadership",
+      "A company's plan to manufacture products locally",
+      "A training program at a technical college"
+     ],
+     "answer": "c",
+     "explanation_ja": "Kestrel Bikes ... will build a new factory in Dunmore とあり、海外で組み立てていた自転車を地元で作る計画が記事の中心。研修プログラムは一部の情報にすぎない。",
+     "translation_ja": "記事は主に何についてのものか。",
+     "translation_options_ja": ["新しい自転車店の開店", "会社の経営陣の交代", "会社が製品を地元で作る計画", "技術専門学校の研修プログラム"],
+     "option_notes_ja": [
+      "店の開店ではなく、工場の建設の話",
+      "社長のフィンチさんの発言はあるが、経営陣が替わるとは書かれていない",
+      "創業の地ダンモアに工場を建て、海外で組み立てていた自転車を地元で作る計画（build a new factory → manufacture products locally）",
+      "研修プログラムは記事の一部で、記事全体の話題ではない"
+     ],
+     "point_ja": "主題の問題は、第1段落（特に最初の文）をまず読む。記事の一部だけに出てくる情報（研修プログラム）は誤答になりやすい。"
+    },
+    {
+     "id": "p7-0036",
+     "type": "synonym",
+     "scene": "manufacturing",
+     "level": "B2",
+     "prompt": "In the article, the word \"driven\" in paragraph 2 is closest in meaning to",
+     "options": ["transported", "motivated", "operated", "delivered"],
+     "answer": "b",
+     "explanation_ja": "the decision was driven by customer demand は「その決定は客の要望に動かされた＝要望がきっかけになった」の意味なので motivated。drive の「運転する・車で運ぶ」から operated・transported を、同じ文の delivery から delivered を連想させるひっかけ。",
+     "translation_ja": "記事の第2段落にある「driven」に最も意味が近いのはどれか。",
+     "translation_options_ja": ["運ばれた", "動機づけられた", "運転された", "配達された"],
+     "option_notes_ja": [
+      "運ばれた。drive の「車で運ぶ」から連想させるひっかけ",
+      "動機づけられた。決定が客の要望に促された",
+      "運転された・操作された。drive の「運転する」から連想させるひっかけ",
+      "配達された。同じ文の delivery から連想させるひっかけ"
+     ],
+     "point_ja": "同義語問題は、選択肢を本文の語と入れ替えて意味が通るかを確かめる。be driven by ～ は「～がきっかけ・原動力になっている」。"
+    },
+    {
+     "id": "p7-0037",
+     "type": "sentence.position",
+     "scene": "manufacturing",
+     "level": "B1",
+     "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"She added that the move will also lower the company's shipping costs.\"",
+     "options": ["[1]", "[2]", "[3]", "[4]"],
+     "answer": "b",
+     "shuffle": false,
+     "explanation_ja": "She added（彼女はさらに～と述べた）の She は、直前で発言しているフィンチ社長を指す。納期を半分にできるという発言に続けて、輸送費も下がるという利点を付け加える形になる。",
+     "translation_ja": "次の文は [1]〜[4] のどこに入るのが最も適切か。「社長はさらに、この移転によって会社の輸送費も下がると述べた。」",
+     "translation_options_ja": ["[1]", "[2]", "[3]", "[4]"],
+     "option_notes_ja": [
+      "直前に女性の発言者がおらず、She が指す人がいない",
+      "直前のフィンチ社長の発言を She added が受け、納期の短縮に続けて輸送費の利点を付け加える",
+      "工場の開業・雇用の話の後で、She が指す人が近くにいない",
+      "直前は「地元の役人が歓迎した」で、She が指す人がいない"
+     ],
+     "point_ja": "位置を問う問題では、挿入文の代名詞（She・This・They）や also・added が何を受けるかを手がかりにする。"
+    }
+   ]
+  },
+  {
+   "id": "p7-s012",
+   "kind": "chat",
+   "scene": "it",
+   "passages": [
+    {
+     "type": "chat",
+     "title": "Text-message chain",
+     "text": "Daniel Ortega [9:12 A.M.]\nHi, Mei. I'm at the client's office, but the projector here won't connect to my laptop. The presentation starts at ten.\n\nMei Lin [9:14 A.M.]\nDid you bring the adapter that came with the new laptops? It's a small gray one.\n\nDaniel Ortega [9:15 A.M.]\nI thought I put it in my bag, but I can't find it.\n\nMei Lin [9:16 A.M.]\nI'm leaving for a meeting near there in ten minutes.\n\nDaniel Ortega [9:17 A.M.]\nThat would be a huge help. I'll be in the lobby on the third floor.\n\nMei Lin [9:18 A.M.]\nOK. I'll grab a spare adapter from the IT room and see you at about 9:40."
+    }
+   ],
+   "translation_ja": "ダニエル・オルテガ［午前9時12分］：メイさん、こんにちは。今お客さまの会社にいるんですが、ここのプロジェクターが私のノートパソコンにつながりません。発表は10時からです。\nメイ・リン［9時14分］：新しいノートパソコンに付いてきたアダプターは持ってきましたか？小さい灰色のものです。\nダニエル・オルテガ［9時15分］：かばんに入れたと思っていたんですが、見つかりません。\nメイ・リン［9時16分］：10分後に、その近くでの会議に出かけるところです。\nダニエル・オルテガ［9時17分］：それはとても助かります。3階のロビーにいます。\nメイ・リン［9時18分］：わかりました。IT室で予備のアダプターを取って、9時40分ごろに行きますね。",
+   "questions": [
+    {
+     "id": "p7-0038",
+     "type": "intention.chat",
+     "scene": "it",
+     "level": "B2",
+     "prompt": "At 9:16 A.M., what does Ms. Lin most likely mean when she writes, \"I'm leaving for a meeting near there in ten minutes\"?",
+     "options": [
+      "She cannot help Mr. Ortega today.",
+      "She wants Mr. Ortega to join her meeting.",
+      "She thinks the presentation should be postponed.",
+      "She can bring an item to Mr. Ortega."
+     ],
+     "answer": "d",
+     "explanation_ja": "近くでの会議に10分後に出かけると伝えたのに対し、オルテガさんが That would be a huge help（とても助かる）と答え、リンさんは予備のアダプターを持って行くと言っている。出かけるついでに届けられる、という申し出。",
+     "translation_ja": "午前9時16分にリンさんが「10分後に、その近くでの会議に出かけるところです」と書いているのは、何を意味していると考えられるか。",
+     "translation_options_ja": [
+      "今日はオルテガさんを手伝えない。",
+      "オルテガさんに自分の会議に参加してほしい。",
+      "発表は延期すべきだと思っている。",
+      "オルテガさんに物を届けられる。"
+     ],
+     "option_notes_ja": [
+      "出かけると言っているが、手伝えないという意味ではない。この後アダプターを届けると言っている",
+      "自分の会議にオルテガさんを誘ってはいない",
+      "発表の延期は話題になっていない",
+      "近くに行くので、ついでに届けられると申し出ている。直後の That would be a huge help と、予備のアダプターを持って行くという発言につながる"
+     ],
+     "point_ja": "発言の意図を問う問題は、その発言の直後の相手の反応（That would be a huge help）から意味を確かめる。"
+    },
+    {
+     "id": "p7-0039",
+     "type": "detail",
+     "scene": "it",
+     "level": "A2",
+     "prompt": "Where will Mr. Ortega meet Ms. Lin?",
+     "options": ["In a lobby", "In an IT room", "In a conference room", "In a parking area"],
+     "answer": "a",
+     "explanation_ja": "オルテガさんが I'll be in the lobby on the third floor と書いている。IT室は、リンさんが予備のアダプターを取りに行く場所。",
+     "translation_ja": "オルテガさんはどこでリンさんと会うか。",
+     "translation_options_ja": ["ロビーで", "IT室で", "会議室で", "駐車場で"],
+     "option_notes_ja": [
+      "I'll be in the lobby on the third floor",
+      "IT室はリンさんが予備のアダプターを取りに行く場所で、会う場所ではない",
+      "会議室で会うとは書かれていない",
+      "駐車場で会うとは書かれていない"
+     ],
+     "point_ja": "場所を問う問題では、本文に出てくる別の場所（IT室）がひっかけになる。だれが・どこで・何をするかを組にして読む。"
+    }
+   ]
+  },
+  {
+   "id": "p7-s013",
+   "kind": "single",
+   "scene": "printing",
+   "passages": [
+    {
+     "type": "invoice",
+     "header": {
+      "Invoice": "Inkwell Print Shop, No. 7731",
+      "Customer": "Greenway Landscaping, 18 Birch Lane",
+      "Order date": "April 3",
+      "Pickup date": "April 7"
+     },
+     "table": {
+      "columns": ["Item", "Quantity", "Unit price", "Amount"],
+      "rows": [
+       ["Business cards (two-sided)", "500", "$0.08", "$40.00"],
+       ["Event posters (A2, color)", "20", "$3.50", "$70.00"],
+       ["Folded brochures", "300", "$0.60", "$180.00"],
+       ["Design changes (per hour)", "2", "$25.00", "$50.00"]
+      ]
+     },
+     "text": "Subtotal: $340.00\nLoyalty discount (10%): −$34.00\nTotal: $306.00\n\nPayment is due within 30 days. Customers who pay within 10 days of the pickup date receive an additional 2 percent off the total. Please note that the design changes were made at the customer's request after the proof was approved."
+    }
+   ],
+   "translation_ja": "請求書：インクウェル印刷所　No. 7731／顧客：グリーンウェイ・ランドスケーピング（バーチ・レーン18番地）／注文日：4月3日／受け取り日：4月7日\n品目・数量・単価・金額：名刺（両面）500枚　0.08ドル　40.00ドル／イベント用ポスター（A2・カラー）20枚　3.50ドル　70.00ドル／折りたたみパンフレット300部　0.60ドル　180.00ドル／デザインの変更（1時間あたり）2時間　25.00ドル　50.00ドル\n小計：340.00ドル\nお得意さま割引（10％）：−34.00ドル\n合計：306.00ドル\nお支払いの期限は30日以内です。受け取り日から10日以内にお支払いいただくと、合計からさらに2パーセント割り引きます。なお、デザインの変更は、校正刷りの承認後にお客さまのご依頼で行ったものです。",
+   "questions": [
+    {
+     "id": "p7-0040",
+     "type": "not.true",
+     "scene": "printing",
+     "level": "B1",
+     "prompt": "What is NOT indicated about Greenway Landscaping?",
+     "options": [
+      "It received a discount on its order.",
+      "It asked for changes to a design.",
+      "It picked up its order on April 3.",
+      "It ordered 20 posters."
+     ],
+     "answer": "c",
+     "explanation_ja": "April 3 は注文日（Order date）で、受け取り日は April 7（Pickup date）。割引（Loyalty discount）・デザインの変更（at the customer's request）・ポスター20枚は書かれている。",
+     "translation_ja": "グリーンウェイ・ランドスケーピングについて示されていないことは何か。",
+     "translation_options_ja": ["注文の割引を受けた。", "デザインの変更を頼んだ。", "4月3日に注文品を受け取った。", "ポスターを20枚注文した。"],
+     "option_notes_ja": [
+      "Loyalty discount (10%) と書かれている",
+      "the design changes were made at the customer's request と書かれている",
+      "4月3日は注文日（Order date）。受け取り日（Pickup date）は4月7日",
+      "Event posters の数量は20"
+     ],
+     "point_ja": "NOT 問題は、選択肢を1つずつ本文と照らし合わせて消していく。日付は何の日付か（注文日・受け取り日）を区別する。"
+    },
+    {
+     "id": "p7-0041",
+     "type": "detail",
+     "scene": "printing",
+     "level": "B2",
+     "prompt": "How much will Greenway Landscaping pay if it pays on April 12?",
+     "options": ["$299.88", "$306.00", "$333.20", "$340.00"],
+     "answer": "a",
+     "shuffle": false,
+     "explanation_ja": "受け取り日（4月7日）から10日以内に払えば、合計306ドルからさらに2パーセント引かれる。4月12日はその期間内なので、306ドル×0.98＝299.88ドル。",
+     "translation_ja": "グリーンウェイ・ランドスケーピングが4月12日に支払う場合、いくら払うか。",
+     "translation_options_ja": ["299.88ドル", "306.00ドル", "333.20ドル", "340.00ドル"],
+     "option_notes_ja": [
+      "4月12日は受け取り日（4月7日）から10日以内なので、合計306ドルからさらに2％引く",
+      "10日以内に払うときの2％の割引が抜けている",
+      "小計340ドルから2％だけ引いた額。10％の割引が抜けている",
+      "割引を何も引いていない小計の額"
+     ],
+     "point_ja": "請求書の計算問題は、割引の条件（何日以内か・何から引くか）を1つずつ確かめる。誤答には途中の金額が並ぶ。"
+    },
+    {
+     "id": "p7-0042",
+     "type": "inference",
+     "scene": "printing",
+     "level": "B2",
+     "prompt": "What is suggested about the design changes?",
+     "options": [
+      "They were made free of charge.",
+      "They took more than three hours.",
+      "They were made by Greenway Landscaping.",
+      "They were requested after the customer had seen a sample."
+     ],
+     "answer": "d",
+     "explanation_ja": "the design changes were made at the customer's request after the proof was approved とあり、校正刷り（proof）を承認した後に客が頼んだ変更。proof を a sample と言い換えている。",
+     "translation_ja": "デザインの変更について何が示唆されているか。",
+     "translation_options_ja": ["無料で行われた。", "3時間を超えてかかった。", "グリーンウェイ・ランドスケーピングが行った。", "客が見本を見た後に頼まれた。"],
+     "option_notes_ja": [
+      "Design changes は2時間分で50ドルかかっている",
+      "数量は2（時間）で、3時間を超えてはいない",
+      "客の依頼で行われた変更で、客が自分で変えたとは書かれていない",
+      "after the proof was approved（校正刷りを承認した後）に客が頼んだ（proof → sample）"
+     ],
+     "point_ja": "proof は「校正刷り（印刷前の見本）」。approve a proof（校正刷りを承認する）は印刷の話でよく出る。"
+    }
+   ]
+  },
+  {
+   "id": "p7-s014",
+   "kind": "double",
+   "scene": "retail",
+   "passages": [
+    {
+     "type": "advertisement",
+     "title": "Now Hiring: Assistant Store Manager — Pinecrest Outdoor Supply",
+     "text": "Pinecrest Outdoor Supply is looking for an assistant manager for our new store in Millbrook, which opens on August 1.\n\nResponsibilities:\n• Supervising a team of 10–12 sales associates\n• Managing weekly inventory orders\n• Leading product demonstrations for customers\n\nRequirements:\n• At least five years of experience in retail management\n• Knowledge of camping and hiking equipment\n• Ability to work weekends\n\nApplicants who speak Spanish are especially encouraged to apply. To apply, send a résumé and cover letter to jobs@pinecrest.example by June 20. Interviews will be held the week of June 30."
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "jobs@pinecrest.example",
+      "From": "Hannah Kowalski <hkowalski@mailbox.example>",
+      "Date": "June 12",
+      "Subject": "Assistant Store Manager position"
+     },
+     "text": "Dear Hiring Manager,\n\nI am writing to apply for the assistant store manager position at your new Millbrook location. For the past three years, I have worked as a department supervisor at Carlton Sporting Goods, my first management position. I oversee eight employees and handle all orders for our camping section.\n\nI am an experienced hiker and have led weekend hiking trips for a local outdoor club for five years, so I am comfortable explaining equipment to customers of all levels. I also grew up in a bilingual household and speak Spanish fluently.\n\nOne thing I should mention is that I will be traveling from June 28 to July 3 for a family event. I would be happy to interview by video call during that time, or in person at any time before June 27.\n\nI have attached my résumé. Thank you for considering my application.\n\nSincerely,\nHannah Kowalski"
+    }
+   ],
+   "translation_ja": "【文書1】募集：副店長　パインクレスト・アウトドア用品\nパインクレスト・アウトドア用品では、8月1日に開店するミルブルックの新店舗の副店長を募集しています。\n仕事の内容：・10〜12人の販売員のチームの監督　・毎週の在庫の発注の管理　・お客さま向けの商品の実演の担当\n応募の条件：・小売店での管理職の経験が少なくとも5年　・キャンプ用品とハイキング用品の知識　・週末に働けること\nスペイン語を話せる方は特に歓迎します。応募するには、6月20日までに履歴書と添え状を jobs@pinecrest.example へお送りください。面接は6月30日の週に行います。\n【文書2】宛先：jobs@pinecrest.example／差出人：ハンナ・コワルスキー／日付：6月12日／件名：副店長の職について\n採用ご担当者様\nミルブルックの新店舗の副店長の職に応募いたします。私はこの3年間、カールトン・スポーツ用品で売り場の主任として働いています。これが私にとって最初の管理職です。8人の従業員を監督し、キャンプ売り場の発注をすべて担当しています。\n私は経験豊富なハイカーで、地元のアウトドアクラブで5年間、週末のハイキング旅行を率いてきました。そのため、どんなレベルのお客さまにも用品をご説明できます。また、2か国語を話す家庭で育ったため、スペイン語を流ちょうに話せます。\n1点お伝えしておくと、6月28日から7月3日まで、家族の行事のため出かける予定です。その間はビデオ通話での面接をお願いできれば幸いです。6月27日より前なら、いつでも面接に伺えます。\n履歴書を添付しました。ご検討いただきありがとうございます。\nハンナ・コワルスキー",
+   "questions": [
+    {
+     "id": "p7-0043",
+     "type": "indicated",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "What is mentioned about the store in Millbrook?",
+     "options": [
+      "It is Pinecrest's largest store.",
+      "It has not opened yet.",
+      "It sells only camping equipment.",
+      "It is looking for several managers."
+     ],
+     "answer": "b",
+     "explanation_ja": "文書1に our new store in Millbrook, which opens on August 1 とあり、まだ開店していない新しい店。",
+     "translation_ja": "ミルブルックの店について何が述べられているか。",
+     "translation_options_ja": ["パインクレストで最大の店だ。", "まだ開店していない。", "キャンプ用品だけを売っている。", "複数の管理職を募集している。"],
+     "option_notes_ja": [
+      "店の大きさは書かれていない",
+      "which opens on August 1（8月1日に開店する）。応募の締め切りは6月20日なので、広告の時点ではまだ開いていない",
+      "キャンプ用品とハイキング用品の知識を求めていて、キャンプ用品だけを売るとは書かれていない",
+      "募集しているのは副店長1人（an assistant manager）で、複数の管理職を募集しているとは書かれていない"
+     ],
+     "point_ja": "広告に日付がないときは、締め切り（by June 20）や開店日（August 1）など本文の日付から、時の順序を読み取る。"
+    },
+    {
+     "id": "p7-0044",
+     "type": "cross.reference",
+     "scene": "retail",
+     "level": "B2",
+     "prompt": "Which qualification mentioned in the advertisement does Ms. Kowalski most likely lack?",
+     "options": [
+      "The required amount of management experience",
+      "Knowledge of hiking equipment",
+      "Experience managing orders",
+      "The ability to speak Spanish"
+     ],
+     "answer": "a",
+     "explanation_ja": "【2文書の照合】文書1は小売店での管理職の経験を少なくとも5年求めているが、文書2でコワルスキーさんは、最初の管理職である売り場の主任を3年続けていると書いている。用品の知識（ハイキングの経験）・発注（キャンプ売り場の発注を担当）・スペイン語は満たしている。",
+     "translation_ja": "広告に書かれた資格のうち、コワルスキーさんに足りないと考えられるものはどれか。",
+     "translation_options_ja": ["必要な年数の管理職の経験", "ハイキング用品の知識", "発注を管理した経験", "スペイン語を話す能力"],
+     "option_notes_ja": [
+      "少なくとも5年が必要（文書1）だが、最初の管理職について3年（文書2）",
+      "経験豊富なハイカーで、5年間ハイキング旅行を率いてきた（文書2）",
+      "キャンプ売り場の発注をすべて担当している（handle all orders）",
+      "スペイン語を流ちょうに話す（speak Spanish fluently）"
+     ],
+     "point_ja": "照合問題：文書1の条件（年数・知識・技能）を、文書2の自己紹介と1つずつ照らし合わせる。数字の条件（at least five years）は特に注意。"
+    },
+    {
+     "id": "p7-0045",
+     "type": "cross.reference",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "What is suggested about Ms. Kowalski?",
+     "options": [
+      "She currently works at a Pinecrest store.",
+      "She applied after the deadline.",
+      "She lives in Millbrook.",
+      "She has a skill that the store particularly values."
+     ],
+     "answer": "d",
+     "explanation_ja": "【2文書の照合】文書1に Applicants who speak Spanish are especially encouraged to apply とあり、文書2でコワルスキーさんはスペイン語を流ちょうに話すと書いている。店が特に求める技能を持っている。",
+     "translation_ja": "コワルスキーさんについて何が示唆されているか。",
+     "translation_options_ja": ["今パインクレストの店で働いている。", "締め切りの後に応募した。", "ミルブルックに住んでいる。", "店が特に重視する技能を持っている。"],
+     "option_notes_ja": [
+      "今の勤め先はカールトン・スポーツ用品",
+      "メールは6月12日付で、締め切りの6月20日より前",
+      "ミルブルックに住んでいるとは書かれていない",
+      "スペイン語を話す応募者を特に歓迎する（文書1）。コワルスキーさんはスペイン語を流ちょうに話す（文書2）"
+     ],
+     "point_ja": "especially encouraged to apply（特に歓迎）は、必須の条件ではないが有利になる点。照合問題でよく問われる。"
+    },
+    {
+     "id": "p7-0046",
+     "type": "cross.reference",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "Why might Ms. Kowalski need to interview by video call?",
+     "options": [
+      "She lives too far from Millbrook.",
+      "She is currently working on weekends.",
+      "She will be away during the scheduled interview period.",
+      "She does not have a résumé ready."
+     ],
+     "answer": "c",
+     "explanation_ja": "【2文書の照合】面接は6月30日の週（文書1）。コワルスキーさんは6月28日から7月3日まで家族の行事で出かける（文書2）ので、面接の期間に不在になる。そのため、その間はビデオ通話での面接を申し出ている。",
+     "translation_ja": "コワルスキーさんがビデオ通話で面接を受ける必要があるかもしれないのはなぜか。",
+     "translation_options_ja": [
+      "ミルブルックから遠くに住んでいるから。",
+      "今は週末に働いているから。",
+      "予定された面接の期間に不在になるから。",
+      "履歴書の準備ができていないから。"
+     ],
+     "option_notes_ja": [
+      "住んでいる場所の話はしていない",
+      "週末にハイキング旅行を率いてきたとあるが、それが面接の妨げになるとは書かれていない",
+      "面接の週（6月30日の週）と、出かける期間（6月28日〜7月3日）が重なる",
+      "履歴書は添付したと書いている"
+     ],
+     "point_ja": "照合問題：2つの文書の日付を並べて、重なりや前後関係を確かめる。"
+    },
+    {
+     "id": "p7-0047",
+     "type": "synonym",
+     "scene": "retail",
+     "level": "B1",
+     "prompt": "In the e-mail, the word \"handle\" in paragraph 1 is closest in meaning to",
+     "options": ["touch", "manage", "hold", "lift"],
+     "answer": "b",
+     "explanation_ja": "handle all orders for our camping section は「キャンプ売り場の発注をすべて扱う・担当する」の意味なので manage。handle の「手で触れる・持つ」の意味から touch・hold・lift を連想させるひっかけ。",
+     "translation_ja": "メールの第1段落にある「handle」に最も意味が近いのはどれか。",
+     "translation_options_ja": ["触れる", "管理する", "持つ", "持ち上げる"],
+     "option_notes_ja": [
+      "触れる。handle の「手で触れる」から連想させるひっかけ",
+      "管理する・担当する。キャンプ売り場の発注をすべて担当している",
+      "持つ。handle の「手で持つ」から連想させるひっかけ",
+      "持ち上げる。handle の「手で扱う」から連想させるひっかけ"
+     ],
+     "point_ja": "handle は「（仕事・問題を）扱う・処理する」の意味でよく出る（handle complaints、handle orders）。"
+    }
+   ]
+  },
+  {
+   "id": "p7-s015",
+   "kind": "triple",
+   "scene": "travel",
+   "passages": [
+    {
+     "type": "webpage",
+     "title": "Harborview Ferry & Tours — Island Day Trips",
+     "table": {
+      "columns": ["Tour", "Departs", "Returns", "Price (adult)"],
+      "rows": [
+       ["Lighthouse Walk", "8:30 A.M.", "1:00 P.M.", "$45"],
+       ["Seal Watching Cruise", "10:00 A.M.", "2:30 P.M.", "$60"],
+       ["Island Food Tour", "11:30 A.M.", "5:00 P.M.", "$75"],
+       ["Sunset Sail", "5:30 P.M.", "8:30 P.M.", "$55"]
+      ]
+     },
+     "text": "• Children under 12 travel at half price.\n• All tours leave from Pier 3.\n• Groups of eight or more receive a 10 percent discount when booking online."
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "bookings@harborview.example",
+      "From": "Rachel Ng <rng@mailbox.example>",
+      "Date": "July 2",
+      "Subject": "Tour on July 14"
+     },
+     "text": "Hello,\n\nI am planning a trip to Harborview with my family on July 14 and would like to book a tour for two adults and two children, ages 8 and 10. Our train arrives at Harborview Station at 9:15 A.M., and the station is about a fifteen-minute walk from the pier. We need to catch a train home at 6:00 P.M.\n\nMy children are especially interested in seeing wildlife. Could you tell me whether there are still seats available on a tour that fits our schedule?\n\nThank you,\nRachel Ng"
+    },
+    {
+     "type": "email",
+     "header": {
+      "To": "Rachel Ng <rng@mailbox.example>",
+      "From": "Leo Santos <lsantos@harborview.example>",
+      "Date": "July 3",
+      "Subject": "RE: Tour on July 14"
+     },
+     "text": "Dear Ms. Ng,\n\nThank you for your inquiry. I'm happy to tell you that there are still seats available on the tour you are interested in on July 14. I have reserved four seats for your family until July 7. To confirm the booking, please complete payment on our Web site before then.\n\nPlease note that passengers are asked to arrive at the pier at least 20 minutes before departure. Also, as the weather on the water can be cool even in summer, we recommend bringing a light jacket.\n\nBest regards,\nLeo Santos\nHarborview Ferry & Tours"
+    }
+   ],
+   "translation_ja": "【文書1】ハーバービュー・フェリー＆ツアーズ　島への日帰りツアー\nツアー・出発・帰着・料金（大人）：灯台ウォーク　午前8時30分　午後1時　45ドル／アザラシ観察クルーズ　午前10時　午後2時30分　60ドル／島の食べ歩きツアー　午前11時30分　午後5時　75ドル／サンセット・セイル　午後5時30分　午後8時30分　55ドル\n・12歳未満のお子さまは半額です。・すべてのツアーは3番桟橋から出発します。・8人以上の団体は、オンラインで予約すると10パーセント割引になります。\n【文書2】宛先：bookings@harborview.example／差出人：レイチェル・ング／日付：7月2日／件名：7月14日のツアー\nこんにちは。\n7月14日に家族でハーバービューへの旅行を計画していて、大人2人と子ども2人（8歳と10歳）でツアーを予約したいと思います。電車は午前9時15分にハーバービュー駅に着き、駅から桟橋までは歩いて15分ほどです。帰りは午後6時の電車に乗る必要があります。\n子どもたちは特に野生動物を見たがっています。私たちの予定に合うツアーに、まだ空席があるか教えていただけますか。\nよろしくお願いします。\nレイチェル・ング\n【文書3】宛先：レイチェル・ング／差出人：レオ・サントス／日付：7月3日／件名：RE：7月14日のツアー\nング様\nお問い合わせありがとうございます。7月14日の、ご関心のツアーにはまだ空席があります。7月7日までご家族の4席を確保しておきます。予約を確定するには、それより前に当社のウェブサイトでお支払いを済ませてください。\nなお、乗客の皆さまには、出発の少なくとも20分前に桟橋にお越しいただくようお願いしています。また、水上は夏でも涼しいことがありますので、薄手の上着をお持ちになることをお勧めします。\nよろしくお願いいたします。\nハーバービュー・フェリー＆ツアーズ　レオ・サントス",
+   "questions": [
+    {
+     "id": "p7-0048",
+     "type": "cross.reference",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "Which tour will Ms. Ng's family most likely take?",
+     "options": ["Lighthouse Walk", "Seal Watching Cruise", "Island Food Tour", "Sunset Sail"],
+     "answer": "b",
+     "shuffle": false,
+     "explanation_ja": "【2文書の照合】一家は9時15分に駅に着き、桟橋まで歩いて約15分（文書2）なので、8時30分発の灯台ウォークには間に合わない。6時の電車で帰るので、サンセット・セイルも無理。子どもが野生動物を見たがっている（文書2）ので、アザラシ観察クルーズ（10時発・2時30分着）が合う（文書1）。",
+     "translation_ja": "ング一家はどのツアーに参加すると考えられるか。",
+     "translation_options_ja": ["灯台ウォーク", "アザラシ観察クルーズ", "島の食べ歩きツアー", "サンセット・セイル"],
+     "option_notes_ja": [
+      "8時30分発で、9時15分に駅に着く一家は間に合わない",
+      "10時発・2時30分着で時間が合い、野生動物を見たいという希望にも合う",
+      "時間は合うが、子どもが見たがっているのは野生動物",
+      "5時30分発・8時30分着で、6時の帰りの電車に間に合わない"
+     ],
+     "point_ja": "照合問題：時間の条件（着く時刻・帰る時刻）と希望（野生動物）の両方を満たす行を表から選ぶ。"
+    },
+    {
+     "id": "p7-0049",
+     "type": "cross.reference",
+     "scene": "travel",
+     "level": "B2",
+     "prompt": "How much will Ms. Ng most likely pay for the tour?",
+     "options": ["$120", "$162", "$180", "$240"],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "【2文書の照合】アザラシ観察クルーズは大人60ドル（文書1）。12歳未満は半額なので、8歳と10歳の子ども（文書2）は30ドルずつ。60×2＋30×2＝180ドル。団体割引は8人以上なので、4人の一家には当てはまらない。",
+     "translation_ja": "ングさんはツアーにいくら払うと考えられるか。",
+     "translation_options_ja": ["120ドル", "162ドル", "180ドル", "240ドル"],
+     "option_notes_ja": [
+      "大人2人分だけの額。子ども2人分が抜けている",
+      "180ドルから10％引いた額。団体割引は8人以上で、4人の一家には当てはまらない",
+      "大人60ドル×2＋子ども（半額）30ドル×2",
+      "子どもも大人と同じ料金で計算した額。12歳未満は半額"
+     ],
+     "point_ja": "料金の計算問題は、表の単価に注意書き（子どもは半額・団体割引の条件）を当てはめる。条件に合わない割引をした額も誤答に並ぶ。"
+    },
+    {
+     "id": "p7-0050",
+     "type": "detail",
+     "scene": "travel",
+     "level": "A2",
+     "prompt": "What does Mr. Santos ask Ms. Ng to do?",
+     "options": [
+      "Pay for the tour online",
+      "Call the office to confirm",
+      "Arrive at the station early",
+      "Choose a different date"
+     ],
+     "answer": "a",
+     "explanation_ja": "文書3に To confirm the booking, please complete payment on our Web site before then とあり、ウェブサイトで支払いを済ませるよう頼んでいる。",
+     "translation_ja": "サントスさんはングさんに何をするよう頼んでいるか。",
+     "translation_options_ja": ["ツアーの料金をオンラインで払う", "事務所に電話して確認する", "駅に早めに着く", "別の日を選ぶ"],
+     "option_notes_ja": [
+      "complete payment on our Web site（→ pay online）",
+      "電話で確認するようには書かれていない",
+      "早めに着くよう求めているのは桟橋（the pier）で、駅ではない",
+      "席は空いていて、別の日を選ぶようには書かれていない"
+     ],
+     "point_ja": "依頼の内容は please ～ の文に注目する。場所（the pier と the station）の取り違えを誘う誤答に注意。"
+    },
+    {
+     "id": "p7-0051",
+     "type": "cross.reference",
+     "scene": "travel",
+     "level": "B2",
+     "prompt": "By what time should Ms. Ng's family arrive at Pier 3?",
+     "options": ["9:15 A.M.", "9:30 A.M.", "9:40 A.M.", "10:00 A.M."],
+     "answer": "c",
+     "shuffle": false,
+     "explanation_ja": "【3文書の照合】一家が参加するアザラシ観察クルーズは10時発（文書1）。文書3に、出発の少なくとも20分前に桟橋に着くようにとあるので、9時40分までに着く必要がある。",
+     "translation_ja": "ング一家は、何時までに3番桟橋に着くべきか。",
+     "translation_options_ja": ["午前9時15分", "午前9時30分", "午前9時40分", "午前10時"],
+     "option_notes_ja": [
+      "一家の電車が駅に着く時刻（文書2）",
+      "駅から歩いて桟橋に着く時刻の目安で、着くべき期限ではない",
+      "10時発（文書1）の20分前（文書3）",
+      "出発の時刻。少なくとも20分前には着く必要がある"
+     ],
+     "point_ja": "3文書の問題は、表（出発時刻）と別の文書の条件（20分前）を組み合わせる。本文に出てくる別の時刻（電車の到着）が誤答になる。"
+    },
+    {
+     "id": "p7-0052",
+     "type": "detail",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "What does Mr. Santos recommend?",
+     "options": [
+      "Buying tickets at the pier",
+      "Taking an earlier train",
+      "Booking a second tour",
+      "Bringing an extra layer of clothing"
+     ],
+     "answer": "d",
+     "explanation_ja": "文書3に we recommend bringing a light jacket とあり、水上は夏でも涼しいことがあるため上着を勧めている。light jacket を an extra layer of clothing と言い換えている。",
+     "translation_ja": "サントスさんは何を勧めているか。",
+     "translation_options_ja": ["桟橋で券を買うこと", "早い電車に乗ること", "2つ目のツアーを予約すること", "上着を1枚多く持ってくること"],
+     "option_notes_ja": [
+      "支払いはウェブサイトでと書いていて、桟橋で券を買うよう勧めてはいない",
+      "早い電車に乗るよう勧めてはいない",
+      "別のツアーの予約は勧めていない",
+      "we recommend bringing a light jacket（light jacket → an extra layer of clothing）"
+     ],
+     "point_ja": "recommend ～ing・suggest ～ing・we advise you to ～ は、勧めていることを問う問題の手がかり。"
+    }
+   ]
+  }
+ ]
+}

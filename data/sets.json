@@ -1670,5 +1670,260 @@
   "translation_ja": "【文書1】コーレウ製作所　10月の社員研修\n10月6日：職場の安全の基本（101号室、レナ・フィッシャー）／10月13日：効果的なビジネス文書（204号室、オマル・ハダッド）／10月20日：データ分析入門（コンピューター室、グレース・リウ）／10月27日：少人数チームの率い方（204号室、オマル・ハダッド）\n研修はすべて午後2時から4時30分まで。申し込みは、研修日の1週間前までに人事部のレベッカ・タンにメールで。各回の定員は20人。今年3回以上の研修を修了した社員には修了証を授与します。\n【文書2】宛先：レベッカ・タン／差出人：マーティン・アチェベ（生産部）／日付：10月9日／件名：研修の申し込み\n10月6日の研修に参加しましたが、とても実践的でした。来月から新入社員2人の指導を始めるので、ハダッドさんのチームの率い方の研修に申し込みたいと思います。データ分析の研修にも参加したいのですが、その日の午後は1時から3時まで顧客との打ち合わせがあります。今年中にもう一度開かれる可能性はありますか。\n【文書3】宛先：マーティン・アチェベ／差出人：レベッカ・タン／日付：10月10日／件名：RE: 研修の申し込み\n10月27日の名簿に追加しました。もう1つの研修は、リウさんが12月8日の午前10時から12時30分に、前回と同じ部屋でもう一度担当します。その回にも申し込む場合はお知らせください。",
   "status": "draft",
   "source": "2026-11-16 / part7 batch a"
+ },
+ {
+  "id": "p7-s010",
+  "part": 7,
+  "kind": "single",
+  "scene": "warehouse",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Notice to All Warehouse Staff",
+    "text": "Beginning Monday, June 2, all staff entering the loading area must wear the new high-visibility safety vests. The vests have been placed in the storage cabinet next to the main office, and each employee should take one before the start of his or her next shift.\n\nThe old yellow vests will no longer be accepted after May 31. Please return them to Ines Duarte in the main office so that they can be recycled.\n\nStaff members who need a larger or smaller size should speak to their shift supervisor. Thank you for helping us keep the warehouse safe.\n\nHarlow Distribution — Facilities Department"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0033",
+   "p7-0034"
+  ],
+  "translation_ja": "倉庫の全スタッフへのお知らせ\n6月2日（月）から、荷さばき場に入るスタッフは全員、新しい高視認性の安全ベストを着用しなければなりません。ベストは事務所の隣の保管棚に置いてあります。各従業員は、次の勤務が始まる前に1着ずつ受け取ってください。\n古い黄色のベストは、5月31日を過ぎると使えなくなります。リサイクルできるよう、事務所のイネス・ドゥアルテに返却してください。\nもっと大きい、または小さいサイズが必要な方は、勤務の監督者に申し出てください。倉庫の安全にご協力いただきありがとうございます。\nハーロウ・ディストリビューション　施設部",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
+ },
+ {
+  "id": "p7-s011",
+  "part": 7,
+  "kind": "single",
+  "scene": "manufacturing",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "article",
+    "title": "Kestrel Bikes Moves Production Back Home",
+    "text": "DUNMORE (March 4) — Kestrel Bikes, a maker of lightweight bicycles, announced yesterday that it will build a new factory in Dunmore, the town where the company was founded thirty years ago. — [1] — For the past decade, most of Kestrel's bicycles have been assembled overseas.\n\nCompany president Laura Finch said the decision was driven by customer demand for faster delivery. \"When our bikes are made overseas, it can take up to three months for new models to reach stores,\" she said. \"Producing them here will cut that time in half.\" — [2] —\n\nThe factory is expected to open early next year and will employ about 150 people. — [3] — Kestrel will also work with Dunmore Technical College to offer a training program for new employees.\n\nLocal officials welcomed the news. — [4] — \"This is the largest investment in Dunmore in more than twenty years,\" said Mayor Tom Brennan."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0035",
+   "p7-0036",
+   "p7-0037"
+  ],
+  "translation_ja": "ケストレル・バイクス、生産を地元に戻す\nダンモア（3月4日）―軽量自転車メーカーのケストレル・バイクスは昨日、30年前に会社が創業した町ダンモアに新しい工場を建てると発表した。この10年間、ケストレルの自転車の大半は海外で組み立てられてきた。\nローラ・フィンチ社長によると、この決定のきっかけは、より早く届けてほしいという客の要望だった。「自転車を海外で作ると、新しいモデルが店に並ぶまで最大3か月かかることがあります」と社長は言う。「ここで作れば、その期間を半分にできます」。［社長はさらに、この移転によって会社の輸送費も下がると述べた。］\n工場は来年の初めに開業する予定で、約150人を雇用する。ケストレルはまた、ダンモア技術専門学校と協力して、新しい従業員向けの研修プログラムを行う。\n地元の役人はこの知らせを歓迎した。「これは、この20年あまりでダンモアへの最大の投資です」とトム・ブレナン町長は話した。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
+ },
+ {
+  "id": "p7-s012",
+  "part": 7,
+  "kind": "chat",
+  "scene": "it",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Text-message chain",
+    "text": "Daniel Ortega [9:12 A.M.]\nHi, Mei. I'm at the client's office, but the projector here won't connect to my laptop. The presentation starts at ten.\n\nMei Lin [9:14 A.M.]\nDid you bring the adapter that came with the new laptops? It's a small gray one.\n\nDaniel Ortega [9:15 A.M.]\nI thought I put it in my bag, but I can't find it.\n\nMei Lin [9:16 A.M.]\nI'm leaving for a meeting near there in ten minutes.\n\nDaniel Ortega [9:17 A.M.]\nThat would be a huge help. I'll be in the lobby on the third floor.\n\nMei Lin [9:18 A.M.]\nOK. I'll grab a spare adapter from the IT room and see you at about 9:40."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0038",
+   "p7-0039"
+  ],
+  "translation_ja": "ダニエル・オルテガ［午前9時12分］：メイさん、こんにちは。今お客さまの会社にいるんですが、ここのプロジェクターが私のノートパソコンにつながりません。発表は10時からです。\nメイ・リン［9時14分］：新しいノートパソコンに付いてきたアダプターは持ってきましたか？小さい灰色のものです。\nダニエル・オルテガ［9時15分］：かばんに入れたと思っていたんですが、見つかりません。\nメイ・リン［9時16分］：10分後に、その近くでの会議に出かけるところです。\nダニエル・オルテガ［9時17分］：それはとても助かります。3階のロビーにいます。\nメイ・リン［9時18分］：わかりました。IT室で予備のアダプターを取って、9時40分ごろに行きますね。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
+ },
+ {
+  "id": "p7-s013",
+  "part": 7,
+  "kind": "single",
+  "scene": "printing",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "invoice",
+    "header": {
+     "Invoice": "Inkwell Print Shop, No. 7731",
+     "Customer": "Greenway Landscaping, 18 Birch Lane",
+     "Order date": "April 3",
+     "Pickup date": "April 7"
+    },
+    "table": {
+     "columns": [
+      "Item",
+      "Quantity",
+      "Unit price",
+      "Amount"
+     ],
+     "rows": [
+      [
+       "Business cards (two-sided)",
+       "500",
+       "$0.08",
+       "$40.00"
+      ],
+      [
+       "Event posters (A2, color)",
+       "20",
+       "$3.50",
+       "$70.00"
+      ],
+      [
+       "Folded brochures",
+       "300",
+       "$0.60",
+       "$180.00"
+      ],
+      [
+       "Design changes (per hour)",
+       "2",
+       "$25.00",
+       "$50.00"
+      ]
+     ]
+    },
+    "text": "Subtotal: $340.00\nLoyalty discount (10%): −$34.00\nTotal: $306.00\n\nPayment is due within 30 days. Customers who pay within 10 days of the pickup date receive an additional 2 percent off the total. Please note that the design changes were made at the customer's request after the proof was approved."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0040",
+   "p7-0041",
+   "p7-0042"
+  ],
+  "translation_ja": "請求書：インクウェル印刷所　No. 7731／顧客：グリーンウェイ・ランドスケーピング（バーチ・レーン18番地）／注文日：4月3日／受け取り日：4月7日\n品目・数量・単価・金額：名刺（両面）500枚　0.08ドル　40.00ドル／イベント用ポスター（A2・カラー）20枚　3.50ドル　70.00ドル／折りたたみパンフレット300部　0.60ドル　180.00ドル／デザインの変更（1時間あたり）2時間　25.00ドル　50.00ドル\n小計：340.00ドル\nお得意さま割引（10％）：−34.00ドル\n合計：306.00ドル\nお支払いの期限は30日以内です。受け取り日から10日以内にお支払いいただくと、合計からさらに2パーセント割り引きます。なお、デザインの変更は、校正刷りの承認後にお客さまのご依頼で行ったものです。",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
+ },
+ {
+  "id": "p7-s014",
+  "part": 7,
+  "kind": "double",
+  "scene": "retail",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Now Hiring: Assistant Store Manager — Pinecrest Outdoor Supply",
+    "text": "Pinecrest Outdoor Supply is looking for an assistant manager for our new store in Millbrook, which opens on August 1.\n\nResponsibilities:\n• Supervising a team of 10–12 sales associates\n• Managing weekly inventory orders\n• Leading product demonstrations for customers\n\nRequirements:\n• At least five years of experience in retail management\n• Knowledge of camping and hiking equipment\n• Ability to work weekends\n\nApplicants who speak Spanish are especially encouraged to apply. To apply, send a résumé and cover letter to jobs@pinecrest.example by June 20. Interviews will be held the week of June 30."
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "jobs@pinecrest.example",
+     "From": "Hannah Kowalski <hkowalski@mailbox.example>",
+     "Date": "June 12",
+     "Subject": "Assistant Store Manager position"
+    },
+    "text": "Dear Hiring Manager,\n\nI am writing to apply for the assistant store manager position at your new Millbrook location. For the past three years, I have worked as a department supervisor at Carlton Sporting Goods, my first management position. I oversee eight employees and handle all orders for our camping section.\n\nI am an experienced hiker and have led weekend hiking trips for a local outdoor club for five years, so I am comfortable explaining equipment to customers of all levels. I also grew up in a bilingual household and speak Spanish fluently.\n\nOne thing I should mention is that I will be traveling from June 28 to July 3 for a family event. I would be happy to interview by video call during that time, or in person at any time before June 27.\n\nI have attached my résumé. Thank you for considering my application.\n\nSincerely,\nHannah Kowalski"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0043",
+   "p7-0044",
+   "p7-0045",
+   "p7-0046",
+   "p7-0047"
+  ],
+  "translation_ja": "【文書1】募集：副店長　パインクレスト・アウトドア用品\nパインクレスト・アウトドア用品では、8月1日に開店するミルブルックの新店舗の副店長を募集しています。\n仕事の内容：・10〜12人の販売員のチームの監督　・毎週の在庫の発注の管理　・お客さま向けの商品の実演の担当\n応募の条件：・小売店での管理職の経験が少なくとも5年　・キャンプ用品とハイキング用品の知識　・週末に働けること\nスペイン語を話せる方は特に歓迎します。応募するには、6月20日までに履歴書と添え状を jobs@pinecrest.example へお送りください。面接は6月30日の週に行います。\n【文書2】宛先：jobs@pinecrest.example／差出人：ハンナ・コワルスキー／日付：6月12日／件名：副店長の職について\n採用ご担当者様\nミルブルックの新店舗の副店長の職に応募いたします。私はこの3年間、カールトン・スポーツ用品で売り場の主任として働いています。これが私にとって最初の管理職です。8人の従業員を監督し、キャンプ売り場の発注をすべて担当しています。\n私は経験豊富なハイカーで、地元のアウトドアクラブで5年間、週末のハイキング旅行を率いてきました。そのため、どんなレベルのお客さまにも用品をご説明できます。また、2か国語を話す家庭で育ったため、スペイン語を流ちょうに話せます。\n1点お伝えしておくと、6月28日から7月3日まで、家族の行事のため出かける予定です。その間はビデオ通話での面接をお願いできれば幸いです。6月27日より前なら、いつでも面接に伺えます。\n履歴書を添付しました。ご検討いただきありがとうございます。\nハンナ・コワルスキー",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
+ },
+ {
+  "id": "p7-s015",
+  "part": 7,
+  "kind": "triple",
+  "scene": "travel",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "webpage",
+    "title": "Harborview Ferry & Tours — Island Day Trips",
+    "table": {
+     "columns": [
+      "Tour",
+      "Departs",
+      "Returns",
+      "Price (adult)"
+     ],
+     "rows": [
+      [
+       "Lighthouse Walk",
+       "8:30 A.M.",
+       "1:00 P.M.",
+       "$45"
+      ],
+      [
+       "Seal Watching Cruise",
+       "10:00 A.M.",
+       "2:30 P.M.",
+       "$60"
+      ],
+      [
+       "Island Food Tour",
+       "11:30 A.M.",
+       "5:00 P.M.",
+       "$75"
+      ],
+      [
+       "Sunset Sail",
+       "5:30 P.M.",
+       "8:30 P.M.",
+       "$55"
+      ]
+     ]
+    },
+    "text": "• Children under 12 travel at half price.\n• All tours leave from Pier 3.\n• Groups of eight or more receive a 10 percent discount when booking online."
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "bookings@harborview.example",
+     "From": "Rachel Ng <rng@mailbox.example>",
+     "Date": "July 2",
+     "Subject": "Tour on July 14"
+    },
+    "text": "Hello,\n\nI am planning a trip to Harborview with my family on July 14 and would like to book a tour for two adults and two children, ages 8 and 10. Our train arrives at Harborview Station at 9:15 A.M., and the station is about a fifteen-minute walk from the pier. We need to catch a train home at 6:00 P.M.\n\nMy children are especially interested in seeing wildlife. Could you tell me whether there are still seats available on a tour that fits our schedule?\n\nThank you,\nRachel Ng"
+   },
+   {
+    "type": "email",
+    "header": {
+     "To": "Rachel Ng <rng@mailbox.example>",
+     "From": "Leo Santos <lsantos@harborview.example>",
+     "Date": "July 3",
+     "Subject": "RE: Tour on July 14"
+    },
+    "text": "Dear Ms. Ng,\n\nThank you for your inquiry. I'm happy to tell you that there are still seats available on the tour you are interested in on July 14. I have reserved four seats for your family until July 7. To confirm the booking, please complete payment on our Web site before then.\n\nPlease note that passengers are asked to arrive at the pier at least 20 minutes before departure. Also, as the weather on the water can be cool even in summer, we recommend bringing a light jacket.\n\nBest regards,\nLeo Santos\nHarborview Ferry & Tours"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p7-0048",
+   "p7-0049",
+   "p7-0050",
+   "p7-0051",
+   "p7-0052"
+  ],
+  "translation_ja": "【文書1】ハーバービュー・フェリー＆ツアーズ　島への日帰りツアー\nツアー・出発・帰着・料金（大人）：灯台ウォーク　午前8時30分　午後1時　45ドル／アザラシ観察クルーズ　午前10時　午後2時30分　60ドル／島の食べ歩きツアー　午前11時30分　午後5時　75ドル／サンセット・セイル　午後5時30分　午後8時30分　55ドル\n・12歳未満のお子さまは半額です。・すべてのツアーは3番桟橋から出発します。・8人以上の団体は、オンラインで予約すると10パーセント割引になります。\n【文書2】宛先：bookings@harborview.example／差出人：レイチェル・ング／日付：7月2日／件名：7月14日のツアー\nこんにちは。\n7月14日に家族でハーバービューへの旅行を計画していて、大人2人と子ども2人（8歳と10歳）でツアーを予約したいと思います。電車は午前9時15分にハーバービュー駅に着き、駅から桟橋までは歩いて15分ほどです。帰りは午後6時の電車に乗る必要があります。\n子どもたちは特に野生動物を見たがっています。私たちの予定に合うツアーに、まだ空席があるか教えていただけますか。\nよろしくお願いします。\nレイチェル・ング\n【文書3】宛先：レイチェル・ング／差出人：レオ・サントス／日付：7月3日／件名：RE：7月14日のツアー\nング様\nお問い合わせありがとうございます。7月14日の、ご関心のツアーにはまだ空席があります。7月7日までご家族の4席を確保しておきます。予約を確定するには、それより前に当社のウェブサイトでお支払いを済ませてください。\nなお、乗客の皆さまには、出発の少なくとも20分前に桟橋にお越しいただくようお願いしています。また、水上は夏でも涼しいことがありますので、薄手の上着をお持ちになることをお勧めします。\nよろしくお願いいたします。\nハーバービュー・フェリー＆ツアーズ　レオ・サントス",
+  "status": "draft",
+  "source": "2026-11-16 / part7 batch b"
  }
 ]
