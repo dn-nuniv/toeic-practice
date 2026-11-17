@@ -69,7 +69,7 @@
   function home() {
     Player.stop(); session = null;
     const parts = Store.getSetting('parts', [1, 2, 3, 4, 5, 6, 7]);
-    const region = Store.getSetting('region', 'us'), rate = Store.getSetting('rate', 1), count = Store.getSetting('count', 10), qread = Store.getSetting('qread', 'exam');
+    const region = ((r) => r === 'random' || Player.REGION_NAME[r] ? r : 'us')(Store.getSetting('region', 'us')), rate = Store.getSetting('rate', 1), count = Store.getSetting('count', 10), qread = Store.getSetting('qread', 'exam');
     const n = BANK.items.length, seen = BANK.items.filter(it => Store.getProgress(it.id)).length, d = dueCount();
     const reviewed = BANK.items.filter(it => it.status === 'reviewed').length;
     main.innerHTML = `
@@ -88,7 +88,7 @@
       <h2>設定</h2>
       <div class="row"><span class="lab">Part</span><div class="chips">${[1, 2, 3, 4, 5, 6, 7].map(p => `<label class="chip"><input type="checkbox" name="part" value="${p}" ${parts.includes(p) ? 'checked' : ''}><span>${p}</span></label>`).join('')}</div></div>
       <div class="row"><span class="lab">問題数</span><select id="count">${[10, 20, 30, 0].map(c => `<option value="${c}" ${c === count ? 'selected' : ''}>${c || 'すべて'}</option>`).join('')}</select><small>（練習・復習のとき）</small></div>
-      <div class="row"><span class="lab">英語の種類</span><select id="region">${[['us', '米国'], ['gb', '英国'], ['au', 'オーストラリア'], ['random', 'ランダム（米・英・豪）'], ['ca', 'カナダ（ブラウザの読み上げ）']].map(([k, v]) => `<option value="${k}" ${k === region ? 'selected' : ''}>${v}</option>`).join('')}</select>
+      <div class="row"><span class="lab">英語の種類</span><select id="region">${[['us', '米国'], ['gb', '英国'], ['au', 'オーストラリア'], ['random', 'ランダム（米・英・豪）']].map(([k, v]) => `<option value="${k}" ${k === region ? 'selected' : ''}>${v}</option>`).join('')}</select>
         <span class="lab">速さ</span><select id="rate">${[0.8, 0.9, 1, 1.1, 1.25].map(r => `<option value="${r}" ${r === rate ? 'selected' : ''}>${r}×</option>`).join('')}</select></div>
       <div class="row"><span class="lab">設問の読み上げ</span><select id="qread">${[['exam', '本番形式（解答時間 8秒・図表12秒）'], ['short', '読む（間を短く）'], ['off', '読まない']].map(([k, v]) => `<option value="${k}" ${k === qread ? 'selected' : ''}>${v}</option>`).join('')}</select><small>（Part 3・4）</small></div>
     </section>

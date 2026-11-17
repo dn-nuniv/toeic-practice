@@ -6,7 +6,8 @@
 // utterance の形：{ key, text, gender, pause（次までの間 ms。再生速度で縮む）, fixed（true なら pause を速度で縮めない＝解答時間）, qid（読み上げ中の設問）}
 (function () {
   'use strict';
-  const LANG = { us: 'en-US', gb: 'en-GB', au: 'en-AU', ca: 'en-CA' };
+  // カナダは外した（Google の TTS にカナダ英語の声がなく、米国英語に近いため。CLAUDE.md の「音声」）
+  const LANG = { us: 'en-US', gb: 'en-GB', au: 'en-AU' };
   const FEMALE = /female|samantha|victoria|karen|moira|tessa|serena|zira|aria|jenny|libby|sonia|natasha|catherine|susan|hazel|kate|allison|ava|joanna|salli|kendra|kimberly|emma|amy|nicole|olivia|linda|heather/i;
   const MALE = /(^|\W)male|daniel|alex|david|guy|ryan|william|oliver|george|thomas|james|lee|gordon|aaron|arthur|mark|matthew|joey|justin|brian|russell|liam|eric|tom/i;
   let queue = [], token = 0, cur = null, onState = () => {}, onItem = () => {};
@@ -78,9 +79,9 @@
   if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices(); }
   // 英語の種類が「ランダム」のとき：音声ファイルのある地域から1つ選ぶ。holder（問題のまとまりなど）に覚えておき、
   // 同じ問題で再生し直したときは同じ地域にする
-  const REGION_NAME = { us: '米国', gb: '英国', au: 'オーストラリア', ca: 'カナダ' };
+  const REGION_NAME = { us: '米国', gb: '英国', au: 'オーストラリア' };
   function resolveRegion(setting, holder) {
-    if (setting !== 'random') return setting || 'us';
+    if (setting !== 'random') return LANG[setting] ? setting : 'us';  // 前に選んだ「カナダ」などは米国にする
     if (holder && holder.region) return holder.region;
     const m = window.AUDIO_MANIFEST || {};
     const have = Object.keys(LANG).filter(r => m[r] && Object.keys(m[r]).length);

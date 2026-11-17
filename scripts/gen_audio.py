@@ -20,7 +20,7 @@ import argparse, base64, hashlib, json, os, pathlib, sys, time, urllib.request, 
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://texttospeech.googleapis.com/v1"
-LANG = {"us": "en-US", "gb": "en-GB", "au": "en-AU", "ca": "en-CA"}
+LANG = {"us": "en-US", "gb": "en-GB", "au": "en-AU"}  # カナダは外した（Google の TTS にカナダ英語の声がない。米国英語に近い）
 TIERS = ["Neural2", "Wavenet", "Standard"]  # 上から順に使える声を探す
 NARRATOR = "male"  # Part 3・4 の設問を読む声の性別（js/audio.js の NARRATOR と同じにする）
 
@@ -99,7 +99,7 @@ def utterances(bank):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--regions", default="us,gb,au", help="作る地域（us,gb,au,ca）")
+    ap.add_argument("--regions", default="us,gb,au", help="作る地域（us,gb,au）")
     ap.add_argument("--tier", default="", help="声の種類を指定（例 Neural2, Wavenet, Standard）")
     ap.add_argument("--rate", type=float, default=1.0, help="話す速さ（1.0 が標準）")
     ap.add_argument("--dry-run", action="store_true", help="APIを呼ばずに、作る数と文字数だけ表示する")
