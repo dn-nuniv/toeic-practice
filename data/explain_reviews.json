@@ -9067,6 +9067,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "c6cf8a604a84"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "207ccf0c56bc"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "207ccf0c56bc"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "207ccf0c56bc"
   }
  ],
  "p6-0022": [
@@ -9093,6 +9117,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "3ac97cc1ebd1"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "24034f3a335f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "24034f3a335f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "24034f3a335f"
   }
  ],
  "p6-0023": [
@@ -9119,6 +9167,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "d3456039e314"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c56ed0db92d1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c56ed0db92d1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c56ed0db92d1"
   }
  ],
  "p6-0024": [
@@ -9145,6 +9217,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "b678d01f32e0"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4932c926193b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4932c926193b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4932c926193b"
   }
  ],
  "p6-0025": [
@@ -9171,6 +9267,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "ad22c748fea3"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "528f1053d267"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "528f1053d267"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "528f1053d267"
   }
  ],
  "p6-0026": [
@@ -9197,6 +9317,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "7c615309d4ee"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4b1f1ae8a62"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4b1f1ae8a62"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4b1f1ae8a62"
   }
  ],
  "p6-0027": [
@@ -9223,6 +9367,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "f68a8908c1ac"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "48c53234d454"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "48c53234d454"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "48c53234d454"
   }
  ],
  "p6-0028": [
@@ -9249,6 +9417,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "37ff5a5ad5af"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bc71eb31e67b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bc71eb31e67b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "bc71eb31e67b"
   }
  ],
  "p6-0029": [
@@ -9353,6 +9545,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "3498a9e89ca0"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "377af56d234b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "377af56d234b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "377af56d234b"
   }
  ],
  "p6-0033": [
@@ -9379,6 +9595,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "e82195593e6a"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4eeec4c5c60"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4eeec4c5c60"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c4eeec4c5c60"
   }
  ],
  "p6-0034": [
@@ -9405,6 +9645,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "5f672165c18e"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e31fafbf9c31"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e31fafbf9c31"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e31fafbf9c31"
   }
  ],
  "p6-0035": [
@@ -9431,6 +9695,30 @@
    "issues": "本文の訳および選択肢(B)の訳で、You may prefer not to wait until then. が「それまで待たないほうがよいとお考えかもしれません」「それまで待たないほうがよいと考えるかもしれない」となっている。prefer not to wait は「待ちたくない／待たないでおきたい」という希望・意向を表す表現であり、「〜ないほうがよい（should not / had better not）」のニュアンスにずれている（選択肢(B)のコメントや正解の理由では「待ちたくない」と訳されており、訳との間に食い違いもある）。",
    "fix": "本文の訳を「［それまでお待ちになりたくないとお考えかもしれません。］」（または「［それまで待ちたくないとお考えかもしれません。］」）、選択肢(B)の訳を「〔訳〕それまで待ちたくないとお考えかもしれない。」（または「それまで待ちたくないかもしれない。」）に直す。",
    "explain_hash": "4c5692db2bb7"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "11e4be86be1c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "11e4be86be1c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "11e4be86be1c"
   }
  ],
  "p6-0036": [
@@ -9457,6 +9745,30 @@
    "issues": "",
    "fix": "",
    "explain_hash": "6fedfd2a42e4"
+  },
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:20:50",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "526bc19f8ab9"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "526bc19f8ab9"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:20:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "526bc19f8ab9"
   }
  ]
 }
