@@ -15512,9 +15512,43 @@
   ],
   "point_ja": "Part 6 では、メールの日付と本文中の日付・曜日を比べて時制を決める。前後の文の時制（ここでは will replace）も手がかりになる。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "94322261e078"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "94322261e078"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "94322261e078"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15560,9 +15594,43 @@
   ],
   "point_ja": "cause inconvenience（不便をかける）・apologize for any inconvenience（ご不便をおわびする）は、工事や遅延のお知らせの決まり文句。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "aceb76eb8ec4"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "aceb76eb8ec4"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "aceb76eb8ec4"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15608,9 +15676,43 @@
   ],
   "point_ja": "文挿入問題は、空欄の前後の文とのつながりを確かめる。直後の文が何を前提にしているか（ここでは「階段を使う」こと）を考える。",
   "level": "B1",
-  "status": "draft",
+  "status": "flagged",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "d10493ba4ad5"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.94,
+    "issues": "Dが最適だが、enter the buildingでは階段を使う目的が不正確で、that dayは停止時間外も含む表現。Anyone who needs to move between floors during this time will have to use the stairs.とすると明確。",
+    "content_hash": "d10493ba4ad5"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "正解はDで一意に決まるが、建物に入る（enter the building）だけであれば必ずしも階段を使う必要はないため、\"access upper floors\" などのほうが論理的に自然。",
+    "content_hash": "d10493ba4ad5"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15656,9 +15758,43 @@
   ],
   "point_ja": "arrange は「手配する・調整する」。arrange a meeting・arrange for a delivery など、予定や配送の話でよく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "c211da88189b"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "c211da88189b"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "c211da88189b"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15699,9 +15835,43 @@
   ],
   "point_ja": "be 動詞と過去分詞の間（is fully equipped、was carefully reviewed）の空欄は、過去分詞を修飾する副詞が入ることが多い。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "577c7bdb2952"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "577c7bdb2952"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "577c7bdb2952"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15747,9 +15917,43 @@
   ],
   "point_ja": "つなぎの言葉の問題は、前後の文の関係（追加・逆接・代わり・結果）を確かめる。追加は In addition・Also・Furthermore・Moreover。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "36e76b672918"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "36e76b672918"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "36e76b672918"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -15795,9 +15999,43 @@
   ],
   "point_ja": "suitable for ～（～に適した）。appropriate for ～・ideal for ～ も同じ形で、案内や広告によく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "77b1be85e1f0"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "77b1be85e1f0"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "77b1be85e1f0"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -15843,9 +16081,43 @@
   ],
   "point_ja": "文挿入問題は、空欄の直前の文を具体的に説明する文（例・詳しい説明）が正解になることが多い。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "d80aac0b7d4f"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.98,
+    "issues": "",
+    "content_hash": "d80aac0b7d4f"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "d80aac0b7d4f"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15886,9 +16158,43 @@
   ],
   "point_ja": "主語が「される」側で by ～ があれば受動態。時制は in June・last year などの語句で決める。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "49a8b6141dec"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "49a8b6141dec"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "49a8b6141dec"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15934,9 +16240,43 @@
   ],
   "point_ja": "文挿入問題は、前の文と後ろの文の両方につながるかを確かめる。本文と食い違う選択肢（ここでは「借りた場所に返す」）は、まず外せる。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "5c2304a6f512"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "5c2304a6f512"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "5c2304a6f512"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -15982,9 +16322,43 @@
   ],
   "point_ja": "However は、前の内容と反対・対立する内容を続ける。Therefore（結果）・Similarly（同様）・For example（例）との違いを、前後の文の関係で判断する。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "748bf103a126"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "748bf103a126"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "748bf103a126"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -16025,9 +16399,43 @@
   ],
   "point_ja": "More information is available at / on ～（詳しくは～へ）は、お知らせや記事の結びの決まり文句。information は数えられない名詞。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "6075ed4c5497"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "6075ed4c5497"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "6075ed4c5497"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -16073,9 +16481,43 @@
   ],
   "point_ja": "currently（現在）は、in stock / out of stock / available / unavailable と一緒によく出る。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "d3dafbe635f8"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "d3dafbe635f8"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "A",
+    "key": "A",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "d3dafbe635f8"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -16121,9 +16563,43 @@
   ],
   "point_ja": "理由は、後ろが名詞なら because of / due to、主語＋動詞なら because。形と意味の両方で選ぶ。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.9,
+    "issues": "",
+    "content_hash": "6881bd09336c"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.97,
+    "issues": "",
+    "content_hash": "6881bd09336c"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "C",
+    "key": "C",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "6881bd09336c"
+   }
+  ],
   "explain_status": "checked"
  },
  {
@@ -16169,9 +16645,43 @@
   ],
   "point_ja": "If so・If not・In that case で始まる文の前には、その条件になる内容が必要。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "fa7f0400954c"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "fa7f0400954c"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "B",
+    "key": "B",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "fa7f0400954c"
+   }
+  ],
   "explain_status": "flagged"
  },
  {
@@ -16212,9 +16722,43 @@
   ],
   "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後は名詞。",
   "level": "B1",
-  "status": "draft",
+  "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
-  "review": [],
+  "review": [
+   {
+    "reviewer": "claude",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.95,
+    "issues": "",
+    "content_hash": "e58376435bfe"
+   },
+   {
+    "reviewer": "gpt",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 0.99,
+    "issues": "",
+    "content_hash": "e58376435bfe"
+   },
+   {
+    "reviewer": "agy",
+    "at": "2026-11-17T09:12:59",
+    "answer": "D",
+    "key": "D",
+    "agree": true,
+    "ambiguous": false,
+    "confidence": 1.0,
+    "issues": "",
+    "content_hash": "e58376435bfe"
+   }
+  ],
   "explain_status": "flagged"
  },
  {

@@ -12181,5 +12181,565 @@
    "issues": "",
    "content_hash": "6a1d59355d6d"
   }
+ ],
+ "p6-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "94322261e078"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "94322261e078"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "94322261e078"
+  }
+ ],
+ "p6-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "aceb76eb8ec4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "aceb76eb8ec4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "aceb76eb8ec4"
+  }
+ ],
+ "p6-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "d10493ba4ad5"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.94,
+   "issues": "Dが最適だが、enter the buildingでは階段を使う目的が不正確で、that dayは停止時間外も含む表現。Anyone who needs to move between floors during this time will have to use the stairs.とすると明確。",
+   "content_hash": "d10493ba4ad5"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "正解はDで一意に決まるが、建物に入る（enter the building）だけであれば必ずしも階段を使う必要はないため、\"access upper floors\" などのほうが論理的に自然。",
+   "content_hash": "d10493ba4ad5"
+  }
+ ],
+ "p6-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "c211da88189b"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "c211da88189b"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "c211da88189b"
+  }
+ ],
+ "p6-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "577c7bdb2952"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "577c7bdb2952"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "577c7bdb2952"
+  }
+ ],
+ "p6-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "36e76b672918"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "36e76b672918"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "36e76b672918"
+  }
+ ],
+ "p6-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "77b1be85e1f0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "77b1be85e1f0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "77b1be85e1f0"
+  }
+ ],
+ "p6-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "d80aac0b7d4f"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.98,
+   "issues": "",
+   "content_hash": "d80aac0b7d4f"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d80aac0b7d4f"
+  }
+ ],
+ "p6-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "49a8b6141dec"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "49a8b6141dec"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "49a8b6141dec"
+  }
+ ],
+ "p6-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "5c2304a6f512"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "5c2304a6f512"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "5c2304a6f512"
+  }
+ ],
+ "p6-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "748bf103a126"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "748bf103a126"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "748bf103a126"
+  }
+ ],
+ "p6-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "6075ed4c5497"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "6075ed4c5497"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6075ed4c5497"
+  }
+ ],
+ "p6-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "d3dafbe635f8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "d3dafbe635f8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "A",
+   "key": "A",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "d3dafbe635f8"
+  }
+ ],
+ "p6-0034": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.9,
+   "issues": "",
+   "content_hash": "6881bd09336c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.97,
+   "issues": "",
+   "content_hash": "6881bd09336c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "C",
+   "key": "C",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "6881bd09336c"
+  }
+ ],
+ "p6-0035": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "fa7f0400954c"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "fa7f0400954c"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "B",
+   "key": "B",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "fa7f0400954c"
+  }
+ ],
+ "p6-0036": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.95,
+   "issues": "",
+   "content_hash": "e58376435bfe"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 0.99,
+   "issues": "",
+   "content_hash": "e58376435bfe"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:59",
+   "answer": "D",
+   "key": "D",
+   "agree": true,
+   "ambiguous": false,
+   "confidence": 1.0,
+   "issues": "",
+   "content_hash": "e58376435bfe"
+  }
  ]
 }
