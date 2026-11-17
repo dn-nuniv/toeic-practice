@@ -9042,5 +9042,421 @@
    "fix": "",
    "explain_hash": "07d797b640b9"
   }
+ ],
+ "p6-0021": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c6cf8a604a84"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c6cf8a604a84"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "c6cf8a604a84"
+  }
+ ],
+ "p6-0022": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ac97cc1ebd1"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ac97cc1ebd1"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3ac97cc1ebd1"
+  }
+ ],
+ "p6-0023": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d3456039e314"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d3456039e314"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "d3456039e314"
+  }
+ ],
+ "p6-0024": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b678d01f32e0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b678d01f32e0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "b678d01f32e0"
+  }
+ ],
+ "p6-0025": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ad22c748fea3"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ad22c748fea3"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "ad22c748fea3"
+  }
+ ],
+ "p6-0026": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7c615309d4ee"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "本文訳・設問訳・正解の理由にある「5月15日までに／までの登録」は、before May 15 の訳として不正確です。原文は5月15日を含みません。また、(C)の「条件の話ではない」は、後文に登録期限の条件があるため不正確です。",
+   "fix": "期限を「5月15日より前に」または「5月14日までに」に統一する。(C)は「前の特典を受けない場合の結果を述べているわけではない」とする。",
+   "explain_hash": "7c615309d4ee"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "7c615309d4ee"
+  }
+ ],
+ "p6-0027": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f68a8908c1ac"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "(D)の「名詞の前に置いて使うのがふつう」を不正解の理由にすると、numerous は補語として使えないという誤解を招きます。be numerous のような用法もあります（[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/numerous)）。",
+   "fix": "(D)は「『数が多い』という意味で、どの体力レベルの人にも適しているという文脈に合わない」とし、位置に関する説明を削除する。",
+   "explain_hash": "f68a8908c1ac"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "f68a8908c1ac"
+  }
+ ],
+ "p6-0028": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "37ff5a5ad5af"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "37ff5a5ad5af"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "37ff5a5ad5af"
+  }
+ ],
+ "p6-0029": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f385f244811"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f385f244811"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3f385f244811"
+  }
+ ],
+ "p6-0030": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b8cf2608008"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b8cf2608008"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2b8cf2608008"
+  }
+ ],
+ "p6-0031": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2c6c8b6933e8"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2c6c8b6933e8"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "2c6c8b6933e8"
+  }
+ ],
+ "p6-0032": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "informative のコメントの訳語「役に立つ」がずれている。informative の中心の意味は「情報が多い・有益な」で、「役に立つ」は useful の訳に近い。",
+   "fix": "「形容詞「有益な・情報の多い」。主語になる名詞の位置には入らない」とする",
+   "explain_hash": "3498a9e89ca0"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3498a9e89ca0"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "3498a9e89ca0"
+  }
+ ],
+ "p6-0033": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e82195593e6a"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "(D)の「在庫切れを待ち望んでいたような意味」は不正確です。finally は、望ましくない結果にも使え、待ち望んでいたことを必ずしも表しません。",
+   "fix": "「finally は『ついに』と、それまでの経緯を経た結果を表す。ここでは単に現在の在庫状況を知らせており、そのような経緯は示されていない」とする。",
+   "explain_hash": "e82195593e6a"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "e82195593e6a"
+  }
+ ],
+ "p6-0034": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f672165c18e"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f672165c18e"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "5f672165c18e"
+  }
+ ],
+ "p6-0035": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "4c5692db2bb7"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "本文訳と(B)の訳「それまで待たないほうがよいと考える」は、prefer が表す希望・意向を、適否の判断に変えています。また、(D)の「まだ届いていない品について『楽しんでほしい』は合わず」は誤りです。到着前でも、将来使って楽しんでもらうことを願えます。本文訳の「10月25日までに」も、before October 25 が25日を含まない点を正確に表していません。",
+   "fix": "(B)と対応する本文訳を「それまでお待ちになりたくないかもしれません」とする。(D)は「直後の If so が受ける、注文取り消しの条件を示していない」とする。返信期限は「10月25日より前に」または「10月24日までに」とする。",
+   "explain_hash": "4c5692db2bb7"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "本文の訳および選択肢(B)の訳で、You may prefer not to wait until then. が「それまで待たないほうがよいとお考えかもしれません」「それまで待たないほうがよいと考えるかもしれない」となっている。prefer not to wait は「待ちたくない／待たないでおきたい」という希望・意向を表す表現であり、「〜ないほうがよい（should not / had better not）」のニュアンスにずれている（選択肢(B)のコメントや正解の理由では「待ちたくない」と訳されており、訳との間に食い違いもある）。",
+   "fix": "本文の訳を「［それまでお待ちになりたくないとお考えかもしれません。］」（または「［それまで待ちたくないとお考えかもしれません。］」）、選択肢(B)の訳を「〔訳〕それまで待ちたくないとお考えかもしれない。」（または「それまで待ちたくないかもしれない。」）に直す。",
+   "explain_hash": "4c5692db2bb7"
+  }
+ ],
+ "p6-0036": [
+  {
+   "reviewer": "claude",
+   "at": "2026-11-17T09:12:51",
+   "ok": false,
+   "issues": "TOEIC のポイントの「所有格の後は名詞」は言い過ぎ。所有格の後に形容詞＋名詞が来ることもある（同じ本文の選択肢にも your new lamp がある）。選択肢 understandable のコメントは「後ろに名詞がない」と正しく書いているので、ポイントの書き方と食い違う。",
+   "fix": "「所有格の後で、後ろに名詞が続かない空欄には名詞が入る」とする",
+   "explain_hash": "6fedfd2a42e4"
+  },
+  {
+   "reviewer": "gpt",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6fedfd2a42e4"
+  },
+  {
+   "reviewer": "agy",
+   "at": "2026-11-17T09:12:51",
+   "ok": true,
+   "issues": "",
+   "fix": "",
+   "explain_hash": "6fedfd2a42e4"
+  }
  ]
 }
