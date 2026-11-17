@@ -1,0 +1,416 @@
+{
+ "batch": "2026-11-16-p6-b",
+ "source": "2026-11-16 / part6 batch b",
+ "note": "Part 6 の第2弾4セット16問（メール2・広告・記事。各セット文挿入1問）",
+ "sets": [
+  {
+   "id": "p6-s006",
+   "kind": "email",
+   "scene": "facilities",
+   "passages": [
+    {
+     "type": "email",
+     "header": {
+      "To": "All Tenants, Lakeview Plaza",
+      "From": "Marcus Bell <mbell@lakeviewplaza.example>",
+      "Date": "April 8",
+      "Subject": "Elevator maintenance"
+     },
+     "text": "Dear Tenants,\n\nPlease be advised that the elevators in Lakeview Plaza [1] from 8:00 A.M. to 4:00 P.M. on Saturday, April 13. During this time, technicians will replace several worn parts and test the safety systems.\n\nWe understand that this may cause some [2] for those of you who plan to work on the weekend. [3] The stairways at the north and south ends of the building will remain open throughout the day.\n\nIf you are expecting a large delivery that Saturday, please contact the management office by Thursday so that we can [4] a different time with the delivery company.\n\nWe appreciate your cooperation.\n\nMarcus Bell\nBuilding Management"
+    }
+   ],
+   "translation_ja": "宛先：レイクビュー・プラザのテナントの皆さま／差出人：マーカス・ベル／日付：4月8日／件名：エレベーターの点検\nテナントの皆さま\n4月13日（土）の午前8時から午後4時まで、レイクビュー・プラザのエレベーターを停止しますのでお知らせします。この間、技術者がいくつかの摩耗した部品を交換し、安全装置を点検します。\n週末に仕事をする予定の方には、ご不便をおかけするかもしれません。［当日ビルに入る必要のある方は、階段を使っていただくことになります。］ビルの北端と南端の階段は終日使えます。\nその土曜日に大きな配達を予定している方は、配送業者と別の時間を調整できるよう、木曜日までに管理事務所にご連絡ください。\nご協力に感謝いたします。\nビル管理　マーカス・ベル",
+   "questions": [
+    {
+     "id": "p6-0021",
+     "type": "grammar.tense",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["were shut down", "have been shut down", "will be shut down", "had been shut down"],
+     "answer": "c",
+     "explanation_ja": "メールは4月8日付で、点検の4月13日（土）はこれから先のことなので、未来の受動態 will be shut down が入る。後ろの During this time, technicians will replace ～ も未来の話。",
+     "translation_ja": "（空欄1）4月13日（土）の午前8時から午後4時まで、エレベーターを停止する。",
+     "option_notes_ja": [
+      "過去の受動態。点検はまだ行われていない",
+      "現在完了の受動態。これから先の予定には合わない",
+      "未来の受動態。メールの日付（4月8日）から見て、4月13日はこれから先",
+      "過去完了の受動態。意味が合わない"
+     ],
+     "point_ja": "Part 6 では、メールの日付と本文中の日付・曜日を比べて時制を決める。前後の文の時制（ここでは will replace）も手がかりになる。"
+    },
+    {
+     "id": "p6-0022",
+     "type": "vocab.collocation",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": ["inconvenience", "improvement", "attendance", "permission"],
+     "answer": "a",
+     "explanation_ja": "cause some inconvenience で「不便をかける」。エレベーターが止まると週末に働く人が困る、という流れに合う。",
+     "translation_ja": "（空欄2）週末に仕事をする予定の人には、不便をかけるかもしれない。",
+     "translation_options_ja": ["不便", "改善", "出席", "許可"],
+     "option_notes_ja": [
+      "「不便」。cause inconvenience で「不便をかける」",
+      "「改善」。エレベーターの停止が週末に働く人にもたらすものとして合わない",
+      "「出席」。意味が合わない",
+      "「許可」。意味が合わない"
+     ],
+     "point_ja": "cause inconvenience（不便をかける）・apologize for any inconvenience（ご不便をおわびする）は、工事や遅延のお知らせの決まり文句。"
+    },
+    {
+     "id": "p6-0023",
+     "type": "text.insertion",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": [
+      "The elevators will not be available again until Monday morning.",
+      "Parking in the underground garage is free on weekends.",
+      "Please submit your rent payment by the end of the month.",
+      "Anyone who needs to enter the building that day will have to use the stairs."
+     ],
+     "answer": "d",
+     "explanation_ja": "直後の The stairways ... will remain open throughout the day（階段は終日使える）につながるよう、階段を使う必要があると述べる文が入る。",
+     "translation_ja": "（空欄3）文挿入問題",
+     "translation_options_ja": [
+      "エレベーターは月曜日の朝まで使えない。",
+      "地下駐車場は週末は無料だ。",
+      "家賃は月末までに支払ってほしい。",
+      "当日ビルに入る必要のある人は、階段を使わなければならない。"
+     ],
+     "option_notes_ja": [
+      "停止は土曜の午後4時までと書かれていて、月曜の朝まで使えないという内容は本文と食い違う",
+      "駐車場の話は、エレベーターの停止と階段の案内の流れに合わない",
+      "家賃の支払いの話は、この段落の流れと関係がない",
+      "直後の「北端と南端の階段は終日使える」につながる。エレベーターが止まるので階段を使う、という流れ"
+     ],
+     "point_ja": "文挿入問題は、空欄の前後の文とのつながりを確かめる。直後の文が何を前提にしているか（ここでは「階段を使う」こと）を考える。"
+    },
+    {
+     "id": "p6-0024",
+     "type": "vocab.verb",
+     "scene": "facilities",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["attend", "arrange", "afford", "admit"],
+     "answer": "b",
+     "explanation_ja": "arrange a time で「時間を調整する」。配送業者と別の時間を決める、という意味に合う。",
+     "translation_ja": "（空欄4）配送業者と別の時間を調整できるよう、木曜日までに連絡してほしい。",
+     "translation_options_ja": ["出席する", "調整する・手配する", "余裕がある", "認める・入れる"],
+     "option_notes_ja": [
+      "「出席する」。time を目的語にとって「時間を決める」の意味にはならない",
+      "「調整する・手配する」。arrange a different time with ～ で「～と別の時間を調整する」",
+      "「（費用・時間の）余裕がある」。with the delivery company とつながらず、意味が合わない",
+      "「認める・入れる」。意味が合わない"
+     ],
+     "point_ja": "arrange は「手配する・調整する」。arrange a meeting・arrange for a delivery など、予定や配送の話でよく出る。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s007",
+   "kind": "advertisement",
+   "scene": "fitness",
+   "passages": [
+    {
+     "type": "advertisement",
+     "title": "Ridgeway Fitness: New Studio Opening May 1",
+     "text": "Ridgeway Fitness is opening a second studio on Carver Avenue on May 1. The new studio is twice the size of our original one on Hill Street and is [1] equipped with the latest exercise machines. It also has a swimming pool and a sauna.\n\nTo celebrate the opening, we are offering new members three months of classes at half price. [2], anyone who signs up before May 15 will receive a free fitness assessment with one of our certified trainers.\n\nAll of our group classes are [3] for people of every fitness level, from complete beginners to experienced athletes. [4]\n\nVisit www.ridgewayfitness.example to see the full class schedule and to register online."
+    }
+   ],
+   "translation_ja": "リッジウェイ・フィットネス：5月1日に新スタジオがオープン\nリッジウェイ・フィットネスは、5月1日にカーバー通りに2つ目のスタジオを開きます。新しいスタジオはヒル通りの最初のスタジオの2倍の広さで、最新の運動器具を完備しています。プールとサウナもあります。\nオープンを記念して、新規会員の方は3か月間レッスンが半額になります。さらに、5月15日までにご登録の方は、認定トレーナーによる体力測定を無料で受けられます。\nグループレッスンはすべて、まったくの初心者から経験豊富なアスリートまで、どの体力レベルの方にも適しています。［インストラクターが、どの運動もあなたの能力に合わせて喜んで調整します。］\nレッスンの全日程の確認とオンラインでのご登録は、www.ridgewayfitness.example へ。",
+   "questions": [
+    {
+     "id": "p6-0025",
+     "type": "grammar.part_of_speech",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["full", "fully", "fuller", "fullness"],
+     "answer": "b",
+     "explanation_ja": "受動態 is equipped（備えられている）の間で、過去分詞 equipped を修飾する副詞 fully（完全に）が入る。",
+     "translation_ja": "（空欄1）新しいスタジオは最新の運動器具を完備している。",
+     "option_notes_ja": [
+      "形容詞。過去分詞 equipped を修飾できない",
+      "副詞。is fully equipped で「設備が完全に整っている」",
+      "形容詞の比較級。過去分詞 equipped を修飾できない",
+      "名詞「満ちていること」。be 動詞と過去分詞の間には入らない"
+     ],
+     "point_ja": "be 動詞と過去分詞の間（is fully equipped、was carefully reviewed）の空欄は、過去分詞を修飾する副詞が入ることが多い。"
+    },
+    {
+     "id": "p6-0026",
+     "type": "grammar.connector",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": ["However", "Instead", "Otherwise", "In addition"],
+     "answer": "d",
+     "explanation_ja": "前の文の「3か月間レッスンが半額」に、「5月15日までの登録で体力測定が無料」という特典を付け加えているので In addition（さらに）が入る。",
+     "translation_ja": "（空欄2）さらに、5月15日までに登録した人は、無料の体力測定を受けられる。",
+     "translation_options_ja": ["しかし", "その代わりに", "そうでなければ", "さらに"],
+     "option_notes_ja": [
+      "「しかし」。前の特典と反対の内容ではない",
+      "「その代わりに」。半額の特典を取りやめて別のものを出す話ではない",
+      "「そうでなければ」。条件の話ではない",
+      "「さらに」。半額の特典に、2つ目の特典を付け加える"
+     ],
+     "point_ja": "つなぎの言葉の問題は、前後の文の関係（追加・逆接・代わり・結果）を確かめる。追加は In addition・Also・Furthermore・Moreover。"
+    },
+    {
+     "id": "p6-0027",
+     "type": "vocab.adjective",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["suitable", "dependent", "accurate", "numerous"],
+     "answer": "a",
+     "explanation_ja": "be suitable for ～ で「～に適している」。初心者から経験者まで、どのレベルの人にも合う、という意味になる。",
+     "translation_ja": "（空欄3）グループレッスンはすべて、どの体力レベルの人にも適している。",
+     "translation_options_ja": ["適した", "頼っている", "正確な", "多数の"],
+     "option_notes_ja": [
+      "「適した」。be suitable for ～ で「～に向いている」",
+      "「頼っている」。dependent on ～ の形で使い、意味も合わない",
+      "「正確な」。意味が合わない",
+      "「多数の」。名詞の前に置いて使うのがふつうで、意味も合わない"
+     ],
+     "point_ja": "suitable for ～（～に適した）。appropriate for ～・ideal for ～ も同じ形で、案内や広告によく出る。"
+    },
+    {
+     "id": "p6-0028",
+     "type": "text.insertion",
+     "scene": "fitness",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": [
+      "The Hill Street studio will close permanently at the end of April.",
+      "Swimming lessons for children are not offered at this time.",
+      "Our instructors are happy to adjust any exercise to match your ability.",
+      "Membership fees must be paid in cash at the front desk."
+     ],
+     "answer": "c",
+     "explanation_ja": "直前の「初心者から経験者まで、どのレベルの人にも適している」を受けて、運動をそれぞれの能力に合わせて調整する、と具体的に補う文が入る。",
+     "translation_ja": "（空欄4）文挿入問題",
+     "translation_options_ja": [
+      "ヒル通りのスタジオは4月末で閉店する。",
+      "子ども向けの水泳教室は今のところ行っていない。",
+      "インストラクターは、どの運動もあなたの能力に合わせて喜んで調整する。",
+      "会費は受付で現金で支払う必要がある。"
+     ],
+     "option_notes_ja": [
+      "スタジオの閉店の話は、直前のレッスンのレベルの話とつながらない",
+      "プールの話で、直前の「どのレベルの人にも適している」とつながらない",
+      "直前の「どのレベルの人にも適している」を、インストラクターが能力に合わせて調整する、と具体的に補う",
+      "支払い方法の話は、レッスンのレベルを説明する段落に合わない"
+     ],
+     "point_ja": "文挿入問題は、空欄の直前の文を具体的に説明する文（例・詳しい説明）が正解になることが多い。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s008",
+   "kind": "article",
+   "scene": "travel",
+   "passages": [
+    {
+     "type": "article",
+     "title": "Bike-Share Program Comes to Portville",
+     "text": "PORTVILLE (September 3) — Starting next month, residents and visitors will be able to rent bicycles from twenty stations around downtown Portville. The program, which [1] by the city council in June, is part of an effort to reduce traffic in the city center.\n\nUsers can pick up a bike at any station and return it to any other station. [2] The first thirty minutes of each ride will be free, and after that the charge will be one dollar for every fifteen minutes.\n\nCity officials expect the program to be popular with commuters. [3], some downtown business owners worry that the new stations will take up parking spaces.\n\nResidents who would like to learn more can attend an information session at City Hall on September 20. More [4] is available on the city's Web site."
+    }
+   ],
+   "translation_ja": "ポートビルに自転車シェアの制度\nポートビル（9月3日）―来月から、住民や旅行者は、ポートビル中心部の20か所のステーションで自転車を借りられるようになる。6月に市議会で承認されたこの制度は、市の中心部の交通量を減らす取り組みの一環だ。\n利用者はどのステーションでも自転車を借りることができ、ほかのどのステーションに返してもよい。［支払いは、スマートフォンのアプリか、各ステーションでクレジットカードでできる。］1回の利用につき最初の30分は無料で、その後は15分ごとに1ドルかかる。\n市の職員は、この制度が通勤者に人気が出ると見込んでいる。しかし、新しいステーションが駐車スペースをふさぐのではないかと心配する中心部の店主もいる。\n詳しく知りたい住民は、9月20日に市役所で開かれる説明会に参加できる。詳しい情報は市のウェブサイトで見られる。",
+   "questions": [
+    {
+     "id": "p6-0029",
+     "type": "grammar.passive",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["approved", "has been approved", "is approving", "was approved"],
+     "answer": "d",
+     "explanation_ja": "The program（この制度）は市議会に「承認された」側で、by the city council と in June（6月に＝過去の時点）があるので、過去の受動態 was approved が入る。",
+     "translation_ja": "（空欄1）6月に市議会で承認されたこの制度は、市の中心部の交通量を減らす取り組みの一環だ。",
+     "option_notes_ja": [
+      "能動態の過去形。which の後の動詞として読むと、制度が何かを承認したことになり、by ～ とも合わない",
+      "現在完了の受動態。in June のような過去の時点を表す語句とは、ふつう一緒に使わない",
+      "現在進行形の能動態。制度が承認する側になり、in June とも合わない",
+      "過去の受動態。in June の出来事で、by the city council（市議会によって）と合う"
+     ],
+     "point_ja": "主語が「される」側で by ～ があれば受動態。時制は in June・last year などの語句で決める。"
+    },
+    {
+     "id": "p6-0030",
+     "type": "text.insertion",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": [
+      "Bicycles must be returned to the station where they were rented.",
+      "Payment can be made with a smartphone app or by credit card at each station.",
+      "The city council meets on the first Monday of each month.",
+      "Parking fees downtown will be lowered next year."
+     ],
+     "answer": "b",
+     "explanation_ja": "前の文は自転車の借り方・返し方、後ろの文は料金。その間に支払い方法を述べる文を入れると、使い方から料金への流れが自然になる。",
+     "translation_ja": "（空欄2）文挿入問題",
+     "translation_options_ja": [
+      "自転車は借りたステーションに返さなければならない。",
+      "支払いは、スマートフォンのアプリか、各ステーションでクレジットカードでできる。",
+      "市議会は毎月第1月曜日に開かれる。",
+      "中心部の駐車料金は来年引き下げられる。"
+     ],
+     "option_notes_ja": [
+      "直前の「ほかのどのステーションに返してもよい」と食い違う",
+      "借り方・返し方の後に支払い方法を述べ、後ろの料金の説明につながる",
+      "市議会の開催日の話は、自転車の使い方の段落と関係がない",
+      "駐車料金の話は、自転車の使い方と料金を説明する段落の流れに合わない"
+     ],
+     "point_ja": "文挿入問題は、前の文と後ろの文の両方につながるかを確かめる。本文と食い違う選択肢（ここでは「借りた場所に返す」）は、まず外せる。"
+    },
+    {
+     "id": "p6-0031",
+     "type": "grammar.connector",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": ["Therefore", "Similarly", "However", "For example"],
+     "answer": "c",
+     "explanation_ja": "前の文は「通勤者に人気が出る」という期待、後ろの文は「駐車スペースが減る」という心配。反対の方向の内容をつなぐので However（しかし）が入る。",
+     "translation_ja": "（空欄3）しかし、新しいステーションが駐車スペースをふさぐのではないかと心配する店主もいる。",
+     "translation_options_ja": ["したがって", "同様に", "しかし", "たとえば"],
+     "option_notes_ja": [
+      "「したがって」。通勤者に人気が出ることは、店主が心配する理由にならない",
+      "「同様に」。期待と心配は同じ方向の内容ではない",
+      "「しかし」。期待と心配という反対の方向の内容をつなぐ",
+      "「たとえば」。店主の心配は、通勤者に人気が出ることの例ではない"
+     ],
+     "point_ja": "However は、前の内容と反対・対立する内容を続ける。Therefore（結果）・Similarly（同様）・For example（例）との違いを、前後の文の関係で判断する。"
+    },
+    {
+     "id": "p6-0032",
+     "type": "grammar.part_of_speech",
+     "scene": "travel",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["information", "informative", "inform", "informed"],
+     "answer": "a",
+     "explanation_ja": "More の後で、is available の主語になる名詞 information（情報）が入る。動詞が is なので、数えられない名詞 information と合う。",
+     "translation_ja": "（空欄4）詳しい情報は市のウェブサイトで見られる。",
+     "option_notes_ja": [
+      "名詞「情報」。More information is available で「詳しい情報は～で見られる」",
+      "形容詞「役に立つ」。主語になる名詞の位置には入らない",
+      "動詞の原形。主語の位置には入らない",
+      "過去形・過去分詞。主語の位置には入らない"
+     ],
+     "point_ja": "More information is available at / on ～（詳しくは～へ）は、お知らせや記事の結びの決まり文句。information は数えられない名詞。"
+    }
+   ]
+  },
+  {
+   "id": "p6-s009",
+   "kind": "email",
+   "scene": "customer.service",
+   "passages": [
+    {
+     "type": "email",
+     "header": {
+      "To": "Kenji Mori <kmori@mailbox.example>",
+      "From": "Brightline Home Goods <care@brightline.example>",
+      "Date": "October 21",
+      "Subject": "Your order #48213"
+     },
+     "text": "Dear Mr. Mori,\n\nThank you for your recent order. Unfortunately, the reading lamp you ordered is [1] out of stock. Our supplier has informed us that a new shipment will arrive at our warehouse on October 28.\n\nWe will send the lamp to you as soon as it arrives. [2] the delay, we have applied a 15 percent discount to your order. The discount will appear on your credit card statement within five business days.\n\n[3] If so, please reply to this e-mail before October 25, and we will cancel your order and refund the full amount.\n\nWe apologize for the trouble, and thank you for your [4].\n\nSincerely,\nCustomer Care Team\nBrightline Home Goods"
+    }
+   ],
+   "translation_ja": "宛先：ケンジ・モリ／差出人：ブライトライン・ホームグッズ／日付：10月21日／件名：ご注文番号48213\nモリ様\nこのたびはご注文いただきありがとうございます。あいにく、ご注文の読書灯は現在在庫切れです。仕入れ先からは、10月28日に新しい品が当社の倉庫に届くと連絡がありました。\n入荷しだい、読書灯をお送りします。お届けが遅れるため、ご注文を15パーセント割り引きました。割引は5営業日以内にクレジットカードの明細に反映されます。\n［それまで待たないほうがよいとお考えかもしれません。］その場合は、10月25日までにこのメールにご返信ください。ご注文を取り消し、全額を返金いたします。\nご迷惑をおかけして申し訳ありません。ご理解に感謝いたします。\nブライトライン・ホームグッズ　カスタマーケアチーム",
+   "questions": [
+    {
+     "id": "p6-0033",
+     "type": "vocab.adverb",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "[1]",
+     "options": ["currently", "formerly", "lately", "finally"],
+     "answer": "a",
+     "explanation_ja": "is ... out of stock（在庫切れだ）と今の状態を述べ、次の文で新しい品が10月28日に届くと言っているので、currently（現在）が入る。",
+     "translation_ja": "（空欄1）注文の読書灯は現在在庫切れだ。",
+     "translation_options_ja": ["現在", "以前は", "最近", "ついに"],
+     "option_notes_ja": [
+      "「現在」。今は在庫がなく、28日に入荷する、という流れに合う",
+      "「以前は」。今は在庫切れでなくなったことになり、次の文の入荷待ちと合わない",
+      "「最近」。ふつう現在完了とともに使い、ここでは意味もずれる",
+      "「ついに」。在庫切れを待ち望んでいたような意味になり、合わない"
+     ],
+     "point_ja": "currently（現在）は、in stock / out of stock / available / unavailable と一緒によく出る。"
+    },
+    {
+     "id": "p6-0034",
+     "type": "grammar.preposition_vs_conjunction",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "[2]",
+     "options": ["Because", "Although", "Because of", "Despite"],
+     "answer": "c",
+     "explanation_ja": "後ろが the delay という名詞なので、前置詞のはたらきをする Because of（～のため）が入る。遅れが割引の理由になっている。",
+     "translation_ja": "（空欄2）届くのが遅れるため、注文を15パーセント割り引いた。",
+     "translation_options_ja": ["～なので（接続詞）", "～だけれども（接続詞）", "～のため（前置詞）", "～にもかかわらず（前置詞）"],
+     "option_notes_ja": [
+      "接続詞。後ろには主語＋動詞が来るのが基本で、名詞だけは続かない",
+      "接続詞「～だけれども」。後ろには主語＋動詞が来るのが基本で、意味も合わない",
+      "「～のため」。後ろに名詞 the delay を続け、割引の理由を表す",
+      "前置詞「～にもかかわらず」。名詞は続けられるが、「遅れたのに割り引く」という逆の意味になり合わない"
+     ],
+     "point_ja": "理由は、後ろが名詞なら because of / due to、主語＋動詞なら because。形と意味の両方で選ぶ。"
+    },
+    {
+     "id": "p6-0035",
+     "type": "text.insertion",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "[3]",
+     "options": [
+      "Your order was shipped on October 20.",
+      "You may prefer not to wait until then.",
+      "The lamp is one of our best-selling products.",
+      "We hope you enjoy your new lamp."
+     ],
+     "answer": "b",
+     "explanation_ja": "直後の If so（もしそうなら）は、注文を取り消す条件になる内容を受けている。「それまで待ちたくないかもしれない」という文が入ると、「その場合は取り消して全額を返金する」とつながる。",
+     "translation_ja": "（空欄3）文挿入問題",
+     "translation_options_ja": [
+      "注文の品は10月20日に発送した。",
+      "それまで待たないほうがよいと考えるかもしれない。",
+      "その読書灯は当社の人気商品の1つだ。",
+      "新しい読書灯を楽しんでほしい。"
+     ],
+     "option_notes_ja": [
+      "在庫切れで入荷待ちという本文の内容と食い違う",
+      "直後の If so（もしそうなら）が受ける内容。待ちたくない場合は取り消せる、とつながる",
+      "人気商品だという話は、直後の If so（取り消しの条件）につながらない",
+      "まだ届いていない品について「楽しんでほしい」は合わず、直後の取り消しの話にもつながらない"
+     ],
+     "point_ja": "If so・If not・In that case で始まる文の前には、その条件になる内容が必要。"
+    },
+    {
+     "id": "p6-0036",
+     "type": "grammar.part_of_speech",
+     "scene": "customer.service",
+     "level": "B1",
+     "prompt": "[4]",
+     "options": ["understand", "understood", "understandable", "understanding"],
+     "answer": "d",
+     "explanation_ja": "所有格 your の後で、前置詞 for の目的語になる名詞 understanding（理解）が入る。thank you for your understanding は決まった言い方。",
+     "translation_ja": "（空欄4）理解に感謝する。",
+     "option_notes_ja": [
+      "動詞の原形。所有格の後には置けない",
+      "過去形・過去分詞。所有格の後で名詞の役割はできない",
+      "形容詞「もっともな」。後ろに名詞がなく、名詞が要る位置なので入らない",
+      "名詞「理解」。thank you for your understanding で「ご理解に感謝します」"
+     ],
+     "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後は名詞。"
+    }
+   ]
+  }
+ ]
+}

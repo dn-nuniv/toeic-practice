@@ -1186,6 +1186,120 @@
   "source": "2026-11-16 / part6 batch a"
  },
  {
+  "id": "p6-s006",
+  "part": 6,
+  "kind": "email",
+  "scene": "facilities",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "email",
+    "header": {
+     "To": "All Tenants, Lakeview Plaza",
+     "From": "Marcus Bell <mbell@lakeviewplaza.example>",
+     "Date": "April 8",
+     "Subject": "Elevator maintenance"
+    },
+    "text": "Dear Tenants,\n\nPlease be advised that the elevators in Lakeview Plaza [1] from 8:00 A.M. to 4:00 P.M. on Saturday, April 13. During this time, technicians will replace several worn parts and test the safety systems.\n\nWe understand that this may cause some [2] for those of you who plan to work on the weekend. [3] The stairways at the north and south ends of the building will remain open throughout the day.\n\nIf you are expecting a large delivery that Saturday, please contact the management office by Thursday so that we can [4] a different time with the delivery company.\n\nWe appreciate your cooperation.\n\nMarcus Bell\nBuilding Management"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0021",
+   "p6-0022",
+   "p6-0023",
+   "p6-0024"
+  ],
+  "translation_ja": "宛先：レイクビュー・プラザのテナントの皆さま／差出人：マーカス・ベル／日付：4月8日／件名：エレベーターの点検\nテナントの皆さま\n4月13日（土）の午前8時から午後4時まで、レイクビュー・プラザのエレベーターを停止しますのでお知らせします。この間、技術者がいくつかの摩耗した部品を交換し、安全装置を点検します。\n週末に仕事をする予定の方には、ご不便をおかけするかもしれません。［当日ビルに入る必要のある方は、階段を使っていただくことになります。］ビルの北端と南端の階段は終日使えます。\nその土曜日に大きな配達を予定している方は、配送業者と別の時間を調整できるよう、木曜日までに管理事務所にご連絡ください。\nご協力に感謝いたします。\nビル管理　マーカス・ベル",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch b"
+ },
+ {
+  "id": "p6-s007",
+  "part": 6,
+  "kind": "advertisement",
+  "scene": "fitness",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Ridgeway Fitness: New Studio Opening May 1",
+    "text": "Ridgeway Fitness is opening a second studio on Carver Avenue on May 1. The new studio is twice the size of our original one on Hill Street and is [1] equipped with the latest exercise machines. It also has a swimming pool and a sauna.\n\nTo celebrate the opening, we are offering new members three months of classes at half price. [2], anyone who signs up before May 15 will receive a free fitness assessment with one of our certified trainers.\n\nAll of our group classes are [3] for people of every fitness level, from complete beginners to experienced athletes. [4]\n\nVisit www.ridgewayfitness.example to see the full class schedule and to register online."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0025",
+   "p6-0026",
+   "p6-0027",
+   "p6-0028"
+  ],
+  "translation_ja": "リッジウェイ・フィットネス：5月1日に新スタジオがオープン\nリッジウェイ・フィットネスは、5月1日にカーバー通りに2つ目のスタジオを開きます。新しいスタジオはヒル通りの最初のスタジオの2倍の広さで、最新の運動器具を完備しています。プールとサウナもあります。\nオープンを記念して、新規会員の方は3か月間レッスンが半額になります。さらに、5月15日までにご登録の方は、認定トレーナーによる体力測定を無料で受けられます。\nグループレッスンはすべて、まったくの初心者から経験豊富なアスリートまで、どの体力レベルの方にも適しています。［インストラクターが、どの運動もあなたの能力に合わせて喜んで調整します。］\nレッスンの全日程の確認とオンラインでのご登録は、www.ridgewayfitness.example へ。",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch b"
+ },
+ {
+  "id": "p6-s008",
+  "part": 6,
+  "kind": "article",
+  "scene": "travel",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "article",
+    "title": "Bike-Share Program Comes to Portville",
+    "text": "PORTVILLE (September 3) — Starting next month, residents and visitors will be able to rent bicycles from twenty stations around downtown Portville. The program, which [1] by the city council in June, is part of an effort to reduce traffic in the city center.\n\nUsers can pick up a bike at any station and return it to any other station. [2] The first thirty minutes of each ride will be free, and after that the charge will be one dollar for every fifteen minutes.\n\nCity officials expect the program to be popular with commuters. [3], some downtown business owners worry that the new stations will take up parking spaces.\n\nResidents who would like to learn more can attend an information session at City Hall on September 20. More [4] is available on the city's Web site."
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0029",
+   "p6-0030",
+   "p6-0031",
+   "p6-0032"
+  ],
+  "translation_ja": "ポートビルに自転車シェアの制度\nポートビル（9月3日）―来月から、住民や旅行者は、ポートビル中心部の20か所のステーションで自転車を借りられるようになる。6月に市議会で承認されたこの制度は、市の中心部の交通量を減らす取り組みの一環だ。\n利用者はどのステーションでも自転車を借りることができ、ほかのどのステーションに返してもよい。［支払いは、スマートフォンのアプリか、各ステーションでクレジットカードでできる。］1回の利用につき最初の30分は無料で、その後は15分ごとに1ドルかかる。\n市の職員は、この制度が通勤者に人気が出ると見込んでいる。しかし、新しいステーションが駐車スペースをふさぐのではないかと心配する中心部の店主もいる。\n詳しく知りたい住民は、9月20日に市役所で開かれる説明会に参加できる。詳しい情報は市のウェブサイトで見られる。",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch b"
+ },
+ {
+  "id": "p6-s009",
+  "part": 6,
+  "kind": "email",
+  "scene": "customer.service",
+  "speakers": [],
+  "segments": [],
+  "passages": [
+   {
+    "type": "email",
+    "header": {
+     "To": "Kenji Mori <kmori@mailbox.example>",
+     "From": "Brightline Home Goods <care@brightline.example>",
+     "Date": "October 21",
+     "Subject": "Your order #48213"
+    },
+    "text": "Dear Mr. Mori,\n\nThank you for your recent order. Unfortunately, the reading lamp you ordered is [1] out of stock. Our supplier has informed us that a new shipment will arrive at our warehouse on October 28.\n\nWe will send the lamp to you as soon as it arrives. [2] the delay, we have applied a 15 percent discount to your order. The discount will appear on your credit card statement within five business days.\n\n[3] If so, please reply to this e-mail before October 25, and we will cancel your order and refund the full amount.\n\nWe apologize for the trouble, and thank you for your [4].\n\nSincerely,\nCustomer Care Team\nBrightline Home Goods"
+   }
+  ],
+  "graphic": null,
+  "image": null,
+  "question_ids": [
+   "p6-0033",
+   "p6-0034",
+   "p6-0035",
+   "p6-0036"
+  ],
+  "translation_ja": "宛先：ケンジ・モリ／差出人：ブライトライン・ホームグッズ／日付：10月21日／件名：ご注文番号48213\nモリ様\nこのたびはご注文いただきありがとうございます。あいにく、ご注文の読書灯は現在在庫切れです。仕入れ先からは、10月28日に新しい品が当社の倉庫に届くと連絡がありました。\n入荷しだい、読書灯をお送りします。お届けが遅れるため、ご注文を15パーセント割り引きました。割引は5営業日以内にクレジットカードの明細に反映されます。\n［それまで待たないほうがよいとお考えかもしれません。］その場合は、10月25日までにこのメールにご返信ください。ご注文を取り消し、全額を返金いたします。\nご迷惑をおかけして申し訳ありません。ご理解に感謝いたします。\nブライトライン・ホームグッズ　カスタマーケアチーム",
+  "status": "draft",
+  "source": "2026-11-16 / part6 batch b"
+ },
+ {
   "id": "p7-s001",
   "part": 7,
   "kind": "single",
