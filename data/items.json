@@ -15549,7 +15549,7 @@
     "content_hash": "94322261e078"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0022",
@@ -15631,7 +15631,7 @@
     "content_hash": "aceb76eb8ec4"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0023",
@@ -15655,7 +15655,7 @@
    },
    {
     "id": "d",
-    "text": "Anyone who needs to enter the building that day will have to use the stairs."
+    "text": "Anyone who needs to move between floors during this time will have to use the stairs."
    }
   ],
   "answer": "d",
@@ -15666,7 +15666,7 @@
    "エレベーターは月曜日の朝まで使えない。",
    "地下駐車場は週末は無料だ。",
    "家賃は月末までに支払ってほしい。",
-   "当日ビルに入る必要のある人は、階段を使わなければならない。"
+   "この間に別の階へ移動する必要のある人は、階段を使わなければならない。"
   ],
   "option_notes_ja": [
    "停止は土曜の午後4時までと書かれていて、月曜の朝まで使えないという内容は本文と食い違う",
@@ -15676,7 +15676,7 @@
   ],
   "point_ja": "文挿入問題は、空欄の前後の文とのつながりを確かめる。直後の文が何を前提にしているか（ここでは「階段を使う」こと）を考える。",
   "level": "B1",
-  "status": "flagged",
+  "status": "draft",
   "source": "2026-11-16 / part6 batch b",
   "review": [
    {
@@ -15713,7 +15713,7 @@
     "content_hash": "d10493ba4ad5"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0024",
@@ -15795,7 +15795,7 @@
     "content_hash": "c211da88189b"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0025",
@@ -15872,7 +15872,7 @@
     "content_hash": "577c7bdb2952"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0026",
@@ -15901,8 +15901,8 @@
   ],
   "answer": "d",
   "shuffle": true,
-  "explanation_ja": "前の文の「3か月間レッスンが半額」に、「5月15日までの登録で体力測定が無料」という特典を付け加えているので In addition（さらに）が入る。",
-  "translation_ja": "（空欄2）さらに、5月15日までに登録した人は、無料の体力測定を受けられる。",
+  "explanation_ja": "前の文の「3か月間レッスンが半額」に、「5月15日より前の登録で体力測定が無料」という特典を付け加えているので In addition（さらに）が入る。",
+  "translation_ja": "（空欄2）さらに、5月15日より前に登録した人は、無料の体力測定を受けられる。",
   "translation_options_ja": [
    "しかし",
    "その代わりに",
@@ -15912,7 +15912,7 @@
   "option_notes_ja": [
    "「しかし」。前の特典と反対の内容ではない",
    "「その代わりに」。半額の特典を取りやめて別のものを出す話ではない",
-   "「そうでなければ」。条件の話ではない",
+   "「そうでなければ」。前の特典を受けない場合にどうなるかを述べる文ではない",
    "「さらに」。半額の特典に、2つ目の特典を付け加える"
   ],
   "point_ja": "つなぎの言葉の問題は、前後の文の関係（追加・逆接・代わり・結果）を確かめる。追加は In addition・Also・Furthermore・Moreover。",
@@ -15954,7 +15954,7 @@
     "content_hash": "36e76b672918"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0027",
@@ -15995,7 +15995,7 @@
    "「適した」。be suitable for ～ で「～に向いている」",
    "「頼っている」。dependent on ～ の形で使い、意味も合わない",
    "「正確な」。意味が合わない",
-   "「多数の」。名詞の前に置いて使うのがふつうで、意味も合わない"
+   "「数が多い」。どの体力レベルの人にも適している、という文脈に合わない"
   ],
   "point_ja": "suitable for ～（～に適した）。appropriate for ～・ideal for ～ も同じ形で、案内や広告によく出る。",
   "level": "B1",
@@ -16036,7 +16036,7 @@
     "content_hash": "77b1be85e1f0"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0028",
@@ -16118,7 +16118,7 @@
     "content_hash": "d80aac0b7d4f"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0029",
@@ -16393,7 +16393,7 @@
   "translation_options_ja": null,
   "option_notes_ja": [
    "名詞「情報」。More information is available で「詳しい情報は～で見られる」",
-   "形容詞「役に立つ」。主語になる名詞の位置には入らない",
+   "形容詞「有益な・情報の多い」。主語になる名詞の位置には入らない",
    "動詞の原形。主語の位置には入らない",
    "過去形・過去分詞。主語の位置には入らない"
   ],
@@ -16436,7 +16436,7 @@
     "content_hash": "6075ed4c5497"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0033",
@@ -16477,7 +16477,7 @@
    "「現在」。今は在庫がなく、28日に入荷する、という流れに合う",
    "「以前は」。今は在庫切れでなくなったことになり、次の文の入荷待ちと合わない",
    "「最近」。ふつう現在完了とともに使い、ここでは意味もずれる",
-   "「ついに」。在庫切れを待ち望んでいたような意味になり、合わない"
+   "「ついに・最後に」。それまでの経緯を経た結果を表すが、ここでは今の在庫の状況を知らせているだけで、そうした経緯は書かれていない"
   ],
   "point_ja": "currently（現在）は、in stock / out of stock / available / unavailable と一緒によく出る。",
   "level": "B1",
@@ -16518,7 +16518,7 @@
     "content_hash": "d3dafbe635f8"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0034",
@@ -16600,7 +16600,7 @@
     "content_hash": "6881bd09336c"
    }
   ],
-  "explain_status": "checked"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0035",
@@ -16633,7 +16633,7 @@
   "translation_ja": "（空欄3）文挿入問題",
   "translation_options_ja": [
    "注文の品は10月20日に発送した。",
-   "それまで待たないほうがよいと考えるかもしれない。",
+   "それまで待ちたくないかもしれない。",
    "その読書灯は当社の人気商品の1つだ。",
    "新しい読書灯を楽しんでほしい。"
   ],
@@ -16641,7 +16641,7 @@
    "在庫切れで入荷待ちという本文の内容と食い違う",
    "直後の If so（もしそうなら）が受ける内容。待ちたくない場合は取り消せる、とつながる",
    "人気商品だという話は、直後の If so（取り消しの条件）につながらない",
-   "まだ届いていない品について「楽しんでほしい」は合わず、直後の取り消しの話にもつながらない"
+   "直後の If so が受ける、注文を取り消す条件になっていない"
   ],
   "point_ja": "If so・If not・In that case で始まる文の前には、その条件になる内容が必要。",
   "level": "B1",
@@ -16682,7 +16682,7 @@
     "content_hash": "fa7f0400954c"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p6-0036",
@@ -16720,7 +16720,7 @@
    "形容詞「もっともな」。後ろに名詞がなく、名詞が要る位置なので入らない",
    "名詞「理解」。thank you for your understanding で「ご理解に感謝します」"
   ],
-  "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後は名詞。",
+  "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後で、後ろに名詞が続かない空欄には名詞が入る。",
   "level": "B1",
   "status": "reviewed",
   "source": "2026-11-16 / part6 batch b",
@@ -16759,7 +16759,7 @@
     "content_hash": "e58376435bfe"
    }
   ],
-  "explain_status": "flagged"
+  "explain_status": "unchecked"
  },
  {
   "id": "p7-0001",

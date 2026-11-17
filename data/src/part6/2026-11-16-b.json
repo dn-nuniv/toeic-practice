@@ -19,7 +19,7 @@
      "text": "Dear Tenants,\n\nPlease be advised that the elevators in Lakeview Plaza [1] from 8:00 A.M. to 4:00 P.M. on Saturday, April 13. During this time, technicians will replace several worn parts and test the safety systems.\n\nWe understand that this may cause some [2] for those of you who plan to work on the weekend. [3] The stairways at the north and south ends of the building will remain open throughout the day.\n\nIf you are expecting a large delivery that Saturday, please contact the management office by Thursday so that we can [4] a different time with the delivery company.\n\nWe appreciate your cooperation.\n\nMarcus Bell\nBuilding Management"
     }
    ],
-   "translation_ja": "宛先：レイクビュー・プラザのテナントの皆さま／差出人：マーカス・ベル／日付：4月8日／件名：エレベーターの点検\nテナントの皆さま\n4月13日（土）の午前8時から午後4時まで、レイクビュー・プラザのエレベーターを停止しますのでお知らせします。この間、技術者がいくつかの摩耗した部品を交換し、安全装置を点検します。\n週末に仕事をする予定の方には、ご不便をおかけするかもしれません。［当日ビルに入る必要のある方は、階段を使っていただくことになります。］ビルの北端と南端の階段は終日使えます。\nその土曜日に大きな配達を予定している方は、配送業者と別の時間を調整できるよう、木曜日までに管理事務所にご連絡ください。\nご協力に感謝いたします。\nビル管理　マーカス・ベル",
+   "translation_ja": "宛先：レイクビュー・プラザのテナントの皆さま／差出人：マーカス・ベル／日付：4月8日／件名：エレベーターの点検\nテナントの皆さま\n4月13日（土）の午前8時から午後4時まで、レイクビュー・プラザのエレベーターを停止しますのでお知らせします。この間、技術者がいくつかの摩耗した部品を交換し、安全装置を点検します。\n週末に仕事をする予定の方には、ご不便をおかけするかもしれません。［この間に別の階へ移動する必要のある方は、階段を使っていただくことになります。］ビルの北端と南端の階段は終日使えます。\nその土曜日に大きな配達を予定している方は、配送業者と別の時間を調整できるよう、木曜日までに管理事務所にご連絡ください。\nご協力に感謝いたします。\nビル管理　マーカス・ベル",
    "questions": [
     {
      "id": "p6-0021",
@@ -68,7 +68,7 @@
       "The elevators will not be available again until Monday morning.",
       "Parking in the underground garage is free on weekends.",
       "Please submit your rent payment by the end of the month.",
-      "Anyone who needs to enter the building that day will have to use the stairs."
+      "Anyone who needs to move between floors during this time will have to use the stairs."
      ],
      "answer": "d",
      "explanation_ja": "直後の The stairways ... will remain open throughout the day（階段は終日使える）につながるよう、階段を使う必要があると述べる文が入る。",
@@ -77,7 +77,7 @@
       "エレベーターは月曜日の朝まで使えない。",
       "地下駐車場は週末は無料だ。",
       "家賃は月末までに支払ってほしい。",
-      "当日ビルに入る必要のある人は、階段を使わなければならない。"
+      "この間に別の階へ移動する必要のある人は、階段を使わなければならない。"
      ],
      "option_notes_ja": [
       "停止は土曜の午後4時までと書かれていて、月曜の朝まで使えないという内容は本文と食い違う",
@@ -119,7 +119,7 @@
      "text": "Ridgeway Fitness is opening a second studio on Carver Avenue on May 1. The new studio is twice the size of our original one on Hill Street and is [1] equipped with the latest exercise machines. It also has a swimming pool and a sauna.\n\nTo celebrate the opening, we are offering new members three months of classes at half price. [2], anyone who signs up before May 15 will receive a free fitness assessment with one of our certified trainers.\n\nAll of our group classes are [3] for people of every fitness level, from complete beginners to experienced athletes. [4]\n\nVisit www.ridgewayfitness.example to see the full class schedule and to register online."
     }
    ],
-   "translation_ja": "リッジウェイ・フィットネス：5月1日に新スタジオがオープン\nリッジウェイ・フィットネスは、5月1日にカーバー通りに2つ目のスタジオを開きます。新しいスタジオはヒル通りの最初のスタジオの2倍の広さで、最新の運動器具を完備しています。プールとサウナもあります。\nオープンを記念して、新規会員の方は3か月間レッスンが半額になります。さらに、5月15日までにご登録の方は、認定トレーナーによる体力測定を無料で受けられます。\nグループレッスンはすべて、まったくの初心者から経験豊富なアスリートまで、どの体力レベルの方にも適しています。［インストラクターが、どの運動もあなたの能力に合わせて喜んで調整します。］\nレッスンの全日程の確認とオンラインでのご登録は、www.ridgewayfitness.example へ。",
+   "translation_ja": "リッジウェイ・フィットネス：5月1日に新スタジオがオープン\nリッジウェイ・フィットネスは、5月1日にカーバー通りに2つ目のスタジオを開きます。新しいスタジオはヒル通りの最初のスタジオの2倍の広さで、最新の運動器具を完備しています。プールとサウナもあります。\nオープンを記念して、新規会員の方は3か月間レッスンが半額になります。さらに、5月15日より前にご登録の方は、認定トレーナーによる体力測定を無料で受けられます。\nグループレッスンはすべて、まったくの初心者から経験豊富なアスリートまで、どの体力レベルの方にも適しています。［インストラクターが、どの運動もあなたの能力に合わせて喜んで調整します。］\nレッスンの全日程の確認とオンラインでのご登録は、www.ridgewayfitness.example へ。",
    "questions": [
     {
      "id": "p6-0025",
@@ -147,13 +147,13 @@
      "prompt": "[2]",
      "options": ["However", "Instead", "Otherwise", "In addition"],
      "answer": "d",
-     "explanation_ja": "前の文の「3か月間レッスンが半額」に、「5月15日までの登録で体力測定が無料」という特典を付け加えているので In addition（さらに）が入る。",
-     "translation_ja": "（空欄2）さらに、5月15日までに登録した人は、無料の体力測定を受けられる。",
+     "explanation_ja": "前の文の「3か月間レッスンが半額」に、「5月15日より前の登録で体力測定が無料」という特典を付け加えているので In addition（さらに）が入る。",
+     "translation_ja": "（空欄2）さらに、5月15日より前に登録した人は、無料の体力測定を受けられる。",
      "translation_options_ja": ["しかし", "その代わりに", "そうでなければ", "さらに"],
      "option_notes_ja": [
       "「しかし」。前の特典と反対の内容ではない",
       "「その代わりに」。半額の特典を取りやめて別のものを出す話ではない",
-      "「そうでなければ」。条件の話ではない",
+      "「そうでなければ」。前の特典を受けない場合にどうなるかを述べる文ではない",
       "「さらに」。半額の特典に、2つ目の特典を付け加える"
      ],
      "point_ja": "つなぎの言葉の問題は、前後の文の関係（追加・逆接・代わり・結果）を確かめる。追加は In addition・Also・Furthermore・Moreover。"
@@ -173,7 +173,7 @@
       "「適した」。be suitable for ～ で「～に向いている」",
       "「頼っている」。dependent on ～ の形で使い、意味も合わない",
       "「正確な」。意味が合わない",
-      "「多数の」。名詞の前に置いて使うのがふつうで、意味も合わない"
+      "「数が多い」。どの体力レベルの人にも適している、という文脈に合わない"
      ],
      "point_ja": "suitable for ～（～に適した）。appropriate for ～・ideal for ～ も同じ形で、案内や広告によく出る。"
     },
@@ -299,7 +299,7 @@
      "translation_ja": "（空欄4）詳しい情報は市のウェブサイトで見られる。",
      "option_notes_ja": [
       "名詞「情報」。More information is available で「詳しい情報は～で見られる」",
-      "形容詞「役に立つ」。主語になる名詞の位置には入らない",
+      "形容詞「有益な・情報の多い」。主語になる名詞の位置には入らない",
       "動詞の原形。主語の位置には入らない",
       "過去形・過去分詞。主語の位置には入らない"
      ],
@@ -323,7 +323,7 @@
      "text": "Dear Mr. Mori,\n\nThank you for your recent order. Unfortunately, the reading lamp you ordered is [1] out of stock. Our supplier has informed us that a new shipment will arrive at our warehouse on October 28.\n\nWe will send the lamp to you as soon as it arrives. [2] the delay, we have applied a 15 percent discount to your order. The discount will appear on your credit card statement within five business days.\n\n[3] If so, please reply to this e-mail before October 25, and we will cancel your order and refund the full amount.\n\nWe apologize for the trouble, and thank you for your [4].\n\nSincerely,\nCustomer Care Team\nBrightline Home Goods"
     }
    ],
-   "translation_ja": "宛先：ケンジ・モリ／差出人：ブライトライン・ホームグッズ／日付：10月21日／件名：ご注文番号48213\nモリ様\nこのたびはご注文いただきありがとうございます。あいにく、ご注文の読書灯は現在在庫切れです。仕入れ先からは、10月28日に新しい品が当社の倉庫に届くと連絡がありました。\n入荷しだい、読書灯をお送りします。お届けが遅れるため、ご注文を15パーセント割り引きました。割引は5営業日以内にクレジットカードの明細に反映されます。\n［それまで待たないほうがよいとお考えかもしれません。］その場合は、10月25日までにこのメールにご返信ください。ご注文を取り消し、全額を返金いたします。\nご迷惑をおかけして申し訳ありません。ご理解に感謝いたします。\nブライトライン・ホームグッズ　カスタマーケアチーム",
+   "translation_ja": "宛先：ケンジ・モリ／差出人：ブライトライン・ホームグッズ／日付：10月21日／件名：ご注文番号48213\nモリ様\nこのたびはご注文いただきありがとうございます。あいにく、ご注文の読書灯は現在在庫切れです。仕入れ先からは、10月28日に新しい品が当社の倉庫に届くと連絡がありました。\n入荷しだい、読書灯をお送りします。お届けが遅れるため、ご注文を15パーセント割り引きました。割引は5営業日以内にクレジットカードの明細に反映されます。\n［それまでお待ちになりたくないかもしれません。］その場合は、10月25日より前にこのメールにご返信ください。ご注文を取り消し、全額を返金いたします。\nご迷惑をおかけして申し訳ありません。ご理解に感謝いたします。\nブライトライン・ホームグッズ　カスタマーケアチーム",
    "questions": [
     {
      "id": "p6-0033",
@@ -340,7 +340,7 @@
       "「現在」。今は在庫がなく、28日に入荷する、という流れに合う",
       "「以前は」。今は在庫切れでなくなったことになり、次の文の入荷待ちと合わない",
       "「最近」。ふつう現在完了とともに使い、ここでは意味もずれる",
-      "「ついに」。在庫切れを待ち望んでいたような意味になり、合わない"
+      "「ついに・最後に」。それまでの経緯を経た結果を表すが、ここでは今の在庫の状況を知らせているだけで、そうした経緯は書かれていない"
      ],
      "point_ja": "currently（現在）は、in stock / out of stock / available / unavailable と一緒によく出る。"
     },
@@ -380,7 +380,7 @@
      "translation_ja": "（空欄3）文挿入問題",
      "translation_options_ja": [
       "注文の品は10月20日に発送した。",
-      "それまで待たないほうがよいと考えるかもしれない。",
+      "それまで待ちたくないかもしれない。",
       "その読書灯は当社の人気商品の1つだ。",
       "新しい読書灯を楽しんでほしい。"
      ],
@@ -388,7 +388,7 @@
       "在庫切れで入荷待ちという本文の内容と食い違う",
       "直後の If so（もしそうなら）が受ける内容。待ちたくない場合は取り消せる、とつながる",
       "人気商品だという話は、直後の If so（取り消しの条件）につながらない",
-      "まだ届いていない品について「楽しんでほしい」は合わず、直後の取り消しの話にもつながらない"
+      "直後の If so が受ける、注文を取り消す条件になっていない"
      ],
      "point_ja": "If so・If not・In that case で始まる文の前には、その条件になる内容が必要。"
     },
@@ -408,7 +408,7 @@
       "形容詞「もっともな」。後ろに名詞がなく、名詞が要る位置なので入らない",
       "名詞「理解」。thank you for your understanding で「ご理解に感謝します」"
      ],
-     "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後は名詞。"
+     "point_ja": "Thank you for your understanding / patience / cooperation は、おわびやお願いのメールの結びの決まり文句。所有格の後で、後ろに名詞が続かない空欄には名詞が入る。"
     }
    ]
   }
